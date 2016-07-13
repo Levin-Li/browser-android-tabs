@@ -90,6 +90,20 @@ public class PrefServiceBridge {
         return PrefServiceBridgeJni.get().isManagedPreference(preference);
     }
 
+    /**
+     * @param whether Tracking Protection should be enabled.
+     */
+    public void setTrackingProtectionEnabled(boolean enabled) {
+        PrefServiceBridgeJni.get().setTrackingProtectionEnabled(enabled);
+    }
+
+    /**
+     * @param whether AdBlock should be enabled.
+     */
+    public void setAdBlockEnabled(boolean enabled) {
+        PrefServiceBridgeJni.get().setAdBlockEnabled(enabled);
+    }
+
     @VisibleForTesting
     public static void setInstanceForTesting(@Nullable PrefServiceBridge instanceForTesting) {
         sInstance = instanceForTesting;
@@ -104,5 +118,7 @@ public class PrefServiceBridge {
         String getString(int preference);
         void setString(int preference, String value);
         boolean isManagedPreference(int preference);
+        void setTrackingProtectionEnabled(boolean enabled);
+        void setAdBlockEnabled(boolean enabled);
     }
 }
