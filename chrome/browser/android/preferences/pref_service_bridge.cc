@@ -84,3 +84,15 @@ static jboolean JNI_PrefServiceBridge_IsManagedPreference(
   return GetPrefService()->IsManagedPreference(
       PrefServiceBridge::GetPrefNameExposedToJava(j_pref_index));
 }
+
+static void JNI_PrefServiceBridge_SetAdBlockEnabled(JNIEnv* env,
+                                   const JavaParamRef<jobject>& obj,
+                                   jboolean enabled) {
+   GetPrefService()->SetBoolean(prefs::kAdBlockEnabled, enabled);
+}
+
+static void JNI_PrefServiceBridge_SetTrackingProtectionEnabled(JNIEnv* env,
+                                   const JavaParamRef<jobject>& obj,
+                                   jboolean enabled) {
+   GetPrefService()->SetBoolean(prefs::kTrackingProtectionEnabled, enabled);
+}
