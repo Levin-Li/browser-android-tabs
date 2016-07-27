@@ -85,6 +85,12 @@ static jboolean JNI_PrefServiceBridge_IsManagedPreference(
       PrefServiceBridge::GetPrefNameExposedToJava(j_pref_index));
 }
 
+static void JNI_PrefServiceBridge_SetHTTPSEEnabled(JNIEnv* env,
+                                   const JavaParamRef<jobject>& obj,
+                                   jboolean enabled) {
+   GetPrefService()->SetBoolean(prefs::kHTTPSEEnabled, enabled);
+}
+
 static void JNI_PrefServiceBridge_SetAdBlockEnabled(JNIEnv* env,
                                    const JavaParamRef<jobject>& obj,
                                    jboolean enabled) {

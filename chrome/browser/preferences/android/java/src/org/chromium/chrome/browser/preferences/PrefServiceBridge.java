@@ -104,6 +104,13 @@ public class PrefServiceBridge {
         PrefServiceBridgeJni.get().setAdBlockEnabled(enabled);
     }
 
+    /**
+     * @param whether HTTPSE should be enabled.
+     */
+    public void setHTTPSEEnabled(boolean enabled) {
+        PrefServiceBridgeJni.get().setHTTPSEEnabled(enabled);
+    }
+
     @VisibleForTesting
     public static void setInstanceForTesting(@Nullable PrefServiceBridge instanceForTesting) {
         sInstance = instanceForTesting;
@@ -120,5 +127,6 @@ public class PrefServiceBridge {
         boolean isManagedPreference(int preference);
         void setTrackingProtectionEnabled(boolean enabled);
         void setAdBlockEnabled(boolean enabled);
+        void setHTTPSEEnabled(boolean enabled);
     }
 }

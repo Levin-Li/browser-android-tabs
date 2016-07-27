@@ -40,6 +40,7 @@ public class PrivacyPreferences
     private static final String PREF_SYNC_AND_SERVICES_LINK = "sync_and_services_link";
     private static final String PREF_TRACKING_PROTECTION = "tracking_protection";
     private static final String PREF_AD_BLOCK = "ad_block";
+    private static final String PREF_HTTPSE = "httpse";
 
     private ManagedPreferenceDelegate mManagedPreferenceDelegate;
 
@@ -83,6 +84,11 @@ public class PrivacyPreferences
         adBlockPref.setOnPreferenceChangeListener(this);
         adBlockPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
+        ChromeBaseCheckBoxPreference httpsePref =
+                (ChromeBaseCheckBoxPreference) findPreference(PREF_HTTPSE);
+        httpsePref.setOnPreferenceChangeListener(this);
+        httpsePref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+
         updateSummaries();
     }
 
@@ -98,6 +104,8 @@ public class PrivacyPreferences
             PrefServiceBridge.getInstance().setTrackingProtectionEnabled((boolean) newValue);
         } else if (PREF_AD_BLOCK.equals(key)) {
             PrefServiceBridge.getInstance().setAdBlockEnabled((boolean) newValue);
+        } else if (PREF_HTTPSE.equals(key)) {
+            PrefServiceBridge.getInstance().setHTTPSEEnabled((boolean) newValue);
         }
 
         return true;
