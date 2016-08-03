@@ -140,7 +140,7 @@ public class FirstRunActivity extends FirstRunActivityBase implements FirstRunPa
 
         boolean notifyAdapter = false;
         // An optional Data Saver page.
-        if (mFreProperties.getBoolean(SHOW_DATA_REDUCTION_PAGE)) {
+        /*if (mFreProperties.getBoolean(SHOW_DATA_REDUCTION_PAGE)) {
             mPages.add(new DataReductionProxyFirstRunFragment.Page());
             mFreProgressStates.add(FRE_PROGRESS_DATA_SAVER_SHOWN);
             notifyAdapter = true;
@@ -158,7 +158,7 @@ public class FirstRunActivity extends FirstRunActivityBase implements FirstRunPa
             mPages.add(SigninFirstRunFragment::new);
             mFreProgressStates.add(FRE_PROGRESS_SIGNIN_SHOWN);
             notifyAdapter = true;
-        }
+        }*/
 
         if (notifyAdapter && mPagerAdapter != null) {
             mPagerAdapter.notifyDataSetChanged();
