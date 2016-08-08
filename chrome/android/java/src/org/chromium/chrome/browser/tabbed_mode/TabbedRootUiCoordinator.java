@@ -209,7 +209,7 @@ public class TabbedRootUiCoordinator extends RootUiCoordinator implements Native
                     && !VrModuleProvider.getIntentDelegate().isLaunchingIntoVr(
                             mActivity, mActivity.getIntent())
                     && !isLegacyMultiWindow) {
-                isShowingPromo = maybeShowPromo();
+                // isShowingPromo = maybeShowPromo();
             } else {
                 preferenceManager.writeBoolean(
                         ChromePreferenceKeys.PROMOS_SKIPPED_ON_FIRST_START, true);
