@@ -318,6 +318,8 @@ public class CustomTabActivity extends BaseCustomTabActivity<CustomTabActivityCo
 
     @Override
     public void finish() {
+        if (getBraveShieldsMenuHandler() != null) getBraveShieldsMenuHandler().hideBraveShieldsMenu();
+
         super.finish();
         if (mIntentDataProvider != null && mIntentDataProvider.shouldAnimateOnFinish()) {
             mShouldOverridePackage = true;
