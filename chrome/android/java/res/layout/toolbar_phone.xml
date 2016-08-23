@@ -50,6 +50,12 @@
             app:menuMaxWidth="@dimen/tab_switcher_menu_width"
             app:menuVerticalOverlapAnchor="false" />
 
+        <ImageButton android:id="@+id/brave_shields_button"
+            style="@style/ToolbarButton"
+            android:src="@drawable/btn_brave"
+            android:layout_gravity="top"
+            android:contentDescription="@string/accessibility_toolbar_btn_brave_shields" />
+
         <include layout="@layout/menu_button"/>
 
     </LinearLayout>

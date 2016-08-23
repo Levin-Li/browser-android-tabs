@@ -37,6 +37,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
+import android.widget.ImageButton;
+import android.graphics.ColorMatrix;
+import android.graphics.ColorMatrixColorFilter;
+
 import org.chromium.base.ActivityState;
 import org.chromium.base.ApiCompatibilityUtils;
 import org.chromium.base.ApplicationStatus;
@@ -56,9 +60,11 @@ import org.chromium.base.metrics.RecordUserAction;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.IntentHandler.IntentHandlerDelegate;
 import org.chromium.chrome.browser.IntentHandler.TabOpenType;
+import org.chromium.chrome.browser.appmenu.BraveShieldsMenuObserver;
 import org.chromium.chrome.browser.appmenu.AppMenuPropertiesDelegateImpl;
 import org.chromium.chrome.browser.autofill_assistant.AutofillAssistantFacade;
 import org.chromium.chrome.browser.bookmarks.BookmarkBridge;
+import org.chromium.chrome.browser.appmenu.BraveShieldsMenuHandler;
 import org.chromium.chrome.browser.bookmarks.BookmarkModel;
 import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.compositor.CompositorViewHolder;
@@ -275,6 +281,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     private SnackbarManager mSnackbarManager;
     private SnackbarManager mBottomSheetSnackbarManager;
 
+    private BraveShieldsMenuHandler mBraveShieldsMenuHandler;
     private BottomSheetController mBottomSheetController;
     private EphemeralTabCoordinator mEphemeralTabCoordinator;
     private UpdateNotificationController mUpdateNotificationController;
@@ -473,6 +480,30 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             if (mStarted) {
                 mCompositorViewHolder.onStart();
             }
+
+            mBraveShieldsMenuHandler = new BraveShieldsMenuHandler(this, R.menu.brave_shields_menu);
+            mBraveShieldsMenuHandler.addObserver(new BraveShieldsMenuObserver() {
+                @Override
+                public void onMenuTopShieldsChanged(boolean isOn) {
+                    if (isOn) {
+                        setBraveShieldsColored();
+                    } else {
+                        setBraveShieldsBlackAndWhite();
+                    }
+                    Tab currentTab = getActivityTab();
+                    if (currentTab == null) {
+                        return;
+                    }
+                    if (currentTab.isLoading()) {
+                        currentTab.stopLoading();
+                    } else {
+                        currentTab.reload();
+                        RecordUserAction.record("MobileToolbarReload");
+                    }
+                    if (mBraveShieldsMenuHandler != null) mBraveShieldsMenuHandler.hideBraveShieldsMenu();
+                }
+            });            
+            setBraveShieldsBlackAndWhite();
         }
     }
 
@@ -599,6 +630,18 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     @Override
     public boolean shouldStartGpuProcess() {
         return true;
+    }
+
+    protected void setBraveShieldsBlackAndWhite() {
+        ColorMatrix matrix = new ColorMatrix();
+        matrix.setSaturation(0);
+
+        ColorMatrixColorFilter filter = new ColorMatrixColorFilter(matrix);
+        ((ImageButton)findViewById(R.id.brave_shields_button)).setColorFilter(filter);
+    }
+
+    protected void setBraveShieldsColored() {
+        ((ImageButton)findViewById(R.id.brave_shields_button)).clearColorFilter();
     }
 
     /**
@@ -959,6 +1002,8 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             VrModuleProvider.getDelegate().onActivityHidden(this);
             if (tab != null) ((TabImpl) tab).hide(Tab.TabHidingType.ACTIVITY_HIDDEN);
         }
+
+        if (null != mBraveShieldsMenuHandler) mBraveShieldsMenuHandler.hideBraveShieldsMenu();
 
         if (GSAState.getInstance(this).isGsaAvailable() && !SysUtils.isLowEndDevice()) {
             GSAAccountChangeListener.getInstance().disconnect();
@@ -1952,6 +1997,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
+        if (null != mBraveShieldsMenuHandler) mBraveShieldsMenuHandler.hideBraveShieldsMenu();
         super.onConfigurationChanged(newConfig);
 
         // We only handle VR UI mode and UI mode night changes. Any other changes should follow the
@@ -2085,6 +2131,14 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
 
         tabCreator.createNewTab(new LoadUrlParams(searchUrl, PageTransition.LINK),
                 TabLaunchType.FROM_LINK, getActivityTab());
+    }
+
+    /**
+     * @return The {@link BraveShieldsMenuHandler} associated with this activity.
+     */
+    @VisibleForTesting
+    public BraveShieldsMenuHandler getBraveShieldsMenuHandler() {
+        return mBraveShieldsMenuHandler;
     }
 
     /**
