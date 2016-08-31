@@ -484,11 +484,13 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             mBraveShieldsMenuHandler = new BraveShieldsMenuHandler(this, R.menu.brave_shields_menu);
             mBraveShieldsMenuHandler.addObserver(new BraveShieldsMenuObserver() {
                 @Override
-                public void onMenuTopShieldsChanged(boolean isOn) {
-                    if (isOn) {
-                        setBraveShieldsColored();
-                    } else {
-                        setBraveShieldsBlackAndWhite();
+                public void onMenuTopShieldsChanged(boolean isOn, boolean isTopShield) {
+                    if (isTopShield) {
+                        if (isOn) {
+                            setBraveShieldsColored();
+                        } else {
+                            setBraveShieldsBlackAndWhite();
+                        }
                     }
                     Tab currentTab = getActivityTab();
                     if (currentTab == null) {
