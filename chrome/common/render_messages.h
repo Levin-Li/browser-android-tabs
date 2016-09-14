@@ -62,6 +62,11 @@ IPC_MESSAGE_ROUTED1(ChromeViewHostMsg_SetIsShowingDownloadButtonInErrorPage,
 // Misc messages
 // These are messages sent from the renderer to the browser process.
 
+// Tells the browser that script in the current page was blocked due to the
+// content settings and Brave Shields.
+IPC_MESSAGE_ROUTED1(ChromeViewHostMsg_DeniedScript,
+                   std::string /* origin_url */)
+
 // Tells the browser to open a PDF file in a new tab. Used when no PDF Viewer is
 // available, and user clicks to view PDF.
 IPC_MESSAGE_ROUTED1(ChromeViewHostMsg_OpenPDF, GURL /* url */)

@@ -284,6 +284,7 @@ class TabSpecificContentSettings
   void SetPepperBrokerAllowed(bool allowed);
 
   void OnContentBlocked(ContentSettingsType type);
+  void OnContentDeniedScript(const std::string& original_url);
   void OnContentAllowed(ContentSettingsType type);
 
   // These methods are invoked on the UI thread forwarded from the
@@ -353,6 +354,8 @@ class TabSpecificContentSettings
       content::WebContents* web_contents);
 
   // content::WebContentsObserver overrides.
+  bool OnMessageReceived(const IPC::Message& message,
+                         content::RenderFrameHost* render_frame_host) override;
   void RenderFrameForInterstitialPageCreated(
       content::RenderFrameHost* render_frame_host) override;
   void DidStartNavigation(

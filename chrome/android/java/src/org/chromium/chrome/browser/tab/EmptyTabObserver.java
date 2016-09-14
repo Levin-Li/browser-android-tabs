@@ -154,5 +154,6 @@ public class EmptyTabObserver implements TabObserver {
             Tab tab, int topControlsOffsetY, int bottomControlsOffsetY, int contentOffsetY) {}
 
     @Override
-    public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades) {}
+    public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades,
+            int scriptsBlocked) {}
 }
