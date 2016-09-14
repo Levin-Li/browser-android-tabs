@@ -213,6 +213,7 @@ public class TabImpl implements Tab {
 
     private int mAdsAndTrackers;
     private int mHttpsUpgrades;
+    private int mScriptsBlocked;
 
     private TabDelegateFactory mDelegateFactory;
 
@@ -281,6 +282,7 @@ public class TabImpl implements Tab {
 
         mAdsAndTrackers = 0;
         mHttpsUpgrades = 0;
+        mScriptsBlocked = 0;
     }
 
     @Override
@@ -1114,9 +1116,11 @@ public class TabImpl implements Tab {
         return mIsRendererUnresponsive;
     }
 
-    public void braveShieldsCountUpdate(int adsAndTrackers, int httpsUpgrades) {
+    public void braveShieldsCountUpdate(int adsAndTrackers, int httpsUpgrades
+            , int scriptsBlocked) {
         mAdsAndTrackers += adsAndTrackers;
         mHttpsUpgrades += httpsUpgrades;
+        mScriptsBlocked += scriptsBlocked;
     }
 
     public int getAdsAndTrackers() {
@@ -1127,9 +1131,14 @@ public class TabImpl implements Tab {
         return mHttpsUpgrades;
     }
 
+    public int getScriptsBlocked() {
+        return mScriptsBlocked;
+    }
+
     public void clearBraveShieldsCount() {
         mAdsAndTrackers = 0;
         mHttpsUpgrades = 0;
+        mScriptsBlocked = 0;
     }
 
     /**

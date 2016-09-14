@@ -25,6 +25,7 @@
 #include "chrome/browser/media/webrtc/media_capture_devices_dispatcher.h"
 #include "chrome/browser/media/webrtc/media_stream_capture_indicator.h"
 #include "chrome/browser/profiles/profile.h"
+#include "chrome/browser/net/blockers/shields_config.h"
 #include "chrome/common/chrome_switches.h"
 #include "chrome/common/content_settings_agent.mojom.h"
 #include "chrome/common/pref_names.h"
@@ -299,6 +300,15 @@ void TabSpecificContentSettings::OnContentBlocked(ContentSettingsType type) {
           content_settings::POPUPS_ACTION_DISPLAYED_BLOCKED_ICON_IN_OMNIBOX);
     }
   }
+}
+
+void TabSpecificContentSettings::OnContentDeniedScript(const std::string& original_url) {
+    net::blockers::ShieldsConfig* shieldsConfig =
+      net::blockers::ShieldsConfig::getShieldsConfig();
+    if (nullptr != shieldsConfig) {
+      shieldsConfig->setBlockedCountInfo(original_url, 0, 0, 1);
+    }
+    return;
 }
 
 void TabSpecificContentSettings::OnContentAllowed(ContentSettingsType type) {
@@ -746,6 +756,18 @@ void TabSpecificContentSettings::RenderFrameForInterstitialPageCreated(
   render_frame_host->GetRemoteAssociatedInterfaces()->GetInterface(
       &content_settings_agent);
   content_settings_agent->SetAsInterstitial();
+}
+
+bool TabSpecificContentSettings::OnMessageReceived(
+    const IPC::Message& message,
+    content::RenderFrameHost* render_frame_host) {
+  bool handled = true;
+  IPC_BEGIN_MESSAGE_MAP(TabSpecificContentSettings, message)
+    IPC_MESSAGE_HANDLER(ChromeViewHostMsg_DeniedScript,
+                        OnContentDeniedScript)
+    IPC_MESSAGE_UNHANDLED(handled = false)
+  IPC_END_MESSAGE_MAP()
+  return handled;
 }
 
 void TabSpecificContentSettings::DidStartNavigation(
