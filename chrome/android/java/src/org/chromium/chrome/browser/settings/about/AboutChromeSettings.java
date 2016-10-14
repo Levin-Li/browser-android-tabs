@@ -65,17 +65,25 @@ public class AboutChromeSettings
      * versions are more useful.
      */
     public static String getApplicationVersion(Context context, String version) {
-        if (ChromeVersionInfo.isOfficialBuild()) {
-            return version;
-        }
-
-        // For developer builds, show how recently the app was installed/updated.
         PackageInfo info;
         try {
             info = context.getPackageManager().getPackageInfo(context.getPackageName(), 0);
         } catch (NameNotFoundException e) {
             return version;
         }
+
+        if (ChromeVersionInfo.isOfficialBuild()) {
+            String versionName = info.versionName;
+            String[] versionSplitted = version.split(" ");
+            if (versionSplitted.length <= 1) {
+                return version;
+            }
+
+            return context.getString(R.string.brave_version_number, versionName,
+                    versionSplitted[1]);
+        }
+
+        // For developer builds, show how recently the app was installed/updated.
         CharSequence updateTimeString = DateUtils.getRelativeTimeSpanString(
                 info.lastUpdateTime, System.currentTimeMillis(), 0);
         return context.getString(R.string.version_with_update_time, version, updateTimeString);
