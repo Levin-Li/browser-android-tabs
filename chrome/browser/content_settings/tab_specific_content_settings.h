@@ -284,8 +284,10 @@ class TabSpecificContentSettings
   void SetPepperBrokerAllowed(bool allowed);
 
   void OnContentBlocked(ContentSettingsType type);
-  void OnContentDeniedScript(const std::string& original_url);
   void OnContentAllowed(ContentSettingsType type);
+
+  void OnContentDeniedScript(const std::string& original_url);
+  void OnContentDeniedFingerprinting(const std::string& original_url);
 
   // These methods are invoked on the UI thread forwarded from the
   // ContentSettingsManagerImpl.

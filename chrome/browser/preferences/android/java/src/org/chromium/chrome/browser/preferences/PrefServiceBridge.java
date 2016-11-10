@@ -111,6 +111,13 @@ public class PrefServiceBridge {
         PrefServiceBridgeJni.get().setHTTPSEEnabled(enabled);
     }
 
+    /**
+     * @param whether Fingerprinting Protection should be enabled.
+     */
+    public void setFingerprintingProtectionEnabled(boolean enabled) {
+        PrefServiceBridgeJni.get().setFingerprintingProtectionEnabled(enabled);
+    }
+
     @VisibleForTesting
     public static void setInstanceForTesting(@Nullable PrefServiceBridge instanceForTesting) {
         sInstance = instanceForTesting;
@@ -128,5 +135,6 @@ public class PrefServiceBridge {
         void setTrackingProtectionEnabled(boolean enabled);
         void setAdBlockEnabled(boolean enabled);
         void setHTTPSEEnabled(boolean enabled);
+        void setFingerprintingProtectionEnabled(boolean enabled);
     }
 }
