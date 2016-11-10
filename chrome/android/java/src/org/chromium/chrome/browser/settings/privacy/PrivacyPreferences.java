@@ -35,12 +35,13 @@ public class PrivacyPreferences
         extends PreferenceFragmentCompat implements Preference.OnPreferenceChangeListener {
     private static final String PREF_CAN_MAKE_PAYMENT = "can_make_payment";
     private static final String PREF_NETWORK_PREDICTIONS = "preload_pages";
-    private static final String PREF_USAGE_STATS = "usage_stats_reporting";
+    private static final String PREF_USAGE_STATS = "usage_stats_reporting";    
     private static final String PREF_DO_NOT_TRACK = "do_not_track";
     private static final String PREF_SYNC_AND_SERVICES_LINK = "sync_and_services_link";
     private static final String PREF_TRACKING_PROTECTION = "tracking_protection";
     private static final String PREF_AD_BLOCK = "ad_block";
     private static final String PREF_HTTPSE = "httpse";
+    private static final String PREF_FINGERPRINTING_PROTECTION = "fingerprinting_protection";
 
     private ManagedPreferenceDelegate mManagedPreferenceDelegate;
 
@@ -89,6 +90,11 @@ public class PrivacyPreferences
         httpsePref.setOnPreferenceChangeListener(this);
         httpsePref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
+        ChromeBaseCheckBoxPreference fingerprintingProtectionPref =
+                (ChromeBaseCheckBoxPreference) findPreference(PREF_FINGERPRINTING_PROTECTION);
+        fingerprintingProtectionPref.setOnPreferenceChangeListener(this);
+        fingerprintingProtectionPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+
         updateSummaries();
     }
 
@@ -106,6 +112,8 @@ public class PrivacyPreferences
             PrefServiceBridge.getInstance().setAdBlockEnabled((boolean) newValue);
         } else if (PREF_HTTPSE.equals(key)) {
             PrefServiceBridge.getInstance().setHTTPSEEnabled((boolean) newValue);
+        } else if (PREF_FINGERPRINTING_PROTECTION.equals(key)) {
+            PrefServiceBridge.getInstance().setFingerprintingProtectionEnabled((boolean) newValue);
         }
 
         return true;

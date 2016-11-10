@@ -209,6 +209,8 @@ class LocalFrameClientImpl final : public LocalFrameClient {
       const blink::WebVector<WebContentSecurityPolicy>&) override;
   void DidChangeFrameOwnerProperties(HTMLFrameOwnerElement*) override;
   void DeniedScript() override;
+  bool AllowFingerprinting() override;
+  void DeniedFingerprinting() override;
 
   bool ShouldBlockWebGL() override;
 
