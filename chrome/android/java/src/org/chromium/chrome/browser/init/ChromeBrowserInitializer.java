@@ -76,6 +76,7 @@ public class ChromeBrowserInitializer {
     private boolean mNetworkChangeNotifierInitializationComplete;
 
     private boolean mAdBlockInitCalled = false;
+    private boolean mUpdateStatsCalled = false;
 
     /**
      * A callback to be executed when there is a new version available in Play Store.
@@ -124,6 +125,28 @@ public class ChromeBrowserInitializer {
       new DownloadHTTPSDataAsyncTask().execute();
       PrefServiceBridge.getInstance().setBlockThirdPartyCookiesEnabled(true);
       Log.i(TAG, "Started AdBlock async tasks");
+    }
+
+    private void UpdateStats() {
+      if (mUpdateStatsCalled) {
+          return;
+      }
+      mUpdateStatsCalled = true;
+      new UpdateStatsAsyncTask().execute();
+    }
+
+    // Stats update
+    class UpdateStatsAsyncTask extends AsyncTask<Void,Void,Long> {
+        protected Long doInBackground(Void... params) {
+            try {
+                StatsUpdater.UpdateStats(mContext);
+            }
+            catch(Exception exc) {
+                // Just ignore it if we cannot update
+            }
+
+            return null;
+        }
     }
 
     // Tracking ptotection data download
@@ -352,6 +375,7 @@ public class ChromeBrowserInitializer {
                     () -> {
                         ProcessInitializationHandler.getInstance().initializePostNative();
                         InitAdBlock();
+                        UpdateStats();
                     });
         }
 
