@@ -392,6 +392,9 @@ class CORE_EXPORT HTMLCanvasElement final
   mutable intptr_t externally_allocated_memory_;
 
   scoped_refptr<Image> transparent_image_ = nullptr;
+
+  // It prevents from twice fingerprints block calculation
+  mutable bool wasBlockedByFingerprinting_;
 };
 
 }  // namespace blink
