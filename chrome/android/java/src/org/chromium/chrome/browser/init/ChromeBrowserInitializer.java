@@ -253,6 +253,8 @@ public class ChromeBrowserInitializer {
         };
         handlePreNativeStartup(parts);
         handlePostNativeStartup(false, parts);
+        InitAdBlock();
+        UpdateStats();
     }
 
     /**
@@ -372,11 +374,7 @@ public class ChromeBrowserInitializer {
         if (!delegate.startServiceManagerOnly()
                 && !ProcessInitializationHandler.getInstance().postNativeInitializationComplete()) {
             tasks.add(UiThreadTaskTraits.BOOTSTRAP,
-                    () -> {
-                        ProcessInitializationHandler.getInstance().initializePostNative();
-                        InitAdBlock();
-                        UpdateStats();
-                    });
+                    () -> ProcessInitializationHandler.getInstance().initializePostNative());
         }
 
         if (!mNetworkChangeNotifierInitializationComplete) {
