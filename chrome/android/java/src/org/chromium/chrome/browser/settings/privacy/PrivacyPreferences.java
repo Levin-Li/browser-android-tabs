@@ -42,6 +42,7 @@ public class PrivacyPreferences
     private static final String PREF_AD_BLOCK = "ad_block";
     private static final String PREF_HTTPSE = "httpse";
     private static final String PREF_FINGERPRINTING_PROTECTION = "fingerprinting_protection";
+    private static final String PREF_AD_BLOCK_REGIONAL = "ad_block_regional";
 
     private ManagedPreferenceDelegate mManagedPreferenceDelegate;
 
@@ -95,6 +96,11 @@ public class PrivacyPreferences
         fingerprintingProtectionPref.setOnPreferenceChangeListener(this);
         fingerprintingProtectionPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
+        ChromeBaseCheckBoxPreference adBlockRegionalPref =
+                (ChromeBaseCheckBoxPreference) findPreference(PREF_AD_BLOCK_REGIONAL);
+        adBlockRegionalPref.setOnPreferenceChangeListener(this);
+        adBlockRegionalPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+
         updateSummaries();
     }
 
@@ -114,6 +120,8 @@ public class PrivacyPreferences
             PrefServiceBridge.getInstance().setHTTPSEEnabled((boolean) newValue);
         } else if (PREF_FINGERPRINTING_PROTECTION.equals(key)) {
             PrefServiceBridge.getInstance().setFingerprintingProtectionEnabled((boolean) newValue);
+        } else if (PREF_AD_BLOCK_REGIONAL.equals(key)) {
+            PrefServiceBridge.getInstance().setAdBlockRegionalEnabled((boolean) newValue);
         }
 
         return true;

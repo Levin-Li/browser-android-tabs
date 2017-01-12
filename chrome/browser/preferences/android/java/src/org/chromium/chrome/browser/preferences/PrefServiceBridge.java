@@ -118,6 +118,13 @@ public class PrefServiceBridge {
         PrefServiceBridgeJni.get().setFingerprintingProtectionEnabled(enabled);
     }
 
+    /**
+     * @param whether AdBlock should be enabled.
+     */
+    public void setAdBlockRegionalEnabled(boolean enabled) {
+        PrefServiceBridgeJni.get().setAdBlockRegionalEnabled(enabled);
+    }
+
     @VisibleForTesting
     public static void setInstanceForTesting(@Nullable PrefServiceBridge instanceForTesting) {
         sInstance = instanceForTesting;
@@ -136,5 +143,6 @@ public class PrefServiceBridge {
         void setAdBlockEnabled(boolean enabled);
         void setHTTPSEEnabled(boolean enabled);
         void setFingerprintingProtectionEnabled(boolean enabled);
+        void setAdBlockRegionalEnabled(boolean enabled);
     }
 }
