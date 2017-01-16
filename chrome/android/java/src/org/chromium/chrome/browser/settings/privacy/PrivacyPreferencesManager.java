@@ -74,6 +74,7 @@ public class PrivacyPreferencesManager implements CrashReportingPermissionManage
     private static final String PREF_BANDWIDTH_NO_CELLULAR_OLD = "prefetch_bandwidth_no_cellular";
     private static final String ALLOW_PRERENDER_OLD = "allow_prefetch";
     private static final String PREF_AD_BLOCK_REGIONAL = "ad_block_regional";
+    private static final String PREF_AD_BLOCK_REGIONAL_DISABLE = "ad_block_regional_disable";
 
     @SuppressLint("StaticFieldLeak")
     private static PrivacyPreferencesManager sInstance;
@@ -255,6 +256,7 @@ public class PrivacyPreferencesManager implements CrashReportingPermissionManage
      */
     public void setRegionalAdBlock(boolean enabled) {
         mSharedPreferences.edit().putBoolean(PREF_AD_BLOCK_REGIONAL, enabled).apply();
+        mSharedPreferences.edit().putBoolean(PREF_AD_BLOCK_REGIONAL_DISABLE, enabled).apply();
     }
 
     /**
@@ -263,7 +265,7 @@ public class PrivacyPreferencesManager implements CrashReportingPermissionManage
      * @return boolean whether regional Ad Block set to ON.
      */
     public boolean isRegionalAdBlockEnabled() {
-        return mSharedPreferences.getBoolean(PREF_AD_BLOCK_REGIONAL, false);
+        return mSharedPreferences.getBoolean(PREF_AD_BLOCK_REGIONAL_DISABLE, true);
     }
 
     /**
