@@ -73,6 +73,7 @@ public class PrivacyPreferencesManager implements CrashReportingPermissionManage
     private static final String PREF_BANDWIDTH_OLD = "prefetch_bandwidth";
     private static final String PREF_BANDWIDTH_NO_CELLULAR_OLD = "prefetch_bandwidth_no_cellular";
     private static final String ALLOW_PRERENDER_OLD = "allow_prefetch";
+    private static final String PREF_AD_BLOCK_REGIONAL = "ad_block_regional";
 
     @SuppressLint("StaticFieldLeak")
     private static PrivacyPreferencesManager sInstance;
@@ -236,6 +237,33 @@ public class PrivacyPreferencesManager implements CrashReportingPermissionManage
         if (!DeviceClassManager.enablePrerendering()) return false;
         migrateNetworkPredictionPreferences();
         return canPrefetchAndPrerender();
+    }
+
+    /**
+     * Check whether usage and crash reporting set to ON.
+     *
+     * @return boolean whether usage and crash reporting set to ON.
+     */
+    public boolean isUsageAndCrashReportingEnabled() {
+        return mSharedPreferences.getBoolean(PREF_METRICS_REPORTING, false);
+    }
+
+    /**
+     * Sets the regional Ad Block preference ON or OFF.
+     *
+     * @param enabled A boolean corresponding whether regional Ad Block is allowed.
+     */
+    public void setRegionalAdBlock(boolean enabled) {
+        mSharedPreferences.edit().putBoolean(PREF_AD_BLOCK_REGIONAL, enabled).apply();
+    }
+
+    /**
+     * Check whether regional Ad Block set to ON.
+     *
+     * @return boolean whether regional Ad Block set to ON.
+     */
+    public boolean isRegionalAdBlockEnabled() {
+        return mSharedPreferences.getBoolean(PREF_AD_BLOCK_REGIONAL, false);
     }
 
     /**
