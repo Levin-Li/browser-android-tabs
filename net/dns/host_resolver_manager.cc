@@ -2833,14 +2833,14 @@ HostResolverManager::CreateMdnsListener(const HostPortPair& host,
 void HostResolverManager::SetInsecureDnsClientEnabled(bool enabled) {
   DCHECK_CALLED_ON_VALID_THREAD(thread_checker_);
 
-  if (!dns_client_)
-    return;
+  // if (!dns_client_)
+  //   return;
 
-  bool enabled_before = dns_client_->CanUseInsecureDnsTransactions();
-  dns_client_->SetInsecureEnabled(enabled);
+  // bool enabled_before = dns_client_->CanUseInsecureDnsTransactions();
+  // dns_client_->SetInsecureEnabled(enabled);
 
-  if (dns_client_->CanUseInsecureDnsTransactions() != enabled_before)
-    AbortInsecureDnsTasks(ERR_NETWORK_CHANGED, false /* fallback_only */);
+  // if (dns_client_->CanUseInsecureDnsTransactions() != enabled_before)
+  //   AbortInsecureDnsTasks(ERR_NETWORK_CHANGED, false /* fallback_only */);
 }
 
 std::unique_ptr<base::Value> HostResolverManager::GetDnsConfigAsValue() const {
