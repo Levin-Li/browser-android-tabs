@@ -16,6 +16,7 @@ import android.content.res.Configuration;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.CancellationSignal;
@@ -114,6 +115,7 @@ import org.chromium.chrome.browser.lifecycle.Destroyable;
 import org.chromium.chrome.browser.locale.LocaleManager;
 import org.chromium.chrome.browser.media.PictureInPictureController;
 import org.chromium.chrome.browser.metrics.ActivityTabStartupMetricsTracker;
+import org.chromium.chrome.browser.init.StatsUpdater;
 import org.chromium.chrome.browser.metrics.LaunchMetrics;
 import org.chromium.chrome.browser.metrics.UmaSessionStats;
 import org.chromium.chrome.browser.modaldialog.AppModalPresenter;
@@ -217,6 +219,31 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
                    ContextualSearchTabPromotionDelegate, SnackbarManageable, SceneChangeObserver,
                    StatusBarColorController.StatusBarColorProvider, AppMenuDelegate, AppMenuBlocker,
                    MenuOrKeyboardActionController {
+
+    // Stats update
+    class UpdateStatsAsyncTask extends AsyncTask<Void,Void,Long> {
+
+        private Context mContext = null;
+
+        public UpdateStatsAsyncTask(Context context) {
+            mContext = context;
+        }
+
+        protected Long doInBackground(Void... params) {
+            if (null == mContext) {
+                return null;
+            }
+            try {
+                StatsUpdater.UpdateStats(mContext);
+            }
+            catch(Exception exc) {
+                // Just ignore it if we cannot update
+            }
+
+            return null;
+        }
+    }
+
     /**
      * No control container to inflate during initialization.
      */
@@ -1020,6 +1047,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     @Override
     public void onResumeWithNative() {
         super.onResumeWithNative();
+        new UpdateStatsAsyncTask(this).execute();
         markSessionResume();
         RecordUserAction.record("MobileComeToForeground");
 
