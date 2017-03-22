@@ -73,7 +73,7 @@ public class SiteSettingsPreferences
             websitePrefs.add(Type.ADS);
         }
         websitePrefs.add(Type.AUTOMATIC_DOWNLOADS);
-        websitePrefs.add(Type.BACKGROUND_SYNC);
+        // websitePrefs.add(Type.BACKGROUND_SYNC);
         CommandLine commandLine = CommandLine.getInstance();
         if (commandLine.hasSwitch(ContentSwitches.ENABLE_EXPERIMENTAL_WEB_PLATFORM_FEATURES)) {
             websitePrefs.add(Type.BLUETOOTH_SCANNING);
