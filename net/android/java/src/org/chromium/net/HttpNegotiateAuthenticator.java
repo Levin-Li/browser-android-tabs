@@ -98,7 +98,7 @@ public class HttpNegotiateAuthenticator {
 
         @Override
         public void run(AccountManagerFuture<Account[]> future) {
-            Account[] accounts;
+            /*Account[] accounts;
             try {
                 accounts = future.getResult();
             } catch (OperationCanceledException | AuthenticatorException | IOException e) {
@@ -143,9 +143,9 @@ public class HttpNegotiateAuthenticator {
             }
             mRequestData.account = accounts[0];
             mRequestData.accountManager.getAuthToken(mRequestData.account,
-                    mRequestData.authTokenType, mRequestData.options, true /* notifyAuthFailure */,
+                    mRequestData.authTokenType, mRequestData.options, true,
                     new GetTokenCallback(mRequestData),
-                    new Handler(ThreadUtils.getUiThreadLooper()));
+                    new Handler(ThreadUtils.getUiThreadLooper()));*/
         }
     }
 
@@ -158,7 +158,7 @@ public class HttpNegotiateAuthenticator {
 
         @Override
         public void run(AccountManagerFuture<Bundle> future) {
-            Bundle result;
+            /*Bundle result;
             try {
                 result = future.getResult();
             } catch (OperationCanceledException | AuthenticatorException | IOException e) {
@@ -184,7 +184,7 @@ public class HttpNegotiateAuthenticator {
                         appContext.unregisterReceiver(this);
                         mRequestData.accountManager.getAuthToken(mRequestData.account,
                                 mRequestData.authTokenType, mRequestData.options,
-                                true /* notifyAuthFailure */, new GetTokenCallback(mRequestData),
+                                true , new GetTokenCallback(mRequestData),
                                 null);
                     }
 
@@ -193,7 +193,7 @@ public class HttpNegotiateAuthenticator {
                         new IntentFilter(AccountManager.LOGIN_ACCOUNTS_CHANGED_ACTION));
             } else {
                 processResult(result, mRequestData);
-            }
+            }*/
         }
     }
 
@@ -309,7 +309,7 @@ public class HttpNegotiateAuthenticator {
      */
     private void requestTokenWithoutActivity(
             Context ctx, RequestData requestData, String[] features) {
-        if (lacksPermission(ctx, Manifest.permission.GET_ACCOUNTS, true /* onlyPreM */)) {
+        /*if (lacksPermission(ctx, Manifest.permission.GET_ACCOUNTS, true )) {
             // Protecting the AccountManager#getAccountsByTypeAndFeatures call.
             // API  < 23 Requires the GET_ACCOUNTS permission or throws an exception.
             // API >= 23 Requires the GET_ACCOUNTS permission (CONTACTS permission group) or
@@ -325,7 +325,7 @@ public class HttpNegotiateAuthenticator {
             return;
         }
         requestData.accountManager.getAccountsByTypeAndFeatures(mAccountType, features,
-                new GetAccountsCallback(requestData), new Handler(ThreadUtils.getUiThreadLooper()));
+                new GetAccountsCallback(requestData), new Handler(ThreadUtils.getUiThreadLooper()));*/
     }
 
     /**
@@ -356,7 +356,7 @@ public class HttpNegotiateAuthenticator {
         //           on the authenticator implementation, it might prompt to create an account, but
         //           that won't be saved. This would be a bad user experience, so we also consider
         //           it a failure case.
-        if (lacksPermission(ctx, permission, isPreM)) {
+        /*if (lacksPermission(ctx, permission, isPreM)) {
             Log.e(TAG, "ERR_MISCONFIGURED_AUTH_ENVIRONMENT: %s permission not granted. "
                        + "Aborting authentication", permission);
             HttpNegotiateAuthenticatorJni.get().setResult(requestData.nativeResultObject,
@@ -367,7 +367,7 @@ public class HttpNegotiateAuthenticator {
 
         requestData.accountManager.getAuthTokenByFeatures(mAccountType, requestData.authTokenType,
                 features, activity, null, requestData.options, new GetTokenCallback(requestData),
-                new Handler(ThreadUtils.getUiThreadLooper()));
+                new Handler(ThreadUtils.getUiThreadLooper()));*/
     }
 
     /**
