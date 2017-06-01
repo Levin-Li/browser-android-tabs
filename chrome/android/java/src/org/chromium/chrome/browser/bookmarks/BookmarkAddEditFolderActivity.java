@@ -16,7 +16,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import org.chromium.base.metrics.RecordUserAction;
+import org.chromium.base.ContextUtils;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.ChromeApplication;
 import org.chromium.chrome.browser.SynchronousInitializationActivity;
 import org.chromium.chrome.browser.bookmarks.BookmarkBridge.BookmarkItem;
 import org.chromium.chrome.browser.bookmarks.BookmarkBridge.BookmarkModelObserver;
@@ -212,6 +214,10 @@ public class BookmarkAddEditFolderActivity extends SynchronousInitializationActi
             }
 
             BookmarkId newFolder = mModel.addFolder(mParentId, 0, mFolderTitle.getTrimmedText());
+            ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+            if (null != app && null != app.mBraveSyncWorker && null != newFolder && null != mModel) {
+                app.mBraveSyncWorker.CreateUpdateBookmark(mIsAddMode, mModel.getBookmarkById(newFolder));
+            }
             Intent intent = new Intent();
             intent.putExtra(INTENT_CREATED_BOOKMARK, newFolder.toString());
             setResult(RESULT_OK, intent);
@@ -233,6 +239,10 @@ public class BookmarkAddEditFolderActivity extends SynchronousInitializationActi
     protected void onStop() {
         if (!mIsAddMode && mModel.doesBookmarkExist(mFolderId) && !mFolderTitle.isEmpty()) {
             mModel.setBookmarkTitle(mFolderId, mFolderTitle.getTrimmedText());
+            ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+            if (null != app && null != app.mBraveSyncWorker) {
+                app.mBraveSyncWorker.CreateUpdateBookmark(false, mModel.getBookmarkById(mFolderId));
+            }
         }
 
         super.onStop();
