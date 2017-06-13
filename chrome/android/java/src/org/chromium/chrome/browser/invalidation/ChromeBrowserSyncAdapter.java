@@ -29,10 +29,14 @@ public class ChromeBrowserSyncAdapter extends AbstractThreadedSyncAdapter {
         // signed-in account.
         if (extras.getBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE)) {
             Account signedInAccount = ChromeSigninController.get().getSignedInUser();
-            if (account.equals(signedInAccount)) {
-                ContentResolver.setIsSyncable(account, authority, 1);
-            } else {
-                ContentResolver.setIsSyncable(account, authority, 0);
+            try {
+                if (account.equals(signedInAccount)) {
+                    ContentResolver.setIsSyncable(account, authority, 1);
+                } else {
+                    ContentResolver.setIsSyncable(account, authority, 0);
+                }
+            } catch (SecurityException exc) {
+              // Just ignore it
             }
             return;
         }
