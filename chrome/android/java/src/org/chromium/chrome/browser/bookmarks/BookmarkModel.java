@@ -6,6 +6,7 @@ package org.chromium.chrome.browser.bookmarks;
 
 import androidx.annotation.VisibleForTesting;
 
+import org.chromium.base.Log;
 import org.chromium.base.ObserverList;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.BraveSyncWorker;
