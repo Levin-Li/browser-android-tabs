@@ -45,8 +45,16 @@ public class WebContentsFactory {
      */
     public WebContents createWebContentsWithWarmRenderer(
             boolean incognito, boolean initiallyHidden) {
-        return WebContentsFactoryJni.get().createWebContents(
+        WebContents webContents = null;
+
+        try {
+            webContents = WebContentsFactoryJni.get().createWebContents((
                 Profile.getLastUsedProfile(), incognito, initiallyHidden, true);
+        } catch (UnsatisfiedLinkError err) {
+            // Just return a null object in that case
+        }
+
+        return webContents;
     }
 
     @NativeMethods
