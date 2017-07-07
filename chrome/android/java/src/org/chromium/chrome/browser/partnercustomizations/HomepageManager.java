@@ -82,8 +82,7 @@ public class HomepageManager {
      * @return Whether or not homepage is enabled.
      */
     public static boolean isHomepageEnabled() {
-        // return getInstance().getPrefHomepageEnabled();
-        return false;
+        return getInstance().getPrefHomepageEnabled();
     }
 
     /**
