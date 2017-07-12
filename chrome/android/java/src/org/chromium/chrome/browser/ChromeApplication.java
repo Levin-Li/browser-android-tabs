@@ -53,6 +53,8 @@ import org.chromium.components.embedder_support.application.FontPreloadingWorkar
 import org.chromium.components.module_installer.util.ModuleUtil;
 import org.chromium.ui.base.ResourceBundle;
 
+import com.mixpanel.android.mpmetrics.MixpanelAPI;
+
 /**
  * Basic application functionality that should be shared among all browser applications that use
  * chrome layer.
@@ -67,6 +69,8 @@ public class ChromeApplication extends Application {
     public BraveSyncWorker mBraveSyncWorker = null;
     // Stats updater
     public StatsUpdaterWorker mStatsUpdaterWorker = null;
+    // Mixpanel global object
+    public MixpanelAPI mMixpanelInstance = null;
 
     /** Lock on creation of sComponent. */
     private static final Object sLock = new Object();
