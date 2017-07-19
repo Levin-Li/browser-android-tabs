@@ -138,7 +138,7 @@ void VersionUI::AddVersionDetailStrings(content::WebUIDataSource* html_source) {
           l10n_util::GetStringUTF16(IDS_ABOUT_VERSION_COPYRIGHT),
           base::Time::Now()));
   html_source->AddString(version_ui::kCL, version_info::GetLastChange());
-  html_source->AddString(version_ui::kUserAgent, GetUserAgent());
+  html_source->AddString(version_ui::kUserAgent, GetUserAgent(""));
   // Note that the executable path and profile path are retrieved asynchronously
   // and returned in VersionHandler::OnGotFilePaths. The area is initially
   // blank.
