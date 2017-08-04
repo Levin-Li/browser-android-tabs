@@ -307,7 +307,7 @@ void TabSpecificContentSettings::OnContentDeniedScript(const std::string& origin
       net::blockers::ShieldsConfig::getShieldsConfig();
     if (nullptr != shieldsConfig) {
       // Send info that 1 script was blocked
-      shieldsConfig->setBlockedCountInfo(original_url, 0, 0, 1, 0);
+      shieldsConfig->setBlockedCountInfo(original_url,0, 0, 0, 1, 0);
     }
     return;
 }
@@ -317,7 +317,7 @@ void TabSpecificContentSettings::OnContentDeniedFingerprinting(const std::string
       net::blockers::ShieldsConfig::getShieldsConfig();
     if (nullptr != shieldsConfig) {
       // Send info that 1 fingerprinting was blocked
-      shieldsConfig->setBlockedCountInfo(original_url, 0, 0, 0, 1);
+      shieldsConfig->setBlockedCountInfo(original_url, 0, 0, 0, 0, 1);
     }
     return;
 }
