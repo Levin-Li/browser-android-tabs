@@ -468,7 +468,7 @@ public class NewTabPage implements NativePage, InvalidationAwareThumbnailProvide
     }
 
     private void updateSearchProviderHasLogo() {
-        mSearchProviderHasLogo = TemplateUrlServiceFactory.doesDefaultSearchEngineHaveLogo();
+        mSearchProviderHasLogo = false;//TemplateUrlServiceFactory.doesDefaultSearchEngineHaveLogo();
     }
 
     private void onSearchEngineUpdated() {
