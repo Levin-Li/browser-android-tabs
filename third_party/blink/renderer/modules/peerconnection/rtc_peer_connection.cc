@@ -744,15 +744,29 @@ RTCPeerConnection::RTCPeerConnection(
     return;
   }
 
-  // Tests might need a custom RtcPeerConnectionHandler implementation.
-  if (!g_create_rpc_peer_connection_handler_callback_.Get().is_null()) {
-    peer_handler_ =
-        std::move(g_create_rpc_peer_connection_handler_callback_.Get()).Run();
+  LocalFrame* frame = document->GetFrame();
+  bool webRTCAllowed = true;
+  if (frame) {
+      webRTCAllowed = frame->Loader().Client()->AllowFingerprinting();
+      if (!webRTCAllowed) {
+          frame->Loader().Client()->DeniedFingerprinting();
+      }
+  }
+
+  if (webRTCAllowed) {
+    // Tests might need a custom RtcPeerConnectionHandler implementation.
+    if (!g_create_rpc_peer_connection_handler_callback_.Get().is_null()) {
+      peer_handler_ =
+          std::move(g_create_rpc_peer_connection_handler_callback_.Get()).Run();
+    } else {
+      peer_handler_ =
+          PeerConnectionDependencyFactory::GetInstance()
+              ->CreateRTCPeerConnectionHandler(
+                  this, document->GetTaskRunner(TaskType::kInternalMedia));
+    }
   } else {
-    peer_handler_ =
-        PeerConnectionDependencyFactory::GetInstance()
-            ->CreateRTCPeerConnectionHandler(
-                this, document->GetTaskRunner(TaskType::kInternalMedia));
+    peer_handler_ = nullptr;
+    LOG(WARNING) << "WebRTC is blocked";
   }
 
   if (!peer_handler_) {
