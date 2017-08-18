@@ -46,7 +46,7 @@ class TestBlinkWebUnitTestSupport : public BlinkPlatformImpl {
 
   std::unique_ptr<blink::WebURLLoaderFactory> CreateDefaultURLLoaderFactory()
       override;
-  blink::WebString UserAgent() override;
+  blink::WebString UserAgent(const std::string& strHost) override;
   blink::WebString QueryLocalizedString(int resource_id) override;
   blink::WebString QueryLocalizedString(int resource_id,
                                         const blink::WebString& value) override;
