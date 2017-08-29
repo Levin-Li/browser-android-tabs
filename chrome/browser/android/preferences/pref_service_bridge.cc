@@ -91,10 +91,20 @@ static void JNI_PrefServiceBridge_SetFingerprintingProtectionEnabled(JNIEnv* env
   GetPrefService()->SetBoolean(prefs::kFingerprintingProtectionEnabled, enabled);
 }
 
+static jboolean JNI_PrefServiceBridge_GetFingerprintingProtectionEnabled(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kFingerprintingProtectionEnabled);
+}
+
 static void JNI_PrefServiceBridge_SetHTTPSEEnabled(JNIEnv* env,
                                    const JavaParamRef<jobject>& obj,
                                    jboolean enabled) {
    GetPrefService()->SetBoolean(prefs::kHTTPSEEnabled, enabled);
+}
+
+static jboolean JNI_PrefServiceBridge_GetHTTPSEEnabled(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kHTTPSEEnabled);
 }
 
 static void JNI_PrefServiceBridge_SetAdBlockEnabled(JNIEnv* env,
@@ -103,10 +113,20 @@ static void JNI_PrefServiceBridge_SetAdBlockEnabled(JNIEnv* env,
    GetPrefService()->SetBoolean(prefs::kAdBlockEnabled, enabled);
 }
 
+static jboolean JNI_PrefServiceBridge_GetAdBlockEnabled(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kAdBlockEnabled);
+}
+
 static void JNI_PrefServiceBridge_SetAdBlockRegionalEnabled(JNIEnv* env,
                                    const JavaParamRef<jobject>& obj,
                                    jboolean enabled) {
    GetPrefService()->SetBoolean(prefs::kAdBlockRegionalEnabled, enabled);
+}
+
+static jboolean JNI_PrefServiceBridge_GetAdBlockRegionalEnabled(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kAdBlockRegionalEnabled);
 }
 
 static void JNI_PrefServiceBridge_SetTrackingProtectionEnabled(JNIEnv* env,
