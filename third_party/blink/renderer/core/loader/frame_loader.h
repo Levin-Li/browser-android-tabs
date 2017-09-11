@@ -218,6 +218,9 @@ class CORE_EXPORT FrameLoader final {
   void CancelClientNavigation();
   void DetachProvisionalDocumentLoader();
 
+  // We need it public for fingerprinting protection
+  LocalFrameClient* Client() const;
+
   void Trace(blink::Visitor*);
 
   void DidDropNavigation();

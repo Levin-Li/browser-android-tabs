@@ -2345,14 +2345,14 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
 
         final Tab currentTab = getActivityTab();
 
-        if (id == R.id.help_id) {
+        /*if (id == R.id.help_id) {
             String url = currentTab != null ? currentTab.getUrl() : "";
             Profile profile = mTabModelSelector.isIncognitoSelected()
                     ? Profile.getLastUsedProfile().getOffTheRecordProfile()
                     : Profile.getLastUsedProfile().getOriginalProfile();
             startHelpAndFeedback(url, "MobileMenuFeedback", profile);
             return true;
-        }
+        }*/
 
         if (id == R.id.open_history_menu_id) {
             // 'currentTab' could only be null when opening history from start surface, which is

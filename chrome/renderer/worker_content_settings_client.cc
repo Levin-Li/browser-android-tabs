@@ -147,3 +147,7 @@ void WorkerContentSettingsClient::EnsureContentSettingsManager() const {
   DCHECK(pending_content_settings_manager_);
   content_settings_manager_.Bind(std::move(pending_content_settings_manager_));
 }
+
+bool WorkerContentSettingsClient::AllowFingerprinting() {
+    return true;
+};
