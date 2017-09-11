@@ -39,6 +39,7 @@ class WorkerContentSettingsClient : public blink::WebContentSettingsClient {
                              const blink::WebURL& script_url) override;
   bool ShouldAutoupgradeMixedContent() override;
 
+  bool AllowFingerprinting() override;
  private:
   explicit WorkerContentSettingsClient(
       const WorkerContentSettingsClient& other);
