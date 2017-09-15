@@ -182,6 +182,9 @@ enum class ContentSettingsType : int32_t {
   // devices.
   BLUETOOTH_CHOOSER_DATA,
 
+  // This content setting type is for displaying desktop version of the website
+  CONTENT_SETTINGS_TYPE_DESKTOP_VIEW,
+
   NUM_TYPES,
 };
 

@@ -1732,6 +1732,19 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                     }
                 }
             }
+
+            @Override
+            public void onPreLoadUrl(Tab tab, LoadUrlParams params) {
+              if (false == tab.isDesktopModeOverridenByTab()) {
+                  final boolean desktopViewFromSettings = PrefServiceBridge.getInstance().desktopViewEnabled();
+                  if (desktopViewFromSettings && !tab.getUseDesktopUserAgent()) {
+                      tab.setUseDesktopUserAgent(true, false);
+                  }
+                  else {
+                      tab.setUseDesktopUserAgent(false, false);
+                  }
+              }
+            }
         };
         mAppIndexingUtil = new AppIndexingUtil(mTabModelSelectorImpl);
 

@@ -125,6 +125,28 @@ public class PrefServiceBridge {
         PrefServiceBridgeJni.get().setAdBlockRegionalEnabled(enabled);
     }
 
+    /**
+     * @return true if Desktop View is enabled.
+     * The default is false.
+     */
+    public boolean desktopViewEnabled() {
+        return PrefServiceBridgeJni.get().getDesktopViewEnabled();
+    }
+
+    /**
+     * @return Whether Desktop View is managed by policy.
+     */
+    public boolean desktopViewManaged() {
+        return isContentSettingManaged(ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW);
+    }
+
+    /**
+     * Enable or disable Desktop View .
+     */
+    public void setDesktopViewEnabled(boolean enabled) {
+        PrefServiceBridgeJni.get().setDesktopViewEnabled(enabled);
+    }
+
     @VisibleForTesting
     public static void setInstanceForTesting(@Nullable PrefServiceBridge instanceForTesting) {
         sInstance = instanceForTesting;
@@ -144,5 +166,7 @@ public class PrefServiceBridge {
         void setHTTPSEEnabled(boolean enabled);
         void setFingerprintingProtectionEnabled(boolean enabled);
         void setAdBlockRegionalEnabled(boolean enabled);
+        boolean getDesktopViewEnabled();
+        void setDesktopViewEnabled(boolean enabled);
     }
 }

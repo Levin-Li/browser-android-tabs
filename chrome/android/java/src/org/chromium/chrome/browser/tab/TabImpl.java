@@ -216,6 +216,9 @@ public class TabImpl implements Tab {
     private int mScriptsBlocked;
     private int mFingerprintsBlocked;
 
+    /** Whether or not the tab Desktop Mode option has been set/unset in tab menu. */
+    private boolean mDesktopModeOverridenByTab;
+
     private TabDelegateFactory mDelegateFactory;
 
     /** Listens for views related to the tab to be attached or detached. */
@@ -433,6 +436,14 @@ public class TabImpl implements Tab {
         return mIncognito;
     }
 
+    public boolean isDesktopModeOverridenByTab() {
+        return mDesktopModeOverridenByTab;
+    }
+
+    public void setDesktopModeOverridenByTab(boolean overridenByTab) {
+        mDesktopModeOverridenByTab = overridenByTab;
+    }
+
     @Override
     public boolean isShowingErrorPage() {
         return mIsShowingErrorPage;
@@ -461,6 +472,10 @@ public class TabImpl implements Tab {
             // TabImplJni.get().loadUrl until the android view has entirely rendered.
             if (!mIsNativePageCommitPending) {
                 mIsNativePageCommitPending = maybeShowNativePage(params.getUrl(), false);
+            }
+
+            for (TabObserver observer : mObservers) {
+                observer.onPreLoadUrl(this, params);
             }
 
             if ("chrome://java-crash/".equals(params.getUrl())) {
