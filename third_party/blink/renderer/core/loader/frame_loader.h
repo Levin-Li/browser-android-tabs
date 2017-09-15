@@ -273,8 +273,6 @@ class CORE_EXPORT FrameLoader final {
       base::OnceClosure call_before_attaching_new_document,
       bool dispatch_did_commit);
 
-  LocalFrameClient* Client() const;
-
   Member<LocalFrame> frame_;
   AtomicString required_csp_;
 
