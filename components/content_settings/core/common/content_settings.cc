@@ -82,6 +82,7 @@ constexpr HistogramValue kHistogramValue[] = {
     {ContentSettingsType::INSTALLED_WEB_APP_METADATA, 58},
     {ContentSettingsType::NFC, 59},
     {ContentSettingsType::BLUETOOTH_CHOOSER_DATA, 60},
+    {ContentSettingsType::CONTENT_SETTINGS_TYPE_DESKTOP_VIEW, 62},
 };
 
 }  // namespace
