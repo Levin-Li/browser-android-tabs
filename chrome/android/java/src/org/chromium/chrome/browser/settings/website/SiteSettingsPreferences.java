@@ -93,7 +93,6 @@ public class SiteSettingsPreferences
         websitePrefs.add(Type.PROTECTED_MEDIA);
         websitePrefs.add(Type.SOUND);
         websitePrefs.add(Type.USB);
-        websitePrefs.add(Type.DESKTOP_VIEW_SETTINGS);
 
         // Initialize the summary and icon for all preferences that have an
         // associated content settings entry.

@@ -757,6 +757,11 @@ NavigatorImpl::GetNavigationEntryForRendererInitiatedNavigation(
               controller_->GetBrowserContext(),
               nullptr /* blob_url_loader_factory */));
 
+  if (controller_->GetLastCommittedEntry()) {
+    NavigationEntryImpl* last_committed_entry = controller_->GetLastCommittedEntry();
+    entry->SetIsOverridingUserAgent(last_committed_entry->GetIsOverridingUserAgent());
+  }
+
   controller_->SetPendingEntry(std::move(entry));
   if (delegate_)
     delegate_->NotifyChangedNavigationState(content::INVALIDATE_TYPE_URL);
