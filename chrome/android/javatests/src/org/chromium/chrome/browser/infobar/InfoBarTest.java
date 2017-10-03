@@ -153,7 +153,7 @@ public class InfoBarTest {
      */
     @Test
     @MediumTest
-    @Feature({"Browser", "Main"})
+    @Feature({"Browser", "Main", "ApplyLater"})
     public void testGetAccessibilityMessage() {
         TestInfoBar infoBarNoMessage = new TestInfoBar(null);
         infoBarNoMessage.setContext(ContextUtils.getApplicationContext());
@@ -339,7 +339,7 @@ public class InfoBarTest {
     @Test
     @MediumTest
     @CommandLineFlags.Add("force-fieldtrials=DataCompressionProxyPromoVisibility/Enabled")
-    @Feature({"Browser", "Main"})
+    @Feature({"Browser", "Main", "ApplyLater"})
     @RetryOnFailure
     public void testDataReductionPromoInfoBarDismissed() {
         TestThreadUtils.runOnUiThreadBlocking(() -> {
@@ -388,7 +388,7 @@ public class InfoBarTest {
     @Test
     @MediumTest
     @CommandLineFlags.Add("force-fieldtrials=DataCompressionProxyPromoVisibility/Enabled")
-    @Feature({"Browser", "Main"})
+    @Feature({"Browser", "Main", "ApplyLater"})
     public void testDataReductionPromoInfoBarPostM48Install() throws Throwable {
         mActivityTestRule.runOnUiThread(new Runnable() {
             @Override
@@ -419,7 +419,7 @@ public class InfoBarTest {
     @Test
     @MediumTest
     @CommandLineFlags.Add("force-fieldtrials=DataCompressionProxyPromoVisibility/Enabled")
-    @Feature({"Browser", "Main"})
+    @Feature({"Browser", "Main", "ApplyLater"})
     @RetryOnFailure
     public void testDataReductionPromoInfoBarFreOptOut() throws Throwable {
         mActivityTestRule.runOnUiThread(new Runnable() {
@@ -462,7 +462,7 @@ public class InfoBarTest {
      */
     @Test
     @MediumTest
-    @Feature({"Browser", "Main"})
+    @Feature({"Browser", "Main", "ApplyLater"})
     @RetryOnFailure
     public void testInfoBarForHungRenderer() throws TimeoutException {
         mActivityTestRule.loadUrl(HELLO_WORLD_URL);
@@ -492,7 +492,7 @@ public class InfoBarTest {
      */
     @Test
     @MediumTest
-    @Feature({"Browser", "Main"})
+    @Feature({"Browser", "Main", "ApplyLater"})
     @RetryOnFailure
     public void testInfoBarForHungRendererCanKillRenderer() throws TimeoutException {
         mActivityTestRule.loadUrl(HELLO_WORLD_URL);
