@@ -634,7 +634,7 @@ public class TabPersistentStoreTest {
      */
     @Test
     @SmallTest
-    @Feature({"TabPersistentStore"})
+    @Feature({"TabPersistentStore", "ApplyLater"})
     @RetryOnFailure
     @DisableIf.Build(sdk_is_greater_than = 25, message = "https://crbug.com/1017732")
     public void testUndoCloseAllTabsWritesTabListFile() throws Exception {
