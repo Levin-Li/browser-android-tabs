@@ -75,6 +75,7 @@ enum SearchEngineType {
   SEARCH_ENGINE_METAGER,
   SEARCH_ENGINE_OCEANHERO,
   SEARCH_ENGINE_PRIVACYWALL,
+  SEARCH_ENGINE_DUCKDUCKGOLIGHT
 
   SEARCH_ENGINE_MAX  // Bounding value needed for UMA histogram macro.
 };
