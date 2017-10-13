@@ -713,4 +713,8 @@
     <dimen name="tab_indicator_height">3dp</dimen>
     <dimen name="tab_indicator_radius">3dp</dimen>
     <dimen name="tab_indicator_padding">2dp</dimen>
+
+    <!-- Brave shields menu dimensions -->
+    <dimen name="brave_shields_first_group_item_height">36dp</dimen>
+    <dimen name="brave_shields_second_group_item_height">44dp</dimen>
 </resources>
