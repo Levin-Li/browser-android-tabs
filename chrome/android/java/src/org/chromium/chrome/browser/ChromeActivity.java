@@ -675,10 +675,10 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         return true;
     }
 
-    protected void setBraveShieldsColor(String url) {
+    protected void setBraveShieldsColor(boolean incognitoTab, String url) {
         ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
         if (null != app) {
-            if (app.getShieldsConfig().isTopShieldsEnabled(url)) {
+            if (app.getShieldsConfig().isTopShieldsEnabled(incognitoTab, url)) {
                 // Set Brave Shields button in color if we have a valid URL
                 setBraveShieldsColored();
             } else {

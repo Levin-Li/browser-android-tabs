@@ -56,7 +56,8 @@ class CookieSettings : public CookieSettingsBase,
   CookieSettings(HostContentSettingsMap* host_content_settings_map,
                  PrefService* prefs,
                  bool is_incognito,
-                 const char* extension_scheme = kDummyExtensionScheme);
+                 const char* extension_scheme = kDummyExtensionScheme,
+                 const bool &incognito);
 
   // Returns the default content setting (CONTENT_SETTING_ALLOW,
   // CONTENT_SETTING_BLOCK, or CONTENT_SETTING_SESSION_ONLY) for cookies. If
@@ -173,6 +174,8 @@ class CookieSettings : public CookieSettingsBase,
   bool block_third_party_cookies_;
 
   std::string previous_first_party_host_;
+
+  bool incognito_;
 
   DISALLOW_COPY_AND_ASSIGN(CookieSettings);
 };
