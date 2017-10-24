@@ -185,6 +185,15 @@ public class WebsitePreferenceBridge {
         return managedExceptions;
     }
 
+    public static List<ContentSettingException> getContentSettingsExceptionsIncognito(
+            int contentSettingsType) {
+        List<ContentSettingException> exceptions =
+                PrefServiceBridge.getInstance().getContentSettingsExceptionsIncognito(
+                        contentSettingsType);
+
+        return exceptions;
+    }
+
     public void fetchLocalStorageInfo(Callback<HashMap> callback, boolean fetchImportant) {
         WebsitePreferenceBridgeJni.get().fetchLocalStorageInfo(callback, fetchImportant);
     }
