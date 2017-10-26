@@ -96,29 +96,29 @@ public class MainPreferences extends PreferenceFragmentCompat
     @Override
     public void onStart() {
         super.onStart();
-        SigninManager signinManager = IdentityServicesProvider.getSigninManager();
-        if (signinManager.isSigninSupported()) {
-            signinManager.addSignInStateObserver(this);
-            mSignInPreference.registerForUpdates();
-        }
-        ProfileSyncService syncService = ProfileSyncService.get();
-        if (syncService != null) {
-            syncService.addSyncStateChangedListener(this);
-        }
+        // SigninManager signinManager = IdentityServicesProvider.getSigninManager();
+        // if (signinManager.isSigninSupported()) {
+        //     signinManager.addSignInStateObserver(this);
+        //     mSignInPreference.registerForUpdates();
+        // }
+        // ProfileSyncService syncService = ProfileSyncService.get();
+        // if (syncService != null) {
+        //     syncService.addSyncStateChangedListener(this);
+        // }
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        SigninManager signinManager = IdentityServicesProvider.getSigninManager();
-        if (signinManager.isSigninSupported()) {
-            signinManager.removeSignInStateObserver(this);
-            mSignInPreference.unregisterForUpdates();
-        }
-        ProfileSyncService syncService = ProfileSyncService.get();
-        if (syncService != null) {
-            syncService.removeSyncStateChangedListener(this);
-        }
+        // SigninManager signinManager = IdentityServicesProvider.getSigninManager();
+        // if (signinManager.isSigninSupported()) {
+        //     signinManager.removeSignInStateObserver(this);
+        //     mSignInPreference.unregisterForUpdates();
+        // }
+        // ProfileSyncService syncService = ProfileSyncService.get();
+        // if (syncService != null) {
+        //     syncService.removeSyncStateChangedListener(this);
+        // }
     }
 
     @Override
@@ -136,7 +136,7 @@ public class MainPreferences extends PreferenceFragmentCompat
         updatePasswordsPreference();
 
         setManagedPreferenceDelegateForPreference(PREF_SEARCH_ENGINE);
-        setManagedPreferenceDelegateForPreference(PREF_DATA_REDUCTION);
+        // setManagedPreferenceDelegateForPreference(PREF_DATA_REDUCTION);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             // If we are on Android O+ the Notifications preference should lead to the Android
@@ -199,11 +199,11 @@ public class MainPreferences extends PreferenceFragmentCompat
     }
 
     private void updatePreferences() {
-        if (IdentityServicesProvider.getSigninManager().isSigninSupported()) {
-            addPreferenceIfAbsent(PREF_SIGN_IN);
-        } else {
-            removePreferenceIfPresent(PREF_SIGN_IN);
-        }
+        // if (IdentityServicesProvider.getSigninManager().isSigninSupported()) {
+        //     addPreferenceIfAbsent(PREF_SIGN_IN);
+        // } else {
+        //     removePreferenceIfPresent(PREF_SIGN_IN);
+        // }
 
         updateSyncAndServicesPreference();
         updateSearchEnginePreference();

@@ -28,6 +28,7 @@ class SharedWorkerContentSettingsProxy : public WebContentSettingsClient {
   bool AllowCacheStorage() override;
   bool AllowWebLocks() override;
   bool RequestFileSystemAccessSync() override;
+  bool AllowFingerprinting() override;
 
  private:
   // To ensure the returned pointer is destructed on the same thread
