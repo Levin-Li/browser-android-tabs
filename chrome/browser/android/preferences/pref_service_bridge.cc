@@ -149,6 +149,7 @@ static void JNI_PrefServiceBridge_SetDesktopViewEnabled(JNIEnv* env,
       CONTENT_SETTINGS_TYPE_DESKTOP_VIEW,
       allow ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
 }
+
 static void JNI_PrefServiceBridge_SetContentSettingForPattern(
     JNIEnv* env,
     const JavaParamRef<jobject>& obj,
@@ -199,3 +200,19 @@ static void JNI_PrefServiceBridge_GetContentSettingsExceptionsIncognito(JNIEnv* 
         entries[i].GetContentSetting(),
         ConvertUTF8ToJavaString(env, entries[i].source));
   }
+}
+
+static jboolean JNI_PrefServiceBridge_GetPlayVideoInBackgroundEnabled(JNIEnv* env,
+                                         const JavaParamRef<jobject>& obj) {
+  return GetBooleanForContentSetting(CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND);
+}
+
+static void JNI_PrefServiceBridge_SetPlayVideoInBackgroundEnabled(JNIEnv* env,
+                                     const JavaParamRef<jobject>& obj,
+                                     jboolean allow) {
+  HostContentSettingsMap* host_content_settings_map =
+      HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
+  host_content_settings_map->SetDefaultContentSetting(
+      CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND,
+      allow ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
+}
