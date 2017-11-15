@@ -93,6 +93,7 @@ public class SiteSettingsPreferences
         websitePrefs.add(Type.PROTECTED_MEDIA);
         websitePrefs.add(Type.SOUND);
         websitePrefs.add(Type.USB);
+        websitePrefs.add(Type.PLAY_VIDEO_IN_BACKGROUND);
 
         // Initialize the summary and icon for all preferences that have an
         // associated content settings entry.
@@ -139,6 +140,8 @@ public class SiteSettingsPreferences
                 p.setSummary(ContentSettingsResources.getCategorySummary(setting));
             } else if (SiteSettingsCategory.Type.DESKTOP_VIEW_SETTINGS == prefCategory) {
                 p.setSummary( checked ? ContentSettingsResources.getDesktopViewEnabledSummary() : ContentSettingsResources.getDesktopViewDisabledSummary());
+            } else if (PLAY_VIDEO_IN_BACKGROUND_KEY.equals(prefName)) {
+                p.setSummary( checked ? ContentSettingsResources.getPlayVideoInBackgroundEnabledSummary() : ContentSettingsResources.getPlayVideoInBackgroundDisabledSummary());
             } else {
                 p.setSummary(ContentSettingsResources.getCategorySummary(contentType, checked));
             }

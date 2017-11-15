@@ -69,6 +69,10 @@
     <org.chromium.chrome.browser.settings.website.SiteSettingsPreference
         android:fragment="org.chromium.chrome.browser.settings.website.SingleCategoryPreferences"
         android:key="sound" />
+    <!-- PlayVideoInBackground -->
+    <org.chromium.chrome.browser.preferences.website.SiteSettingsPreference
+         android:fragment="org.chromium.chrome.browser.preferences.website.SingleCategoryPreferences"
+         android:key="play_video_in_background" />
     <!-- Storage -->
     <!-- TODO(finnur): Move this over to the new Usage screen, once it exists. -->
     <org.chromium.chrome.browser.settings.website.SiteSettingsPreference

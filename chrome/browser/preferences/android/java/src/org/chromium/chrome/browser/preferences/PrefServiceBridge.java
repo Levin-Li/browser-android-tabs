@@ -158,6 +158,28 @@ public class PrefServiceBridge {
         return list;
     }
 
+    /**
+     * @return true if 'Play video in background' is enabled.
+     * The default is false.
+     */
+    public boolean playVideoInBackgroundEnabled() {
+        return PrefServiceBridgeJni.getPlayVideoInBackgroundEnabled();
+    }
+
+    /**
+     * @return Whether 'Play video in background' is managed by policy.
+     */
+    public boolean playVideoInBackgroundManaged() {
+        return isContentSettingManaged(ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND);
+    }
+
+    /**
+     * Enable or disable 'Play video in background' option
+     */
+    public void setPlayVideoInBackgroundEnabled(boolean enabled) {
+        PrefServiceBridgeJni.setPlayVideoInBackgroundEnabled(enabled);
+    }
+
     @VisibleForTesting
     public static void setInstanceForTesting(@Nullable PrefServiceBridge instanceForTesting) {
         sInstance = instanceForTesting;
@@ -183,5 +205,7 @@ public class PrefServiceBridge {
             int contentSettingsType, List<ContentSettingException> list);
         void setContentSettingForPatternIncognito(
                 int contentSettingType, String pattern, int setting);
+        boolean getPlayVideoInBackgroundEnabled();
+        void setPlayVideoInBackgroundEnabled(boolean enabled);
     }
 }
