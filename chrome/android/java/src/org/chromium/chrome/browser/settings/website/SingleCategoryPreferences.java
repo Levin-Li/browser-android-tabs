@@ -68,6 +68,8 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
+import org.chromium.chrome.browser.RestartWorker;
+
 /**
  * Shows a list of sites in a particular Site Settings category. For example, this could show all
  * the websites with microphone permissions. When the user selects a site, SingleWebsitePreferences
@@ -489,6 +491,7 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
                 PrefServiceBridge.getInstance().setDesktopViewEnabled((boolean) newValue);
             } else if (mCategory.showPlayVideoInBackground()) {
                 PrefServiceBridge.getInstance().setPlayVideoInBackgroundEnabled((boolean) newValue);
+                AskForRelaunch();
             }
 
             // Categories that support adding exceptions also manage the 'Add site' preference.
@@ -1051,5 +1054,26 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
         } else {
             ManagedPreferencesUtils.showManagedByAdministratorToast(getActivity());
         }
+    }
+
+    private void AskForRelaunch() {
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this.getActivity());
+         alertDialogBuilder
+            .setMessage(R.string.settings_require_relaunch_notice)
+            .setCancelable(true)
+            .setPositiveButton(R.string.settings_require_relaunch_now, new DialogInterface.OnClickListener() {
+              public void onClick(DialogInterface dialog,int id) {
+                  RestartWorker restartWorker = new RestartWorker();
+                  restartWorker.Restart();
+                  dialog.cancel();
+              }
+            })
+            .setNegativeButton(R.string.settings_require_relaunch_later,new DialogInterface.OnClickListener() {
+              public void onClick(DialogInterface dialog,int id) {
+                  dialog.cancel();
+              }
+            });
+            AlertDialog alertDialog = alertDialogBuilder.create();
+            alertDialog.show();
     }
 }
