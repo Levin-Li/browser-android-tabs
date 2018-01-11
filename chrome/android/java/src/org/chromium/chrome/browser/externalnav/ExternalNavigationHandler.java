@@ -792,6 +792,13 @@ public class ExternalNavigationHandler {
 
         if (shouldStayInWebapp(params)) return OverrideUrlLoadingResult.NO_OVERRIDE;
 
+        // Force to open YouTube urls in Brave
+        String intentPackageName = intent.getPackage();
+        if (intentPackageName != null && intentPackageName.equals("com.google.android.youtube")) {
+            if (DEBUG) Log.i(TAG, "NO_OVERRIDE: YouTube URL for YouTube app");
+            return OverrideUrlLoadingResult.NO_OVERRIDE;
+        }
+
         if (shouldStayInIncognito(params, isExternalProtocol)) {
             return OverrideUrlLoadingResult.NO_OVERRIDE;
         }
