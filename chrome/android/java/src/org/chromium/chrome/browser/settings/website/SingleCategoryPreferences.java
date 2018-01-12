@@ -492,6 +492,8 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
             } else if (mCategory.showPlayVideoInBackground()) {
                 PrefServiceBridge.getInstance().setPlayVideoInBackgroundEnabled((boolean) newValue);
                 AskForRelaunch();
+            } else if (mCategory.showPlayYTVideoInBrowser()) {
+                PrefServiceBridge.getInstance().setPlayYTVideoInBrowserEnabled((boolean) newValue);
             }
 
             // Categories that support adding exceptions also manage the 'Add site' preference.
@@ -1000,6 +1002,8 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
                 binaryToggle.setChecked(PrefServiceBridge.getInstance().desktopViewEnabled());
             } else if (mCategory.showPlayVideoInBackground()) {
                 binaryToggle.setChecked(PrefServiceBridge.getInstance().playVideoInBackgroundEnabled());
+            } else if (mCategory.showPlayYTVideoInBrowser()) {
+                binaryToggle.setChecked(PrefServiceBridge.getInstance().playYTVideoInBrowserEnabled());
             }
         }
     }

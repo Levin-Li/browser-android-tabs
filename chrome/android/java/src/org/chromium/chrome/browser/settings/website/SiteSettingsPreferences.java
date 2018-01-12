@@ -94,6 +94,7 @@ public class SiteSettingsPreferences
         websitePrefs.add(Type.SOUND);
         websitePrefs.add(Type.USB);
         websitePrefs.add(Type.PLAY_VIDEO_IN_BACKGROUND);
+        websitePrefs.add(Type.PLAY_YT_VIDEO_IN_BROWSER);
 
         // Initialize the summary and icon for all preferences that have an
         // associated content settings entry.
@@ -142,6 +143,8 @@ public class SiteSettingsPreferences
                 p.setSummary( checked ? ContentSettingsResources.getDesktopViewEnabledSummary() : ContentSettingsResources.getDesktopViewDisabledSummary());
             } else if (PLAY_VIDEO_IN_BACKGROUND_KEY.equals(prefName)) {
                 p.setSummary( checked ? ContentSettingsResources.getPlayVideoInBackgroundEnabledSummary() : ContentSettingsResources.getPlayVideoInBackgroundDisabledSummary());
+            } else if (PLAY_YT_VIDEO_IN_BROWSER_KEY.equals(prefName)) {
+                p.setSummary( checked ? ContentSettingsResources.getPlayYTVideoInBrowserEnabledSummary() : ContentSettingsResources.getPlayYTVideoInBrowserDisabledSummary());
             } else {
                 p.setSummary(ContentSettingsResources.getCategorySummary(contentType, checked));
             }
