@@ -32,6 +32,7 @@ import org.chromium.chrome.browser.ChromeSwitches;
 import org.chromium.chrome.browser.IntentHandler;
 import org.chromium.chrome.browser.customtabs.CustomTabIntentDataProvider.LaunchSourceType;
 import org.chromium.chrome.browser.instantapps.InstantAppsHandler;
+import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tab.TabImpl;
 import org.chromium.chrome.browser.tab.TabRedirectHandler;
@@ -792,11 +793,13 @@ public class ExternalNavigationHandler {
 
         if (shouldStayInWebapp(params)) return OverrideUrlLoadingResult.NO_OVERRIDE;
 
-        // Force to open YouTube urls in Brave
-        String intentPackageName = intent.getPackage();
-        if (intentPackageName != null && intentPackageName.equals("com.google.android.youtube")) {
-            if (DEBUG) Log.i(TAG, "NO_OVERRIDE: YouTube URL for YouTube app");
-            return OverrideUrlLoadingResult.NO_OVERRIDE;
+        if (PrefServiceBridge.getInstance().playYTVideoInBrowserEnabled()) {
+            // Force to open YouTube urls in Brave
+            String intentPackageName = intent.getPackage();
+            if (intentPackageName != null && intentPackageName.equals("com.google.android.youtube")) {
+                if (DEBUG) Log.i(TAG, "NO_OVERRIDE: YouTube URL for YouTube app");
+                return OverrideUrlLoadingResult.NO_OVERRIDE;
+            }
         }
 
         if (shouldStayInIncognito(params, isExternalProtocol)) {
