@@ -42,6 +42,7 @@ import org.chromium.chrome.browser.dependency_injection.ModuleFactoryOverrides;
 import org.chromium.chrome.browser.flags.FeatureUtilities;
 import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.StatsUpdaterWorker;
+import org.chromium.chrome.browser.ADBlockUpdaterWorker;
 import org.chromium.chrome.browser.instantapps.InstantAppsHandler;
 import org.chromium.chrome.browser.init.ShieldsConfig;
 import org.chromium.chrome.browser.locale.LocaleManager;
@@ -69,6 +70,8 @@ public class ChromeApplication extends Application {
     public BraveSyncWorker mBraveSyncWorker = null;
     // Stats updater
     public StatsUpdaterWorker mStatsUpdaterWorker = null;
+    // ADBlock updater
+    public ADBlockUpdaterWorker mADBlockUpdaterWorker = null;
     // Mixpanel global object
     public MixpanelAPI mMixpanelInstance = null;
 
