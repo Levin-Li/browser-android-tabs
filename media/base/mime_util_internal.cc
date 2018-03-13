@@ -309,7 +309,6 @@ void MimeUtil::AddSupportedMediaFormats() {
   CodecSet mp4_video_codecs;
   mp4_video_codecs.emplace(VP9);
 
-#if BUILDFLAG(USE_PROPRIETARY_CODECS)
   const CodecSet aac{MPEG2_AAC, MPEG4_AAC};
   mp4_audio_codecs.insert(aac.begin(), aac.end());
 
