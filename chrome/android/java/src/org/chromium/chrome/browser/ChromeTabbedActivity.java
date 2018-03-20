@@ -1784,6 +1784,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
         });
     }
 
+    @Override
     protected void setBraveShieldsColor(boolean incognitoTab, String url) {
         ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
         if (null != app) {
