@@ -43,6 +43,7 @@ public class PrivacyPreferences
     private static final String PREF_HTTPSE = "httpse";
     private static final String PREF_FINGERPRINTING_PROTECTION = "fingerprinting_protection";
     private static final String PREF_AD_BLOCK_REGIONAL = "ad_block_regional";
+    private static final String PREF_CLOSE_TABS_ON_EXIT = "close_tabs_on_exit";
 
     private ManagedPreferenceDelegate mManagedPreferenceDelegate;
 
@@ -101,6 +102,11 @@ public class PrivacyPreferences
         adBlockRegionalPref.setOnPreferenceChangeListener(this);
         adBlockRegionalPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
+        ChromeBaseCheckBoxPreference closeTabsOnExitPref =
+                (ChromeBaseCheckBoxPreference) findPreference(PREF_CLOSE_TABS_ON_EXIT);
+        closeTabsOnExitPref.setOnPreferenceChangeListener(this);
+        closeTabsOnExitPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+
         updateSummaries();
     }
 
@@ -122,6 +128,10 @@ public class PrivacyPreferences
             PrefServiceBridge.getInstance().setFingerprintingProtectionEnabled((boolean) newValue);
         } else if (PREF_AD_BLOCK_REGIONAL.equals(key)) {
             PrefServiceBridge.getInstance().setAdBlockRegionalEnabled((boolean) newValue);
+        } else if (PREF_CLOSE_TABS_ON_EXIT.equals(key)) {
+            SharedPreferences.Editor sharedPreferencesEditor = ContextUtils.getAppSharedPreferences().edit();
+            sharedPreferencesEditor.putBoolean(PREF_CLOSE_TABS_ON_EXIT, (boolean)newValue);
+            sharedPreferencesEditor.apply();
         }
 
         return true;
