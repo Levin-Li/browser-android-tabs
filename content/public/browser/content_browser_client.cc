@@ -811,7 +811,7 @@ ContentBrowserClient::CreateNetworkContext(
   mojo::Remote<network::mojom::NetworkContext> network_context;
   network::mojom::NetworkContextParamsPtr context_params =
       network::mojom::NetworkContextParams::New();
-  context_params->user_agent = GetUserAgent();
+  context_params->user_agent = GetUserAgent("");
   context_params->accept_language = "en-us,en";
   GetNetworkService()->CreateNetworkContext(
       network_context.BindNewPipeAndPassReceiver(), std::move(context_params));

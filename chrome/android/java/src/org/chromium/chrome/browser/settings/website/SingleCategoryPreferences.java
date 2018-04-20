@@ -1066,6 +1066,7 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
             .setMessage(R.string.settings_require_relaunch_notice)
             .setCancelable(true)
             .setPositiveButton(R.string.settings_require_relaunch_now, new DialogInterface.OnClickListener() {
+              @Override
               public void onClick(DialogInterface dialog,int id) {
                   RestartWorker restartWorker = new RestartWorker();
                   restartWorker.Restart();
@@ -1073,6 +1074,7 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
               }
             })
             .setNegativeButton(R.string.settings_require_relaunch_later,new DialogInterface.OnClickListener() {
+              @Override
               public void onClick(DialogInterface dialog,int id) {
                   dialog.cancel();
               }
