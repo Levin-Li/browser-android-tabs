@@ -21,6 +21,9 @@ public class ChromePreferenceManager {
     // For new boolean values, document the key and its usage, call #readBoolean and #writeBoolean
     // directly. While calling #readBoolean, default value is required.
 
+    private static final String USE_CUSTOM_TABS =
+            "use_custom_tabs";
+
     private static class LazyHolder {
         static final ChromePreferenceManager INSTANCE = new ChromePreferenceManager();
     }
@@ -211,5 +214,13 @@ public class ChromePreferenceManager {
      */
     public boolean hasUserAcceptedTwaDisclosureForPackage(String packageName) {
         return getTrustedWebActivityDisclosureAcceptedPackages().contains(packageName);
+    }
+
+    /**
+     * Get whether or not use custom tabs.
+     * @return True if we can use custom tabs.
+     */
+    public boolean useCustomTabs() {
+        return mSharedPreferences.getBoolean(USE_CUSTOM_TABS, false);
     }
 }
