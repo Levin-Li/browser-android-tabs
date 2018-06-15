@@ -24,6 +24,9 @@ import org.chromium.chrome.browser.util.AccessibilityUtil;
 
 import java.text.NumberFormat;
 
+import android.content.SharedPreferences;
+import org.chromium.base.ContextUtils;
+
 /**
  * Fragment to keep track of all the accessibility related preferences.
  */
@@ -33,6 +36,7 @@ public class AccessibilitySettings
     static final String PREF_FORCE_ENABLE_ZOOM = "force_enable_zoom";
     static final String PREF_READER_FOR_ACCESSIBILITY = "reader_for_accessibility";
     static final String PREF_CAPTIONS = "captions";
+    static final String PREF_USE_CUSTOM_TABS = "use_custom_tabs";
 
     private NumberFormat mFormat;
     private FontSizePrefs mFontSizePrefs;
@@ -146,6 +150,10 @@ public class AccessibilitySettings
         } else if (PREF_READER_FOR_ACCESSIBILITY.equals(preference.getKey())) {
             PrefServiceBridge.getInstance().setBoolean(
                     Pref.READER_FOR_ACCESSIBILITY_ENABLED, (Boolean) newValue);
+        } else if (PREF_USE_CUSTOM_TABS.equals(preference.getKey())) {
+            SharedPreferences.Editor sharedPreferencesEditor = ContextUtils.getAppSharedPreferences().edit();
+            sharedPreferencesEditor.putBoolean(PREF_USE_CUSTOM_TABS, (boolean)newValue);
+            sharedPreferencesEditor.apply();
         }
         return true;
     }
