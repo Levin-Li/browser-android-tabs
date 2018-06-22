@@ -639,6 +639,8 @@ jumbo_static_library("browser") {
     "language/translate_frame_binder.h",
     "language/url_language_histogram_factory.cc",
     "language/url_language_histogram_factory.h",
+    "ledger_manager.cc",
+    "ledger_manager.h",
     "lifetime/application_lifetime.cc",
     "lifetime/application_lifetime.h",
     "lifetime/application_lifetime_mac.mm",
@@ -1961,6 +1963,15 @@ jumbo_static_library("browser") {
     "//services/image_annotation/public/mojom",
     "//sql",
   ]
+
+  include_dirs = [
+    "//anonize2/anon",
+    "//anonize2/relic/include",
+    "//anonize2/relic/include/low",
+    "//braveLedger/src",
+    "//bip39wally-core/include",
+  ]
+
   deps = [
     ":active_use_util",
     ":availability_protos",
@@ -1970,12 +1981,15 @@ jumbo_static_library("browser") {
     ":permissions_proto",
     ":resource_prefetch_predictor_proto",
     "//ad-block/brave:ad-block",
+    "//anonize2",
+    "//braveLedger",
     "//base:i18n",
     "//base/allocator:buildflags",
     "//base/util/memory_pressure:memory_pressure",
     "//base/util/values:values_util",
     "//build:branding_buildflags",
     "//brave_src/browser:browser_process",
+    "//bip39wally-core",
     "//cc",
     "//chrome:extra_resources",
     "//chrome:resources",
