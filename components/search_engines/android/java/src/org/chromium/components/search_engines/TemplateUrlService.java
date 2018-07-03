@@ -17,6 +17,10 @@ import org.chromium.content_public.browser.UiThreadTaskTraits;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import org.chromium.base.ContextUtils;
+
 /**
  * Android wrapper of the TemplateUrlService which provides access from the Java
  * layer.
@@ -50,6 +54,7 @@ public class TemplateUrlService {
         // Note that this technically leaks the native object, however, TemplateUrlService
         // is a singleton that lives forever and there's no clean shutdown of Chrome on Android.
         mNativeTemplateUrlServiceAndroid = nativeTemplateUrlServiceAndroid;
+        mCurrentDSEPrivate = false;
     }
 
     @CalledByNative
@@ -330,6 +335,47 @@ public class TemplateUrlService {
     public String addSearchEngineForTesting(String keyword, int ageInDays) {
         return TemplateUrlServiceJni.get().addSearchEngineForTesting(
                 mNativeTemplateUrlServiceAndroid, TemplateUrlService.this, keyword, ageInDays);
+    }
+
+    public void setSearchEngine(String name, String keyword, boolean is_private) {
+        updateDSEInfo(!is_private);
+        SharedPreferences.Editor sharedPreferencesEditor = ContextUtils.getAppSharedPreferences().edit();
+        sharedPreferencesEditor.putString(is_private ? PREF_PRIVATE_SEARCH_ENGINE : PREF_STANDARD_SEARCH_ENGINE, name);
+        sharedPreferencesEditor.putString(is_private ? PREF_PRIVATE_SEARCH_ENGINE_KEYWORD : PREF_STANDARD_SEARCH_ENGINE_KEYWORD, keyword);
+        sharedPreferencesEditor.apply();
+        mCurrentDSEPrivate = is_private;
+        setSearchEngine(keyword);
+    }
+
+    private void updateDSEInfo(boolean is_private) {
+        SharedPreferences preferences = ContextUtils.getAppSharedPreferences();
+        if (!preferences.contains(is_private ? PREF_PRIVATE_SEARCH_ENGINE : PREF_STANDARD_SEARCH_ENGINE) ||
+            !preferences.contains(is_private ? PREF_PRIVATE_SEARCH_ENGINE_KEYWORD : PREF_STANDARD_SEARCH_ENGINE_KEYWORD)) {
+            TemplateUrl dseTemplateUrl = getDefaultSearchEngineTemplateUrl();
+            if (dseTemplateUrl != null){
+                SharedPreferences.Editor sharedPreferencesEditor = preferences.edit();
+                sharedPreferencesEditor.putString(is_private ? PREF_PRIVATE_SEARCH_ENGINE : PREF_STANDARD_SEARCH_ENGINE, dseTemplateUrl.getShortName());
+                sharedPreferencesEditor.putString(is_private ? PREF_PRIVATE_SEARCH_ENGINE_KEYWORD : PREF_STANDARD_SEARCH_ENGINE_KEYWORD, dseTemplateUrl.getKeyword());
+                sharedPreferencesEditor.apply();
+            }
+        }
+    }
+
+    public String getDefaultSearchEngineName(boolean is_private) {
+        updateDSEInfo(is_private);
+        return ContextUtils.getAppSharedPreferences().getString(is_private ? PREF_PRIVATE_SEARCH_ENGINE : PREF_STANDARD_SEARCH_ENGINE, null);
+    }
+
+    public String getDefaultSearchEngineKeyword(boolean is_private) {
+        updateDSEInfo(is_private);
+        return ContextUtils.getAppSharedPreferences().getString(is_private ? PREF_PRIVATE_SEARCH_ENGINE_KEYWORD : PREF_STANDARD_SEARCH_ENGINE_KEYWORD, null);
+    }
+
+    public void updateCurrentDSE(boolean is_private) {
+        if (mCurrentDSEPrivate != is_private) {
+            mCurrentDSEPrivate = is_private;
+            setSearchEngine(getDefaultSearchEngineKeyword(is_private));
+        }
     }
 
     @NativeMethods

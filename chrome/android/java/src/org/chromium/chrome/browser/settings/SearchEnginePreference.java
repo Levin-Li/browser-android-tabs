@@ -19,7 +19,7 @@ import org.chromium.chrome.R;
  * TODO(crbug.com/988877): Add on scroll shadow to action bar.
  */
 public class SearchEnginePreference extends ListFragment {
-    private SearchEngineAdapter mSearchEngineAdapter;
+    protected SearchEngineAdapter mSearchEngineAdapter;
 
     @VisibleForTesting
     String getValueForTesting() {
@@ -39,9 +39,9 @@ public class SearchEnginePreference extends ListFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getActivity().setTitle(R.string.prefs_search_engine);
-        mSearchEngineAdapter = new SearchEngineAdapter(getActivity());
-        setListAdapter(mSearchEngineAdapter);
+        // getActivity().setTitle(R.string.prefs_search_engine);
+        // mSearchEngineAdapter = new SearchEngineAdapter(getActivity());
+        // setListAdapter(mSearchEngineAdapter);
     }
 
     @Override

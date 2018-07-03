@@ -176,7 +176,7 @@ public class SettingsActivityTest {
                 ActivityUtils.waitForFragmentToAttach(settingsActivity, MainPreferences.class);
 
         final Preference searchEnginePref =
-                waitForPreference(mainPreferences, MainPreferences.PREF_SEARCH_ENGINE);
+                waitForPreference(mainPreferences, MainPreferences.PREF_STANDARD_SEARCH_ENGINE);
 
         CriteriaHelper.pollUiThread(Criteria.equals(null, new Callable<Object>() {
             @Override

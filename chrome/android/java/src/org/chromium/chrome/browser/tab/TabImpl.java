@@ -62,6 +62,8 @@ import org.chromium.content_public.common.ResourceRequestBody;
 import org.chromium.ui.base.PageTransition;
 import org.chromium.ui.base.WindowAndroid;
 
+import org.chromium.chrome.browser.search_engines.TemplateUrlService;
+
 /**
  * Implementation of the interface {@link Tab}. Contains and manages a {@link ContentView}.
  * This class is not intended to be extended.
@@ -636,6 +638,7 @@ public class TabImpl implements Tab {
     public final void show(@TabSelectionType int type) {
         try {
             TraceEvent.begin("Tab.show");
+            TemplateUrlService.getInstance().updateCurrentDSE(isIncognito());
             if (!isHidden()) return;
             // Keep unsetting mIsHidden above loadIfNeeded(), so that we pass correct visibility
             // when spawning WebContents in loadIfNeeded().
