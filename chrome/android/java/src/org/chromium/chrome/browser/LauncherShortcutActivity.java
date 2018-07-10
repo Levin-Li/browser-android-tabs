@@ -103,7 +103,7 @@ public class LauncherShortcutActivity extends Activity {
                         .setShortLabel(context.getResources().getString(
                                 R.string.accessibility_tabstrip_incognito_identifier))
                         .setLongLabel(
-                                context.getResources().getString(R.string.menu_new_incognito_tab))
+                                context.getResources().getString(R.string.brave_new_private_tab))
                         .setIcon(Icon.createWithResource(context, R.drawable.shortcut_incognito))
                         .setIntent(intent)
                         .build();
