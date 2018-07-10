@@ -39,7 +39,7 @@ public class IncognitoNotificationManager {
         // From Android N, notification by default has the app name and title should not be the same
         // as app name.
         String title = Build.VERSION.SDK_INT >= Build.VERSION_CODES.N
-                ? context.getResources().getString(R.string.close_all_incognito_notification_title)
+                ? context.getResources().getString(R.string.brave_close_all_private_tabs)
                 : context.getResources().getString(R.string.app_name);
 
         ChromeNotificationBuilder builder =
