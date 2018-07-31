@@ -322,7 +322,7 @@ bool RendererBlinkPlatformImpl::IsLinkVisited(uint64_t link_hash) {
   return GetContentClient()->renderer()->IsLinkVisited(link_hash);
 }
 
-blink::WebString RendererBlinkPlatformImpl::UserAgent() {
+blink::WebString RendererBlinkPlatformImpl::UserAgent(const std::string& strHost) {
   auto* render_thread = RenderThreadImpl::current();
   // RenderThreadImpl is null in some tests.
   if (!render_thread)
