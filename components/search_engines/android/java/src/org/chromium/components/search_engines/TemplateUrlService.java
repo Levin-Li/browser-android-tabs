@@ -50,6 +50,13 @@ public class TemplateUrlService {
     private final ObserverList<TemplateUrlServiceObserver> mObservers = new ObserverList<>();
     private long mNativeTemplateUrlServiceAndroid;
 
+    public static final String PREF_STANDARD_SEARCH_ENGINE = "brave_standard_search_engine";
+    public static final String PREF_STANDARD_SEARCH_ENGINE_KEYWORD = "brave_standard_search_engine_keyword";
+    public static final String PREF_PRIVATE_SEARCH_ENGINE = "brave_private_search_engine";
+    public static final String PREF_PRIVATE_SEARCH_ENGINE_KEYWORD = "brave_private_search_engine_keyword";
+
+    private boolean mCurrentDSEPrivate;
+
     private TemplateUrlService(long nativeTemplateUrlServiceAndroid) {
         // Note that this technically leaks the native object, however, TemplateUrlService
         // is a singleton that lives forever and there's no clean shutdown of Chrome on Android.
