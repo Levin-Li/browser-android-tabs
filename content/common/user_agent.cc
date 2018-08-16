@@ -23,8 +23,6 @@
 #define DUCK_DUCK_GO "duckduckgo.com"
 #define CHROME_UA "Chrome"
 #define BRAVE_UA "Brave Chrome"
-#define ANDROID_VERSION "8.1.0"
-#define ANDROID_INFO "; Pixel 2 Build/OPM1.171019.013"
 
 namespace content {
 
@@ -209,7 +207,7 @@ std::string BuildUserAgentFromOSAndProduct(const std::string& os_info,
   std::string user_agent;
   base::StringAppendF(
       &user_agent,
-      "Mozilla/5.0 (%s) AppleWebKit/%d.%d (KHTML, like Gecko) %s Safari/%d.%d",
+      "Mozilla/5.0 (%s) AppleWebKit/%d.%d (KHTML, like Gecko) %s Safari/%d.%d Brave",
       os_info.c_str(),
       WEBKIT_VERSION_MAJOR,
       WEBKIT_VERSION_MINOR,
