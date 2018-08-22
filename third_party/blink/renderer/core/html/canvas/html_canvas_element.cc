@@ -1008,6 +1008,9 @@ bool HTMLCanvasElement::OriginClean() const {
   if (frame) {
       allowed = frame->Loader().Client()->AllowFingerprinting();
   }
+  if (GetDocument().GetSettings()) {
+    GetDocument().GetSettings()->SetDisableReadingFromCanvas(!allowed);
+  }
   if (!allowed) {
       if (frame) {
         if (frame && !wasBlockedByFingerprinting_) {
