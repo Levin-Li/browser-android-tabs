@@ -41,7 +41,7 @@ public class SiteSettingsCategory {
             Type.BLUETOOTH_SCANNING, Type.CAMERA, Type.CLIPBOARD, Type.COOKIES,
             Type.DEVICE_LOCATION, Type.JAVASCRIPT, Type.MICROPHONE, Type.NFC, Type.NOTIFICATIONS,
             Type.POPUPS, Type.PROTECTED_MEDIA, Type.SENSORS, Type.SOUND, Type.USB,
-            Type.USE_STORAGE})
+            Type.USE_STORAGE, Type.DESKTOP_VIEW, Type.PLAY_VIDEO_IN_BACKGROUND, Type.PLAY_YT_VIDEO_IN_BROWSER})
     @Retention(RetentionPolicy.SOURCE)
     public @interface Type {
         // Values used to address array index - should be enumerated from 0 and can't have gaps.
@@ -66,15 +66,14 @@ public class SiteSettingsCategory {
         int SOUND = 16;
         int USB = 17;
         int USE_STORAGE = 18; // Always last as it should appear in the UI at the bottom.
+        int DESKTOP_VIEW = 19;
+        int PLAY_VIDEO_IN_BACKGROUND = 20;
+        int PLAY_YT_VIDEO_IN_BROWSER = 21;
         /**
          * Number of handled categories used for calculating array sizes.
          */
-        int NUM_ENTRIES = 19;
+        int NUM_ENTRIES = 22;
     }
-
-    public static final String CATEGORY_DESKTOP_VIEW = "desktop_view";
-    public static final String CATEGORY_PLAY_VIDEO_IN_BACKGROUND = "play_video_in_background";
-    public static final String CATEGORY_PLAY_YT_VIDEO_IN_BROWSER = "play_yt_video_in_browser";
 
     // The id of this category.
     private @Type int mCategory;
@@ -100,10 +99,6 @@ public class SiteSettingsCategory {
     public static SiteSettingsCategory createFromType(@Type int type) {
         if (type == Type.DEVICE_LOCATION) return new LocationCategory();
         if (type == Type.NOTIFICATIONS) return new NotificationCategory();
-        if (CATEGORY_DESKTOP_VIEW.equals(category)) {
-            return new SiteSettingsCategory(CATEGORY_DESKTOP_VIEW, "",
-                    ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW);
-        }
 
         final String permission;
         if (type == Type.CAMERA) {
@@ -122,15 +117,6 @@ public class SiteSettingsCategory {
         assert Type.ALL_SITES == 0;
         for (@Type int i = Type.ALL_SITES; i < Type.NUM_ENTRIES; i++) {
             if (contentSettingsType(i) == contentSettingsType) return createFromType(i);
-        }
-        if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW) {
-            return fromString(CATEGORY_DESKTOP_VIEW);
-        }
-        if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND) {
-            return fromString(CATEGORY_PLAY_VIDEO_IN_BACKGROUND);
-        }
-        if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER) {
-            return fromString(CATEGORY_PLAY_YT_VIDEO_IN_BROWSER);
         }
         return null;
     }
