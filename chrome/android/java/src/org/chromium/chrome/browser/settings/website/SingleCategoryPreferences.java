@@ -487,15 +487,6 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
                 break;
             }
 
-            if (mCategory.showDesktopViewSites()) {
-                PrefServiceBridge.getInstance().setDesktopViewEnabled((boolean) newValue);
-            } else if (mCategory.showPlayVideoInBackground()) {
-                PrefServiceBridge.getInstance().setPlayVideoInBackgroundEnabled((boolean) newValue);
-                AskForRelaunch();
-            } else if (mCategory.showPlayYTVideoInBrowser()) {
-                PrefServiceBridge.getInstance().setPlayYTVideoInBrowserEnabled((boolean) newValue);
-            }
-
             // Categories that support adding exceptions also manage the 'Add site' preference.
             // This should only be used for settings that have host-pattern based exceptions.
             if (mCategory.showSites(SiteSettingsCategory.Type.BACKGROUND_SYNC)
@@ -998,13 +989,6 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
                     LocationSettings.getInstance().isChromeLocationSettingEnabled());
         } else {
             binaryToggle.setChecked(WebsitePreferenceBridge.isCategoryEnabled(contentType));
-            if (mCategory.showDesktopViewSites()) {
-                binaryToggle.setChecked(PrefServiceBridge.getInstance().desktopViewEnabled());
-            } else if (mCategory.showPlayVideoInBackground()) {
-                binaryToggle.setChecked(PrefServiceBridge.getInstance().playVideoInBackgroundEnabled());
-            } else if (mCategory.showPlayYTVideoInBrowser()) {
-                binaryToggle.setChecked(PrefServiceBridge.getInstance().playYTVideoInBrowserEnabled());
-            }
         }
     }
 

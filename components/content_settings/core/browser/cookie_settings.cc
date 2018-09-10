@@ -53,7 +53,7 @@ ContentSetting CookieSettings::GetDefaultCookieSetting(
 }
 
 void CookieSettings::GetCookieSettings(
-    ContentSettingsForOneType* settings) {
+    ContentSettingsForOneType* settings) const {
   host_content_settings_map_->GetSettingsForOneType(
       ContentSettingsType::COOKIES, std::string(), settings);
 }
@@ -253,7 +253,7 @@ void CookieSettings::OnCookiePreferencesChanged() {
   }
 }
 
-bool CookieSettings::ShouldBlockThirdPartyCookies(const GURL& first_party_url) {
+bool CookieSettings::ShouldBlockThirdPartyCookies(const GURL& first_party_url) const {
   base::AutoLock auto_lock(lock_);
   net::blockers::ShieldsConfig* shieldsConfig =
     net::blockers::ShieldsConfig::getShieldsConfig();
