@@ -80,6 +80,9 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
     private View mTileGridPlaceholder;
     private View mNoSearchLogoSpacer;
 
+    private ViewGroup mBraveStatsView;
+    private ImageView mBraveStatsShadow;
+
     @Nullable
     private View mExploreSectionView; // View is null if explore flag is disabled.
     @Nullable
@@ -255,6 +258,9 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
                     R.dimen.ntp_search_box_bounds_vertical_inset_modern);
         }
         mNoSearchLogoSpacer = findViewById(R.id.no_search_logo_spacer);
+
+        mBraveStatsView = (ViewGroup) findViewById(R.id.brave_stats);
+        mBraveStatsShadow = (ImageView) findViewById(R.id.brave_stats_shadow);
 
         initializeSearchBoxTextView();
         initializeVoiceSearchButton();
