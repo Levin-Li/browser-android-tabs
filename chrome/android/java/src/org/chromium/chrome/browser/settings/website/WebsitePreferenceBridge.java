@@ -386,6 +386,15 @@ public class WebsitePreferenceBridge {
             case ContentSettingsType.SOUND:
                 WebsitePreferenceBridgeJni.get().setSoundEnabled(allow);
                 break;
+            case ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW:
+                nativeSetDesktopViewEnabled(allow);
+                break;
+            case ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND:
+                nativeSetPlayVideoInBackgroundEnabled(allow);
+                break;
+            case ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER:
+                nativeSetPlayYTVideoInBrowserEnabled(allow);
+                break;
             default:
                 assert false;
         }
@@ -423,6 +432,12 @@ public class WebsitePreferenceBridge {
                 return WebsitePreferenceBridgeJni.get().getSensorsEnabled();
             case ContentSettingsType.SOUND:
                 return WebsitePreferenceBridgeJni.get().getSoundEnabled();
+            case ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW:
+                return PrefServiceBridgeJni.get().getDesktopViewEnabled();
+            case ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND:
+                return PrefServiceBridgeJni.get().getPlayVideoInBackgroundEnabled();
+            case ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER:
+                return PrefServiceBridgeJni.get().getPlayYTVideoInBrowserEnabled();
             default:
                 assert false;
                 return false;
