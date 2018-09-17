@@ -483,6 +483,8 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
                     updateThirdPartyCookiesCheckBox();
                 } else if (type == SiteSettingsCategory.Type.NOTIFICATIONS) {
                     updateNotificationsSecondaryControls();
+                } else if (type == SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND) {
+                    AskForRelaunch();
                 }
                 break;
             }
