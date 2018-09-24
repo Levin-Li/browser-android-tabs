@@ -143,7 +143,17 @@ public class ChromeBrowserInitializer {
           return;
       }
       mUpdateStatsCalled = true;
-      new UpdateStatsAsyncTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+      new Thread(new Runnable() {
+          @Override
+          public void run () {
+              try {
+                  StatsUpdater.UpdateStats(ContextUtils.getApplicationContext());
+              }
+              catch(Exception exc) {
+                  // Just ignore it if we cannot update
+              }
+          }
+      }).start();
     }
 
     private void CheckInstallationSource() {
@@ -170,21 +180,6 @@ public class ChromeBrowserInitializer {
         protected Long doInBackground(Void... params) {
             try {
                 ADBlockUpdater.UpdateADBlock(ContextUtils.getApplicationContext(), true);
-            }
-            catch(Exception exc) {
-                // Just ignore it if we cannot update
-            }
-
-            return null;
-        }
-    }
-
-    // Stats update
-    class UpdateStatsAsyncTask extends AsyncTask<Void,Void,Long> {
-        @Override
-        protected Long doInBackground(Void... params) {
-            try {
-                StatsUpdater.UpdateStats(ContextUtils.getApplicationContext());
             }
             catch(Exception exc) {
                 // Just ignore it if we cannot update
@@ -593,7 +588,7 @@ public class ChromeBrowserInitializer {
         ModuleUtil.recordStartupTime();
 
         InitAdBlock();
-        //UpdateStats();
+        UpdateStats();
         CheckInstallationSource();
         SwitchSearchSuggestEnabled();
     }
