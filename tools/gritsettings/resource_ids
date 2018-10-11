@@ -336,6 +336,10 @@
   "components/autofill/core/browser/autofill_address_rewriter_resources.grd":{
     "includes": [14930]
   },
+  "components/web_contents_delegate_android/web_contents_delegate_android_strings.grd": {
+    "messages": [18200],
+  },
+  
   # END components/ section.
 
   # START ios/ section.
