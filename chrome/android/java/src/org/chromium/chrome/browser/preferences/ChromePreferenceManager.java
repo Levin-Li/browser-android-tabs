@@ -164,6 +164,24 @@ public class ChromePreferenceManager {
     }
 
     /**
+     * Get whether or not the new tab page button is enabled.
+     * @return True if the new tab page button is enabled.
+     */
+    public boolean isNewTabPageButtonEnabled() {
+        return true;
+        // return mSharedPreferences.getBoolean(NTP_BUTTON_ENABLED_KEY, false);
+    }
+  
+    /**
+     * Get whether or not the bottom toolbar is enabled.
+     * @return True if the bottom toolbar is enabled.
+     */
+    public boolean isBottomToolbarEnabled() {
+        return true;
+        // return mSharedPreferences.getBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, false);
+    }
+
+    /**
      * Gets a set of Strings representing digital asset links that have been verified.
      * Set by {@link #setVerifiedDigitalAssetLinks(Set)}.
      */
