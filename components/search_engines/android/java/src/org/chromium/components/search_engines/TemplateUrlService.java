@@ -65,12 +65,14 @@ public class TemplateUrlService {
     public static final String QWANT_SE_KEYWORD = "qwant.com";
 
     private boolean mCurrentDSEPrivate;
+    private boolean mFirstDSEUpdate;
 
     private TemplateUrlService(long nativeTemplateUrlServiceAndroid) {
         // Note that this technically leaks the native object, however, TemplateUrlService
         // is a singleton that lives forever and there's no clean shutdown of Chrome on Android.
         mNativeTemplateUrlServiceAndroid = nativeTemplateUrlServiceAndroid;
         mCurrentDSEPrivate = false;
+        mFirstDSEUpdate = true;
     }
 
     @CalledByNative
@@ -388,8 +390,9 @@ public class TemplateUrlService {
     }
 
     public void updateCurrentDSE(boolean is_private) {
-        if (mCurrentDSEPrivate != is_private) {
+        if (mCurrentDSEPrivate != is_private || mFirstDSEUpdate) {
             mCurrentDSEPrivate = is_private;
+            mFirstDSEUpdate = false;
             setSearchEngine(getDefaultSearchEngineKeyword(is_private));
         }
     }
