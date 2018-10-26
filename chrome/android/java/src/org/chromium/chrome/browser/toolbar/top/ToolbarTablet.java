@@ -26,13 +26,16 @@ import android.widget.ImageView;
 import androidx.annotation.StringRes;
 
 import org.chromium.base.ApiCompatibilityUtils;
+import org.chromium.base.ApplicationStatus;
 import org.chromium.base.metrics.RecordUserAction;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.NavigationPopup;
 import org.chromium.chrome.browser.download.DownloadUtils;
 import org.chromium.chrome.browser.ntp.NewTabPage;
 import org.chromium.chrome.browser.omnibox.LocationBar;
 import org.chromium.chrome.browser.omnibox.LocationBarTablet;
+import org.chromium.chrome.browser.PopupActivity;
 import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
 import org.chromium.chrome.browser.preferences.ChromePreferenceKeys;
 import org.chromium.chrome.browser.preferences.SharedPreferencesManager;
@@ -68,6 +71,7 @@ public class ToolbarTablet extends ToolbarLayout
     private ImageButton mBookmarkButton;
     private ImageButton mSaveOfflineButton;
     private ToggleTabStackButton mAccessibilitySwitcherButton;
+    private ImageView mBraveRewardsPanelButton;
 
     private OnClickListener mBookmarkListener;
     private OnClickListener mBraveShieldsListener;
@@ -153,6 +157,8 @@ public class ToolbarTablet extends ToolbarLayout
         mToolbarButtonsVisible = true;
         mBraveShieldsButton = (ImageView) findViewById(R.id.brave_shields_button);
         mBraveShieldsButton.setClickable(true);
+        mBraveRewardsPanelButton = (ImageView) findViewById(R.id.brave_rewards_button);
+        mBraveRewardsPanelButton.setClickable(true);
         mToolbarButtons = new ImageButton[] {mBackButton, mForwardButton, mReloadButton};
     }
 
@@ -279,6 +285,7 @@ public class ToolbarTablet extends ToolbarLayout
         mSaveOfflineButton.setOnClickListener(this);
         mSaveOfflineButton.setOnLongClickListener(this);
         mBraveShieldsButton.setOnClickListener(this);
+        mBraveRewardsPanelButton.setOnClickListener(this);
     }
 
     @Override
@@ -338,6 +345,10 @@ public class ToolbarTablet extends ToolbarLayout
             if (null != mBraveShieldsButton) {
                 mBraveShieldsListener.onClick(mBraveShieldsButton);
                 RecordUserAction.record("MobileToolbarShowBraveShields");
+            }
+        } else if (mBraveRewardsPanelButton == v) {
+            if (null != mBraveRewardsPanelButton) {
+                PopupActivity.show((ChromeActivity) ApplicationStatus.getLastTrackedFocusedActivity());
             }
         }
     }
