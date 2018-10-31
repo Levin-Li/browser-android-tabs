@@ -339,6 +339,9 @@
   "components/web_contents_delegate_android/web_contents_delegate_android_strings.grd": {
     "messages": [18200],
   },
+  "brave/components/resources/brave_components_strings.grd": {
+    "messages": [39000]
+  },
   
   # END components/ section.
 
