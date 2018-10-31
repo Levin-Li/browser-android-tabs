@@ -8,6 +8,7 @@
 
 #include "base/trace_event/trace_event.h"
 #include "build/branding_buildflags.h"
+#include "brave/components//brave_rewards/browser/rewards_service.h"
 #include "build/build_config.h"
 #include "chrome/browser/about_flags.h"
 #include "chrome/browser/accessibility/accessibility_labels_service.h"
@@ -1045,6 +1046,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry,
 #endif
 
   RegisterProfilePrefsForMigration(registry);
+  brave_rewards::RewardsService::RegisterProfilePrefs(registry);
 }
 
 void RegisterUserProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {

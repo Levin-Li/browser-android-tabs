@@ -9,6 +9,10 @@
 #include "base/path_service.h"
 #include "build/build_config.h"
 
+#include "chrome/browser/sessions/session_tab_helper.h"
+#include "content/public/browser/websocket_handshake_request_info.h"
+#include "content/public/browser/web_contents.h"
+
 #if defined(OS_ANDROID)
 #include "base/android/path_utils.h"
 #endif
