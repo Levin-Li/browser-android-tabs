@@ -383,6 +383,7 @@ jumbo_static_library("ui") {
     "//base:i18n",
     "//base/allocator:buildflags",
     "//build:branding_buildflags",
+    "//brave/vendor/bat-native-ledger",
     "//cc/paint",
     "//chrome:extra_resources",
     "//chrome:resources",
