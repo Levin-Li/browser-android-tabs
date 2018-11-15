@@ -187,6 +187,12 @@ public abstract class TabWebContentsDelegateAndroid extends WebContentsDelegateA
         mTab.handleRendererResponsiveStateChanged(true);
     }
 
+    @Override
+    public void openNewTab(String url, String extraHeaders, ResourceRequestBody postData,
+            int disposition, boolean isRendererInitiated) {
+        mTab.openNewTab(url, null, extraHeaders, postData, disposition, true, isRendererInitiated);
+    }
+
     /**
      * Returns whether the page should resume accepting requests for the new window. This is
      * used when window creation is asynchronous and the navigations need to be delayed.

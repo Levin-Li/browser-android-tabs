@@ -170,6 +170,7 @@ extern const char kChromeUIWelcomeHost[];
 extern const char kChromeUIWelcomeURL[];
 extern const char kRewardsJS[];
 extern const char kRewardsPanelJS[];
+extern const char kRewardsDonateJS[];
 
 #if defined(OS_WIN)
 // TODO(crbug.com/1003960): Remove when issue is resolved.
@@ -180,6 +181,8 @@ extern const char kChromeUIWelcomeWin10Host[];
 extern const char kChromeUIExploreSitesInternalsHost[];
 extern const char kBraveRewardsURL[];
 extern const char kBraveRewardsHost[];
+extern const char kBraveRewardsDonateURL[];
+extern const char kBraveRewardsDonateHost[];
 extern const char kBraveRewardsPanelURL[];
 extern const char kBraveRewardsPanelHost[];
 extern const char kChromeUIJavaCrashURL[];
