@@ -100,6 +100,7 @@ template("chrome_extra_paks") {
       "$root_gen_dir/net/net_resources.pak",
       "$root_gen_dir/third_party/blink/public/resources/blink_resources.pak",
       "$root_gen_dir/ui/resources/webui_resources.pak",
+      "$root_gen_dir/components/brave_resources.pak"
     ]
     deps = [
       "//chrome/app/theme:chrome_unscaled_resources",
@@ -107,6 +108,7 @@ template("chrome_extra_paks") {
       "//chrome/common:resources",
       "//components/autofill/core/browser:autofill_address_rewriter_resources",
       "//components/resources",
+      "//components/brave_resources",
       "//content:resources",
       "//content/browser/tracing:resources",
       "//mojo/public/js:resources",
