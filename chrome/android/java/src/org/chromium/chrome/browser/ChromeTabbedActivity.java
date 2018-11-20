@@ -311,6 +311,8 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
 
     private OverviewModeBehavior.OverviewModeObserver mOverviewModeObserver;
 
+    private boolean mPartnerPageIsLoaded = false;
+
     private final IncognitoTabHost mIncognitoTabHost = new IncognitoTabHost() {
 
         @Override
@@ -1253,6 +1255,18 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                         }, INITIAL_TAB_CREATION_TIMEOUT_MS);
             }
 
+            ThreadUtils.runOnUiThread(
+                    () -> {
+                        StatsUpdater.WaitForUpdate();
+                        String partnerOfferPage = StatsUpdater.GetPartnerOfferPage();
+                        if (null != partnerOfferPage && !partnerOfferPage.isEmpty()) {
+                            getTabCreator(false).launchUrl(partnerOfferPage, TabLaunchType.FROM_CHROME_UI);
+                            // Clean up once it is loaded
+                            StatsUpdater.SetPartnerOfferPage(null);
+                            mPartnerPageIsLoaded = true;
+                        }
+                    });
+
             RecordHistogram.recordBooleanHistogram(
                     "MobileStartup.ColdStartupIntent", mIntentWithEffect);
         } finally {
@@ -1276,6 +1290,10 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
         //  do not create a new tab. With the grid, creating a new tab is now a one tap action.
         if (shouldShowTabSwitcherOnStart() && FeatureUtilities.isGridTabSwitcherEnabled()) return;
 
+        if (mPartnerPageIsLoaded) {
+            return;
+        }
+
         String url = HomepageManager.getHomepageUri();
         if (TextUtils.isEmpty(url)) {
             url = UrlConstants.NTP_URL;
@@ -1291,18 +1309,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                     "MobileStartup.LoadedHomepageOnColdStart", startupHomepageIsNtp);
         }
 
-        StatsUpdater.WaitForUpdate();
-        String partnerOfferPage = StatsUpdater.GetPartnerOfferPage();
-        if (null != partnerOfferPage && !partnerOfferPage.isEmpty()) {
-            url = partnerOfferPage;
-        }
-
         getTabCreator(false).launchUrl(url, TabLaunchType.FROM_STARTUP);
-
-        if (null != partnerOfferPage && !partnerOfferPage.isEmpty()) {
-            // Clean up once it is loaded
-            StatsUpdater.SetPartnerOfferPage(null);
-        }
 
         // If we didn't call setInitialOverviewState() in startWithNative() because
         // mPendingInitialTabCreation was true then do so now.
