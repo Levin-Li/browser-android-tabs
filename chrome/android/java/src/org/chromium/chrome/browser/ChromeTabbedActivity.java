@@ -1242,6 +1242,27 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
             if (!mCreatedTabOnStartup
                     || (!hasTabWaitingForReparenting && activeTabBeingRestored
                                && getTabModelSelector().getTotalTabCount() == 0)) {
+                if (!StatsUpdater.GetPartnerOfferPageLoaded()) {
+                    // Launch partner page, when it is ready
+                    new Thread() {
+                        @Override
+                        public void run() {
+                            StatsUpdater.WaitForUpdate();
+                            ThreadUtils.runOnUiThread(
+                                () -> {
+                                    synchronized (mTabModelSelectorImpl) {
+                                        String partnerOfferPage = StatsUpdater.GetPartnerOfferPage();
+                                        if (null != partnerOfferPage && !partnerOfferPage.isEmpty()) {
+                                            getTabCreator(false).launchUrl(partnerOfferPage, TabLaunchType.FROM_CHROME_UI);
+                                            mPartnerPageIsLoaded = true;
+                                        }
+                                        // Clean up once it is loaded
+                                        StatsUpdater.SetPartnerOfferPage(null);
+                                    }
+                                });
+                        }
+                    }.start();
+                }
                 // If homepage URI is not determined, due to PartnerBrowserCustomizations provider
                 // async reading, then create a tab at the async reading finished. If it takes
                 // too long, just create NTP.
@@ -1254,18 +1275,6 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                             mMainIntentMetrics.setIgnoreEvents(false);
                         }, INITIAL_TAB_CREATION_TIMEOUT_MS);
             }
-
-            ThreadUtils.runOnUiThread(
-                    () -> {
-                        StatsUpdater.WaitForUpdate();
-                        String partnerOfferPage = StatsUpdater.GetPartnerOfferPage();
-                        if (null != partnerOfferPage && !partnerOfferPage.isEmpty()) {
-                            getTabCreator(false).launchUrl(partnerOfferPage, TabLaunchType.FROM_CHROME_UI);
-                            // Clean up once it is loaded
-                            StatsUpdater.SetPartnerOfferPage(null);
-                            mPartnerPageIsLoaded = true;
-                        }
-                    });
 
             RecordHistogram.recordBooleanHistogram(
                     "MobileStartup.ColdStartupIntent", mIntentWithEffect);
@@ -1284,36 +1293,46 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
      * Create an initial tab for cold start without restored tabs.
      */
     private void createInitialTab() {
-        mPendingInitialTabCreation = false;
+        synchronized (mTabModelSelectorImpl) {
+            mPendingInitialTabCreation = false;
 
-        // If the grid tab switcher is enabled and the tab switcher will be shown on start,
-        //  do not create a new tab. With the grid, creating a new tab is now a one tap action.
-        if (shouldShowTabSwitcherOnStart() && FeatureUtilities.isGridTabSwitcherEnabled()) return;
+            // If the grid tab switcher is enabled and the tab switcher will be shown on start,
+            //  do not create a new tab. With the grid, creating a new tab is now a one tap action.
+            if (shouldShowTabSwitcherOnStart() && FeatureUtilities.isGridTabSwitcherEnabled()) return;
 
-        if (mPartnerPageIsLoaded) {
-            return;
-        }
-
-        String url = HomepageManager.getHomepageUri();
-        if (TextUtils.isEmpty(url)) {
-            url = UrlConstants.NTP_URL;
-        } else {
-            boolean startupHomepageIsNtp = false;
-            // Migrate legacy NTP URLs (chrome://newtab) to the newer format
-            // (chrome-native://newtab)
-            if (NewTabPage.isNTPUrl(url)) {
-                url = UrlConstants.NTP_URL;
-                startupHomepageIsNtp = true;
+            if (mPartnerPageIsLoaded) {
+                return;
             }
-            RecordHistogram.recordBooleanHistogram(
-                    "MobileStartup.LoadedHomepageOnColdStart", startupHomepageIsNtp);
+
+            String url = HomepageManager.getHomepageUri();
+            if (TextUtils.isEmpty(url)) {
+                url = UrlConstants.NTP_URL;
+            } else {
+                boolean startupHomepageIsNtp = false;
+                // Migrate legacy NTP URLs (chrome://newtab) to the newer format
+                // (chrome-native://newtab)
+                if (NewTabPage.isNTPUrl(url)) {
+                    url = UrlConstants.NTP_URL;
+                } else {
+                    boolean startupHomepageIsNtp = false;
+                    // Migrate legacy NTP URLs (chrome://newtab) to the newer format
+                    // (chrome-native://newtab)
+                    if (NewTabPage.isNTPUrl(url)) {
+                        url = UrlConstants.NTP_URL;
+                        startupHomepageIsNtp = true;
+                    }
+                    RecordHistogram.recordBooleanHistogram(
+                            "MobileStartup.LoadedHomepageOnColdStart", startupHomepageIsNtp);
+                }
+                getTabCreator(false).launchUrl(url, TabLaunchType.FROM_CHROME_UI);
+            }
+
+            getTabCreator(false).launchUrl(url, TabLaunchType.FROM_STARTUP);
+
+            // If we didn't call setInitialOverviewState() in startWithNative() because
+            // mPendingInitialTabCreation was true then do so now.
+            if (hasStartWithNativeBeenCalled()) setInitialOverviewState();
         }
-
-        getTabCreator(false).launchUrl(url, TabLaunchType.FROM_STARTUP);
-
-        // If we didn't call setInitialOverviewState() in startWithNative() because
-        // mPendingInitialTabCreation was true then do so now.
-        if (hasStartWithNativeBeenCalled()) setInitialOverviewState();
     }
 
     @Override
