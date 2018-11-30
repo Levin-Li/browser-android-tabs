@@ -12,11 +12,16 @@
 #include "base/files/file_path.h"
 #include "base/lazy_instance.h"
 #include "chrome/utility/browser_exposed_utility_interfaces.h"
+#include "brave/components/brave_ads/browser/buildflags/buildflags.h"
 #include "chrome/utility/services.h"
 #include "services/service_manager/sandbox/switches.h"
 
 #if BUILDFLAG(ENABLE_PRINT_PREVIEW) && defined(OS_WIN)
 #include "chrome/utility/printing_handler.h"
+#endif
+
+#if BUILDFLAG(BRAVE_ADS_ENABLED)
+#include "brave/components/services/bat_ads/bat_ads_app.h"
 #endif
 
 namespace {
