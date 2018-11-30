@@ -83,6 +83,7 @@ const service_manager::Manifest& GetChromeContentBrowserOverlayManifest() {
 #endif
                               rappor::mojom::RapporRecorder,
                               safe_browsing::mojom::SafeBrowsing>())
+        .RequireCapability("bat_ads", "bat_ads")
         .RequireCapability("ash", "system_ui")
         .RequireCapability("ash", "test")
         .RequireCapability("ash", "display")
