@@ -36,7 +36,8 @@ class NotificationHandler {
                              // user via a notification.
     SHARING = 6,
     ANNOUNCEMENT = 7,
-    MAX = ANNOUNCEMENT,
+    BRAVE_ADS = 8,
+    MAX = BRAVE_ADS,
   };
 
   virtual ~NotificationHandler();
