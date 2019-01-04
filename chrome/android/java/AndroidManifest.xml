@@ -605,9 +605,10 @@ by a child template that "extends" this file.
             {{ self.extra_web_rendering_activity_definitions() }}
         </activity>
 
-         <!--Test Activities -->
+
          <activity android:name="org.chromium.chrome.browser.BraveRewardsDonationSentActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc|screenLayout|smallestScreenSize" />
 
          <activity android:name="org.chromium.chrome.browser.BraveRewardsSiteBannerActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
