@@ -19,6 +19,7 @@
 #include "extensions/buildflags/buildflags.h"
 #include "net/cookies/cookie_util.h"
 #include "url/gurl.h"
+#include "chrome/browser/net/blockers/shield_exceptions.h"
 #include "chrome/browser/net/blockers/shields_config.h"
 
 namespace content_settings {
@@ -194,7 +195,7 @@ void CookieSettings::GetCookieSettingInternal(
   // by default, apply CONTENT_SETTING_BLOCKED.
   bool block_third = info.primary_pattern.MatchesAllHosts() &&
                      info.secondary_pattern.MatchesAllHosts() &&
-                     ShouldBlockThirdPartyCookies(first_party_url) &&
+                     ShouldBlockThirdPartyCookies(first_party_url, url) &&
                      !first_party_url.SchemeIs(extension_scheme_);
 
   // We should always have a value, at least from the default provider.
@@ -253,7 +254,12 @@ void CookieSettings::OnCookiePreferencesChanged() {
   }
 }
 
-bool CookieSettings::ShouldBlockThirdPartyCookies(const GURL& first_party_url) const {
+bool CookieSettings::ShouldBlockThirdPartyCookies(const GURL& first_party_url,
+    const GURL& subresource_url) const {
+  if (net::blockers::IsWhitelistedCookieExeption(first_party_url,
+      subresource_url)) {
+    return false;
+  }
   base::AutoLock auto_lock(lock_);
   net::blockers::ShieldsConfig* shieldsConfig =
     net::blockers::ShieldsConfig::getShieldsConfig();
@@ -263,6 +269,7 @@ bool CookieSettings::ShouldBlockThirdPartyCookies(const GURL& first_party_url) c
   } else {
     previous_first_party_host_ = host;
   }
+
   if (nullptr != shieldsConfig && 0 != host.length()) {
     std::string hostConfig = shieldsConfig->getHostSettings(incognito_, host);
     if (hostConfig.length() == 11) {
@@ -276,8 +283,9 @@ bool CookieSettings::ShouldBlockThirdPartyCookies(const GURL& first_party_url) c
       }
     }
   }
-
-  return block_third_party_cookies_;
+  // Returning here the default value, which is `block` and does not match with
+  // kBlockThirdPartyCookies pref
+  return true;
 }
 
 }  // namespace content_settings

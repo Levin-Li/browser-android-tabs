@@ -131,7 +131,7 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
     public static final String TRI_STATE_TOGGLE_KEY = "tri_state_toggle";
 
     // Keys for category-specific preferences (toggle, link, button etc.), dynamically shown.
-    public static final String THIRD_PARTY_COOKIES_TOGGLE_KEY = "third_party_cookies";
+    // public static final String THIRD_PARTY_COOKIES_TOGGLE_KEY = "third_party_cookies";
     public static final String NOTIFICATIONS_VIBRATE_TOGGLE_KEY = "notifications_vibrate";
     public static final String NOTIFICATIONS_QUIET_UI_TOGGLE_KEY = "notifications_quiet_ui";
     public static final String EXPLAIN_PROTECTED_MEDIA_KEY = "protected_content_learn_more";
@@ -479,9 +479,9 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
                 WebsitePreferenceBridge.setCategoryEnabled(
                         SiteSettingsCategory.contentSettingsType(type), (boolean) newValue);
 
-                if (type == SiteSettingsCategory.Type.COOKIES) {
+                /*if (type == SiteSettingsCategory.Type.COOKIES) {
                     updateThirdPartyCookiesCheckBox();
-                } else if (type == SiteSettingsCategory.Type.NOTIFICATIONS) {
+                } else */if (type == SiteSettingsCategory.Type.NOTIFICATIONS) {
                     updateNotificationsSecondaryControls();
                 } else if (type == SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND) {
                     AskForRelaunch();
@@ -521,9 +521,9 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
             int setting = (int) newValue;
             WebsitePreferenceBridge.setContentSetting(mCategory.getContentSettingsType(), setting);
             getInfoForOrigins();
-        } else if (THIRD_PARTY_COOKIES_TOGGLE_KEY.equals(preference.getKey())) {
-            PrefServiceBridge.getInstance().setBoolean(
-                    Pref.BLOCK_THIRD_PARTY_COOKIES, ((boolean) newValue));
+        // } else if (THIRD_PARTY_COOKIES_TOGGLE_KEY.equals(preference.getKey())) {
+        //     PrefServiceBridge.getInstance().setBoolean(
+        //             Pref.BLOCK_THIRD_PARTY_COOKIES, ((boolean) newValue));
         } else if (NOTIFICATIONS_VIBRATE_TOGGLE_KEY.equals(preference.getKey())) {
             PrefServiceBridge.getInstance().setBoolean(
                     Pref.NOTIFICATIONS_VIBRATE_ENABLED, (boolean) newValue);
@@ -831,7 +831,7 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
                 (ChromeSwitchPreference) screen.findPreference(BINARY_TOGGLE_KEY);
         TriStateSiteSettingsPreference triStateToggle =
                 (TriStateSiteSettingsPreference) screen.findPreference(TRI_STATE_TOGGLE_KEY);
-        Preference thirdPartyCookies = screen.findPreference(THIRD_PARTY_COOKIES_TOGGLE_KEY);
+        // Preference thirdPartyCookies = screen.findPreference(THIRD_PARTY_COOKIES_TOGGLE_KEY);
         Preference notificationsVibrate = screen.findPreference(NOTIFICATIONS_VIBRATE_TOGGLE_KEY);
         Preference notificationsQuietUi = screen.findPreference(NOTIFICATIONS_QUIET_UI_TOGGLE_KEY);
         Preference explainProtectedMediaKey = screen.findPreference(EXPLAIN_PROTECTED_MEDIA_KEY);
@@ -863,7 +863,7 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
         }
 
         if (hideSecondaryToggles) {
-            screen.removePreference(thirdPartyCookies);
+            // screen.removePreference(thirdPartyCookies);
             screen.removePreference(notificationsVibrate);
             screen.removePreference(notificationsQuietUi);
             screen.removePreference(explainProtectedMediaKey);
@@ -876,12 +876,12 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
         }
 
         // Configure/hide the third-party cookies toggle, as needed.
-        if (mCategory.showSites(SiteSettingsCategory.Type.COOKIES)) {
-            thirdPartyCookies.setOnPreferenceChangeListener(this);
-            updateThirdPartyCookiesCheckBox();
-        } else {
-            screen.removePreference(thirdPartyCookies);
-        }
+        // if (mCategory.showSites(SiteSettingsCategory.Type.COOKIES)) {
+        //     thirdPartyCookies.setOnPreferenceChangeListener(this);
+        //     updateThirdPartyCookiesCheckBox();
+        // } else {
+        //     screen.removePreference(thirdPartyCookies);
+        // }
 
         // Configure/hide the notifications secondary controls, as needed.
         if (mCategory.showSites(SiteSettingsCategory.Type.NOTIFICATIONS)) {
@@ -994,18 +994,18 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
         }
     }
 
-    private void updateThirdPartyCookiesCheckBox() {
-        ChromeBaseCheckBoxPreference thirdPartyCookiesPref =
-                (ChromeBaseCheckBoxPreference) getPreferenceScreen().findPreference(
-                        THIRD_PARTY_COOKIES_TOGGLE_KEY);
-        thirdPartyCookiesPref.setChecked(
-                PrefServiceBridge.getInstance().getBoolean(Pref.BLOCK_THIRD_PARTY_COOKIES));
-        thirdPartyCookiesPref.setEnabled(
-                WebsitePreferenceBridge.isCategoryEnabled(ContentSettingsType.COOKIES));
-        thirdPartyCookiesPref.setManagedPreferenceDelegate(preference
-                -> PrefServiceBridge.getInstance().isManagedPreference(
-                        Pref.BLOCK_THIRD_PARTY_COOKIES));
-    }
+    // private void updateThirdPartyCookiesCheckBox() {
+    //     ChromeBaseCheckBoxPreference thirdPartyCookiesPref =
+    //             (ChromeBaseCheckBoxPreference) getPreferenceScreen().findPreference(
+    //                     THIRD_PARTY_COOKIES_TOGGLE_KEY);
+    //     thirdPartyCookiesPref.setChecked(
+    //             PrefServiceBridge.getInstance().getBoolean(Pref.BLOCK_THIRD_PARTY_COOKIES));
+    //     thirdPartyCookiesPref.setEnabled(
+    //             WebsitePreferenceBridge.isCategoryEnabled(ContentSettingsType.COOKIES));
+    //     thirdPartyCookiesPref.setManagedPreferenceDelegate(preference
+    //             -> PrefServiceBridge.getInstance().isManagedPreference(
+    //                     Pref.BLOCK_THIRD_PARTY_COOKIES));
+    // }
 
     private void updateNotificationsSecondaryControls() {
         Boolean categoryEnabled =
