@@ -1974,6 +1974,7 @@ jumbo_static_library("browser") {
     "//base/util/memory_pressure:memory_pressure",
     "//base/util/values:values_util",
     "//build:branding_buildflags",
+    "//brave_src/browser:browser_process",
     "//cc",
     "//chrome:extra_resources",
     "//chrome:resources",
