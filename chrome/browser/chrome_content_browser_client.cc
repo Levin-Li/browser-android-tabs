@@ -34,6 +34,7 @@
 #include "base/task/post_task.h"
 #include "base/threading/sequenced_task_runner_handle.h"
 #include "base/threading/thread_task_runner_handle.h"
+#include "brave_src/browser/brave_tab_url_web_contents_observer.h"
 #include "build/build_config.h"
 #include "chrome/app/builtin_service_manifests.h"
 #include "chrome/app/chrome_content_browser_overlay_manifest.h"
@@ -2461,6 +2462,26 @@ bool ChromeContentBrowserClient::AllowSignedExchange(
   Profile* profile = Profile::FromBrowserContext(browser_context);
   return profile->GetPrefs()->GetBoolean(prefs::kSignedHTTPExchangeEnabled);
 }
+
+namespace {
+
+GURL GetTabUrl(
+  const GURL& first_party,
+  int render_process_id,
+  int render_frame_id) {
+  GURL tab_url;
+  if (!first_party.is_empty()) {
+    tab_url = first_party;
+  } else {
+    tab_url = brave::BraveTabUrlWebContentsObserver::
+        GetTabURLFromRenderFrameInfo(
+            render_process_id, render_frame_id, -1).GetOrigin();
+  }
+
+  return tab_url;
+}
+
+}  // namespace
 
 void ChromeContentBrowserClient::AllowWorkerFileSystem(
     const GURL& url,
