@@ -24,6 +24,9 @@
 #include "brave/components/services/bat_ads/bat_ads_app.h"
 #endif
 
+#include "brave/components/services/bat_ledger/bat_ledger_app.h"
+#include "brave/components/services/bat_ledger/public/interfaces/bat_ledger.mojom.h"
+
 namespace {
 
 base::LazyInstance<ChromeContentUtilityClient::NetworkBinderCreationCallback>::

@@ -343,6 +343,8 @@
 #include "url/gurl.h"
 #include "url/origin.h"
 
+#include "brave/components/services/bat_ledger/public/interfaces/bat_ledger.mojom.h"
+
 #if defined(OS_WIN)
 #include "base/strings/string_tokenizer.h"
 #include "chrome/browser/chrome_browser_main_win.h"
