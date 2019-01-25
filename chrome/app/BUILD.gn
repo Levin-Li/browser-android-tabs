@@ -440,6 +440,7 @@ source_set("builtin_service_manifests") {
     "//base",
     "//chrome/common:buildflags",
     "//chrome/common:mojo_bindings",
+    "//brave/components/services/bat_ledger:manifest",
     "//components/startup_metric_utils/common:interfaces",
     "//device/vr/buildflags",
     "//extensions/buildflags",
