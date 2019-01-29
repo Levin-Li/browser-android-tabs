@@ -242,6 +242,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
     public static final int SITE_BANNER_NOT_VERIFIED_LEARN_MORE_RESULT_CODE = SITE_BANNER_REQUEST_CODE + 1;
     public static final String ADD_FUNDS_URL = "chrome://rewards/#add-funds";
     public static final String REWARDS_SETTINGS_URL = "chrome://rewards/";
+    public static final String REWARDS_AC_SETTINGS_URL = "chrome://rewards/contribute";
     public static final String REWARDS_LEARN_MORE_URL = "https://brave.com/faq-rewards/#unclaimed-funds";
 
     @VisibleForTesting
