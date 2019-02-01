@@ -1698,7 +1698,7 @@ void ServiceWorkerVersion::StartWorkerInternal() {
   // more than once.
   params->outside_fetch_client_settings_object =
       outside_fetch_client_settings_object_.Clone();
-  params->user_agent = GetContentClient()->browser()->GetUserAgent();
+  params->user_agent = GetContentClient()->browser()->GetUserAgent("");
   params->is_installed = IsInstalled(status_);
   params->pause_after_download = pause_after_download();
   params->script_url_to_skip_throttling = updated_script_url_;

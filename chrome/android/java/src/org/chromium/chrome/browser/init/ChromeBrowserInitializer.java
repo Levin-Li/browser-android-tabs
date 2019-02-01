@@ -80,10 +80,10 @@ public class ChromeBrowserInitializer {
     private boolean mNativeInitializationComplete;
     private boolean mNetworkChangeNotifierInitializationComplete;
 
-    private boolean mAdBlockInitCalled = false;
-    private boolean mUpdateStatsCalled = false;
-    private boolean mInstallationSourceChecked = false;
-    private boolean mSearchSuggestSwitched = false;
+    private boolean mAdBlockInitCalled;
+    private boolean mUpdateStatsCalled;
+    private boolean mInstallationSourceChecked;
+    private boolean mSearchSuggestSwitched;
 
     /**
      * A callback to be executed when there is a new version available in Play Store.

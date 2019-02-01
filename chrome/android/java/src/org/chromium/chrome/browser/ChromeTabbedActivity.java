@@ -311,7 +311,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
 
     private OverviewModeBehavior.OverviewModeObserver mOverviewModeObserver;
 
-    private boolean mPartnerPageIsLoaded = false;
+    private boolean mPartnerPageIsLoaded;
 
     private final IncognitoTabHost mIncognitoTabHost = new IncognitoTabHost() {
 
@@ -485,6 +485,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
      * Constructs a ChromeTabbedActivity.
      */
     public ChromeTabbedActivity() {
+        mPartnerPageIsLoaded = false;
         mActivityStopMetrics = new ActivityStopMetrics();
         mMainIntentMetrics = new MainIntentBehaviorMetrics(this);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
