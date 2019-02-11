@@ -48,7 +48,7 @@ public class AutofillAssistantPreferences extends PreferenceFragmentCompat {
         // (e.g. the switch will say "On" when it is really turned off), so .setChecked() should be
         // called after .addPreference()
         autofillAssistantSwitch.setChecked(ContextUtils.getAppSharedPreferences().getBoolean(
-                PREF_AUTOFILL_ASSISTANT_SWITCH, true));
+                PREF_AUTOFILL_ASSISTANT_SWITCH, false));
     }
 
     private Context getStyledContext() {
