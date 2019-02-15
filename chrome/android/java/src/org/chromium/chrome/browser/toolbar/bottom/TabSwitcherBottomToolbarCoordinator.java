@@ -120,7 +120,9 @@ public class TabSwitcherBottomToolbarCoordinator {
     public void destroy() {
         mMediator.destroy();
         mCloseAllTabsButton.destroy();
-        mNewTabButton.destroy();
+        if (mNewTabButton != null) {
+            mNewTabButton.destroy();
+        }
         mMenuButton.destroy();
     }
 }

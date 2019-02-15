@@ -147,6 +147,7 @@ import org.chromium.chrome.browser.toolbar.top.ToolbarControlContainer;
 import org.chromium.chrome.browser.ui.RootUiCoordinator;
 import org.chromium.chrome.browser.ui.appmenu.AppMenuPropertiesDelegate;
 import org.chromium.chrome.browser.usage_stats.UsageStatsService;
+import org.chromium.chrome.browser.toolbar.top.ToolbarLayout;
 import org.chromium.chrome.browser.util.AccessibilityUtil;
 import org.chromium.chrome.browser.util.IntentUtils;
 import org.chromium.chrome.browser.util.UrlConstants;
@@ -166,7 +167,7 @@ import org.chromium.content_public.common.Referrer;
 import org.chromium.ui.base.PageTransition;
 import org.chromium.ui.modaldialog.ModalDialogManager;
 import org.chromium.ui.widget.Toast;
-import org.chromium.chrome.browser.toolbar.Toolbar;
+import org.chromium.chrome.browser.toolbar.top.Toolbar;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -2587,13 +2588,19 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
     }
 
     public void OnRewardsPanelDismiss() {
-       Toolbar t = getToolbarManager().getToolbar();
-       t.onRewardsPanelDismiss();
+        ToolbarLayout layout = (ToolbarLayout)findViewById(R.id.toolbar);
+        assert layout != null;
+        if (layout != null) {
+            layout.onRewardsPanelDismiss();
+        }
     }
 
     public void dismissRewardsPanel() {
-       Toolbar t = getToolbarManager().getToolbar();
-       t.dismissRewardsPanel();
+        ToolbarLayout layout = (ToolbarLayout)findViewById(R.id.toolbar);
+        assert layout != null;
+        if (layout != null) {
+            layout.onRewardsPanelDismiss();
+        }
     }
 
 

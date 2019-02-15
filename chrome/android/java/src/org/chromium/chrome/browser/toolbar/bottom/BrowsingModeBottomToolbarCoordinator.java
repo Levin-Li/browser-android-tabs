@@ -42,7 +42,7 @@ public class BrowsingModeBottomToolbarCoordinator {
     private final HomeButton mHomeButton;
 
     /** The share button that lives in the bottom toolbar. */
-    private final ShareButton mShareButton;
+    //private final ShareButton mShareButton;
 
     /** The new tab button that lives in the bottom toolbar. */
     private final BottomToolbarNewTabButton mNewTabButton;
@@ -101,10 +101,10 @@ public class BrowsingModeBottomToolbarCoordinator {
 
         mShareButton = mToolbarRoot.findViewById(R.id.bottom_share_button);
 
-        mSearchAccelerator = mToolbarRoot.findViewById(R.id.search_accelerator);
-        mSearchAccelerator.setOnClickListener(searchAcceleratorListener);
-        setupIPH(FeatureConstants.CHROME_DUET_SEARCH_FEATURE, mSearchAccelerator,
-                searchAcceleratorListener);
+        // mSearchAccelerator = mToolbarRoot.findViewById(R.id.search_accelerator);
+        // mSearchAccelerator.setOnClickListener(searchAcceleratorListener);
+        // setupIPH(FeatureConstants.CHROME_DUET_SEARCH_FEATURE, mSearchAccelerator,
+        //         searchAcceleratorListener);
 
         // TODO(amaralp): Make this adhere to MVC framework.
         mTabSwitcherButtonView = mToolbarRoot.findViewById(R.id.bottom_tab_switcher_button);
@@ -282,8 +282,8 @@ public class BrowsingModeBottomToolbarCoordinator {
         }
         mMediator.destroy();
         mHomeButton.destroy();
-        mShareButton.destroy();
-        mSearchAccelerator.destroy();
+        //mShareButton.destroy();
+        //mSearchAccelerator.destroy();
         mTabSwitcherButtonCoordinator.destroy();
     }
 }
