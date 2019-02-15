@@ -884,10 +884,10 @@ public class CustomTabToolbar extends ToolbarLayout implements View.OnLongClickL
             return null;
         }
 
-        @Override
-        public  void onRewardsPanelDismiss() {}
+        // @Override
+        // public  void onRewardsPanelDismiss() {}
 
-        @Override
-        public  void dismissRewardsPanel() {}
+        // @Override
+        // public  void dismissRewardsPanel() {}
     }
 }

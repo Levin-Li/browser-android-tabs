@@ -120,14 +120,4 @@ public interface Toolbar {
      * @param requestToShow Whether or not request showing the Tab switcher toolbar.
      */
     void updateTabSwitcherToolbarState(boolean requestToShow);
-
-    /**
-     'Rewards Panel is dismissed' notification
-    */
-    void onRewardsPanelDismiss();
-
-    /**
-     Dismiss Rewards Panel if visible
-    */
-    void dismissRewardsPanel();
 }
