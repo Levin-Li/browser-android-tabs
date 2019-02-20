@@ -61,6 +61,7 @@ source_set("webview_entry_point") {
   ]
   sources = [
     "webview_entry_point.cc",
+    "profile_content_stubs.cc",
   ]
 
   if (webview_includes_weblayer) {
