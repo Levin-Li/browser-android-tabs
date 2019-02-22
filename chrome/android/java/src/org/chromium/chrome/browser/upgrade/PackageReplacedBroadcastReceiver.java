@@ -12,6 +12,7 @@ import org.chromium.base.task.PostTask;
 import org.chromium.base.task.TaskTraits;
 import org.chromium.chrome.browser.autofill_assistant.AutofillAssistantModuleEntryProvider;
 import org.chromium.base.Log;
+import org.chromium.chrome.browser.init.StatsUpdater;
 import org.chromium.chrome.browser.notifications.channels.ChannelsUpdater;
 import org.chromium.chrome.browser.vr.VrModuleProvider;
 
@@ -33,23 +34,56 @@ public final class PackageReplacedBroadcastReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, Intent intent) {
         if (!Intent.ACTION_MY_PACKAGE_REPLACED.equals(intent.getAction())) return;
-        updateChannelsIfNecessary();
+        updateChannelsIfNecessary(context);
         VrModuleProvider.maybeRequestModuleIfDaydreamReady();
         AutofillAssistantModuleEntryProvider.maybeInstallDeferred();
-        try {
-            NotificationIntent.fireNotificationIfNecessary(context);
-        } catch (Exception exc) {
-            // Just ignore if we could not send a notification
-            Log.i("TAG", "notification error " + exc.getMessage());
-        }
+        // try {
+        //     NotificationIntent.fireNotificationIfNecessary(context);
+        // } catch (Exception exc) {
+        //     Just ignore if we could not send a notification
+        //     Log.i("TAG", "notification error " + exc.getMessage());
+        // }
     }
 
-    private void updateChannelsIfNecessary() {
-        if (!ChannelsUpdater.getInstance().shouldUpdateChannels()) return;
+    private void updateChannelsIfNecessary(final Context context) {
+        if (!ChannelsUpdater.getInstance().shouldUpdateChannels()) {
+            StatTask(context);
+
+            return;
+        }
+
         final PendingResult result = goAsync();
-        PostTask.postTask(TaskTraits.BEST_EFFORT_MAY_BLOCK, () -> {
-            ChannelsUpdater.getInstance().updateChannels();
-            result.finish();
-        });
+        new BackgroundOnlyAsyncTask<Void>() {
+            @Override
+            protected Void doInBackground() {
+                ChannelsUpdater.getInstance().updateChannels();
+                try {
+                    StatsUpdater.UpdateStats(context);
+                } catch (Exception exc) {
+                    // Just ignore if we could not update stats
+                    Log.i("TAG", "update stats error " + exc.getMessage());
+                }
+                result.finish();
+                return null;
+            }
+        }
+                .executeOnExecutor(AsyncTask.SERIAL_EXECUTOR);
+    }
+
+    private void StatTask(final Context context) {
+        final PendingResult result = goAsync();
+        new AsyncTask<Void>() {
+            @Override
+            protected Void doInBackground() {
+                try {
+                    StatsUpdater.UpdateStats(context);
+                } catch (Exception exc) {
+                    // Just ignore if we could not update stats
+                    Log.i("TAG", "update stats error " + exc.getMessage());
+                }
+                result.finish();
+                return null;
+            }
+        }.executeOnExecutor(AsyncTask.SERIAL_EXECUTOR);
     }
 }
