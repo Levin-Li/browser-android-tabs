@@ -235,6 +235,7 @@ const base::Feature* kFeaturesExposedToJava[] = {
     &switches::kSyncManualStartAndroid,
     &switches::kSyncUseSessionsUnregisterDelay,
     &subresource_filter::kSafeBrowsingSubresourceFilter,
+    &features::kBraveRewards,
 };
 
 const base::Feature* FindFeatureExposedToJava(const std::string& feature_name) {
