@@ -4053,6 +4053,14 @@ extern const char kWebrtcPipeWireCapturerDescription[] =
 
 #endif  // #if defined(WEBRTC_USE_PIPEWIRE)
 
+#if defined(OS_ANDROID)
+
+const char kBraveRewardsName[] = "Brave Rewards (beta)";
+const char kBraveRewardsDescription[] =
+    "Enable Brave Rewards (beta) on your device.";
+
+#endif // #if defined(OS_ANDROID)
+
 // ============================================================================
 // Don't just add flags to the end, put them in the right section in
 // alphabetical order just like the header file.

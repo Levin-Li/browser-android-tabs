@@ -46,6 +46,8 @@ import org.chromium.ui.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.chromium.chrome.browser.ChromeFeatureList;
+
 /**
  * Shows a popup of menuitems anchored to a host view. When a item is selected we call
  * AppMenuHandlerImpl.AppMenuDelegate.onOptionsItemSelected with the appropriate MenuItem.
@@ -232,6 +234,10 @@ class AppMenu implements OnItemClickListener, OnKeyListener, AppMenuAdapter.OnCl
         List<MenuItem> menuItems = new ArrayList<MenuItem>();
         for (int i = 0; i < numItems; ++i) {
             MenuItem item = mMenu.getItem(i);
+            if (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) &&
+                item.getItemId() == R.id.brave_rewards_id) {
+                continue;
+            }
             if (item.isVisible()) {
                 menuItems.add(item);
             }
