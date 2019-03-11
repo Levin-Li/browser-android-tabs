@@ -22,6 +22,7 @@ import org.chromium.chrome.browser.feature_engagement.TrackerFactory;
 import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tab.TabImpl;
 import org.chromium.chrome.browser.tasks.ReturnToChromeExperimentsUtil;
+import org.chromium.chrome.browser.toolbar.BookmarksButton;
 import org.chromium.chrome.browser.toolbar.HomeButton;
 import org.chromium.chrome.browser.toolbar.IncognitoStateProvider;
 import org.chromium.chrome.browser.toolbar.TabCountProvider;
@@ -45,7 +46,7 @@ public class BrowsingModeBottomToolbarCoordinator {
     private final HomeButton mHomeButton;
 
     /** The bookmarks button that lives in the bottom toolbar. */
-    private final ImageButton mBookmarksButton;
+    private final BookmarksButton mBookmarksButton;
 
     /** The new tab button that lives in the bottom toolbar. */
     private final BottomToolbarNewTabButton mNewTabButton;
@@ -243,7 +244,10 @@ public class BrowsingModeBottomToolbarCoordinator {
         }
 
         mNewTabButton = mToolbarRoot.findViewById(R.id.new_tab_button);
+        mNewTabButton.setThemeColorProvider(themeColorProvider);
         mNewTabButton.setOnClickListener(newTabClickListener);
+
+        mBookmarksButton.setThemeColorProvider(themeColorProvider);
     }
 
     /**
