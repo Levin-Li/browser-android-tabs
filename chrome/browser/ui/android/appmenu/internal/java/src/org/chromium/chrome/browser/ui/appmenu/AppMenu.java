@@ -47,6 +47,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.chromium.chrome.browser.ChromeFeatureList;
+import org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService;
 
 /**
  * Shows a popup of menuitems anchored to a host view. When a item is selected we call
@@ -234,9 +235,13 @@ class AppMenu implements OnItemClickListener, OnKeyListener, AppMenuAdapter.OnCl
         List<MenuItem> menuItems = new ArrayList<MenuItem>();
         for (int i = 0; i < numItems; ++i) {
             MenuItem item = mMenu.getItem(i);
-            if (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) &&
-                item.getItemId() == R.id.brave_rewards_id) {
+            if (item.getItemId() == R.id.brave_rewards_id &&
+                !ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
                 continue;
+            }
+            if (item.getItemId() == R.id.brave_set_default_browser &&
+                BraveSetDefaultBrowserNotificationService.isBraveSetAsDefaultBrowser(context)) {
+                item.setEnabled(false);
             }
             if (item.isVisible()) {
                 menuItems.add(item);
