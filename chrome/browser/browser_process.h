@@ -19,7 +19,6 @@
 #include "base/macros.h"
 #include "base/memory/scoped_refptr.h"
 #include "build/build_config.h"
-#include "chrome/browser/ledger_manager.h"
 #include "chrome/common/buildflags.h"
 #include "media/media_buildflags.h"
 
@@ -266,8 +265,6 @@ class BrowserProcess {
 
   virtual resource_coordinator::ResourceCoordinatorParts*
   resource_coordinator_parts() = 0;
-
-  LedgerManager ledger_manager_;
 
  private:
   DISALLOW_COPY_AND_ASSIGN(BrowserProcess);
