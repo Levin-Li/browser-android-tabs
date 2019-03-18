@@ -117,7 +117,12 @@ public class BrowsingModeBottomToolbarCoordinator {
         mBookmarksButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                BookmarkUtils.showBookmarkManager((ChromeActivity) v.getContext());
+                try {
+                    BookmarkUtils.showBookmarkManager((ChromeActivity) v.getContext());
+                } catch (ClassCastException exc) {
+                    assert false;
+                    // Just ignore it for now
+                }
             }
         });
 
