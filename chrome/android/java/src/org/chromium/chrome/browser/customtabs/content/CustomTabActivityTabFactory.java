@@ -9,7 +9,10 @@ import android.util.Pair;
 
 import androidx.annotation.Nullable;
 
+import org.chromium.base.ContextUtils;
+import org.chromium.base.Log;
 import org.chromium.chrome.browser.ChromeActivity;
+import org.chromium.chrome.browser.ChromeApplication;
 import org.chromium.chrome.browser.IntentHandler;
 import org.chromium.chrome.browser.browserservices.BrowserServicesIntentDataProvider;
 import org.chromium.chrome.browser.customtabs.CustomTabDelegateFactory;
@@ -23,9 +26,13 @@ import org.chromium.chrome.browser.tabmodel.ChromeTabCreator;
 import org.chromium.chrome.browser.tabmodel.TabLaunchType;
 import org.chromium.chrome.browser.tabmodel.TabModelSelector;
 import org.chromium.chrome.browser.tabmodel.TabModelSelectorImpl;
+import org.chromium.chrome.browser.tabmodel.TabModelSelectorTabObserver;
 import org.chromium.chrome.browser.util.IntentUtils;
 import org.chromium.content_public.browser.WebContents;
+import org.chromium.content_public.browser.LoadUrlParams;
 import org.chromium.ui.base.ActivityWindowAndroid;
+
+import java.net.URL;
 
 import javax.inject.Inject;
 
@@ -43,6 +50,8 @@ public class CustomTabActivityTabFactory {
     private final Lazy<CustomTabDelegateFactory> mCustomTabDelegateFactory;
     private final BrowserServicesIntentDataProvider mIntentDataProvider;
     private final StartupTabPreloader mStartupTabPreloader;
+
+    private TabModelSelectorTabObserver mTabModelSelectorTabObserver;
 
     @Nullable
     private TabModelSelectorImpl mTabModelSelector;
@@ -66,6 +75,44 @@ public class CustomTabActivityTabFactory {
     public TabModelSelectorImpl createTabModelSelector() {
         mTabModelSelector = new TabModelSelectorImpl(
                 mActivity, mActivity, mPersistencePolicy, false, false, false);
+
+        mTabModelSelectorTabObserver = new TabModelSelectorTabObserver(mTabModelSelector) {
+            @Override
+            public void onLoadStarted(Tab tab, boolean toDifferentDocument) {
+                ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
+                if ((null != app) && (null != app.getShieldsConfig())) {
+                    app.getShieldsConfig().setTabModelSelectorTabObserver(mTabModelSelectorTabObserver);
+                }
+                if (mActivity.getActivityTab() == tab) {
+                    try {
+                        URL urlCheck = new URL(tab.getUrl());
+                        mActivity.setBraveShieldsColor(tab.isIncognito(), urlCheck.getHost());
+                    } catch (Exception e) {
+                        mActivity.setBraveShieldsBlackAndWhite();
+                    }
+                }
+                tab.clearBraveShieldsCount();
+            }
+
+            @Override
+            public void onPageLoadFinished(Tab tab, String url) {
+                if (mActivity.getActivityTab() == tab) {
+                    try {
+                        URL urlCheck = new URL(url);
+                        mActivity.setBraveShieldsColor(tab.isIncognito(), urlCheck.getHost());
+                    } catch (Exception e) {
+                        mActivity.setBraveShieldsBlackAndWhite();
+                    }
+                }
+            }
+
+            @Override
+            public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades,
+                    int scriptsBlocked, int fingerprintsBlocked) {
+                mActivity.braveShieldsCountUpdate(url, adsAndTrackers, httpsUpgrades, scriptsBlocked, fingerprintsBlocked);
+            }
+        };
+
         return mTabModelSelector;
     }
 
