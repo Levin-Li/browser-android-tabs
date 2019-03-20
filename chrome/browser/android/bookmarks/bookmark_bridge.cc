@@ -754,7 +754,6 @@ void BookmarkBridge::DeleteBookmark(
   // why this is called with an uneditable node.
   // See https://crbug.com/981172.
   if (!IsEditable(node)) {
-    LOG(INFO) << "SAM: NOTREACHED " << bookmark_id;
     NOTREACHED();
     return;
   }
