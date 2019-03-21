@@ -90,7 +90,7 @@ class BottomToolbarCoordinator {
      * @param topToolbarRoot The root {@link ViewGroup} of the top toolbar.
      */
     void initializeWithNative(OnClickListener tabSwitcherListener,
-            OnClickListener newTabClickListener, OnClickListener closeTabsClickListener,
+            OnClickListener newTabClickListener, OnClickListener bookmarkClickListener, OnClickListener closeTabsClickListener,
             AppMenuButtonHelper menuButtonHelper, OverviewModeBehavior overviewModeBehavior,
             TabCountProvider tabCountProvider, IncognitoStateProvider incognitoStateProvider,
             ViewGroup topToolbarRoot) {
@@ -163,5 +163,15 @@ class BottomToolbarCoordinator {
             mOverviewModeObserver = null;
         }
         mThemeColorProvider.destroy();
+    }
+
+    /**
+     * @param isBookmarked Whether or not the current tab is already bookmarked.
+     * @param editingAllowed Whether or not bookmarks can be modified (added, edited, or removed).
+     */
+    public void updateBookmarkButton(boolean isBookmarked, boolean editingAllowed) {
+        if (mBrowsingModeCoordinator != null) {
+            mBrowsingModeCoordinator.updateBookmarkButton(isBookmarked, editingAllowed);
+        }
     }
 }
