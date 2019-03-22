@@ -48,6 +48,7 @@ import java.util.List;
 
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService;
+import org.chromium.ui.base.DeviceFormFactor;
 
 /**
  * Shows a popup of menuitems anchored to a host view. When a item is selected we call
@@ -242,6 +243,17 @@ class AppMenu implements OnItemClickListener, OnKeyListener, AppMenuAdapter.OnCl
             if (item.getItemId() == R.id.brave_set_default_browser &&
                 BraveSetDefaultBrowserNotificationService.isBraveSetAsDefaultBrowser(context)) {
                 item.setEnabled(false);
+            }
+            if (item.getItemId() == R.id.bottom_toolbar_enable_disable) {
+                boolean isTablet = DeviceFormFactor.isNonMultiDisplayContextOnTablet(context);
+                if (isTablet) {
+                    // We don't have bottom toolbar on tablets
+                    continue;
+                }
+                item.setTitle(context.getResources().getString(
+                    ChromePreferenceManager.getInstance().isBottomToolbarEnabled() ?
+                        R.string.bottom_toolbar_disable :
+                        R.string.bottom_toolbar_enable));
             }
             if (item.isVisible()) {
                 menuItems.add(item);

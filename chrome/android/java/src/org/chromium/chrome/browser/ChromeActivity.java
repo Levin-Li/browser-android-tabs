@@ -144,6 +144,7 @@ import org.chromium.chrome.browser.page_info.PageInfoController;
 import org.chromium.chrome.browser.partnercustomizations.PartnerBrowserCustomizations;
 import org.chromium.chrome.browser.preferences.Pref;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
+import org.chromium.chrome.browser.preferences.website.SingleCategoryPreferences;
 import org.chromium.chrome.browser.printing.TabPrinter;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.settings.PreferencesLauncher;
@@ -2461,7 +2462,9 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         } else if (id == R.id.reader_mode_prefs_id) {
             DomDistillerUIUtils.openSettings(currentTab.getWebContents());
         } else if (id == R.id.brave_set_default_browser) {
-          handleBraveSetDefaultBrowserDialog();
+            handleBraveSetDefaultBrowserDialog();
+        } else if (id == R.id.bottom_toolbar_enable_disable) {
+            showOrHideBottomToolbar();
         } else if (id == R.id.exit_id) {
             ApplicationLifetime.terminate(false);
         } else {
@@ -2470,21 +2473,17 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         return true;
     }
 
+    private void showOrHideBottomToolbar() {
+        SharedPreferences prefs = ContextUtils.getAppSharedPreferences();
+        Context context = ContextUtils.getApplicationContext();
+        Boolean originalStatus = ChromePreferenceManager.getInstance().isBottomToolbarEnabled();
+        prefs.edit().putBoolean(ChromePreferenceManager.BOTTOM_TOOLBAR_ENABLED_KEY, !originalStatus).apply();
+        SingleCategoryPreferences.AskForRelaunch(this);
+    }
+
     public boolean isBraveSetAsDefaultBrowser() {
         return BraveSetDefaultBrowserNotificationService.isBraveSetAsDefaultBrowser(this);
     }
-
-    /*
-    private void handleBraveSetDefaultBrowserDeepLink(Intent intent) {
-        Bundle bundle = intent.getExtras();
-        if (bundle.getString(BraveSetDefaultBrowserNotificationService.DEEP_LINK).equals(BraveSetDefaultBrowserNotificationService.SHOW_DEFAULT_APP_SETTINGS)) {
-            Context context = ContextUtils.getApplicationContext();
-            Intent settingsIntent = new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS);
-            settingsIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            context.startActivity(settingsIntent);
-        }
-    }
-    */
 
     private void handleBraveSetDefaultBrowserDialog() {
         /* (Albert Wang): Default app settings didn't get added until API 24
