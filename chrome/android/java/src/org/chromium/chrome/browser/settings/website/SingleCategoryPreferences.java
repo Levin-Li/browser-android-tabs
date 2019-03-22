@@ -484,7 +484,7 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
                 } else */if (type == SiteSettingsCategory.Type.NOTIFICATIONS) {
                     updateNotificationsSecondaryControls();
                 } else if (type == SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND) {
-                    AskForRelaunch();
+                    AskForRelaunch(this.getActivity());
                 }
                 break;
             }
@@ -1046,8 +1046,9 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
         }
     }
 
-    private void AskForRelaunch() {
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this.getActivity());
+    // TODO(samartnik): find better place for this function
+    public static void AskForRelaunch(Context context) {
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
          alertDialogBuilder
             .setMessage(R.string.settings_require_relaunch_notice)
             .setCancelable(true)
