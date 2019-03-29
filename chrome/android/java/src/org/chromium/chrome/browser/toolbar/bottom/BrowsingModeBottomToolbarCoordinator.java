@@ -4,6 +4,8 @@
 
 package org.chromium.chrome.browser.toolbar.bottom;
 
+import android.content.Context;
+import android.content.res.Resources;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
@@ -11,6 +13,7 @@ import android.widget.ImageButton;
 
 import org.chromium.base.Callback;
 import org.chromium.base.ObservableSupplier;
+import org.chromium.base.ContextUtils;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ActivityTabProvider;
 import org.chromium.chrome.browser.ActivityTabProvider.HintlessActivityTabObserver;
@@ -31,6 +34,7 @@ import org.chromium.chrome.browser.toolbar.TabSwitcherButtonView;
 import org.chromium.chrome.browser.ui.appmenu.AppMenuButtonHelper;
 import org.chromium.components.feature_engagement.FeatureConstants;
 import org.chromium.chrome.browser.toolbar.bottom.SearchAccelerator;
+import org.chromium.chrome.browser.util.AccessibilityUtil;
 import org.chromium.components.feature_engagement.Tracker;
 import org.chromium.ui.modelutil.PropertyModelChangeProcessor;
 
@@ -39,7 +43,7 @@ import org.chromium.ui.modelutil.PropertyModelChangeProcessor;
  * an Android view that handles user actions and a composited texture that draws when the controls
  * are being scrolled off-screen. The Android version does not draw unless the controls offset is 0.
  */
-public class BrowsingModeBottomToolbarCoordinator {
+public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickListener {
     /** The mediator that handles events from outside the browsing mode bottom toolbar. */
     private final BrowsingModeBottomToolbarMediator mMediator;
 
@@ -78,6 +82,8 @@ public class BrowsingModeBottomToolbarCoordinator {
 
     private final ScrollingBottomViewResourceFrameLayout mToolbarRoot;
 
+    final Context context = ContextUtils.getApplicationContext();
+
     /**
      * Build the coordinator that manages the browsing mode bottom toolbar.
      * @param root The root {@link View} for locating the views to inflate.
@@ -101,6 +107,7 @@ public class BrowsingModeBottomToolbarCoordinator {
 
         mHomeButton = mToolbarRoot.findViewById(R.id.bottom_home_button);
         mHomeButton.setOnClickListener(homeButtonListener);
+        mHomeButton.setOnLongClickListener(this);
         mHomeButton.setActivityTabProvider(mTabProvider);
         setupIPH(FeatureConstants.CHROME_DUET_HOME_BUTTON_FEATURE, mHomeButton, homeButtonListener);
 
@@ -240,6 +247,23 @@ public class BrowsingModeBottomToolbarCoordinator {
 
         mBookmarksButton.setThemeColorProvider(themeColorProvider);
         mBookmarksButton.setOnClickListener(bookmarkClickListener);
+        mBookmarksButton.setOnLongClickListener(this);
+    }
+
+    @Override
+    public boolean onLongClick(View v) {
+        String description = "";
+        Resources resources = context.getResources();
+
+        if (v == mHomeButton) {
+            description = description = resources.getString(R.string.accessibility_toolbar_btn_home);
+        } else if (v == mBookmarksButton) {
+            description = resources.getString(R.string.accessibility_toolbar_btn_bookmark);
+        } else if (v == mSearchAccelerator) {
+            description = resources.getString(R.string.accessibility_toolbar_btn_search_accelerator);
+        }
+
+        return AccessibilityUtil.showAccessibilityToast(context, v, description);
     }
 
     /**
