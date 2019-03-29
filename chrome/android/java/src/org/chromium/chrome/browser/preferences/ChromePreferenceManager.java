@@ -23,6 +23,8 @@ public class ChromePreferenceManager {
 
     private static final String USE_CUSTOM_TABS =
             "use_custom_tabs";
+    public static final String BOTTOM_TOOLBAR_ENABLED_KEY = "bottom_toolbar_enabled";
+    public static final String BRAVE_BOTTOM_TOOLBAR_SET_KEY = "brave_bottom_toolbar_enabled";
 
     private static class LazyHolder {
         static final ChromePreferenceManager INSTANCE = new ChromePreferenceManager();
@@ -177,7 +179,13 @@ public class ChromePreferenceManager {
      * @return True if the bottom toolbar is enabled.
      */
     public boolean isBottomToolbarEnabled() {
-        return mSharedPreferences.getBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, true);
+        if (mSharedPreferences.getBoolean(BRAVE_BOTTOM_TOOLBAR_SET_KEY, false)) {
+            return mSharedPreferences.getBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, true);
+        } else {
+            writeBoolean(BRAVE_BOTTOM_TOOLBAR_SET_KEY, true);
+            writeBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, true);
+            return true;
+        }
     }
 
     /**
