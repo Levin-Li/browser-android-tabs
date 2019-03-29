@@ -18,6 +18,7 @@ import org.chromium.chrome.browser.toolbar.IncognitoStateProvider;
 import org.chromium.chrome.browser.toolbar.MenuButton;
 import org.chromium.chrome.browser.toolbar.TabCountProvider;
 import org.chromium.chrome.browser.ui.appmenu.AppMenuButtonHelper;
+import org.chromium.chrome.browser.util.AccessibilityUtil;
 import org.chromium.ui.modelutil.PropertyModelChangeProcessor;
 
 /**
@@ -26,7 +27,7 @@ import org.chromium.ui.modelutil.PropertyModelChangeProcessor;
  * TODO(crbug.com/1036474): This coordinator is not used currently and can be removed if the final
  *                          duet design doesn't need a stand-alone toolbar in tab switcher mode.
  */
-public class TabSwitcherBottomToolbarCoordinator {
+public class TabSwitcherBottomToolbarCoordinator implements View.OnLongClickListener {
     /** The mediator that handles events from outside the tab switcher bottom toolbar. */
     private final TabSwitcherBottomToolbarMediator mMediator;
 
@@ -41,6 +42,8 @@ public class TabSwitcherBottomToolbarCoordinator {
 
     /** The model for the tab switcher bottom toolbar that holds all of its state. */
     private final TabSwitcherBottomToolbarModel mModel;
+
+    final Context context = ContextUtils.getApplicationContext();
 
     /**
      * Build the coordinator that manages the tab switcher bottom toolbar.
@@ -91,6 +94,7 @@ public class TabSwitcherBottomToolbarCoordinator {
         background.mutate();
         mNewTabButton.setBackground(background);
         mNewTabButton.setOnClickListener(newTabClickListener);
+        mNewTabButton.setOnLongClickListener(this);
         mNewTabButton.setIncognitoStateProvider(incognitoStateProvider);
         mNewTabButton.setThemeColorProvider(themeColorProvider);
 
@@ -98,6 +102,18 @@ public class TabSwitcherBottomToolbarCoordinator {
         mMenuButton = root.findViewById(R.id.menu_button_wrapper);
         mMenuButton.setThemeColorProvider(themeColorProvider);
         mMenuButton.setAppMenuButtonHelper(menuButtonHelper);
+    }
+
+    @Override
+    public boolean onLongClick(View v) {
+        String description = "";
+        Resources resources = context.getResources();
+
+        if (v == mNewTabButton) {
+            description = description = resources.getString(R.string.accessibility_new_tab_page);
+        }
+
+        return AccessibilityUtil.showAccessibilityToast(context, v, description);
     }
 
     /**
