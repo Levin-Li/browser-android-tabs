@@ -4,6 +4,13 @@
 
 package org.chromium.chrome.browser.preferences;
 
+import android.app.Activity;
+import android.graphics.Point;
+import android.view.Display;
+
+import org.chromium.base.Log;
+import org.chromium.base.ApplicationStatus;
+import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.crash.MinidumpUploadService.ProcessType;
 
 import java.util.HashSet;
@@ -25,6 +32,9 @@ public class ChromePreferenceManager {
             "use_custom_tabs";
     public static final String BOTTOM_TOOLBAR_ENABLED_KEY = "bottom_toolbar_enabled";
     public static final String BRAVE_BOTTOM_TOOLBAR_SET_KEY = "brave_bottom_toolbar_enabled";
+
+    private static final int SMALL_SCREEN_WIDTH = 360;
+    private static final int SMALL_SCREEN_HEIGHT = 640;
 
     private static class LazyHolder {
         static final ChromePreferenceManager INSTANCE = new ChromePreferenceManager();
@@ -183,9 +193,31 @@ public class ChromePreferenceManager {
             return mSharedPreferences.getBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, true);
         } else {
             writeBoolean(BRAVE_BOTTOM_TOOLBAR_SET_KEY, true);
-            writeBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, true);
-            return true;
+            boolean enable = true;
+            if (isSmallScreen()) {
+                enable = false;
+            }
+            writeBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, enable);
+
+            return enable;
         }
+    }
+
+    private boolean isSmallScreen() {
+        Activity currentActivity = null;
+        for (Activity ref : ApplicationStatus.getRunningActivities()) {
+            if (!(ref instanceof ChromeActivity)) continue;
+
+            currentActivity = ref;
+            break;
+        }
+        Display screensize = currentActivity.getWindowManager().getDefaultDisplay();
+        Point size = new Point();
+        screensize.getSize(size);
+        int width = size.x;
+        int height = size.y;
+
+        return (width <= SMALL_SCREEN_WIDTH) && (height <= SMALL_SCREEN_HEIGHT);
     }
 
     /**
