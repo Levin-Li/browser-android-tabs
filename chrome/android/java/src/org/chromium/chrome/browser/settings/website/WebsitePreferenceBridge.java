@@ -387,13 +387,13 @@ public class WebsitePreferenceBridge {
                 WebsitePreferenceBridgeJni.get().setSoundEnabled(allow);
                 break;
             case ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW:
-                nativeSetDesktopViewEnabled(allow);
+                PrefServiceBridgeJni.get().setDesktopViewEnabled(allow);
                 break;
             case ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND:
-                nativeSetPlayVideoInBackgroundEnabled(allow);
+                PrefServiceBridgeJni.get().setPlayVideoInBackgroundEnabled(allow);
                 break;
             case ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER:
-                nativeSetPlayYTVideoInBrowserEnabled(allow);
+                PrefServiceBridgeJni.get().setPlayYTVideoInBrowserEnabled(allow);
                 break;
             default:
                 assert false;
@@ -554,6 +554,17 @@ public class WebsitePreferenceBridge {
         return Profile.getLastUsedProfile().getOriginalProfile();
     }
 
+    /**
+     * @param whether SafetyNet check failed.
+     */
+    public void setSafetynetCheckFailed(boolean value) {
+        PrefServiceBridgeJni.get().setSafetynetCheckFailed(value);
+    }
+
+    public boolean isSafetynetCheckFailed() {
+        return PrefServiceBridgeJni.get().getSafetynetCheckFailed();
+    }
+
     @VisibleForTesting
     @NativeMethods
     public interface Natives {
@@ -648,5 +659,7 @@ public class WebsitePreferenceBridge {
         void setSoundEnabled(boolean enabled);
         boolean getQuietNotificationsUiEnabled(Profile profile);
         void setQuietNotificationsUiEnabled(Profile profile, boolean enabled);
+        void setSafetynetCheckFailed(boolean value);
+        boolean getSafetynetCheckFailed();
     }
 }

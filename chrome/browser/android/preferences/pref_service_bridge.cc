@@ -231,3 +231,14 @@ static void JNI_PrefServiceBridge_SetPlayYTVideoInBrowserEnabled(JNIEnv* env,
       CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER,
       allow ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
 }
+
+static void JNI_PrefServiceBridge_SetSafetynetCheckFailed(JNIEnv* env,
+                                   const JavaParamRef<jobject>& obj,
+                                   jboolean value) {
+  GetPrefService()->SetBoolean(prefs::kSafetynetCheckFailed, value);
+}
+
+static jboolean JNI_PrefServiceBridge_GetSafetynetCheckFailed(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kSafetynetCheckFailed);
+}

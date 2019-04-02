@@ -2904,4 +2904,6 @@ const char kKnownInterceptionDisclosureInfobarLastShown[] =
     "known_interception_disclosure_infobar_last_shown";
 #endif
 
+// Boolean that is true when SafetyNet check is failed.
+const char kSafetynetCheckFailed[] = "safetynetcheck.failed";
 }  // namespace prefs
