@@ -49,6 +49,7 @@ import java.util.List;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService;
 import org.chromium.ui.base.DeviceFormFactor;
+import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 
 /**
  * Shows a popup of menuitems anchored to a host view. When a item is selected we call
@@ -237,7 +238,8 @@ class AppMenu implements OnItemClickListener, OnKeyListener, AppMenuAdapter.OnCl
         for (int i = 0; i < numItems; ++i) {
             MenuItem item = mMenu.getItem(i);
             if (item.getItemId() == R.id.brave_rewards_id &&
-                !ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
+                (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) ||
+                PrefServiceBridge.getInstance().isSafetynetCheckFailed())) {
                 continue;
             }
             if (item.getItemId() == R.id.brave_set_default_browser &&

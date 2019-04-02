@@ -1025,6 +1025,7 @@ extern const char kWebComponentsV0Enabled[];
 extern const char kKnownInterceptionDisclosureInfobarLastShown[];
 #endif
 
+extern const char kSafetynetCheckFailed[];
 }  // namespace prefs
 
 #endif  // CHROME_COMMON_PREF_NAMES_H_
