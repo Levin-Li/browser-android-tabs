@@ -66,7 +66,6 @@ import org.chromium.base.annotations.UsedByReflection;
 import org.chromium.base.metrics.RecordHistogram;
 import org.chromium.base.metrics.RecordUserAction;
 import org.chromium.chrome.R;
-import org.chromium.chrome.browser.BraveBadge;
 import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.StatsUpdaterWorker;
 import org.chromium.chrome.browser.ADBlockUpdaterWorker;
