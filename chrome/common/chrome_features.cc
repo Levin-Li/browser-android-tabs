@@ -898,12 +898,12 @@ const base::Feature kWebTimeLimits{"WebTimeLimits",
 
 #if defined(OS_ANDROID)
 // Flag for Brave Rewards.
-#if defined(OFFICIAL_BUILD)
-const base::Feature kBraveRewards{
-    "BraveRewards", base::FEATURE_DISABLED_BY_DEFAULT};
-#else
+//#if defined(OFFICIAL_BUILD)
+//const base::Feature kBraveRewards{
+//    "BraveRewards", base::FEATURE_DISABLED_BY_DEFAULT};
+//#else
 const base::Feature kBraveRewards{
     "BraveRewards", base::FEATURE_ENABLED_BY_DEFAULT};
-#endif
+//#endif
 #endif // defined(OS_ANDROID)
 }  // namespace features
