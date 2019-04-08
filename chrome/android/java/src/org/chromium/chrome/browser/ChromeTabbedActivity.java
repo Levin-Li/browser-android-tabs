@@ -7,6 +7,7 @@ package org.chromium.chrome.browser;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.ActivityManager;
+import android.app.NotificationManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -545,6 +546,12 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
     // but only if the intent is a VIEW intent sent explicitly to .Main activity.
     private @LaunchIntentDispatcher.Action int maybeDispatchExplicitMainViewIntent(
             Intent intent, BooleanHistogramSample dispatchedHistogram) {
+        if (intent != null &&
+                intent.hasExtra(BraveSetDefaultBrowserNotificationService.BRAVE_REWARDS_SUBSTITUTE_URL)) {
+            int notification_id = intent.getIntExtra(BraveSetDefaultBrowserNotificationService.NOTIFICATION_ID_EXTRA, 0);
+            NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            notificationManager.cancel(notification_id);
+        }
         // The first check ensures that this is .Main activity alias (we can't check exactly, but
         // this gets us sufficiently close).
         if (getClass().equals(ChromeTabbedActivity.class)
