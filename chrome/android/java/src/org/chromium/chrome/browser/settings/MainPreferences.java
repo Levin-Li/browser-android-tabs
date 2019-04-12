@@ -40,6 +40,8 @@ import org.chromium.components.search_engines.TemplateUrlService;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.chromium.chrome.browser.preferences.PrefServiceBridge;
+
 /**
  * The main settings screen, shown when the user first opens Settings.
  */
@@ -60,6 +62,7 @@ public class MainPreferences extends PreferenceFragmentCompat
     public static final String PREF_DOWNLOADS = "downloads";
     public static final String PREF_DEVELOPER = "developer";
     public static final String PREF_AUTOFILL_ASSISTANT = "autofill_assistant";
+    public static final String PREF_BRAVE_REWARDS = "brave_rewards";
 
     public static final String AUTOFILL_GUID = "guid";
     // Needs to be in sync with kSettingsOrigin[] in
@@ -229,6 +232,11 @@ public class MainPreferences extends PreferenceFragmentCompat
         // ChromeBasePreference dataReduction =
         //         (ChromeBasePreference) findPreference(PREF_DATA_REDUCTION);
         // dataReduction.setSummary(DataReductionPreferenceFragment.generateSummary(getResources()));
+
+        if (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) ||
+            PrefServiceBridge.getInstance().isSafetynetCheckFailed()) {
+            removePreferenceIfPresent(PREF_BRAVE_REWARDS);
+        }
     }
 
     private Preference addPreferenceIfAbsent(String key) {
