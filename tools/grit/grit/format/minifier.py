@@ -27,7 +27,7 @@ def Minify(source, filename):
     minifier = __js_minifier
   elif file_type == '.css':
     minifier = __css_minifier
-  if not minifier or filename == 'gen/android-brave/web-ui-brave_rewards_settings/brave_rewards_settings.js':
+  if not minifier or filename.endswith('gen/android-brave/web-ui-brave_rewards_settings/brave_rewards_settings.js'):
     return source
   p = subprocess.Popen(
       minifier,
