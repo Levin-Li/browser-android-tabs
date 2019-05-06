@@ -150,4 +150,4 @@ void WorkerContentSettingsClient::EnsureContentSettingsManager() const {
 
 bool WorkerContentSettingsClient::AllowFingerprinting() {
     return true;
-};
+}

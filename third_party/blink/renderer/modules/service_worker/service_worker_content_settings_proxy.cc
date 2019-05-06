@@ -43,6 +43,6 @@ ServiceWorkerContentSettingsProxy::GetService() {
 
 bool ServiceWorkerContentSettingsProxy::AllowFingerprinting() {
     return true;
-};
+}
 
 }  // namespace blink

@@ -94,7 +94,7 @@ class BottomToolbarCoordinator {
             AppMenuButtonHelper menuButtonHelper, OverviewModeBehavior overviewModeBehavior,
             TabCountProvider tabCountProvider, IncognitoStateProvider incognitoStateProvider,
             ViewGroup topToolbarRoot) {
-        mBrowsingModeCoordinator.initializeWithNative(newTabClickListener, tabSwitcherListener,
+        mBrowsingModeCoordinator.initializeWithNative(newTabClickListener, tabSwitcherListener, bookmarkClickListener,
                 menuButtonHelper, tabCountProvider, mThemeColorProvider, incognitoStateProvider,
                 overviewModeBehavior);
         mTabSwitcherModeCoordinator = new TabSwitcherBottomToolbarCoordinator(mTabSwitcherModeStub,

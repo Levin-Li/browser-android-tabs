@@ -1809,7 +1809,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                if (false == tab.isDesktopModeOverridenByTab()) {
                    final boolean desktopViewFromSettings = PrefServiceBridge.getInstance().desktopViewEnabled();
                     //if required UA is already set, do nothing
-                    if (desktopViewFromSettings != tab.getUseDesktopUserAgent() ) {
+                    if (desktopViewFromSettings != tab.getUseDesktopUserAgent()) {
                         tab.setUseDesktopUserAgent(desktopViewFromSettings, false);
                     }
                 }

@@ -316,7 +316,7 @@ public class MainPreferences extends PreferenceFragmentCompat
 
     @Override
     public void syncStateChanged() {
-        updateSyncAndServicesPreference();
+        // updateSyncAndServicesPreference();
     }
 
     @VisibleForTesting

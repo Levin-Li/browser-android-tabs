@@ -1168,6 +1168,27 @@ public class TabImpl implements Tab {
     }
 
     /**
+     * @return Whether or not the content layer is using a desktop user agent.
+     */
+    public boolean getUseDesktopUserAgent() {
+        return getWebContents() != null
+                && getWebContents().getNavigationController().getUseDesktopUserAgent();
+    }
+
+    /**
+     * Set whether or not the content layer should be using a desktop user agent for the
+     * currently loaded page.
+     * @param useDesktop     If {@code true}, use a desktop user agent.  Otherwise use a mobile one.
+     * @param reloadOnChange Reload the page if the user agent has changed.
+     */
+    public void setUseDesktopUserAgent(boolean useDesktop, boolean reloadOnChange) {
+        if (getWebContents() != null) {
+            getWebContents().getNavigationController().setUseDesktopUserAgent(
+                    useDesktop, reloadOnChange);
+        }
+    }
+
+    /**
      * Load the original image (uncompressed by spdy proxy) in this tab.
      */
     void loadOriginalImage() {
