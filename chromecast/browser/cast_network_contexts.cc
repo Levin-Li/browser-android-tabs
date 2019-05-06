@@ -203,7 +203,7 @@ CastNetworkContexts::CreateDefaultNetworkContextParams() {
       network::mojom::NetworkContextParams::New();
 
   network_context_params->http_cache_enabled = false;
-  network_context_params->user_agent = GetUserAgent();
+  network_context_params->user_agent = GetUserAgent("");
   network_context_params->accept_language =
       CastHttpUserAgentSettings::AcceptLanguage();
 

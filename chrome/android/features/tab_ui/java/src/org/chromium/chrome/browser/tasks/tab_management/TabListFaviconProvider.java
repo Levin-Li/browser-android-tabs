@@ -58,7 +58,7 @@ public class TabListFaviconProvider {
         }
         if (sRoundedChromeDrawable == null) {
             Bitmap chromeBitmap =
-                    BitmapFactory.decodeResource(mContext.getResources(), R.drawable.chromelogo16);
+                    BitmapFactory.decodeResource(mContext.getResources(), R.drawable.brave_logo_19);
             sRoundedChromeDrawable = processBitmap(chromeBitmap);
         }
         mDefaultIconColor = mContext.getResources().getColor(R.color.default_icon_color);

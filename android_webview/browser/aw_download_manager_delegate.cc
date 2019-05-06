@@ -36,7 +36,7 @@ bool AwDownloadManagerDelegate::InterceptDownloadIfApplicable(
   std::string aw_user_agent = web_contents->GetUserAgentOverride();
   if (aw_user_agent.empty()) {
     // use default user agent if nothing is provided
-    aw_user_agent = user_agent.empty() ? GetUserAgent() : user_agent;
+    aw_user_agent = user_agent.empty() ? GetUserAgent("") : user_agent;
   }
 
   client->NewDownload(url, aw_user_agent, content_disposition, mime_type,

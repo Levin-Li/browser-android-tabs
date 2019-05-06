@@ -188,6 +188,9 @@ public class ChromeBrowserInitializer {
 
             return null;
         }
+
+        @Override
+        protected void onPostExecute(Long result) {}
     }
 
     class CheckInstallationSourceAsyncTask extends AsyncTask<Long> {
@@ -216,6 +219,9 @@ public class ChromeBrowserInitializer {
 
            return null;
        }
+
+       @Override
+       protected void onPostExecute(Long result) {}
     }
 
     // Search suggestions are turned off by default in Brave since 1.0.38
@@ -251,6 +257,9 @@ public class ChromeBrowserInitializer {
 
             return null;
         }
+
+        @Override
+        protected void onPostExecute(Long result) {}
     }
 
     /**

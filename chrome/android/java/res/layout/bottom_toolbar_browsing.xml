@@ -36,6 +36,16 @@
         style="@style/SplitToolbarButton" />
 
     <include layout="@layout/toolbar_space" />
+
+    <org.chromium.chrome.browser.toolbar.BookmarksButton
+        android:id="@+id/bookmark_this_page_id"
+        app:tint="@color/standard_mode_tint"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/new_tab_icon"
+        android:visibility="gone"
+        style="@style/SplitToolbarButton" />
+
+    <include layout="@layout/toolbar_space" />
     <include layout="@layout/toolbar_space" />
 
     <org.chromium.chrome.browser.toolbar.bottom.SearchAccelerator
