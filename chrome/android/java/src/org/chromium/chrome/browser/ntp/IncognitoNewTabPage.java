@@ -99,7 +99,7 @@ public class IncognitoNewTabPage
 
         TextView newTabIncognitoHeader =
                 (TextView) mIncognitoNewTabPageView.findViewById(R.id.new_tab_incognito_title);
-        newTabIncognitoHeader.setText(R.string.new_tab_otr_title);
+        newTabIncognitoHeader.setText(R.string.brave_new_tab_private_message);
     }
 
     /**
