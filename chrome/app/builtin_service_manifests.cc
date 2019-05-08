@@ -14,7 +14,6 @@
 const std::vector<service_manager::Manifest>&
 GetChromeBuiltinServiceManifests() {
   static base::NoDestructor<std::vector<service_manager::Manifest>> manifests{{
-  bat_ledger::GetManifest(),
 #if defined(OS_CHROMEOS)
       ash::GetManifest(),
 #endif
