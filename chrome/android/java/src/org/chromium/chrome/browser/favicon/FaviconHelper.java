@@ -72,7 +72,7 @@ public class FaviconHelper {
         private Bitmap mDefaultLightBitmap;
 
         private int getResourceId(String url) {
-            return NewTabPage.isNTPUrl(url) ? R.drawable.brave_logo_19 : R.drawable.default_favicon;
+            return NewTabPage.isNTPUrl(url) ? R.drawable.lion : R.drawable.default_favicon;
         }
 
         private Bitmap createBitmap(Resources resources, String url, boolean useDarkIcon) {
