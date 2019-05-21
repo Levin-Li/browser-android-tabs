@@ -179,6 +179,8 @@ const PrefMappingEntry kPrefMapping[] = {
 #endif
     {"safetynetCheckFailed", prefs::kSafetynetCheckFailed,
      APIPermission::kPrivacy, APIPermission::kPrivacy},
+    {"useRewardsStagingServer", prefs::kUseRewardsStagingServer,
+     APIPermission::kPrivacy, APIPermission::kPrivacy},
 };
 
 class IdentityPrefTransformer : public PrefTransformerInterface {
