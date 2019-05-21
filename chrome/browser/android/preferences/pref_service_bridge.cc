@@ -242,3 +242,14 @@ static jboolean JNI_PrefServiceBridge_GetSafetynetCheckFailed(JNIEnv* env,
                                        const JavaParamRef<jobject>& obj) {
   return GetPrefService()->GetBoolean(prefs::kSafetynetCheckFailed);
 }
+
+static void JNI_PrefServiceBridge_SetUseRewardsStagingServer(JNIEnv* env,
+                                   const JavaParamRef<jobject>& obj,
+                                   jboolean value) {
+  GetPrefService()->SetBoolean(prefs::kUseRewardsStagingServer, value);
+}
+
+static jboolean JNI_PrefServiceBridge_GetUseRewardsStagingServer(JNIEnv* env,
+                                       const JavaParamRef<jobject>& obj) {
+  return GetPrefService()->GetBoolean(prefs::kUseRewardsStagingServer);
+}

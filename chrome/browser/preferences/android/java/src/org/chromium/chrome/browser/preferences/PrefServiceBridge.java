@@ -202,6 +202,17 @@ public class PrefServiceBridge {
         PrefServiceBridgeJni.setPlayYTVideoInBrowserEnabled(enabled);
     }
 
+    /**
+     * @param whether should use staging server for Rewards.
+     */
+    public void setUseRewardsStagingServer(boolean value) {
+        PrefServiceBridgeJni.get().setUseRewardsStagingServer(value);
+    }
+
+    public boolean useRewardsStagingServer() {
+        return PrefServiceBridgeJni.get().getUseRewardsStagingServer();
+    }
+
     @VisibleForTesting
     public static void setInstanceForTesting(@Nullable PrefServiceBridge instanceForTesting) {
         sInstance = instanceForTesting;
@@ -231,5 +242,7 @@ public class PrefServiceBridge {
         void setPlayVideoInBackgroundEnabled(boolean enabled);
         boolean getPlayYTVideoInBrowserEnabled();
         void setPlayYTVideoInBrowserEnabled(boolean enabled);
+        void setUseRewardsStagingServer(boolean value);
+        boolean getUseRewardsStagingServer();
     }
 }
