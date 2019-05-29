@@ -24,7 +24,9 @@ import org.chromium.chrome.browser.policy.PolicyAuditorJni;
 import org.chromium.chrome.browser.webapps.WebDisplayMode;
 import org.chromium.components.embedder_support.delegate.WebContentsDelegateAndroid;
 import org.chromium.content_public.browser.InvalidateTypes;
+import org.chromium.content_public.browser.LoadUrlParams;
 import org.chromium.content_public.browser.WebContents;
+import org.chromium.content_public.common.ResourceRequestBody;
 
 /**
  * A basic {@link WebContentsDelegateAndroid} that proxies methods into Tab. Forwards
@@ -190,7 +192,31 @@ public abstract class TabWebContentsDelegateAndroid extends WebContentsDelegateA
     @Override
     public void openNewTab(String url, String extraHeaders, ResourceRequestBody postData,
             int disposition, boolean isRendererInitiated) {
-        mTab.openNewTab(url, null, extraHeaders, postData, disposition, true, isRendererInitiated);
+        boolean incognito = mTab.isIncognito();
+        @TabLaunchType
+        int tabLaunchType = TabLaunchType.FROM_LONGPRESS_FOREGROUND;
+        switch (disposition) {
+            case WindowOpenDisposition.NEW_WINDOW: // fall through
+            case WindowOpenDisposition.NEW_FOREGROUND_TAB:
+                break;
+            case WindowOpenDisposition.NEW_POPUP: // fall through
+            case WindowOpenDisposition.NEW_BACKGROUND_TAB:
+                tabLaunchType = TabLaunchType.FROM_LONGPRESS_BACKGROUND;
+                break;
+            case WindowOpenDisposition.OFF_THE_RECORD:
+                assert incognito;
+                incognito = true;
+                break;
+            default:
+                assert false;
+        }
+
+        LoadUrlParams loadUrlParams = new LoadUrlParams(url);
+        loadUrlParams.setInitiatorOrigin(null);
+        loadUrlParams.setVerbatimHeaders(extraHeaders);
+        loadUrlParams.setPostData(postData);
+        loadUrlParams.setIsRendererInitiated(isRendererInitiated);
+        TabModelSelector.from(mTab).openNewTab(loadUrlParams, tabLaunchType, null, incognito);
     }
 
     /**
