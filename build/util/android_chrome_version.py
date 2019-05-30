@@ -182,7 +182,7 @@ def GenerateVersionCodes(version_values, arch, is_next_build):
   """
 
   base_version_code = int(
-      '%s%03d00' % (version_values['BUILD'], int(version_values['PATCH'])))
+      '%s%03d00' % (version_values['BUILD'], int(version_values['PATCH'])  + int(version_values['BRAVE_CORRECTION_NUMBER'])))
 
   if is_next_build:
     base_version_code += _NEXT_BUILD_VERSION_CODE_DIFF
