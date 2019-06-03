@@ -13,10 +13,8 @@ without changes to the corresponding grd file. -->
   </outputs>
   <release seq="1">
     <includes>
-      <if expr="chromeos">
-        <include name="IDR_WEBUI_I18N_TEMPLATE_JS" file="js/i18n_template.js"
-                 flattenhtml="true" type="BINDATA" compress="gzip" />
-      </if>
+      <include name="IDR_WEBUI_I18N_TEMPLATE_JS" file="js/i18n_template.js"
+               flattenhtml="true" type="BINDATA" compress="gzip" />
       <include name="IDR_WEBUI_JSTEMPLATE_JS" file="js/jstemplate_compiled.js"
                flattenhtml="true" type="BINDATA" compress="gzip"/>
       <!-- Roboto Font. Roboto-Regular and Roboto-Light is already available on
