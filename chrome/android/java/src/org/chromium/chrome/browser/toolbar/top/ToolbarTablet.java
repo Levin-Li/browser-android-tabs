@@ -52,7 +52,7 @@ import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
 import org.chromium.chrome.browser.preferences.ChromePreferenceKeys;
 import org.chromium.chrome.browser.preferences.SharedPreferencesManager;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
-import org.chromium.chrome.browser.preferences.website.SingleCategoryPreferences;
+import org.chromium.chrome.browser.RestartWorker;
 import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tab.TabImpl;
 import org.chromium.chrome.browser.toolbar.HomeButton;
@@ -531,7 +531,7 @@ public class ToolbarTablet extends ToolbarLayout
             if (sharedPreferences.getBoolean(PREF_HIDE_BRAVE_ICON, false)) {
                 sharedPreferencesEditor.putBoolean(PREF_HIDE_BRAVE_ICON, false);
                 sharedPreferencesEditor.apply();
-                SingleCategoryPreferences.AskForRelaunch((ChromeActivity)getContext());
+                RestartWorker.AskForRelaunch((ChromeActivity)getContext());
             }
             sharedPreferencesEditor.apply();
         }
