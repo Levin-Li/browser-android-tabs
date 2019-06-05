@@ -18,4 +18,8 @@
         android:title="Hint: You can also enable Developer options on Beta/Stable channels by tapping the Chrome version in &quot;Settings > About Chrome&quot; multiple times."
         app:allowDividerAbove="false"
         app:allowDividerBelow="false" />
+    <Preference
+        android:fragment="org.chromium.chrome.browser.preferences.developer.QAPreferences"
+        android:key="qa_preferences"
+        android:title="QA Preferences"/>
 </PreferenceScreen>
