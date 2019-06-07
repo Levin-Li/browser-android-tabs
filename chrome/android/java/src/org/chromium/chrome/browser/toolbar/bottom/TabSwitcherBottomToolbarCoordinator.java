@@ -94,7 +94,7 @@ public class TabSwitcherBottomToolbarCoordinator implements View.OnLongClickList
         background.mutate();
         mNewTabButton.setBackground(background);
         mNewTabButton.setOnClickListener(newTabClickListener);
-        mNewTabButton.setWrapperView(root.findViewById(R.id.new_tab_button_wrapper));
+        //mNewTabButton.setWrapperView(root.findViewById(R.id.new_tab_button_wrapper));
         mNewTabButton.setOnLongClickListener(this);
         mNewTabButton.setIncognitoStateProvider(incognitoStateProvider);
         mNewTabButton.setThemeColorProvider(themeColorProvider);

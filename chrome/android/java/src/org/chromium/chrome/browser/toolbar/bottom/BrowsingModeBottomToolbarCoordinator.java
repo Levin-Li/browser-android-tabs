@@ -113,10 +113,10 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
 
         mShareButton = mToolbarRoot.findViewById(R.id.bottom_share_button);
 
-        // mSearchAccelerator = mToolbarRoot.findViewById(R.id.search_accelerator);
-        // mSearchAccelerator.setOnClickListener(searchAcceleratorListener);
-        // setupIPH(FeatureConstants.CHROME_DUET_SEARCH_FEATURE, mSearchAccelerator,
-        //         searchAcceleratorListener);
+        mSearchAccelerator = mToolbarRoot.findViewById(R.id.search_accelerator);
+        mSearchAccelerator.setOnClickListener(searchAcceleratorListener);
+        setupIPH(FeatureConstants.CHROME_DUET_SEARCH_FEATURE, mSearchAccelerator,
+                 searchAcceleratorListener);
 
         mBookmarksButton = toolbarRoot.findViewById(R.id.bookmark_this_page_id);
 
