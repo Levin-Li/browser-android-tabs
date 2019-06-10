@@ -94,7 +94,6 @@ public class TabSwitcherBottomToolbarCoordinator implements View.OnLongClickList
         background.mutate();
         mNewTabButton.setBackground(background);
         mNewTabButton.setOnClickListener(newTabClickListener);
-        //mNewTabButton.setOnLongClickListener(this);
         mNewTabButton.setIncognitoStateProvider(incognitoStateProvider);
         mNewTabButton.setThemeColorProvider(themeColorProvider);
 
@@ -102,6 +101,12 @@ public class TabSwitcherBottomToolbarCoordinator implements View.OnLongClickList
         mMenuButton = root.findViewById(R.id.menu_button_wrapper);
         mMenuButton.setThemeColorProvider(themeColorProvider);
         mMenuButton.setAppMenuButtonHelper(menuButtonHelper);
+
+        // Set long click event
+        mNewTabButtonWrapper = root.findViewById(R.id.new_tab_button_wrapper);
+        if (mNewTabButtonWrapper != null) {
+            mNewTabButtonWrapper.setOnLongClickListener(this);
+        }
     }
 
     @Override
@@ -109,8 +114,8 @@ public class TabSwitcherBottomToolbarCoordinator implements View.OnLongClickList
         String description = "";
         Resources resources = context.getResources();
 
-        if (v == mNewTabButton) {
-            description = description = resources.getString(R.string.accessibility_new_tab_page);
+        if (v == mNewTabButtonWrapper) {
+            description = resources.getString(R.string.accessibility_new_tab_page);
         }
 
         return AccessibilityUtil.showAccessibilityToast(context, v, description);
