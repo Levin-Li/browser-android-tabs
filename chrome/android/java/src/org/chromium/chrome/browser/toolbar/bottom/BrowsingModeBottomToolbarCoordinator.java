@@ -246,7 +246,7 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
         if (mBookmarksButton != null) {
             mBookmarksButton.setThemeColorProvider(themeColorProvider);
             mBookmarksButton.setOnClickListener(bookmarkClickListener);
-            mBookmarksButton.setOnLongClickListener(this);
+            //mBookmarksButton.setOnLongClickListener(this);
         }
     }
 
