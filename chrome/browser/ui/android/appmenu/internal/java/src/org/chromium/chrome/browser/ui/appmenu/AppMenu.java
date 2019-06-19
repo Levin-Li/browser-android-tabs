@@ -243,7 +243,7 @@ class AppMenu implements OnItemClickListener, OnKeyListener, AppMenuAdapter.OnCl
             }
             if (item.getItemId() == R.id.brave_set_default_browser &&
                 BraveSetDefaultBrowserNotificationService.isBraveSetAsDefaultBrowser(context)) {
-                item.setEnabled(false);
+                item.setVisible(false);
             }
             if (item.isVisible()) {
                 menuItems.add(item);
