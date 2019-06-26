@@ -93,7 +93,6 @@ public class SiteSettingsPreferences
         websitePrefs.add(Type.PROTECTED_MEDIA);
         websitePrefs.add(Type.SOUND);
         websitePrefs.add(Type.USB);
-        websitePrefs.add(Type.PLAY_VIDEO_IN_BACKGROUND);
         websitePrefs.add(Type.PLAY_YT_VIDEO_IN_BROWSER);
 
         // Initialize the summary and icon for all preferences that have an
@@ -141,8 +140,6 @@ public class SiteSettingsPreferences
                 p.setSummary(ContentSettingsResources.getCategorySummary(setting));
             } else if (SiteSettingsCategory.Type.DESKTOP_VIEW == prefCategory) {
                 p.setSummary( checked ? ContentSettingsResources.getDesktopViewEnabledSummary() : ContentSettingsResources.getDesktopViewDisabledSummary());
-            } else if (SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND == prefCategory) {
-                p.setSummary( checked ? ContentSettingsResources.getPlayVideoInBackgroundEnabledSummary() : ContentSettingsResources.getPlayVideoInBackgroundDisabledSummary());
             } else if (SiteSettingsCategory.Type.PLAY_YT_VIDEO_IN_BROWSER == prefCategory) {
                 p.setSummary( checked ? ContentSettingsResources.getPlayYTVideoInBrowserEnabledSummary() : ContentSettingsResources.getPlayYTVideoInBrowserDisabledSummary());
             } else {
