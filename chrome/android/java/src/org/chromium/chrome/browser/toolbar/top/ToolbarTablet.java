@@ -44,6 +44,7 @@ import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.NavigationPopup;
+import org.chromium.chrome.browser.dialogs.BraveAdsSignupDialog;
 import org.chromium.chrome.browser.download.DownloadUtils;
 import org.chromium.chrome.browser.ntp.NewTabPage;
 import org.chromium.chrome.browser.omnibox.LocationBar;
@@ -62,6 +63,7 @@ import org.chromium.chrome.browser.toolbar.TabCountProvider.TabCountObserver;
 import org.chromium.chrome.browser.toolbar.ToolbarColors;
 import org.chromium.chrome.browser.ui.styles.ChromeColors;
 import org.chromium.chrome.browser.util.AccessibilityUtil;
+import org.chromium.chrome.browser.util.PackageUtils;
 import org.chromium.ui.UiUtils;
 import org.chromium.ui.base.DeviceFormFactor;
 import org.chromium.ui.widget.Toast;
@@ -406,6 +408,13 @@ public class ToolbarTablet extends ToolbarLayout
             if (null == mRewardsPopup) {
                 mRewardsPopup = new BraveRewardsPanelPopup(v);
                 mRewardsPopup.showLikePopDownMenu();
+                if (mBraveRewardsNotificationsCount.isShown()) {
+                    SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
+                    SharedPreferences.Editor editor = sharedPref.edit();
+                    editor.putBoolean(BraveRewardsPanelPopup.PREF_WAS_TOOLBAR_BAT_LOGO_BUTTON_PRESSED, true);
+                    editor.apply();
+                    mBraveRewardsNotificationsCount.setVisibility(View.GONE);
+                }
             }
         }
     }
@@ -421,6 +430,21 @@ public class ToolbarTablet extends ToolbarLayout
             mRewardsPopup.dismiss();
             mRewardsPopup = null;
         }
+    }
+
+    private boolean mayShowBraveAdsOobeDialog() {
+        Context context = getContext();
+        if (BraveAdsSignupDialog.shouldShowNewUserDialog(context)) {
+            BraveAdsSignupDialog.showNewUserDialog(getContext());
+            return true;
+        } else if (BraveAdsSignupDialog.shouldShowExistingUserDialog(context)) {
+            BraveAdsSignupDialog.showExistingUserDialog(getContext());
+            return true;
+        } else if (BraveAdsSignupDialog.shouldShowForUserWhoNeverTurnedOnRewards(context)) {
+            BraveAdsSignupDialog.showNewUserDialog(getContext());
+            return true;
+        }
+        return false;
     }
 
     @Override
@@ -565,9 +589,7 @@ public class ToolbarTablet extends ToolbarLayout
 
     @Override
     public void OnNotificationsCount(int count) {
-        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
-        boolean rewardsEnabled = sharedPreferences.getBoolean(
-            BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, true);
+        boolean rewardsEnabled = BraveRewardsPanelPopup.isBraveRewardsEnabled();
         if (mBraveRewardsNotificationsCount != null && rewardsEnabled) {
             if (count != 0) {
                 String value = Integer.toString(count);
@@ -586,6 +608,24 @@ public class ToolbarTablet extends ToolbarLayout
                 mBraveRewardsNotificationsCount.setVisibility(View.GONE);
             }
         }
+
+        updateNotificationBadgeForNewInstall(rewardsEnabled);
+        mayShowBraveAdsOobeDialog();
+    }
+
+    private void updateNotificationBadgeForNewInstall(boolean rewardsEnabled) {
+        SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
+        boolean shownBefore = sharedPref.getBoolean(BraveRewardsPanelPopup.PREF_WAS_TOOLBAR_BAT_LOGO_BUTTON_PRESSED, false);
+        boolean shouldShow =
+          PackageUtils.isFirstInstall(getContext())
+          && !shownBefore
+          && !rewardsEnabled
+          && !BraveRewardsPanelPopup.wasBraveRewardsExplicitlyTurnedOff();
+
+        if (!shouldShow) return;
+
+        mBraveRewardsNotificationsCount.setText("");
+        mBraveRewardsNotificationsCount.setVisibility(View.VISIBLE);
     }
 
     @Override
@@ -620,7 +660,7 @@ public class ToolbarTablet extends ToolbarLayout
     public void OnRewardsMainEnabled(boolean enabled) {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         SharedPreferences.Editor sharedPreferencesEditor = sharedPreferences.edit();
-        sharedPreferencesEditor.putBoolean(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_ENABLED, enabled);
+        sharedPreferencesEditor.putBoolean(BraveRewardsPanelPopup.PREF_IS_BRAVE_REWARDS_ENABLED, enabled);
         sharedPreferencesEditor.apply();
         if (mBraveRewardsNotificationsCount != null) {
             String count = mBraveRewardsNotificationsCount.getText().toString();

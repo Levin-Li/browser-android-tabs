@@ -26,6 +26,7 @@ import("//pdf/features.gni")
 import("//ppapi/buildflags/buildflags.gni")
 import("//printing/buildflags/buildflags.gni")
 import("//rlz/buildflags/buildflags.gni")
+import("//brave/components/brave_ads/browser/buildflags/buildflags.gni")
 import("//sandbox/features.gni")
 import("//third_party/protobuf/proto_library.gni")
 import("//third_party/webrtc/webrtc.gni")
@@ -1980,7 +1981,6 @@ jumbo_static_library("browser") {
     "//brave_src/browser:browser_process",
     "//brave/common",
     "//brave/components/brave_rewards/browser",
-    "//brave/components/brave_ads/browser",
     "//brave/components/resources:strings",
     "//cc",
     "//chrome:extra_resources",
@@ -2274,6 +2274,12 @@ jumbo_static_library("browser") {
     "//ui/surface",
     "//ui/web_dialogs",
   ]
+
+  if (brave_ads_enabled) {
+    deps += [
+      "//brave/components/brave_ads/browser",
+    ]
+  }
 
   if (is_win) {
     libs += [ "secur32.lib" ]
@@ -2974,6 +2980,12 @@ jumbo_static_library("browser") {
       "//components/image_fetcher/core",
       "//components/ntp_snippets",
     ]
+    if (brave_ads_enabled) {
+      sources += [
+        "android/brave_ads_native_helper.cc",
+        "android/brave_ads_native_helper.h",
+      ]
+    }
     deps += [
       ":client_discourse_context_proto",
       ":delta_file_proto",
