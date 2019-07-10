@@ -24,8 +24,10 @@ import androidx.annotation.IntDef;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
+import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.ui.widget.RoundedIconGenerator;
+import org.chromium.chrome.browser.ChromeTabbedActivity;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -33,6 +35,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.chromium.base.Log;
 /**
  * Abstract base class for building a notification. Stores all given arguments for later use.
  */
@@ -505,7 +508,11 @@ public abstract class NotificationBuilderBase {
         } else if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && mOrigin != null) {
             // Only set the large icon for L & M because on N(+?) it would add an extra icon on
             // the right hand side, which looks odd without a notification title.
-            builder.setLargeIcon(mIconGenerator.generateIconForUrl(mOrigin.toString(), true));
+            ChromeTabbedActivity activity = BraveRewardsHelper.getChromeTabbedActivity();
+            // Native intialization should be finished here, otherwise it throws exception
+            if (activity != null && activity.didFinishNativeInitialization()) {
+                builder.setLargeIcon(mIconGenerator.generateIconForUrl(mOrigin.toString(), true));
+            }
         }
         return builder.build();
     }
