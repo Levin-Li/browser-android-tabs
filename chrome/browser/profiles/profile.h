@@ -436,11 +436,11 @@ class Profile : public content::BrowserContext {
 
   virtual void SetCreationTimeForTesting(base::Time creation_time) = 0;
 
- protected:
-  friend class OffTheRecordProfileIOData;
-
   // Returns the profile type.
   virtual ProfileType GetProfileType() const = 0;
+
+ protected:
+  friend class OffTheRecordProfileIOData;
 
   void set_is_guest_profile(bool is_guest_profile) {
     is_guest_profile_ = is_guest_profile;

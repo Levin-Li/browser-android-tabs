@@ -146,7 +146,7 @@ class ProfileManager : public content::NotificationObserver,
 
   // Get the name of the last used profile, or if that's undefined, the default
   // profile.
-  std::string GetLastUsedProfileName();
+  virtual std::string GetLastUsedProfileName();
 
   // Get the Profiles which are currently open, i.e. have open browsers or were
   // open the last time Chrome was running. Profiles that fail to initialize are
@@ -227,7 +227,7 @@ class ProfileManager : public content::NotificationObserver,
 
   // Initializes user prefs of |profile|. This includes profile name and
   // avatar values.
-  void InitProfileUserPrefs(Profile* profile);
+  virtual void InitProfileUserPrefs(Profile* profile);
 
   // Register and add testing profile to the ProfileManager. Use ONLY in tests.
   // This allows the creation of Profiles outside of the standard creation path
@@ -356,7 +356,7 @@ class ProfileManager : public content::NotificationObserver,
 
   // Apply settings for profiles created by the system rather than users: The
   // (desktop) Guest User profile and (desktop) System Profile.
-  void SetNonPersonalProfilePrefs(Profile* profile);
+  virtual void SetNonPersonalProfilePrefs(Profile* profile);
 
   // Determines if profile should be OTR.
   bool ShouldGoOffTheRecord(Profile* profile);
