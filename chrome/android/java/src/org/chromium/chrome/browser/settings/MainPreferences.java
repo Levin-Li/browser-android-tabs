@@ -48,9 +48,9 @@ import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 public class MainPreferences extends PreferenceFragmentCompat
         implements TemplateUrlService.LoadListener, ProfileSyncService.SyncStateChangedListener,
                    SigninManager.SignInStateObserver {
-    public static final String PREF_ACCOUNT_SECTION = "account_section";
+    // public static final String PREF_ACCOUNT_SECTION = "account_section";
     // public static final String PREF_SIGN_IN = "sign_in";
-    public static final String PREF_SYNC_AND_SERVICES = "sync_and_services";
+    // public static final String PREF_SYNC_AND_SERVICES = "sync_and_services";
     public static final String PREF_STANDARD_SEARCH_ENGINE = "standard_search_engine";
     public static final String PREF_PRIVATE_SEARCH_ENGINE = "private_search_engine";
     public static final String PREF_SAVED_PASSWORDS = "saved_passwords";
