@@ -37,7 +37,7 @@ public class PrivacyPreferences
     private static final String PREF_NETWORK_PREDICTIONS = "preload_pages";
     private static final String PREF_USAGE_STATS = "usage_stats_reporting";    
     private static final String PREF_DO_NOT_TRACK = "do_not_track";
-    private static final String PREF_SYNC_AND_SERVICES_LINK = "sync_and_services_link";
+    // private static final String PREF_SYNC_AND_SERVICES_LINK = "sync_and_services_link";
     private static final String PREF_AD_BLOCK = "ad_block";
     private static final String PREF_HTTPSE = "httpse";
     private static final String PREF_FINGERPRINTING_PROTECTION = "fingerprinting_protection";
