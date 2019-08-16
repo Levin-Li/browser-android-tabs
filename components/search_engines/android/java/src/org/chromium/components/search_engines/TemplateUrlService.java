@@ -64,6 +64,8 @@ public class TemplateUrlService {
     public static final String QWANT_SE_NAME = "Qwant";
     public static final String QWANT_SE_KEYWORD = "qwant.com";
 
+    private static final String[][] sRenamedEngines = {{"DuckDuckGo Light", "DuckDuckGo Lite"}};
+
     private boolean mCurrentDSEPrivate;
     private boolean mFirstDSEUpdate;
 
@@ -381,7 +383,14 @@ public class TemplateUrlService {
 
     public String getDefaultSearchEngineName(boolean is_private) {
         updateDSEInfo(is_private);
-        return ContextUtils.getAppSharedPreferences().getString(is_private ? PREF_PRIVATE_SEARCH_ENGINE : PREF_STANDARD_SEARCH_ENGINE, DSE_NAME);
+        String res = ContextUtils.getAppSharedPreferences().getString(is_private ? PREF_PRIVATE_SEARCH_ENGINE : PREF_STANDARD_SEARCH_ENGINE, DSE_NAME);
+        for (String[] renamedEngine : sRenamedEngines) {
+            if (res.equals(renamedEngine[0])) {
+                res = renamedEngine[1];
+                break;
+            }
+        }
+        return res;
     }
 
     public String getDefaultSearchEngineKeyword(boolean is_private) {
