@@ -5,6 +5,7 @@
 import * as React from 'react'
 import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
+import BigNumber from 'bignumber.js'
 
 // Components
 import { AlertWallet } from 'brave-ui/src/features/rewards/walletWrapper'
@@ -21,7 +22,6 @@ import { StyledWalletClose, StyledWalletOverlay, StyledWalletWrapper } from './s
 import { getLocale } from '../../../common/locale'
 import * as rewardsActions from '../actions/rewards_actions'
 import * as utils from '../utils'
-import { convertProbiToFixed } from '../../../common/probiUtils'
 
 interface State {
   activeTabId: number
@@ -58,7 +58,7 @@ class PageWallet extends React.Component<Props, State> {
 
     return grants.map((grant: Rewards.Grant) => {
       return {
-        tokens: convertProbiToFixed(grant.probi),
+        tokens: utils.convertProbiToFixed(grant.probi, 2, BigNumber.ROUND_HALF_UP),
         expireDate: new Date(grant.expiryTime * 1000).toLocaleDateString(),
         type: grant.type
       }
@@ -91,7 +91,7 @@ class PageWallet extends React.Component<Props, State> {
         const item = report[key]
 
         if (item.length > 1 && key !== 'total') {
-          const tokens = utils.convertProbiToFixed(item)
+          const tokens = utils.convertProbiToFixed(item, 2, BigNumber.ROUND_HALF_UP)
           props[key] = {
             tokens,
             converted: utils.convertBalance(tokens, balance.rates)
@@ -116,7 +116,7 @@ class PageWallet extends React.Component<Props, State> {
     } = this.props.rewardsData
     const { emptyWallet } = ui
     const { total } = balance
-    const pendingTotal = parseFloat((pendingContributionTotal || 0).toFixed(1))
+    const pendingTotal = parseFloat((pendingContributionTotal || 0).toFixed(2))
 
     if (!visible) {
       return null
@@ -130,7 +130,7 @@ class PageWallet extends React.Component<Props, State> {
           </StyledWalletClose>
           <StyledWalletWrapper>
             <WalletWrapper
-              balance={total.toFixed(1)}
+              balance={total.toFixed(2)}
               converted={utils.formatConverted(this.getConversion())}
               actions={[]}
               compact={true}
