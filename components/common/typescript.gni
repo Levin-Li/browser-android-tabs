@@ -4,7 +4,6 @@ brave_common_typescript_includes = [
   rebase_path("classSet.ts"),
   rebase_path("debounce.ts"),
   rebase_path("locale.ts"),
-  rebase_path("probiUtils.ts"),
   rebase_path("../webpack/webpack.config.js"),
   rebase_path("../definitions/adBlock.d.ts"),
   rebase_path("../definitions/chromel.d.ts"),
