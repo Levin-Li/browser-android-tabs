@@ -144,6 +144,7 @@ import org.chromium.chrome.browser.partnercustomizations.PartnerBrowserCustomiza
 import org.chromium.chrome.browser.preferences.Pref;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.preferences.website.SingleCategoryPreferences;
+import org.chromium.chrome.browser.preferences.ClosingTabsManager;
 import org.chromium.chrome.browser.printing.TabPrinter;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.settings.PreferencesLauncher;
@@ -186,6 +187,8 @@ import org.chromium.chrome.browser.widget.ScrimView;
 import org.chromium.chrome.browser.widget.bottomsheet.BottomSheetContent;
 import org.chromium.chrome.browser.widget.bottomsheet.BottomSheetController;
 import org.chromium.chrome.browser.widget.bottomsheet.EmptyBottomSheetObserver;
+import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
+import org.chromium.chrome.browser.util.PackageUtils;
 import org.chromium.components.bookmarks.BookmarkId;
 import org.chromium.components.feature_engagement.EventConstants;
 import org.chromium.components.feature_engagement.Tracker;
@@ -1546,6 +1549,15 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
 
     @Override
     public void finishNativeInitialization() {
+
+        if(!PackageUtils.isFirstInstall(this)) {
+            if(HomepageManager.isHomepageEnabled()) {
+                ClosingTabsManager.getInstance().setPrefClosingAllTabsClosesBraveEnabled(true);
+            } else {
+                ClosingTabsManager.getInstance().setPrefClosingAllTabsClosesBraveEnabled(false);
+            }
+        }
+
         mNativeInitialized = true;
         OfflineContentAggregatorNotificationBridgeUiFactory.instance();
         maybeRemoveWindowBackground();

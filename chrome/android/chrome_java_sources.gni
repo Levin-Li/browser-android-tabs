@@ -1303,6 +1303,8 @@ chrome_java_sources = [
   "java/src/org/chromium/chrome/browser/prerender/ChromePrerenderService.java",
   "java/src/org/chromium/chrome/browser/preferences/StandardSearchEnginePreference.java",
   "java/src/org/chromium/chrome/browser/preferences/PrivateSearchEnginePreference.java",
+  "java/src/org/chromium/chrome/browser/preferences/ClosingTabsPreferences.java",
+  "java/src/org/chromium/chrome/browser/preferences/ClosingTabsManager.java",
   "java/src/org/chromium/chrome/browser/init/InstallReferrerReceiver.java",
   "java/src/org/chromium/chrome/browser/upgrade/NotificationIntent.java",
   "java/src/org/chromium/chrome/browser/upgrade/NotificationUpgradeDismissedReceiver.java",
