@@ -110,6 +110,7 @@ import org.chromium.chrome.browser.ntp.NewTabPageUma;
 import org.chromium.chrome.browser.omaha.OmahaBase;
 import org.chromium.chrome.browser.omnibox.LocationBar;
 import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
+import org.chromium.chrome.browser.preferences.ClosingTabsManager;
 import org.chromium.chrome.browser.partnercustomizations.PartnerBrowserCustomizations;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.search_engines.SearchEngineChoiceNotification;
@@ -633,8 +634,15 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
 
                 private void closeIfNoTabsAndHomepageEnabled(boolean isPendingClosure) {
                     if (getTabModelSelector().getTotalTabCount() == 0) {
-                        // If the last tab is closed, and homepage is enabled, then exit Chrome.
-                        if (HomepageManager.shouldCloseAppWithZeroTabs()) {
+                        // If the last tab is closed, and one of the following is true, then exit
+                        // Chrome:
+                        //   1. If close all tabs closes brave is enabled.
+                        //   2. If TabGroupsAndroid is enabled, and isPendingClosure is true.
+                        //      isPendingClosure is used to avoid calling finish() when closing all
+                        //      tabs in tab switcher.
+                        if (ClosingTabsManager.shouldCloseAppWithZeroTabs()
+                                || (FeatureUtilities.isTabGroupsAndroidEnabled()
+                                        && isPendingClosure)) {
                             finish();
                         } else if (isPendingClosure) {
                             NewTabPageUma.recordNTPImpression(

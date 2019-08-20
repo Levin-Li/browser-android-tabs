@@ -75,6 +75,12 @@
         android:order="13"
         android:title="@string/prefs_themes" />
 
+    <Preference
+        android:fragment="org.chromium.chrome.browser.preferences.ClosingTabsPreferences"
+        android:key="closing_tabs"
+        android:order="13"
+        android:title="@string/prefs_closing_all_tabs_closes_brave_title"/>
+
     <PreferenceCategory
         android:key="display_section"
         android:order="14"

@@ -819,7 +819,14 @@ public class ToolbarManager implements ScrimObserver, ToolbarTabController, UrlF
         // TODO(crbug.com/1026020): Move creation of these listeners to bottom toolbar component.
         final OnClickListener homeButtonListener = v -> {
             recordBottomToolbarUseForIPH();
-            openHomepage();
+
+            final boolean isHomepageEnabled = HomepageManager.isHomepageEnabled();
+            if(isHomepageEnabled){
+                openHomepage();
+            } else {
+                mActivity.getTabModelSelector().getModel(false).commitAllTabClosures();
+                mActivity.getCurrentTabCreator().launchNTP();
+            }
         };
 
         final OnClickListener searchAcceleratorListener = v -> {

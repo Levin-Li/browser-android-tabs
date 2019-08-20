@@ -41,6 +41,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
+import android.content.SharedPreferences;
 
 /**
  * The main settings screen, shown when the user first opens Settings.
@@ -55,6 +56,7 @@ public class MainPreferences extends PreferenceFragmentCompat
     public static final String PREF_PRIVATE_SEARCH_ENGINE = "private_search_engine";
     public static final String PREF_SAVED_PASSWORDS = "saved_passwords";
     public static final String PREF_HOMEPAGE = "homepage";
+    public static final String PREF_CLOSING_TABS = "closing_tabs";
     public static final String PREF_UI_THEME = "ui_theme";
     // public static final String PREF_DATA_REDUCTION = "data_reduction";
     public static final String PREF_NOTIFICATIONS = "notifications";
@@ -216,6 +218,9 @@ public class MainPreferences extends PreferenceFragmentCompat
 
         Preference homepagePref = addPreferenceIfAbsent(PREF_HOMEPAGE);
         setOnOffSummary(homepagePref, HomepageManager.getInstance().getPrefHomepageEnabled());
+
+        Preference closingTabsPref = addPreferenceIfAbsent(PREF_CLOSING_TABS);
+        setOnOffSummary(closingTabsPref, ClosingTabsManager.isClosingAllTabsClosesBraveEnabled());
 
         if (NightModeUtils.isNightModeSupported() && FeatureUtilities.isNightModeAvailable()) {
             addPreferenceIfAbsent(PREF_UI_THEME);
