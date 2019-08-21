@@ -356,6 +356,7 @@ base::android::ScopedJavaLocalRef<jobjectArray> BraveRewardsNativeWorker::GetCur
   std::vector<std::string> values;
   values.push_back(wallet_properties_.grants[position].probi);
   values.push_back(std::to_string(wallet_properties_.grants[position].expiryTime));
+  values.push_back(wallet_properties_.grants[position].type);
 
   return base::android::ToJavaArrayOfStrings(env, values);
 }
