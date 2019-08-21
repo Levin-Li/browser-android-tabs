@@ -83,6 +83,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "adsPerHour4",  IDS_BRAVE_REWARDS_LOCAL_ADS_PER_HOUR_4 },
         { "adsPerHour5",  IDS_BRAVE_REWARDS_LOCAL_ADS_PER_HOUR_5 },
         { "adsTitle",  IDS_BRAVE_REWARDS_LOCAL_ADS_TITLE },
+        { "adsEarnings", IDS_BRAVE_UI_ADS_EARNINGS },
 
         { "earningsClaimDefault", IDS_BRAVE_UI_EARNINGS_CLAIM_DEFAULT },
         { "grantDisclaimer", IDS_BRAVE_UI_GRANT_DISCLAIMER },

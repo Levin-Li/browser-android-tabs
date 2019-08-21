@@ -94,6 +94,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
     public static final String PREF_GRANTS_NOTIFICATION_RECEIVED = "grants_notification_received";
     public static final String PREF_IS_BRAVE_REWARDS_ENABLED = "brave_rewards_enabled";
     public static final String PREF_WAS_TOOLBAR_BAT_LOGO_BUTTON_PRESSED = "was_toolbar_bat_logo_button_pressed";
+    private static final String ADS_GRANT_TYPE = "ads";
 
     // Custom Android notification
     private static final int REWARDS_NOTIFICATION_NO_INTERNET = 1000;
@@ -503,13 +504,6 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                         //Do nothing
                     }
                 });
-        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
-        if (!sharedPreferences.getBoolean(PREF_GRANTS_NOTIFICATION_RECEIVED, false)) {
-            TextView pre_grant = (TextView)root.findViewById(R.id.pre_grant_message);
-            if (pre_grant != null) {
-                pre_grant.setVisibility(View.VISIBLE);
-            }
-        }
     }
 
     private void startJoinRewardsAnimation(){
@@ -924,11 +918,6 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                 description = (BraveRewardsNativeWorker.REWARDS_NOTIFICATION_GRANT == type ) ?
                         root.getResources().getString(R.string.brave_ui_new_grant) :
                         root.getResources().getString(R.string.brave_ads_you_earned);
-
-                TextView pre_grant = (TextView)root.findViewById(R.id.pre_grant_message);
-                if (pre_grant != null) {
-                    pre_grant.setVisibility(View.GONE);
-                }
                 break;
             case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS:
                 btClaimOk.setText(root.getResources().getString(R.string.ok));
@@ -1039,21 +1028,28 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                 ContextUtils.getApplicationContext(), R.layout.brave_rewards_grants_list_item);
               for (int i = 0; i < currentGrantsCount; i++) {
                   String[] grant = mBraveRewardsNativeWorker.GetCurrentGrant(i);
-                  if (grant.length < 2) {
+                  if (grant.length < 3) {
                     continue;
                   }
 
                   double  probiDouble = BraveRewardsHelper.probiToDouble(grant[0]);
                   String probiString = Double.isNaN(probiDouble) ? ERROR_CONVERT_PROBI : String.format("%.2f", probiDouble);
                   String toInsert = "<b><font color=#ffffff>" + probiString + " BAT</font></b> ";
-                  TimeZone utc = TimeZone.getTimeZone("UTC");
-                  Calendar calTime = Calendar.getInstance(utc);
-                  calTime.setTimeInMillis(Long.parseLong(grant[1]) * 1000);
-                  String date = Integer.toString(calTime.get(Calendar.MONTH) + 1) + "/" +
-                      Integer.toString(calTime.get(Calendar.DAY_OF_MONTH)) + "/" +
-                      Integer.toString(calTime.get(Calendar.YEAR));
-                  toInsert += String.format(this.root.getResources().getString(R.string.brave_ui_expires_on), 
-                    date);
+
+                  if (grant[2].equals(BraveRewardsPanelPopup.ADS_GRANT_TYPE) == false) {
+                      TimeZone utc = TimeZone.getTimeZone("UTC");
+                      Calendar calTime = Calendar.getInstance(utc);
+                      calTime.setTimeInMillis(Long.parseLong(grant[1]) * 1000);
+                      String date = Integer.toString(calTime.get(Calendar.MONTH) + 1) + "/" +
+                              Integer.toString(calTime.get(Calendar.DAY_OF_MONTH)) + "/" +
+                              Integer.toString(calTime.get(Calendar.YEAR));
+                      toInsert += String.format(this.root.getResources().getString(R.string.brave_ui_expires_on),
+                              date);
+                  }
+                  else {
+                      toInsert += this.root.getResources().getString(R.string.brave_ui_ads_earnings);
+                  }
+
                   adapter.add(BraveRewardsHelper.spannedFromHtmlString(toInsert));
               }
               listView.setAdapter(adapter);
