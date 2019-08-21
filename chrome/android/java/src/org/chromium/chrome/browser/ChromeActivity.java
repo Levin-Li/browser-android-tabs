@@ -214,6 +214,8 @@ import org.chromium.ui.util.TokenHolder;
 import org.chromium.ui.widget.Toast;
 import org.chromium.webapk.lib.client.WebApkNavigationClient;
 import org.chromium.webapk.lib.client.WebApkValidator;
+import org.chromium.chrome.browser.onboarding.OnboardingActivity;
+import org.chromium.chrome.browser.onboarding.OnboardingPrefManager;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -1557,7 +1559,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
                 ClosingTabsManager.getInstance().setPrefClosingAllTabsClosesBraveEnabled(false);
             }
         }
-
+        
         mNativeInitialized = true;
         OfflineContentAggregatorNotificationBridgeUiFactory.instance();
         maybeRemoveWindowBackground();
@@ -1607,6 +1609,18 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             if (app.mStatsUpdaterWorker == null) {
                 app.mStatsUpdaterWorker = new StatsUpdaterWorker(app);
             }
+        }
+
+
+        OnboardingActivity onboardingActivity = null;
+        for (Activity ref : ApplicationStatus.getRunningActivities()) {
+              if (!(ref instanceof OnboardingActivity)) continue;
+
+              onboardingActivity = (OnboardingActivity)ref;
+          }
+
+        if(onboardingActivity == null){
+            OnboardingPrefManager.getInstance().showOnboarding(this, false);
         }
     }
 
