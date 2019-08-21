@@ -42,6 +42,15 @@ import java.util.Map;
 
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import android.content.SharedPreferences;
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
+import android.widget.TextView;
+import android.graphics.Typeface;
+import android.util.TypedValue;
+import android.view.Gravity;
+import org.chromium.chrome.browser.onboarding.OnboardingPrefManager;
+import org.chromium.chrome.browser.ChromeFeatureList;
+import org.chromium.chrome.browser.BraveRewardsHelper;
 
 /**
  * The main settings screen, shown when the user first opens Settings.
@@ -60,6 +69,7 @@ public class MainPreferences extends PreferenceFragmentCompat
     public static final String PREF_UI_THEME = "ui_theme";
     // public static final String PREF_DATA_REDUCTION = "data_reduction";
     public static final String PREF_NOTIFICATIONS = "notifications";
+    public static final String PREF_WELCOME_TOUR = "welcome_tour";
     public static final String PREF_LANGUAGES = "languages";
     public static final String PREF_DOWNLOADS = "downloads";
     public static final String PREF_DEVELOPER = "developer";
@@ -185,6 +195,35 @@ public class MainPreferences extends PreferenceFragmentCompat
         //                 AutofillAssistantPreferences.PREF_AUTOFILL_ASSISTANT_SWITCH)) {
         //     getPreferenceScreen().removePreference(findPreference(PREF_AUTOFILL_ASSISTANT));
         // }
+
+        Preference welcomeTour = findPreference(PREF_WELCOME_TOUR);
+        welcomeTour.setOnPreferenceClickListener(preference -> {
+
+            final TextView titleTextView = new TextView (getActivity());
+            titleTextView.setText(getActivity().getResources().getString(R.string.welcome_tour_dialog_text));
+            int padding = BraveRewardsHelper.dp2px(20);
+            titleTextView.setPadding(padding,padding,padding,padding);
+            titleTextView.setTextSize(18); 
+            titleTextView.setTextColor(getActivity().getResources().getColor(android.R.color.black));
+            titleTextView.setTypeface(null, Typeface.BOLD);
+
+            AlertDialog alertDialog = new AlertDialog.Builder(getActivity(), R.style.BraveDialogTheme)
+            .setView(titleTextView)
+            .setPositiveButton(R.string.continue_button, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    OnboardingPrefManager.getInstance().showOnboarding(getActivity(), true);
+                }
+            })
+            .setNegativeButton(android.R.string.cancel, null)
+            .create();
+            alertDialog.show();
+            return true;
+        });
+
+        if (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
+            getPreferenceScreen().removePreference(welcomeTour);
+        }
     }
 
     /**
