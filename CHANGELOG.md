@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/brave/browser-android-tabs/releases/tab/v1.2.0)
+ 
+ - Replaced adblock library with new Rust based library. ([#1838](https://github.com/brave/browser-android-tabs/issues/1838))
+ - Added chrome://rewards-internals to assist with rewards support. ([#1341](https://github.com/brave/browser-android-tabs/issues/1341))
+ - Fixed retry logic for failed ads confirmations. ([#1950](https://github.com/brave/browser-android-tabs/issues/1950))
+ - Fixed hang when attempting to create wallet on devices without Google Play Services. ([#1936](https://github.com/brave/browser-android-tabs/issues/1936))
+ - Upgraded Chromium to 76.0.3809.111. ([#1947](https://github.com/brave/browser-android-tabs/issues/1947))
+
 ## [1.1.2](https://github.com/brave/browser-android-tabs/releases/tab/v1.1.2)
  
  - Upgraded Chromium to 75.0.3770.143. ([#1853](https://github.com/brave/browser-android-tabs/issues/1853))
