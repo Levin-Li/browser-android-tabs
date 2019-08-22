@@ -92,8 +92,6 @@ Sačuvano</string>
     <string name="update_notification_title">Brave ažuriranje</string>
     <string name="update_notification_text">Novi Brave pregledač je 22% brži</string>
     <string name="prefs_sync">Sinhronizacija (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Ovo je vaš prvi Brave oglas</string>
-    <string name="brave_ads_oobe_education_notification_body">Dodirnite ovde da biste saznali više</string>
     <string name="brave_ads_existing_user_offer_title">Brave oglasi su ovde!</string>
     <string name="brave_ads_new_user_offer_title">Omogući Brave Rewards</string>
     <string name="brave_ads_offer_text">Zaradite Basic Attention Token za gledanje oglasa koji čuvaju privatnost u programu Brave Rewards.</string>
@@ -239,14 +237,12 @@ kreatore sadržaja koji vam se sviđaju.</string>
 
     <string name="brave_rewards_not_available">Nažalost, izgleda da Brave Rewards nije dostupan na vašem uređaju.</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Zatvaranjem svih kartica zatvara se Brave</string>
     <string name="prefs_section_display">Prikaz</string>
     <string name="prefs_section_controls">Kontrole</string>
     <string name="prefs_appearance">Izgled</string>
     <string name="hide_brave_rewards_icon_title">Sakrijte Brave Rewards ikonicu</string>
     <string name="hide_brave_rewards_icon_description">Sakrijte Brave Rewards ikonicu kada Brave Rewards nije omogućena</string>
-
-    <string name="brave_ui_pre_grant_message">Vratite se uskoro za besplatan grant žeton</string>
-
     <string name="reset_brave_rewards_option">Ponovo postavite Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Obrišite svoj Brave novčanik i ponovo postavite sve svoje Brave Rewards podatke</string>
     <string name="reset_brave_rewards_error_title">Greška pri ponovnom postavljanju</string>
@@ -265,4 +261,47 @@ kreatore sadržaja koji vam se sviđaju.</string>
     <string name="brave_default_browser_title">Brave je brz kao munja</string>
     <string name="brave_default_browser_body">Podesi da Brave bude tvoj podrazumevani pregledač!</string>
     <string name="brave_make_default_text">Postavi za podrazumevano</string>
+    <string name="brave_ui_ads_earnings">zarada od oglasa</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Preskočite</string>
+
+    <string name="search_engine_onboarding">Ulazna migracija na pretraživač</string>
+    <string name="troubleshooting_onboarding">Rešavanje problema sa ulaznom migracijom</string>
+
+    <string name="welcome_to_brave_browser">Dobro došli u Brave pregledač</string>
+    <string name="select_your_default_search_engine">Izaberite podrazumevani pretraživač</string>
+
+    <string name="block">Blokirajte</string>
+    <string name="brave_shields_onboarding_title">Brave Shields</string>
+    <string name="brave_shields_onboarding_text">oglasi koji narušavaju privatnost i praćenja, pa možete da pretražujete bez praćenja na vebu.</string>
+
+    <string name="earn_tokens">Zaradite tokene</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">za prikazivanje oglasa koji poštuju privatnost. Koristite ih da biste podržali svoje omiljene sajtove i autore.</string>
+    <string name="brave_rewards_onboarding_text2">za prikazivanje oglasa koji poštuju privatnost.</string>
+
+    <string name="terms_title">Prihvatite Uslove da biste koristili Brave Rewards</string>
+    <string name="terms_text">Pristajem na Brave Rewards</string>
+    <string name="terms_of_service">Uslovi korišćenja usluge</string>
+
+    <string name="agree">Slažem se</string>
+    <string name="join">Pridružite se</string>
+
+     <string name="start_browsing">Počnite pretragu</string>
+    <string name="i_didnt_see">Nisam&apos;t video/la oglas</string>
+
+    <string name="brave_ads_onboarding_title">Brave će prikazati vaš prvi oglas na</string>
+    <string name="brave_ads_onboarding_text">Da biste videli oglase Brave Rewards-a, proverite da li Brave ima dozvolu da prikazuje obaveštenja.</string>
+
+    <string name="this_is_your_first_ad">Ovo je vaš prvi Brave oglas. Tapnite da saznate više.</string>
+
+    <string name="turn_on">Uključite</string>
+
+    <string name="no_thanks">Ne, hvala</string>
+    <string name="do_not_agree">Ne slažem se</string>
+
+    <string name="welcome_tour_dialog_text">Ponovno pokretanje „Obilaska za upoznavanje” neće uticati na postojeće postavke.</string>
+    <string name="finish">Završi</string>
+
 </resources>

@@ -6,12 +6,12 @@
     <string name="brave_shields_ads_trackers">Zablokowane reklamy i skrypty śledzące</string>
     <string name="brave_shields_https_upgrades">Aktualizacje HTTPS</string>
     <string name="brave_shields_scripts_blocked">Zablokowane skrypty</string>
-    <string name="brave_shields_ads_tracking_switch">Blokuj reklamy i śledzenie</string>
+    <string name="brave_shields_ads_tracking_switch">Zablokuj reklamy i śledzenie</string>
     <string name="brave_shields_https_everywhere_switch">Wymuszaj HTTPS</string>
-    <string name="brave_shields_blocks_scripts_switch">Blokuj skrypty</string>
+    <string name="brave_shields_blocks_scripts_switch">Zablokuj skrypty</string>
     <string name="accessibility_toolbar_btn_brave_shields">Włącz/Wyłącz tarcze Brave</string>
     <string name="accessibility_toolbar_btn_brave_rewards">Zarządzaj nagrodami Brave</string>
-    <string name="brave_shields_block_3rd_party_cookies_switch">Blokuj pliki cookie stron trzecich</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Zablokuj pliki cookie stron trzecich</string>
 
     <string name="httpse_summary">Wymusza użycie HTTPS, jeśli jest to możliwe</string>
     <string name="ad_block_title">Blokowanie reklam</string>
@@ -42,7 +42,7 @@
 i skrypty śledzące</string>
     <string name="brave_stats_text_https">Aktualizacje
 HTTPS</string>
-    <string name="brave_stats_text_time">Szacunkowy
+    <string name="brave_stats_text_time">Szacowany
 zaoszczędzony czas</string>
 
     <string name="send_metrics_title">Wyślij mierniki</string>
@@ -95,8 +95,6 @@ zaoszczędzony czas</string>
     <string name="update_notification_title">Aktualizacja przeglądarki Brave</string>
     <string name="update_notification_text">Nowa przeglądarka Brave działa o 22% szybciej</string>
     <string name="prefs_sync">Synchronizacja (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">To Twoja pierwsza reklama Brave</string>
-    <string name="brave_ads_oobe_education_notification_body">Dotknij, aby dowiedzieć się więcej</string>
     <string name="brave_ads_existing_user_offer_title">Reklamy Brave są dostępne!</string>
     <string name="brave_ads_new_user_offer_title">Włącz nagrody Brave</string>
     <string name="brave_ads_offer_text">Zarób token BAT za oglądanie reklam chroniących prywatność w nagrodach Brave.</string>
@@ -243,14 +241,12 @@ twórcom treści, które lubisz.</string>
 
     <string name="brave_rewards_not_available">Przepraszamy. Wygląda na to, że Nagrody Brave nie są dostępne na Twoim urządzeniu</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Zamknięcie wszystkich zakładek spowoduje zamknięcie Brave</string>
     <string name="prefs_section_display">Wyświetlanie</string>
     <string name="prefs_section_controls">Elementy kontrolne</string>
     <string name="prefs_appearance">Wygląd</string>
     <string name="hide_brave_rewards_icon_title">Ukryj ikonę nagród Brave</string>
     <string name="hide_brave_rewards_icon_description">Ukrywa ikonę nagród Brave, kiedy nie są one włączone.</string>
-
-    <string name="brave_ui_pre_grant_message">Zajrzyj niedługo ponownie, aby otrzymać bezpłatny token.</string>
-
     <string name="reset_brave_rewards_option">Zresetuj nagrody Brave</string>
     <string name="reset_brave_rewards_option_description">Spowoduje to usunięcie portfela Brave i zresetowanie wszystkich Twoich danych o nagrodach Brave.</string>
     <string name="reset_brave_rewards_error_title">Błąd resetowania</string>
@@ -269,4 +265,47 @@ twórcom treści, które lubisz.</string>
     <string name="brave_default_browser_title">Brave jest błyskawiczną przeglądarką</string>
     <string name="brave_default_browser_body">Ustaw Brave jako domyślną przeglądarkę!</string>
     <string name="brave_make_default_text">Ustaw jako domyślną</string>
+    <string name="brave_ui_ads_earnings">zarobione z reklam</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Pomiń</string>
+
+    <string name="search_engine_onboarding">Trwa wyszukiwanie</string>
+    <string name="troubleshooting_onboarding">Trwa rozwiązywanie problemu</string>
+
+    <string name="welcome_to_brave_browser">Witaj w przeglądarce Brave</string>
+    <string name="select_your_default_search_engine">Wybierz domyślną wyszukiwarkę</string>
+
+    <string name="block">Zablokuj</string>
+    <string name="brave_shields_onboarding_title">Tarcze Brave</string>
+    <string name="brave_shields_onboarding_text">reklamy ingerujące w prywatność oraz programy śledzące, dzięki czemu możesz przeglądać internet bez martwienia się o to, że ktoś monitoruje Twoje działania. </string>
+
+    <string name="earn_tokens">Zarób tokeny</string>
+    <string name="brave_rewards_onboarding_title">Nagrody Brave</string>
+    <string name="brave_rewards_onboarding_text">dla wyświetlania reklam chroniących prywatność. Korzystaj z nich, aby obsługiwać ulubione strony i kreatory.</string>
+    <string name="brave_rewards_onboarding_text2">dla wyświetlania reklam chroniących prywatność.</string>
+
+    <string name="terms_title">Akceptuję warunki, aby korzystać z nagród Brave</string>
+    <string name="terms_text">Wyrażam zgodę na korzystanie z nagród Brave</string>
+    <string name="terms_of_service">Warunki użytkowania</string>
+
+    <string name="agree">Zgadzam się</string>
+    <string name="join">Dołącz</string>
+
+     <string name="start_browsing">Rozpocznij przeglądanie</string>
+    <string name="i_didnt_see">Reklama nie wyświetliła się</string>
+
+    <string name="brave_ads_onboarding_title">Brave wyświetli pierwszą reklamę za</string>
+    <string name="brave_ads_onboarding_text">Aby zobaczyć reklamy Brave, upewnij się, że Brave może wyświetlać powiadomienia.</string>
+
+    <string name="this_is_your_first_ad">To Twoja pierwsza reklama Brave. Kliknij, aby dowiedzieć się więcej.</string>
+
+    <string name="turn_on">Włącz</string>
+
+    <string name="no_thanks">Nie, dziękuję</string>
+    <string name="do_not_agree">Nie wyrażam zgody</string>
+
+    <string name="welcome_tour_dialog_text">Ponowne włączenie samouczka nie wpływa na istniejące ustawienia.</string>
+    <string name="finish">Zakończ</string>
+
 </resources>

@@ -93,8 +93,6 @@ Tallennettu</string>
     <string name="update_notification_title">Brave-selaimen päivitys</string>
     <string name="update_notification_text">Uusi Brave-selain on 22 % nopeampi</string>
     <string name="prefs_sync">Synkronoi (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Tämä on ensimmäinen Brave-mainoksesi</string>
-    <string name="brave_ads_oobe_education_notification_body">Lue lisää tätä napauttamalla</string>
     <string name="brave_ads_existing_user_offer_title">Brave-mainokset ovat täällä!</string>
     <string name="brave_ads_new_user_offer_title">Ota Brave-palkinnot käyttöön</string>
     <string name="brave_ads_offer_text">Ansaitse perushuomiopoletti katsomalla yksityisyyden säilyttäviä mainoksia Brave-palkinnoissa.</string>
@@ -240,14 +238,12 @@ rakastamillesi sisällöntuottajille.</string>
 
     <string name="brave_rewards_not_available">Valitettavasti Brave Rewardsit eivät nähtävästi ole käytettävissä laitteellasi</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Kaikkien välilehtien sulkeminen sulkee myös Braven</string>
     <string name="prefs_section_display">Näytä</string>
     <string name="prefs_section_controls">Ohjaimet</string>
     <string name="prefs_appearance">Ulkoasu</string>
     <string name="hide_brave_rewards_icon_title">Piilota Brave Rewards -kuvake</string>
     <string name="hide_brave_rewards_icon_description">Piilottaa Brave Rewards -kuvakkeen, kun Brave Rewards ei ole käytössä</string>
-
-    <string name="brave_ui_pre_grant_message">Tule pian takaisin saadaksesi ilmaisia rahakkeita</string>
-
     <string name="reset_brave_rewards_option">Nollaa Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Tämä toiminto poistaa Brave-lompakkosi ja nollaa kaikki Brave Rewards -tietosi</string>
     <string name="reset_brave_rewards_error_title">Virhe nollattaessa</string>
@@ -266,4 +262,47 @@ rakastamillesi sisällöntuottajille.</string>
     <string name="brave_default_browser_title">Brave on salamannopea</string>
     <string name="brave_default_browser_body">Tee Bravesta oletusselaimesi!</string>
     <string name="brave_make_default_text">Aseta oletukseksi</string>
+    <string name="brave_ui_ads_earnings">tienattu mainoksista</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Ohita</string>
+
+    <string name="search_engine_onboarding">Hakukoneen perehdytys</string>
+    <string name="troubleshooting_onboarding">Ongelmanratkaisun perehdytys</string>
+
+    <string name="welcome_to_brave_browser">Tervetuloa Braven selaimeen</string>
+    <string name="select_your_default_search_engine">Valitse oletushakukoneesi</string>
+
+    <string name="block">Estä</string>
+    <string name="brave_shields_onboarding_title">Brave Shields</string>
+    <string name="brave_shields_onboarding_text">yksityisyyttä rikkovat mainokset ja seurantaohjelmat, jotta voit selata rauhassa ilman pelkoa, että joku seuraisi sinua verkossa.</string>
+
+    <string name="earn_tokens">Ansaitse käyttötunnuksia</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">nähdäksesi yksityisyyttä kunnioittavat mainokset. Käytä niitä suosikkisivustojesi ja -kehittäjiesi tukemiseen.</string>
+    <string name="brave_rewards_onboarding_text2">nähdäksesi yksityisyyttä kunnioittavat mainokset.</string>
+
+    <string name="terms_title">Hyväksy käyttöehdot voidaksesi käyttää Brave Rewardsin palkintoja</string>
+    <string name="terms_text">Hyväksyn Brave Rewardsin</string>
+    <string name="terms_of_service">Käyttöehdot</string>
+
+    <string name="agree">Hyväksy</string>
+    <string name="join">Liity</string>
+
+     <string name="start_browsing">Aloita selaaminen</string>
+    <string name="i_didnt_see">En nähnyt mainosta</string>
+
+    <string name="brave_ads_onboarding_title">Brave näyttää seuraavan mainoksesi:</string>
+    <string name="brave_ads_onboarding_text">Varmista, että Bravella on oikeudet näyttää sinulle ilmoituksia, jotta voisit nähdä Brave Rewardsin mainokset</string>
+
+    <string name="this_is_your_first_ad">Tämä on ensimmäinen Brave-mainoksesi. Lue lisää napauttamalla.</string>
+
+    <string name="turn_on">Aseta päälle</string>
+
+    <string name="no_thanks">Ei kiitos</string>
+    <string name="do_not_agree">Älä hyväksy</string>
+
+    <string name="welcome_tour_dialog_text">Tervetuliaiskierroksen käynnistäminen uudelleen ei vaikuta nykyisiin asetuksiin.</string>
+    <string name="finish">Viimeistele</string>
+
 </resources>

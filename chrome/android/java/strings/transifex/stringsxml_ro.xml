@@ -93,8 +93,6 @@ Salvat</string>
     <string name="update_notification_title">Actualizare Brave</string>
     <string name="update_notification_text">Noul browser Brave este cu 22% mai rapid</string>
     <string name="prefs_sync">Sincronizare (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Acesta este primul dumneavoastră anunț Brave</string>
-    <string name="brave_ads_oobe_education_notification_body">Apăsați aici pentru a afla mai multe</string>
     <string name="brave_ads_existing_user_offer_title">Reclamele Brave sunt aici!</string>
     <string name="brave_ads_new_user_offer_title">Activați Recompense Brave</string>
     <string name="brave_ads_offer_text">Obțineți Basic Attention Token pentru a vizualiza reclame care mențin confidențialitatea în Recompense Brave.</string>
@@ -240,14 +238,12 @@ creatorii de conținut care vă plac.</string>
 
     <string name="brave_rewards_not_available">Ne pare rău, dar se pare că Brave Rewards nu este disponibil pe dispozitivul dvs.</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Dacă închideți toate filele, Brave se va închide</string>
     <string name="prefs_section_display">Afișaj</string>
     <string name="prefs_section_controls">Controale</string>
     <string name="prefs_appearance">Aspect</string>
     <string name="hide_brave_rewards_icon_title">Ascunde Iconița Recompense Brave</string>
     <string name="hide_brave_rewards_icon_description">Ascunde Ioniță de Recompense Brave când Recompensele Brave nu sunt activate</string>
-
-    <string name="brave_ui_pre_grant_message">Reveniți în curând pentru un token gratuit</string>
-
     <string name="reset_brave_rewards_option">Resetează Recompense Brave</string>
     <string name="reset_brave_rewards_option_description">Aceasta va șterge portofelul Brave și va reseta toate datele despre Recompensele Brave</string>
     <string name="reset_brave_rewards_error_title">Resetare Eroare</string>
@@ -266,4 +262,47 @@ creatorii de conținut care vă plac.</string>
     <string name="brave_default_browser_title">Brave este iute ca fulgerul</string>
     <string name="brave_default_browser_body">Setați Brave ca browser implicit!</string>
     <string name="brave_make_default_text">Setați ca implicit</string>
+    <string name="brave_ui_ads_earnings">câștigat din reclame</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Omiteți</string>
+
+    <string name="search_engine_onboarding">Înscriere în motorul de căutare</string>
+    <string name="troubleshooting_onboarding">Remedierea erorilor pentru înscriere</string>
+
+    <string name="welcome_to_brave_browser">Bine ați venit în Browserul Brave</string>
+    <string name="select_your_default_search_engine">Selectați motorul de căutare prestabilit</string>
+
+    <string name="block">Blocați</string>
+    <string name="brave_shields_onboarding_title">Scuturi Brave</string>
+    <string name="brave_shields_onboarding_text">anunțurile și instrumentele de urmărire invazive, ca să puteți naviga pe internet fără să fiți urmărit(ă).</string>
+
+    <string name="earn_tokens">Câștigați tokenuri</string>
+    <string name="brave_rewards_onboarding_title">Recompense Brave</string>
+    <string name="brave_rewards_onboarding_text">pentru că vizionați anunțuri care respectă confidențialitatea. Folosiți-le pentru a vă susține site-urile și creatorii preferați.</string>
+    <string name="brave_rewards_onboarding_text2">pentru vizionarea anunțurilor care respectă confidențialitatea.</string>
+
+    <string name="terms_title">Acceptați Termenii pentru a folosi Recompensele Brave</string>
+    <string name="terms_text">Sunt de acord cu Recompensele Brave</string>
+    <string name="terms_of_service">Termeni și condiții</string>
+
+    <string name="agree">Sunt de acord</string>
+    <string name="join">Înscrieți-vă</string>
+
+     <string name="start_browsing">Începeți să navigați</string>
+    <string name="i_didnt_see">Nu am văzut un anunț</string>
+
+    <string name="brave_ads_onboarding_title">Brave vă va afișa primul anunț în</string>
+    <string name="brave_ads_onboarding_text">Pentru a viziona anunțuri de la Recompensele Brave, asigurați-vă că Brave are permisiunea de a afișa notificări.</string>
+
+    <string name="this_is_your_first_ad">Acesta este primul dvs. anunț Brave. Atingeți pentru a afla mai multe.</string>
+
+    <string name="turn_on">Activați</string>
+
+    <string name="no_thanks">Nu, mulțumesc</string>
+    <string name="do_not_agree">Nu sunt de acord</string>
+
+    <string name="welcome_tour_dialog_text">Repornirea Turului de bun venit nu va afecta setările existente.</string>
+    <string name="finish">Gata</string>
+
 </resources>

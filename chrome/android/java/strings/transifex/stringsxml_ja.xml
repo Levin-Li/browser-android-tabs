@@ -95,8 +95,6 @@
     <string name="update_notification_title">Braveアップデート</string>
     <string name="update_notification_text">新しく生まれ変わったBraveブラウザは、22%高速化しました</string>
     <string name="prefs_sync">Sync (beta版)</string>
-    <string name="brave_ads_oobe_education_notification_title">これはあなたの初めてのBrave広告です</string>
-    <string name="brave_ads_oobe_education_notification_body">詳しく知るにはここをタップします</string>
     <string name="brave_ads_existing_user_offer_title">Brave Adsのご紹介です！</string>
     <string name="brave_ads_new_user_offer_title">Brave Rewardsを有効にしましょう</string>
     <string name="brave_ads_offer_text">Brave Rewardsでプライバシー重視型の広告を見てBasic Attention Token(BAT)をもらいましょう。</string>
@@ -242,14 +240,12 @@
 
     <string name="brave_rewards_not_available">申し訳ありませんが、お使いの端末ではBrave Rewardsをご利用いただけないようです</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">すべてのタブを閉じるとBraveが終了します</string>
     <string name="prefs_section_display">表示</string>
     <string name="prefs_section_controls">コントロール</string>
     <string name="prefs_appearance">見た目</string>
     <string name="hide_brave_rewards_icon_title">Brave Rewardsのアイコンを隠す</string>
     <string name="hide_brave_rewards_icon_description">Brave Rewardsが有効でない場合にBrave Rewardsのアイコンを隠す</string>
-
-    <string name="brave_ui_pre_grant_message">またすぐにチェックして無料のトークンを受け取りましょう</string>
-
     <string name="reset_brave_rewards_option">Brave Rewardsをリセット</string>
     <string name="reset_brave_rewards_option_description">Brave Walletが削除され、すべてのBrave Rewardsのデータがリセットされます</string>
     <string name="reset_brave_rewards_error_title">エラーをリセット</string>
@@ -268,4 +264,47 @@
     <string name="brave_default_browser_title">Braveは動作が高速です</string>
     <string name="brave_default_browser_body">Braveをあなたのデフォルトブラウザーにしましょう！</string>
     <string name="brave_make_default_text">デフォルトにする</string>
+    <string name="brave_ui_ads_earnings">広告からの収入</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">スキップ</string>
+
+    <string name="search_engine_onboarding">検索エンジンのオンボーディング</string>
+    <string name="troubleshooting_onboarding">オンボーディングのトラブルシューティング</string>
+
+    <string name="welcome_to_brave_browser">Braveブラウザにようこそ</string>
+    <string name="select_your_default_search_engine">デフォルトの検索エンジンを選択してください</string>
+
+    <string name="block">ブロック</string>
+    <string name="brave_shields_onboarding_title">ブレイブシールド</string>
+    <string name="brave_shields_onboarding_text">プライバシーを侵害する広告とトラッカー、そのためウェブでたどるられることなくブラウジングできます。</string>
+
+    <string name="earn_tokens">トークンを獲得</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">プライバシーを尊重する広告を見るために。お気に入りのサイトやクリエイターをサポートするためにそれらを使用してください。</string>
+    <string name="brave_rewards_onboarding_text2">プライバシーを尊重する広告を見るために。</string>
+
+    <string name="terms_title">Brave Rewardsを使用するために規約に同意する</string>
+    <string name="terms_text">Brave Rewardsに同意します</string>
+    <string name="terms_of_service">利用規約</string>
+
+    <string name="agree">同意</string>
+    <string name="join">参加</string>
+
+     <string name="start_browsing">ブラウジングを開始</string>
+    <string name="i_didnt_see">広告を見ていません</string>
+
+    <string name="brave_ads_onboarding_title">Braveはあなたの最初の広告を表示します</string>
+    <string name="brave_ads_onboarding_text">Brave Rewardsの広告を表示するには、Braveが通知を表示できることを確認してください。</string>
+
+    <string name="this_is_your_first_ad">これが最初のBraveの広告です。 タップして詳細を確認して下さい。</string>
+
+    <string name="turn_on">ONにする</string>
+
+    <string name="no_thanks">結構です</string>
+    <string name="do_not_agree">同意しない</string>
+
+    <string name="welcome_tour_dialog_text">ウェルカムツアーを再起動しても、既存の設定には影響しません。</string>
+    <string name="finish">終了</string>
+
 </resources>

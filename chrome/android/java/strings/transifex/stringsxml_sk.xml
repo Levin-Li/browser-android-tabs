@@ -93,8 +93,6 @@ ušetrený čas</string>
     <string name="update_notification_title">Aktualizácia prehliadača Brave</string>
     <string name="update_notification_text">Nový prehliadač Brave je o 22 % rýchlejší</string>
     <string name="prefs_sync">Sync (beta verzia)</string>
-    <string name="brave_ads_oobe_education_notification_title">Toto je vaša prvá reklama Brave</string>
-    <string name="brave_ads_oobe_education_notification_body">Pre viac informácií kliknite sem</string>
     <string name="brave_ads_existing_user_offer_title">Reklamy Brave sú tu!</string>
     <string name="brave_ads_new_user_offer_title">Aktivovať odmeny Brave</string>
     <string name="brave_ads_offer_text">Získajte v odmenách Brave token základnej pozornosti na prezeranie reklám zameraných na ochranu súkromia.</string>
@@ -241,14 +239,12 @@ tvorcov obsahu, ktorých máte radi.</string>
 
     <string name="brave_rewards_not_available">Ľutujeme, ale Odmeny Brave vo vašom zariadení nie sú  k dispozícii</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Zatvorením všetkých kariet sa Brave zatvorí</string>
     <string name="prefs_section_display">Zobraziť</string>
     <string name="prefs_section_controls">Ovládacie prvky</string>
     <string name="prefs_appearance">Vzhľad</string>
     <string name="hide_brave_rewards_icon_title">Skryť ikonu Odmeny Brave</string>
     <string name="hide_brave_rewards_icon_description">Skryť ikonu Odmeny Brave, keď Odmeny Brave nie sú povolené</string>
-
-    <string name="brave_ui_pre_grant_message">Čoskoro si skontrolujte udelenie bezplatného tokenu</string>
-
     <string name="reset_brave_rewards_option">Obnoviť Odmeny Brave</string>
     <string name="reset_brave_rewards_option_description">Týmto vymažete svoju peňaženku Brave a obnovíte všetky svoje dáta  Odmeny Brave</string>
     <string name="reset_brave_rewards_error_title">Chyba obnovenia</string>
@@ -267,4 +263,47 @@ tvorcov obsahu, ktorých máte radi.</string>
     <string name="brave_default_browser_title">Brave je bleskurýchly</string>
     <string name="brave_default_browser_body">Premeňte Brave na svoj predvolený prehliadač</string>
     <string name="brave_make_default_text">Predvolené</string>
+    <string name="brave_ui_ads_earnings">zarobené na reklamách</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Preskočiť</string>
+
+    <string name="search_engine_onboarding">Vyhľadávací nástroj na palube</string>
+    <string name="troubleshooting_onboarding">Riešenie problémov na palube</string>
+
+    <string name="welcome_to_brave_browser">Vitajte v prehliadači Brave</string>
+    <string name="select_your_default_search_engine">Vyberte si svoj predvolený vyhľadávací nástroj</string>
+
+    <string name="block">Blokovať</string>
+    <string name="brave_shields_onboarding_title">Brave Shields</string>
+    <string name="brave_shields_onboarding_text">reklamy a sledovače, ktoré napádajú súkromie, takže môžete prehliadať stránky bez toho, aby ste sa museli riadiť webom.</string>
+
+    <string name="earn_tokens">Získať tokeny</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">na zobrazovanie reklám rešpektujúcich súkromie. Použite ich na podporu svojich obľúbených stránok a tvorcov.</string>
+    <string name="brave_rewards_onboarding_text2">na zobrazovanie reklám rešpektujúcich súkromie.</string>
+
+    <string name="terms_title">Súhlas s podmienkami používania Brave Rewards</string>
+    <string name="terms_text">Súhlasím s Brave Rewards</string>
+    <string name="terms_of_service">Podmienky služby</string>
+
+    <string name="agree">Súhlasiť</string>
+    <string name="join">Pridať sa</string>
+
+     <string name="start_browsing">Spustiť prehliadanie</string>
+    <string name="i_didnt_see">Reklamu som nevidel</string>
+
+    <string name="brave_ads_onboarding_title">Brave zobrazí vašu prvú reklamu za</string>
+    <string name="brave_ads_onboarding_text">Ak chcete zobraziť reklamy od Brave Rewards, uistite sa, že Brave má povolené zobrazovať upozornenia.</string>
+
+    <string name="this_is_your_first_ad">Toto je vaša prvá reklama Brave. Klepnutím získate ďalšie informácie.</string>
+
+    <string name="turn_on">Zapnúť</string>
+
+    <string name="no_thanks">Nie, ďakujem</string>
+    <string name="do_not_agree">Nesúhlas</string>
+
+    <string name="welcome_tour_dialog_text">Opätovné spustenie uvítacej prehliadky nebude mať vplyv na žiadne existujúce nastavenia.</string>
+    <string name="finish">Skončiť</string>
+
 </resources>
