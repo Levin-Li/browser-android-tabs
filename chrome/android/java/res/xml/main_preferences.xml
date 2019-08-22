@@ -75,31 +75,32 @@
         android:order="14"
         android:title="@string/prefs_themes" />
 
-    <Preference
-        android:fragment="org.chromium.chrome.browser.preferences.ClosingTabsPreferences"
-        android:key="closing_tabs"
-        android:order="15"
-        android:title="@string/prefs_closing_all_tabs_closes_brave_title"/>
-
     <PreferenceCategory
         android:key="display_section"
-        android:order="16"
+        android:order="15"
         android:title="@string/prefs_section_display"/>
     <Preference
         android:fragment="org.chromium.chrome.browser.preferences.AppearancePreferences"
         android:key="privacy"
-        android:order="17"
+        android:order="16"
         android:title="@string/prefs_appearance"/>
 
     <PreferenceCategory
         android:key="controls_section"
-        android:order="18"
+        android:order="17"
         android:title="@string/prefs_section_controls"/>
+
     <Preference
         android:fragment="org.chromium.chrome.browser.preferences.ControlsPreferences"
         android:key="controls"
-        android:order="19"
+        android:order="18"
         android:title="@string/play_video_in_background_title"/>
+
+    <Preference
+        android:fragment="org.chromium.chrome.browser.preferences.ClosingTabsPreferences"
+        android:key="closing_tabs"
+        android:order="19"
+        android:title="@string/prefs_closing_all_tabs_closes_brave_title"/>
 
     <!--Advanced section-->
     <PreferenceCategory
