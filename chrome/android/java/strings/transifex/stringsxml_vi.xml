@@ -94,8 +94,6 @@ HTTPS</string>
     <string name="update_notification_title">Cập nhật Brave</string>
     <string name="update_notification_text">Trình duyệt Brave mới nhanh hơn 22%</string>
     <string name="prefs_sync">Đồng bộ (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Đây là quảng cáo Brave đầu tiên của bạn</string>
-    <string name="brave_ads_oobe_education_notification_body">Nhấn vào đây để tìm hiểu thêm</string>
     <string name="brave_ads_existing_user_offer_title">Quảng cáo Brave đã có mặt!</string>
     <string name="brave_ads_new_user_offer_title">Bật Tính năng Thưởng Brave</string>
     <string name="brave_ads_offer_text">Xem các quảng cáo đảm bảo tính riêng tư để nhận Token BAT, trong tính năng Thưởng Brave</string>
@@ -242,14 +240,12 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
 
     <string name="brave_rewards_not_available">Chúng tôi rất tiếc, dường như tính năng Brave Rewards không khả dụng trên thiết bị của bạn</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Đóng tất cả các tab sẽ đóng trình duyệt Brave</string>
     <string name="prefs_section_display">Hiển thị</string>
     <string name="prefs_section_controls">Bộ điều khiển</string>
     <string name="prefs_appearance">Hiển thị</string>
     <string name="hide_brave_rewards_icon_title">Ẩn Biểu tượng Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Ẩn biểu tượng </string>
-
-    <string name="brave_ui_pre_grant_message">Sớm trở lại kiểm tra để được nhận token miễn phí</string>
-
     <string name="reset_brave_rewards_option">Đặt lại Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Việc này sẽ xóa ví Brave của bạn và đặt lại toàn bộ dữ liệu Brave Rewards của bạn về trạng thái ban đầu</string>
     <string name="reset_brave_rewards_error_title">Lỗi khi Đặt lại</string>
@@ -268,4 +264,47 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
     <string name="brave_default_browser_title">Brave nhanh như chớp</string>
     <string name="brave_default_browser_body">Đặt Brave làm trình duyệt mặc định của bạn!</string>
     <string name="brave_make_default_text">Đặt làm mặc định</string>
+    <string name="brave_ui_ads_earnings">đã kiếm từ quảng cáo</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Bỏ qua</string>
+
+    <string name="search_engine_onboarding">Đang chạy công cụ tìm kiếm</string>
+    <string name="troubleshooting_onboarding">Đang bắt đầu khắc phục sự cố</string>
+
+    <string name="welcome_to_brave_browser">Chào mừng bạn đến với Trình duyệt Brave</string>
+    <string name="select_your_default_search_engine">Chọn công cụ tìm kiếm mặc định của bạn</string>
+
+    <string name="block">Chặn</string>
+    <string name="brave_shields_onboarding_title">Brave Shields</string>
+    <string name="brave_shields_onboarding_text">các trình theo dõi và quảng cáo xâm phạm quyền riêng tư để bạn có thể duyệt qua mà không bị theo dõi trên trang web này.</string>
+
+    <string name="earn_tokens">Kiếm mã token</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">để xem các quảng cáo tôn trọng quyền riêng tư. Hãy sử dụng các quảng cáo này để ủng hộ những trang web và người sáng tạo mà bạn yêu thích.</string>
+    <string name="brave_rewards_onboarding_text2">để xem các quảng cáo tôn trọng quyền riêng tư.</string>
+
+    <string name="terms_title">Đồng ý với Điều khoản sử dụng Brave Rewards</string>
+    <string name="terms_text">Tôi đồng ý với Điều khoản sử dụng Brave Rewards</string>
+    <string name="terms_of_service">Điều khoản sử dụng</string>
+
+    <string name="agree">Đồng ý</string>
+    <string name="join">Tham gia</string>
+
+     <string name="start_browsing">Bắt đầu duyệt qua</string>
+    <string name="i_didnt_see">Tôi không nhìn thấy quảng cáo</string>
+
+    <string name="brave_ads_onboarding_title">Brave sẽ hiển thị quảng cáo đầu tiên của bạn trong</string>
+    <string name="brave_ads_onboarding_text">Để xem quảng cáo từ Brave Rewards, hãy đảm bảo bạn cho phép Brave hiển thị thông báo.</string>
+
+    <string name="this_is_your_first_ad">Đây là quảng cáo đầu tiên của bạn trên Brave. Hãy nhấn để tìm hiểu thêm.</string>
+
+    <string name="turn_on">Bật</string>
+
+    <string name="no_thanks">Không, cảm ơn</string>
+    <string name="do_not_agree">Không đồng ý</string>
+
+    <string name="welcome_tour_dialog_text">Khởi chạy lại Chuyến chào mừng sẽ không gây ảnh hưởng đến bất kỳ cài đặt hiện tại nào.</string>
+    <string name="finish">Kết thúc</string>
+
 </resources>

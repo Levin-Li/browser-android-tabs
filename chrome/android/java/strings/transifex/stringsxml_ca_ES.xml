@@ -230,9 +230,6 @@ als creadors de contingut que t\'agraden.</string>
     <string name="prefs_appearance">Aparença</string>
     <string name="hide_brave_rewards_icon_title">Ocultar Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Amaga la icona de Brave Rewards quan Brave Rewards no estigui activat</string>
-
-    <string name="brave_ui_pre_grant_message">Torna aviat per poder rebre un obsequi gratuït</string>
-
     <string name="reset_brave_rewards_option">Inicialitzar Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Això eliminarà la cartera Brave Rewards i inicialitzarà totes les teves dades de Brave Rewards</string>
     <string name="reset_brave_rewards_error_title">Error d\'inicialització</string>

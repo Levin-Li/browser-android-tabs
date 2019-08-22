@@ -93,8 +93,6 @@ Shranjeno</string>
     <string name="update_notification_title">Posodobitev Brave</string>
     <string name="update_notification_text">Novi brskalnik Brave je 22 % hitrejši</string>
     <string name="prefs_sync">Sync (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">To je vaš prvi oglas Brave</string>
-    <string name="brave_ads_oobe_education_notification_body">Tapni tukaj, da izveste več</string>
     <string name="brave_ads_existing_user_offer_title">Oglasi Brave so tu!</string>
     <string name="brave_ads_new_user_offer_title">Omogoči nagrade Brave</string>
     <string name="brave_ads_offer_text">Prislužite si osnovni žeton pozornosti za ogledovanje oglasov z varovanjem zasebnosti v nagradah Brave Rewards.</string>
@@ -247,9 +245,6 @@ ustvarjalcem vsebin, ki so vam všeč.</string>
     <string name="prefs_appearance">Videz</string>
     <string name="hide_brave_rewards_icon_title">Skrij ikono Nagrade Brave</string>
     <string name="hide_brave_rewards_icon_description">Skrije ikono Nagrade Brave, ko Nagrade Brave niso omogočene.</string>
-
-    <string name="brave_ui_pre_grant_message">Kmalu ponovno preverite za brezplačno donacijo žetona</string>
-
     <string name="reset_brave_rewards_option">Ponastavi Nagrade Brave</string>
     <string name="reset_brave_rewards_option_description">S tem boste izbrisali svojo denarnico Brave in ponastavili vse podatke Nagrad Brave.</string>
     <string name="reset_brave_rewards_error_title">Napaka ponastavljanja</string>
@@ -268,4 +263,4 @@ ustvarjalcem vsebin, ki so vam všeč.</string>
     <string name="brave_default_browser_title">Brave je svetlobno hiter</string>
     <string name="brave_default_browser_body">Nastavite Brave za svoj privzeti brskalnik!</string>
     <string name="brave_make_default_text">Naredi privzeto</string>
-</resources>
+    </resources>

@@ -94,8 +94,6 @@
     <string name="update_notification_title">Brave 更新</string>
     <string name="update_notification_text">新的 Brave 瀏覽器快了 22%</string>
     <string name="prefs_sync">同步 (測試版)</string>
-    <string name="brave_ads_oobe_education_notification_title">這是您的第一個 Brave 廣告</string>
-    <string name="brave_ads_oobe_education_notification_body">觸碰這裡並了解更多</string>
     <string name="brave_ads_existing_user_offer_title">Brave 廣告在此！</string>
     <string name="brave_ads_new_user_offer_title">啟用 Brave 獎勵</string>
     <string name="brave_ads_offer_text">掙得基本注意代幣來檢視 Brave 獎勵中的隱私權保留廣告。</string>
@@ -241,14 +239,12 @@
 
     <string name="brave_rewards_not_available">我們很抱歉，看似您的裝置上沒有 Brave Rewards 可用</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">關閉所有標籤會一併關閉 Brave</string>
     <string name="prefs_section_display">顯示</string>
     <string name="prefs_section_controls">控制功能</string>
     <string name="prefs_appearance">外觀</string>
     <string name="hide_brave_rewards_icon_title">隱藏 Brave 獎勵圖標</string>
     <string name="hide_brave_rewards_icon_description">當 Brave 獎勵未啟用時隱藏 Brave 獎勵圖示</string>
-
-    <string name="brave_ui_pre_grant_message">盡快回來查看以獲得免費的代幣</string>
-
     <string name="reset_brave_rewards_option">重新設定 Brave </string>
     <string name="reset_brave_rewards_option_description">這將會刪除你的 Brave 錢包並重新設定你所有的 Brave 獎勵之數據</string>
     <string name="reset_brave_rewards_error_title">重新設定發生錯誤</string>
@@ -267,4 +263,47 @@
     <string name="brave_default_browser_title">Brave 快如閃電</string>
     <string name="brave_default_browser_body">將 Brave 變成您的預設瀏覽器！</string>
     <string name="brave_make_default_text">變成預設</string>
+    <string name="brave_ui_ads_earnings">從廣告賺得</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">略過</string>
+
+    <string name="search_engine_onboarding">搜尋引擎入門</string>
+    <string name="troubleshooting_onboarding">入門疑難解答</string>
+
+    <string name="welcome_to_brave_browser">歡迎使用 Brave 瀏覽器</string>
+    <string name="select_your_default_search_engine">選擇您的預設搜尋引擎</string>
+
+    <string name="block">封鎖</string>
+    <string name="brave_shields_onboarding_title">Brave 防護</string>
+    <string name="brave_shields_onboarding_text">侵犯隱私的廣告與追蹤器，讓您在網路瀏覽時不會被跟蹤。</string>
+
+    <string name="earn_tokens">贏取令牌</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">只看尊重隱私的廣告。使用它們來支持您喜愛的網站與創作者。</string>
+    <string name="brave_rewards_onboarding_text2">只看尊重隱私的廣告。</string>
+
+    <string name="terms_title">同意條款以開始使用 Brave Rewards</string>
+    <string name="terms_text">我同意 Brave Rewards</string>
+    <string name="terms_of_service">服務條款</string>
+
+    <string name="agree">同意</string>
+    <string name="join">加入</string>
+
+     <string name="start_browsing">開始瀏覽</string>
+    <string name="i_didnt_see">我沒有看到廣告</string>
+
+    <string name="brave_ads_onboarding_title">Brave 會顯示您的第一個廣告於</string>
+    <string name="brave_ads_onboarding_text">欲觀看來自 Brave Rewards 的廣告，請確定允許 Brave 向您顯示通知。</string>
+
+    <string name="this_is_your_first_ad">這是您的第一個 Brave 廣告。點擊以瞭解更多。</string>
+
+    <string name="turn_on">開啟</string>
+
+    <string name="no_thanks">謝謝不必</string>
+    <string name="do_not_agree">不同意</string>
+
+    <string name="welcome_tour_dialog_text">重新啟動「歡迎導覽」並不會影響到任何既有設定。</string>
+    <string name="finish">結束</string>
+
 </resources>

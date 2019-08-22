@@ -93,8 +93,6 @@ besparelse</string>
     <string name="update_notification_title">Brave opdatering </string>
     <string name="update_notification_text">Den nye Brave browser er 22% hurtigere </string>
     <string name="prefs_sync">Sync (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Dette er din første Brave-annonce</string>
-    <string name="brave_ads_oobe_education_notification_body">Tryk her for at få mere at vide</string>
     <string name="brave_ads_existing_user_offer_title">Brave Annoncer er her!</string>
     <string name="brave_ads_new_user_offer_title">Aktiver Brave Rewards</string>
     <string name="brave_ads_offer_text">Optjen Basic Attention Token ved at se privatlivsbevarende annoncer i Brave Rewards. </string>
@@ -240,14 +238,12 @@ de indholdsskabere, du elsker.</string>
 
     <string name="brave_rewards_not_available">Vi beklager at det ser ud til at Brave Rewards ikke er tilgængelig på din enhed</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Lukning af alle faner lukker Brave</string>
     <string name="prefs_section_display">Visning</string>
     <string name="prefs_section_controls">Styring</string>
     <string name="prefs_appearance">Udseende</string>
     <string name="hide_brave_rewards_icon_title">Skjul Ikonet for Brave Belønninger</string>
     <string name="hide_brave_rewards_icon_description">Skjuler Ikonet for Brave Belønninger, når Brave Belønninger ikke er aktiveret</string>
-
-    <string name="brave_ui_pre_grant_message">Kom tilbage snart for at modtage en gratis polet</string>
-
     <string name="reset_brave_rewards_option">Nulstil Brave Belønninger</string>
     <string name="reset_brave_rewards_option_description">Dette vil slette din Brave-pengepung og nulstille alle dine data om Brave Belønninger</string>
     <string name="reset_brave_rewards_error_title">Nulstil Fejl</string>
@@ -266,4 +262,47 @@ de indholdsskabere, du elsker.</string>
     <string name="brave_default_browser_title">Brave er lynhurtig</string>
     <string name="brave_default_browser_body">Gør Brave til din standardbrowser!</string>
     <string name="brave_make_default_text">Gør til standard</string>
+    <string name="brave_ui_ads_earnings">tjent på reklamer </string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Spring over</string>
+
+    <string name="search_engine_onboarding">Onboarding for søgemotor</string>
+    <string name="troubleshooting_onboarding">Onboarding for problemløsning</string>
+
+    <string name="welcome_to_brave_browser">Velkommen til Brave Browser</string>
+    <string name="select_your_default_search_engine">Vælg din foretrukne søgemotor</string>
+
+    <string name="block">Bloker</string>
+    <string name="brave_shields_onboarding_title">Brave Shields</string>
+    <string name="brave_shields_onboarding_text">privatlivsinvaderende annoncer og trackere, så du kan browse uden at blive sporet, når du er på nettet.</string>
+
+    <string name="earn_tokens">Optjen tokens</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">for at se privatlivsrespekterende annoncer. Brug dem til at støtte dine favoritsider og skabere.</string>
+    <string name="brave_rewards_onboarding_text2">for at se privatlivsrespekterende annoncer.</string>
+
+    <string name="terms_title">Accepter vilkårene for at bruge Brave Rewards</string>
+    <string name="terms_text">Jeg accepterer Brave Rewards</string>
+    <string name="terms_of_service">Tjenestevilkår</string>
+
+    <string name="agree">Accepter</string>
+    <string name="join">Tilmeld</string>
+
+     <string name="start_browsing">Begynd at browse</string>
+    <string name="i_didnt_see">Jeg så ikke en annonce</string>
+
+    <string name="brave_ads_onboarding_title">Brave viser din første annonce om</string>
+    <string name="brave_ads_onboarding_text">For at se annoncer fra Brave Rewards skal du sørge for at Brave har tilladelse til at vise dig notifikationer </string>
+
+    <string name="this_is_your_first_ad">Dette er din første Brave annonce. Tryk for at få mere at vide.</string>
+
+    <string name="turn_on">Slå til</string>
+
+    <string name="no_thanks">Nej tak</string>
+    <string name="do_not_agree">Accepterer ikke</string>
+
+    <string name="welcome_tour_dialog_text">Genstart af velkomstturen påvirker ikke nogen eksisterende indstillinger.</string>
+    <string name="finish">Afslut</string>
+
 </resources>

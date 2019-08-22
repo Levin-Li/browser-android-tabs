@@ -93,8 +93,6 @@
     <string name="update_notification_title">Оновлення Brave</string>
     <string name="update_notification_text">Новий Brave браузер на 22% швидше</string>
     <string name="prefs_sync">Синхронізація (бета)</string>
-    <string name="brave_ads_oobe_education_notification_title">Це ваше перше оголошення Brave</string>
-    <string name="brave_ads_oobe_education_notification_body">Натисніть тут, щоб дізнатись більше</string>
     <string name="brave_ads_existing_user_offer_title">Реклама Brave тут!</string>
     <string name="brave_ads_new_user_offer_title">Увімкнути Винагороди Brave </string>
     <string name="brave_ads_offer_text">Заробіть Токен Базової Уваги, переглядаючи рекламу, що зберігає приватність, у Винагородах Brave.</string>
@@ -240,14 +238,12 @@
 
     <string name="brave_rewards_not_available">Вибачте, але нагороди Brave, схоже, недоступні на вашому пристрої</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Закриття всіх вкладок закриє Brave</string>
     <string name="prefs_section_display">Відобразити</string>
     <string name="prefs_section_controls">Керування</string>
     <string name="prefs_appearance">Вигляд</string>
     <string name="hide_brave_rewards_icon_title">Сховати іконку нагород Brave</string>
     <string name="hide_brave_rewards_icon_description">Приховує іконку нагород Brave, коли ті вимкнуті</string>
-
-    <string name="brave_ui_pre_grant_message">Поверніться незабаром, щоб безоплатно отримати токени</string>
-
     <string name="reset_brave_rewards_option">Скинути нагороди Brave</string>
     <string name="reset_brave_rewards_option_description">Це видалить ваш гаманець Brave і скине усі дані ваших нагород Brave</string>
     <string name="reset_brave_rewards_error_title">Помилка скидання</string>
@@ -266,4 +262,47 @@
     <string name="brave_default_browser_title">Brave блискавично швидкий</string>
     <string name="brave_default_browser_body">Зробити Brave вашим браузером за замовчуванням!</string>
     <string name="brave_make_default_text">Встановити за замовчуванням</string>
+    <string name="brave_ui_ads_earnings">зароблених від реклами</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Пропустити</string>
+
+    <string name="search_engine_onboarding">Ознайомлення з пошуковою платформою</string>
+    <string name="troubleshooting_onboarding">Ознайомлення з вирішенням проблем</string>
+
+    <string name="welcome_to_brave_browser">Ласкаво просимо до браузера Brave </string>
+    <string name="select_your_default_search_engine">Оберіть свою пошукову платформу за замовчуванням</string>
+
+    <string name="block">Блокувати</string>
+    <string name="brave_shields_onboarding_title">Щити Brave</string>
+    <string name="brave_shields_onboarding_text">рекламу, що порушує приватність та відстежувачі, щоб ви могли переглядати сайти без того, щоб за вами стежили по всій мережі</string>
+
+    <string name="earn_tokens">Заробити токени</string>
+    <string name="brave_rewards_onboarding_title">Винагороди Brave</string>
+    <string name="brave_rewards_onboarding_text">за перегляд реклами, що поважає приватність. Використовуйте їх, щоб підтримувати ваші улюблені сайти та творців.</string>
+    <string name="brave_rewards_onboarding_text2">за перегляд реклами, що поважає приватність.</string>
+
+    <string name="terms_title">Погодитись з Умовами, щоб використовувати Винагороди Brave</string>
+    <string name="terms_text">Я погоджуюсь на Винагороди Brave</string>
+    <string name="terms_of_service">Умови надання послуг</string>
+
+    <string name="agree">Погоджуюсь</string>
+    <string name="join">Приєднатись</string>
+
+     <string name="start_browsing">Почати перегляд</string>
+    <string name="i_didnt_see">Я не &apos; бачив реклами</string>
+
+    <string name="brave_ads_onboarding_title">Brave покаже вам вашу першу рекламу через</string>
+    <string name="brave_ads_onboarding_text">Щоб бачити рекламу від Винагород Brave, переконайтесь, що ви дозволили Brave показувати вам сповіщення.</string>
+
+    <string name="this_is_your_first_ad">Це ваша перша реклама Brave. Клацніть, щоб дізнатись більше.</string>
+
+    <string name="turn_on">Увімкнути</string>
+
+    <string name="no_thanks">Ні, дякую</string>
+    <string name="do_not_agree">Не погоджуюсь</string>
+
+    <string name="welcome_tour_dialog_text">Перезапуск Вітального туру не вплине на жодні поточні налаштування.</string>
+    <string name="finish">Завершити</string>
+
 </resources>

@@ -93,8 +93,6 @@ idő</string>
     <string name="update_notification_title">Brave frissítés</string>
     <string name="update_notification_text">Az új Brave böngésző 22%-kal gyorsabb</string>
     <string name="prefs_sync">Szinkonizálás (béta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Ez az első Brave hirdetése</string>
-    <string name="brave_ads_oobe_education_notification_body">Pöccintsen ide a további információkért</string>
     <string name="brave_ads_existing_user_offer_title">Brave hirdetések itt!</string>
     <string name="brave_ads_new_user_offer_title">Brave jutalmak engedélyezése</string>
     <string name="brave_ads_offer_text">Szerezz Alap Figyelem tokent adatvédelmet tiszteletben tartó hirdetések megtekintésével a Brave Jutalamakban.</string>
@@ -240,14 +238,12 @@ tartalomkészítők támogatására.</string>
 
     <string name="brave_rewards_not_available">Sajnáljuk, úgy tűnik a Brave Jutalmak nem elérhető készülékedről.</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Az összes fül bezárásával bezárod a Brave-et</string>
     <string name="prefs_section_display">Megjelenítés</string>
     <string name="prefs_section_controls">Irányítás</string>
     <string name="prefs_appearance">Megjelenés</string>
     <string name="hide_brave_rewards_icon_title">Brave Jutalmak ikon elrejtése</string>
     <string name="hide_brave_rewards_icon_description">Elrejti a Brave Jutalmak ikont, ha a Brave Jutalmak nincs engedélyezve.</string>
-
-    <string name="brave_ui_pre_grant_message">Látogass vissza hamarosan egy ingyenes token jóváírásért.</string>
-
     <string name="reset_brave_rewards_option">Brave Jutalmak újraállítása</string>
     <string name="reset_brave_rewards_option_description">Ezzel törlődik Brave tárcád és alaphelyzetbe áll minden Brave Jutalmak adatod.</string>
     <string name="reset_brave_rewards_error_title">Újraállítási hiba</string>
@@ -266,4 +262,47 @@ tartalomkészítők támogatására.</string>
     <string name="brave_default_browser_title">A Brave villámgyors</string>
     <string name="brave_default_browser_body">Tedd a Brave-et alapértelmezett böngésződnek!</string>
     <string name="brave_make_default_text">Tedd alapértelmezetté</string>
+    <string name="brave_ui_ads_earnings">reklámokból származó bevétel</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Kihagyás</string>
+
+    <string name="search_engine_onboarding">Keresőmotor-előkészítés</string>
+    <string name="troubleshooting_onboarding">Hibaelhárítás-előkészítés</string>
+
+    <string name="welcome_to_brave_browser">Üdvözöl a Brave böngésző</string>
+    <string name="select_your_default_search_engine">Válaszd ki alapértelmezett keresőmotorodat</string>
+
+    <string name="block">Tiltás</string>
+    <string name="brave_shields_onboarding_title">Brave Pajzsok</string>
+    <string name="brave_shields_onboarding_text">magánéletet sértő hirdetések és nyomkövetők, hogy ne lehessen követni webes böngészésedet.</string>
+
+    <string name="earn_tokens">Szerezz tokeneket</string>
+    <string name="brave_rewards_onboarding_title">Brave Jutalmak</string>
+    <string name="brave_rewards_onboarding_text">magánéletet tiszteletben tartó hirdetések megtekintésével. Ezeket használhatod kedvenc oldalaid és alkotóid támogatására.</string>
+    <string name="brave_rewards_onboarding_text2">magánéletet tiszteletben tartó hirdetések megtekintésével.</string>
+
+    <string name="terms_title">Fogadd el a Brave Jutalmak használati feltételeit</string>
+    <string name="terms_text">Elfogadom a Brave Jutalmak feltételeit</string>
+    <string name="terms_of_service">Szolgáltatási feltételek</string>
+
+    <string name="agree">Elfogadom</string>
+    <string name="join">Csatlakozás</string>
+
+     <string name="start_browsing">Kezdj el böngészni</string>
+    <string name="i_didnt_see">Nem láttam hirdetést</string>
+
+    <string name="brave_ads_onboarding_title">A Brave mutatja első hirdetésedet: </string>
+    <string name="brave_ads_onboarding_text">Engedélyezd, hogy a Brave értesítéseket mutasson, ha Brave Jutalmak hirdetéseket szeretnél látni.</string>
+
+    <string name="this_is_your_first_ad">Ez az első Brave hirdetésed. Koppints, ha szeretnél többet megtudni.</string>
+
+    <string name="turn_on">Bekapcsolás</string>
+
+    <string name="no_thanks">Köszönöm, nem</string>
+    <string name="do_not_agree">Nem értek egyet</string>
+
+    <string name="welcome_tour_dialog_text">A bemutatkozás újraindítása nem lesz hatással semmilyen beállításra</string>
+    <string name="finish">Befejezés</string>
+
 </resources>

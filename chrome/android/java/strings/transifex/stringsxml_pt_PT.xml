@@ -239,9 +239,6 @@ os criadores de conteúdo de que adora.</string>
     <string name="prefs_appearance">Aparência</string>
     <string name="hide_brave_rewards_icon_title">Ocultar Ícone de Recompensas Brave</string>
     <string name="hide_brave_rewards_icon_description">Oculta o ícone das \'Recompensas Brave\' quando \'Recompensas Brave\' não está ativada</string>
-
-    <string name="brave_ui_pre_grant_message">Volte em breve para receber uma concessão de \"token\" grátis</string>
-
     <string name="reset_brave_rewards_option">Reiniciar Recompensas Brave</string>
     <string name="reset_brave_rewards_option_description">Isto irá eliminar a sua carteira Brave e reiniciar todos os seus dados de Recompensas Brave</string>
     <string name="reset_brave_rewards_error_title">Erro de Reiniciar</string>

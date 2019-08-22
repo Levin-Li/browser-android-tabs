@@ -93,8 +93,6 @@ EST แล้ว</string>
     <string name="update_notification_title">อัปเดตของ Brave</string>
     <string name="update_notification_text">เบราว์เซอร์ Brave รุ่นใหม่เร็วขึ้น 22%</string>
     <string name="prefs_sync">Sync (เบต้า)</string>
-    <string name="brave_ads_oobe_education_notification_title">นี่คือโฆษณา Brave ชิ้นแรกของคุณ</string>
-    <string name="brave_ads_oobe_education_notification_body">แตะที่นี่เพื่อเรียนรู้เพิ่มเติม</string>
     <string name="brave_ads_existing_user_offer_title">Brave Ads อยู่ที่นี่!</string>
     <string name="brave_ads_new_user_offer_title">เปิดใช้งาน Brave Rewards</string>
     <string name="brave_ads_offer_text">รับ Basic Attention Token สำหรับการชม โฆษณาที่รักษาความเป็นส่วนตัวใน Brave Rewards</string>
@@ -240,14 +238,12 @@ EST แล้ว</string>
 
     <string name="brave_rewards_not_available">ขออภัย ดูเหมือนว่า Brave Rewards จะไม่สามารถใช้งานบนอุปกรณ์ของคุณได้</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">การปิดแท็บทั้งหมดปิด Brave</string>
     <string name="prefs_section_display">แสดง</string>
     <string name="prefs_section_controls">ควบคุม</string>
     <string name="prefs_appearance">ลักษณะ</string>
     <string name="hide_brave_rewards_icon_title">ซ่อนไอคอน Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">ซ่อนไอคอน Brave Rewards เมื่อไม่ได้เปิดใช้งาน Brave Rewards</string>
-
-    <string name="brave_ui_pre_grant_message">กลับมาใหม่เร็ว ๆ นี้เพื่อรับโทเค็นฟรี</string>
-
     <string name="reset_brave_rewards_option">รีเซ็ต Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">คำสั่งนี้จะลบกระเป๋าเงิน Brave ของคุณและรีเซ็ตข้อมูล Brave Rewards ของคุณทั้งหมด</string>
     <string name="reset_brave_rewards_error_title">ข้อผิดพลาดในการรีเซ็ต</string>
@@ -266,4 +262,47 @@ EST แล้ว</string>
     <string name="brave_default_browser_title">Brave รวดเร็วสุด ๆ </string>
     <string name="brave_default_browser_body">ทำให้ Brave เป็นเบราว์เซอร์ตั้งต้นของคุณ!</string>
     <string name="brave_make_default_text">ทำให้เป็นค่าเริ่มต้น</string>
+    <string name="brave_ui_ads_earnings">ได้รายได้จากโฆษณาแล้ว</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">ข้าม</string>
+
+    <string name="search_engine_onboarding">สร้างความคุ้นเคยเครื่องมือค้นหา</string>
+    <string name="troubleshooting_onboarding">การแก้ปัญหาการสร้างความคุ้นเคย</string>
+
+    <string name="welcome_to_brave_browser">ขอต้อนรับสู่ Brave Browser</string>
+    <string name="select_your_default_search_engine">เลือกเครื่องมือค้นหาหลัก</string>
+
+    <string name="block">บล็อค</string>
+    <string name="brave_shields_onboarding_title">Brave Shields</string>
+    <string name="brave_shields_onboarding_text">โฆษณาแบบบุกรุกความเป็นส่วนตัวและเครื่องติดตามเพื่อที่คุณสามารถค้นหาโดยไม่ถูกติดตามในเว็บ</string>
+
+    <string name="earn_tokens">รับเหรียญตรา</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">สำหรับการชมโฆษณาที่เคารพความเป็นส่วนตัว ใช้มันในการสนับสนุนเว็บและผู้สร้างที่คุณชื่นชอบ</string>
+    <string name="brave_rewards_onboarding_text2">เพื่อการชมโฆษณาที่เคารพความเป็นส่วนตัว</string>
+
+    <string name="terms_title">ยอมรับข้อตกลงเพื่อใช้ Brave Rewards</string>
+    <string name="terms_text">ฉันยอมรับ Brave Rewards</string>
+    <string name="terms_of_service">เงื่อนไขการให้บริการ</string>
+
+    <string name="agree">ตกลง</string>
+    <string name="join">เข้าร่วม</string>
+
+     <string name="start_browsing">เริ่มทำการค้นหา</string>
+    <string name="i_didnt_see">ฉันไม่เห็นโฆษณา</string>
+
+    <string name="brave_ads_onboarding_title">Brave จะแสดงโฆษณาตัวแรกของคุณใน</string>
+    <string name="brave_ads_onboarding_text">เพื่อดูโฆษณาจาก Brave Rewards โปรดแน่ใจว่า Brave ได้รับการอนุญาตให้แสดงการแจ้งเตือน</string>
+
+    <string name="this_is_your_first_ad">นี่เป็นโฆษณา Brave ตัวแรกของคุณ แตะเพื่อเรียนรู้เพิ่มเติม</string>
+
+    <string name="turn_on">เปิด</string>
+
+    <string name="no_thanks">ไม่ ขอบคุณ</string>
+    <string name="do_not_agree">ไม่เห็นด้วย</string>
+
+    <string name="welcome_tour_dialog_text">การเปิดใช้งาน Welcome Tour อีกครั้งจะไม่ส่งผลกระทบต่อการตั้งค่าที่มีอยู่</string>
+    <string name="finish">เสร็จสิ้น</string>
+
 </resources>

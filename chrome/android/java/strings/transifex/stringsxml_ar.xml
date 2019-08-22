@@ -96,8 +96,6 @@ HTTPS</string>
     <string name="update_notification_title">تحديث Brave</string>
     <string name="update_notification_text">متصفح Brave الجديد أسرع بنسبة 22% </string>
     <string name="prefs_sync">مزامنة (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">هذا أول إعلان Brave لك</string>
-    <string name="brave_ads_oobe_education_notification_body">اضغط هنا لمعرفة المزيد</string>
     <string name="brave_ads_existing_user_offer_title">أصبحت \"إعلانات Brave\" متاحة هنا!</string>
     <string name="brave_ads_new_user_offer_title">قم بتمكين \"مكافآت Brave\"</string>
     <string name="brave_ads_offer_text">اربح \"رمز الانتباه الأساسي\" Basic Attention Token مقابل عرض إعلانات تخص الحفاظ على الخصوصية في \"مكافآت Brave\".</string>
@@ -243,14 +241,12 @@ HTTPS</string>
 
     <string name="brave_rewards_not_available">عذراً، يبدو أن مكافآت Brave لا تتوفر على جهازك</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">إنّ غلق جميع ألسنة التبويب سيغلق متصفح Brave</string>
     <string name="prefs_section_display">العرض</string>
     <string name="prefs_section_controls">أدوات التحكم</string>
     <string name="prefs_appearance">المظهر</string>
     <string name="hide_brave_rewards_icon_title">إخفاء أيقونة مكافآت Brave</string>
     <string name="hide_brave_rewards_icon_description">تخفي أيقونة مكافآت Brave عند عدم تمكين مكافآت Brave.</string>
-
-    <string name="brave_ui_pre_grant_message">تحقق مرةً أخرى قريبًا لمنحة رمزية مجانية</string>
-
     <string name="reset_brave_rewards_option">إعادة تعيين مكافآت Brave</string>
     <string name="reset_brave_rewards_option_description">سيؤدي ذلك إلى حذف محفظة Brave وإعادة تعيين جميع بيانات مكافآت Brave الخاصة بك</string>
     <string name="reset_brave_rewards_error_title">خطأٌ في إعادة التعيين</string>
@@ -270,4 +266,47 @@ HTTPS</string>
     <string name="brave_default_browser_title">يتطوّر Brave بسرعة البرق</string>
     <string name="brave_default_browser_body">اجعل Brave متصفحك الافتراضي!</string>
     <string name="brave_make_default_text">اجعله المتصفح الافتراضي</string>
+    <string name="brave_ui_ads_earnings">مكسوب عبر الإعلانات</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">تخطّي</string>
+
+    <string name="search_engine_onboarding">تأهيل محرك البحث</string>
+    <string name="troubleshooting_onboarding">جارِ استكشاف وإصلاح أخطاء عملية التأهيل</string>
+
+    <string name="welcome_to_brave_browser">مرحباً بك في متصفح Brave</string>
+    <string name="select_your_default_search_engine">حدد محرك البحث الافتراضي الخاص بك</string>
+
+    <string name="block">حظر</string>
+    <string name="brave_shields_onboarding_title">تقنية Brave Shields</string>
+    <string name="brave_shields_onboarding_text">إعلانات منتهكة للخصوصية وبرامج تتبع بحيث يمكنك التصفح دون أن يتم تعقبك عبر الويب.</string>
+
+    <string name="earn_tokens">اربح العملات الرمزية</string>
+    <string name="brave_rewards_onboarding_title">منصة Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">لمشاهدة الإعلانات التي تحترم الخصوصية. استخدمها لدعم المواقع ومنشئي المحتوى المفضلين لديك.</string>
+    <string name="brave_rewards_onboarding_text2">لمشاهدة الإعلانات التي تحترم الخصوصية.</string>
+
+    <string name="terms_title">وافق على شروط استخدام منصة Brave Rewards</string>
+    <string name="terms_text">أوافق على شروط منصة Brave Rewards</string>
+    <string name="terms_of_service">شروط الخدمة</string>
+
+    <string name="agree">أوافق</string>
+    <string name="join">انضمام</string>
+
+     <string name="start_browsing">ابدأ التصفح</string>
+    <string name="i_didnt_see">لا أرى أية إعلانات</string>
+
+    <string name="brave_ads_onboarding_title">سوف يعرض لك Brave إعلانك الأول في غضون</string>
+    <string name="brave_ads_onboarding_text">لمشاهدة الإعلانات من Brave Rewards، تأكد من السماح لـ Brave بعرض الإشعارات لك.</string>
+
+    <string name="this_is_your_first_ad">هذا هو أول إعلان Brave خاص بك. انقر لمعرفة المزيد.</string>
+
+    <string name="turn_on">تشغيل</string>
+
+    <string name="no_thanks">لا شكراً</string>
+    <string name="do_not_agree">لا أوافق</string>
+
+    <string name="welcome_tour_dialog_text">لن تؤثر إعادة تشغيل \"جولة الترحيب\" على أي إعدادات حالية.</string>
+    <string name="finish">إنهاء</string>
+
 </resources>

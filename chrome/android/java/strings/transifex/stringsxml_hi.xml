@@ -94,8 +94,6 @@
     <string name="update_notification_title">Brave अपडेट</string>
     <string name="update_notification_text">नया Brave ब्राउज़र पहले से 22% ज़्यादा तेज़ है</string>
     <string name="prefs_sync">सिंक (बीटा)</string>
-    <string name="brave_ads_oobe_education_notification_title">यह आपका पहला Brave विज्ञापन है</string>
-    <string name="brave_ads_oobe_education_notification_body">अधिक जानकारी के लिए यहाँ टैप करें</string>
     <string name="brave_ads_existing_user_offer_title">Brave विज्ञापन यहाँ हैं</string>
     <string name="brave_ads_new_user_offer_title">Brave Rewards सक्षम करें</string>
     <string name="brave_ads_offer_text">Brave Rewards मे गोपनीयता संरक्षित विज्ञापनों को देखने के लिए बेसिक अटेंशन टोकन अर्जित करें।</string>
@@ -242,14 +240,12 @@
 
     <string name="brave_rewards_not_available">हमे खेद है, ऐसा प्रतीत होता है कि Brave पुरस्कार आपके डिवाइस पर उपलब्ध नही हैं</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">सभी टैब को बंद करने से Brave बंद हो जाता है</string>
     <string name="prefs_section_display">डिस्प्ले</string>
     <string name="prefs_section_controls">नियंत्रण</string>
     <string name="prefs_appearance">रंगरूप</string>
     <string name="hide_brave_rewards_icon_title">Brave इनाम आइकन छुपाएं</string>
     <string name="hide_brave_rewards_icon_description">Brave इनाम आइकन सक्रिय न होने पर Brave इनाम आइकन छुपाएं</string>
-
-    <string name="brave_ui_pre_grant_message">निःशुल्क टोकन अनुदान के लिए जल्द ही दुबारा जांचें</string>
-
     <string name="reset_brave_rewards_option">Brave इनामों को रिसेट करें</string>
     <string name="reset_brave_rewards_option_description">यह आपके Brave बटुए को डिलीट कर देगा और आपके सभी Brave इनाम डेटा को रीसेट कर देगा</string>
     <string name="reset_brave_rewards_error_title">रिसेट त्रुटि</string>
@@ -268,4 +264,47 @@
     <string name="brave_default_browser_title">Brave बहुत तेज़ है</string>
     <string name="brave_default_browser_body">Brave को अपना डिफ़ॉल्ट ब्राउज़र बनाएँ!</string>
     <string name="brave_make_default_text">डिफ़ॉल्ट बनाएँ</string>
+    <string name="brave_ui_ads_earnings">विज्ञापनों से कमाया गया</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">स्किप करें</string>
+
+    <string name="search_engine_onboarding">खोज इंजन शुरू हो रहा है</string>
+    <string name="troubleshooting_onboarding">समस्या निवारण शुरू हो रहा है</string>
+
+    <string name="welcome_to_brave_browser">Brave ब्राउज़र में स्वागत है</string>
+    <string name="select_your_default_search_engine">अपने डिफ़ॉल्ट खोज इंजन का चयन करें</string>
+
+    <string name="block">ब्लॉक करें</string>
+    <string name="brave_shields_onboarding_title">Brave शील्ड</string>
+    <string name="brave_shields_onboarding_text">गोपनीयता में दखल देने वाले विज्ञापन और ट्रैकर्स ताकि आप वेब पर किसी के द्वारा फ़ॉलो किए बिना ब्राउज़ कर सकें।</string>
+
+    <string name="earn_tokens">टोकन अर्जित करें</string>
+    <string name="brave_rewards_onboarding_title">Brave पुरस्कार</string>
+    <string name="brave_rewards_onboarding_text">गोपनीयता-सम्बंधित विज्ञापनों को देखने के लिए। अपने पसंदीदा साइट और निर्माताओं का समर्थन करने के लिए उनका उपयोग करें।</string>
+    <string name="brave_rewards_onboarding_text2">गोपनीयता-सम्बंधित विज्ञापनों को देखने के लिए।</string>
+
+    <string name="terms_title">Brave पुरस्कारों का उपयोग करने के लिए शर्तों से सहमत हों</string>
+    <string name="terms_text">मै Brave पुरस्कारों से सहमत हूँ</string>
+    <string name="terms_of_service">सेवा की शर्तें</string>
+
+    <string name="agree">सहमत हैं</string>
+    <string name="join">शामिल हों</string>
+
+     <string name="start_browsing">ब्राउज़ करना शुरू करें</string>
+    <string name="i_didnt_see">मैंने पोस्टn&amp;aकिया; एक विज्ञापन देखें</string>
+
+    <string name="brave_ads_onboarding_title">Brave आपका पहला विज्ञापन में दिखाएगा</string>
+    <string name="brave_ads_onboarding_text">Brave पुरस्कारों के विज्ञापनों को देखने के लिए, सुनिश्चित करें कि Brave को आपको सूचनाएँ दिखाने की अनुमति है।</string>
+
+    <string name="this_is_your_first_ad">यह आपका पहला Brave विज्ञापन है। अधिक जानकारी के लिए टैप करें।</string>
+
+    <string name="turn_on">शुरू करें</string>
+
+    <string name="no_thanks">जी नहीं, धन्यवाद</string>
+    <string name="do_not_agree">सहमत नहीं हैं</string>
+
+    <string name="welcome_tour_dialog_text">स्वागत टूर को फ़िर से शुरू करने से मौजूदा सेटिंग प्रभावित नही होगी।</string>
+    <string name="finish">समाप्त</string>
+
 </resources>

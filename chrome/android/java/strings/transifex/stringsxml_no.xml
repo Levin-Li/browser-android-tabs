@@ -36,6 +36,8 @@
     <string name="sync_device_failure">Synk kunne ikke settes opp</string>
     <string name="sync_requires_correct_time">Datamaskinklokken din kan være satt feil, eller </string>
 
+    <string name="brave_stats_text_ads">Annonser og sporere
+Blokkert</string>
     <string name="brave_stats_text_https">HTTPS-
 oppgraderinger</string>
     <string name="brave_stats_text_time">Beregnet tid
@@ -91,8 +93,6 @@ Lagret</string>
     <string name="update_notification_title">Brave-oppdatering</string>
     <string name="update_notification_text">Den nye nettleseren til Brave er 22 % raskere</string>
     <string name="prefs_sync">Synkronisering (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Dette er den første Brave-annonsen din</string>
-    <string name="brave_ads_oobe_education_notification_body">Klikk her for å lære mer</string>
     <string name="brave_ads_existing_user_offer_title">Brave Ads er her!</string>
     <string name="brave_ads_new_user_offer_title">Aktiver Brave Rewards</string>
     <string name="brave_ads_offer_text">Opptjen Basic Attention Token for å se på personvernbeskyttende annonser i Brave Rewards.</string>
@@ -238,14 +238,12 @@ til å støtte innholdsskapere du liker.</string>
 
     <string name="brave_rewards_not_available">Vi beklager, men det virker som Brave Rewards ikke er tilgjengelig på enheten din</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Ved å lukke alle fanene, lukkes Brave</string>
     <string name="prefs_section_display">Vis</string>
     <string name="prefs_section_controls">Kontroller</string>
     <string name="prefs_appearance">Utseende</string>
     <string name="hide_brave_rewards_icon_title">Skjul Brave Rewards-ikonet</string>
     <string name="hide_brave_rewards_icon_description">Skjuler Brave Rewards-ikonet når Brave Rewards ikke er aktivert</string>
-
-    <string name="brave_ui_pre_grant_message">Sjekk innom igjen snart for en gratis tokentildeling</string>
-
     <string name="reset_brave_rewards_option">Tilbakestill Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Dette medfører at Brave-lommeboken din slettes og alle Brave Rewards-dataene dine tilbakestilles</string>
     <string name="reset_brave_rewards_error_title">Feil ved tilbakestilling</string>
@@ -264,4 +262,47 @@ til å støtte innholdsskapere du liker.</string>
     <string name="brave_default_browser_title">Brave er lynrask</string>
     <string name="brave_default_browser_body">Gjør Brave til din standardnettleser!</string>
     <string name="brave_make_default_text">Sett som standard</string>
+    <string name="brave_ui_ads_earnings">tjent på annonser</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Hopp over</string>
+
+    <string name="search_engine_onboarding">Søkemotor-innføring</string>
+    <string name="troubleshooting_onboarding">Innføring i feilsøking</string>
+
+    <string name="welcome_to_brave_browser">Velkommen til nettleseren Brave</string>
+    <string name="select_your_default_search_engine">Velg din standard søkemotor</string>
+
+    <string name="block">Blokker</string>
+    <string name="brave_shields_onboarding_title">Brave Shields</string>
+    <string name="brave_shields_onboarding_text">personverninvaderende annonser og sporing, slik at du kan søke uten å bli fulgt etter på nettet.</string>
+
+    <string name="earn_tokens">Tjen tokens</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">for å se annonser som respekterer personvernet. Bruk dem for å støtte dine favorittnettsteder og skapere.</string>
+    <string name="brave_rewards_onboarding_text2">for å se annonser som respekterer personvernet.</string>
+
+    <string name="terms_title">Godta vilkårene for å bruke Brave Rewards </string>
+    <string name="terms_text">Jeg godtar Brave Rewards\'</string>
+    <string name="terms_of_service">Vilkår for tjenesten</string>
+
+    <string name="agree">Godta</string>
+    <string name="join">Bli med</string>
+
+     <string name="start_browsing">Start søkingen</string>
+    <string name="i_didnt_see">Jeg så ingen annonse</string>
+
+    <string name="brave_ads_onboarding_title">Brave viser din første annonse i</string>
+    <string name="brave_ads_onboarding_text">For å se annonser fra Brave Rewards, sørg for at Brave har lov til å vise deg varslinger.</string>
+
+    <string name="this_is_your_first_ad">Dette er din første Brave-annonse. Trykk for å lære mer.</string>
+
+    <string name="turn_on">Slå på</string>
+
+    <string name="no_thanks">Nei takk</string>
+    <string name="do_not_agree">Ikke godta</string>
+
+    <string name="welcome_tour_dialog_text">Å starte velkomstturen på nytt påvirker ikke eventuelle innstillinger som allerede finnes. </string>
+    <string name="finish">Avslutt</string>
+
 </resources>

@@ -38,6 +38,8 @@
     <string name="sync_device_failure">S\’u rregullua dot njëkohësim</string>
     <string name="sync_requires_correct_time">Ora e kompjuterit tuaj, ose zona kohore për të, mund të jetë caktuar gabim. Ju lutemi, kontrolloni rregullimet tuaja për orën.</string>
 
+    <string name="brave_stats_text_ads">Reklama dhe Gjurmues
+të Bllokuar</string>
     <string name="brave_stats_text_https">Përmirësime
 HTTPS-je</string>
     <string name="brave_stats_text_time">Kohë e Kursyes
@@ -93,8 +95,6 @@ Afërsisht</string>
     <string name="update_notification_title">Përditësim Brave-i</string>
     <string name="update_notification_text">Shfletuesi i ri Brave është 22% më i shpejtë</string>
     <string name="prefs_sync">Njëkohësim (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Kjo është reklama juaj e parë Brave</string>
-    <string name="brave_ads_oobe_education_notification_body">Prekeni këtu që të mësoni më tepër</string>
     <string name="brave_ads_existing_user_offer_title">Mbërritën Reklamat Brave!</string>
     <string name="brave_ads_new_user_offer_title">Aktivizo Shpërblime Brave</string>
     <string name="brave_ads_offer_text">Fitoni Basic Attention Token nga parja reklamash që ruajnë privatësinë, tek Shpërblime Brave.</string>
@@ -238,14 +238,12 @@ përkrahje të krijuesve të lëndës që doni.</string>
 
     <string name="brave_rewards_not_available">Na ndjeni, duket se Shpërblimet Brave s’janë të gatshme në pajisjen tuaj</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Mbyllja e krejt skedave mbyll Brave-in</string>
     <string name="prefs_section_display">Shfaqni</string>
     <string name="prefs_section_controls">Kontrolle</string>
     <string name="prefs_appearance">Pamja</string>
     <string name="hide_brave_rewards_icon_title">Fshihni Ikonën e Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Fsheh Ikonën e Brave Rewards kur Brave Rewards nuk është i aktivizuar</string>
-
-    <string name="brave_ui_pre_grant_message">Kontrolloni përsëri së shpejti per një dhuratë</string>
-
     <string name="reset_brave_rewards_option">Rivendosni Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Kjo do të fshijë portofolin tuaj Brave dhe do të rivendosë të gjitha të dhënat tuaja të Brave Rewards</string>
     <string name="reset_brave_rewards_error_title">Gabim i rivendosjes</string>
@@ -264,4 +262,45 @@ përkrahje të krijuesve të lëndës që doni.</string>
     <string name="brave_default_browser_title">Brave është i shpejtë si rrufe</string>
     <string name="brave_default_browser_body">Bëjeni Brave-in shfletuesin tuaj parazgjedhje!</string>
     <string name="brave_make_default_text">Bëje parazgjedhje</string>
+    <string name="brave_ui_ads_earnings">fituar nga reklama</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Anashkaloje</string>
+
+    <string name="search_engine_onboarding">Njohje me motorët e kërkimeve</string>
+    <string name="troubleshooting_onboarding">Njohje me diagnostikimin</string>
+
+    <string name="welcome_to_brave_browser">Mirë se vini te Shfletuesi Brave</string>
+    <string name="select_your_default_search_engine">Përzgjidhni motorin tuaj parazgjedhje të kërkimeve</string>
+
+    <string name="brave_shields_onboarding_title">Mburoja Brave</string>
+    <string name="brave_shields_onboarding_text">reklama dhe gjurmues që cenojnë privatësinë, që kështu të mund të shfletoni pa u ndjekur nëpër web.</string>
+
+    <string name="brave_rewards_onboarding_title">Shpërblime Brave</string>
+    <string name="brave_rewards_onboarding_text">për parje reklamash që respektojnë privatësinë. Përdorini për të përkrahur sajtet dhe krijuesit tuaj të parapëlqyer.</string>
+    <string name="brave_rewards_onboarding_text2">për parje reklamash që respektojnë privatësinë.</string>
+
+    <string name="terms_title">Që të përdorni Shpërblimet Brave, pajtohuni me Kushtet</string>
+    <string name="terms_text">Pajtohem me Shpërblimet Brave</string>
+    <string name="terms_of_service">Kushte Shërbimi</string>
+
+    <string name="agree">Pajtohem</string>
+    <string name="join">Bëhuni Pjesë</string>
+
+     <string name="start_browsing">Filloni të shfletoni</string>
+    <string name="i_didnt_see">S\’pashë ndonjë reklamë</string>
+
+    <string name="brave_ads_onboarding_title">Brave-i do t\’ju shfaqë reklamën e parë për</string>
+    <string name="brave_ads_onboarding_text">Që të shihni reklama nga Shpërblime Brave, sigurohuni se Brave-i lejohet t’ju shfaqë njoftime. </string>
+
+    <string name="this_is_your_first_ad">Kjo është reklama juaj e parë Brave. Prekeni, që të mësoni më tepër.</string>
+
+    <string name="turn_on">Aktivizoji</string>
+
+    <string name="no_thanks">Jo, faleminderit</string>
+    <string name="do_not_agree">Nuk pajtohem</string>
+
+    <string name="welcome_tour_dialog_text">Rinisja e Turit të Mirëseardhjes s’do të prekë ndonjë nga rregullimet ekzistuese.</string>
+    <string name="finish">Përfundoje</string>
+
 </resources>

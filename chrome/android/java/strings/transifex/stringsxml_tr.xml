@@ -94,8 +94,6 @@ Kaydedildi</string>
     <string name="update_notification_title">Brave güncellemesi</string>
     <string name="update_notification_text">Yeni Brave tarayıcı %22 daha hızlı</string>
     <string name="prefs_sync">Senkronizasyon (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Bu sizin ilk Brave ilanınız</string>
-    <string name="brave_ads_oobe_education_notification_body">Daha fazla bilgi edinmek için buraya dokunun</string>
     <string name="brave_ads_existing_user_offer_title">Brave Reklamları burada! </string>
     <string name="brave_ads_new_user_offer_title">Brave Ödüllerine İzin Ver</string>
     <string name="brave_ads_offer_text">Brave Ödüllerindeki gizliliği koruyan reklamları görüntülediğin için Temel Dikkat Parası kazan. </string>
@@ -241,14 +239,12 @@ para kazanın ve sevdiğiniz içerik
 
     <string name="brave_rewards_not_available">Üzgünüz, görünüşe bakılırsa Brave Ödülleri cihazınızda kullanılamıyor</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Tüm sekmeleri kapatmak Brave\'i kapatır</string>
     <string name="prefs_section_display">Göster</string>
     <string name="prefs_section_controls">Kontroller</string>
     <string name="prefs_appearance">Görünüm</string>
     <string name="hide_brave_rewards_icon_title">Brave Ödülleri Simgesini Gizle</string>
     <string name="hide_brave_rewards_icon_description">Brave Ödülleri etkin olmadığında Brave Ödülleri simgesini gizler</string>
-
-    <string name="brave_ui_pre_grant_message">Ücretsiz bir belirteç hediyesi için yakında tekrar kontrol edin</string>
-
     <string name="reset_brave_rewards_option">Brave Ödüllerini Sıfırla</string>
     <string name="reset_brave_rewards_option_description">Bu, Brave cüzdanınızı siler ve tüm Brave Ödülleri verilerinizi sıfırlar</string>
     <string name="reset_brave_rewards_error_title">Sıfırlama Hatası</string>
@@ -267,4 +263,47 @@ para kazanın ve sevdiğiniz içerik
     <string name="brave_default_browser_title">Brave şimşek hızındadır</string>
     <string name="brave_default_browser_body">Brave\'i varsayılan tarayıcı yap! </string>
     <string name="brave_make_default_text">Varsayılan yap</string>
+    <string name="brave_ui_ads_earnings">reklamlardan kazanıldı</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Geç</string>
+
+    <string name="search_engine_onboarding">Arama motoru yerleştiriliyor</string>
+    <string name="troubleshooting_onboarding">Sorun giderme işleniyor</string>
+
+    <string name="welcome_to_brave_browser">Brave Browser\'a Hoş Geldiniz</string>
+    <string name="select_your_default_search_engine">Varsayılan arama moturunuzu seçin</string>
+
+    <string name="block">Engelle</string>
+    <string name="brave_shields_onboarding_title">Brave Kalkanları</string>
+    <string name="brave_shields_onboarding_text">gizliliği ihlal eden reklamlar ve takipçiler, böylece internet üzerinde takip edilmeden dolaşabilirsiniz.</string>
+
+    <string name="earn_tokens">Token kazanın</string>
+    <string name="brave_rewards_onboarding_title">Brave Ödülleri</string>
+    <string name="brave_rewards_onboarding_text">gizlilik uyumlu reklamları görmek için. Favori sitelerinizi ve oluşturucuları desteklemek için kullanın.</string>
+    <string name="brave_rewards_onboarding_text2">gizlilik uyumlu reklamlar görmek için</string>
+
+    <string name="terms_title">Brave Ödülleri\'ni kullanmak için Şartlar\'ı kabul edin</string>
+    <string name="terms_text">Brave Ödülleri\'ni kabul ediyorum</string>
+    <string name="terms_of_service">Hizmet Şartları</string>
+
+    <string name="agree">Kabul</string>
+    <string name="join">Katıl</string>
+
+     <string name="start_browsing">Taramaya başla</string>
+    <string name="i_didnt_see">Bir reklam görmedim</string>
+
+    <string name="brave_ads_onboarding_title">Brave ilk reklamınızı gösterecek</string>
+    <string name="brave_ads_onboarding_text">Brave Ödülleri reklamlarını görmek için, Brave\'e bildirim izni verildiğinden emin olun.</string>
+
+    <string name="this_is_your_first_ad">Bu sizin ilk Brave reklamınız. Daha fazlasını öğrenmek için dokunun.</string>
+
+    <string name="turn_on">Aç</string>
+
+    <string name="no_thanks">Hayır, teşekkürler</string>
+    <string name="do_not_agree">Kabul etmiyorum</string>
+
+    <string name="welcome_tour_dialog_text">Hoş Geldin Turu\'nu kapatmak mevcut ayarları etkilemeyecektir.</string>
+    <string name="finish">Bitir</string>
+
 </resources>

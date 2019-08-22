@@ -93,8 +93,6 @@ HTTPS</string>
     <string name="update_notification_title">עדכון Brave</string>
     <string name="update_notification_text">דפדפן ה-Brave החדש מהיר יותר ב-22%</string>
     <string name="prefs_sync">סנכרון (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">זו פרסומת Brave הראשונה שלך</string>
-    <string name="brave_ads_oobe_education_notification_body">הקש/י כאן למידע נוסף</string>
     <string name="brave_ads_existing_user_offer_title">הפרסומות של Brave הגיעו!</string>
     <string name="brave_ads_new_user_offer_title">אפשר/י את Brave Rewards</string>
     <string name="brave_ads_offer_text">זכו באסימון תשומת לב בסיסי על צפייה בפרסומות השומרות על הפרטיות בBrave Rewards.</string>
@@ -240,14 +238,12 @@ HTTPS</string>
 
     <string name="brave_rewards_not_available">אנו  מצטערים, נראה ש-Brave Rewards אינו זמין במכשיר שלך</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">סגירת כל הכרטיסיות סוגרת את Brave</string>
     <string name="prefs_section_display">תצוגה</string>
     <string name="prefs_section_controls">פקדים</string>
     <string name="prefs_appearance">מראה</string>
     <string name="hide_brave_rewards_icon_title">מסתיר את אייקון Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">מסתיר את אייקון Brave Rewards כש-Brave Rewards אינו זמין</string>
-
-    <string name="brave_ui_pre_grant_message">בוא/י שוב בקרוב וקבל/י מענק אסימונים חינם</string>
-
     <string name="reset_brave_rewards_option">איפוס Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">זה ימחק את ארנק Brave שלך ויאפס את כל הנתונים של Brave Rewards שלך</string>
     <string name="reset_brave_rewards_error_title">איפוס שגיאה</string>
@@ -266,4 +262,47 @@ HTTPS</string>
     <string name="brave_default_browser_title">Brave הוא מהיר במיוחד</string>
     <string name="brave_default_browser_body">הפכו את Brave לדפדפן ברירת המחדל שלכם!</string>
     <string name="brave_make_default_text">הפכו לברירת מחדל</string>
+    <string name="brave_ui_ads_earnings">רווחים שהתקבלו מפרסומות</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">דלג</string>
+
+    <string name="search_engine_onboarding">צירוף מנוע חיפוש</string>
+    <string name="troubleshooting_onboarding">צירוף פתרון בעיות</string>
+
+    <string name="welcome_to_brave_browser">ברוכים הבאים לדפדפן Brave </string>
+    <string name="select_your_default_search_engine">בחר/י את מנוע החיפוש ברירת המחדל שלך</string>
+
+    <string name="block">חסימה</string>
+    <string name="brave_shields_onboarding_title">Brave Shields </string>
+    <string name="brave_shields_onboarding_text">פרסומות ואפליקציות מעקב שפולשות לפרטיות כדי שתוכל/י לדפדף בלי שיעקבו  אחריך ברחבי הרשת.</string>
+
+    <string name="earn_tokens">זכייה באסימונים</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">לצפייה בפרסומות שמכבדות את הפרטיות. השתמש/י בהן לתמיכה באתרים וביוצרים החביבים עליך.</string>
+    <string name="brave_rewards_onboarding_text2">לצפייה בפרסומות שמכבדות את הפרטיות.</string>
+
+    <string name="terms_title">נא להסכים לתנאים כדי להשתמש ב-Brave Rewards</string>
+    <string name="terms_text">אני מסכים/ה ל-Brave Rewards</string>
+    <string name="terms_of_service">תנאי שירות</string>
+
+    <string name="agree">מסכים/ה</string>
+    <string name="join">הצטרפות</string>
+
+     <string name="start_browsing">התחל דפדוף</string>
+    <string name="i_didnt_see">לא ראיתי פרסומת</string>
+
+    <string name="brave_ads_onboarding_title">Brave יציג לך את הפרסומת הראשונה שלך בעוד</string>
+    <string name="brave_ads_onboarding_text">כדי לראות פרסומות של Brave Rewards, נא לוודא ש-Brave זמין להציג לך התראות.</string>
+
+    <string name="this_is_your_first_ad">זו פרסומת Brave הראשונה שלך. נא להקיש לקבלת מידע נוסף.</string>
+
+    <string name="turn_on">הפעלה</string>
+
+    <string name="no_thanks">לא תודה</string>
+    <string name="do_not_agree">לא מסכים/ה</string>
+
+    <string name="welcome_tour_dialog_text">הפעלה מחדש של סיור קבלת הפנים לא תשפיע על הגדרות קיימות.</string>
+    <string name="finish">סיום</string>
+
 </resources>

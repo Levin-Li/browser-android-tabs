@@ -98,8 +98,6 @@ Dihemat</string>
     <string name="update_notification_title">Pembaruan Brave</string>
     <string name="update_notification_text">Peramban Brave baru 22% lebih cepat</string>
     <string name="prefs_sync">Sync (beta)</string>
-    <string name="brave_ads_oobe_education_notification_title">Ini adalah iklan Brave Anda yang pertama</string>
-    <string name="brave_ads_oobe_education_notification_body">Ketuk di sini untuk mengetahui lebih lanjut</string>
     <string name="brave_ads_existing_user_offer_title">Iklan Brave ada di sini! </string>
     <string name="brave_ads_new_user_offer_title">Aktifkan Imbalan Brave</string>
     <string name="brave_ads_offer_text">Dapatkan Token Atensi Dasar untuk melihat iklan yang menjaga privasi di Imbalan Brave. </string>
@@ -246,14 +244,12 @@ pembuat konten yang Anda sukai.</string>
 
     <string name="brave_rewards_not_available">Maaf, sepertinya Brave Rewards tidak tersedia di perangkat Anda</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Menutup semua tab akan menutup Brave</string>
     <string name="prefs_section_display">Layar Tampilan</string>
     <string name="prefs_section_controls">Kendali</string>
     <string name="prefs_appearance">Tampilan</string>
     <string name="hide_brave_rewards_icon_title">Sembunyikan Ikon Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Menyembunyikan Ikon Brave Rewards ketika Brave Rewards tidak diaktifkan</string>
-
-    <string name="brave_ui_pre_grant_message">Periksa lagi nanti untuk mendapatkan token gratis</string>
-
     <string name="reset_brave_rewards_option">Atur Ulang Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Dompet Brave Anda akan dihapus dan mengatur ulang semua data Brave Rewards Anda</string>
     <string name="reset_brave_rewards_error_title">Kesalahan Pengaturan Ulang</string>
@@ -272,4 +268,47 @@ pembuat konten yang Anda sukai.</string>
     <string name="brave_default_browser_title">Brave sangat cepat</string>
     <string name="brave_default_browser_body">Jadikan Brave browser default Anda! </string>
     <string name="brave_make_default_text">Jadikan default</string>
+    <string name="brave_ui_ads_earnings">didapat dari iklan</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Lewati</string>
+
+    <string name="search_engine_onboarding">Pemuatan mesin pencarian</string>
+    <string name="troubleshooting_onboarding">Pemuatan troubleshooting</string>
+
+    <string name="welcome_to_brave_browser">Selamat datang di Brave Browser</string>
+    <string name="select_your_default_search_engine">Pilih mesin pencarian default</string>
+
+    <string name="block">Blokir</string>
+    <string name="brave_shields_onboarding_title">Perisai Brave </string>
+    <string name="brave_shields_onboarding_text">iklan dan pelacak yang melanggar privasi agar Anda dapat meramban tanpa diikuti saat menyusuri web.</string>
+
+    <string name="earn_tokens">Dapatkan token</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">untuk melihat iklan yang menghargai privasi. Gunakan mereka untuk mendukung situs dan kreator favorit Anda.</string>
+    <string name="brave_rewards_onboarding_text2">untuk melihat iklan yang menghargai privasi.</string>
+
+    <string name="terms_title">Setujui Persyaratan untuk menggunakan Brave Rewards</string>
+    <string name="terms_text">Saya menyetujui Brave Rewards</string>
+    <string name="terms_of_service">Syarat Layanan</string>
+
+    <string name="agree">Setuju</string>
+    <string name="join">Gabung</string>
+
+     <string name="start_browsing">Mulai meramban</string>
+    <string name="i_didnt_see">Saya tidak melihat iklan</string>
+
+    <string name="brave_ads_onboarding_title">Brave akan menampilkan iklan pertama Anda dalam</string>
+    <string name="brave_ads_onboarding_text">Untuk melihat iklan dari Brave Rewards, pastikan Brave diizinkan memberi Anda pemberitahuan.</string>
+
+    <string name="this_is_your_first_ad">Ini adalah iklan Brave pertama Anda. Ketuk untuk pelajari lebih lanjut.</string>
+
+    <string name="turn_on">Nyalakan</string>
+
+    <string name="no_thanks">Tidak, terima kasih</string>
+    <string name="do_not_agree">Tidak setuju</string>
+
+    <string name="welcome_tour_dialog_text">Meluncurkan ulang Tur Sambutan tidak akan memengaruhi pengaturan yang ada.</string>
+    <string name="finish">Selesai</string>
+
 </resources>
