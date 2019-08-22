@@ -1552,12 +1552,13 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     @Override
     public void finishNativeInitialization() {
 
-        if(!PackageUtils.isFirstInstall(this)) {
+        if(!PackageUtils.isFirstInstall(this) && !ClosingTabsManager.getInstance().isClosingTabsOptionEnabled()) {
             if(HomepageManager.isHomepageEnabled()) {
                 ClosingTabsManager.getInstance().setPrefClosingAllTabsClosesBraveEnabled(true);
             } else {
                 ClosingTabsManager.getInstance().setPrefClosingAllTabsClosesBraveEnabled(false);
             }
+            ClosingTabsManager.getInstance().setClosingTabsOption();
         }
         
         mNativeInitialized = true;
