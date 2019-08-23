@@ -108,7 +108,6 @@ public class SearchEngineOnboardingFragment extends Fragment{
     }
 
     private void initializeViews(View root) {
-
         radioGroup = root.findViewById(R.id.radio_group);
 
         btnSkip = root.findViewById(R.id.btn_skip);
