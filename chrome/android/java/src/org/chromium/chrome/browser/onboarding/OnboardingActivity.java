@@ -18,7 +18,6 @@ import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.onboarding.NonSwipeableViewPager;
 import org.chromium.chrome.browser.onboarding.OnboardingViewPagerAdapter;
 import org.chromium.chrome.browser.onboarding.OnboardingPrefManager;
-import org.chromium.chrome.browser.notifications.BraveOnboardingNotification;
 
 public class OnboardingActivity extends AppCompatActivity implements OnViewPagerAction {
 
@@ -33,8 +32,6 @@ public class OnboardingActivity extends AppCompatActivity implements OnViewPager
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_onboarding);
-
-        BraveOnboardingNotification.cancelOnboardingNotification(this);
 
         Intent intent = getIntent();
         if(intent!=null){
@@ -82,6 +79,14 @@ public class OnboardingActivity extends AppCompatActivity implements OnViewPager
 
     @Override
     public void onBackPressed() {
-        // kept it blank to disable back button
+        if (fromSettings) {
+            if (OnboardingPrefManager.isNotification && viewPager.getCurrentItem() == 3) {
+
+            } else if (viewPager.getCurrentItem() > 0) {
+                viewPager.setCurrentItem(viewPager.getCurrentItem() - 1);
+            }else {
+                super.onBackPressed();
+            }
+        }
     }
 }

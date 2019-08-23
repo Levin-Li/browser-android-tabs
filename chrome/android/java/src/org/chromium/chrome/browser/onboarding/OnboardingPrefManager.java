@@ -47,6 +47,8 @@ public class OnboardingPrefManager {
 
     private static boolean isOnboardingNotificationShown;
 
+    public static boolean isNotification;
+
     private static final List<String> adsAvailableRegions = Arrays.asList("US","CA","NZ","IE","AU","CA","FR","GB","DE");
 
     private static final List<String> newAdsAvailableRegions = Arrays.asList("NZ","IE","AU");

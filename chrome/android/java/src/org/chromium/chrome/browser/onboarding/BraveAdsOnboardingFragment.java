@@ -20,6 +20,7 @@ import android.widget.TextView;
 import org.chromium.chrome.browser.onboarding.OnViewPagerAction;
 import org.chromium.chrome.browser.onboarding.OnboardingPrefManager;
 import org.chromium.chrome.browser.BraveRewardsHelper;
+import org.chromium.chrome.browser.notifications.BraveOnboardingNotification;
 import org.chromium.chrome.R;
 
 public class BraveAdsOnboardingFragment extends Fragment {
@@ -65,7 +66,9 @@ public class BraveAdsOnboardingFragment extends Fragment {
             countDownLayout.setVisibility(View.VISIBLE);
             tvTitle.setVisibility(View.VISIBLE);
             actionLayout.setVisibility(View.GONE);
+            btnDidntSeeAd.setVisibility(View.GONE);
             startCountdown();
+            OnboardingPrefManager.isNotification = true;
         }
     }
 
@@ -109,6 +112,8 @@ public class BraveAdsOnboardingFragment extends Fragment {
 
     private void startCountdown() {
 
+        BraveOnboardingNotification.cancelOnboardingNotification(getActivity());
+
         if (countDownTimer != null)
             countDownTimer.cancel();
 
@@ -132,14 +137,18 @@ public class BraveAdsOnboardingFragment extends Fragment {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        BraveRewardsHelper.crossfade(countDownLayout, null, View.GONE, 1f, BraveRewardsHelper.CROSS_FADE_DURATION);
                         BraveRewardsHelper.crossfade(null, actionLayout, View.GONE, 1f, BraveRewardsHelper.CROSS_FADE_DURATION);
+                        if (!fromSettings)
+                            BraveRewardsHelper.crossfade(countDownLayout, null, View.GONE, 1f, BraveRewardsHelper.CROSS_FADE_DURATION);
+                        else
+                            countDownLayout.setVisibility(View.GONE);
                         new Handler().postDelayed(new Runnable() {
                             @Override
                             public void run() {
                                 BraveRewardsHelper.crossfade(null, btnDidntSeeAd, View.GONE, 1f, BraveRewardsHelper.CROSS_FADE_DURATION);
                             }
                         }, 2000);
+                        OnboardingPrefManager.isNotification = false;
                     }
                 }, 1000);
             }
