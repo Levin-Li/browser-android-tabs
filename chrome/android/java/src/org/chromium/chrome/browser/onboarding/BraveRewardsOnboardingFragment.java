@@ -65,8 +65,6 @@ public class BraveRewardsOnboardingFragment extends Fragment implements View.OnT
 
     private boolean fromSettings;
 
-    private final int SPAN_START_INDEX = 24;
-
     private boolean isAdsAvailable;
 
     public BraveRewardsOnboardingFragment() {
@@ -150,7 +148,7 @@ public class BraveRewardsOnboardingFragment extends Fragment implements View.OnT
             tvText.setText(textToInsert);
         }
 
-        String termsText = getResources().getString(R.string.terms_text) + "<br/>" + getResources().getString(R.string.terms_of_service)+ ".";
+        String termsText = getResources().getString(R.string.terms_text) + getResources().getString(R.string.terms_of_service)+ ".";
         Spanned textToAgree = BraveRewardsHelper.spannedFromHtmlString(termsText);
         SpannableString ss = new SpannableString(textToAgree.toString());
 
@@ -166,10 +164,10 @@ public class BraveRewardsOnboardingFragment extends Fragment implements View.OnT
             }
         };
 
-        ss.setSpan(clickableSpan, SPAN_START_INDEX, ss.length()-1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        ss.setSpan(clickableSpan, getResources().getString(R.string.terms_text).length(), ss.length()-1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         ForegroundColorSpan foregroundSpan = new ForegroundColorSpan(getResources().getColor(R.color.onboarding_orange));
-        ss.setSpan(foregroundSpan, SPAN_START_INDEX, ss.length()-1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        ss.setSpan(foregroundSpan, getResources().getString(R.string.terms_text).length(), ss.length()-1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         tvAgree.setMovementMethod(LinkMovementMethod.getInstance());
         tvAgree.setText(ss);
 
