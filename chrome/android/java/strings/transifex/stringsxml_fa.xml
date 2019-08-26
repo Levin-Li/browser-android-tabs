@@ -34,6 +34,8 @@
     <string name="enter_code_words_sync">کلمات کد را وارد کنید</string>
     <string name="sync_device">دستگاه را همگام سازی کنید</string>
     <string name="sync_device_failure">همگام سازی تنظیم نشد</string>
+    <string name="sync_requires_correct_time">ساعت رایانه شما ممکن است روی زمان یا منطقه زمانی اشتباهی تنظیم شده باشد. تنظیمات ساعت را بررسی کنید.</string>
+
     <string name="brave_stats_text_https">ارتقاهای
 HTTPS</string>
     <string name="brave_stats_text_time">زمان تقریبی
@@ -89,6 +91,10 @@ HTTPS</string>
     <string name="update_notification_title">به‌روزرسانی Brave</string>
     <string name="update_notification_text">سرعت مرورگر جدید Brave ‏22% بیشتر شده است</string>
     <string name="prefs_sync">همگام‌سازی (بتا)</string>
+    <string name="brave_ads_existing_user_offer_title">تبلیغات Brave اینجا نمایش داده می‌شوند!</string>
+    <string name="brave_ads_new_user_offer_title">فعال کردن پاداش‌های Brave</string>
+    <string name="brave_ads_offer_text">در ازای مشاهده تبلیغات حافظ حریم خصوصی در «پاداش‌های Brave»، «توکن توجه اساسی» کسب کنید.</string>
+    <string name="brave_ads_offer_positive">من شرکت می‌کنم!</string>
     <string name="brave_sync_description_page_1_part_1">«همگام‌سازی Brave» به شما امکان می‌دهد داده‌های نشانک‌هایتان را به‌طور خصوصی میان مرورگرهای Brave خود در دستگاه‌های مختلفتان ذخیره کنید.</string>
     <string name="brave_sync_description_page_1_part_2">کافی است کد را از زنجیره همگام‌سازی که در دستگاه دیگر ساخته‌اید اسکن کنید، یا زنجیره همگام‌سازی جدیدی بسازید.</string>
     <string name="brave_sync_scan_chain_code">اسکن کردن یا ساختن کد همگام‌سازی</string>
@@ -216,4 +222,84 @@ HTTPS</string>
 پاداش دریافت کنید، و با انتقال پاداشتان به پدیدآورندگان محتوایی
 که دوست دارید، آنها را حمایت کنید.</string>
     <string name="brave_welcome_page_rewards_title">فعال کردن «پاداش‌های Brave»</string>
-    </resources>
+    <string name="brave_ui_first_tip_text">اولین مبلغ اهدایی ماهیانه شما فرستاده می‌شود در:</string>
+    <string name="brave_ui_tip_text">اندکی قبل، مبلغ اهدایی را فرستاده‌اید برای:</string>
+    <string name="brave_ui_auto_tip_text">به‌طور خودکار در حال ارسال مبلغ اهدایی هستید به:</string>
+    <string name="brave_ui_monthly_text">ماهیانه</string>
+    <string name="bottom_toolbar_enable">فعال کردن نوار ابزار پایین</string>
+    <string name="bottom_toolbar_disable">غیرفعال کردن نوار ابزار پایین</string>
+    <string name="search_or_url">جستجو یا نشانی اینترنتی</string>
+    <string name="accessibility_toolbar_btn_bookmark">ایجاد نشانک</string>
+    <string name="brave_ui_donate_monthly">به این سایت ماهانه مبلغی اهدا کنید</string>
+
+    <string name="brave_rewards_not_available">متأسفیم، به نظر می‌رسد «پاداش‌های Braves» در دستگاه شما موجود نیست.</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">بستن همه زبانه‌ها، Brave را می‌بندد</string>
+    <string name="prefs_section_display">نمایشگر</string>
+    <string name="prefs_section_controls">کنترل‌ها</string>
+    <string name="prefs_appearance">ظاهر</string>
+    <string name="hide_brave_rewards_icon_title">پنهان کردن آیکون «پاداش‌های Brave»</string>
+    <string name="hide_brave_rewards_icon_description">هنگام فعال نبودن «پاداش‌های Brave»، آیکون «پاداش‌های Brave» را پنهان می‌کند</string>
+    <string name="reset_brave_rewards_option">بازنشانی «پاداش‌های Brave»</string>
+    <string name="reset_brave_rewards_option_description">این گزینه کیف پول Brave شما را حذف و همه داده‌های «پاداش‌های Brave» را بازنشانی می‌کند</string>
+    <string name="reset_brave_rewards_error_title">بازنشانی خطا</string>
+    <string name="reset_brave_rewards_error_description">خطایی در بازنشانی «پاداش‌های Brave» وجود داشت. لطفاً Brave را دوباره راه‌اندازی کنید و مجدداً امتحان کنید.</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">در رایانه مد نظرتان، در تنظیمات به قسمت «همگام‌سازی Brave» پیمایش کنید و روی دکمه «کد همگام‌سازی را دارم» کلیک کنید.\nکد زنجیره همگام‌سازی نشان داده شده در زیر را وارد کنید.</string>
+
+    <string name="brave_sync_official">همگام‌سازی Brave</string>
+    <string name="prefs_sync_official">همگام‌سازی</string>
+
+    <string name="brave_sync_code_warning">این کد را مثل رمز عبور در نظر بگیرید. اگر شخصی آن را به دست بیاورد، می‌تواند داده‌های همگام‌سازی‌شده شما را بخواند و تغییر دهد.</string>
+
+    <string name="notification_category_group_brave_ads">تبلیغات Brave</string>
+    <string name="brave_ads_you_earned">شما کسب کرده‌اید</string>
+
+    <string name="brave_default_browser_title">سرعت Brave برق‌آساست</string>
+    <string name="brave_default_browser_body">Brave را مرورگر پیش‌فرض خود قرار دهید!</string>
+    <string name="brave_make_default_text">قرار دادن به‌عنوان پیش‌فرض</string>
+    <string name="brave_ui_ads_earnings">کسب‌شده از تبلیغات</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">رد کردن</string>
+
+    <string name="search_engine_onboarding">راه‌اندازی مقدماتی موتور جستجو</string>
+    <string name="troubleshooting_onboarding">عیب‌یابی راه‌اندازی مقدماتی</string>
+
+    <string name="welcome_to_brave_browser">به مرورگر Brave خوش آمدید</string>
+    <string name="select_your_default_search_engine">موتور جستجوی پیش‌فرض خود را انتخاب کنید</string>
+
+    <string name="block">مسدود کردن</string>
+    <string name="brave_shields_onboarding_title">سپرهای Brave</string>
+    <string name="brave_shields_onboarding_text">آگهی‌های و ردیاب‌های ناقض حریم خصوصی تا بتوانید بدون تعقیب شدن در سراسر وب، آن را مرور کنید.</string>
+
+    <string name="earn_tokens">کسب توکن‌ها</string>
+    <string name="brave_rewards_onboarding_title">پاداش‌های Brave</string>
+    <string name="brave_rewards_onboarding_text">برای مشاهده تبلیغاتی که به حریم خصوصی احترام می‌گذارند. از آنها برای پشتیبانی از سایت‌ها و سازندگان محبوب خود استفاده کنید.</string>
+    <string name="brave_rewards_onboarding_text2">برای مشاهده تبلیغاتی که به حریم خصوصی احترام می‌گذارند.</string>
+
+    <string name="terms_title">با شرایط استفاده از «پاداش‌های Brave» موافقت کنید</string>
+    <string name="terms_text">با «پاداش‌های Brave» موافق هستم</string>
+    <string name="terms_of_service">شرایط سرویس</string>
+
+    <string name="agree">موافق هستم</string>
+    <string name="join">پیوستن</string>
+
+     <string name="start_browsing">شروع مرور</string>
+    <string name="i_didnt_see">هیچ تبلیغی را مشاهده ن&apos;کردم</string>
+
+    <string name="brave_ads_onboarding_title">Brave اولین تبلیغ شما را نشان می‌دهد در</string>
+    <string name="brave_ads_onboarding_text">برای مشاهده تبلیغات «پاداش‌های Brave»، مطمئن شوید که Brave اجازه نمایش اعلان‌ها برای شما را دارد.</string>
+
+    <string name="this_is_your_first_ad">این اولین تبلیغ Brave شما است. برای کسب اطلاعات بیشتر، ضربه بزنید.</string>
+
+    <string name="turn_on">روشن کردن</string>
+
+    <string name="no_thanks">خیر، متشکرم</string>
+    <string name="do_not_agree">موافق نیستم</string>
+
+    <string name="prefs_welcome_tour">تور خوشامدگویی</string>
+    <string name="welcome_tour_dialog_text">راه‌اندای مجدد «تور خوشامدگویی» روی هیچ‌کدام از تنظیمات موجود تأثیری نمی‌گذارد.</string>
+    <string name="finish">پایان</string>
+
+</resources>

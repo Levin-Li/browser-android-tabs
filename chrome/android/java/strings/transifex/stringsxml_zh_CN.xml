@@ -38,6 +38,8 @@
     <string name="sync_device_failure">无法设置同步</string>
     <string name="sync_requires_correct_time">你的设备上可能设置了错误的系统时间或时区。 请设置正确的时间和时区 </string>
 
+    <string name="brave_stats_text_ads">广告和跟踪器
+已屏蔽</string>
     <string name="brave_stats_text_https">HTTPS
 已升级</string>
     <string name="brave_stats_text_time">时间
@@ -95,6 +97,8 @@
     <string name="prefs_sync">同步（beta）</string>
     <string name="brave_ads_existing_user_offer_title">Brave 的广告在这！</string>
     <string name="brave_ads_new_user_offer_title">启用 Brave 奖励</string>
+    <string name="brave_ads_offer_text">获得基本注意令牌，以便在 Brave Rewards 中查看隐私保护广告。</string>
+    <string name="brave_ads_offer_positive">我要加入！</string>
     <string name="brave_sync_description_page_1_part_1">Brave Sync允许您在不同设备上的Brave浏览器之间自行同步书签数据。</string>
     <string name="brave_sync_description_page_1_part_2">只需从另一个设备上创建的同步链中扫描代码。或者启动一个新的同步链。</string>
     <string name="brave_sync_scan_chain_code">扫描或输入同步代码</string>
@@ -235,7 +239,9 @@
     <string name="accessibility_toolbar_btn_bookmark">创建书签</string>
     <string name="brave_ui_donate_monthly">每月打赏本网站</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">关闭所有选项卡，关闭 Brave</string>
     <string name="prefs_section_display">显示</string>
+    <string name="prefs_section_controls">控件</string>
     <string name="prefs_appearance">外观</string>
     <string name="hide_brave_rewards_icon_title">隐藏 Brave 奖励图标</string>
     <string name="hide_brave_rewards_icon_description">当未启用 Brave 奖励时隐藏 Brave 奖励图标</string>
@@ -244,4 +250,61 @@
     <string name="reset_brave_rewards_error_title">重设错误</string>
     <string name="reset_brave_rewards_error_description">重设 Brave 奖励时出现了一个错误。 请重新启动 Brave 并重试</string>
 
-    </resources>
+    <string name="brave_sync_add_laptop_text_part_2_new">在目标计算机中，浏览至设置中的 Brave 同步，单击按钮“我已有同步代码”。\n输入下方显示的同步链代码。</string>
+
+    <string name="brave_sync_official">Brave 同步</string>
+    <string name="prefs_sync_official">同步</string>
+
+    <string name="brave_sync_code_warning">将此代码视作密码。如果有人拿到该代码，则他们可以读取和修改您已同步的数据。</string>
+
+    <string name="notification_category_group_brave_ads">Brave 广告</string>
+    <string name="brave_ads_you_earned">您已赚取</string>
+
+    <string name="brave_default_browser_title">Brave 迅如雷电</string>
+    <string name="brave_default_browser_body">将 Brave 设置为默认浏览器！</string>
+    <string name="brave_make_default_text">设置为默认</string>
+    <string name="brave_ui_ads_earnings">从广告赚取收益</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">跳过</string>
+
+    <string name="search_engine_onboarding">入门款搜索引擎</string>
+    <string name="troubleshooting_onboarding">入门款故障诊断</string>
+
+    <string name="welcome_to_brave_browser">欢迎使用 Brave 浏览器</string>
+    <string name="select_your_default_search_engine">选择默认搜索引擎</string>
+
+    <string name="block">屏蔽</string>
+    <string name="brave_shields_onboarding_title">Brave 屏蔽器</string>
+    <string name="brave_shields_onboarding_text">侵犯隐私的广告和跟踪器，让您可以浏览在网上浏览内容，而不必担心被跟踪。</string>
+
+    <string name="earn_tokens">赚取代币</string>
+    <string name="brave_rewards_onboarding_title">Brave 奖励</string>
+    <string name="brave_rewards_onboarding_text">查看尊重隐私的广告。利用他们支持您喜爱的网站和创作者。</string>
+    <string name="brave_rewards_onboarding_text2">查看尊重隐私的广告。</string>
+
+    <string name="terms_title">同意使用 Brave 奖励的条款</string>
+    <string name="terms_text">我同意 Brave 奖励</string>
+    <string name="terms_of_service">服务条款</string>
+
+    <string name="agree">同意</string>
+    <string name="join">加入</string>
+
+     <string name="start_browsing">开始浏览</string>
+    <string name="i_didnt_see">我没有看到广告</string>
+
+    <string name="brave_ads_onboarding_title">Brave 将为您显示第一条广告</string>
+    <string name="brave_ads_onboarding_text">如需从 Brave 奖励查看广告，请确保允许 Brave 为您显示通知。</string>
+
+    <string name="this_is_your_first_ad">这是您的第一条 Brave 广告。点击了解更多。</string>
+
+    <string name="turn_on">开启</string>
+
+    <string name="no_thanks">不，谢谢</string>
+    <string name="do_not_agree">不同意</string>
+
+    <string name="prefs_welcome_tour">欢迎之旅</string>
+    <string name="welcome_tour_dialog_text">重启欢迎之旅不会影响任何现有设置。</string>
+    <string name="finish">完成</string>
+
+</resources>

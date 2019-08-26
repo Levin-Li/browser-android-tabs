@@ -38,6 +38,8 @@
     <string name="sync_device_failure">ಸಿಂಕ್ ಅನ್ನು ಹೊಂದಿಸಲಾಗಲಿಲ್ಲ</string>
     <string name="sync_requires_correct_time">ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನ ಗಡಿಯಾರವನ್ನು ತಪ್ಪಾದ ಸಮಯಕ್ಕೆ ಅಥವಾ ತಪ್ಪಾದ ಸಮಯ ವಲಯಕ್ಕೆ ಹೊಂದಿಸಲಾಗಿದೆ. ನಿಮ್ಮ ಗಡಿಯಾರ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</string>
 
+    <string name="brave_stats_text_ads">ಜಾಹೀರಾತುಗಳು ಮತ್ತು ಟ್ರ್ಯಾಕರ್‌ಗಳನ್ನು
+ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</string>
     <string name="brave_stats_text_https">HTTPS
 ಅಪ್‌ಗ್ರೇಡ್‌ಗಳು</string>
     <string name="brave_stats_text_time">ಅಂದಾಜು ಸಮಯ
@@ -107,6 +109,7 @@
     <string name="brave_sync_btn_laptop">ಕಂಪ್ಯೂಟರ್ ಸೇರಿಸಿ</string>
     <string name="brave_sync_scan_sync_code">ಈ ಸಿಂಕ್ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
     <string name="brave_sync_add_mobile_device_text_part_1">ಎರಡನೆಯ ಫೋನ್ ಅಥವಾ ಟ್ಯಾಬ್ಲೆಟ್ ಬಳಸಿಕೊಂಡು, Brave ಸೆಟ್ಟಿಂಗ್‌ಗಳು > ಸಿಂಕ್ > ಸ್ಕ್ಯಾನ್ ಎಂಬಲ್ಲಿಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಾಧನದಲ್ಲಿ, ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಪ್ಯಾನಲ್‌ನಲ್ಲಿ Brave ಸಿಂಕ್‌ಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ ಮತ್ತು \"ಸಿಂಕ್ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ\" ಬಟನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ. ಕೆಳಗೆ QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ನಿಮ್ಮ ಕ್ಯಾಮೆರಾ ಬಳಸಿ.</string>
     <string name="brave_sync_btn_done">ಮುಗಿದಿದೆ</string>
     <string name="brave_sync_tabs_text">ಟ್ಯಾಬ್‌ಗಳು</string>
     <string name="brave_sync_history_text">ಇತಿಹಾಸ</string>
@@ -224,4 +227,84 @@
 ಜಾಹೀರಾತುಗಳನ್ನು ವೀಕ್ಷಿಸುವ ಮೂಲಕ ಗಳಿಸಿರಿ ಮತ್ತು
 ನೀವು ಇಷ್ಟಪಡುವ ವಿಷಯ ರಚನೆಕಾರರನ್ನು ಬೆಂಬಲಿಸಲು ಮುಂದಕ್ಕೆ ಪಾವತಿಸಿ.</string>
     <string name="brave_welcome_page_rewards_title">BRAVE ರಿವಾರ್ಡ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
-    </resources>
+    <string name="brave_ui_first_tip_text">ನಿಮ್ಮ ಮೊದಲ ಮಾಸಿಕ ಟಿಪ್ ಅನ್ನು ಇಲ್ಲಿಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ:</string>
+    <string name="brave_ui_tip_text">ನೀವು ಈಗ ತಾನೇ ಇಲ್ಲಿಗೆ ಟಿಪ್ ಅನ್ನು ಕಳುಹಿಸಿದ್ದೀರಿ:</string>
+    <string name="brave_ui_auto_tip_text">ನೀವು ಇಲ್ಲಿಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಟಿಪ್ ಅನ್ನು ಕಳುಹಿಸುತ್ತಿರುವಿರಿ:</string>
+    <string name="brave_ui_monthly_text">ಮಾಸಿಕ</string>
+    <string name="bottom_toolbar_enable">ಕೆಳಭಾಗದ ಟೂಲ್‌ಬಾರ್ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="bottom_toolbar_disable">ಕೆಳಭಾಗದ ಟೂಲ್‌ಬಾರ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="search_or_url">ಹುಡುಕಾಟ ಅಥವಾ URL</string>
+    <string name="accessibility_toolbar_btn_bookmark">ಬುಕ್‌ಮಾರ್ಕ್ ರಚಿಸಿ</string>
+    <string name="brave_ui_donate_monthly">ಮಾಸಿಕವಾಗಿ ಈ ಸೈಟ್ ಅನ್ನು ಟಿಪ್ ಮಾಡಿ</string>
+
+    <string name="brave_rewards_not_available">ಕ್ಷಮಿಸಿ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ Brave ರಿವಾರ್ಡ್‌ಗಳು ಲಭ್ಯವಿಲ್ಲ ಎಂಬುದಾಗಿ ಕಂಡುಬರುತ್ತಿದೆ</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮುಚ್ಚುವುದರಿಂದ Brave ಮುಚ್ಚುತ್ತದೆ</string>
+    <string name="prefs_section_display">ಪ್ರದರ್ಶನ</string>
+    <string name="prefs_section_controls">ನಿಯಂತ್ರಣಗಳು</string>
+    <string name="prefs_appearance">ಗೋಚರತೆ</string>
+    <string name="hide_brave_rewards_icon_title">Brave ರಿವಾರ್ಡ್‌ಗಳ ಐಕಾನ್ ಮರೆಮಾಡಿ</string>
+    <string name="hide_brave_rewards_icon_description">Brave ರಿವಾರ್ಡ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸದೇ ಇದ್ದಾಗ Brave ರಿವಾರ್ಡ್‌ಗಳ ಐಕಾನ್ ಮರೆಮಾಡುತ್ತದೆ</string>
+    <string name="reset_brave_rewards_option">Brave ರಿವಾರ್ಡ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸಿ</string>
+    <string name="reset_brave_rewards_option_description">ಇದು ನಿಮ್ಮ Brave ವಾಲೆಟ್ ಅನ್ನು ಅಳಿಸುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ ಎಲ್ಲಾ Brave ರಿವಾರ್ಡ್‌ಗಳ ಡೇಟಾವನ್ನು ಮರುಹೊಂದಿಸುತ್ತದೆ</string>
+    <string name="reset_brave_rewards_error_title">ಮರುಹೊಂದಿಸುವಿಕೆ ದೋಷ</string>
+    <string name="reset_brave_rewards_error_description">Brave ರಿವಾರ್ಡ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸುವಲ್ಲಿ ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆ. ದಯವಿಟ್ಟು Brave ಮರುಆರಂಭಿಸಿ ಹಾಗೂ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">ನಿಮ್ಮ ಗುರಿಯ ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ, ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ Brave ಸಿಂಕ್‌ಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ ಮತ್ತು \"ನನ್ನ ಬಳಿ ಸಿಂಕ್ ಕೋಡ್ ಇದೆ\" ಬಟನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.\nಕೆಳಗೆ ತೋರಿಸಿರುವ ಸಿಂಕ್ ಚೈನ್ ಕೋಡ್ ಪದಗಳನ್ನು ನಮೂದಿಸಿ.</string>
+
+    <string name="brave_sync_official">Brave ಸಿಂಕ್</string>
+    <string name="prefs_sync_official">ಸಿಂಕ್</string>
+
+    <string name="brave_sync_code_warning">ಈ ಕೋಡ್ ಅನ್ನು ಪಾಸ್‌ವರ್ಡ್‌ನಂತೆ ಪರಿಗಣಿಸಿ. ಯಾರಿಗಾದರೂ ಅದು ದೊರೆತರೆ, ಅವರು ನಿಮ್ಮ ಸಿಂಕ್ ಮಾಡಿದ ಡೇಟಾವನ್ನು ಓದಬಹುದು ಮತ್ತು ಮಾರ್ಪಡಿಸಬಹುದು.</string>
+
+    <string name="notification_category_group_brave_ads">Brave ಜಾಹೀರಾತುಗಳು</string>
+    <string name="brave_ads_you_earned">ನೀವು ಗಳಿಸಿದ್ದೀರಿ</string>
+
+    <string name="brave_default_browser_title">Brave ಮಿಂಚಿನ ವೇಗವನ್ನು ಹೊಂದಿದೆ</string>
+    <string name="brave_default_browser_body">Brave ಅನ್ನು ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್ ಬ್ರೌಸರ್ ಆಗಿ ಮಾಡಿ!</string>
+    <string name="brave_make_default_text">ಡೀಫಾಲ್ಟ್ ಆಗಿ ಮಾಡಿ</string>
+    <string name="brave_ui_ads_earnings">ಜಾಹೀರಾತುಗಳಿಂದ ಗಳಿಸಲಾಗಿದೆ</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">ಸ್ಕಿಪ್ ಮಾಡಿ</string>
+
+    <string name="search_engine_onboarding">ಹುಡುಕಾಟ ಎಂಜಿನ್ ಆನ್‌ಬೋರ್ಡಿಂಗ್</string>
+    <string name="troubleshooting_onboarding">ದೋಷ ಪರಿಹಾರ ಆನ್‌ಬೋರ್ಡಿಂಗ್</string>
+
+    <string name="welcome_to_brave_browser">Brave ಬ್ರೌಸರ್‌ಗೆ ಸ್ವಾಗತ</string>
+    <string name="select_your_default_search_engine">ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್ ಹುಡುಕಾಟ ಎಂಜಿನ್ ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <string name="block">ನಿರ್ಬಂಧಿಸಿ</string>
+    <string name="brave_shields_onboarding_title">Brave ಶೀಲ್ಡ್‌ಗಳು</string>
+    <string name="brave_shields_onboarding_text">ಗೌಪ್ಯತೆಯ ಮೇಲೆ ಆಕ್ರಮಣ ಮಾಡುವ ಜಾಹೀರಾತುಗಳು ಮತ್ತು ಟ್ರ್ಯಾಕರ್‌ಗಳು ಇದರಿಂದ ನೀವು ವೆಬ್‌ನಾದ್ಯಂತ ಅನುಸರಣೆ ಮಾಡದೆಯೇ ಬ್ರೌಸ್ ಮಾಡಬಹುದು.</string>
+
+    <string name="earn_tokens">ಟೋಕನ್‌ಗಳನ್ನು ಗಳಿಸಿ</string>
+    <string name="brave_rewards_onboarding_title">Brave ರಿವಾರ್ಡ್‌ಗಳು</string>
+    <string name="brave_rewards_onboarding_text">ಗೌಪ್ಯತೆಯನ್ನು-ಗೌರವಿಸುವ ಜಾಹೀರಾತುಗಳನ್ನು ನೋಡುವುದಕ್ಕಾಗಿ. ನಿಮ್ಮ ಮೆಚ್ಚಿನ ಸೈಟ್‌ಗಳು ಮತ್ತು ರಚನೆಕಾರರನ್ನು ಬೆಂಬಲಿಸಲು ಅವುಗಳನ್ನು ಬಳಸಿ.</string>
+    <string name="brave_rewards_onboarding_text2">ಗೌಪ್ಯತೆಯನ್ನು-ಗೌರವಿಸುವ ಜಾಹೀರಾತುಗಳನ್ನು ನೋಡುವುದಕ್ಕಾಗಿ.</string>
+
+    <string name="terms_title">Brave ರಿವಾರ್ಡ್‌ಗಳನ್ನು ಬಳಸುವುದಕ್ಕಾಗಿ ನಿಯಮಗಳಿಗೆ ಒಪ್ಪಿಕೊಳ್ಳಿ</string>
+    <string name="terms_text">Brave ರಿವಾರ್ಡ್‌ಗಳಿಗೆ ನಾನು ಒಪ್ಪುತ್ತೇನೆ</string>
+    <string name="terms_of_service">ಸೇವಾ ನಿಯಮಗಳು</string>
+
+    <string name="agree">ಒಪ್ಪಿ</string>
+    <string name="join">ಸೇರಿಕೊಳ್ಳಿ</string>
+
+     <string name="start_browsing">ಬ್ರೌಸಿಂಗ್ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="i_didnt_see">ನನಗೆ ಜಾಹೀರಾತು ಕಂಡುಬರಲಿಲ್ಲ</string>
+
+    <string name="brave_ads_onboarding_title">Brave ನಿಮಗೆ ನಿಮ್ಮ ಮೊದಲ ಜಾಹೀರಾತನ್ನು ಇಲ್ಲಿ ತೋರಿಸುತ್ತದೆ</string>
+    <string name="brave_ads_onboarding_text">Brave ರಿವಾರ್ಡ್‌ಗಳಿಂದ ಜಾಹೀರಾತುಗಳನ್ನು ನೋಡುವುದಕ್ಕಾಗಿ, ಅಧಿಸೂಚನೆಗಳನ್ನು ನಿಮಗೆ ತೋರಿಸಲು Brave ಗೆ ಅನುಮತಿಸಲಾಗಿದೆ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+
+    <string name="this_is_your_first_ad">ಇದು ನಿಮ್ಮ ಮೊದಲ Brave ಜಾಹೀರಾತು ಆಗಿದೆ. ಇನ್ನಷ್ಟು ತಿಳಿಯಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+
+    <string name="turn_on">ಆನ್ ಮಾಡಿ</string>
+
+    <string name="no_thanks">ಬೇಡ ಧನ್ಯವಾದಗಳು</string>
+    <string name="do_not_agree">ಒಪ್ಪಬೇಡಿ</string>
+
+    <string name="prefs_welcome_tour">ವೆಲ್‌ಕಮ್ ಟೂರ್</string>
+    <string name="welcome_tour_dialog_text">ವೆಲ್‌ಕಮ್ ಟೂರ್ ಮರುಆರಂಭಿಸುವುದರಿಂದ ಅದು ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಯಾವುದೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಪರಿಣಾಮ ಬೀರುವುದಿಲ್ಲ.</string>
+    <string name="finish">ಮುಕ್ತಾಯಗೊಳಿಸಿ</string>
+
+</resources>

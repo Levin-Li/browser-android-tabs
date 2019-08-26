@@ -301,6 +301,7 @@ för att visa ditt stöd för skapare du gillar.</string>
     <string name="no_thanks">Nej tack</string>
     <string name="do_not_agree">Godkänn ej</string>
 
+    <string name="prefs_welcome_tour">Välkomsttur</string>
     <string name="welcome_tour_dialog_text">Omstart av välkomstguiden kommer inte att påverka några befintliga inställningar.</string>
     <string name="finish">Slutför</string>
 

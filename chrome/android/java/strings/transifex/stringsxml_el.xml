@@ -300,6 +300,7 @@ HTTPS</string>
     <string name="no_thanks">Όχι ευχαριστώ</string>
     <string name="do_not_agree">Δεν συμφωνώ</string>
 
+    <string name="prefs_welcome_tour">Περιήγηση Καλωσορίσματος</string>
     <string name="welcome_tour_dialog_text">Η επαναφορά της Περιήγησης Καλωσορίσματος δεν επηρεάζει τις υπάρχουσες ρυθμίσεις.</string>
     <string name="finish">Τέλος</string>
 

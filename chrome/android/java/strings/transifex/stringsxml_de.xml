@@ -306,6 +306,7 @@ um Ihre Lieblingsersteller zu unterstützen.</string>
     <string name="no_thanks">Nein, danke</string>
     <string name="do_not_agree">Nicht zustimmen</string>
 
+    <string name="prefs_welcome_tour">Begrüßungstour</string>
     <string name="welcome_tour_dialog_text">Ein Neustart der Willkommenstour hat keinen Einfluss auf bestehende Einstellungen.</string>
     <string name="finish">Abschließen</string>
 

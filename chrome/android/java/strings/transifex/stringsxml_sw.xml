@@ -34,6 +34,10 @@
     <string name="enter_code_words_sync">Ingiza maneno ya msimbo</string>
     <string name="sync_device">Landanisha kifaa</string>
     <string name="sync_device_failure">Ulandanishaji usingesanidiwa</string>
+    <string name="sync_requires_correct_time">Saa ya kompyuta yako huenda ikawekwa saa isiyofaa, au saa za eneo zisizofaa. Angalia mipangilio ya saa yako</string>
+
+    <string name="brave_stats_text_ads">Matangazo na Vifuatiliaji
+Yamezuiwa</string>
     <string name="brave_stats_text_https">Uboreshaji
 wa HTTPS</string>
     <string name="brave_stats_text_time">Muda Kadiriwa
@@ -89,6 +93,10 @@ Umehifadhiwa</string>
     <string name="update_notification_title">Sasisho la Brave</string>
     <string name="update_notification_text">Kivinjari kipya cha Brave kina kasi kubwa kwa 22%</string>
     <string name="prefs_sync">Uoanishaji (beta)</string>
+    <string name="brave_ads_existing_user_offer_title">Matangazo ya Brave yapo hapa!</string>
+    <string name="brave_ads_new_user_offer_title">Wezesha Brave Rewards</string>
+    <string name="brave_ads_offer_text">Pata Basic Attention Token kwa kuangalia matangazo ya kuzingatia faragha katika Brave Rewards.</string>
+    <string name="brave_ads_offer_positive">Ninakubali</string>
     <string name="brave_sync_description_page_1_part_1">Brave Uoanishaji hukuwezesha kuoanisha data za kumbukumbu kibinafsi kati ya Vivinjari vya Brave katika vifaa vyako mbalimbali.</string>
     <string name="brave_sync_description_page_1_part_2">Unachotakiwa kufanya ni kuskani msimbo kutoka kwenye mnyororo wako wa kuoanisha ambao umeutengeneza kwenye kifaa kingine. Au anza mnyororo mpya wa kuoanisha.</string>
     <string name="brave_sync_scan_chain_code">Skani au ingiza msimbo wa kuoanisha</string>
@@ -213,4 +221,84 @@ mwezi huu...</string>
 faragha, na itoe kuwasaidia
 watengenezaji maudhui unaowapenda.</string>
     <string name="brave_welcome_page_rewards_title">WEZESHA BRAVE REWARDS</string>
-    </resources>
+    <string name="brave_ui_first_tip_text">Kidokezo chako cha kwanza cha kila mwezi kitatumwa mnamo:</string>
+    <string name="brave_ui_tip_text">Umetuma kidokezo kwa:</string>
+    <string name="brave_ui_auto_tip_text">Unatuma kidokezo kiotomatiki kwa:</string>
+    <string name="brave_ui_monthly_text">Kila mwezi</string>
+    <string name="bottom_toolbar_enable">Wezesha upau wa vidhibiti wa chini</string>
+    <string name="bottom_toolbar_disable">Lemeza upau wa vidhibiti wa chini</string>
+    <string name="search_or_url">Utafutaji au URL</string>
+    <string name="accessibility_toolbar_btn_bookmark">Unda alamisho</string>
+    <string name="brave_ui_donate_monthly">Dokeza tovuti hii kila mwezi</string>
+
+    <string name="brave_rewards_not_available">Samahani inaonekana kuwa Brave Rewards haipatikani kwenye kifaa chako</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">Kufunga vichupo vyote kunafunga Brave</string>
+    <string name="prefs_section_display">Onyesha</string>
+    <string name="prefs_section_controls">Vidhibiti</string>
+    <string name="prefs_appearance">Mwonekano</string>
+    <string name="hide_brave_rewards_icon_title">Ficha Ikoni ya Brave Rewards</string>
+    <string name="hide_brave_rewards_icon_description">Huficha Ikoni ya Brave Rewards wakati Brave Rewards haijawezeshwa</string>
+    <string name="reset_brave_rewards_option">Weka upya Brave Rewards</string>
+    <string name="reset_brave_rewards_option_description">Hatua hii itafuta pochi yako ya Brave na kuweka upya data zako zote za Brave Rewards</string>
+    <string name="reset_brave_rewards_error_title">Hitilafu ya Kuweka Upya</string>
+    <string name="reset_brave_rewards_error_description">Kulikuwa na hitilafu wakati wa kuweka upya Brave Rewards. Tafadhali fungua upya Brave na ujaribu tena</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">Kwenye kompyuta yako lengwa, nenda kwenye Usawazishaji wa Brave katika mipangilio na ubofye kitufe \"I have a Sync Code\".\nWeka maneno ya msururu wa usawazishaji yanayoonyeshwa hapa chini.</string>
+
+    <string name="brave_sync_official">Usawazishaji wa Brave</string>
+    <string name="prefs_sync_official">Usawazishaji</string>
+
+    <string name="brave_sync_code_warning">Uchukulie msimbo huu kama nenosiri. Mtu akiupata, anaweza kusoma na kurekebisha data yako iliyosawazishwa.</string>
+
+    <string name="notification_category_group_brave_ads">Matangazo ya Brave</string>
+    <string name="brave_ads_you_earned">Umepata</string>
+
+    <string name="brave_default_browser_title">Brave inang`aa kwa kasi</string>
+    <string name="brave_default_browser_body">Fanya Brave kuwa kivinjari chako chaguomsingi!</string>
+    <string name="brave_make_default_text">Fanya chaguomsingi</string>
+    <string name="brave_ui_ads_earnings">umepata kutoka kwenye matangazo</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Ruka</string>
+
+    <string name="search_engine_onboarding">Utaratibu wa kufahamu mtambo wa kutafuta</string>
+    <string name="troubleshooting_onboarding">Utaritubu wa kufahamu utatuzi</string>
+
+    <string name="welcome_to_brave_browser">Karibu kwenye Kivinjari cha Brave</string>
+    <string name="select_your_default_search_engine">Teua mtambo wako wa utafutaji chaguomsingi</string>
+
+    <string name="block">Zuia</string>
+    <string name="brave_shields_onboarding_title">Ngao za Brave</string>
+    <string name="brave_shields_onboarding_text">matangazo na vifuatiliaji vya kuvamia faragha ili uvinjari bila kufuatwa kwenye wavuti.</string>
+
+    <string name="earn_tokens">Pata tokeni</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">kwa ajili ya kuona matangazo ya kuheshimu faragha. Yatumie kuauni tovuti na watengenezaji wako unaopenda.</string>
+    <string name="brave_rewards_onboarding_text2">kwa ajili ya kuona matangazo yanayoheshimu faragha.</string>
+
+    <string name="terms_title">Kubali Sheria na Masharti ya kutumia Brave Rewards</string>
+    <string name="terms_text">Ninakubali Brave Rewards</string>
+    <string name="terms_of_service">Sheria na Masharti</string>
+
+    <string name="agree">Kubali</string>
+    <string name="join">Jiunge</string>
+
+     <string name="start_browsing">Anza kuvinjari</string>
+    <string name="i_didnt_see">Sikuchapisha ona tangazo</string>
+
+    <string name="brave_ads_onboarding_title">Brave itaonyesha tangazo lako la kwanza katika</string>
+    <string name="brave_ads_onboarding_text">Ili kuona matangazo kutoka Brave Rewards, hakikisha kuwa Brave inaruhusiwa kukuonyesha arifa.</string>
+
+    <string name="this_is_your_first_ad">Hili ni tangazo lako la Brave la kwanza. Gusa ili ujifunze zaidi.</string>
+
+    <string name="turn_on">Washa</string>
+
+    <string name="no_thanks">La, asante</string>
+    <string name="do_not_agree">Sikubali</string>
+
+    <string name="prefs_welcome_tour">Welcome Tour</string>
+    <string name="welcome_tour_dialog_text">Kuanzisha tena Welcome Tour hakutaathiri mipangilio yoyote iliyopo.</string>
+    <string name="finish">Kamilisha</string>
+
+</resources>

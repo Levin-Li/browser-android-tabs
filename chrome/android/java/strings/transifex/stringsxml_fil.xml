@@ -34,6 +34,8 @@
     <string name="enter_code_words_sync">Maglagay ng mga code na salita</string>
     <string name="sync_device">I-sync ang device</string>
     <string name="sync_device_failure">Hindi ma-set up ang pag-sync</string>
+    <string name="sync_requires_correct_time">Maaaring nakatakda sa maling oras, o sa maling time-zone ang orasan ng iyong computer. Tingnan ang mga setting ng iyong orasan</string>
+
     <string name="brave_stats_text_https">Mga Pag-upgrade sa
 HTTPS</string>
     <string name="brave_stats_text_time">Tinatayang Oras
@@ -89,6 +91,10 @@ na Natipid</string>
     <string name="update_notification_title">Update sa Brave</string>
     <string name="update_notification_text">Ang bagong Brave browser ay 22% mas mabilis</string>
     <string name="prefs_sync">Pag-sync (beta)</string>
+    <string name="brave_ads_existing_user_offer_title">Narito na ang Brave Ads!</string>
+    <string name="brave_ads_new_user_offer_title">I-enable ang Brave Rewards</string>
+    <string name="brave_ads_offer_text">Makakuha ng Basic Attention Token para sa pagtingin o panonood ng mga ad tungkol sa pagpapanatili ng privacy sa Brave Rewards.</string>
+    <string name="brave_ads_offer_positive">Okay!</string>
     <string name="brave_sync_description_page_1_part_1">Ang Pag-sync ng Brave ay nagbibigay-daan sa iyong i-sync nang pribado ang data ng mga bookmark sa pagitan ng iyong Mga Brave Browser sa iba\'t ibang device mo.</string>
     <string name="brave_sync_description_page_1_part_2">I-scan lang ang code mula sa iyong chain ng pag-sync na ginawa mo sa ibang device. O kaya, magsimula ng bagong chain ng pag-sync.</string>
     <string name="brave_sync_scan_chain_code">I-scan o ilagay ang code sa pag-sync</string>
@@ -216,4 +222,84 @@ hanggang sa mag-verify sila, o hanggang lumipas ang 90 araw.</string>
 mga ad na gumagalang sa privacy, ay mag-pay it forward
 para suportahan ang mga content creator na gusto mo.</string>
     <string name="brave_welcome_page_rewards_title">I-ENABLE ANG BRAVE REWARDS</string>
-    </resources>
+    <string name="brave_ui_first_tip_text">Ang iyong unang buwanang tip ay ipapadala sa:</string>
+    <string name="brave_ui_tip_text">Nagpadala ka ng tip sa:</string>
+    <string name="brave_ui_auto_tip_text">Awtomatiko kang magpapadala ng tip sa:</string>
+    <string name="brave_ui_monthly_text">Buwanan</string>
+    <string name="bottom_toolbar_enable">I-enable ang toolbar sa ibaba</string>
+    <string name="bottom_toolbar_disable">I-disable ang toolbar sa ibaba</string>
+    <string name="search_or_url">Paghahanap o URL</string>
+    <string name="accessibility_toolbar_btn_bookmark">Gumawa ng bookmark</string>
+    <string name="brave_ui_donate_monthly">Bigyan ng tip ang site na ito buwan-buwan</string>
+
+    <string name="brave_rewards_not_available">Paumanhin, mukhang hindi available ang Brave Rewards sa iyong device</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">Kapag isinara ang lahat ng tab, sasara ang Brave</string>
+    <string name="prefs_section_display">Display</string>
+    <string name="prefs_section_controls">Mga Kontrol</string>
+    <string name="prefs_appearance">Hitsura</string>
+    <string name="hide_brave_rewards_icon_title">Itago ang Icon ng Brave Rewards</string>
+    <string name="hide_brave_rewards_icon_description">Itinatago ang Icon ng Brave Rewards kapag hindi naka-enable ang Brave Rewards</string>
+    <string name="reset_brave_rewards_option">I-reset ang Brave Rewards</string>
+    <string name="reset_brave_rewards_option_description">Ide-delete nito ang iyong Brave wallet at ire-reset ang lahat ng data ng iyong Brave Rewards</string>
+    <string name="reset_brave_rewards_error_title">Error sa Pag-reset</string>
+    <string name="reset_brave_rewards_error_description">Nagkaroon ng error sa pag-reset ng Brave Rewards. Pakibuksang muli ang Brave at subukang muli</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">Sa iyong target na computer, mag-navigate sa Brave Sync sa mga setting at i-click ang button na \"Mayroon akong Sync Code\".\nIlagay ang mga sync chain code word na ipinapakita sa ibaba.</string>
+
+    <string name="brave_sync_official">Brave Sync</string>
+    <string name="prefs_sync_official">I-sync</string>
+
+    <string name="brave_sync_code_warning">Ituring ang code na ito na isang password. Kung may makaalam nito, mababasa at mababago nila ang iyong naka-sync na data.</string>
+
+    <string name="notification_category_group_brave_ads">Brave Ads</string>
+    <string name="brave_ads_you_earned">Nakakuha ka ng</string>
+
+    <string name="brave_default_browser_title">Napakapabilis ng Brave</string>
+    <string name="brave_default_browser_body">Gawin mong default na browser ang Brave!</string>
+    <string name="brave_make_default_text">Gawing default</string>
+    <string name="brave_ui_ads_earnings">nakuha mula sa mga ad</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Laktawan</string>
+
+    <string name="search_engine_onboarding">Onboarding ng search engine</string>
+    <string name="troubleshooting_onboarding">Onboarding ng pag-troubleshoot</string>
+
+    <string name="welcome_to_brave_browser">Welcome sa Brave Browser</string>
+    <string name="select_your_default_search_engine">Pumili ng iyong default na search engine</string>
+
+    <string name="block">I-block</string>
+    <string name="brave_shields_onboarding_title">Brave Shields</string>
+    <string name="brave_shields_onboarding_text">mga ad at tracker na nanghihimasok sa privacy nang sa gayon ay makapag-browse ka nang hindi tina-track sa web.</string>
+
+    <string name="earn_tokens">Makakuha ng mga token</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">para tingnan ang mga ad na nanghihimasok sa privacy. Gamitin ang mga iyon para suportahan ang mga paborito mong site at creator.</string>
+    <string name="brave_rewards_onboarding_text2">para tingnan ang mga ad na nanghihimasok sa privacy.</string>
+
+    <string name="terms_title">Sumang-ayon sa Mga Tuntunin ng paggamit sa Brave Rewards</string>
+    <string name="terms_text">Sumasang-ayon ako sa Brave Rewards</string>
+    <string name="terms_of_service">Mga Tuntunin ng Serbisyo</string>
+
+    <string name="agree">Sumasang-ayon</string>
+    <string name="join">Sumali</string>
+
+     <string name="start_browsing">Simulang mag-browse</string>
+    <string name="i_didnt_see">Wala akong nakitang ad</string>
+
+    <string name="brave_ads_onboarding_title">Ipapakita ng Brave ang una mong ad sa</string>
+    <string name="brave_ads_onboarding_text">Para makakita ng mga ad mula sa Brave Rewards, tiyaking pinapayagan ang Brave na magpakita sa iyo ng mga notification.</string>
+
+    <string name="this_is_your_first_ad">Ito ang una mong ad sa Brave. Mag-tap para matuto pa.</string>
+
+    <string name="turn_on">I-on</string>
+
+    <string name="no_thanks">Hindi, salamat na lang</string>
+    <string name="do_not_agree">Hindi sumasang-ayon</string>
+
+    <string name="prefs_welcome_tour">Pang-welcome na Tour</string>
+    <string name="welcome_tour_dialog_text">Kapag sinimulang muli ang Pang-welcome na Tour, hindi nito maaapektuhan ang anumang kasalukuyang setting.</string>
+    <string name="finish">Tapos na</string>
+
+</resources>

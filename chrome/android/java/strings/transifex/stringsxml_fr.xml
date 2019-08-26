@@ -301,6 +301,7 @@ les créateurs de contenu que vous aimez.</string>
     <string name="no_thanks">Non, merci</string>
     <string name="do_not_agree">Ne pas accepter</string>
 
+    <string name="prefs_welcome_tour">Visite de bienvenue</string>
     <string name="welcome_tour_dialog_text">Relancer la visite guidée de bienvenue n\'affectera pas les paramètres existants. </string>
     <string name="finish">Terminer</string>
 

@@ -306,6 +306,7 @@ HTTPS</string>
     <string name="no_thanks">لا شكراً</string>
     <string name="do_not_agree">لا أوافق</string>
 
+    <string name="prefs_welcome_tour">جولة ترحيبية</string>
     <string name="welcome_tour_dialog_text">لن تؤثر إعادة تشغيل \"جولة الترحيب\" على أي إعدادات حالية.</string>
     <string name="finish">إنهاء</string>
 

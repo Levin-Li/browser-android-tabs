@@ -302,6 +302,7 @@ EST แล้ว</string>
     <string name="no_thanks">ไม่ ขอบคุณ</string>
     <string name="do_not_agree">ไม่เห็นด้วย</string>
 
+    <string name="prefs_welcome_tour">ทัวร์ต้อนรับ</string>
     <string name="welcome_tour_dialog_text">การเปิดใช้งาน Welcome Tour อีกครั้งจะไม่ส่งผลกระทบต่อการตั้งค่าที่มีอยู่</string>
     <string name="finish">เสร็จสิ้น</string>
 

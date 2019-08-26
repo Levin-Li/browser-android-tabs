@@ -265,13 +265,13 @@ twórcom treści, które lubisz.</string>
     <string name="brave_default_browser_title">Brave jest błyskawiczną przeglądarką</string>
     <string name="brave_default_browser_body">Ustaw Brave jako domyślną przeglądarkę!</string>
     <string name="brave_make_default_text">Ustaw jako domyślną</string>
-    <string name="brave_ui_ads_earnings">zarobione z reklam</string>
+    <string name="brave_ui_ads_earnings">zarobki z reklam</string>
     <!-- Onboarding strings -->
 
     <string name="skip">Pomiń</string>
 
-    <string name="search_engine_onboarding">Trwa wyszukiwanie</string>
-    <string name="troubleshooting_onboarding">Trwa rozwiązywanie problemu</string>
+    <string name="search_engine_onboarding">Wybierz wyszukiwarkę</string>
+    <string name="troubleshooting_onboarding">Problem z wyborem</string>
 
     <string name="welcome_to_brave_browser">Witaj w przeglądarce Brave</string>
     <string name="select_your_default_search_engine">Wybierz domyślną wyszukiwarkę</string>
@@ -282,7 +282,7 @@ twórcom treści, które lubisz.</string>
 
     <string name="earn_tokens">Zarób tokeny</string>
     <string name="brave_rewards_onboarding_title">Nagrody Brave</string>
-    <string name="brave_rewards_onboarding_text">dla wyświetlania reklam chroniących prywatność. Korzystaj z nich, aby obsługiwać ulubione strony i kreatory.</string>
+    <string name="brave_rewards_onboarding_text">dla wyświetlania reklam chroniących prywatność. Korzystaj z nich, aby wspierać ulubione strony i twórców.</string>
     <string name="brave_rewards_onboarding_text2">dla wyświetlania reklam chroniących prywatność.</string>
 
     <string name="terms_title">Akceptuję warunki, aby korzystać z nagród Brave</string>
@@ -305,6 +305,7 @@ twórcom treści, które lubisz.</string>
     <string name="no_thanks">Nie, dziękuję</string>
     <string name="do_not_agree">Nie wyrażam zgody</string>
 
+    <string name="prefs_welcome_tour">Wprowadzenie</string>
     <string name="welcome_tour_dialog_text">Ponowne włączenie samouczka nie wpływa na istniejące ustawienia.</string>
     <string name="finish">Zakończ</string>
 

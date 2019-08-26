@@ -302,6 +302,7 @@ HTTPS</string>
     <string name="no_thanks">לא תודה</string>
     <string name="do_not_agree">לא מסכים/ה</string>
 
+    <string name="prefs_welcome_tour">סיור קבלת פנים</string>
     <string name="welcome_tour_dialog_text">הפעלה מחדש של סיור קבלת הפנים לא תשפיע על הגדרות קיימות.</string>
     <string name="finish">סיום</string>
 

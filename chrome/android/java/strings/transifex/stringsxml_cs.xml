@@ -302,6 +302,7 @@ tvůrce obsahu, který milujete.</string>
     <string name="no_thanks">Ne, děkuji</string>
     <string name="do_not_agree">Nesouhlasím</string>
 
+    <string name="prefs_welcome_tour">Uvítací prohlídka</string>
     <string name="welcome_tour_dialog_text">Opětovné spuštění uvítací prohlídky neovlivní žádná existující nastavení.</string>
     <string name="finish">Dokončit</string>
 

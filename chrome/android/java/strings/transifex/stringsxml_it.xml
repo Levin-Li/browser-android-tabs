@@ -306,6 +306,7 @@ delle sovvenzioni.</string>
     <string name="no_thanks">No grazie</string>
     <string name="do_not_agree">Non accetto</string>
 
+    <string name="prefs_welcome_tour">Tour di benvenuto</string>
     <string name="welcome_tour_dialog_text">Il riavvio della Schermata di benvenuto non influirà sulle impostazioni esistenti.</string>
     <string name="finish">Finisci</string>
 

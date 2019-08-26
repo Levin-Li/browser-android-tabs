@@ -306,6 +306,7 @@
     <string name="no_thanks">Нет, спасибо</string>
     <string name="do_not_agree">Не могу согласиться</string>
 
+    <string name="prefs_welcome_tour">Приветственный тур</string>
     <string name="welcome_tour_dialog_text">Перезапуск Введения не повлияет на существующие настройки.</string>
     <string name="finish">Завершить</string>
 

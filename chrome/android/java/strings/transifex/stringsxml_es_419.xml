@@ -35,6 +35,10 @@
     <string name="enter_code_words_sync">Introducir palabras clave</string>
     <string name="sync_device">Sincronizar dispositivo</string>
     <string name="sync_device_failure">No se pudo establecer la sincronización</string>
+    <string name="sync_requires_correct_time">Es posible que el reloj de tu computadora esté configurado con la hora o la zona horaria incorrectas. Verifica los ajustes del reloj.</string>
+
+    <string name="brave_stats_text_ads">Anuncios y rastreadores
+bloqueados</string>
     <string name="brave_stats_text_https">Actualizaciones
 HTTPS</string>
     <string name="brave_stats_text_time">Tiempo ahorrado
@@ -90,6 +94,10 @@ estimado</string>
     <string name="update_notification_title">Actualización del navegador Brave</string>
     <string name="update_notification_text">El navegador nuevo Brave es 22% más rápido</string>
     <string name="prefs_sync">Sincronización (beta)</string>
+    <string name="brave_ads_existing_user_offer_title">Los anuncios de Brave ya están aquí</string>
+    <string name="brave_ads_new_user_offer_title">Activar Recompensas Brave</string>
+    <string name="brave_ads_offer_text">Consigue Basic Attention Token por mirar anuncios que protegen la privacidad en Recompensas Brave.</string>
+    <string name="brave_ads_offer_positive">¡Me apunto!</string>
     <string name="brave_sync_description_page_1_part_1">La Sincronización de Brave te permite sincronizar de manera privada los datos de los marcadores entre tus navegadores Brave en tus diferentes dispositivos.</string>
     <string name="brave_sync_description_page_1_part_2">Simplemente escanea el código de tu cadena de sincronización que creaste en otro dispositivo o inicia una cadena de sincronización nueva.</string>
     <string name="brave_sync_scan_chain_code">Escanear o introducir el código de sincronización</string>
@@ -136,36 +144,36 @@ Puede cambiarlo en la configuración de su aplicación.</string>
     <string name="brave_default_browser_notification_body">Ahorra batería y carga páginas web más rápido. Haz de Brave tu navegador predeterminado. En el menú Brave, pulse \"Establecer como navegador predeterminado\".</string>
     <string name="brave_set_default_browser">Establecer como navegador predeterminado</string>
     <string name="brave_set_default_browser_dialog_text">Seleccione Brave de la lista y toque en \"Siempre\"</string>
-    <string name="brave_default_browser_existing_notification_body">Configure Brave como navegador web predeterminado
-Ahorre batería y cargue páginas web más rápido</string>
+    <string name="brave_default_browser_existing_notification_body">Configura Brave como navegador web predeterminado
+Ahorra batería y carga páginas web más rápido</string>
 
-    <string name="brave_ui_welcome_header_two">Prepárase para disfrutar
+    <string name="brave_ui_welcome_header_two">Prepárate para disfrutar
 de la nueva Internet.</string>
-    <string name="brave_ui_welcome_desc_two">Ahora puede ganar tokens por
+    <string name="brave_ui_welcome_desc_two">Ahora puedes ganar tokens por
 mirar anuncios que respetan la privacidad.</string>
     <string name="brave_ui_welcome_button_text_two">QUIERO UNIRME</string>
     <string name="brave_ui_welcome_footer_text_two">MÁS INFORMACIÓN</string>
     <string name="brave_ui_rewards_creating_text">Creando billetera</string>
-    <string name="brave_ui_your_wallet">Su billetera</string>
+    <string name="brave_ui_your_wallet">Tu billetera</string>
     <string name="brave_ui_bat_text">BAT</string>
     <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> USD</string>
     <string name="brave_rewards_local_panel_add_funds">Agregar fondos</string>
     <string name="brave_ui_settings">Configuración</string>
     <string name="brave_ui_rewards_summary">RESUMEN DE RECOMPENSAS</string>
     <string name="brave_ui_site_banner_welcome">¡Gracias por visitarnos!</string>
-    <string name="brave_ui_rewards_banner_text1">Puede colaborar con este sitio enviando una propina. Es una forma de agradecer el contenido increíble que tiene. Los creadores de contenido verificados reciben sus propinas durante la primera semana de cada mes calendario.</string>
-    <string name="brave_ui_rewards_banner_text2">Si lo desea, puede configurar propinas mensuales para ayudar a este sitio de forma continua.</string>
+    <string name="brave_ui_rewards_banner_text1">Puedes colaborar con este sitio enviando una propina. Es una forma de agradecer el contenido increíble que tiene. Los creadores de contenido verificados reciben sus propinas durante la primera semana de cada mes calendario.</string>
+    <string name="brave_ui_rewards_banner_text2">Si lo deseas, puedes configurar propinas mensuales para ayudar a este sitio de forma continua.</string>
     <string name="brave_ui_donation_amount">Monto de la propina</string>
     <string name="brave_ui_wallet_balance">Saldo de la billetera:</string>
     <string name="brave_ui_make_monthly">Quiero que sea mensual</string>
     <string name="brave_ui_send_tip">Enviar mi propina</string>
     <string name="brave_ui_do_monthly">Establecer propina mensual</string>
-    <string name="brave_ui_not_enough_tokens">No tiene suficientes tokens</string>
+    <string name="brave_ui_not_enough_tokens">No tienes suficientes tokens</string>
     <string name="brave_ui_site_banner_notice_text">NOTA: Este creador aún no se ha registrado para recibir contribuciones de usuarios de Brave. Seguiremos intentando hacer la contribución hasta que verifique su identidad o hasta que hayan transcurrido 90 días.</string>
     <string name="brave_ui_please">por favor</string>
     <string name="brave_ui_add_funds">agregar fondos</string>
     <string name="brave_ui_thank_you">¡Gracias!</string>
-    <string name="brave_ui_error_init_wallet">Inténtelo de nuevo más tarde.</string>
+    <string name="brave_ui_error_init_wallet">Vuelve a intentarlo más tarde.</string>
     <string name="brave_ui_month_jan">ENERO</string>
     <string name="brave_ui_month_feb">FEBRERO</string>
     <string name="brave_ui_month_mar">MARZO</string>
@@ -187,38 +195,38 @@ este mes...</string>
     <string name="brave_ui_token_grant_claimed">Donaciones de tokens aceptadas</string>
     <string name="brave_ui_earnings_ads">Ganancias de anuncios</string>
     <string name="brave_ui_rewards_contribute">Autocontribuir</string>
-    <string name="brave_ui_rewards_contribute_description">Ha contribuido <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Has contribuido <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
     <string name="brave_ui_one_time_donation">Propinas únicas</string>
     <string name="brave_ui_recurring_donation">Propinas mensuales</string>
     <string name="brave_ui_verified_publisher">Editor de Brave verificado</string>
     <string name="brave_ui_not_verified_publisher">Sin verificar</string>
     <string name="brave_ui_not_verified_publisher_description">Este creador aún no se ha registrado para recibir contribuciones de usuarios de Brave.
-Las propinas que usted envíe quedarán en su billetera hasta que el creador verifique su identidad.</string>
+Las propinas que envíes quedarán en tu billetera hasta que el creador verifique su identidad.</string>
     <string name="brave_ui_on_youtube">en YouTube</string>
     <string name="brave_ui_on_twitch">en Twitch</string>
     <string name="brave_ui_new_grant">Hay una donación de tokens disponible.</string>
     <string name="brave_ui_new_token_grant">Donación de tokens disponible</string>
     <string name="brave_ui_claim">Reclamar</string>
-    <string name="brave_ui_reserved_amount_text">Ha designado <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT para creadores que aún no se han
-registrado para recibir contribuciones. Su navegador seguirá intentando hacer la contribución
+    <string name="brave_ui_reserved_amount_text">Has designado <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT para creadores que aún no se han
+registrado para recibir contribuciones. Tu navegador seguirá intentando hacer la contribución
 hasta que verifiquen su identidad o hasta que hayan transcurrido 90 días.</string>
     <string name="brave_ui_notification_desc_no_funds">Su pago mensual programado por contribución automática y propinas mensuales no se pudo completar debido a la insuficiencia de fondos. Lo intentaremos de nuevo en 30 días.</string>
-    <string name="brave_ui_notification_desc_tip_error">No pudimos procesar su propina. Inténtelo de nuevo.</string>
-    <string name="brave_ui_notification_desc_contr_error">No pudimos procesar su contribución.</string>
+    <string name="brave_ui_notification_desc_tip_error">No pudimos procesar tu propina. Vuelve a intentarlo.</string>
+    <string name="brave_ui_notification_desc_contr_error">No pudimos procesar tu contribución.</string>
     <string name="brave_rewards_local_uh_oh">Oh oh...</string>
     <string name="brave_rewards_local_server_not_responding">El servidor de Recompensas Brave no está respondiendo. Solucionaremos esto lo antes posible.</string>
     <string name="brave_ui_grants">Donaciones</string>
     <string name="brave_ui_expires_on">vence el <ph name=\"DATE\">%1$s<ex>14/4/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Fondos insuficientes</string>
-    <string name="brave_ui_insufficient_funds_desc">Su cuenta de Recompensas Brave está esperando un depósito.</string>
+    <string name="brave_ui_insufficient_funds_desc">Tu cuenta de Recompensas Brave está esperando un depósito.</string>
     <string name="brave_ui_backup_wallet_msg">Copia de seguridad de la billetera</string>
-    <string name="brave_ui_backup_wallet_desc">Haga una copia de seguridad de su billetera de Brave.</string>
+    <string name="brave_ui_backup_wallet_desc">Haz una copia de seguridad de tu billetera de Brave.</string>
     <string name="brave_ui_brave_rewards">Recompensas Brave</string>
     <string name="brave_ui_welcome_back_message">¡Hola de nuevo!</string>
-    <string name="brave_ui_get_rewarded">Reciba recompensas por navegar.</string>
-    <string name="brave_ui_brave_rewards_desc">Consiga tokens mirando anuncios que
-respetan su privacidad y haga contribuciones para
-apoyar a los creadores de contenido que más le gustan.</string>
+    <string name="brave_ui_get_rewarded">Recibe recompensas por navegar.</string>
+    <string name="brave_ui_brave_rewards_desc">Consigue tokens mirando anuncios que
+respetan tu privacidad y haz contribuciones para
+apoyar a los creadores de contenido que más te gustan.</string>
     <string name="brave_welcome_page_rewards_title">ACTIVAR RECOMPENSAS BRAVE</string>
     <string name="brave_ui_first_tip_text">Su primer consejo mensual será enviado el:</string>
     <string name="brave_ui_tip_text">Acabas de enviar una consejo a:</string>
@@ -227,4 +235,77 @@ apoyar a los creadores de contenido que más le gustan.</string>
     <string name="bottom_toolbar_enable">Habilitar barra de herramientas inferior</string>
     <string name="bottom_toolbar_disable">Deshabilitar barra de herramientas inferior</string>
     <string name="search_or_url">Búsqueda o URL</string>
-    </resources>
+    <string name="accessibility_toolbar_btn_bookmark">Crea un marcador</string>
+    <string name="brave_ui_donate_monthly">Envía una propina a este sitio todos los meses</string>
+
+    <string name="brave_rewards_not_available">Parece que Recompensas Brave no está disponible en tu dispositivo</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">Si cierras todas las pestañas, Brave se cerrará</string>
+    <string name="prefs_section_display">Mostrar</string>
+    <string name="prefs_section_controls">Controles</string>
+    <string name="prefs_appearance">Apariencia</string>
+    <string name="hide_brave_rewards_icon_title">Ocultar el ícono de Recompensas Brave</string>
+    <string name="hide_brave_rewards_icon_description">Oculta el ícono de Recompensas Brave cuando las recompensas no están activadas</string>
+    <string name="reset_brave_rewards_option">Restablecer Recompensas Brave</string>
+    <string name="reset_brave_rewards_option_description">Esto eliminará tu billetera de Brave y restablecerá todos los datos de tus Recompensas Brave</string>
+    <string name="reset_brave_rewards_error_title">Error de restablecimiento</string>
+    <string name="reset_brave_rewards_error_description">Hubo un error al restablecer las Recompensas Brave. Reinicia Brave y vuelve a intentarlo.</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">En tu computadora, ve a la opción Sincronización en la configuración de Brave y haz clic en el botón \"Tengo un código de sincronización\".\nEscribe el código de cadena de sincronización que aparece a continuación.</string>
+
+    <string name="brave_sync_official">Sincronización de Brave</string>
+    <string name="prefs_sync_official">Sincronización</string>
+
+    <string name="brave_sync_code_warning">Este código es como una contraseña. Si alguien lo consigue, puede leer y modificar tus datos sincronizados.</string>
+
+    <string name="notification_category_group_brave_ads">Anuncios Brave</string>
+    <string name="brave_ads_you_earned">Has ganado</string>
+
+    <string name="brave_default_browser_title">Brave es rapidísimo</string>
+    <string name="brave_default_browser_body">¡Usa Brave como tu navegador predeterminado!</string>
+    <string name="brave_make_default_text">Establecer como predeterminado</string>
+    <string name="brave_ui_ads_earnings">conseguido de anuncios</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Omitir</string>
+
+    <string name="search_engine_onboarding">Incorporación de motor de búsqueda</string>
+    <string name="troubleshooting_onboarding">Incorporación de solución de problemas</string>
+
+    <string name="welcome_to_brave_browser">Te damos la bienvenida al navegador Brave</string>
+    <string name="select_your_default_search_engine">Elige tu motor de búsqueda predeterminado</string>
+
+    <string name="block">Bloquea</string>
+    <string name="brave_shields_onboarding_title">Escudos de Brave</string>
+    <string name="brave_shields_onboarding_text">anuncios y rastreadores que invaden la privacidad, y navega por la Web sin que te sigan.</string>
+
+    <string name="earn_tokens">Consigue tokens</string>
+    <string name="brave_rewards_onboarding_title">Recompensas Brave</string>
+    <string name="brave_rewards_onboarding_text">mirando anuncios que respetan tu privacidad. Úsalos para apoyar a tus sitios y creadores favoritos.</string>
+    <string name="brave_rewards_onboarding_text2">mirando anuncios que respetan la privacidad.</string>
+
+    <string name="terms_title">Tienes que aceptar las condiciones para usar Recompensas Brave</string>
+    <string name="terms_text">Acepto las condiciones de servicio</string>
+    <string name="terms_of_service">de Recompensas Brave</string>
+
+    <string name="agree">Acepto</string>
+    <string name="join">Unirme</string>
+
+     <string name="start_browsing">Empieza a navegar</string>
+    <string name="i_didnt_see">No vi ningún anuncio</string>
+
+    <string name="brave_ads_onboarding_title">Brave te mostrará el primer anuncio en</string>
+    <string name="brave_ads_onboarding_text">Para ver anuncios de Recompensas Brave, comprueba si has permitido que Brave te muestre notificaciones.</string>
+
+    <string name="this_is_your_first_ad">Este es tu primer anuncio de Brave. Toca para ver más información.</string>
+
+    <string name="turn_on">Activar</string>
+
+    <string name="no_thanks">No, gracias</string>
+    <string name="do_not_agree">No acepto</string>
+
+    <string name="prefs_welcome_tour">Recorrido de bienvenida</string>
+    <string name="welcome_tour_dialog_text">Reiniciar el Recorrido de bienvenida no afectará los ajustes actuales.</string>
+    <string name="finish">Terminar</string>
+
+</resources>

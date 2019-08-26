@@ -304,6 +304,7 @@ anderen meegenieten door de inhoudmakers waar jij fan van bent te ondersteunen.<
     <string name="no_thanks">Nee, bedankt</string>
     <string name="do_not_agree">Ik ga niet akkoord</string>
 
+    <string name="prefs_welcome_tour">Welkomsttour</string>
     <string name="welcome_tour_dialog_text">Het opnieuw starten van de welkomsttour heeft geen effect op bestaande instellingen.</string>
     <string name="finish">Afronden</string>
 
