@@ -302,6 +302,7 @@ til å støtte innholdsskapere du liker.</string>
     <string name="no_thanks">Nei takk</string>
     <string name="do_not_agree">Ikke godta</string>
 
+    <string name="prefs_welcome_tour">Velkomsttur</string>
     <string name="welcome_tour_dialog_text">Å starte velkomstturen på nytt påvirker ikke eventuelle innstillinger som allerede finnes. </string>
     <string name="finish">Avslutt</string>
 

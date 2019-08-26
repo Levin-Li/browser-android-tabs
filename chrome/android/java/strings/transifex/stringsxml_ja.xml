@@ -304,6 +304,7 @@
     <string name="no_thanks">結構です</string>
     <string name="do_not_agree">同意しない</string>
 
+    <string name="prefs_welcome_tour">ウェルカムツアー</string>
     <string name="welcome_tour_dialog_text">ウェルカムツアーを再起動しても、既存の設定には影響しません。</string>
     <string name="finish">終了</string>
 

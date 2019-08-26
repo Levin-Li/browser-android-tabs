@@ -302,6 +302,7 @@
     <string name="no_thanks">Ні, дякую</string>
     <string name="do_not_agree">Не погоджуюсь</string>
 
+    <string name="prefs_welcome_tour">Вітальний тур</string>
     <string name="welcome_tour_dialog_text">Перезапуск Вітального туру не вплине на жодні поточні налаштування.</string>
     <string name="finish">Завершити</string>
 

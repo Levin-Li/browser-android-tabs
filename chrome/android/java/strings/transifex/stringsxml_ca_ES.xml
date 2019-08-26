@@ -34,6 +34,8 @@
     <string name="enter_code_words_sync">Introduïu les paraules del codi</string>
     <string name="sync_device">Sincronitza el dispositiu</string>
     <string name="sync_device_failure">No s'ha pogut configurar la sincronització</string>
+    <string name="brave_stats_text_ads">Anuncis i seguiments
+Blocats</string>
     <string name="brave_stats_text_https">Actualitzacions
 del HTTPS</string>
     <string name="brave_stats_text_time">Est. Temps
@@ -89,6 +91,10 @@ Desat</string>
     <string name="update_notification_title">Actualització de Brave</string>
     <string name="update_notification_text">El navegador nou de Brave és un 22% més ràpid</string>
     <string name="prefs_sync">Sincronització (beta)</string>
+    <string name="brave_ads_existing_user_offer_title">Els anuncis de Brave són aquí!</string>
+    <string name="brave_ads_new_user_offer_title">Activa Brave Rewards</string>
+    <string name="brave_ads_offer_text">Obtingues el token d\'atenció bàsica per a la visualització d\'anuncis de preservació de la privacitat a Brave Rewards.</string>
+    <string name="brave_ads_offer_positive">Ja hi sóc!</string>
     <string name="brave_sync_description_page_1_part_1">Brave Sync et permet sincronitzar dades de marcadors de manera privada entre els teus navegadors de Brave en diversos dispositius.</string>
     <string name="brave_sync_description_page_1_part_2">Simplement escaneja el codi de la cadena de sincronització  que vas crear en un altre dispositiu o comença una altra cadena de sincronització.</string>
     <string name="brave_sync_scan_chain_code">Escaneja o introdueix un codi de sincronització</string>
@@ -226,7 +232,9 @@ als creadors de contingut que t\'agraden.</string>
     <string name="accessibility_toolbar_btn_bookmark">Crear una adreça d\'interès</string>
     <string name="brave_ui_donate_monthly">Donar una propina a aquest lloc cada mes</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Si es tanquen totes les pestanyes, es tancarà Brave</string>
     <string name="prefs_section_display">Visualitzar</string>
+    <string name="prefs_section_controls">Controls</string>
     <string name="prefs_appearance">Aparença</string>
     <string name="hide_brave_rewards_icon_title">Ocultar Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Amaga la icona de Brave Rewards quan Brave Rewards no estigui activat</string>
@@ -235,4 +243,61 @@ als creadors de contingut que t\'agraden.</string>
     <string name="reset_brave_rewards_error_title">Error d\'inicialització</string>
     <string name="reset_brave_rewards_error_description">S\'ha produït un error en inicialitzar Brave Rewards. Reinicia Brave i torna-ho a provar</string>
 
-    </resources>
+    <string name="brave_sync_add_laptop_text_part_2_new">A l\'ordinador de destí, vés a Brave Sync a la configuració i fes clic al botó \"Tinc un codi de sincronització\".\nIntrodueix les paraules del codi de la cadena de sincronització que es mostren a continuació.</string>
+
+    <string name="brave_sync_official">Brave Sync</string>
+    <string name="prefs_sync_official">Sincronització</string>
+
+    <string name="brave_sync_code_warning">Considera aquest codi una contrasenya. Si algú se n\'apropia, podrà llegir i modificar les teves dades sincronitzades.</string>
+
+    <string name="notification_category_group_brave_ads">Anuncis de Brave</string>
+    <string name="brave_ads_you_earned">Has guanyat</string>
+
+    <string name="brave_default_browser_title">Brave és rapidíssim</string>
+    <string name="brave_default_browser_body">Fes que Brave sigui el teu navegador per defecte!</string>
+    <string name="brave_make_default_text">Fes-lo per defecte</string>
+    <string name="brave_ui_ads_earnings">guanyat dels anuncis</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Omet</string>
+
+    <string name="search_engine_onboarding">Integració del motor de cerca</string>
+    <string name="troubleshooting_onboarding">Integració de resolució de problemes</string>
+
+    <string name="welcome_to_brave_browser">Benvingut al navegador de Brave</string>
+    <string name="select_your_default_search_engine">Selecciona el motor de cerca predeterminat</string>
+
+    <string name="block">Bloqueja</string>
+    <string name="brave_shields_onboarding_title">Escuts de Brave</string>
+    <string name="brave_shields_onboarding_text">anuncis i seguiments d\'invasió de la privacitat que et permeten navegar sense ser seguit per Internet.</string>
+
+    <string name="earn_tokens">Guanya tokens</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">per veure els anuncis que respecten la privacitat. Utilitza\'ls per donar suport als teus llocs i creadors preferits.</string>
+    <string name="brave_rewards_onboarding_text2">per veure els anuncis que respecten la privacitat.</string>
+
+    <string name="terms_title">Accepta les condicions per utilitzar Brave Rewards</string>
+    <string name="terms_text">Accepto Brave Rewards</string>
+    <string name="terms_of_service">Condicions del servei</string>
+
+    <string name="agree">Accepto</string>
+    <string name="join">Uneix-te</string>
+
+     <string name="start_browsing">Comença a navegar</string>
+    <string name="i_didnt_see">No he vist un anunci</string>
+
+    <string name="brave_ads_onboarding_title">Brave et mostrarà el teu primer anunci</string>
+    <string name="brave_ads_onboarding_text">Per veure els anuncis de Brave Rewards, assegura\'t que Brave tingui permís per mostrar-te les notificacions.</string>
+
+    <string name="this_is_your_first_ad">Aquest és el teu primer anunci de Brave. Toca per obtenir més informació.</string>
+
+    <string name="turn_on">Activa</string>
+
+    <string name="no_thanks">No, gràcies</string>
+    <string name="do_not_agree">No accepto</string>
+
+    <string name="prefs_welcome_tour">Visita de benvinguda</string>
+    <string name="welcome_tour_dialog_text">Tornar a iniciar la visita de benvinguda no afectarà a cap configuració existent.</string>
+    <string name="finish">Finalitza</string>
+
+</resources>

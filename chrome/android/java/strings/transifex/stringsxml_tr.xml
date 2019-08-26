@@ -303,6 +303,7 @@ para kazanın ve sevdiğiniz içerik
     <string name="no_thanks">Hayır, teşekkürler</string>
     <string name="do_not_agree">Kabul etmiyorum</string>
 
+    <string name="prefs_welcome_tour">Hoşgeldin Turu</string>
     <string name="welcome_tour_dialog_text">Hoş Geldin Turu\'nu kapatmak mevcut ayarları etkilemeyecektir.</string>
     <string name="finish">Bitir</string>
 

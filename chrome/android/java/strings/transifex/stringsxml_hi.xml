@@ -304,6 +304,7 @@
     <string name="no_thanks">जी नहीं, धन्यवाद</string>
     <string name="do_not_agree">सहमत नहीं हैं</string>
 
+    <string name="prefs_welcome_tour">वेलकम टूर</string>
     <string name="welcome_tour_dialog_text">स्वागत टूर को फ़िर से शुरू करने से मौजूदा सेटिंग प्रभावित नही होगी।</string>
     <string name="finish">समाप्त</string>
 

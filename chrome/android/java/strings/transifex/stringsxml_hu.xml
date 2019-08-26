@@ -302,6 +302,7 @@ tartalomkészítők támogatására.</string>
     <string name="no_thanks">Köszönöm, nem</string>
     <string name="do_not_agree">Nem értek egyet</string>
 
+    <string name="prefs_welcome_tour">Bemutatás</string>
     <string name="welcome_tour_dialog_text">A bemutatkozás újraindítása nem lesz hatással semmilyen beállításra</string>
     <string name="finish">Befejezés</string>
 

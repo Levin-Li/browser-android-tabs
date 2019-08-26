@@ -303,6 +303,7 @@ tvorcov obsahu, ktorých máte radi.</string>
     <string name="no_thanks">Nie, ďakujem</string>
     <string name="do_not_agree">Nesúhlas</string>
 
+    <string name="prefs_welcome_tour">Uvítacia prehliadka</string>
     <string name="welcome_tour_dialog_text">Opätovné spustenie uvítacej prehliadky nebude mať vplyv na žiadne existujúce nastavenia.</string>
     <string name="finish">Skončiť</string>
 

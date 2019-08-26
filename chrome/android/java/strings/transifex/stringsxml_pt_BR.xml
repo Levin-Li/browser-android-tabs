@@ -305,6 +305,7 @@ contribuindo para seus criadores de conteúdo favoritos.</string>
     <string name="no_thanks">Não, obrigado</string>
     <string name="do_not_agree">Não concordar</string>
 
+    <string name="prefs_welcome_tour">Tour de boas-vindas</string>
     <string name="welcome_tour_dialog_text">Reabrir o Tour de Boas-vindas não vai afetar nenhuma configuração existente.</string>
     <string name="finish">Concluir</string>
 

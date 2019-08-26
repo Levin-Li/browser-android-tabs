@@ -302,6 +302,7 @@ rakastamillesi sisällöntuottajille.</string>
     <string name="no_thanks">Ei kiitos</string>
     <string name="do_not_agree">Älä hyväksy</string>
 
+    <string name="prefs_welcome_tour">Tutustumiskierros</string>
     <string name="welcome_tour_dialog_text">Tervetuliaiskierroksen käynnistäminen uudelleen ei vaikuta nykyisiin asetuksiin.</string>
     <string name="finish">Viimeistele</string>
 

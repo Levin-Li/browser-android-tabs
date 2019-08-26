@@ -38,6 +38,8 @@
     <string name="sync_device_failure">Não foi possível configurar o Sync</string>
     <string name="sync_requires_correct_time">O relógio do seu computador pode estar configurado para a hora errada, ou para o fuso horário errado. Verifique as definições do seu relógio.</string>
 
+    <string name="brave_stats_text_ads">Anúncios e Monitorizadores
+Bloqueados</string>
     <string name="brave_stats_text_https">Atualizações de
 HTTPS</string>
     <string name="brave_stats_text_time">Tempo Estimado
@@ -93,6 +95,10 @@ Guardado</string>
     <string name="update_notification_title">Atualizar o Brave</string>
     <string name="update_notification_text">O novo navegador Brave, é 22% mais rápido</string>
     <string name="prefs_sync">Sync (beta)</string>
+    <string name="brave_ads_existing_user_offer_title">Os Brave Ads estão aqui!</string>
+    <string name="brave_ads_new_user_offer_title">Ativar as Brave Rewards</string>
+    <string name="brave_ads_offer_text">Receba o Token de atenção básica por ver anúncios que mantêm a privacidade nas Brave Rewards.</string>
+    <string name="brave_ads_offer_positive">Contem comigo!</string>
     <string name="brave_sync_description_page_1_part_1">O Brave Sync permite-lhe sincronizar os dados dos marcadores de modo privado entre os seus navegadores Brave em vários dispositivos.</string>
     <string name="brave_sync_description_page_1_part_2">Basta digitalizar o código da sua sequência de sincronização que criou noutro dispositivo. Ou inicie uma nova sequência de sincronização.</string>
     <string name="brave_sync_scan_chain_code">Digitalizar ou inserir código de sincronização</string>
@@ -103,6 +109,7 @@ Guardado</string>
     <string name="brave_sync_btn_laptop">Adicionar um PC</string>
     <string name="brave_sync_scan_sync_code">Digitalizar este código de sincronização</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Com um segundo telefone ou tablet, no Brave vá para Definições > Sincronizar > Digitalizar.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">No seu dispositivo móvel, aceda ao Brave Sync no painel de Definições e clique no botão \"Digitalizar código de sincronização\". Utilize a sua câmara para digitalizar o código QR abaixo.</string>
     <string name="brave_sync_btn_done">Concluído</string>
     <string name="brave_sync_tabs_text">Separadores</string>
     <string name="brave_sync_history_text">Histórico</string>
@@ -235,7 +242,9 @@ os criadores de conteúdo de que adora.</string>
 
     <string name="brave_rewards_not_available">Nós lamentamos, mas parece que \'Recompensas Brave\' não está disponível no seu dispositivo</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Fechar todos os separadores fecha o Brave</string>
     <string name="prefs_section_display">Exibir</string>
+    <string name="prefs_section_controls">Controlos</string>
     <string name="prefs_appearance">Aparência</string>
     <string name="hide_brave_rewards_icon_title">Ocultar Ícone de Recompensas Brave</string>
     <string name="hide_brave_rewards_icon_description">Oculta o ícone das \'Recompensas Brave\' quando \'Recompensas Brave\' não está ativada</string>
@@ -244,7 +253,61 @@ os criadores de conteúdo de que adora.</string>
     <string name="reset_brave_rewards_error_title">Erro de Reiniciar</string>
     <string name="reset_brave_rewards_error_description">Ocorreu um erro ao reiniciar Recompensa Brave. Por favor, reinicie o Brave e tente novamente</string>
 
+    <string name="brave_sync_add_laptop_text_part_2_new">No computador de destino aceda a Brave Sync no painel de Definições e clique no botão \"Tenho um código de sincronização\".\nIntroduza a sequência de caracteres de sincronização apresentados abaixo.</string>
+
     <string name="brave_sync_official">Brave Sync</string>
     <string name="prefs_sync_official">Sincronizar</string>
 
-    </resources>
+    <string name="brave_sync_code_warning">Considere este código como uma palavra-passe. Alguém com acesso ao código poderá ler e modificar os seus dados sincronizados.</string>
+
+    <string name="notification_category_group_brave_ads">Brave Ads</string>
+    <string name="brave_ads_you_earned">Ganhou</string>
+
+    <string name="brave_default_browser_title">O Brave é super rápido</string>
+    <string name="brave_default_browser_body">Torne o Brave o seu navegador predefinido!</string>
+    <string name="brave_make_default_text">Predefinir</string>
+    <string name="brave_ui_ads_earnings">recebido pelos anúncios</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Ignorar</string>
+
+    <string name="search_engine_onboarding">Integração do motor de pesquisa</string>
+    <string name="troubleshooting_onboarding">Integração da resolução de problemas</string>
+
+    <string name="welcome_to_brave_browser">Bem-vindo ao navegador Brave</string>
+    <string name="select_your_default_search_engine">Selecione o seu motor de pesquisa predefinido</string>
+
+    <string name="block">Bloquear</string>
+    <string name="brave_shields_onboarding_title">Proteções Brave</string>
+    <string name="brave_shields_onboarding_text">anúncios e monitorizadores que invadem a sua privavidade para que possa navegar sem ser seguido.</string>
+
+    <string name="earn_tokens">Receba tokens</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">para ver anúncios que respeitam a privacidade. Utilize-os para apoiar os seus sites e criadores favoritos.</string>
+    <string name="brave_rewards_onboarding_text2">para ver anúncios que respeitam a criatividade.</string>
+
+    <string name="terms_title">Aceite os Termos para utilizar as Brave Rewards</string>
+    <string name="terms_text">Aceito as Brave Rewards</string>
+    <string name="terms_of_service">Termos de Serviço</string>
+
+    <string name="agree">Aceito</string>
+    <string name="join">Aderir</string>
+
+     <string name="start_browsing">Começar a navegar</string>
+    <string name="i_didnt_see">Não vi um anúncio</string>
+
+    <string name="brave_ads_onboarding_title">O Brave vai mostrar o seu primeiro anúncio em</string>
+    <string name="brave_ads_onboarding_text">Para ver anúncios de Brave Rewards, certifique-se de que o Brave permite a apresentação de notificações.</string>
+
+    <string name="this_is_your_first_ad">Este é o seu primeiro anúncio do Brave. Toque para obter mais informações.</string>
+
+    <string name="turn_on">Ativar</string>
+
+    <string name="no_thanks">Não, obrigado</string>
+    <string name="do_not_agree">Não aceito</string>
+
+    <string name="prefs_welcome_tour">Apresentação de boas-vindas</string>
+    <string name="welcome_tour_dialog_text">Voltar a ver a Apresentação de boas-vindas não afeta as definições existentes.</string>
+    <string name="finish">Terminar</string>
+
+</resources>

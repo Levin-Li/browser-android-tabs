@@ -303,6 +303,7 @@
     <string name="no_thanks">謝謝不必</string>
     <string name="do_not_agree">不同意</string>
 
+    <string name="prefs_welcome_tour">歡迎導覽</string>
     <string name="welcome_tour_dialog_text">重新啟動「歡迎導覽」並不會影響到任何既有設定。</string>
     <string name="finish">結束</string>
 

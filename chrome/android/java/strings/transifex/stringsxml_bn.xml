@@ -35,6 +35,10 @@
     <string name="enter_code_words_sync">কোড ওয়ার্ডগুলি লিখুন</string>
     <string name="sync_device">ডিভাইস সিঙ্ক করুন</string>
     <string name="sync_device_failure">সিঙ্ক সেট আপ করা গেল না</string>
+    <string name="sync_requires_correct_time">আপনার কম্পিউটারের ঘড়ি, অথবা টাইম-জোন ভুল সময়ে সেট করা হয়ে থাকতে পারে। আপনার ঘড়ির সেটিংস পরীক্ষা করুন</string>
+
+    <string name="brave_stats_text_ads">বিজ্ঞাপন ও ট্র্যাকারগুলি
+অবরুদ্ধ করা হয়েছে</string>
     <string name="brave_stats_text_https">HTTPS
 আপগ্রেডসমূহ</string>
     <string name="brave_stats_text_time">আনুমানিক সাশ্রিত
@@ -90,6 +94,10 @@
     <string name="update_notification_title">Brave আপডেট</string>
     <string name="update_notification_text">নতুন Brave ব্রাউজারটি 22% দ্রুততর</string>
     <string name="prefs_sync">সিঙ্ক (বেটা)</string>
+    <string name="brave_ads_existing_user_offer_title">Brave বিজ্ঞাপনগুলি এখানে!</string>
+    <string name="brave_ads_new_user_offer_title">Brave পুরস্কারগুলি সক্রিয় করুন</string>
+    <string name="brave_ads_offer_text">Brave পুরস্কারগুলিতে গোপনীয়তা রক্ষাকারী বিজ্ঞাপনগুলি দেখার জন্য প্রাথমিক মনোযোগ টোকেন উপার্জন করুন।</string>
+    <string name="brave_ads_offer_positive">আমি ভিতরে!</string>
     <string name="brave_sync_description_page_1_part_1">Brave সিঙ্ক আপনার বিভিন্ন ডিভাইসে Brave ব্রাউজারগুলির মধ্যে বুকমার্কগুলির ডেটাকে গোপনীয়ভাবে সিঙ্ক করার অনুমতি দেয়।</string>
     <string name="brave_sync_description_page_1_part_2">শুধু আপনার অন্য ডিভাইসে তৈরি করা কোডটিকে আপনার সিঙ্ক চেন থেকে স্ক্যান করুন। বা একটি নতুন সিঙ্ক চেন শুরু করুন।</string>
     <string name="brave_sync_scan_chain_code">সিঙ্ক কোড স্ক্যান করুন বা লিখুন</string>
@@ -100,6 +108,7 @@
     <string name="brave_sync_btn_laptop">একটি কম্পিউটার যোগ করুন</string>
     <string name="brave_sync_scan_sync_code">এই সিঙ্ক কোডটি স্ক্যান করুন</string>
     <string name="brave_sync_add_mobile_device_text_part_1">একটি দ্বিতীয় ফোন বা ট্যাবলেট ব্যবহার করে, Brave সেটিংস > সিঙ্ক > স্ক্যান এ নেভিগেট করুন।</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">আপনার মোবাইল ডিভাইসে, সেটিংস প্যানেলে Brave সিঙ্ক করুন এ নেভিগেট করুন এবং \"স্ক্যান সিঙ্ক কোড\" বোতামটিতে ক্লিক করুন। নিচের QR কোডটি স্ক্যান করতে আপনার ক্যামেরা ব্যবহার করুন।</string>
     <string name="brave_sync_btn_done">সম্পন্ন হয়েছে</string>
     <string name="brave_sync_tabs_text">ট্যাবগুলি</string>
     <string name="brave_sync_history_text">ইতিহাস</string>
@@ -217,4 +226,84 @@
 আপনার পছন্দের সামগ্রীর স্রষ্টাদের
 সহায়তা করতে সেগুলি তাদেরকে দিয়ে দিন।</string>
     <string name="brave_welcome_page_rewards_title">BRAVE পুরস্কারগুলি সক্রিয় করুন</string>
-    </resources>
+    <string name="brave_ui_first_tip_text">আপনার প্রথম মাসিক টিপ পাঠানো হয়েছে এই তারিখে:</string>
+    <string name="brave_ui_tip_text">আপনি এইমাত্র একটি টিপ পাঠিয়েছেন একে:</string>
+    <string name="brave_ui_auto_tip_text">আপনি স্বয়ংক্রিয়ভাবে একে একটি টিপ পাঠাচ্ছেন:</string>
+    <string name="brave_ui_monthly_text">মাসিক</string>
+    <string name="bottom_toolbar_enable">নিচের টুলবার সক্রিয় করুন</string>
+    <string name="bottom_toolbar_disable">নিচের টুলবার নিষ্ক্রিয় করুন</string>
+    <string name="search_or_url">অনুসন্ধান বা URL</string>
+    <string name="accessibility_toolbar_btn_bookmark">একটি বুকমার্ক তৈরি করুন</string>
+    <string name="brave_ui_donate_monthly">এই সাইটটিকে মাসে টিপ দিন</string>
+
+    <string name="brave_rewards_not_available">আমরা দুঃখিত, মনে হচ্ছে আপনার ডিভাইসে Brave পুরস্কারগুলি উপলভ্য নয়</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">সব ট্যাবগুলি বন্ধ করা Brave কে বন্ধ করবে</string>
+    <string name="prefs_section_display">প্রদর্শন করুন</string>
+    <string name="prefs_section_controls">নিয়ন্ত্রণগুলি</string>
+    <string name="prefs_appearance">চেহারা</string>
+    <string name="hide_brave_rewards_icon_title">Brave পুরস্কারের আইকন লুকান</string>
+    <string name="hide_brave_rewards_icon_description">Brave পুরস্কারগুলি সক্রিয় না থাকলে Brave পুরস্কারের আইকনটি লুকান</string>
+    <string name="reset_brave_rewards_option">Brave পুরস্কারগুলি রিসেট করুন</string>
+    <string name="reset_brave_rewards_option_description">এটি আপনার Brave ওয়ালেট মুছবে এবং আপনার সমস্ত Brave পুরস্কারের ডেটা রিসেট করবে</string>
+    <string name="reset_brave_rewards_error_title">রিসেটের ত্রুটি</string>
+    <string name="reset_brave_rewards_error_description">Brave পুরস্কারগুলি রিসেট করার সময় একটি ত্রুটি হয়েছে। অনুগ্রহ করে Brave আবার লঞ্চ করে আবার চেষ্টা করুন</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">আপনার অভীষ্ট কম্পিউটারে, সেটিংসে Brave সিঙ্ক করুন এ নেভিগেট করুন এবং \"আমার একটি সিঙ্ক কোড আছে\" বোতামে ক্লিক করুন।\nনচে দেখানো সিঙ্ক চেন কোড শব্দগুলি লিখুন।</string>
+
+    <string name="brave_sync_official">Brave সিঙ্ক করুন</string>
+    <string name="prefs_sync_official">সিঙ্ক করুন</string>
+
+    <string name="brave_sync_code_warning">এই কোডটিকে একটি পাসওয়ার্ড হিসেবে মনে করুন। কেউ এটি বুঝতে পারলে, তারা আপনার সিঙ্ক করা ডেটা পড়তে এবং মডিফাই করতে পারবে।</string>
+
+    <string name="notification_category_group_brave_ads">Brave বিজ্ঞাপনসমূহ</string>
+    <string name="brave_ads_you_earned">আপনি উপার্জন করেছেন</string>
+
+    <string name="brave_default_browser_title">Brave আলোর মতো দ্রুত</string>
+    <string name="brave_default_browser_body">Brave কে আপনার ডিফল্ট ব্রাউজার করুন!</string>
+    <string name="brave_make_default_text">ডিফল্ট বানান</string>
+    <string name="brave_ui_ads_earnings">বিজ্ঞাপনগুলি থেকে উপার্জন করুন</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">এড়িয়ে যান</string>
+
+    <string name="search_engine_onboarding">সার্চ ইঞ্জিন অনবোর্ডিং</string>
+    <string name="troubleshooting_onboarding">ত্রুটি দূরীকরণ অনবোর্ডিং</string>
+
+    <string name="welcome_to_brave_browser">Brave ব্রাইজারে স্বাগতম</string>
+    <string name="select_your_default_search_engine">আপনার ডিফল্ট সার্চ ইঞ্জিন নির্বাচন করুন</string>
+
+    <string name="block">অবরুদ্ধ করুন</string>
+    <string name="brave_shields_onboarding_title">Brave রক্ষাকবচসমূহ</string>
+    <string name="brave_shields_onboarding_text">গোপনীয়তা-বিপন্নকারী বিজ্ঞাপন এবং ট্র্যাকারসমূহ যাতে ওয়েব জুড়ে আপনি কারোর দ্বারা অনুসৃত না হয়ে ব্রাউজ করতে পারেন।</string>
+
+    <string name="earn_tokens">টোকেনগুলি উপার্জন করুন</string>
+    <string name="brave_rewards_onboarding_title">Brave পুরস্কারসমূহ</string>
+    <string name="brave_rewards_onboarding_text">গোপনীয়তা-সম্মানকারী বিজ্ঞাপনগুলি দেখার জন্য। আপনার প্রিয় সাইট এবং স্রষ্টাদের সহায়তা করার জন্য সেগুলি ব্যবহার করুন।</string>
+    <string name="brave_rewards_onboarding_text2">গোপনীয়তা-সম্মানকারী বিজ্ঞাপনগুলি দেখার জন্য।</string>
+
+    <string name="terms_title">Brave পুরস্কারগুলি ব্যবহার করতে শর্তাবলীতে সম্মত হন</string>
+    <string name="terms_text">আমি Brave পুরস্কারগুলিতে সম্মস্ত হচ্ছি</string>
+    <string name="terms_of_service">পরিষেবার শর্তাবলী</string>
+
+    <string name="agree">সম্মত</string>
+    <string name="join">যোগদান করুন</string>
+
+     <string name="start_browsing">ব্রাউজিং শুরু করুন</string>
+    <string name="i_didnt_see">আমি একটি বিজ্ঞাপন দেখিনি</string>
+
+    <string name="brave_ads_onboarding_title">Brave আপনার প্রথম বিজ্ঞাপনটি দেখাবে এর মধ্যে</string>
+    <string name="brave_ads_onboarding_text">Brave পুরস্কারগুলি থেকে বিজ্ঞাপনগুলি দেখতে, নিশ্চিত করুন যে Brave বিজ্ঞপ্তিগুলি দেখানোর জন্য অনুমোদিত।</string>
+
+    <string name="this_is_your_first_ad">এটি হল আপনার প্রথম Brave বিজ্ঞাপন। আরও জানতে ট্যাপ করুন।</string>
+
+    <string name="turn_on">চালু করুন</string>
+
+    <string name="no_thanks">না ধন্যবাদ</string>
+    <string name="do_not_agree">সম্মত নই</string>
+
+    <string name="prefs_welcome_tour">স্বাগত সফর</string>
+    <string name="welcome_tour_dialog_text">স্বাগত সফরের আবার লঞ্চ করা কোনো বিদ্যমান সেটিংসকে ক্ষতিগ্রস্ত করবে না।</string>
+    <string name="finish">শেষ করুন</string>
+
+</resources>

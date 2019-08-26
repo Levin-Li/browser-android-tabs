@@ -34,6 +34,8 @@
     <string name="enter_code_words_sync">Unesi kodne riječi</string>
     <string name="sync_device">Sinkroniziraj uređaj</string>
     <string name="sync_device_failure">Postavljanje sinkronizacije nije uspjelo</string>
+    <string name="brave_stats_text_ads">Blokirani
+oglasi i elementi za praćenje</string>
     <string name="brave_stats_text_https">HTTPS
 Unaprjeđenja</string>
     <string name="brave_stats_text_time">Est. Vrijeme
@@ -89,6 +91,10 @@ Spaseno</string>
     <string name="update_notification_title">Ažuriranje aplikacije Brave</string>
     <string name="update_notification_text">Novi je preglednik Brave 22 % brži</string>
     <string name="prefs_sync">Sinkroniziranje (inačica beta)</string>
+    <string name="brave_ads_existing_user_offer_title">Oglasi su Brave ovdje!</string>
+    <string name="brave_ads_new_user_offer_title">Omogući nagrade Brave</string>
+    <string name="brave_ads_offer_text">Osvojite osnovni žeton za pažnju zbog pregledavanja oglasa kojima se poštiva privatnost u nagradama Brave.</string>
+    <string name="brave_ads_offer_positive">Sudjelujem!</string>
     <string name="brave_sync_description_page_1_part_1">Značajkom Sinkroniziranje aplikacije Brave omogućava vam se privatno sinkroniziranje podataka knjižnih oznaka između preglednika Brave na različitim uređajima koje posjedujete.</string>
     <string name="brave_sync_description_page_1_part_2">Jednostavno skenirajte kôd na nizu za sinkroniziranje koji ste stvorili drugim uređajem. Ili započnite novi niz za sinkroniziranje.</string>
     <string name="brave_sync_scan_chain_code">Skeniraj ili upiši kôd za sinkroniziranje</string>
@@ -226,7 +232,9 @@ omiljene stvaratelje sadržaja.</string>
     <string name="accessibility_toolbar_btn_bookmark">Kreirajte knjižnu oznaku</string>
     <string name="brave_ui_donate_monthly">Savjetujte ovo mjesto mjesečno</string>
 
+    <string name="prefs_closing_all_tabs_closes_brave_title">Zatvaranjem se svih kartica zatvara Brave</string>
     <string name="prefs_section_display">Prikazati</string>
+    <string name="prefs_section_controls">Kontrole</string>
     <string name="prefs_appearance">Izgled</string>
     <string name="hide_brave_rewards_icon_title">Sakrijte ikonu Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Sakriva ikonu Brave Rewards onda kad Brave Rewards nije omogućen</string>
@@ -235,4 +243,61 @@ omiljene stvaratelje sadržaja.</string>
     <string name="reset_brave_rewards_error_title">Resetirajte pogrešku</string>
     <string name="reset_brave_rewards_error_description">Došlo je do pogreške u resetiranju Brave Rewards. Ponovno pokrenite Brave i pokušajte opet</string>
 
-    </resources>
+    <string name="brave_sync_add_laptop_text_part_2_new">Na ciljnom računalu idite u stavku Postavke unutar aplikacije Brave za sinkroniziranje i kliknite na gumb „Imam kôd za sinkroniziranje”.\nUpišite kôd niza za sinkroniziranje koji se prikazuje u nastavku.</string>
+
+    <string name="brave_sync_official">Sinkronizacija Brave</string>
+    <string name="prefs_sync_official">Sinkroniziraj</string>
+
+    <string name="brave_sync_code_warning">Ovaj je kôd poput lozinke. Ako ga neka osoba dobije, može pročitati i promijeniti vaše sinkronizirane podatke.</string>
+
+    <string name="notification_category_group_brave_ads">Oglasi Brave</string>
+    <string name="brave_ads_you_earned">Zaradili ste</string>
+
+    <string name="brave_default_browser_title">Brave raste iznimno brzo</string>
+    <string name="brave_default_browser_body">Postavite Brave kao svoj zadani preglednik!</string>
+    <string name="brave_make_default_text">Postavi kao zadano</string>
+    <string name="brave_ui_ads_earnings">zarada od oglasa</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Preskoči</string>
+
+    <string name="search_engine_onboarding">Početni koraci za tražilicu</string>
+    <string name="troubleshooting_onboarding">Početni koraci za rješavanje problema</string>
+
+    <string name="welcome_to_brave_browser">Dobro došli u preglednik Brave</string>
+    <string name="select_your_default_search_engine">Odaberite svoju zadanu tražilicu</string>
+
+    <string name="block">Blokiraj</string>
+    <string name="brave_shields_onboarding_title">Štitnici Brave</string>
+    <string name="brave_shields_onboarding_text">oglasi kojima se ugrožava privatnost i elementi za praćenje kako biste mogli pregledavati internet, a da vas se pritom ne prati.</string>
+
+    <string name="earn_tokens">Osvojite žetone</string>
+    <string name="brave_rewards_onboarding_title">Nagrade Brave</string>
+    <string name="brave_rewards_onboarding_text">za pregledavanje oglasa kojima se poštuje privatnost. Upotrijebite ih za podržavanje omiljenih mrežnih mjesta i stvaratelja.</string>
+    <string name="brave_rewards_onboarding_text2">za pregledavanje oglasa kojima se poštuje privatnost.</string>
+
+    <string name="terms_title">Slažem se s odredbama korištenja nagradama Brave</string>
+    <string name="terms_text">Slažem se s nagradama Brave</string>
+    <string name="terms_of_service">Odredbe pružanja usluge</string>
+
+    <string name="agree">Slažem se</string>
+    <string name="join">Sudjelovanje</string>
+
+     <string name="start_browsing">Započni pregledavanje</string>
+    <string name="i_didnt_see">Nisam vidio/la oglas</string>
+
+    <string name="brave_ads_onboarding_title">U pregledniku se Brave prvi oglas prikazuje za</string>
+    <string name="brave_ads_onboarding_text">Kako biste pregledali oglase iz stavke Nagrade Brave, provjerite je li pregledniku Brave dopušteno prikazivanje obavijesti.</string>
+
+    <string name="this_is_your_first_ad">Ovo je vaš prvi oglas Brave. Dodirnite kako biste saznali više.</string>
+
+    <string name="turn_on">Uključi</string>
+
+    <string name="no_thanks">Ne, hvala</string>
+    <string name="do_not_agree">Ne slažem se</string>
+
+    <string name="prefs_welcome_tour">Demonstracijski prikaz</string>
+    <string name="welcome_tour_dialog_text">Pokretanjem demonstracijskog prikaza ne utječe se na postojeće postavke.</string>
+    <string name="finish">Završi</string>
+
+</resources>

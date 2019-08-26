@@ -301,6 +301,7 @@ kreatore sadržaja koji vam se sviđaju.</string>
     <string name="no_thanks">Ne, hvala</string>
     <string name="do_not_agree">Ne slažem se</string>
 
+    <string name="prefs_welcome_tour">Tura dobrodošlice</string>
     <string name="welcome_tour_dialog_text">Ponovno pokretanje „Obilaska za upoznavanje” neće uticati na postojeće postavke.</string>
     <string name="finish">Završi</string>
 

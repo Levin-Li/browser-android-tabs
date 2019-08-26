@@ -304,6 +304,7 @@ apoyar a los creadores de contenido que más te gustan.</string>
     <string name="no_thanks">No, gracias</string>
     <string name="do_not_agree">No estoy de acuerdo</string>
 
+    <string name="prefs_welcome_tour">Recorrido de bienvenida</string>
     <string name="welcome_tour_dialog_text">El reinicio del «recorrido de bienvenida» no afectará ninguna configuración existente.</string>
     <string name="finish">Terminar</string>
 

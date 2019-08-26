@@ -35,6 +35,10 @@
     <string name="enter_code_words_sync">Sisesta salasõnad</string>
     <string name="sync_device">Sünk seade</string>
     <string name="sync_device_failure">Sünki seadistamine nurjus</string>
+    <string name="sync_requires_correct_time">Teie arvuti kell või ajavöönd võib olla vale. Kontrollige oma kella seadeid.</string>
+
+    <string name="brave_stats_text_ads">Reklaamid ja jälitajad
+Blokeeritud</string>
     <string name="brave_stats_text_https">HTTPS
 Uuendused</string>
     <string name="brave_stats_text_time">Hin. aeg
@@ -90,6 +94,10 @@ Salvestatud</string>
     <string name="update_notification_title">Brave‘i uuendus</string>
     <string name="update_notification_text">Uus Brave‘i veebilehitseja on 22% kiirem</string>
     <string name="prefs_sync">Sünk (beta)</string>
+    <string name="brave_ads_existing_user_offer_title">Brave’i reklaamid on kohal!</string>
+    <string name="brave_ads_new_user_offer_title">Luba Brave’i preemiad</string>
+    <string name="brave_ads_offer_text">Teenige Basic Attention Token eraelu puutumatust säilitavate reklaamide vaatamise eest Brave’i preemiates.</string>
+    <string name="brave_ads_offer_positive">Osalen!</string>
     <string name="brave_sync_description_page_1_part_1">Brave sünk võimaldab ajakohastada järjehoidjate andmeid privaatselt erinevates seadmetes olevate Brave‘i veebilehitsejate vahel.</string>
     <string name="brave_sync_description_page_1_part_2">Lihtsalt skannige koodi, mille lõite teise seadme sünkromiseerimisahelas. Või looge uus sünkroniseerimisahel.</string>
     <string name="brave_sync_scan_chain_code">Skannige või sisestage sünkroniseerimiskood</string>
@@ -100,6 +108,7 @@ Salvestatud</string>
     <string name="brave_sync_btn_laptop">Lisa arvuti</string>
     <string name="brave_sync_scan_sync_code">Skannige seda ajakohastamiskoodi</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Minge teise telefoni või nuhvliga „Brave‘i seaded > Sünk > Skanni“.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Avage mobiilseadmes seadete paneelil valik „Brave’i ajakohastamine” ja klõpsake nuppu „Skanni ajakohastamiskood”. Kasutage kaamerat alloleva QR-koodi skannimiseks.</string>
     <string name="brave_sync_btn_done">Valmis</string>
     <string name="brave_sync_tabs_text">Vahekaardid</string>
     <string name="brave_sync_history_text">Ajalugu</string>
@@ -217,4 +226,84 @@ konto kinnitamiseni või 90 päeva möödumiseni.</string>
 reklaame ning anna see edasi
 armastatud sisuloojate toetamiseks.</string>
     <string name="brave_welcome_page_rewards_title">LUBA BRAVE’I PREEMIAD</string>
-    </resources>
+    <string name="brave_ui_first_tip_text">Teie esimene igakuine jootraha saadetakse ajal:</string>
+    <string name="brave_ui_tip_text">Saatsite just jootraha kasutajale:</string>
+    <string name="brave_ui_auto_tip_text">Saadate automaatselt jootraha kasutajale:</string>
+    <string name="brave_ui_monthly_text">Igakuine</string>
+    <string name="bottom_toolbar_enable">Luba alumine tööriistariba</string>
+    <string name="bottom_toolbar_disable">Keela alumine tööriistariba</string>
+    <string name="search_or_url">Otsing või URL</string>
+    <string name="accessibility_toolbar_btn_bookmark">Loo järjehoidja</string>
+    <string name="brave_ui_donate_monthly">Anna sellel saidil igakuiselt jootraha</string>
+
+    <string name="brave_rewards_not_available">Kahjuks paistab, et Brave’i preemiad pole teie seadmes saadaval</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">Kõigi vahekaartide sulgemisel suletakse Brave</string>
+    <string name="prefs_section_display">Ekraan</string>
+    <string name="prefs_section_controls">Juhtnupud</string>
+    <string name="prefs_appearance">Välimus</string>
+    <string name="hide_brave_rewards_icon_title">Peida ikoon Brave’i preemiad</string>
+    <string name="hide_brave_rewards_icon_description">Peidab ikooni Brave’i preemiad, kui Brave’i preemiad pole lubatud</string>
+    <string name="reset_brave_rewards_option">Lähtesta Brave’i preemiad</string>
+    <string name="reset_brave_rewards_option_description">See kustutab teie Brave’i rahakoti ja lähtestab kõik teie Brave’i preemiate andmed</string>
+    <string name="reset_brave_rewards_error_title">Lähtestustõrge</string>
+    <string name="reset_brave_rewards_error_description">Brave’i preemiate lähtestamisel ilmnes tõrge. Taaskäivitage Brave ja proovige uuesti.</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">Avage sihtarvutis seadetes valik „Brave’i ajakohastamine ja klõpsake nuppu „Mul on ajakohastamiskood”.\nSisestage allpool olevad sünkroonimisahela salasõnad.</string>
+
+    <string name="brave_sync_official">Brave’i ajakohastamine</string>
+    <string name="prefs_sync_official">Ajakohasta</string>
+
+    <string name="brave_sync_code_warning">Käsitlege seda koodi nagu parooli. Kui keegi saab selle teada, saab ta lugeda ja muuta teie ajakohastatud andmeid.</string>
+
+    <string name="notification_category_group_brave_ads">Brave’i reklaamid</string>
+    <string name="brave_ads_you_earned">Teenisite</string>
+
+    <string name="brave_default_browser_title">Brave on välkkiire</string>
+    <string name="brave_default_browser_body">Määrake Brave oma tavaveebilehitsejaks!</string>
+    <string name="brave_make_default_text">Määra tavavalikuks</string>
+    <string name="brave_ui_ads_earnings">teenitud reklaamidest</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Jäta vahele</string>
+
+    <string name="search_engine_onboarding">Otsingumootori kasutuselevõtt</string>
+    <string name="troubleshooting_onboarding">Tõrkeotsingu kasutuselevõtt</string>
+
+    <string name="welcome_to_brave_browser">Tere tulemast kasutama Brave’i veebilehitsejat</string>
+    <string name="select_your_default_search_engine">Valige oma vaikeotsingumootor</string>
+
+    <string name="block">Blokeeri</string>
+    <string name="brave_shields_onboarding_title">Brave’i kaitsed</string>
+    <string name="brave_shields_onboarding_text">eraellu tungivaid reklaame ja jälitajaid, et saaksite lehitseda ilma, et keegi teid veebis jälitaks.</string>
+
+    <string name="earn_tokens">Teeni märke</string>
+    <string name="brave_rewards_onboarding_title">Brave’i preemiad</string>
+    <string name="brave_rewards_onboarding_text">eraelu austavate reklaamide vaatamise eest. Kasutage neid oma lemmiklehtede ja -loojate toetamiseks.</string>
+    <string name="brave_rewards_onboarding_text2">eraelu austavate reklaamide vaatamise eest.</string>
+
+    <string name="terms_title">Brave’i preemiate kasutamiseks nõustuge tingimustega</string>
+    <string name="terms_text">Nõustun Brave’i preemiate</string>
+    <string name="terms_of_service">tingimustega</string>
+
+    <string name="agree">Nõustun</string>
+    <string name="join">Liitu</string>
+
+     <string name="start_browsing">Alusta lehitsemist</string>
+    <string name="i_didnt_see">Ma ei näinud reklaami</string>
+
+    <string name="brave_ads_onboarding_title">Brave näitab teile teie esimest reklaami:</string>
+    <string name="brave_ads_onboarding_text">Brave’i preemiate reklaamide nägemiseks veenduge, et olete lubanud Brave’il teile teavitusi näidata.</string>
+
+    <string name="this_is_your_first_ad">See on teie esimene Brave’i reklaam. Puudutage lisateabe saamiseks.</string>
+
+    <string name="turn_on">Lülita sisse</string>
+
+    <string name="no_thanks">Ei, aitäh</string>
+    <string name="do_not_agree">Ei nõustu</string>
+
+    <string name="prefs_welcome_tour">Tervitusaken</string>
+    <string name="welcome_tour_dialog_text">Tervitusakna uuesti avamine ei mõjuta olemasolevaid seadeid.</string>
+    <string name="finish">Lõpeta</string>
+
+</resources>

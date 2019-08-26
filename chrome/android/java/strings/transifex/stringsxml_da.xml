@@ -302,6 +302,7 @@ de indholdsskabere, du elsker.</string>
     <string name="no_thanks">Nej tak</string>
     <string name="do_not_agree">Accepterer ikke</string>
 
+    <string name="prefs_welcome_tour">Velkomst-tour </string>
     <string name="welcome_tour_dialog_text">Genstart af velkomstturen påvirker ikke nogen eksisterende indstillinger.</string>
     <string name="finish">Afslut</string>
 

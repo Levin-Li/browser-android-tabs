@@ -308,6 +308,7 @@ pembuat konten yang Anda sukai.</string>
     <string name="no_thanks">Tidak, terima kasih</string>
     <string name="do_not_agree">Tidak setuju</string>
 
+    <string name="prefs_welcome_tour">Tur Selamat Datang</string>
     <string name="welcome_tour_dialog_text">Meluncurkan ulang Tur Sambutan tidak akan memengaruhi pengaturan yang ada.</string>
     <string name="finish">Selesai</string>
 

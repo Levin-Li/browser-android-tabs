@@ -303,6 +303,7 @@
     <string name="no_thanks">괜찮습니다</string>
     <string name="do_not_agree">동의하지 않습니다</string>
 
+    <string name="prefs_welcome_tour">웰컴 투어</string>
     <string name="welcome_tour_dialog_text">둘러보기를 다시 시작해도 기존 설정에는 영향을 미치지 않습니다.</string>
     <string name="finish">완료</string>
 
