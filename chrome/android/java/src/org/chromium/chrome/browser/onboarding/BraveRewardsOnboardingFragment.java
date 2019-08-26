@@ -32,6 +32,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.text.method.ScrollingMovementMethod;
 
 import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.onboarding.OnViewPagerAction;
@@ -147,8 +148,9 @@ public class BraveRewardsOnboardingFragment extends Fragment implements View.OnT
             textToInsert = BraveRewardsHelper.spannedFromHtmlString(braveRewardsText);
             tvText.setText(textToInsert);
         }
+        tvText.setMovementMethod(new ScrollingMovementMethod());
 
-        String termsText = getResources().getString(R.string.terms_text) + getResources().getString(R.string.terms_of_service)+ ".";
+        String termsText = getResources().getString(R.string.terms_text) +" "+ getResources().getString(R.string.terms_of_service)+ ".";
         Spanned textToAgree = BraveRewardsHelper.spannedFromHtmlString(termsText);
         SpannableString ss = new SpannableString(textToAgree.toString());
 

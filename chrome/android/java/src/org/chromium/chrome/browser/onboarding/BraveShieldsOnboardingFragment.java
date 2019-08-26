@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.text.method.ScrollingMovementMethod;
 
 import org.chromium.chrome.browser.onboarding.OnViewPagerAction;
 import org.chromium.chrome.browser.BraveRewardsHelper;
@@ -57,6 +58,7 @@ public class BraveShieldsOnboardingFragment extends Fragment {
         String braveShieldsText = "<b>"+getResources().getString(R.string.block)+"</b> "+getResources().getString(R.string.brave_shields_onboarding_text);
         Spanned textToInsert = BraveRewardsHelper.spannedFromHtmlString(braveShieldsText);
         tvText.setText(textToInsert);
+        tvText.setMovementMethod(new ScrollingMovementMethod());
 
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override

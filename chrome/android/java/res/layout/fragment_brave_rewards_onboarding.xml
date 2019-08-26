@@ -21,32 +21,41 @@
         android:background="@android:color/white"
         android:orientation="vertical">
 
-        <TextView
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
                 android:id="@+id/section_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_marginTop="16dp"
-                android:layout_marginStart="32dp"
-                android:layout_marginEnd="32dp"
                 android:text="@string/brave_rewards_onboarding_title"
+                android:textColor="@color/onboarding_black"
                 android:textSize="@dimen/onboarding_text_size"
                 android:lineSpacingMultiplier="1.2"
-                android:textColor="@color/onboarding_black"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/section_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
+                android:scrollbars = "vertical"
+                android:fadeScrollbars="false"
                 android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
-                android:lineSpacingMultiplier="1.2"
+                android:layout_marginBottom="16dp"
                 android:gravity="center"
+                android:lineSpacingMultiplier="1.2"
                 android:textColor="@color/onboarding_black"
                 android:textSize="@dimen/onboarding_text_size" />
+
+        </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/terms_agree_layout"
@@ -60,14 +69,25 @@
                 android:gravity="center_horizontal"
                 android:visibility="gone">
 
-                <TextView
-                    android:id="@+id/agree_text"
+                <ScrollView android:visibility="visible"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:keepScreenOn="true"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical" >
+
+                <TextView
+                    android:id="@+id/agree_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:fadeScrollbars="false"
                     android:textColor="@color/onboarding_black"
                     android:lineSpacingMultiplier="1.2"
                     android:textSize="@dimen/onboarding_text_size" />
+
+                </ScrollView>
 
                 <CheckBox
                     android:id="@+id/chk_agree_terms"
