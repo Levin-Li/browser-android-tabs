@@ -68,24 +68,26 @@ public class SearchEngineOnboardingFragment extends Fragment{
 
         for(TemplateUrl templateUrl : templateUrls){
 
-            SearchEngineEnum searchEngineEnum = OnboardingPrefManager.searchEngineMap.get(templateUrl.getShortName());
+            if (templateUrl.getIsPrepopulated()) {
+                SearchEngineEnum searchEngineEnum = OnboardingPrefManager.searchEngineMap.get(templateUrl.getShortName());
 
-            RadioButton rdBtn = new RadioButton(getActivity());
-            rdBtn.setId(searchEngineEnum.getId());
-            RadioGroup.LayoutParams params = new RadioGroup.LayoutParams(RadioGroup.LayoutParams.MATCH_PARENT, dpToPx(getActivity(),56));
-            rdBtn.setLayoutParams(params);
-            rdBtn.setTextSize(18);
-            rdBtn.setButtonDrawable(null);
-            rdBtn.setPadding(dpToPx(getActivity(), 30), 0, 0, 0);
-            rdBtn.setTextColor(getResources().getColor(R.color.onboarding_black));
-            rdBtn.setBackgroundDrawable(getResources().getDrawable(R.drawable.radiobutton_background));
-            rdBtn.setText(templateUrl.getShortName());
-            rdBtn.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(searchEngineEnum.getIcon()), null, null, null);
-            rdBtn.setCompoundDrawablePadding(dpToPx(getActivity(),16));
-            if(fromSettings){
-                rdBtn.setClickable(false);
+                RadioButton rdBtn = new RadioButton(getActivity());
+                rdBtn.setId(searchEngineEnum.getId());
+                RadioGroup.LayoutParams params = new RadioGroup.LayoutParams(RadioGroup.LayoutParams.MATCH_PARENT, dpToPx(getActivity(),56));
+                rdBtn.setLayoutParams(params);
+                rdBtn.setTextSize(18);
+                rdBtn.setButtonDrawable(null);
+                rdBtn.setPadding(dpToPx(getActivity(), 30), 0, 0, 0);
+                rdBtn.setTextColor(getResources().getColor(R.color.onboarding_black));
+                rdBtn.setBackgroundDrawable(getResources().getDrawable(R.drawable.radiobutton_background));
+                rdBtn.setText(templateUrl.getShortName());
+                rdBtn.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(searchEngineEnum.getIcon()), null, null, null);
+                rdBtn.setCompoundDrawablePadding(dpToPx(getActivity(),16));
+                if(fromSettings){
+                    rdBtn.setClickable(false);
+                }
+                radioGroup.addView(rdBtn);
             }
-            radioGroup.addView(rdBtn);
         }
 
         radioGroup.check(OnboardingPrefManager.searchEngineMap.get(defaultSearchEngineTemplateUrl.getShortName()).getId());
