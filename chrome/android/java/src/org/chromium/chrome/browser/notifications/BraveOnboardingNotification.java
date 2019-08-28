@@ -12,12 +12,10 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import java.util.Locale;
 import android.net.Uri;
 
 import org.chromium.chrome.R;
-import org.chromium.chrome.browser.BraveRewardsHelper;
-import org.chromium.chrome.browser.ChromeTabbedActivity;
-import org.chromium.chrome.browser.BraveAdsNativeHelper;
 import org.chromium.chrome.browser.notifications.BraveAdsNotificationBuilder;
 import org.chromium.chrome.browser.notifications.ChromeNotification;
 import org.chromium.chrome.browser.notifications.NotificationBuilderBase;
@@ -37,8 +35,8 @@ public class BraveOnboardingNotification extends BroadcastReceiver {
     private static String BRAVE_ONBOARDING_ORIGIN_FR = "https://brave.com/fr/my-first-ad/";
     private static final String DEEP_LINK = "deep_link";
 
-    private static final String COUNTRY_CODE_DE = "DE";
-    private static final String COUNTRY_CODE_FR = "FR";
+    private static final String COUNTRY_CODE_DE = "de_DE";
+    private static final String COUNTRY_CODE_FR = "fr_FR";
 
 
     public static void showOnboardingNotification(Context context) {
@@ -86,9 +84,9 @@ public class BraveOnboardingNotification extends BroadcastReceiver {
     }
 
     private static String getNotificationUrl() {
-      String locale = BraveAdsNativeHelper.nativeGetLocale();
-      String countryCode = BraveAdsNativeHelper.nativeGetCountryCode(locale);
-      switch (countryCode){
+      
+      Locale locale = Locale.getDefault();
+      switch (locale.toString()){
           case COUNTRY_CODE_DE :
             return BRAVE_ONBOARDING_ORIGIN_DE;
           case COUNTRY_CODE_FR :
