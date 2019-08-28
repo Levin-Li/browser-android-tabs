@@ -68,7 +68,7 @@ public class SearchEngineOnboardingFragment extends Fragment{
 
         for(TemplateUrl templateUrl : templateUrls){
 
-            if (templateUrl.getIsPrepopulated()) {
+            if (templateUrl.getIsPrepopulated() && OnboardingPrefManager.searchEngineMap.get(templateUrl.getShortName()) != null) {
                 SearchEngineEnum searchEngineEnum = OnboardingPrefManager.searchEngineMap.get(templateUrl.getShortName());
 
                 RadioButton rdBtn = new RadioButton(getActivity());
@@ -90,7 +90,8 @@ public class SearchEngineOnboardingFragment extends Fragment{
             }
         }
 
-        radioGroup.check(OnboardingPrefManager.searchEngineMap.get(defaultSearchEngineTemplateUrl.getShortName()).getId());
+        if (OnboardingPrefManager.searchEngineMap.get(defaultSearchEngineTemplateUrl.getShortName()) != null)
+            radioGroup.check(OnboardingPrefManager.searchEngineMap.get(defaultSearchEngineTemplateUrl.getShortName()).getId());
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {

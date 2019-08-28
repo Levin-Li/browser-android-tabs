@@ -14,10 +14,8 @@ import org.chromium.chrome.browser.BraveRewardsObserver;
 public class BraveRewardsService extends Service implements BraveRewardsObserver{
 
     private Context context;
-    private boolean isThreadRunning;
-    private Thread backgroundThread;
 
-    private BraveRewardsNativeWorker mBraveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
+    private BraveRewardsNativeWorker mBraveRewardsNativeWorker;
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -26,22 +24,11 @@ public class BraveRewardsService extends Service implements BraveRewardsObserver
 
     @Override
     public void onCreate() {
-        mBraveRewardsNativeWorker.AddObserver(this);
         this.context = this;
-        this.isThreadRunning = false;
-        this.backgroundThread = new Thread(mBraveRewardsTask);
     }
-
-    private Runnable mBraveRewardsTask = new Runnable() {
-        @Override
-        public void run() {
-             mBraveRewardsNativeWorker.CreateWallet();
-        }
-    };
 
     @Override
     public void onDestroy() {
-        this.isThreadRunning = false;
         if (mBraveRewardsNativeWorker != null) {
             mBraveRewardsNativeWorker.RemoveObserver(this);
         }
@@ -49,9 +36,10 @@ public class BraveRewardsService extends Service implements BraveRewardsObserver
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        if(!this.isThreadRunning) {
-            this.isThreadRunning = true;
-            this.backgroundThread.start();
+        mBraveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
+        if (mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.AddObserver(this);
+            mBraveRewardsNativeWorker.CreateWallet();
         }
 
         return START_STICKY;
