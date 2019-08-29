@@ -88,7 +88,7 @@ class AdsBox extends React.Component<Props, {}> {
       adsEnabled = adsData.adsEnabled
       adsUIEnabled = adsData.adsUIEnabled
       adsIsSupported = adsData.adsIsSupported
-      estimatedPendingRewards = (adsData.adsEstimatedPendingRewards || 0).toFixed(2)
+      estimatedPendingRewards = (adsData.adsEstimatedPendingRewards || 0).toFixed(1)
       nextPaymentDate = adsData.adsNextPaymentDate
       adNotificationsReceivedThisMonth = adsData.adsAdNotificationsReceivedThisMonth || 0
     }
