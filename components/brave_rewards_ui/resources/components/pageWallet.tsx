@@ -58,7 +58,7 @@ class PageWallet extends React.Component<Props, State> {
 
     return grants.map((grant: Rewards.Grant) => {
       return {
-        tokens: utils.convertProbiToFixed(grant.probi, 2, BigNumber.ROUND_HALF_UP),
+        tokens: utils.convertProbiToFixed(grant.probi, 1, BigNumber.ROUND_HALF_UP),
         expireDate: new Date(grant.expiryTime * 1000).toLocaleDateString(),
         type: grant.type
       }
@@ -91,7 +91,7 @@ class PageWallet extends React.Component<Props, State> {
         const item = report[key]
 
         if (item.length > 1 && key !== 'total') {
-          const tokens = utils.convertProbiToFixed(item, 2, BigNumber.ROUND_HALF_UP)
+          const tokens = utils.convertProbiToFixed(item, 1, BigNumber.ROUND_HALF_UP)
           props[key] = {
             tokens,
             converted: utils.convertBalance(tokens, balance.rates)
@@ -116,7 +116,7 @@ class PageWallet extends React.Component<Props, State> {
     } = this.props.rewardsData
     const { emptyWallet } = ui
     const { total } = balance
-    const pendingTotal = parseFloat((pendingContributionTotal || 0).toFixed(2))
+    const pendingTotal = parseFloat((pendingContributionTotal || 0).toFixed(1))
 
     if (!visible) {
       return null
@@ -130,7 +130,7 @@ class PageWallet extends React.Component<Props, State> {
           </StyledWalletClose>
           <StyledWalletWrapper>
             <WalletWrapper
-              balance={total.toFixed(2)}
+              balance={total.toFixed(1)}
               converted={utils.formatConverted(this.getConversion())}
               actions={[]}
               compact={true}
