@@ -1470,12 +1470,16 @@ public class BraveSyncWorker {
             }
             value.add(localId);
             syncedRecordsMap.put(bookmarkRecord.mAction.toString(), value);
-            if (0 == res.length()) {
-                res.append("[");
-            } else {
-                res.append(", ");
+            // Ignore records which needs resolve, but which came from our device
+            // No need to reapply them, and also they can confuse the sync lib records merger
+            if (!this.mDeviceId.equals(bookmarkRecord.mDeviceId)) {
+              if (0 == res.length()) {
+                  res.append("[");
+              } else {
+                  res.append(", ");
+              }
+              res.append(serverRecord).append(", ").append(0 != localRecord.length() ? localRecord : "null]");
             }
-            res.append(serverRecord).append(", ").append(0 != localRecord.length() ? localRecord : "null]");
         }
         if (0 != res.length()) {
             res.append("]");
