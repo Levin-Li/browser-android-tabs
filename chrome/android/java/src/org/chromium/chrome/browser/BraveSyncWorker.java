@@ -75,6 +75,7 @@ public class BraveSyncWorker {
     public static final String TAG = "SYNC";
     public static final String PREF_NAME = "SyncPreferences";
     private static final String PREF_LAST_FETCH_NAME = "TimeLastFetch";
+    private static final String PREF_LATEST_DEVICE_RECORD_TIMESTAMPT_NAME = "LatestDeviceRecordTime";
     public static final String PREF_DEVICE_ID = "DeviceId";
     public static final String PREF_BASE_ORDER = "BaseOrder";
     public static final String PREF_LAST_ORDER = "LastOrder";
@@ -159,16 +160,9 @@ public class BraveSyncWorker {
         public static final String HISTORY = "HISTORY_SITES";
         public static final String PREFERENCES = "PREFERENCES";
 
-        public static String GetJSArray() {
-            return "['" + BOOKMARKS + "', '" + PREFERENCES + "']";//"', '" + HISTORY + "', '" + PREFERENCES + "']";
-        }
-
         public static String GetRecordTypeJSArray(String recordType) {
-            if (recordType.isEmpty()) {
-                return GetJSArray();
-            }
-            if (!recordType.equals(BOOKMARKS) && !recordType.equals(HISTORY) &&
-                !recordType.equals(PREFERENCES)) {
+            if (recordType.isEmpty() || (!recordType.equals(BOOKMARKS) &&
+                !recordType.equals(HISTORY) && !recordType.equals(PREFERENCES))) {
                 assert false;
             }
             return "['" + recordType + "']";
@@ -1237,6 +1231,24 @@ public class BraveSyncWorker {
       }
     }
 
+    private Long GetLatestDeviceRecordTime() {
+      SharedPreferences sharedPref = mContext.getSharedPreferences(PREF_NAME, 0);
+      Long latestDeviceRecordTimeL = sharedPref.getLong(PREF_LATEST_DEVICE_RECORD_TIMESTAMPT_NAME, 0);
+      return latestDeviceRecordTimeL;
+    }
+
+    private void SetLatestDeviceRecordTime(String latestDeviceRecordTime) {
+      try {
+          Long latestDeviceRecordTimeL = Long.parseLong(latestDeviceRecordTime);
+          // Save last fetch time in preferences
+          SharedPreferences sharedPref = mContext.getSharedPreferences(PREF_NAME, 0);
+          SharedPreferences.Editor editor = sharedPref.edit();
+          editor.putLong(PREF_LATEST_DEVICE_RECORD_TIMESTAMPT_NAME, latestDeviceRecordTimeL);
+          editor.apply();
+      } catch (NumberFormatException e) {
+      }
+    }
+
     private void FetchSyncRecords(String lastRecordFetchTime, String category) {
         synchronized (mSyncThread) {
             if (!mSyncIsReady.IsReady()) {
@@ -1268,8 +1280,21 @@ public class BraveSyncWorker {
             }
             mInterruptSyncSleep = false;
             mLatestFetchRequest = (lastRecordFetchTime.isEmpty() ? String.valueOf(mTimeLastFetch) : lastRecordFetchTime);
-            CallScript(new StringBuilder(String.format("javascript:callbackList['fetch-sync-records'](null, %1$s, %2$s, %3$s)",
-                SyncRecordType.GetRecordTypeJSArray(category), mLatestFetchRequest, FETCH_RECORDS_CHUNK_SIZE)));
+
+            // We have no yet option to turn on/off sync categories, always sync both
+            // preferences and bookmarks.
+            // Call them separately
+            if (category.isEmpty() || SyncRecordType.BOOKMARKS.equals(category)) {
+                CallScript(new StringBuilder(String.format("javascript:callbackList['fetch-sync-records'](null, %1$s, %2$s, %3$s)",
+                    SyncRecordType.GetRecordTypeJSArray(SyncRecordType.BOOKMARKS), mLatestFetchRequest, FETCH_RECORDS_CHUNK_SIZE)));
+            }
+
+            if (category.isEmpty() || SyncRecordType.PREFERENCES.equals(category)) {
+                Long latestDeviceRecordTime = GetLatestDeviceRecordTime();
+                CallScript(new StringBuilder(String.format("javascript:callbackList['fetch-sync-records'](null, %1$s, %2$s, %3$s)",
+                    SyncRecordType.GetRecordTypeJSArray(SyncRecordType.PREFERENCES), latestDeviceRecordTime, FETCH_RECORDS_CHUNK_SIZE)));
+            }
+
             mTimeLastFetchExecuted = currentTime.getTimeInMillis();
             if (!lastRecordFetchTime.isEmpty()) {
                 try {
@@ -1293,8 +1318,16 @@ public class BraveSyncWorker {
             // TODO sync for other categories
             return new StringBuilder("");
         }
+
+        if (latestRecordTimeStampt != null && !latestRecordTimeStampt.isEmpty()
+                && SyncRecordType.PREFERENCES.equals(categoryName)) {
+            SetLatestDeviceRecordTime(latestRecordTimeStampt);
+        }
+
         mFetchInProgress = true;
-        mLatestRecordTimeStampt = latestRecordTimeStampt;
+        if (SyncRecordType.BOOKMARKS.equals(categoryName)) {
+            mLatestRecordTimeStampt = latestRecordTimeStampt;
+        }
 
         StringBuilder res = new StringBuilder("");
         /*if (recordsJSON.length() > 2 && SyncRecordType.BOOKMARKS.equals(categoryName)) {
