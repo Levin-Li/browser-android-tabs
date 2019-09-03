@@ -4,7 +4,7 @@
  #include "brave_sync_worker.h"
  #include "base/android/jni_android.h"
  #include "base/android/jni_string.h"
- #include "jni/BraveSyncWorker_jni.h"
+ #include "chrome/android/chrome_jni_headers/BraveSyncWorker_jni.h"
  #include "base/files/file_util.h"
  #include "base/path_service.h"
  #include "third_party/leveldatabase/src/include/leveldb/db.h"

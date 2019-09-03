@@ -2,9 +2,9 @@ package org.chromium.chrome.browser.preferences;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceClickListener;
-import android.preference.PreferenceFragment;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceClickListener;
+import android.support.v7.preference.PreferenceFragmentCompat;
 import android.widget.ListView;
 
 import org.chromium.chrome.R;
@@ -23,7 +23,7 @@ import java.util.List;
  *
  * It enables play audio from video in the background.
  */
-public class ControlsPreferences extends PreferenceFragment
+public class ControlsPreferences extends PreferenceFragmentCompat
         implements OnPreferenceClickListener {
 
     @Override
@@ -95,5 +95,9 @@ public class ControlsPreferences extends PreferenceFragment
         preference.getExtras().putString(SingleCategoryPreferences.EXTRA_TITLE,
                 preference.getTitle().toString());
         return false;
+    }
+
+    @Override
+    public void onCreatePreferences(Bundle bundle, String s) {
     }
 }

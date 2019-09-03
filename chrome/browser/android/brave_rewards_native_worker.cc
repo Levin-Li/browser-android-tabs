@@ -12,7 +12,7 @@
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/profiles/profile_manager.h"
 #include "content/public/browser/url_data_source.h"
-#include "jni/BraveRewardsNativeWorker_jni.h"
+#include "chrome/android/chrome_jni_headers/BraveRewardsNativeWorker_jni.h"
 
 namespace chrome {
 namespace android {
@@ -57,8 +57,13 @@ void BraveRewardsNativeWorker::Destroy(JNIEnv* env, const
 void BraveRewardsNativeWorker::CreateWallet(JNIEnv* env, const
         base::android::JavaParamRef<jobject>& jcaller) {
   if (brave_rewards_service_) {
-    brave_rewards_service_->CreateWallet();
+    brave_rewards_service_->CreateWallet(base::Bind(
+            &BraveRewardsNativeWorker::OnCreateWallet,
+            weak_factory_.GetWeakPtr()));
   }
+}
+
+void BraveRewardsNativeWorker::OnCreateWallet(int32_t result) {
 }
 
 void BraveRewardsNativeWorker::GetWalletProperties(JNIEnv* env, const
@@ -187,7 +192,7 @@ void BraveRewardsNativeWorker::IncludeInAutoContribution(JNIEnv* env,
       iter->second->excluded = ledger::PUBLISHER_EXCLUDE::INCLUDED;
     }
     if (brave_rewards_service_) {
-      brave_rewards_service_->SetContributionAutoInclude(iter->second->id, exclude);
+      brave_rewards_service_->SetPublisherExclude(iter->second->id, exclude);
     }
   }
 }
@@ -201,7 +206,7 @@ void BraveRewardsNativeWorker::RemovePublisherFromMap(JNIEnv* env,
 }
 
 void BraveRewardsNativeWorker::OnWalletInitialized(brave_rewards::RewardsService* rewards_service,
-        uint32_t error_code) {
+        int32_t error_code) {
   JNIEnv* env = base::android::AttachCurrentThread();
   
   Java_BraveRewardsNativeWorker_OnWalletInitialized(env, 
@@ -480,7 +485,7 @@ double BraveRewardsNativeWorker::GetPublisherRecurrentDonationAmount(JNIEnv* env
 void BraveRewardsNativeWorker::RemoveRecurring(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj,
     const base::android::JavaParamRef<jstring>& publisher){
   if (brave_rewards_service_) {
-      brave_rewards_service_->RemoveRecurringTip(base::android::ConvertJavaStringToUTF8(env, publisher));
+      brave_rewards_service_->RemoveRecurringTipUI(base::android::ConvertJavaStringToUTF8(env, publisher));
   }
 }
 
@@ -607,11 +612,12 @@ void BraveRewardsNativeWorker::OnGetAddresses(
 }
 
 void BraveRewardsNativeWorker::GetAddresses(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj) {
-  if (brave_rewards_service_) {
-    brave_rewards_service_->GetAddresses(base::Bind(
-          &BraveRewardsNativeWorker::OnGetAddresses,
-          weak_factory_.GetWeakPtr()));
-  }
+  // TODO(samartnik): find out how to get addresses
+  // if (brave_rewards_service_) {
+  //   brave_rewards_service_->GetAddresses(base::Bind(
+  //         &BraveRewardsNativeWorker::OnGetAddresses,
+  //         weak_factory_.GetWeakPtr()));
+  // }
 }
 
 base::android::ScopedJavaLocalRef<jstring> BraveRewardsNativeWorker::GetAddress(JNIEnv* env,

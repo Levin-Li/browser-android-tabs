@@ -4,7 +4,7 @@
  #include "shields_config.h"
  #include "base/android/jni_android.h"
  #include "base/android/jni_string.h"
- #include "jni/ShieldsConfig_jni.h"
+ #include "chrome/android/chrome_jni_headers/ShieldsConfig_jni.h"
 
 namespace net {
 namespace blockers {

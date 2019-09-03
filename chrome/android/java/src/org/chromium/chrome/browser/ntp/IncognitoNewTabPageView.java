@@ -16,7 +16,8 @@ import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.gesturenav.HistoryNavigationLayout;
-import org.chromium.chrome.browser.search_engines.TemplateUrlService;
+import org.chromium.chrome.browser.search_engines.TemplateUrlServiceFactory;
+import org.chromium.components.search_engines.TemplateUrlService;
 import org.chromium.chrome.browser.util.ViewUtils;
 
 /**
@@ -148,7 +149,7 @@ public class IncognitoNewTabPageView extends HistoryNavigationLayout {
     }
 
     public void showDDGOffer(boolean forceShow) {
-        if (TemplateUrlService.getInstance().getDefaultSearchEngineKeyword(true).equals(TemplateUrlService.DDG_SE_KEYWORD) ||
+        if (TemplateUrlServiceFactory.get().getDefaultSearchEngineKeyword(true).equals(TemplateUrlService.DDG_SE_KEYWORD) ||
             !ContextUtils.getAppSharedPreferences().getBoolean(TemplateUrlService.PREF_SHOW_DDG_OFFER, true)) {
             mDDGOfferLink.setVisibility(View.GONE);
             mDDGOfferImage.setVisibility(View.GONE);
@@ -163,7 +164,7 @@ public class IncognitoNewTabPageView extends HistoryNavigationLayout {
         .setPositiveButton(R.string.ddg_offer_positive, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                TemplateUrlService.getInstance().setSearchEngine(TemplateUrlService.DDG_SE_NAME, TemplateUrlService.DDG_SE_KEYWORD, true);
+                TemplateUrlServiceFactory.get().setSearchEngine(TemplateUrlService.DDG_SE_NAME, TemplateUrlService.DDG_SE_KEYWORD, true);
                 mDDGOfferLink.setVisibility(View.GONE);
                 mDDGOfferImage.setVisibility(View.GONE);
             }

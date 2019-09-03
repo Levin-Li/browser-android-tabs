@@ -62,6 +62,7 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import org.chromium.base.PathUtils;
 
 /**
  * Application level delegate that handles start up tasks.

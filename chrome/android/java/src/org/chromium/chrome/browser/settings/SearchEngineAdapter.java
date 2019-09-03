@@ -191,13 +191,13 @@ public class SearchEngineAdapter extends BaseAdapter
         // Convert the TemplateUrl index into an index of mSearchEngines.
         mSelectedSearchEnginePosition = -1;
         for (int i = 0; i < mPrepopulatedSearchEngines.size(); ++i) {
-            if (mPrepopulatedSearchEngines.get(i).getShortName().equals(TemplateUrlService.getInstance().getDefaultSearchEngineName(mIsPrivate))) {
+            if (mPrepopulatedSearchEngines.get(i).getShortName().equals(TemplateUrlServiceFactory.get().getDefaultSearchEngineName(mIsPrivate))) {
                 mSelectedSearchEnginePosition = i;
             }
         }
 
         for (int i = 0; i < mRecentSearchEngines.size(); ++i) {
-            if (mRecentSearchEngines.get(i).getShortName().equals(TemplateUrlService.getInstance().getDefaultSearchEngineName(mIsPrivate))) {
+            if (mRecentSearchEngines.get(i).getShortName().equals(TemplateUrlServiceFactory.get().getDefaultSearchEngineName(mIsPrivate))) {
                 // Add one to offset the title for the recent search engine list.
                 mSelectedSearchEnginePosition = i + computeStartIndexForRecentSearchEngines();
             }

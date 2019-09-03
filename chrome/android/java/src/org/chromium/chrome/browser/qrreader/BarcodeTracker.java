@@ -15,7 +15,7 @@
  */
 package org.chromium.chrome.browser.qrreader;
 
-import android.preference.PreferenceFragment;
+import android.support.v7.preference.PreferenceFragmentCompat;
 
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.barcode.Barcode;
@@ -27,7 +27,7 @@ public class BarcodeTracker extends Tracker<Barcode> {
         void onDetectedQrCode(Barcode barcode);
     }
 
-    BarcodeTracker(PreferenceFragment listener) {
+    BarcodeTracker(PreferenceFragmentCompat listener) {
         mListener = (BarcodeGraphicTrackerCallback) listener;
     }
 
