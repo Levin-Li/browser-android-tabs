@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.3.0](https://github.com/brave/browser-android-tabs/releases/tab/v1.3.0)
+## [1.3.1](https://github.com/brave/browser-android-tabs/releases/tab/v1.3.1)
  
  - Implemented onboarding flow for new users. ([#1992](https://github.com/brave/browser-android-tabs/issues/1992))
  - Implemented an option to handle "Close all tabs" behaviour. ([#1716](https://github.com/brave/browser-android-tabs/issues/1716))
@@ -8,11 +8,14 @@
  - Changed ad notifications to be shown only when Brave is being used. ([#1854](https://github.com/brave/browser-android-tabs/issues/1854))
  - Disabled haptics for Brave ads notification. ([#1866](https://github.com/brave/browser-android-tabs/issues/1866))
  - Refactored Brave Sync warning message. ([#1819](https://github.com/brave/browser-android-tabs/issues/1819))
+ - Removed "Check Back Soon for Free Token Grant" message for all regions. ([#1940](https://github.com/brave/browser-android-tabs/issues/1940))
  - Fixed browser crash when ads switch was toggled in certain situations. ([#1855](https://github.com/brave/browser-android-tabs/issues/1855))
  - Fixed browser crash when "Home page" option was turned off. ([#1981](https://github.com/brave/browser-android-tabs/issues/1981))
  - Fixed search engine "DuckDuckGo Lite" name in settings. ([#1876](https://github.com/brave/browser-android-tabs/issues/1876))
  - Fixed incorrect icon shown for verified publishers in rewards panel. ([#1829](https://github.com/brave/browser-android-tabs/issues/1829))
  - Fixed verified YouTube publisher favicon not being displayed in auto-contribute list. ([#1635](https://github.com/brave/browser-android-tabs/issues/1635))
+ - Fixed crash during onboarding for devices running Android 4.x - 5.x. ([#2012](https://github.com/brave/browser-android-tabs/issues/2012))
+ - Upgraded to Chromium 76.0.3809.132. ([#2005](https://github.com/brave/browser-android-tabs/issues/2005))
 
 ## [1.2.0](https://github.com/brave/browser-android-tabs/releases/tab/v1.2.0)
  
