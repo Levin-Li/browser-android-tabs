@@ -11,10 +11,10 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.PreferenceFragment;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.Preference.OnPreferenceClickListener;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceFragmentCompat;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.Preference.OnPreferenceClickListener;
 import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,7 +27,7 @@ import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
 import org.chromium.chrome.browser.ConfigAPIs;
-import org.chromium.chrome.browser.preferences.ChromeSwitchPreference;
+import org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat;
 import org.chromium.chrome.browser.preferences.PreferenceUtils;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.RestartWorker;
@@ -36,7 +36,7 @@ import org.chromium.base.Log;
 /**
  * Settings fragment containing preferences for QA team.
  */
-public class QAPreferences extends PreferenceFragment
+public class QAPreferences extends PreferenceFragmentCompat
         implements OnPreferenceChangeListener, OnPreferenceClickListener, BraveRewardsObserver {
     private static final String PREF_USE_REWARDS_STAGING_SERVER = "use_rewards_staging_server";
     private static final String PREF_WALLET_BAT = "wallet_bat";
@@ -54,8 +54,8 @@ public class QAPreferences extends PreferenceFragment
         super.onCreate(savedInstanceState);
         PreferenceUtils.addPreferencesFromResource(this, R.xml.qa_preferences);
 
-        ChromeSwitchPreference stagingServer =
-                (ChromeSwitchPreference) findPreference(PREF_USE_REWARDS_STAGING_SERVER);
+        ChromeSwitchPreferenceCompat stagingServer =
+                (ChromeSwitchPreferenceCompat) findPreference(PREF_USE_REWARDS_STAGING_SERVER);
         if (stagingServer != null) {
             stagingServer.setOnPreferenceChangeListener(this);
         }
@@ -230,4 +230,8 @@ public class QAPreferences extends PreferenceFragment
 
     @Override
     public void OnRewardsMainEnabled(boolean enabled) {}
+
+    @Override
+    public void onCreatePreferences(Bundle bundle, String s) {
+    }
 }

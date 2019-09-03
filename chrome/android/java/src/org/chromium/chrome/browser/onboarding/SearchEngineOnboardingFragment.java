@@ -11,8 +11,8 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import org.chromium.chrome.browser.onboarding.OnViewPagerAction;
-import org.chromium.chrome.browser.search_engines.TemplateUrl;
-import org.chromium.chrome.browser.search_engines.TemplateUrlService;
+import org.chromium.components.search_engines.TemplateUrl;
+import org.chromium.components.search_engines.TemplateUrlService;
 
 import org.chromium.chrome.R;
 
@@ -27,6 +27,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
+import org.chromium.chrome.browser.search_engines.TemplateUrlServiceFactory;
 
 import static org.chromium.chrome.browser.util.ViewUtils.dpToPx;
 
@@ -40,7 +41,7 @@ public class SearchEngineOnboardingFragment extends Fragment{
 
     private boolean fromSettings;
 
-    private TemplateUrl selectedSearchEngine = TemplateUrlService.getInstance().getDefaultSearchEngineTemplateUrl();
+    private TemplateUrl selectedSearchEngine = TemplateUrlServiceFactory.get().getDefaultSearchEngineTemplateUrl();
 
     public SearchEngineOnboardingFragment() {
         // Required empty public constructor
@@ -62,7 +63,7 @@ public class SearchEngineOnboardingFragment extends Fragment{
     }
 
     private void refreshData() {
-        TemplateUrlService templateUrlService = TemplateUrlService.getInstance();
+        TemplateUrlService templateUrlService = TemplateUrlServiceFactory.get();
         List<TemplateUrl> templateUrls = templateUrlService.getTemplateUrls();
         TemplateUrl defaultSearchEngineTemplateUrl = templateUrlService.getDefaultSearchEngineTemplateUrl();
 
@@ -132,8 +133,8 @@ public class SearchEngineOnboardingFragment extends Fragment{
                 if(!fromSettings) {
                     String keyword = selectedSearchEngine.getKeyword();
                     String name = selectedSearchEngine.getShortName();
-                    TemplateUrlService.getInstance().setSearchEngine(name, keyword, false);
-                    TemplateUrlService.getInstance().setSearchEngine(name, keyword, true);
+                    TemplateUrlServiceFactory.get().setSearchEngine(name, keyword, false);
+                    TemplateUrlServiceFactory.get().setSearchEngine(name, keyword, true);
                 }
 
                 onViewPagerAction.onNext();

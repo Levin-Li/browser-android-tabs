@@ -28,6 +28,10 @@ import org.chromium.content_public.browser.LoadUrlParams;
 import org.chromium.content_public.browser.WebContents;
 import org.chromium.content_public.common.ResourceRequestBody;
 
+import org.chromium.chrome.browser.tabmodel.TabLaunchType;
+import org.chromium.ui.mojom.WindowOpenDisposition;
+import org.chromium.chrome.browser.tabmodel.TabModelSelector;
+
 /**
  * A basic {@link WebContentsDelegateAndroid} that proxies methods into Tab. Forwards
  * some calls to the registered {@link TabObserver}.

@@ -28,9 +28,9 @@ import org.chromium.base.task.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceFragment;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.AppCompatImageView;
@@ -103,7 +103,7 @@ import java.util.TimerTask;
 /**
  * Settings fragment that allows to control Sync functionality.
  */
-public class BraveSyncScreensPreference extends PreferenceFragment
+public class BraveSyncScreensPreference extends PreferenceFragmentCompat
       implements View.OnClickListener, CompoundButton.OnCheckedChangeListener, BarcodeTracker.BarcodeGraphicTrackerCallback{
 
   private static final String TAG = "SYNC";
@@ -123,10 +123,10 @@ public class BraveSyncScreensPreference extends PreferenceFragment
   // Timeout to show cancel button while loading devices on sync chain creation
   private static final int CANCEL_LOAD_BUTTON_TIMEOUT = 15*1000;
 
-  private ChromeSwitchPreference mPrefSwitchTabs;
-  private ChromeSwitchPreference mPrefSwitchHistory;
-  private ChromeSwitchPreference mPrefSwitchAutofillPasswords;
-  private ChromeSwitchPreference mPrefSwitchPaymentSettings;
+  private ChromeSwitchPreferenceCompat mPrefSwitchTabs;
+  private ChromeSwitchPreferenceCompat mPrefSwitchHistory;
+  private ChromeSwitchPreferenceCompat mPrefSwitchAutofillPasswords;
+  private ChromeSwitchPreferenceCompat mPrefSwitchPaymentSettings;
   private Switch mSyncSwitchBookmarks;
   private Switch mSyncSwitchTabs;
   private Switch mSyncSwitchHistory;
@@ -253,10 +253,10 @@ public class BraveSyncScreensPreference extends PreferenceFragment
       SharedPreferences sharedPref = getActivity().getApplicationContext().getSharedPreferences(BraveSyncWorker.PREF_NAME, 0);
       mDeviceName = sharedPref.getString(BraveSyncWorker.PREF_SYNC_DEVICE_NAME, "");
 
-      mPrefSwitchTabs = (ChromeSwitchPreference) findPreference(BraveSyncWorker.PREF_SYNC_TABS);
-      mPrefSwitchHistory = (ChromeSwitchPreference) findPreference(BraveSyncWorker.PREF_SYNC_HISTORY);
-      mPrefSwitchAutofillPasswords = (ChromeSwitchPreference) findPreference(BraveSyncWorker.PREF_SYNC_AUTOFILL_PASSWORDS);
-      mPrefSwitchPaymentSettings = (ChromeSwitchPreference) findPreference(BraveSyncWorker.PREF_SYNC_PAYMENT_SETTINGS);
+      mPrefSwitchTabs = (ChromeSwitchPreferenceCompat) findPreference(BraveSyncWorker.PREF_SYNC_TABS);
+      mPrefSwitchHistory = (ChromeSwitchPreferenceCompat) findPreference(BraveSyncWorker.PREF_SYNC_HISTORY);
+      mPrefSwitchAutofillPasswords = (ChromeSwitchPreferenceCompat) findPreference(BraveSyncWorker.PREF_SYNC_AUTOFILL_PASSWORDS);
+      mPrefSwitchPaymentSettings = (ChromeSwitchPreferenceCompat) findPreference(BraveSyncWorker.PREF_SYNC_PAYMENT_SETTINGS);
 
       // Initialize mSyncScreensObserver
       ChromeApplication application = (ChromeApplication)ContextUtils.getBaseApplicationContext();
@@ -1515,4 +1515,8 @@ public class BraveSyncScreensPreference extends PreferenceFragment
       cancelTimeoutTimer();
       return false;
   }
+
+    @Override
+    public void onCreatePreferences(Bundle bundle, String s) {
+    }
 }

@@ -47,13 +47,14 @@ import org.chromium.base.Log;
 import org.chromium.base.ThreadUtils;
 import org.chromium.chrome.browser.ConfigAPIs;
 import org.chromium.chrome.browser.ChromeVersionInfo;
-import org.chromium.chrome.browser.search_engines.TemplateUrlService;
+import org.chromium.components.search_engines.TemplateUrlService;
 import org.chromium.chrome.browser.util.DateUtils;
 import org.chromium.chrome.browser.util.PackageUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.chromium.chrome.browser.search_engines.TemplateUrlServiceFactory;
 
 @JNINamespace("stats_updater")
 public class StatsUpdater {
@@ -148,8 +149,8 @@ public class StatsUpdater {
                         ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SET_QWANT_SE, false).apply();
                         ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SHOW_DDG_OFFER, false).apply();
                         ThreadUtils.runOnUiThread(() -> {
-                            TemplateUrlService.getInstance().setSearchEngine(TemplateUrlService.QWANT_SE_NAME, TemplateUrlService.QWANT_SE_KEYWORD, true);
-                            TemplateUrlService.getInstance().setSearchEngine(TemplateUrlService.QWANT_SE_NAME, TemplateUrlService.QWANT_SE_KEYWORD, false);
+                            TemplateUrlServiceFactory.get().setSearchEngine(TemplateUrlService.QWANT_SE_NAME, TemplateUrlService.QWANT_SE_KEYWORD, true);
+                            TemplateUrlServiceFactory.get().setSearchEngine(TemplateUrlService.QWANT_SE_NAME, TemplateUrlService.QWANT_SE_KEYWORD, false);
                         });
                     }
                 }

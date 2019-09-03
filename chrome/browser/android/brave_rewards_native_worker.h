@@ -42,6 +42,8 @@ public:
     void CreateWallet(JNIEnv* env, const
         base::android::JavaParamRef<jobject>& jcaller);
 
+    void OnCreateWallet(int32_t result);
+
     void WalletExist(JNIEnv* env, const
         base::android::JavaParamRef<jobject>& jcaller);
 
@@ -153,7 +155,7 @@ public:
     void OnIsWalletCreated(bool created);
 
     void OnWalletInitialized(brave_rewards::RewardsService* rewards_service,
-        uint32_t error_code) override;
+        int32_t error_code) override;
 
     void OnWalletProperties(brave_rewards::RewardsService* rewards_service,
         int error_code, 

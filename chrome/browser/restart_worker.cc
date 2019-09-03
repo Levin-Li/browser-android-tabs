@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 #include "restart_worker.h"
-#include "jni/RestartWorker_jni.h"
+#include "chrome/android/chrome_jni_headers/RestartWorker_jni.h"
 #include "chrome/browser/lifetime/application_lifetime.h"
 
 

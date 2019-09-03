@@ -9,9 +9,9 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceFragment;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -33,7 +33,7 @@ import org.chromium.chrome.browser.util.AccessibilityUtil;
 /**
  * Fragment to keep track of all Brave Rewards related preferences.
  */
-public class BraveRewardsPreferences extends PreferenceFragment
+public class BraveRewardsPreferences extends PreferenceFragmentCompat
         implements OnPreferenceChangeListener, BraveRewardsObserver {
 
     static final String PREF_RESET_REWARDS = "reset_rewards";
@@ -138,4 +138,8 @@ public class BraveRewardsPreferences extends PreferenceFragment
 
     @Override
     public void OnRewardsMainEnabled(boolean enabled) {}
+
+    @Override
+    public void onCreatePreferences(Bundle bundle, String s) {
+    }
 }

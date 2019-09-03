@@ -1,7 +1,7 @@
  #include "stats_updater.h"
  #include "base/android/jni_android.h"
  #include "base/android/jni_string.h"
- #include "jni/StatsUpdater_jni.h"
+ #include "chrome/android/chrome_jni_headers/StatsUpdater_jni.h"
 
 namespace stats_updater {
 

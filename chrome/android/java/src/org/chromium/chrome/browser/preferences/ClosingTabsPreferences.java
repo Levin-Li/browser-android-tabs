@@ -5,9 +5,9 @@
 package org.chromium.chrome.browser.preferences;
 
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceFragment;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.PreferenceFragmentCompat;
 
 import org.chromium.chrome.browser.preferences.ClosingTabsManager;
 
@@ -15,11 +15,11 @@ import org.chromium.base.ContextUtils;
 
 import org.chromium.chrome.R;
 
-public class ClosingTabsPreferences extends PreferenceFragment {
+public class ClosingTabsPreferences extends PreferenceFragmentCompat {
     private static final String PREF_CLOSING_TABS_SWITCH = "closing_tabs_switch";
 
     private ClosingTabsManager mClosingTabsManager;
-    private ChromeSwitchPreference mClosingTabsSwitch;
+    private ChromeSwitchPreferenceCompat mClosingTabsSwitch;
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class ClosingTabsPreferences extends PreferenceFragment {
         getActivity().setTitle(R.string.prefs_closing_all_tabs_closes_brave_title);
         PreferenceUtils.addPreferencesFromResource(this, R.xml.closing_tabs_preferences);
 
-        mClosingTabsSwitch = (ChromeSwitchPreference) findPreference(PREF_CLOSING_TABS_SWITCH);
+        mClosingTabsSwitch = (ChromeSwitchPreferenceCompat) findPreference(PREF_CLOSING_TABS_SWITCH);
 
         boolean isClosingTabsEnabled = mClosingTabsManager.getPrefClosingAllTabsClosesBraveEnabled();
         mClosingTabsSwitch.setChecked(isClosingTabsEnabled);
@@ -42,5 +42,9 @@ public class ClosingTabsPreferences extends PreferenceFragment {
                 return true;
             }
         });
+    }
+
+    @Override
+    public void onCreatePreferences(Bundle bundle, String s) {
     }
 }

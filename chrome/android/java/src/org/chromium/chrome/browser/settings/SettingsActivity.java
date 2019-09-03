@@ -247,12 +247,6 @@ public class SettingsActivity extends ChromeBaseAppCompatActivity
         }
 
         if (item.getItemId() == android.R.id.home) {
-            if (getFragmentForTest() instanceof BraveSyncScreensPreference) {
-                BraveSyncScreensPreference pref = (BraveSyncScreensPreference) getFragmentForTest();
-                if (pref.onBackPressed()) {
-                    return true;
-                }
-            }
             finish();
             return true;
         } else if (item.getItemId() == R.id.menu_id_general_help) {
@@ -266,12 +260,6 @@ public class SettingsActivity extends ChromeBaseAppCompatActivity
     @Override
     public void onBackPressed() {
         Fragment activeFragment = getMainFragment();
-        if (activeFragment instanceof BraveSyncScreensPreference) {
-            BraveSyncScreensPreference pref = (BraveSyncScreensPreference) getFragmentForTest();
-            if (pref.onBackPressed()) {
-                return;
-            }
-        }
         if (!(activeFragment instanceof OnBackPressedListener)) {
             super.onBackPressed();
             return;

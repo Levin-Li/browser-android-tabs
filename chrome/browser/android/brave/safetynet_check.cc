@@ -1,7 +1,7 @@
  #include "safetynet_check.h"
  #include "base/android/jni_android.h"
  #include "base/android/jni_string.h"
- #include "jni/SafetyNetCheck_jni.h"
+ #include "chrome/android/chrome_jni_headers/SafetyNetCheck_jni.h"
 
 namespace safetynet_check {
 

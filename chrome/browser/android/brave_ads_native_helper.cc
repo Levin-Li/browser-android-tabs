@@ -5,7 +5,7 @@
 #include "brave/components/brave_ads/browser/ads_service_factory.h"
 #include "brave/components/brave_ads/browser/locale_helper_android.h"
 #include "chrome/browser/profiles/profile.h"
-#include "jni/BraveAdsNativeHelper_jni.h"
+#include "chrome/android/chrome_jni_headers/BraveAdsNativeHelper_jni.h"
 
 using base::android::JavaParamRef;
 using base::android::ScopedJavaLocalRef;

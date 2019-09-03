@@ -2470,26 +2470,6 @@ bool ChromeContentBrowserClient::AllowSignedExchange(
   return profile->GetPrefs()->GetBoolean(prefs::kSignedHTTPExchangeEnabled);
 }
 
-namespace {
-
-GURL GetTabUrl(
-  const GURL& first_party,
-  int render_process_id,
-  int render_frame_id) {
-  GURL tab_url;
-  if (!first_party.is_empty()) {
-    tab_url = first_party;
-  } else {
-    tab_url = brave::BraveTabUrlWebContentsObserver::
-        GetTabURLFromRenderFrameInfo(
-            render_process_id, render_frame_id, -1).GetOrigin();
-  }
-
-  return tab_url;
-}
-
-}  // namespace
-
 void ChromeContentBrowserClient::AllowWorkerFileSystem(
     const GURL& url,
     content::BrowserContext* browser_context,

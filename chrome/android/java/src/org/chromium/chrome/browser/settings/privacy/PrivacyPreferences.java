@@ -67,14 +67,14 @@ public class PrivacyPreferences
         networkPredictionPref.setOnPreferenceChangeListener(this);
         networkPredictionPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
-        Preference syncAndServicesLink = findPreference(PREF_SYNC_AND_SERVICES_LINK);
-        NoUnderlineClickableSpan linkSpan = new NoUnderlineClickableSpan(getResources(), view -> {
-            PreferencesLauncher.launchSettingsPage(getActivity(), SyncAndServicesPreferences.class,
-                    SyncAndServicesPreferences.createArguments(false));
-        });
-        syncAndServicesLink.setSummary(
-                SpanApplier.applySpans(getString(R.string.privacy_sync_and_services_link),
-                        new SpanApplier.SpanInfo("<link>", "</link>", linkSpan)));
+        // Preference syncAndServicesLink = findPreference(PREF_SYNC_AND_SERVICES_LINK);
+        // NoUnderlineClickableSpan linkSpan = new NoUnderlineClickableSpan(getResources(), view -> {
+        //     PreferencesLauncher.launchSettingsPage(getActivity(), SyncAndServicesPreferences.class,
+        //             SyncAndServicesPreferences.createArguments(false));
+        // });
+        // syncAndServicesLink.setSummary(
+        //         SpanApplier.applySpans(getString(R.string.privacy_sync_and_services_link),
+        //                 new SpanApplier.SpanInfo("<link>", "</link>", linkSpan)));
 
         ChromeBaseCheckBoxPreference adBlockPref =
                 (ChromeBaseCheckBoxPreference) findPreference(PREF_AD_BLOCK);

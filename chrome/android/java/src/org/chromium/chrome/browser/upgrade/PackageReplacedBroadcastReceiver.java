@@ -15,6 +15,7 @@ import org.chromium.base.Log;
 import org.chromium.chrome.browser.init.StatsUpdater;
 import org.chromium.chrome.browser.notifications.channels.ChannelsUpdater;
 import org.chromium.chrome.browser.vr.VrModuleProvider;
+import org.chromium.base.task.AsyncTask;
 
 /**
  * Triggered when Chrome's package is replaced (e.g. when it is upgraded).

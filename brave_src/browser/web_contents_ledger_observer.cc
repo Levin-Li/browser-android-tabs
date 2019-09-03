@@ -6,7 +6,6 @@
 #include "brave/components/brave_rewards/browser/rewards_service.h"
 #include "brave/components/brave_rewards/browser/rewards_service_factory.h"
 #include "chrome/browser/browser_process.h"
-#include "chrome/browser/io_thread.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/profiles/profile_manager.h"
 #include "chrome/browser/sessions/session_tab_helper.h"
@@ -19,10 +18,6 @@
 #include "content/public/browser/web_contents.h"
 #include "content/public/browser/web_contents_user_data.h"
 #include "content/public/common/resource_load_info.mojom.h"
-
-void FavIconUpdated(IOThread* io_thread, const std::string& url, const std::string& favicon_url) {
-  //io_thread->globals()->ledger_->favIconUpdated(url, favicon_url);
-}
 
 using content::WebContents;
 
@@ -76,12 +71,6 @@ void WebContentsLedgerObserver::DidUpdateFaviconURL(const std::vector<content::F
   for (size_t i = 0; i < candidates.size(); i++) {
     switch(candidates[i].icon_type) {
       case content::FaviconURL::IconType::kFavicon:
-        // TODO, we probably don't need that at all
-        /*content::BrowserThread::PostTask(
-            content::BrowserThread::IO, FROM_HERE,
-            base::Bind(&FavIconUpdated, g_browser_process->io_thread(), current_domain_,
-            candidates[i].icon_url.spec()));*/
-
         return;
       default:
         break;
