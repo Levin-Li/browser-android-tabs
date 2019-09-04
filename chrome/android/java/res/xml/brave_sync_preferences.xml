@@ -6,37 +6,37 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt">
 
-    <org.chromium.chrome.browser.preferences.ChromeSwitchPreference
+    <org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat
         android:key="sync_switch"
         android:summaryOn="@string/prefs_sync_official"
         android:summaryOff="@string/prefs_sync_official"
         android:defaultValue="false" />
 
-    <org.chromium.chrome.browser.preferences.ChromeSwitchPreference
+    <org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat
         android:key="brave_sync_bookmarks"
         android:summaryOn="@string/sync_bookmarks"
         android:summaryOff="@string/sync_bookmarks"
         android:defaultValue="true" />
 
-    <org.chromium.chrome.browser.preferences.ChromeSwitchPreference
+    <org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat
         android:key="brave_sync_tabs"
         android:summaryOn="@string/brave_sync_tabs_text"
         android:summaryOff="@string/brave_sync_tabs_text"
         android:defaultValue="true" />
 
-    <org.chromium.chrome.browser.preferences.ChromeSwitchPreference
+    <org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat
         android:key="brave_sync_history"
         android:summaryOn="@string/brave_sync_history_text"
         android:summaryOff="@string/brave_sync_history_text"
         android:defaultValue="true" />
 
-    <org.chromium.chrome.browser.preferences.ChromeSwitchPreference
+    <org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat
         android:key="brave_sync_autofill_passwords"
         android:summaryOn="@string/brave_sync_autofill_passwords_text"
         android:summaryOff="@string/brave_sync_autofill_passwords_text"
         android:defaultValue="true" />
 
-    <org.chromium.chrome.browser.preferences.ChromeSwitchPreference
+    <org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat
         android:key="brave_sync_payment_settings"
         android:summaryOn="@string/brave_sync_payment_settings_text"
         android:summaryOff="@string/brave_sync_payment_settings_text"
