@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.3.1](https://github.com/brave/browser-android-tabs/releases/tab/v1.3.1)
+## [1.3.1](https://github.com/brave/browser-android-tabs/releases/tag/v1.3.1)
  
  - Implemented onboarding flow for new users. ([#1992](https://github.com/brave/browser-android-tabs/issues/1992))
  - Implemented an option to handle "Close all tabs" behaviour. ([#1716](https://github.com/brave/browser-android-tabs/issues/1716))
@@ -17,7 +17,7 @@
  - Fixed crash during onboarding for devices running Android 4.x - 5.x. ([#2012](https://github.com/brave/browser-android-tabs/issues/2012))
  - Upgraded to Chromium 76.0.3809.132. ([#2005](https://github.com/brave/browser-android-tabs/issues/2005))
 
-## [1.2.0](https://github.com/brave/browser-android-tabs/releases/tab/v1.2.0)
+## [1.2.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.2.0)
  
  - Replaced adblock library with new Rust based library. ([#1838](https://github.com/brave/browser-android-tabs/issues/1838))
  - Added chrome://rewards-internals to assist with rewards support. ([#1341](https://github.com/brave/browser-android-tabs/issues/1341))
@@ -25,16 +25,16 @@
  - Fixed hang when attempting to create wallet on devices without Google Play Services. ([#1936](https://github.com/brave/browser-android-tabs/issues/1936))
  - Upgraded Chromium to 76.0.3809.111. ([#1947](https://github.com/brave/browser-android-tabs/issues/1947))
 
-## [1.1.2](https://github.com/brave/browser-android-tabs/releases/tab/v1.1.2)
+## [1.1.2](https://github.com/brave/browser-android-tabs/releases/tag/v1.1.2)
  
  - Upgraded Chromium to 75.0.3770.143. ([#1853](https://github.com/brave/browser-android-tabs/issues/1853))
 
-## [1.1.1](https://github.com/brave/browser-android-tabs/releases/tab/v1.1.1)
+## [1.1.1](https://github.com/brave/browser-android-tabs/releases/tag/v1.1.1)
  
  - Fixed several websites not loading correctly when Brave Ads has been enabled. ([#1844](https://github.com/brave/browser-android-tabs/issues/1844))
  - Fixed crash when ads notification is displayed and Brave isn't running. ([#1839](https://github.com/brave/browser-android-tabs/issues/1839))
 
-## [1.1.0](https://github.com/brave/browser-android-tabs/releases/tab/v1.1.0)
+## [1.1.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.1.0)
  
  - Implemented Brave Ads for supported regions. ([#1826](https://github.com/brave/browser-android-tabs/issues/1826))
  - Added warning message for Sync code. ([#1475](https://github.com/brave/browser-android-tabs/issues/1475))
