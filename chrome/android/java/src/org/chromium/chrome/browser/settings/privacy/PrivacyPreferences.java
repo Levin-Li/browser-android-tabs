@@ -43,8 +43,11 @@ public class PrivacyPreferences
     private static final String PREF_FINGERPRINTING_PROTECTION = "fingerprinting_protection";
     private static final String PREF_AD_BLOCK_REGIONAL = "ad_block_regional";
     private static final String PREF_CLOSE_TABS_ON_EXIT = "close_tabs_on_exit";
+    private static final String PREF_SEARCH_SUGGESTIONS = "search_suggestions";
 
     private ManagedPreferenceDelegate mManagedPreferenceDelegate;
+
+    private ChromeBaseCheckBoxPreference mSearchSuggestions;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -101,6 +104,10 @@ public class PrivacyPreferences
         closeTabsOnExitPref.setOnPreferenceChangeListener(this);
         closeTabsOnExitPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
+        mSearchSuggestions = (ChromeBaseCheckBoxPreference) findPreference(PREF_SEARCH_SUGGESTIONS);
+        mSearchSuggestions.setOnPreferenceChangeListener(this);
+        mSearchSuggestions.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
+
         updateSummaries();
     }
 
@@ -124,6 +131,8 @@ public class PrivacyPreferences
             SharedPreferences.Editor sharedPreferencesEditor = ContextUtils.getAppSharedPreferences().edit();
             sharedPreferencesEditor.putBoolean(PREF_CLOSE_TABS_ON_EXIT, (boolean)newValue);
             sharedPreferencesEditor.apply();
+        } else if (PREF_SEARCH_SUGGESTIONS.equals(key)) {
+            PrefServiceBridge.getInstance().setSearchSuggestEnabled((boolean) newValue);
         }
 
         return true;
@@ -192,6 +201,9 @@ public class PrivacyPreferences
             String key = preference.getKey();
             if (PREF_NETWORK_PREDICTIONS.equals(key)) {
                 return PrivacyPreferencesManager.getInstance().isNetworkPredictionManaged();
+            }
+            if (PREF_SEARCH_SUGGESTIONS.equals(key)) {
+                return PrefServiceBridge.getInstance().isSearchSuggestManaged();
             }
             return false;
         };
