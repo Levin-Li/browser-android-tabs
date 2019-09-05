@@ -79,7 +79,7 @@ public class SearchEngineOnboardingFragment extends Fragment{
                 rdBtn.setTextSize(18);
                 rdBtn.setButtonDrawable(null);
                 rdBtn.setPadding(dpToPx(getActivity(), 30), 0, 0, 0);
-                rdBtn.setTextColor(getResources().getColor(R.color.onboarding_black));
+                rdBtn.setTextColor(getResources().getColor(R.color.onboarding_text_color));
                 rdBtn.setBackgroundDrawable(getResources().getDrawable(R.drawable.radiobutton_background));
                 rdBtn.setText(templateUrl.getShortName());
                 rdBtn.setCompoundDrawablesWithIntrinsicBounds(getResources().getDrawable(searchEngineEnum.getIcon()), null, null, null);

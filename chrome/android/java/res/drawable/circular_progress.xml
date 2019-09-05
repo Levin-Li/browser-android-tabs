@@ -20,9 +20,9 @@
                 android:useLevel="true">
                 <gradient
                     android:angle="270"
-                    android:endColor="#4F30AB"
-                    android:centerColor="#FF1893"
-                    android:startColor="#FA7250" />
+                    android:endColor="@color/onboarding_progress_end_color"
+                    android:centerColor="@color/onboarding_progress_mid_color"
+                    android:startColor="@color/onboarding_progress_start_color" />
             </shape>
         </rotate>
     </item>
