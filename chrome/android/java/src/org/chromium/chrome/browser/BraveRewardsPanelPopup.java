@@ -668,7 +668,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
     }
 
     public void ShowWebSiteView(boolean returning_to_rewards) {
-      ((TextView)this.root.findViewById(R.id.br_bat_wallet)).setText(String.format("%.2f", 0.0));
+      ((TextView)this.root.findViewById(R.id.br_bat_wallet)).setText(String.format("%.1f", 0.0));
       String usdText = String.format(this.root.getResources().getString(R.string.brave_ui_usd), "0.00");
       ((TextView)this.root.findViewById(R.id.br_usd_wallet)).setText(usdText);
 
@@ -1010,7 +1010,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         if (mBraveRewardsNativeWorker != null) {
           double balance = mBraveRewardsNativeWorker.GetWalletBalance();
           ((TextView)this.root.findViewById(R.id.br_bat_wallet)).setText(
-            String.format("%.2f", balance));
+            String.format("%.1f", balance));
           double usdValue = balance * mBraveRewardsNativeWorker.GetWalletRate("USD");
           String usdText = String.format(this.root.getResources().getString(R.string.brave_ui_usd), 
             String.format("%.2f", usdValue));
@@ -1033,7 +1033,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                   }
 
                   double  probiDouble = BraveRewardsHelper.probiToDouble(grant[0]);
-                  String probiString = Double.isNaN(probiDouble) ? ERROR_CONVERT_PROBI : String.format("%.2f", probiDouble);
+                  String probiString = Double.isNaN(probiDouble) ? ERROR_CONVERT_PROBI : String.format("%.1f", probiDouble);
                   String toInsert = "<b><font color=#ffffff>" + probiString + " BAT</font></b> ";
 
                   if (grant[2].equals(BraveRewardsPanelPopup.ADS_GRANT_TYPE) == false) {
@@ -1194,7 +1194,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
           double  probiDouble = BraveRewardsHelper.probiToDouble(report[i]);
           boolean hideControls = (probiDouble == 0);
-          String value = Double.isNaN(probiDouble) ? ERROR_CONVERT_PROBI : String.format("%.2f", probiDouble);
+          String value = Double.isNaN(probiDouble) ? ERROR_CONVERT_PROBI : String.format("%.1f", probiDouble);
 
           String usdValue = ERROR_CONVERT_PROBI;
           if (! Double.isNaN(probiDouble)){
