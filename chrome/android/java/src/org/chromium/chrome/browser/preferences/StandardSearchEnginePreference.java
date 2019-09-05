@@ -12,5 +12,6 @@ public class StandardSearchEnginePreference extends SearchEnginePreference {
         super.onCreate(savedInstanceState);
         getActivity().setTitle(R.string.prefs_standard_search_engine);
         mSearchEngineAdapter = new SearchEngineAdapter(getActivity(), false);
+        setListAdapter(mSearchEngineAdapter);
     }
 }

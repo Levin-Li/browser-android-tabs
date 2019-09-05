@@ -247,6 +247,12 @@ public class SettingsActivity extends ChromeBaseAppCompatActivity
         }
 
         if (item.getItemId() == android.R.id.home) {
+            if (mainFragmentCompat instanceof OnBackPressedListener) {
+                OnBackPressedListener listener = (OnBackPressedListener) mainFragmentCompat;
+                if (listener.onBackPressed()) {
+                    return true;
+                }
+            }
             finish();
             return true;
         } else if (item.getItemId() == R.id.menu_id_general_help) {

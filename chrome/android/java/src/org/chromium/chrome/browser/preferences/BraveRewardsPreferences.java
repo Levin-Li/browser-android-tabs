@@ -72,6 +72,19 @@ public class BraveRewardsPreferences extends PreferenceFragmentCompat
     }
 
     @Override
+    public void onDisplayPreferenceDialog(Preference preference) {
+        if (preference instanceof BraveRewardsResetPreference) {
+            BraveRewardsResetPreferenceDialog dialogFragment =
+                    BraveRewardsResetPreferenceDialog.newInstance(
+                            (BraveRewardsResetPreference) preference);
+            dialogFragment.setTargetFragment(this, 0);
+            dialogFragment.show(getFragmentManager(), BraveRewardsResetPreferenceDialog.TAG);
+        } else {
+            super.onDisplayPreferenceDialog(preference);
+        }
+    }
+
+    @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         return true;
     }
@@ -137,7 +150,13 @@ public class BraveRewardsPreferences extends PreferenceFragmentCompat
     }
 
     @Override
-    public void OnRewardsMainEnabled(boolean enabled) {}
+    public void OnRewardsMainEnabled(boolean enabled) {
+        if (!enabled) {
+            mBraveRewardsNativeWorker.ResetTheWholeState();
+        } else {
+            RestartWorker.AskForRelaunchCustom(getActivity());
+        }
+    }
 
     @Override
     public void onCreatePreferences(Bundle bundle, String s) {

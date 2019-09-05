@@ -38,7 +38,6 @@ public class ControlsPreferences extends PreferenceFragmentCompat
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        ((ListView) getView().findViewById(android.R.id.list)).setDivider(null);
     }
 
     private Preference findPreference(@SiteSettingsCategory.Type int type) {

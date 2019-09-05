@@ -104,7 +104,8 @@ import java.util.TimerTask;
  * Settings fragment that allows to control Sync functionality.
  */
 public class BraveSyncScreensPreference extends PreferenceFragmentCompat
-      implements View.OnClickListener, CompoundButton.OnCheckedChangeListener, BarcodeTracker.BarcodeGraphicTrackerCallback{
+      implements View.OnClickListener, Preferences.OnBackPressedListener,
+                 CompoundButton.OnCheckedChangeListener, BarcodeTracker.BarcodeGraphicTrackerCallback{
 
   private static final String TAG = "SYNC";
   // Permission request codes need to be < 256
@@ -247,7 +248,6 @@ public class BraveSyncScreensPreference extends PreferenceFragmentCompat
 
   @Override
   public void onActivityCreated(Bundle savedInstanceState) {
-      addPreferencesFromResource(R.xml.brave_sync_preferences);
       getActivity().setTitle(R.string.sign_in_sync);
 
       SharedPreferences sharedPref = getActivity().getApplicationContext().getSharedPreferences(BraveSyncWorker.PREF_NAME, 0);
@@ -1499,6 +1499,7 @@ public class BraveSyncScreensPreference extends PreferenceFragmentCompat
   }
 
   // Handles 'Back' button. Returns true if it is handled, false otherwise.
+  @Override
   public boolean onBackPressed() {
       if ((View.VISIBLE == mScrollViewSyncChainCode.getVisibility())
       || (View.VISIBLE == mScrollViewSyncStartChain.getVisibility())) {
