@@ -31,6 +31,11 @@
         android:title="@string/clear_cache_title" />
 
     <org.chromium.chrome.browser.settings.ClearBrowsingDataCheckBoxPreference
+        android:key="clear_download_checkbox"
+        android:persistent="false"
+        android:title="@string/clear_download_title" />
+
+    <org.chromium.chrome.browser.settings.ClearBrowsingDataCheckBoxPreference
         android:key="clear_passwords_checkbox"
         android:persistent="false"
         android:title="@string/clear_passwords_title" />

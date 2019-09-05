@@ -309,6 +309,8 @@ content creators you love.</string>
     <string name="prefs_welcome_tour">Welcome Tour</string>
     <string name="welcome_tour_dialog_text">Relaunching Welcome Tour will not affect any existing settings.</string>
     <string name="finish">Finish</string>
+    
+    <string name="clear_download_title">Download history</string>
 
     <string name="settings_exit">Settings exit</string>
 

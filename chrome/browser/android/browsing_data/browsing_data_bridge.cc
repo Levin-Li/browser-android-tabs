@@ -123,6 +123,8 @@ static void JNI_BrowsingDataBridge_ClearBrowsingData(
             ChromeBrowsingDataRemoverDelegate::DATA_TYPE_CONTENT_SETTINGS;
         break;
       case browsing_data::BrowsingDataType::DOWNLOADS:
+        remove_mask |= BrowsingDataRemover::DATA_TYPE_DOWNLOADS;
+        break;
       case browsing_data::BrowsingDataType::HOSTED_APPS_DATA:
         // Only implemented on Desktop.
         NOTREACHED();
