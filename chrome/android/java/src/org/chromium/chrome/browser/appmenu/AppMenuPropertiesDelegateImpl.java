@@ -247,14 +247,6 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
                     .setVisible(mMultiWindowModeStateDispatcher.isOpenInOtherWindowSupported()
                             && hasMoreThanOneTab);
 
-            // Don't allow either "chrome://" pages or interstitial pages to be shared.
-            menu.findItem(R.id.share_row_menu_id)
-                    .setVisible(
-                            !isChromeScheme && !((TabImpl) currentTab).isShowingInterstitialPage());
-
-            ShareHelper.configureDirectShareMenuItem(
-                    mContext, menu.findItem(R.id.direct_share_menu_id));
-
             // Disable find in page on the native NTP.
             menu.findItem(R.id.find_in_page_id)
                     .setVisible(!currentTab.isNativePage() && currentTab.getWebContents() != null);
