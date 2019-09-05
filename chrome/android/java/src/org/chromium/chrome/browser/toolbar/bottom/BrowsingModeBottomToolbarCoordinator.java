@@ -37,6 +37,8 @@ import org.chromium.chrome.browser.toolbar.bottom.SearchAccelerator;
 import org.chromium.chrome.browser.util.AccessibilityUtil;
 import org.chromium.components.feature_engagement.Tracker;
 import org.chromium.ui.modelutil.PropertyModelChangeProcessor;
+import org.chromium.chrome.browser.util.TabUtil;
+import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
 
 /**
  * The coordinator for the browsing mode bottom toolbar. This class has two primary components,
@@ -274,7 +276,12 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
         Resources resources = context.getResources();
 
         if (v == mHomeButtonWrapper) {
-            description = resources.getString(R.string.accessibility_toolbar_btn_home);
+            if (!HomepageManager.isHomepageEnabled()) {
+                TabUtil.showTabPopupMenu(context, v);
+                return true;
+            } else {
+                description = resources.getString(R.string.accessibility_toolbar_btn_home);
+            }
         } else if (v == mBookmarkButtonWrapper) {
             description = resources.getString(R.string.accessibility_toolbar_btn_bookmark);
         } else if (v == mSearchAcceleratorWrapper) {

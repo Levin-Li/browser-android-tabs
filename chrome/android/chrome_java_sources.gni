@@ -1773,6 +1773,7 @@ chrome_java_sources = [
   "java/src/org/chromium/chrome/browser/usage_stats/UsageStatsMetricsReporter.java",
   "java/src/org/chromium/chrome/browser/usage_stats/UsageStatsService.java",
   "java/src/org/chromium/chrome/browser/usage_stats/WebsiteEvent.java",
+  "java/src/org/chromium/chrome/browser/util/TabUtil.java",
   "java/src/org/chromium/chrome/browser/vr/ArDelegate.java",
   "java/src/org/chromium/chrome/browser/vr/ArDelegateProvider.java",
   "java/src/org/chromium/chrome/browser/webapps/ActivateWebApkActivity.java",

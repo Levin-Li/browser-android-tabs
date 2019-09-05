@@ -22,6 +22,7 @@ import org.chromium.chrome.browser.toolbar.IncognitoStateProvider.IncognitoState
 import org.chromium.ui.base.DeviceFormFactor;
 import org.chromium.ui.widget.ChromeImageButton;
 import org.chromium.ui.widget.Toast;
+import org.chromium.chrome.browser.util.TabUtil;
 
 /**
  * Button for creating new tabs.
@@ -52,10 +53,8 @@ public class NewTabButton
 
     @Override
     public boolean onLongClick(View v) {
-        CharSequence description = getResources().getString(mIsIncognito
-                        ? org.chromium.chrome.R.string.brave_new_private_tab
-                        : org.chromium.chrome.R.string.button_new_tab);
-        return Toast.showAnchoredToast(getContext(), v, description);
+        TabUtil.showTabPopupMenu(getContext(), v);
+        return true;
     }
 
     public void setIncognitoStateProvider(IncognitoStateProvider incognitoStateProvider) {
