@@ -191,8 +191,8 @@ public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragme
      * The various data types that can be cleared via this screen.
      */
     @IntDef({DialogOption.CLEAR_HISTORY, DialogOption.CLEAR_COOKIES_AND_SITE_DATA,
-            DialogOption.CLEAR_CACHE, DialogOption.CLEAR_PASSWORDS, DialogOption.CLEAR_FORM_DATA,
-            DialogOption.CLEAR_SITE_SETTINGS})
+        DialogOption.CLEAR_CACHE, DialogOption.CLEAR_PASSWORDS, DialogOption.CLEAR_FORM_DATA,
+            DialogOption.CLEAR_SITE_SETTINGS, DialogOption.CLEAR_DOWNLOAD})
     @Retention(RetentionPolicy.SOURCE)
     public @interface DialogOption {
         // Values used in "for" loop below - should start from 0 and can't have gaps, lowest value
@@ -205,7 +205,8 @@ public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragme
         int CLEAR_PASSWORDS = 3;
         int CLEAR_FORM_DATA = 4;
         int CLEAR_SITE_SETTINGS = 5;
-        int NUM_ENTRIES = 6;
+        int CLEAR_DOWNLOAD = 6;
+        int NUM_ENTRIES = 7;
     }
 
     public static final String CLEAR_BROWSING_DATA_FETCHER = "clearBrowsingDataFetcher";
@@ -250,6 +251,8 @@ public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragme
                 return BrowsingDataType.PASSWORDS;
             case DialogOption.CLEAR_SITE_SETTINGS:
                 return BrowsingDataType.SITE_SETTINGS;
+            case DialogOption.CLEAR_DOWNLOAD:
+                return BrowsingDataType.DOWNLOADS;
             default:
                 throw new IllegalArgumentException();
         }
@@ -269,6 +272,8 @@ public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragme
                 return "clear_passwords_checkbox";
             case DialogOption.CLEAR_SITE_SETTINGS:
                 return "clear_site_settings_checkbox";
+            case DialogOption.CLEAR_DOWNLOAD:
+                return "clear_download_checkbox";
             default:
                 throw new IllegalArgumentException();
         }
@@ -288,6 +293,8 @@ public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragme
                 return R.drawable.ic_vpn_key_grey;
             case DialogOption.CLEAR_SITE_SETTINGS:
                 return R.drawable.ic_tv_options_input_settings_rotated_grey;
+            case DialogOption.CLEAR_DOWNLOAD:
+                return R.drawable.ic_file_download_24dp;
             default:
                 throw new IllegalArgumentException();
         }
