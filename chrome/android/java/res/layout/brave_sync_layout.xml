@@ -277,11 +277,4 @@
 
     <include layout="@layout/brave_sync_done" />
 
-    <!-- Items from brave_sync_preferences.xml -->
-    <ListView android:id="@android:id/list"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawSelectorOnTop="false"
-        android:visibility="gone" />
-
 </LinearLayout>

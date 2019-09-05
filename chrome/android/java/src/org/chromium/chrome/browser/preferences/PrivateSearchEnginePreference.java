@@ -12,5 +12,6 @@ public class PrivateSearchEnginePreference extends SearchEnginePreference {
         super.onCreate(savedInstanceState);
         getActivity().setTitle(R.string.prefs_private_search_engine);
         mSearchEngineAdapter = new SearchEngineAdapter(getActivity(), true);
+        setListAdapter(mSearchEngineAdapter);
     }
 }
