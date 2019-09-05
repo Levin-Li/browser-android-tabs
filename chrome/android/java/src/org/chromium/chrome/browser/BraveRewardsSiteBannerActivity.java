@@ -131,7 +131,7 @@ public class BraveRewardsSiteBannerActivity extends Activity implements BraveRew
         mIconFetcher.retrieveLargeIcon(favicon_url, this);
 
         double balance = mBraveRewardsNativeWorker.GetWalletBalance();
-        String walletAmount = String.format("%.2f", balance) + " BAT";
+        String walletAmount = String.format("%.1f", balance) + " BAT";
         ((TextView)findViewById(R.id.wallet_amount_text)).setText(walletAmount);
 
         double usdValue = mBraveRewardsNativeWorker.GetWalletRate("USD");
@@ -431,7 +431,7 @@ public class BraveRewardsSiteBannerActivity extends Activity implements BraveRew
         if (error_code == 0) {
             if (mBraveRewardsNativeWorker != null) {
                 double balance = mBraveRewardsNativeWorker.GetWalletBalance();
-                String walletAmount = String.format("%.2f", balance) + " BAT";
+                String walletAmount = String.format("%.1f", balance) + " BAT";
                 ((TextView)findViewById(R.id.wallet_amount_text)).setText(walletAmount);
             }
         }
