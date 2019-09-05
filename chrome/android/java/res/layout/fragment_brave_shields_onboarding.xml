@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/onboarding_bottom_sheet_height"
         android:layout_gravity="bottom"
-        android:background="@android:color/white"
+        android:background="@color/onboarding_bg_color"
         android:orientation="vertical">
 
         <LinearLayout
@@ -34,7 +34,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="16dp"
                 android:text="@string/brave_shields_onboarding_title"
-                android:textColor="@color/onboarding_black"
+                android:textColor="@color/onboarding_text_color"
                 android:textSize="@dimen/onboarding_text_size"
                 android:lineSpacingMultiplier="1.2"
                 android:textStyle="bold" />
@@ -51,7 +51,7 @@
                 android:layout_marginBottom="16dp"
                 android:gravity="center"
                 android:lineSpacingMultiplier="1.2"
-                android:textColor="@color/onboarding_black"
+                android:textColor="@color/onboarding_text_color"
                 android:textSize="@dimen/onboarding_text_size" />
 
         </LinearLayout>

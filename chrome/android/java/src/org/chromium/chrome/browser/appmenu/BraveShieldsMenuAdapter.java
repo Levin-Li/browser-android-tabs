@@ -209,7 +209,6 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                     if (0 == position) {
                         convertView = mInflater.inflate(R.layout.brave_shields_switcher, parent, false);
                         setupSwitchClick((Switch)convertView.findViewById(R.id.brave_shields_switch));
-                        convertView.setBackgroundColor(Color.parseColor(BRAVE_SHIELDS_GREY));
                     // We should set layouts for switch rows
                     } else if (1 == position || 2 == position || 8 == position || 14 == position) {
                         convertView = mInflater.inflate(R.layout.brave_shields_text_item, parent, false);
@@ -220,7 +219,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                             } else if (8 == position) {
                                 text.setText(R.string.brave_shields_second_group_title);
                             } else if (1 == position) {
-                                text.setTextColor(Color.parseColor(BRAVE_SHIELDS_BLACK));
+                                text.setTextColor(convertView.getContext().getResources().getColor(R.color.standard_mode_tint));
                                 text.setTextSize(20);
                                 text.setText(mHost);
                             } else {
