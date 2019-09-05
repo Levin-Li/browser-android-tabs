@@ -29,6 +29,7 @@ import android.widget.Switch;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.util.SparseArray;
+import java.util.Locale;
 
 import org.chromium.base.Log;
 import org.chromium.base.ApiCompatibilityUtils;
@@ -119,6 +120,8 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
     private OnCheckedChangeListener mBraveShieldsBlockingScriptsChangeListener;
     private Switch mBraveShieldsFingerprintsSwitch;
     private OnCheckedChangeListener mBraveShieldsFingerprintsChangeListener;
+
+    private static final int MAX_COUNT = 1000;
 
     private boolean mIncognitoTab;
     public void setIncognitoTab(final boolean incognitoTab) {
@@ -234,7 +237,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                         TextView number = (TextView) convertView.findViewById(R.id.brave_shields_number);
                         if (number != null) {
                             number.setTextColor(Color.parseColor(ADS_AND_TRACKERS_COLOR));
-                            number.setText(item.getTitle());
+                            updateCountView(number, item.getTitle().toString());
                             number.setTag(R.string.brave_shields_ads_and_trackers);
                         }
                     } else if (4 == position) {
@@ -246,7 +249,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                         TextView number = (TextView) convertView.findViewById(R.id.brave_shields_number);
                         if (number != null) {
                             number.setTextColor(Color.parseColor(HTTPS_UPDATES_COLOR));
-                            number.setText(item.getTitle());
+                            updateCountView(number, item.getTitle().toString());
                             number.setTag(R.string.brave_shields_https_upgrades);
                         }
                     } else if (5 == position) {
@@ -258,7 +261,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                         TextView number = (TextView) convertView.findViewById(R.id.brave_shields_number);
                         if (number != null) {
                             number.setTextColor(Color.parseColor(SCRIPTS_BLOCKED_COLOR));
-                            number.setText(item.getTitle());
+                            updateCountView(number, item.getTitle().toString());
                             number.setTag(R.string.brave_shields_scripts_blocked);
                         }
                     } else if (6 == position) {
@@ -270,7 +273,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                         TextView number = (TextView) convertView.findViewById(R.id.brave_shields_number);
                         if (number != null) {
                             number.setTextColor(Color.parseColor(FINGERPRINTS_BLOCKED_COLOR));
-                            number.setText(item.getTitle());
+                            updateCountView(number, item.getTitle().toString());
                             number.setTag(R.string.brave_shields_fingerprint_methods);
                         }
                     } else if (7 == position) {
@@ -772,5 +775,18 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
 
     static class CustomMenuItemViewHolder extends StandardMenuItemViewHolder {
         public TextView summary;
+    }
+
+    private void updateCountView(TextView textview, String value) {
+        int count = Integer.parseInt(value);
+        String countText = "";
+        if (count < MAX_COUNT) {
+            countText = "" + count;
+        } else {
+            int exp = (int) (Math.log(count) / Math.log(MAX_COUNT));
+            countText = String.format(Locale.getDefault(), "%.1f%c", count / Math.pow(MAX_COUNT, exp), "KMGTPE".charAt(exp-1));
+            textview.setTextSize(16);
+        }   
+        textview.setText(countText);
     }
 }
