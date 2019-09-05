@@ -10,12 +10,12 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.PreferenceFragmentCompat;
 
 import org.chromium.chrome.browser.preferences.ClosingTabsManager;
-
 import org.chromium.base.ContextUtils;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 
 import org.chromium.chrome.R;
 
-public class ClosingTabsPreferences extends PreferenceFragmentCompat {
+public class ClosingTabsPreferences extends BravePreferenceFragment {
     private static final String PREF_CLOSING_TABS_SWITCH = "closing_tabs_switch";
 
     private ClosingTabsManager mClosingTabsManager;

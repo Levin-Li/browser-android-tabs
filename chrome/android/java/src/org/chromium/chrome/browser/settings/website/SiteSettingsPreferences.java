@@ -21,6 +21,8 @@ import org.chromium.content_public.common.ContentSwitches;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * The main Site Settings screen, which shows all the site settings categories: All sites, Location,
  * Microphone, etc. By clicking into one of these categories, the user can see or and modify
@@ -28,7 +30,7 @@ import java.util.List;
  * browser-wide.
  */
 public class SiteSettingsPreferences
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceClickListener {
+        extends BravePreferenceFragment implements Preference.OnPreferenceClickListener {
     // The keys for each category shown on the Site Settings page
     // are defined in the SiteSettingsCategory.
 

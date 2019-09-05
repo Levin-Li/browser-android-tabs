@@ -17,12 +17,14 @@ import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 import org.chromium.chrome.browser.settings.PreferencesLauncher;
 import org.chromium.chrome.browser.settings.SettingsUtils;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Settings fragment that displays information about Chrome languages, which allow users to
  * seamlessly find and manage their languages preferences across platforms.
  */
 public class LanguagesPreferences
-        extends PreferenceFragmentCompat implements AddLanguageFragment.Launcher {
+        extends BravePreferenceFragment implements AddLanguageFragment.Launcher {
     private static final int REQUEST_CODE_ADD_LANGUAGES = 1;
 
     // The keys for each preference shown on the languages page.

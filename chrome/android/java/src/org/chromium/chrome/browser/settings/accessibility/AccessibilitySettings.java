@@ -26,12 +26,13 @@ import java.text.NumberFormat;
 
 import android.content.SharedPreferences;
 import org.chromium.base.ContextUtils;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 
 /**
  * Fragment to keep track of all the accessibility related preferences.
  */
 public class AccessibilitySettings
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceChangeListener {
+        extends BravePreferenceFragment implements Preference.OnPreferenceChangeListener {
     static final String PREF_TEXT_SCALE = "text_scale";
     static final String PREF_FORCE_ENABLE_ZOOM = "force_enable_zoom";
     static final String PREF_READER_FOR_ACCESSIBILITY = "reader_for_accessibility";

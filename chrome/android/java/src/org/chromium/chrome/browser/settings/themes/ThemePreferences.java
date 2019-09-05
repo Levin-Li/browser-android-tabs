@@ -24,10 +24,12 @@ import org.chromium.ui.UiUtils;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Fragment to manage the theme user settings.
  */
-public class ThemePreferences extends PreferenceFragmentCompat {
+public class ThemePreferences extends BravePreferenceFragment {
     /**
      * Theme preference variations. This is also used for histograms and should therefore be treated
      * as append-only. See DarkThemePreferences in tools/metrics/histograms/enums.xml.

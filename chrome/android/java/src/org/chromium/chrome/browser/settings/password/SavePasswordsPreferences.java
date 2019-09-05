@@ -42,12 +42,14 @@ import org.chromium.ui.text.SpanApplier;
 
 import java.util.Locale;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * The "Save passwords" screen in Settings, which allows the user to enable or disable password
  * saving, to view saved passwords (just the username and URL), and to delete saved passwords.
  */
 public class SavePasswordsPreferences
-        extends PreferenceFragmentCompat implements PasswordManagerHandler.PasswordListObserver,
+        extends BravePreferenceFragment implements PasswordManagerHandler.PasswordListObserver,
                                                     Preference.OnPreferenceClickListener {
     // Keys for name/password dictionaries.
     public static final String PASSWORD_LIST_URL = "url";

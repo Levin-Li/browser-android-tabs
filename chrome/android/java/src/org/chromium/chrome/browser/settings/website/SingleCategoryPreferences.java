@@ -69,13 +69,14 @@ import java.util.Map;
 import java.util.Set;
 
 import org.chromium.chrome.browser.RestartWorker;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 
 /**
  * Shows a list of sites in a particular Site Settings category. For example, this could show all
  * the websites with microphone permissions. When the user selects a site, SingleWebsitePreferences
  * is launched to allow the user to see or modify the settings for that particular website.
  */
-public class SingleCategoryPreferences extends PreferenceFragmentCompat
+public class SingleCategoryPreferences extends BravePreferenceFragment
         implements Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener,
                    AddExceptionPreference.SiteAddedCallback, View.OnClickListener,
                    PreferenceManager.OnPreferenceTreeClickListener {
@@ -404,7 +405,7 @@ public class SingleCategoryPreferences extends PreferenceFragmentCompat
             if (queryHasChanged) getInfoForOrigins();
             return true;
         }
-        return false;
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

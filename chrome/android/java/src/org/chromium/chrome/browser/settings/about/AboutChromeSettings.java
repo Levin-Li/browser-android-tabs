@@ -20,11 +20,13 @@ import org.chromium.ui.widget.Toast;
 
 import java.util.Calendar;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Settings fragment that displays information about Chrome.
  */
 public class AboutChromeSettings
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceClickListener {
+        extends BravePreferenceFragment implements Preference.OnPreferenceClickListener {
     private static final int TAPS_FOR_DEVELOPER_SETTINGS = 7;
 
     private static final String PREF_APPLICATION_VERSION = "application_version";
