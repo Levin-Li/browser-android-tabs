@@ -65,7 +65,7 @@ public class IncognitoNewTabPageView extends HistoryNavigationLayout {
         mScrollView.setBackgroundColor(
                 ApiCompatibilityUtils.getColor(getResources(), R.color.ntp_bg_incognito));
         setContentDescription(
-                getResources().getText(R.string.accessibility_new_incognito_tab_page));
+                getResources().getText(R.string.brave_new_private_tab));
 
         // FOCUS_BEFORE_DESCENDANTS is needed to support keyboard shortcuts. Otherwise, pressing
         // any shortcut causes the UrlBar to be focused. See ViewRootImpl.leaveTouchMode().

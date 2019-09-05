@@ -75,7 +75,7 @@ class BottomToolbarNewTabButton extends ChromeImageButton
     @Override
     public void onIncognitoStateChanged(boolean isIncognito) {
         @StringRes
-        int resId = isIncognito ? R.string.accessibility_toolbar_btn_new_incognito_tab
+        int resId = isIncognito ? R.string.brave_new_private_tab
                                 : R.string.accessibility_toolbar_btn_new_tab;
         setContentDescription(getResources().getText(resId));
         //updateBackground();

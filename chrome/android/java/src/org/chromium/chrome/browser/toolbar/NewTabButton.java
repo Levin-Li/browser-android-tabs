@@ -53,7 +53,7 @@ public class NewTabButton
     @Override
     public boolean onLongClick(View v) {
         CharSequence description = getResources().getString(mIsIncognito
-                        ? org.chromium.chrome.R.string.button_new_incognito_tab
+                        ? org.chromium.chrome.R.string.brave_new_private_tab
                         : org.chromium.chrome.R.string.button_new_tab);
         return Toast.showAnchoredToast(getContext(), v, description);
     }
@@ -69,7 +69,7 @@ public class NewTabButton
         mIsIncognito = isIncognito;
 
         @StringRes
-        int resId = mIsIncognito ? R.string.accessibility_toolbar_btn_new_incognito_tab
+        int resId = mIsIncognito ? R.string.brave_new_private_tab
                                  : R.string.accessibility_toolbar_btn_new_tab;
         setContentDescription(getResources().getText(resId));
 
