@@ -48,12 +48,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Preference screen that allows the user to clear browsing data.
  * The user can choose which types of data to clear (history, cookies, etc), and the time range
  * from which to clear data.
  */
-public abstract class ClearBrowsingDataPreferences extends PreferenceFragmentCompat
+public abstract class ClearBrowsingDataPreferences extends BravePreferenceFragment
         implements BrowsingDataBridge.OnClearBrowsingDataListener,
                    Preference.OnPreferenceClickListener, Preference.OnPreferenceChangeListener {
     /**

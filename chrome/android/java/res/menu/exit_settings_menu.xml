@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2019 The Brave Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/close_menu_id"
+        android:icon="@drawable/btn_close"
+        android:title="@string/settings_exit"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/standard_mode_tint" />
+</menu>

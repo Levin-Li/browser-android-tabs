@@ -1309,6 +1309,7 @@ chrome_java_sources = [
   "java/src/org/chromium/chrome/browser/upgrade/NotificationIntent.java",
   "java/src/org/chromium/chrome/browser/upgrade/NotificationUpgradeDismissedReceiver.java",
   "java/src/org/chromium/chrome/browser/preferences/developer/QAPreferences.java",
+  "java/src/org/chromium/chrome/browser/preferences/BravePreferenceFragment.java",
   "java/src/org/chromium/chrome/browser/prerender/ExternalPrerenderHandler.java",
   "java/src/org/chromium/chrome/browser/previews/PreviewsAndroidBridge.java",
   "java/src/org/chromium/chrome/browser/previews/PreviewsUma.java",

@@ -24,10 +24,12 @@ import org.chromium.chrome.browser.settings.MainPreferences;
 import org.chromium.chrome.browser.settings.ManagedPreferenceDelegate;
 import org.chromium.chrome.browser.widget.prefeditor.EditorObserverForTest;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Autofill profiles fragment, which allows the user to edit autofill profiles.
  */
-public class AutofillProfilesFragment extends PreferenceFragmentCompat
+public class AutofillProfilesFragment extends BravePreferenceFragment
         implements PersonalDataManager.PersonalDataManagerObserver {
     private static EditorObserverForTest sObserverForTest;
     static final String PREF_NEW_PROFILE = "new_profile";

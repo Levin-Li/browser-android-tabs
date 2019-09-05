@@ -21,6 +21,7 @@ import android.widget.TextView;
 import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
@@ -33,7 +34,7 @@ import org.chromium.chrome.browser.util.AccessibilityUtil;
 /**
  * Fragment to keep track of all Brave Rewards related preferences.
  */
-public class BraveRewardsPreferences extends PreferenceFragmentCompat
+public class BraveRewardsPreferences extends BravePreferenceFragment
         implements OnPreferenceChangeListener, BraveRewardsObserver {
 
     static final String PREF_RESET_REWARDS = "reset_rewards";
@@ -45,12 +46,6 @@ public class BraveRewardsPreferences extends PreferenceFragmentCompat
         super.onCreate(savedInstanceState);
         getActivity().setTitle(R.string.brave_ui_brave_rewards);
         PreferenceUtils.addPreferencesFromResource(this, R.xml.brave_rewards_preferences);
-    }
-
-
-    @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
     }
 
     @Override

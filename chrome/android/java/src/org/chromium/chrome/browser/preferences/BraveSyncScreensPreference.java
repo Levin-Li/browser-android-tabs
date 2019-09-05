@@ -76,6 +76,7 @@ import com.google.zxing.WriterException;
 import org.chromium.base.Log;
 import org.chromium.base.ThreadUtils;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.ui.base.DeviceFormFactor;
 import org.chromium.ui.KeyboardVisibilityDelegate;
 
@@ -103,7 +104,7 @@ import java.util.TimerTask;
 /**
  * Settings fragment that allows to control Sync functionality.
  */
-public class BraveSyncScreensPreference extends PreferenceFragmentCompat
+public class BraveSyncScreensPreference extends BravePreferenceFragment
       implements View.OnClickListener, Preferences.OnBackPressedListener,
                  CompoundButton.OnCheckedChangeListener, BarcodeTracker.BarcodeGraphicTrackerCallback{
 

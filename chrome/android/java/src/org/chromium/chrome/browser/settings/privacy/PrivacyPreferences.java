@@ -28,11 +28,13 @@ import org.chromium.chrome.browser.usage_stats.UsageStatsConsentDialog;
 import org.chromium.ui.text.NoUnderlineClickableSpan;
 import org.chromium.ui.text.SpanApplier;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Fragment to keep track of the all the privacy related preferences.
  */
 public class PrivacyPreferences
-        extends PreferenceFragmentCompat implements Preference.OnPreferenceChangeListener {
+        extends BravePreferenceFragment implements Preference.OnPreferenceChangeListener {
     private static final String PREF_CAN_MAKE_PAYMENT = "can_make_payment";
     private static final String PREF_NETWORK_PREDICTIONS = "preload_pages";
     private static final String PREF_USAGE_STATS = "usage_stats_reporting";    
@@ -209,14 +211,14 @@ public class PrivacyPreferences
         };
     }
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.clear();
-        // MenuItem help = menu.add(
-        //         Menu.NONE, R.id.menu_id_targeted_help, Menu.NONE, R.string.menu_help);
-        // help.setIcon(VectorDrawableCompat.create(
-        //         getResources(), R.drawable.ic_help_and_feedback, getActivity().getTheme()));
-    }
+    // @Override
+    // public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+    //     menu.clear();
+    //     MenuItem help = menu.add(
+    //             Menu.NONE, R.id.menu_id_targeted_help, Menu.NONE, R.string.menu_help);
+    //     help.setIcon(VectorDrawableCompat.create(
+    //             getResources(), R.drawable.ic_help_and_feedback, getActivity().getTheme()));
+    // }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -225,6 +227,6 @@ public class PrivacyPreferences
                     getString(R.string.help_context_privacy), Profile.getLastUsedProfile(), null);
             return true;
         }
-        return false;
+        return super.onOptionsItemSelected(item);
     }
 }

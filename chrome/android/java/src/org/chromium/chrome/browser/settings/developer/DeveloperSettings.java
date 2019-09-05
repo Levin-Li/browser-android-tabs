@@ -14,10 +14,12 @@ import org.chromium.chrome.browser.settings.SettingsUtils;
 import org.chromium.components.version_info.Channel;
 import org.chromium.components.version_info.VersionConstants;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Settings fragment containing preferences aimed at Chrome and web developers.
  */
-public class DeveloperSettings extends PreferenceFragmentCompat {
+public class DeveloperSettings extends BravePreferenceFragment {
     private static final String UI_PREF_BETA_STABLE_HINT = "beta_stable_hint";
     private static final String PREF_DEVELOPER_ENABLED = "developer";
 

@@ -310,4 +310,6 @@ content creators you love.</string>
     <string name="welcome_tour_dialog_text">Relaunching Welcome Tour will not affect any existing settings.</string>
     <string name="finish">Finish</string>
 
+    <string name="settings_exit">Settings exit</string>
+
 </resources>

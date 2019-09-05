@@ -14,6 +14,7 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.ChromeFeatureList;
@@ -27,7 +28,7 @@ import org.chromium.ui.base.DeviceFormFactor;
 /**
  * Fragment to keep track of all the display related preferences.
  */
-public class AppearancePreferences extends PreferenceFragmentCompat
+public class AppearancePreferences extends BravePreferenceFragment
         implements OnPreferenceChangeListener, BraveRewardsObserver {
 
     static final String PREF_HIDE_BRAVE_ICON = "hide_brave_rewards_icon";
