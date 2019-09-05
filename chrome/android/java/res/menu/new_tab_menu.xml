@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2019 The Brave Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file. -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+	<item android:id="@id/new_tab_menu_id"
+          android:title="@string/menu_new_tab" />
+    <item android:id="@id/new_incognito_tab_menu_id"
+          android:title="@string/brave_new_private_tab" />
+</menu>
