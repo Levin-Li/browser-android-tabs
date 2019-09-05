@@ -76,6 +76,7 @@ public class BraveSyncWorker {
     public static final String PREF_NAME = "SyncPreferences";
     private static final String PREF_LAST_FETCH_NAME = "TimeLastFetch";
     private static final String PREF_LATEST_DEVICE_RECORD_TIMESTAMPT_NAME = "LatestDeviceRecordTime";
+    private static final String PREF_LAST_TIME_SEND_NOT_SYNCED_NAME = "TimeLastSendNotSynced";
     public static final String PREF_DEVICE_ID = "DeviceId";
     public static final String PREF_BASE_ORDER = "BaseOrder";
     public static final String PREF_LAST_ORDER = "LastOrder";
@@ -85,6 +86,7 @@ public class BraveSyncWorker {
     private static final int INTERVAL_TO_FETCH_RECORDS = 1000 * 60;    // Milliseconds
     private static final int INTERVAL_TO_SEND_SYNC_RECORDS = 1000 * 60;    // Milliseconds
     private static final int INTERVAL_TO_REFETCH_RECORDS = 10000 * 60;    // Milliseconds
+    private static final Long INTERVAL_RESEND_NOT_SYNCED = 1000L * 60L * 10L; // 10 minutes
     private static final int SEND_RECORDS_COUNT_LIMIT = 1000;
     private static final int FETCH_RECORDS_CHUNK_SIZE = 300;
     private static final String PREF_SYNC_SWITCH = "sync_switch";
@@ -2016,7 +2018,27 @@ public class BraveSyncWorker {
         }
     }
 
+    void SaveLastSendNotSyncedTime(Long lastTimeSendNotSynced) {
+      SharedPreferences sharedPref = mContext.getSharedPreferences(PREF_NAME, 0);
+      SharedPreferences.Editor editor = sharedPref.edit();
+      editor.putLong(PREF_LAST_TIME_SEND_NOT_SYNCED_NAME, lastTimeSendNotSynced);
+      editor.apply();
+    }
+
+    Long LoadLastSendNotSyncedTime() {
+      SharedPreferences sharedPref = mContext.getSharedPreferences(PREF_NAME, 0);
+      Long lastSendNotSyncedTime = sharedPref.getLong(PREF_LAST_TIME_SEND_NOT_SYNCED_NAME, 0);
+      return lastSendNotSyncedTime;
+    }
+
     private void SendNotSyncedRecords() {
+        Long lastSendNotSyncedTime = LoadLastSendNotSyncedTime();
+        Long currentTime = Calendar.getInstance().getTimeInMillis();
+
+        if (currentTime - lastSendNotSyncedTime < INTERVAL_RESEND_NOT_SYNCED) {
+            return;
+        }
+        SaveLastSendNotSyncedTime(currentTime);
         synchronized (mSendSyncDataThread) {
             // Make sure we don't have pending send bookmarks operations
             if (mBulkBookmarkOperations.length() == 0 && mAttepmtsBeforeSendingNotSyncedRecords-- <= 0) {
