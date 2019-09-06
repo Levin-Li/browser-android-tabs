@@ -41,6 +41,8 @@
 
 #if BUILDFLAG(BRAVE_ADS_ENABLED) && defined(OS_ANDROID)
 #include "brave/components/brave_ads/browser/ads_service_factory.h"
+#include "base/android/application_status_listener.h"
+#include "chrome/browser/lifetime/application_lifetime_android.h"
 #endif
 
 #if defined(OS_WIN)
@@ -102,12 +104,37 @@ std::unique_ptr<NotificationPlatformBridge> CreateMessageCenterBridge(
   return nullptr;
 #endif
 }
+}  // namespace
 
-void OperationCompleted() {
+void NotificationDisplayServiceImpl::OperationCompleted(const std::string& notification_id) {
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
+  auto state = base::android::ApplicationStatusListener::GetState();
+  bool uiless = (state == base::android::ApplicationState::APPLICATION_STATE_UNKNOWN ||
+      state == base::android::ApplicationState::APPLICATION_STATE_HAS_DESTROYED_ACTIVITIES);
+
+  if (uiless && last_dismissed_notification_id_ == notification_id){
+    last_dismissed_notification_id_ = "";
+    //wait for 30 sec and close the browser
+    no_ui_shutdown_timer_.Start(FROM_HERE,
+                          base::TimeDelta::FromSeconds(kWaitBeforeShutdownWhenRunHeadless),
+                          this,
+                          &NotificationDisplayServiceImpl::ShutdownTimerCallback);
+  }
 }
 
-}  // namespace
+void NotificationDisplayServiceImpl::ShutdownTimerCallback(){
+  //Check if browser runs without UI and close it.
+  //If during shutdown a new notification event arrives-
+  //timer is stopped in ProcessNotificationOperation
+#if defined(OS_ANDROID)
+  auto state = base::android::ApplicationStatusListener::GetState();
+  bool uiless = (state == base::android::ApplicationState::APPLICATION_STATE_UNKNOWN ||
+      state == base::android::ApplicationState::APPLICATION_STATE_HAS_DESTROYED_ACTIVITIES);
+  if (uiless) {
+    chrome::TerminateAndroid();
+  }
+#endif
+}
 
 // static
 NotificationDisplayServiceImpl* NotificationDisplayServiceImpl::GetForProfile(
@@ -183,26 +210,40 @@ void NotificationDisplayServiceImpl::ProcessNotificationOperation(
     return;
   }
 
+  no_ui_shutdown_timer_.Stop();
+
   // TODO(crbug.com/766854): Plumb this through from the notification platform
   // bridges so they can report completion of the operation as needed.
-  base::OnceClosure completed_closure = base::BindOnce(&OperationCompleted);
+  base::OnceClosure completed_closure = base::BindOnce(&NotificationDisplayServiceImpl::OperationCompleted,
+      base::Unretained(this), notification_id);
 
+  base::OnceClosure notification_handler;
   switch (operation) {
     case NotificationCommon::OPERATION_CLICK:
-      handler->OnClick(profile_, origin, notification_id, action_index, reply,
-                       std::move(completed_closure));
+      notification_handler = base::BindOnce(&NotificationHandler::OnClick,  base::Unretained(handler),
+          profile_, origin, notification_id, action_index, reply,std::move(completed_closure) );
       break;
     case NotificationCommon::OPERATION_CLOSE:
       DCHECK(by_user.has_value());
-      handler->OnClose(profile_, origin, notification_id, by_user.value(),
-                       std::move(completed_closure));
+      //save last dismissed notification id
+      last_dismissed_notification_id_ = notification_id;
+      notification_handler = base::BindOnce(&NotificationHandler::OnClose,  base::Unretained(handler),
+          profile_, origin, notification_id, by_user.value(), std::move(completed_closure));
       break;
     case NotificationCommon::OPERATION_DISABLE_PERMISSION:
-      handler->DisableNotifications(profile_, origin);
+      notification_handler = base::BindOnce(&NotificationHandler::DisableNotifications,  base::Unretained(handler),
+          profile_, origin);
       break;
     case NotificationCommon::OPERATION_SETTINGS:
-      handler->OpenSettings(profile_, origin);
+      notification_handler = base::BindOnce(&NotificationHandler::OpenSettings,  base::Unretained(handler),
+          profile_, origin);
       break;
+  }
+  if (brave_ads_initialized_ && !notification_handler.is_null()) {
+    std::move(notification_handler).Run();
+  }
+  else {
+    brave_ads_actions_.push(std::move(notification_handler));
   }
 }
 
@@ -358,3 +399,21 @@ void NotificationDisplayServiceImpl::OnNotificationPlatformBridgeReady(
     actions_.pop();
   }
 }
+
+
+void NotificationDisplayServiceImpl::OnBraveAdsServiceReady(
+    bool success) {
+  DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
+  brave_ads_initialized_ = success;
+  if (!brave_ads_initialized_) {
+    LOG(WARNING) << "Brave ads service failed to initialize";
+  }
+  else {
+    // Flush any pending actions that have yet to execute.
+    while (!brave_ads_actions_.empty()) {
+      std::move(brave_ads_actions_.front()).Run();
+      brave_ads_actions_.pop();
+    }
+  }
+}
+

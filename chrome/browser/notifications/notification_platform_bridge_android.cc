@@ -36,6 +36,9 @@
 #include "ui/gfx/image/image.h"
 #include "ui/message_center/public/cpp/notification.h"
 
+//using kBraveAdsUrlPrefix
+#include "brave/components/brave_ads/browser/ad_notification.h"
+
 using base::android::AttachCurrentThread;
 using base::android::ConvertJavaStringToUTF8;
 using base::android::ConvertJavaStringToUTF16;
@@ -322,16 +325,42 @@ void NotificationPlatformBridgeAndroid::Display(
 void NotificationPlatformBridgeAndroid::Close(
     Profile* profile,
     const std::string& notification_id) {
-  const auto iterator = regenerated_notification_infos_.find(notification_id);
-  if (iterator == regenerated_notification_infos_.end())
-    return;
 
-  const RegeneratedNotificationInfo& notification_info = iterator->second;
+  //we might want to close Brave ads notification from `bat-native-ads` service
+  //between sessions and regenerated_notification_infos_ possibly was purged
+  //already, so we need a way to identify a Brave ad.
+  std::string braveAdsUrlPrefix(brave_ads::kBraveAdsUrlPrefix);
+  std::string local_notification_id;
+
+  bool brave_ads_notification = (std::string::npos != notification_id.find(braveAdsUrlPrefix));
+  if (brave_ads_notification){
+    local_notification_id = notification_id.substr(braveAdsUrlPrefix.size());
+  }
+  else{
+    local_notification_id = notification_id;
+  }
+  RegeneratedNotificationInfo notification_info;
+  const auto iterator = regenerated_notification_infos_.find(local_notification_id);
+  if (iterator == regenerated_notification_infos_.end()) {
+    if (!brave_ads_notification){
+      return;
+    }
+    else {
+      //it's a Brave ad and regenerated_notification_infos_ info was lost.
+      //remove last parameters separator
+      std::string brave_pref = braveAdsUrlPrefix.substr(0, braveAdsUrlPrefix.size()-1);
+      notification_info.service_worker_scope =
+          GURL(brave_pref);
+    }
+  }
+  else {
+    notification_info = iterator->second;
+  }
 
   JNIEnv* env = AttachCurrentThread();
 
   ScopedJavaLocalRef<jstring> j_notification_id =
-      ConvertUTF8ToJavaString(env, notification_id);
+      ConvertUTF8ToJavaString(env, local_notification_id);
 
   GURL scope_url(
       notification_info.service_worker_scope.possibly_invalid_spec());
@@ -345,7 +374,8 @@ void NotificationPlatformBridgeAndroid::Close(
   ScopedJavaLocalRef<jstring> j_webapk_package =
       ConvertUTF8ToJavaString(env, webapk_package);
 
-  regenerated_notification_infos_.erase(iterator);
+  if (iterator != regenerated_notification_infos_.end())
+    regenerated_notification_infos_.erase(iterator);
 
   Java_NotificationPlatformBridge_closeNotification(
       env, java_object_, j_notification_id, j_scope_url,
