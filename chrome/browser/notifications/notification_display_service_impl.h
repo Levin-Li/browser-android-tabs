@@ -13,6 +13,7 @@
 #include "base/memory/weak_ptr.h"
 #include "base/optional.h"
 #include "base/strings/string16.h"
+#include "base/timer/timer.h"
 #include "chrome/browser/notifications/notification_common.h"
 #include "chrome/browser/notifications/notification_display_service.h"
 #include "chrome/browser/notifications/notification_handler.h"
@@ -80,9 +81,26 @@ class NotificationDisplayServiceImpl : public NotificationDisplayService {
                                     const base::Optional<bool>& by_user,
                                     Profile* profile);
 
+  // Called when the Brave Ads Serevice may have been initialized.
+  void OnBraveAdsServiceReady(bool success);
  private:
   // Called when the NotificationPlatformBridge may have been initialized.
   void OnNotificationPlatformBridgeReady(bool success);
+
+  //callback from Brave Ads service
+  void OperationCompleted(const std::string& notification_id);
+
+  //shutdown timer callback if running without UI
+  void ShutdownTimerCallback();
+
+  //id of the last dismissed notification passed to Brave ads service
+  std::string last_dismissed_notification_id_;
+
+  //timer to wait before shutdwon when running UI-less
+  base::OneShotTimer no_ui_shutdown_timer_;
+
+  //wait before shutdown if running headless
+  const int64_t kWaitBeforeShutdownWhenRunHeadless = 60; //sec
 
   Profile* profile_;
 
@@ -94,8 +112,14 @@ class NotificationDisplayServiceImpl : public NotificationDisplayService {
   // Tasks that need to be run once the display bridge has been initialized.
   base::queue<base::OnceClosure> actions_;
 
+  // Tasks that need to be run once the Brave Ads has been initialized.
+  base::queue<base::OnceClosure> brave_ads_actions_;
+
   // Boolean tracking whether the |bridge_| has been initialized for use.
   bool bridge_initialized_ = false;
+
+  // Boolean tracking whether the Brave ads service has been initialized for use.
+  bool brave_ads_initialized_ = false;
 
   // Map containing the notification handlers responsible for processing events.
   std::map<NotificationHandler::Type, std::unique_ptr<NotificationHandler>>
