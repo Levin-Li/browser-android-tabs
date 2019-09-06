@@ -159,8 +159,8 @@ public class StatsUpdater {
                         ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SET_DDG_SE, false).apply();
                         ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SHOW_DDG_OFFER, false).apply();
                         ThreadUtils.runOnUiThread(() -> {
-                            TemplateUrlService.getInstance().setSearchEngine(TemplateUrlService.DDG_SE_NAME, TemplateUrlService.DDG_SE_KEYWORD, true);
-                            TemplateUrlService.getInstance().setSearchEngine(TemplateUrlService.DDG_SE_NAME, TemplateUrlService.DDG_SE_KEYWORD, false);
+                            TemplateUrlServiceFactory.get().setSearchEngine(TemplateUrlService.DDG_SE_NAME, TemplateUrlService.DDG_SE_KEYWORD, true);
+                            TemplateUrlServiceFactory.get().setSearchEngine(TemplateUrlService.DDG_SE_NAME, TemplateUrlService.DDG_SE_KEYWORD, false);
                         });
                     }
                 }

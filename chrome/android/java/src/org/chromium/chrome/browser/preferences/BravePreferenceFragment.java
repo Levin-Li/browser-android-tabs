@@ -38,4 +38,8 @@ public class BravePreferenceFragment extends PreferenceFragmentCompat {
         }
         return false;
     }
+
+    @Override
+    public void onCreatePreferences(Bundle bundle, String s) {
+    }
 }
