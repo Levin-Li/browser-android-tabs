@@ -25,7 +25,7 @@ jboolean JNI_BraveAdsNativeHelper_IsBraveAdsEnabled(
     return false;
   }
 
-  return ads_service_->IsAdsEnabled();
+  return ads_service_->IsEnabled();
 }
 
 jboolean JNI_BraveAdsNativeHelper_IsLocaleValid(
@@ -49,7 +49,7 @@ void JNI_BraveAdsNativeHelper_SetAdsEnabled(
     return;
   }
 
-  ads_service_->SetAdsEnabled(true);
+  ads_service_->SetEnabled(true);
 }
 
 base::android::ScopedJavaLocalRef<jstring> JNI_BraveAdsNativeHelper_GetCountryCode(
