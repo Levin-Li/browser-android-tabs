@@ -13,6 +13,7 @@
 #include "chrome/browser/profiles/profile_manager.h"
 #include "content/public/browser/url_data_source.h"
 #include "chrome/android/chrome_jni_headers/BraveRewardsNativeWorker_jni.h"
+#include "brave/vendor/bat-native-ledger/include/bat/ledger/wallet_properties.h"
 
 namespace chrome {
 namespace android {
@@ -176,7 +177,7 @@ bool BraveRewardsNativeWorker::GetPublisherVerified(JNIEnv* env,
 
   PublishersInfoMap::const_iterator iter(map_publishers_info_.find(tabId));
   if (iter != map_publishers_info_.end()) {
-    res = iter->second->verified;
+    res = ((uint32_t)iter->second->status == (uint32_t)ledger::WalletStatus::VERIFIED);
   }
 
   return res;
@@ -292,8 +293,6 @@ void BraveRewardsNativeWorker::OnGetCurrentBalanceReport(
         brave_rewards::RewardsService* rewards_service,
         const brave_rewards::BalanceReport& balance_report) {
   std::vector<std::string> values;
-  values.push_back(balance_report.opening_balance);
-  values.push_back(balance_report.closing_balance);
   values.push_back(balance_report.deposits);
   values.push_back(balance_report.grants);
   values.push_back(balance_report.earning_from_ads);
