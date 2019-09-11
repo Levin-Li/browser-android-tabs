@@ -63,14 +63,18 @@ public class BraveShieldsOnboardingFragment extends Fragment {
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onViewPagerAction.onSkip();
+                assert onViewPagerAction != null;
+                if (onViewPagerAction != null)
+                    onViewPagerAction.onSkip();
             }
         });
 
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onViewPagerAction.onNext();
+                assert onViewPagerAction != null;
+                if (onViewPagerAction != null)
+                    onViewPagerAction.onNext();
             }
         });
     }

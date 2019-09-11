@@ -91,7 +91,7 @@ public class SearchEngineOnboardingFragment extends Fragment{
             }
         }
 
-        if (OnboardingPrefManager.searchEngineMap.get(defaultSearchEngineTemplateUrl.getShortName()) != null)
+        if (defaultSearchEngineTemplateUrl != null && OnboardingPrefManager.searchEngineMap.get(defaultSearchEngineTemplateUrl.getShortName()) != null)
             radioGroup.check(OnboardingPrefManager.searchEngineMap.get(defaultSearchEngineTemplateUrl.getShortName()).getId());
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -122,7 +122,9 @@ public class SearchEngineOnboardingFragment extends Fragment{
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                onViewPagerAction.onSkip();
+                assert onViewPagerAction != null;
+                if (onViewPagerAction != null)
+                    onViewPagerAction.onSkip();
             }
         });
 
@@ -130,14 +132,16 @@ public class SearchEngineOnboardingFragment extends Fragment{
             @Override
             public void onClick(View view) {
 
-                if(!fromSettings) {
+                if(!fromSettings && selectedSearchEngine != null) {
                     String keyword = selectedSearchEngine.getKeyword();
                     String name = selectedSearchEngine.getShortName();
                     TemplateUrlServiceFactory.get().setSearchEngine(name, keyword, false);
                     TemplateUrlServiceFactory.get().setSearchEngine(name, keyword, true);
                 }
 
-                onViewPagerAction.onNext();
+                assert onViewPagerAction != null;
+                if (onViewPagerAction != null)
+                    onViewPagerAction.onNext();
             }
         });
     }
