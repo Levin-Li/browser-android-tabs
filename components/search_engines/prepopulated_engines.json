@@ -102,6 +102,30 @@
       "id": 92
     },
 
+    // Added `duckduckgo_ed` for new search_url for Australia, New Zealand and Ireland regions
+    "duckduckgo_ed": {
+      "name": "DuckDuckGo",
+      "keyword": "duckduckgo.com",
+      "favicon_url": "https://duckduckgo.com/favicon.ico",
+      "search_url": "https://duckduckgo.com/?q={searchTerms}&t=braveed",
+      "suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
+      "new_tab_url": "https://duckduckgo.com/chrome_newtab",
+      "type": "SEARCH_ENGINE_DUCKDUCKGO",
+      "id": 93
+    },
+
+    // Added `duckduckgo_ned` for new search_url for Germany region
+    "duckduckgo_ned": {
+      "name": "DuckDuckGo",
+      "keyword": "duckduckgo.com",
+      "favicon_url": "https://duckduckgo.com/favicon.ico",
+      "search_url": "https://duckduckgo.com/?q={searchTerms}&t=bravened",
+      "suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
+      "new_tab_url": "https://duckduckgo.com/chrome_newtab",
+      "type": "SEARCH_ENGINE_DUCKDUCKGO",
+      "id": 94
+    },
+
     "duckduckgo_light": {
       "name": "DuckDuckGo Lite",
       "keyword": "duckduckgo.com/lite",
