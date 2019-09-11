@@ -91,7 +91,7 @@ const PrepopulatedEngine* const engines_AT[] = {
 const PrepopulatedEngine* const engines_AU[] = {
     &google,
     &bing,
-    &duckduckgo,
+    &duckduckgo_ed,
     &duckduckgo_light,
     &qwant,
     &startpage,
@@ -289,7 +289,7 @@ const PrepopulatedEngine* const engines_CZ[] = {
 const PrepopulatedEngine* const engines_DE[] = {
     &google,
     &bing,
-    &duckduckgo,
+    &duckduckgo_ned,
     &duckduckgo_light,
     &qwant,
     &startpage,
@@ -498,7 +498,7 @@ const PrepopulatedEngine* const engines_ID[] = {
 const PrepopulatedEngine* const engines_IE[] = {
     &google,
     &bing,
-    &duckduckgo,
+    &duckduckgo_ed,
     &duckduckgo_light,
     &qwant,
     &startpage,
@@ -828,7 +828,7 @@ const PrepopulatedEngine* const engines_NO[] = {
 const PrepopulatedEngine* const engines_NZ[] = {
     &google,
     &bing,
-    &duckduckgo,
+    &duckduckgo_ed,
     &duckduckgo_light,
     &qwant,
     &startpage,
