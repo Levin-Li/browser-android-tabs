@@ -13,6 +13,8 @@ import org.chromium.chrome.browser.BraveRewardsObserver;
 
 public class BraveRewardsService extends Service implements BraveRewardsObserver{
 
+    private static String TAG = "BraveRewardsService";
+
     private Context context;
 
     private BraveRewardsNativeWorker mBraveRewardsNativeWorker;
@@ -36,10 +38,15 @@ public class BraveRewardsService extends Service implements BraveRewardsObserver
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        mBraveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
-        if (mBraveRewardsNativeWorker != null) {
-            mBraveRewardsNativeWorker.AddObserver(this);
-            mBraveRewardsNativeWorker.CreateWallet();
+        try {
+            mBraveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
+            if (mBraveRewardsNativeWorker != null) {
+                mBraveRewardsNativeWorker.AddObserver(this);
+                mBraveRewardsNativeWorker.CreateWallet();
+            }
+        } catch (UnsatisfiedLinkError error) {
+            Log.e(TAG, error.getMessage());
+            assert false;
         }
 
         return START_STICKY;
