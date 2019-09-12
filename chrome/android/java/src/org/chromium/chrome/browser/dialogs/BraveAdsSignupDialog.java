@@ -32,6 +32,7 @@ import org.chromium.chrome.browser.notifications.BraveOnboardingNotification;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.util.PackageUtils;
 import org.chromium.chrome.browser.onboarding.OnboardingPrefManager;
+import org.chromium.chrome.browser.preferences.BraveRewardsPreferences;
 
 public class BraveAdsSignupDialog {
 
@@ -88,6 +89,11 @@ public class BraveAdsSignupDialog {
     @CalledByNative
     public static void enqueueOobeNotificationNative() {
         enqueueOobeNotification(ContextUtils.getApplicationContext());
+    }
+
+    @CalledByNative
+    public static boolean showAdsInBackground() {
+        return BraveRewardsPreferences.getPrefAdsInBackgroundEnabled();
     }
 
     private static void enqueueOobeNotification(Context context) {
