@@ -51,7 +51,7 @@ public class OnboardingPrefManager {
 
     private static final List<String> adsAvailableRegions = Arrays.asList("US","CA","NZ","IE","AU","CA","FR","GB","DE");
 
-    private static final List<String> newAdsAvailableRegions = Arrays.asList("NZ","IE","AU");
+    private static final List<String> newAdsAvailableRegions = Arrays.asList(); //Add country code for new ad regions in the list
 
     private static final String GOOGLE = "Google";
     private static final String DUCKDUCKGO = "DuckDuckGo";
@@ -186,8 +186,6 @@ public class OnboardingPrefManager {
               onboardingType = EXISTING_USER_REWARDS_OFF_ONBOARDING;
           }else if(shouldShowExistingUserOnboardingIfRewardsIsSwitchedOn(context)){
               onboardingType = EXISTING_USER_REWARDS_ON_ONBOARDING;
-          } else {
-
           }
         }
 
