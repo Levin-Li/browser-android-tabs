@@ -45,11 +45,13 @@ import org.chromium.content_public.browser.UiThreadTaskTraits;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Settings fragment to customize Sync options (data types, encryption). Can be accessed from
  * {@link SyncAndServicesPreferences}.
  */
-public class ManageSyncPreferences extends PreferenceFragmentCompat
+public class ManageSyncPreferences extends BravePreferenceFragment
         implements PassphraseDialogFragment.Listener, PassphraseCreationDialogFragment.Listener,
                    PassphraseTypeDialogFragment.Listener, Preference.OnPreferenceChangeListener,
                    ProfileSyncService.SyncStateChangedListener {

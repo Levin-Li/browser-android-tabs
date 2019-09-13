@@ -73,10 +73,12 @@ import org.chromium.ui.widget.ButtonCompat;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Settings fragment to enable Sync and other services that communicate with Google.
  */
-public class SyncAndServicesPreferences extends PreferenceFragmentCompat
+public class SyncAndServicesPreferences extends BravePreferenceFragment
         implements PassphraseDialogFragment.Listener, Preference.OnPreferenceChangeListener,
                    ProfileSyncService.SyncStateChangedListener,
                    SettingsActivity.OnBackPressedListener {

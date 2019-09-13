@@ -52,6 +52,8 @@ import org.chromium.components.signin.metrics.SignoutReason;
 
 import java.util.List;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * The settings screen with information and settings related to the user's accounts.
  *
@@ -61,7 +63,7 @@ import java.util.List;
  *
  * Note: This can be triggered from a web page, e.g. a GAIA sign-in page.
  */
-public class AccountManagementFragment extends PreferenceFragmentCompat
+public class AccountManagementFragment extends BravePreferenceFragment
         implements SignOutDialogListener, SignInStateObserver, ProfileDataCache.Observer {
     private static final String TAG = "AcctManagementPref";
 

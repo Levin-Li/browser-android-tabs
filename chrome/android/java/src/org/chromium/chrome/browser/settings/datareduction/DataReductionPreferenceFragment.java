@@ -30,10 +30,12 @@ import org.chromium.chrome.browser.util.IntentUtils;
 import java.text.NumberFormat;
 import java.util.Locale;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Settings fragment that allows the user to configure Data Saver.
  */
-public class DataReductionPreferenceFragment extends PreferenceFragmentCompat {
+public class DataReductionPreferenceFragment extends BravePreferenceFragment {
     public static final String FROM_MAIN_MENU = "FromMainMenu";
 
     public static final String PREF_DATA_REDUCTION_SWITCH = "data_reduction_switch";
