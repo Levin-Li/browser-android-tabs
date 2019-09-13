@@ -23,10 +23,12 @@ import org.chromium.chrome.browser.settings.TextMessagePreference;
 
 import java.util.Map;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Preference fragment to allow users to control use of the Android payment apps on device.
  */
-public class AndroidPaymentAppsFragment extends PreferenceFragmentCompat {
+public class AndroidPaymentAppsFragment extends BravePreferenceFragment {
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         getActivity().setTitle(R.string.payment_apps_title);

@@ -52,10 +52,12 @@ import org.chromium.chrome.browser.onboarding.OnboardingPrefManager;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * The main settings screen, shown when the user first opens Settings.
  */
-public class MainPreferences extends PreferenceFragmentCompat
+public class MainPreferences extends BravePreferenceFragment
         implements TemplateUrlService.LoadListener, ProfileSyncService.SyncStateChangedListener,
                    SigninManager.SignInStateObserver {
     // public static final String PREF_ACCOUNT_SECTION = "account_section";

@@ -10,10 +10,12 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.settings.SettingsUtils;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Fragment to display legal information about Chrome.
  */
-public class LegalInformationSettings extends PreferenceFragmentCompat {
+public class LegalInformationSettings extends BravePreferenceFragment {
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String s) {
         SettingsUtils.addPreferencesFromResource(this, R.xml.legal_information_preferences);

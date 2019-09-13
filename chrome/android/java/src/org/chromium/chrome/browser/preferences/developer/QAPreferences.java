@@ -31,12 +31,13 @@ import org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat;
 import org.chromium.chrome.browser.preferences.PreferenceUtils;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.RestartWorker;
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 
 import org.chromium.base.Log;
 /**
  * Settings fragment containing preferences for QA team.
  */
-public class QAPreferences extends PreferenceFragmentCompat
+public class QAPreferences extends BravePreferenceFragment
         implements OnPreferenceChangeListener, OnPreferenceClickListener, BraveRewardsObserver {
     private static final String PREF_USE_REWARDS_STAGING_SERVER = "use_rewards_staging_server";
     private static final String PREF_WALLET_BAT = "wallet_bat";

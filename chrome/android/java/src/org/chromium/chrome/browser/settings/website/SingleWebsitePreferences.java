@@ -41,10 +41,12 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Shows the permissions and other settings for a particular website.
  */
-public class SingleWebsitePreferences extends PreferenceFragmentCompat
+public class SingleWebsitePreferences extends BravePreferenceFragment
         implements Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener {
     // SingleWebsitePreferences expects either EXTRA_SITE (a Website) or
     // EXTRA_SITE_ADDRESS (a WebsiteAddress) to be present (but not both). If

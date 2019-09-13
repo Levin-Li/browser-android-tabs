@@ -25,11 +25,13 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
+import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+
 /**
  * Settings fragment that shows options for recording a performance trace.
  */
 public class TracingSettings
-        extends PreferenceFragmentCompat implements TracingController.Observer {
+        extends BravePreferenceFragment implements TracingController.Observer {
     static final String NON_DEFAULT_CATEGORY_PREFIX = "disabled-by-default-";
 
     @VisibleForTesting
