@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.3.2](https://github.com/brave/browser-android-tabs/releases/tag/v1.3.2)
+ 
+ - Fixed ad notifications not being delivered on new installs in certain cases. ([#2046](https://github.com/brave/browser-android-tabs/issues/2046))
+ - Updated Brave ads delivery policy. ([#1913](https://github.com/brave/browser-android-tabs/issues/1913))
+
 ## [1.3.1](https://github.com/brave/browser-android-tabs/releases/tag/v1.3.1)
  
  - Implemented onboarding flow for new users. ([#1992](https://github.com/brave/browser-android-tabs/issues/1992))
