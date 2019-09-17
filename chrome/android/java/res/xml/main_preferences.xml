@@ -70,10 +70,14 @@
         android:order="12"
         android:title="@string/options_homepage_title"/>
     <Preference
+        android:key="welcome_tour"
+        android:order="13"
+        android:title="@string/prefs_welcome_tour"/>
+    <!-- <Preference
         android:fragment="org.chromium.chrome.browser.settings.themes.ThemePreferences"
         android:key="ui_theme"
         android:order="14"
-        android:title="@string/prefs_themes" />
+        android:title="@string/prefs_themes" /> -->
 
     <PreferenceCategory
         android:key="display_section"

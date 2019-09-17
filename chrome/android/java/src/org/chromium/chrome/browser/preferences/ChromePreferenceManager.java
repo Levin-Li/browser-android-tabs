@@ -280,4 +280,16 @@ public class ChromePreferenceManager {
     public boolean useCustomTabs() {
         return mSharedPreferences.getBoolean(USE_CUSTOM_TABS, true);
     }
+
+    /**
+     * Reads the given int value from the named shared preference.
+     * @param key The name of the preference to return.
+     * @param defaultValue default value for the preference.
+     * @return The value of the preference.
+     */
+    public int readInt(String key, int defaultValue) {
+        try (StrictModeContext unused = StrictModeContext.allowDiskReads()) {
+            return mSharedPreferences.getInt(key, defaultValue);
+        }
+    }
 }
