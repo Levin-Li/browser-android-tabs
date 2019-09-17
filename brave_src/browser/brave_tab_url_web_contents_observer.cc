@@ -53,9 +53,9 @@ using content::WebContents;
 namespace brave {
 
 base::Lock BraveTabUrlWebContentsObserver::frame_data_map_lock_;
-std::map<BraveTabUrlWebContentsObserver::RenderFrameIdKey, GURL>
+std::map<BraveTabUrlWebContentsObserver::RenderFrameIdKey, TabProperties>
     BraveTabUrlWebContentsObserver::frame_key_to_tab_url_;
-std::map<int, GURL>
+std::map<int, TabProperties>
     BraveTabUrlWebContentsObserver::frame_tree_node_id_to_tab_url_;
 
 BraveTabUrlWebContentsObserver::RenderFrameIdKey::RenderFrameIdKey()
@@ -96,9 +96,13 @@ void BraveTabUrlWebContentsObserver::RenderFrameCreated(
 
     base::AutoLock lock(frame_data_map_lock_);
     const RenderFrameIdKey key(rfh->GetProcess()->GetID(), rfh->GetRoutingID());
-    frame_key_to_tab_url_[key] = web_contents->GetURL();
-    frame_tree_node_id_to_tab_url_[rfh->GetFrameTreeNodeId()] =
-        web_contents->GetURL();
+    TabProperties tab_prop;
+    tab_prop.tab_url = web_contents->GetURL();
+    tab_prop.is_incognito = web_contents->GetBrowserContext() ?
+                              web_contents->GetBrowserContext()->IsOffTheRecord() :
+                              false;
+    frame_key_to_tab_url_[key] = tab_prop;
+    frame_tree_node_id_to_tab_url_[rfh->GetFrameTreeNodeId()] = tab_prop;
   }
 }
 
@@ -131,12 +135,17 @@ void BraveTabUrlWebContentsObserver::DidFinishNavigation(
   int tree_node_id = main_frame->GetFrameTreeNodeId();
 
   base::AutoLock lock(frame_data_map_lock_);
-  frame_key_to_tab_url_[{process_id, routing_id}] = web_contents()->GetURL();
-  frame_tree_node_id_to_tab_url_[tree_node_id] = web_contents()->GetURL();
+  TabProperties tab_prop;
+  tab_prop.tab_url = web_contents()->GetURL();
+  tab_prop.is_incognito = web_contents()->GetBrowserContext() ?
+                            web_contents()->GetBrowserContext()->IsOffTheRecord() :
+                            false;
+  frame_key_to_tab_url_[{process_id, routing_id}] = tab_prop;
+  frame_tree_node_id_to_tab_url_[tree_node_id] = tab_prop;
 }
 
 // static
-GURL BraveTabUrlWebContentsObserver::GetTabURLFromRenderFrameInfo(
+TabProperties BraveTabUrlWebContentsObserver::GetTabPropertiesFromRenderFrameInfo(
     int render_process_id, int render_frame_id, int render_frame_tree_node_id) {
   base::AutoLock lock(frame_data_map_lock_);
   if (-1 != render_process_id && -1 != render_frame_id) {
@@ -152,7 +161,7 @@ GURL BraveTabUrlWebContentsObserver::GetTabURLFromRenderFrameInfo(
       return iter2->second;
     }
   }
-  return GURL();
+  return TabProperties();
 }
 
 WEB_CONTENTS_USER_DATA_KEY_IMPL(BraveTabUrlWebContentsObserver)

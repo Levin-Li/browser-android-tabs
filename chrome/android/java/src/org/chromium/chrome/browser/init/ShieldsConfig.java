@@ -32,6 +32,7 @@ import org.chromium.chrome.browser.tabmodel.TabModelSelectorTabObserver;
 public class ShieldsConfig {
 
     private static final String PREF_AD_BLOCK = "ad_block";
+    private static final String PREF_AD_BLOCK_REGIONAL = "ad_block_regional";
     private static final String PREF_TRACKERS_BLOCKED_COUNT = "trackers_blocked_count";
     private static final String PREF_ADS_BLOCKED_COUNT = "ads_blocked_count";
     private static final String PREF_HTTPS_UPGRADES_COUNT = "https_upgrades_count";
@@ -552,6 +553,21 @@ public class ShieldsConfig {
 
     public void setTabModelSelectorTabObserver(TabModelSelectorTabObserver tabModelSelectorTabObserver) {
         mTabModelSelectorTabObserver = tabModelSelectorTabObserver;
+    }
+
+    @CalledByNative
+    public boolean getPrivacyAdBlock() {
+        return mSharedPreferences.getBoolean(PREF_AD_BLOCK, true);
+    }
+
+    @CalledByNative
+    public boolean getPrivacyAdBlockRegional() {
+        return mSharedPreferences.getBoolean(PREF_AD_BLOCK_REGIONAL, true);
+    }
+
+    @CalledByNative
+    public boolean getPrivacyHTTPSE() {
+        return mSharedPreferences.getBoolean(PREF_HTTPSE, true);
     }
 
     @CalledByNative
