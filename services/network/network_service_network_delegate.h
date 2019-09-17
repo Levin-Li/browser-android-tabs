@@ -13,8 +13,19 @@
 #include "net/base/completion_once_callback.h"
 #include "net/base/network_delegate_impl.h"
 #include "services/network/network_context.h"
+#include "components/prefs/pref_member.h"
+
+namespace net {
+class URLRequest;
+namespace blockers {
+class BlockersWorker;
+class ShieldsConfig;
+}
+}
 
 namespace network {
+
+struct OnBeforeURLRequestContext;
 
 // TODO(mmenke):  Look into merging this with URLLoader, and removing the
 // NetworkDelegate interface.
@@ -83,6 +94,45 @@ class COMPONENT_EXPORT(NETWORK_SERVICE) NetworkServiceNetworkDelegate
   bool OnCanUseReportingClient(const url::Origin& origin,
                                const GURL& endpoint) const override;
 
+  int OnBeforeURLRequest(net::URLRequest* request,
+                         net::CompletionOnceCallback callback,
+                         GURL* new_url,
+                         bool call_callback) override;
+  int OnBeforeURLRequest_PreBlockersWork(
+            net::URLRequest* request,
+            net::CompletionOnceCallback callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_AdBlockPreFileWork(
+            net::URLRequest* request,
+            net::CompletionOnceCallback callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  void OnBeforeURLRequest_AdBlockFileWork(std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_AdBlockPostFileWork(
+            net::URLRequest* request,
+            net::CompletionOnceCallback callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_HttpsePreFileWork(
+            net::URLRequest* request,
+            net::CompletionOnceCallback callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  void OnBeforeURLRequest_HttpseFileWork(
+            net::URLRequest* request,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_HttpsePostFileWork(
+            net::URLRequest* request,
+            net::CompletionOnceCallback callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+  int OnBeforeURLRequest_PostBlockers(
+            net::URLRequest* request,
+            net::CompletionOnceCallback callback,
+            GURL* new_url,
+            std::shared_ptr<OnBeforeURLRequestContext> ctx);
+
   int HandleClearSiteDataHeader(
       net::URLRequest* request,
       net::CompletionOnceCallback callback,
@@ -106,6 +156,10 @@ class COMPONENT_EXPORT(NETWORK_SERVICE) NetworkServiceNetworkDelegate
   bool validate_referrer_policy_on_initial_request_;
   mojo::Remote<mojom::ProxyErrorClient> proxy_error_client_;
   NetworkContext* network_context_;
+
+  std::shared_ptr<net::blockers::BlockersWorker> blockers_worker_;
+  // (TODO)find a better way to handle last first party
+  GURL last_first_party_url_;
 
   mutable base::WeakPtrFactory<NetworkServiceNetworkDelegate> weak_ptr_factory_{
       this};

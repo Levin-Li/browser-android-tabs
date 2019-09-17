@@ -240,6 +240,7 @@ jumbo_component("network_service") {
     "//services/service_manager/sandbox:sandbox",
     "//third_party/webrtc_overrides:webrtc_component",
     "//url",
+    "//skia",
   ]
 
   public_deps = [

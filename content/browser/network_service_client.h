@@ -91,7 +91,10 @@ class CONTENT_EXPORT NetworkServiceClient
   // net::NetworkChangeNotifier::DNSObserver implementation:
   void OnDNSChanged() override;
 #endif
-
+  void OnNotifyLedger(
+        const GURL& url, const std::string& urlQuery,
+        const GURL& last_first_party_url, const std::string& referrer,
+        int32_t process_id, int32_t routing_id) override;
  private:
   mojo::Receiver<network::mojom::NetworkServiceClient> receiver_;
 

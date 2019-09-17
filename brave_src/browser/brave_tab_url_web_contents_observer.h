@@ -18,6 +18,11 @@ class PrefRegistrySimple;
 
 namespace brave {
 
+struct TabProperties {
+  GURL tab_url;
+  bool is_incognito;
+};
+
 // Taken from brave-core/components/brave_shields/browser/brave_shields_web_contents_observer.h
 // TODO(alexeyb) on merge browser-android-tabs and brave-core either keep this
 // or re-use BraveShieldsWebContentsObserver with a ton of
@@ -28,7 +33,7 @@ class BraveTabUrlWebContentsObserver : public content::WebContentsObserver,
   BraveTabUrlWebContentsObserver(content::WebContents*);
   ~BraveTabUrlWebContentsObserver() override;
 
-  static GURL GetTabURLFromRenderFrameInfo(int render_process_id,
+  static TabProperties GetTabPropertiesFromRenderFrameInfo(int render_process_id,
                                            int render_frame_id,
                                            int render_frame_tree_node_id);
 
@@ -60,8 +65,8 @@ class BraveTabUrlWebContentsObserver : public content::WebContentsObserver,
   // Protects global maps below from being concurrently written on the UI thread
   // and read on the IO thread.
   static base::Lock frame_data_map_lock_;
-  static std::map<RenderFrameIdKey, GURL> frame_key_to_tab_url_;
-  static std::map<int, GURL> frame_tree_node_id_to_tab_url_;
+  static std::map<RenderFrameIdKey, TabProperties> frame_key_to_tab_url_;
+  static std::map<int, TabProperties> frame_tree_node_id_to_tab_url_;
 
  private:
   friend class content::WebContentsUserData<BraveTabUrlWebContentsObserver>;

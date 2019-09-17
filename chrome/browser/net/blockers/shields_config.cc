@@ -5,6 +5,7 @@
  #include "base/android/jni_android.h"
  #include "base/android/jni_string.h"
  #include "chrome/android/chrome_jni_headers/ShieldsConfig_jni.h"
+ #include "chrome/browser/net/blockers/blockers_worker.h"
 
 namespace net {
 namespace blockers {
@@ -16,6 +17,24 @@ ShieldsConfig::ShieldsConfig(JNIEnv* env, jobject obj):
 }
 
 ShieldsConfig::~ShieldsConfig() {
+}
+
+bool ShieldsConfig::getPrivacyAdBlock() {
+  JNIEnv* env = base::android::AttachCurrentThread();
+
+  return Java_ShieldsConfig_getPrivacyAdBlock(env, weak_java_shields_config_.get(env));
+}
+
+bool ShieldsConfig::getPrivacyAdBlockRegional() {
+  JNIEnv* env = base::android::AttachCurrentThread();
+
+  return Java_ShieldsConfig_getPrivacyAdBlockRegional(env, weak_java_shields_config_.get(env));
+}
+
+bool ShieldsConfig::getPrivacyHTTPSE() {
+  JNIEnv* env = base::android::AttachCurrentThread();
+
+  return Java_ShieldsConfig_getPrivacyHTTPSE(env, weak_java_shields_config_.get(env));
 }
 
 std::string ShieldsConfig::getHostSettings(const bool &incognitoTab, const std::string& host) {
@@ -43,6 +62,13 @@ bool ShieldsConfig::needUpdateAdBlocker() {
 void ShieldsConfig::resetUpdateAdBlockerFlag() {
   JNIEnv* env = base::android::AttachCurrentThread();
   Java_ShieldsConfig_resetUpdateAdBlockerFlag(env, weak_java_shields_config_.get(env));
+}
+
+std::shared_ptr<BlockersWorker> ShieldsConfig::getBlockersWorker(bool force_reset) {
+  if (!blockers_worker_ || force_reset) {
+    blockers_worker_.reset(new BlockersWorker());
+  }
+  return blockers_worker_;
 }
 
 ShieldsConfig* ShieldsConfig::getShieldsConfig() {
