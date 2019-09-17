@@ -465,6 +465,8 @@ public class ToolbarTablet extends ToolbarLayout
             description = resources.getString(R.string.menu_bookmark);
         } else if (v == mSaveOfflineButton) {
             description = resources.getString(R.string.menu_download);
+        } else if (itemId == R.id.share_page_id) {
+            description = resources.getString(R.string.menu_share_page);
         } else if (v == mHomeButton) {
             description = resources.getString(R.string.accessibility_toolbar_btn_home);
         } else if (v == mBraveShieldsButton) {
