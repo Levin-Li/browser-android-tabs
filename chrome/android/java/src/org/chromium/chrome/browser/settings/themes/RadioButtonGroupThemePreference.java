@@ -26,6 +26,9 @@ import org.chromium.chrome.browser.ui.widget.RadioButtonWithDescriptionLayout;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import org.chromium.chrome.browser.night_mode.NightModeUtils;
+import org.chromium.chrome.browser.util.FeatureUtilities;
+
 /**
  * A radio button group Preference used for Themes. Currently, it has 3 options: System default,
  * Light, and Dark. When an additional flag, DARKEN_WEBSITES_CHECKBOX_IN_THEMES_SETTING, is active
@@ -90,6 +93,10 @@ public class RadioButtonGroupThemePreference
                 ThemeSetting.LIGHT, (RadioButtonWithDescription) holder.findViewById(R.id.light));
         mButtons.set(
                 ThemeSetting.DARK, (RadioButtonWithDescription) holder.findViewById(R.id.dark));
+
+        if (!NightModeUtils.isNightModeSupported() || !FeatureUtilities.isNightModeAvailable()) {
+            mButtons.get(0).setVisibility(View.GONE);
+        }
 
         mSettingRadioButton = mButtons.get(mSetting);
         mSettingRadioButton.setChecked(true);
