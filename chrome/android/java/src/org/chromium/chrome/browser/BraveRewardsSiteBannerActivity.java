@@ -41,7 +41,9 @@ import org.chromium.base.task.AsyncTask;
 import android.graphics.BitmapFactory;
 import org.chromium.base.annotations.CalledByNative;
 import java.io.IOException;
+import java.math.RoundingMode;
 import java.net.MalformedURLException;
+import java.text.DecimalFormat;
 import org.chromium.base.ContextUtils;
 
 public class BraveRewardsSiteBannerActivity extends Activity implements BraveRewardsHelper.LargeIconReadyCallback, BraveRewardsObserver {
@@ -131,7 +133,12 @@ public class BraveRewardsSiteBannerActivity extends Activity implements BraveRew
         mIconFetcher.retrieveLargeIcon(favicon_url, this);
 
         double balance = mBraveRewardsNativeWorker.GetWalletBalance();
-        String walletAmount = String.format("%.1f", balance) + " BAT";
+
+        DecimalFormat df = new DecimalFormat("#.#");
+        df.setRoundingMode(RoundingMode.FLOOR);
+        df.setMinimumFractionDigits(1);
+        String walletAmount = df.format(balance) + " BAT";
+
         ((TextView)findViewById(R.id.wallet_amount_text)).setText(walletAmount);
 
         double usdValue = mBraveRewardsNativeWorker.GetWalletRate("USD");
@@ -160,7 +167,7 @@ public class BraveRewardsSiteBannerActivity extends Activity implements BraveRew
                             amount = 5;
                         } else if (id == R.id.ten_bat_option) {
                             amount = 10;
-                        } 
+                        }
 
                         break;
                     }
@@ -321,7 +328,7 @@ public class BraveRewardsSiteBannerActivity extends Activity implements BraveRew
                 FrameLayout.LayoutParams params = (FrameLayout.LayoutParams)icon_layout.getLayoutParams();
                 params.setMargins(params.leftMargin, newY, params.rightMargin, params.bottomMargin);
                 icon_layout.setLayoutParams(params);
-                icon_layout.requestLayout();               
+                icon_layout.requestLayout();
             }
         });
     }
