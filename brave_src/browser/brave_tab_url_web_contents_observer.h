@@ -19,8 +19,16 @@ class PrefRegistrySimple;
 namespace brave {
 
 struct TabProperties {
+  TabProperties(bool valid = false) : is_valid(valid) {}
+  void operator=(const TabProperties& src) {
+    if (&src == this) return;
+    tab_url = src.tab_url;
+    is_incognito = src.is_incognito;
+    is_valid = src.is_valid;
+  }
   GURL tab_url;
   bool is_incognito;
+  bool is_valid;
 };
 
 // Taken from brave-core/components/brave_shields/browser/brave_shields_web_contents_observer.h

@@ -96,7 +96,7 @@ void BraveTabUrlWebContentsObserver::RenderFrameCreated(
 
     base::AutoLock lock(frame_data_map_lock_);
     const RenderFrameIdKey key(rfh->GetProcess()->GetID(), rfh->GetRoutingID());
-    TabProperties tab_prop;
+    TabProperties tab_prop(true);
     tab_prop.tab_url = web_contents->GetURL();
     tab_prop.is_incognito = web_contents->GetBrowserContext() ?
                               web_contents->GetBrowserContext()->IsOffTheRecord() :
@@ -135,7 +135,7 @@ void BraveTabUrlWebContentsObserver::DidFinishNavigation(
   int tree_node_id = main_frame->GetFrameTreeNodeId();
 
   base::AutoLock lock(frame_data_map_lock_);
-  TabProperties tab_prop;
+  TabProperties tab_prop(true);
   tab_prop.tab_url = web_contents()->GetURL();
   tab_prop.is_incognito = web_contents()->GetBrowserContext() ?
                             web_contents()->GetBrowserContext()->IsOffTheRecord() :
@@ -161,7 +161,8 @@ TabProperties BraveTabUrlWebContentsObserver::GetTabPropertiesFromRenderFrameInf
       return iter2->second;
     }
   }
-  return TabProperties();
+
+  return TabProperties(false);
 }
 
 WEB_CONTENTS_USER_DATA_KEY_IMPL(BraveTabUrlWebContentsObserver)
