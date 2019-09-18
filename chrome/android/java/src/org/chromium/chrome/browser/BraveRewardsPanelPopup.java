@@ -70,7 +70,9 @@ import org.chromium.base.ContextUtils;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
+import java.math.RoundingMode;
 import java.net.URL;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -1009,8 +1011,11 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         DismissNotification(REWARDS_NOTIFICATION_NO_INTERNET_ID);
         if (mBraveRewardsNativeWorker != null) {
           double balance = mBraveRewardsNativeWorker.GetWalletBalance();
-          ((TextView)this.root.findViewById(R.id.br_bat_wallet)).setText(
-            String.format("%.1f", balance));
+
+          DecimalFormat df = new DecimalFormat("#.#");
+          df.setRoundingMode(RoundingMode.FLOOR);
+          df.setMinimumFractionDigits(1);
+          ((TextView)this.root.findViewById(R.id.br_bat_wallet)).setText(df.format(balance));
           double usdValue = balance * mBraveRewardsNativeWorker.GetWalletRate("USD");
           String usdText = String.format(this.root.getResources().getString(R.string.brave_ui_usd), 
             String.format("%.2f", usdValue));
