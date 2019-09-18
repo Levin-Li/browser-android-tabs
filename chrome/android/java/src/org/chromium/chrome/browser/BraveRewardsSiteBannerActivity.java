@@ -438,7 +438,10 @@ public class BraveRewardsSiteBannerActivity extends Activity implements BraveRew
         if (error_code == 0) {
             if (mBraveRewardsNativeWorker != null) {
                 double balance = mBraveRewardsNativeWorker.GetWalletBalance();
-                String walletAmount = String.format("%.1f", balance) + " BAT";
+                DecimalFormat df = new DecimalFormat("#.#");
+                df.setRoundingMode(RoundingMode.FLOOR);
+                df.setMinimumFractionDigits(1);
+                String walletAmount = df.format(balance) + " BAT";
                 ((TextView)findViewById(R.id.wallet_amount_text)).setText(walletAmount);
             }
         }
