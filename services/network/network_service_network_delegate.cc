@@ -42,29 +42,17 @@ namespace network {
 
 brave::TabProperties GetTabProperties(const net::URLRequest* request) {
   DCHECK(request);
-  brave::TabProperties tab_prop;
   URLLoader* url_loader = URLLoader::ForRequest(*request);
   if (url_loader) {
     int render_process_id = url_loader->GetProcessId();
     int render_frame_id = url_loader->GetRenderFrameId();
     int frame_tree_node_id = -1;
-    tab_prop = brave::BraveTabUrlWebContentsObserver::GetTabPropertiesFromRenderFrameInfo(
+    return brave::BraveTabUrlWebContentsObserver::GetTabPropertiesFromRenderFrameInfo(
                                 render_process_id,
                                 render_frame_id,
                                 frame_tree_node_id);
   }
-  return tab_prop;
-}
-
-GURL GetTabUrl(const net::URLRequest* request) {
-  DCHECK(request);
-  GURL tab_url;
-  if (!request->site_for_cookies().is_empty()) {
-    tab_url = request->site_for_cookies();
-  } else {
-    tab_url = GetTabProperties(request).tab_url.GetOrigin();
-  }
-  return tab_url;
+  return brave::TabProperties(false);
 }
 
 namespace {
@@ -122,6 +110,7 @@ struct OnBeforeURLRequestContext
   bool block = false;
 
   URLLoader* url_loader = nullptr;
+  GURL tab_url;
   bool isValidUrl = true;
   std::string firstparty_host = "";
   bool check_httpse_redirect = true;
@@ -480,13 +469,23 @@ int NetworkServiceNetworkDelegate::OnBeforeURLRequest(
     net::CompletionOnceCallback callback,
     GURL* new_url,
     bool call_callback) {
+  int rv = net::OK;
   std::shared_ptr<OnBeforeURLRequestContext> ctx(new OnBeforeURLRequestContext());
   ctx->url_loader = URLLoader::ForRequest(*request);
-  int rv = ctx->url_loader ? OnBeforeURLRequest_PreBlockersWork(
-       request,
-       std::move(callback),
-       new_url,
-       ctx) : net::OK;
+  brave::TabProperties tab_prop = GetTabProperties(request);
+  ctx->incognito = tab_prop.is_incognito;
+  if (!request->site_for_cookies().is_empty()) {
+    ctx->tab_url = request->site_for_cookies();
+  } else if (tab_prop.is_valid) {
+    ctx->tab_url = tab_prop.tab_url.GetOrigin();
+  }
+  if (ctx->url_loader && tab_prop.is_valid) {
+    rv = OnBeforeURLRequest_PreBlockersWork(
+        request,
+        std::move(callback),
+        new_url,
+        ctx);
+  }
   if (call_callback && !callback.is_null()) {
     std::move(callback).Run(rv);
   }
@@ -521,7 +520,6 @@ int NetworkServiceNetworkDelegate::OnBeforeURLRequest_PreBlockersWork(
   ctx->blockAdsAndTracking = shieldsConfig ? shieldsConfig->getPrivacyAdBlock() : true;
   ctx->isAdBlockRegionalEnabled = shieldsConfig ? shieldsConfig->getPrivacyAdBlockRegional() : true;
   ctx->isHTTPSEEnabled = shieldsConfig ? shieldsConfig->getPrivacyHTTPSE() : true;
-  ctx->incognito = request ? GetTabProperties(request).is_incognito : false;
   if (request && nullptr != shieldsConfig) {
       std::string hostConfig = shieldsConfig->getHostSettings(ctx->incognito, ctx->firstparty_host);
       // It is a length of ALL_SHIELDS_DEFAULT_MASK in ShieldsConfig.java
@@ -602,9 +600,8 @@ int NetworkServiceNetworkDelegate::OnBeforeURLRequest_AdBlockPostFileWork(
   GURL* new_url,
   std::shared_ptr<OnBeforeURLRequestContext> ctx) {
   if (ctx->needPerformAdBlock) {
-    GURL tab_url = GetTabUrl(request);
     if (blockers_worker_->shouldAdBlockUrl(
-        tab_url.spec(),
+        ctx->tab_url.spec(),
         request->url().spec(),
         (unsigned int)ctx->url_loader->GetResourceType(),
         ctx->isAdBlockRegionalEnabled)) {
