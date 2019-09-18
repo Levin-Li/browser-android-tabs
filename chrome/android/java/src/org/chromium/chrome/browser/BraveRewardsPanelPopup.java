@@ -111,15 +111,13 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
     private static final String ERROR_CONVERT_PROBI = "ERROR";
 
     // Balance report codes
-    private static final int BALANCE_REPORT_OPENING_BALANCE = 0;
-    private static final int BALANCE_REPORT_CLOSING_BALANCE = 1;
-    private static final int BALANCE_REPORT_DEPOSITS = 2;
-    private static final int BALANCE_REPORT_GRANTS = 3;
-    private static final int BALANCE_REPORT_EARNING_FROM_ADS = 4;
-    private static final int BALANCE_REPORT_AUTO_CONTRIBUTE = 5;
-    private static final int BALANCE_REPORT_RECURRING_DONATION = 6;
-    private static final int BALANCE_REPORT_ONE_TIME_DONATION = 7;
-    private static final int BALANCE_REPORT_TOTAL = 8;
+    private static final int BALANCE_REPORT_DEPOSITS = 0;
+    private static final int BALANCE_REPORT_GRANTS = 1;
+    private static final int BALANCE_REPORT_EARNING_FROM_ADS = 2;
+    private static final int BALANCE_REPORT_AUTO_CONTRIBUTE = 3;
+    private static final int BALANCE_REPORT_RECURRING_DONATION = 4;
+    private static final int BALANCE_REPORT_ONE_TIME_DONATION = 5;
+    private static final int BALANCE_REPORT_TOTAL = 6;
 
     protected final View anchor;
     private final PopupWindow window;
@@ -375,7 +373,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                           glActivities.setVisibility(View.GONE);
                         }
                     } else if (tv != null) {
-                      if (tv.getVisibility() == View.VISIBLE || 
+                      if (tv.getVisibility() == View.VISIBLE ||
                           glActivities.getVisibility() == View.VISIBLE) {
                         tv.setVisibility(View.GONE);
                         glActivities.setVisibility(View.GONE);
@@ -510,7 +508,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
     private void startJoinRewardsAnimation(){
         Button btJoinRewards = (Button)root.findViewById(R.id.join_rewards_id);
-        btJoinRewards.setEnabled(false); 
+        btJoinRewards.setEnabled(false);
         btJoinRewards.setText(root.getResources().getString(R.string.brave_ui_rewards_creating_text));
         btJoinRewards.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.brave_rewards_loader, 0);
         wallet_init_animation = (AnimationDrawable)btJoinRewards.getCompoundDrawables()[2];
@@ -1017,7 +1015,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
           df.setMinimumFractionDigits(1);
           ((TextView)this.root.findViewById(R.id.br_bat_wallet)).setText(df.format(balance));
           double usdValue = balance * mBraveRewardsNativeWorker.GetWalletRate("USD");
-          String usdText = String.format(this.root.getResources().getString(R.string.brave_ui_usd), 
+          String usdText = String.format(this.root.getResources().getString(R.string.brave_ui_usd),
             String.format("%.2f", usdValue));
           ((TextView)this.root.findViewById(R.id.br_usd_wallet)).setText(usdText);
 
@@ -1028,7 +1026,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
               btGrants.setVisibility(View.VISIBLE);
 
               ListView listView = (ListView)this.root.findViewById(R.id.grants_listview);
-        
+
               ArrayAdapter<Spanned> adapter = new ArrayAdapter<Spanned>(
                 ContextUtils.getApplicationContext(), R.layout.brave_rewards_grants_list_item);
               for (int i = 0; i < currentGrantsCount; i++) {
@@ -1164,9 +1162,9 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         } else {
             verified_text = root.getResources().getString(R.string.brave_ui_not_verified_publisher);
             tv = (TextView)root.findViewById(R.id.publisher_not_verified);
-            String verified_description = 
+            String verified_description =
                 root.getResources().getString(R.string.brave_ui_not_verified_publisher_description);
-            verified_description += "<br/><font color=#73CBFF>" + 
+            verified_description += "<br/><font color=#73CBFF>" +
               root.getResources().getString(R.string.learn_more) + ".</font>";
             Spanned toInsert = BraveRewardsHelper.spannedFromHtmlString(verified_description);
             tv.setText(toInsert);
@@ -1208,8 +1206,6 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
           }
 
           switch (i) {
-            case BALANCE_REPORT_OPENING_BALANCE:
-            case BALANCE_REPORT_CLOSING_BALANCE:
             case BALANCE_REPORT_DEPOSITS:
               break;
             case BALANCE_REPORT_GRANTS:
@@ -1329,10 +1325,10 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
     @Override
     public void OnGetPendingContributionsTotal(double amount) {
         if (amount > 0.0) {
-            String non_verified_summary = 
+            String non_verified_summary =
               String.format(root.getResources().getString(
-                R.string.brave_ui_reserved_amount_text), String.format("%.2f", amount)) + 
-              " <font color=#73CBFF>" + root.getResources().getString(R.string.learn_more) + 
+                R.string.brave_ui_reserved_amount_text), String.format("%.2f", amount)) +
+              " <font color=#73CBFF>" + root.getResources().getString(R.string.learn_more) +
               ".</font>";
             Spanned toInsert = BraveRewardsHelper.spannedFromHtmlString(non_verified_summary);
             tvPublisherNotVerifiedSummary.setText(toInsert);
@@ -1401,7 +1397,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
     @Override
     public void OnResetTheWholeState(boolean success) {}
-    
+
     @Override
     public void OnRewardsMainEnabled(boolean enabled) {}
 
