@@ -2,6 +2,7 @@ package org.chromium.chrome.browser.util;
 
 import android.view.View;
 import android.view.Menu;
+import android.view.ContextThemeWrapper;
 import android.view.MenuItem;
 import android.widget.PopupMenu;
 import android.app.Activity;
@@ -10,12 +11,14 @@ import android.content.Context;
 import org.chromium.chrome.R;
 import org.chromium.base.ApplicationStatus;
 import org.chromium.chrome.browser.ChromeActivity;
+import org.chromium.chrome.browser.night_mode.GlobalNightModeStateProviderHolder;
 
 public class TabUtil {
 	public static void showTabPopupMenu(Context context,View view) {
 		ChromeActivity chromeActivity = getChromeActivity();
+        Context wrapper = new ContextThemeWrapper(context, GlobalNightModeStateProviderHolder.getInstance().isInNightMode() ? R.style.NewTabPopupMenuDark : R.style.NewTabPopupMenuLight);
 		//Creating the instance of PopupMenu  
-        PopupMenu popup = new PopupMenu(context, view);  
+        PopupMenu popup = new PopupMenu(wrapper, view);  
         //Inflating the Popup using xml file  
         popup.getMenuInflater().inflate(R.menu.new_tab_menu, popup.getMenu());
 

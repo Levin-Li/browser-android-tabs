@@ -10,7 +10,7 @@
     android:layout_width="match_parent"
     android:layout_gravity="center"
     android:gravity="center"
-    android:background="@color/modern_grey_50" >
+    android:background="@color/brave_sync_bg_color" >
 
     <ScrollView android:id="@+id/view_sync_initial"
         android:layout_width="match_parent"
@@ -227,7 +227,6 @@
             <LinearLayout android:orientation="horizontal"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:background="@android:color/white"
                 android:paddingStart="15dip"
                 android:paddingEnd="15dip"
                 android:paddingBottom="15dip" >
@@ -244,6 +243,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/copy_paste"
+                    android:tint="@color/standard_mode_tint"
                     android:background="@android:color/transparent"
                     android:contentDescription="@string/brave_sync_word_count_text"
                     android:gravity="end|center" />
