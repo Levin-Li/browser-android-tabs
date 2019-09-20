@@ -12,7 +12,7 @@
 #include "base/location.h"
 #include "base/memory/ptr_util.h"
 #include "base/threading/thread_task_runner_handle.h"
-#include "brave/browser/ui/webui/brave_rewards_ui.h"
+#include "brave/browser/ui/webui/brave_rewards_page_ui.h"
 #include "brave/browser/ui/webui/brave_rewards_internals_ui.h"
 #include "build/build_config.h"
 #include "chrome/browser/about_flags.h"
@@ -270,10 +270,10 @@ WebUIController* NewWebUI(WebUI* web_ui, const GURL& url) {
   return new T(web_ui);
 }
 
-// Special case for BraveRewardsUI
+// Special case for BraveRewardsPageUI
 template<>
-WebUIController* NewWebUI<BraveRewardsUI>(WebUI* web_ui, const GURL& url) {
-  return new BraveRewardsUI(web_ui, url.host());
+WebUIController* NewWebUI<BraveRewardsPageUI>(WebUI* web_ui, const GURL& url) {
+  return new BraveRewardsPageUI(web_ui, url.host());
 }
 
 
@@ -381,7 +381,7 @@ WebUIFactoryFunction GetWebUIFactoryFunction(WebUI* web_ui,
         profile->GetProfileType() == Profile::INCOGNITO_PROFILE) {
       return NULL;
     }
-    return &NewWebUI<BraveRewardsUI>;
+    return &NewWebUI<BraveRewardsPageUI>;
   }
   if (url.host_piece() == chrome::kRewardsInternalsHost)
     return &NewWebUI<BraveRewardsInternalsUI>;
