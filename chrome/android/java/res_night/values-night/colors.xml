@@ -54,4 +54,9 @@
     <color name="brave_shield_bg_color">@color/modern_grey_800</color>
     <color name="brave_state_time_count_color">@android:color/white</color>
 
+    <color name="brave_sync_bg_color">@color/modern_grey_800</color>
+    <color name="brave_sync_bg_secondary_color">#212529</color>
+
+    <color name="brave_set_default_dialog_text_color">@android:color/white</color>
+
 </resources>

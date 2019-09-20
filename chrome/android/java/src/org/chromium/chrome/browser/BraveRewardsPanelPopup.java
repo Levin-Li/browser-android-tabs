@@ -866,7 +866,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                             hl.setBackgroundResource(R.drawable.notification_header_normal);
 
                             double  probiDouble = BraveRewardsHelper.probiToDouble(args[3]);
-                            String probiString = Double.isNaN(probiDouble) ? ERROR_CONVERT_PROBI : String.format("%.2f", probiDouble);
+                            String probiString = Double.isNaN(probiDouble) ? ERROR_CONVERT_PROBI : String.format("%.1f", probiDouble);
                             description = String.format(
                                 root.getResources().getString(R.string.brave_ui_rewards_contribute_description),
                                     probiString);
@@ -1327,8 +1327,8 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         if (amount > 0.0) {
             String non_verified_summary =
               String.format(root.getResources().getString(
-                R.string.brave_ui_reserved_amount_text), String.format("%.2f", amount)) +
-              " <font color=#73CBFF>" + root.getResources().getString(R.string.learn_more) +
+                R.string.brave_ui_reserved_amount_text), String.format("%.1f", amount)) + 
+              " <font color=#73CBFF>" + root.getResources().getString(R.string.learn_more) + 
               ".</font>";
             Spanned toInsert = BraveRewardsHelper.spannedFromHtmlString(non_verified_summary);
             tvPublisherNotVerifiedSummary.setText(toInsert);

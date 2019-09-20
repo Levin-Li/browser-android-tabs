@@ -63,7 +63,7 @@
         <LinearLayout android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/brave_sync_top_rounded"
+            android:background="@drawable/brave_sync_qr_rounded"
             android:layout_gravity="center"
             android:paddingBottom="5dip"
             android:paddingTop="5dip"

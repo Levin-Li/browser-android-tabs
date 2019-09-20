@@ -206,10 +206,10 @@ public class MainPreferences extends BravePreferenceFragment
             int padding = BraveRewardsHelper.dp2px(20);
             titleTextView.setPadding(padding,padding,padding,padding);
             titleTextView.setTextSize(18); 
-            titleTextView.setTextColor(getActivity().getResources().getColor(android.R.color.black));
+            titleTextView.setTextColor(getActivity().getResources().getColor(R.color.standard_mode_tint));
             titleTextView.setTypeface(null, Typeface.BOLD);
 
-            AlertDialog alertDialog = new AlertDialog.Builder(getActivity(), R.style.BraveDialogTheme)
+            AlertDialog alertDialog = new AlertDialog.Builder(getActivity(), R.style.Theme_Chromium_AlertDialog)
             .setView(titleTextView)
             .setPositiveButton(R.string.continue_button, new DialogInterface.OnClickListener() {
                 @Override
