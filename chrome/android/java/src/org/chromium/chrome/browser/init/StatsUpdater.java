@@ -154,7 +154,7 @@ public class StatsUpdater {
                         });
                     }
                 } else if (country.equals("DE") || country.equals("AU") || country.equals("NZ") || country.equals("IE")) {
-                    boolean setDuckDuckgo = ContextUtils.getAppSharedPreferences().getBoolean(TemplateUrlService.PREF_SET_DDG_SE, true) && firstRun;
+                    boolean setDuckDuckgo = ContextUtils.getAppSharedPreferences().getBoolean(TemplateUrlService.PREF_SET_DDG_SE, true) && PackageUtils.isFirstInstall(context) && firstRun;
                     if (setDuckDuckgo) {
                         ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SET_DDG_SE, false).apply();
                         ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SHOW_DDG_OFFER, false).apply();
