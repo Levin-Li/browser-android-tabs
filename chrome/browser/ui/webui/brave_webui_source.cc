@@ -41,9 +41,9 @@ void CustomizeWebUIHTMLSource(const std::string &name,
   std::map<std::string, std::vector<WebUISimpleItem> > resources = {
     {
       std::string("rewards"), {
-        { "878e89ddb547d70019456c4792ce1a23.svg", IDR_BRAVE_REWARDS_IMG_ADS_DISABLED },          // NOLINT
-        { "6517b078dcd47a8540230a5453d53927.svg", IDR_BRAVE_REWARDS_IMG_CONTRIBUTE_DISABLED },   // NOLINT
-        { "21bfb482964742768c5020312af36224.svg", IDR_BRAVE_REWARDS_IMG_DONATE_DISABLED },       // NOLINT
+        // { "878e89ddb547d70019456c4792ce1a23.svg", IDR_BRAVE_REWARDS_IMG_ADS_DISABLED },          // NOLINT
+        // { "6517b078dcd47a8540230a5453d53927.svg", IDR_BRAVE_REWARDS_IMG_CONTRIBUTE_DISABLED },   // NOLINT
+        // { "21bfb482964742768c5020312af36224.svg", IDR_BRAVE_REWARDS_IMG_DONATE_DISABLED },       // NOLINT
         // { "4fcfa7f92c5fc22c2b6f34701bfdcd0a.jpeg", IDR_BRAVE_REWARDS_IMG_BART_TEMP },            // NOLINT
         { "6dd79d472f9c73429b26dae4ef14575e.svg", IDR_BRAVE_REWARDS_IMG_WALLET_BG },             // NOLINT
         { "c9255cc2aa3d81ca6328e82d25a95766.png", IDR_BRAVE_REWARDS_IMG_CAPTCHA_BAT },           // NOLINT
@@ -72,7 +72,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "adsDisabledTextOne",  IDS_BRAVE_REWARDS_LOCAL_ADS_DISABLED_TEXT_ONE },                // NOLINT
         { "adsDisabledTextTwo",  IDS_BRAVE_REWARDS_LOCAL_ADS_DISABLED_TEXT_TWO },                // NOLINT
         { "adsNotificationsReceived",  IDS_BRAVE_REWARDS_LOCAL_ADS_NOTIFICATIONS_RECEIVED },     // NOLINT
-        { "adsNotSupportedRegion", IDS_BRAVE_REWARDS_LOCAL_ADS_NOT_SUPPORTED_REGION },           // NOLINT
+        { "adsNotSupported", IDS_BRAVE_REWARDS_LOCAL_ADS_NOT_SUPPORTED },
         { "adsNotSupportedDevice", IDS_BRAVE_REWARDS_LOCAL_ADS_NOT_SUPPORTED_DEVICE },           // NOLINT
         { "adsPaymentDate",  IDS_BRAVE_REWARDS_LOCAL_ADS_PAYMENT_DATE },
         { "adsPagesViewed",  IDS_BRAVE_REWARDS_LOCAL_ADS_PAGES_VIEWED },
