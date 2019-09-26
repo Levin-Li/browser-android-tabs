@@ -200,6 +200,7 @@
     <color name="brave_state_time_count_color">#222326</color>
 
     <color name="brave_sync_bg_color">@color/modern_grey_50</color>
+    <color name="brave_sync_border_color">@color/modern_grey_50</color>
     <color name="brave_sync_bg_secondary_color">@android:color/white</color>
 
     <color name="new_tab_menu_text_dark_color">@android:color/white</color>
