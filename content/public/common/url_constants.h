@@ -102,6 +102,8 @@ CONTENT_EXPORT extern const char kChromeUINetworkViewCacheURL[];
 CONTENT_EXPORT extern const char kChromeUIResourcesURL[];
 CONTENT_EXPORT extern const char kChromeUIShorthangURL[];
 
+CONTENT_EXPORT extern const char kBraveUIScheme[];
+
 }  // namespace content
 
 #endif  // CONTENT_PUBLIC_COMMON_URL_CONSTANTS_H_
