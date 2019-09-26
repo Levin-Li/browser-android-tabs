@@ -157,7 +157,6 @@ public class StatsUpdater {
                     boolean setDuckDuckgo = ContextUtils.getAppSharedPreferences().getBoolean(TemplateUrlService.PREF_SET_DDG_SE, true) && PackageUtils.isFirstInstall(context) && firstRun;
                     if (setDuckDuckgo) {
                         ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SET_DDG_SE, false).apply();
-                        ContextUtils.getAppSharedPreferences().edit().putBoolean(TemplateUrlService.PREF_SHOW_DDG_OFFER, false).apply();
                         ThreadUtils.runOnUiThread(() -> {
                             TemplateUrlServiceFactory.get().setSearchEngine(TemplateUrlService.DDG_SE_NAME, TemplateUrlService.DDG_SE_KEYWORD, true);
                             TemplateUrlServiceFactory.get().setSearchEngine(TemplateUrlService.DDG_SE_NAME, TemplateUrlService.DDG_SE_KEYWORD, false);
