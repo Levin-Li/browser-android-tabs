@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS בכל מקום</string>
     <string name="brave_shields_blocks_scripts_switch">לחסום קובצי תסריט</string>
     <string name="accessibility_toolbar_btn_brave_shields">הפעלה/השבתה של מגני Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">ניהול תגמולי Brave </string>
     <string name="brave_shields_block_3rd_party_cookies_switch">לחסום עוגיות צד שלישי</string>
 
     <string name="httpse_summary">פתיחת אתרים נתמכים באמצעות HTTPS במקום HTTP כשאפשר</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">יציאה</string>
 
+    <string name="brave_sync">סנכרון Brave (בטא)</string>
     <string name="sync_settings_add_device_name_title">נא להוסיף שם מכשיר</string>
     <string name="sync_settings_add_device_name_label">נא להזין שם אופציונלי עבור מכשיר זה</string>
     <string name="sync_example_device_name">מכשיר אנדרואיד</string>
@@ -107,6 +109,7 @@ HTTPS</string>
     <string name="brave_sync_btn_laptop">הוסף מחשב</string>
     <string name="brave_sync_scan_sync_code">סרוק את קוד הסנכרון</string>
     <string name="brave_sync_add_mobile_device_text_part_1">באמצעות מכשיר טלפון שני או טאבלט, נווט אל הגדרות Brave> סנכרון > סריקה.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">במכשיר הנייד שלך, נווט/י אל סנכרון Brave בחלונית ההגדרות ולחצ/י על הכפתור \"סרוק קוד סנכרון\". השתמש/י במצלמה שלך כדי לסרוק את קוד ה-QR למטה.</string>
     <string name="brave_sync_btn_done">סיום</string>
     <string name="brave_sync_tabs_text">כרטיסיות</string>
     <string name="brave_sync_history_text">היסטוריה</string>
@@ -209,6 +212,7 @@ HTTPS</string>
     <string name="brave_ui_reserved_amount_text">ייעדת <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT ליוצרים שלא
  נרשמו עדיין לקבלת תרומות. הדפדפן שלך ימשיך לנסות לתרום
 עד שהם יאשרו, או עד שיחלפו 90 יום.</string>
+    <string name="brave_ui_notification_desc_no_funds">לא ניתן היה להשלים את התשלום החודשי המתוכנן שלך עבור תרומה אוטומטית וטיפים חודשיים בגלל חוסר בכספים. אנו ננסה שוב בעוד 30 יום.</string>
     <string name="brave_ui_notification_desc_tip_error">חלה בעיה בעיבוד הטיפ שלך, אנא נסה שנית.</string>
     <string name="brave_ui_notification_desc_contr_error">חלה בעיה בעיבוד התרומה שלך.</string>
     <string name="brave_rewards_local_uh_oh">אוי לא!</string>
@@ -244,6 +248,7 @@ HTTPS</string>
     <string name="prefs_appearance">מראה</string>
     <string name="hide_brave_rewards_icon_title">מסתיר את אייקון Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">מסתיר את אייקון Brave Rewards כש-Brave Rewards אינו זמין</string>
+    <string name="show_ads_when_brave_is_not_in_use">הצג מודעות כאשר Brave אינו בשימוש</string>
     <string name="reset_brave_rewards_option">איפוס Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">זה ימחק את ארנק Brave שלך ויאפס את כל הנתונים של Brave Rewards שלך</string>
     <string name="reset_brave_rewards_error_title">איפוס שגיאה</string>
@@ -305,5 +310,9 @@ HTTPS</string>
     <string name="prefs_welcome_tour">סיור קבלת פנים</string>
     <string name="welcome_tour_dialog_text">הפעלה מחדש של סיור קבלת הפנים לא תשפיע על הגדרות קיימות.</string>
     <string name="finish">סיום</string>
+    
+    <string name="clear_download_title">היסטוריית הורדות</string>
+
+    <string name="settings_exit">יציאה מההגדרות</string>
 
 </resources>

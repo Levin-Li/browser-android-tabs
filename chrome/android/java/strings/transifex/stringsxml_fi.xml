@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS Kaikkialla</string>
     <string name="brave_shields_blocks_scripts_switch">Estä Komentosarjat</string>
     <string name="accessibility_toolbar_btn_brave_shields">Ota käyttöön/Poista käytöstä Brave -suojat</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Hallitse Braven palkintoja</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Estä kolmannen osapuolen evästeet</string>
 
     <string name="httpse_summary">Avaa tuetut sivustot käyttämällä HTTPS:ää HTTP:n sijasta, kun mahdollista</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">Poistua</string>
 
+    <string name="brave_sync">Braven synkronointi (beta)</string>
     <string name="sync_settings_add_device_name_title">Lisää laitteen nimi</string>
     <string name="sync_settings_add_device_name_label">Anna laitteelle vaihtoehtoinen nimi</string>
     <string name="sync_example_device_name">Android-laite</string>
@@ -107,6 +109,7 @@ Tallennettu</string>
     <string name="brave_sync_btn_laptop">Lisää tietokone</string>
     <string name="brave_sync_scan_sync_code">Skannaa tämä synkronointikoodi</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Käyttämällä toista puhelinta tai tablettia, siirry kohtaan Braven asetukset > Synkronoi > Skannaa.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Siirry mobiililaitteellasi asetuspaneelista löytyvään Braven synkronointi -osioon ja napauta \"Skannaa synkronointikoodi\" -painiketta. Skannaa alla oleva ruutukoodi kamerallasi.</string>
     <string name="brave_sync_btn_done">Valmis</string>
     <string name="brave_sync_tabs_text">Välilehdet</string>
     <string name="brave_sync_history_text">Historia</string>
@@ -209,6 +212,7 @@ Kaikki lähettämäsi tipit pysyvät lompakossasi, kunnes hän vahvistaa itsens�
     <string name="brave_ui_reserved_amount_text"><ph name=\"BAT_VALUE\">Osoitit %1$s<ex>50</ex></ph> BAT:ia luojalle, joka ei ole vielä kirjautunut
 vastaanottamaan avustuksia. Selaimesi yrittää avustaa, kunnes hän vahvistaa
 itsensä tai 90 päivän aikaraja umpeutuu.</string>
+    <string name="brave_ui_notification_desc_no_funds">Ajoitettua kuukausimaksuasi automaattisesta avustuksesta ja kuukausittaisia tippejä ei voitu suorittaa tarvittavien varojen puuttuessa. Yritämme uudestaan 30 vuorokauden kuluttua.</string>
     <string name="brave_ui_notification_desc_tip_error">Tippisi käsittelyssä ilmeni ongelma, yritä uudestaan.</string>
     <string name="brave_ui_notification_desc_contr_error">Avustuksesi käsittelyssä ilmeni ongelma.</string>
     <string name="brave_rewards_local_uh_oh">Ohoh!</string>
@@ -244,6 +248,7 @@ rakastamillesi sisällöntuottajille.</string>
     <string name="prefs_appearance">Ulkoasu</string>
     <string name="hide_brave_rewards_icon_title">Piilota Brave Rewards -kuvake</string>
     <string name="hide_brave_rewards_icon_description">Piilottaa Brave Rewards -kuvakkeen, kun Brave Rewards ei ole käytössä</string>
+    <string name="show_ads_when_brave_is_not_in_use">Näytä mainoksia, kun Brave ei ole käytössä</string>
     <string name="reset_brave_rewards_option">Nollaa Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Tämä toiminto poistaa Brave-lompakkosi ja nollaa kaikki Brave Rewards -tietosi</string>
     <string name="reset_brave_rewards_error_title">Virhe nollattaessa</string>
@@ -305,5 +310,9 @@ rakastamillesi sisällöntuottajille.</string>
     <string name="prefs_welcome_tour">Tutustumiskierros</string>
     <string name="welcome_tour_dialog_text">Tervetuliaiskierroksen käynnistäminen uudelleen ei vaikuta nykyisiin asetuksiin.</string>
     <string name="finish">Viimeistele</string>
+    
+    <string name="clear_download_title">Lataushistoria</string>
+
+    <string name="settings_exit">Asetuksista poistuminen</string>
 
 </resources>

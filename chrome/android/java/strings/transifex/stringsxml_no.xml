@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS overalt</string>
     <string name="brave_shields_blocks_scripts_switch">Blokker skript</string>
     <string name="accessibility_toolbar_btn_brave_shields">Aktiver/deaktiver Brave-skjold</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Administrer Brave-belønninger</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Blokker informasjonskapsler fra tredjeparter</string>
 
     <string name="httpse_summary">Åpner støttede nettsteder ved å bruke HTTPS i stedet for HTTP når mulig</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">Utgang</string>
 
+    <string name="brave_sync">Brave Sync (beta)</string>
     <string name="sync_settings_add_device_name_title">Legg til enhetsnavn</string>
     <string name="sync_settings_add_device_name_label">Skriv inn et valgfritt navn for denne enheten</string>
     <string name="sync_example_device_name">Android enhet</string>
@@ -107,6 +109,7 @@ Lagret</string>
     <string name="brave_sync_btn_laptop">Legg til en datamaskin</string>
     <string name="brave_sync_scan_sync_code">Skann synkkoden</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Bruk en annen telefon eller nettbrett, og gå til Innstillinger i Brave > Synkroniser > Skann.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Naviger til Brave Sync i innstillingene på din mobile enhet, og klikk på knappen \"Skann sync-kode\". Bruk kameraet ditt til å skanne QR-koden nedenfor.</string>
     <string name="brave_sync_btn_done">Ferdig</string>
     <string name="brave_sync_tabs_text">Faner</string>
     <string name="brave_sync_history_text">Historikk</string>
@@ -209,6 +212,7 @@ denne måneden …</string>
     <string name="brave_ui_reserved_amount_text">Du har reservert <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT til skapere som foreløpig ikke
 har registrert seg for å motta bidrag. Nettleseren din vil prøve å sende bidraget
 inntil vedkommende har bekreftet, eller det har gått 90 dager.</string>
+    <string name="brave_ui_notification_desc_no_funds">Den planlagte månedlige betalingen for autobidrag og månedlige tips kunne ikke fullføres på grunn av utilstrekkelige midler. Vi prøver på nytt om 30 dager.</string>
     <string name="brave_ui_notification_desc_tip_error">Det oppsto et problem med behandlingen av tipsen. Prøv igjen.</string>
     <string name="brave_ui_notification_desc_contr_error">Det oppsto et problem med behandlingen av bidraget.</string>
     <string name="brave_rewards_local_uh_oh">Å nei!</string>
@@ -244,6 +248,7 @@ til å støtte innholdsskapere du liker.</string>
     <string name="prefs_appearance">Utseende</string>
     <string name="hide_brave_rewards_icon_title">Skjul Brave Rewards-ikonet</string>
     <string name="hide_brave_rewards_icon_description">Skjuler Brave Rewards-ikonet når Brave Rewards ikke er aktivert</string>
+    <string name="show_ads_when_brave_is_not_in_use">Vis annonser når Brave ikke er i bruk</string>
     <string name="reset_brave_rewards_option">Tilbakestill Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Dette medfører at Brave-lommeboken din slettes og alle Brave Rewards-dataene dine tilbakestilles</string>
     <string name="reset_brave_rewards_error_title">Feil ved tilbakestilling</string>
@@ -305,5 +310,9 @@ til å støtte innholdsskapere du liker.</string>
     <string name="prefs_welcome_tour">Velkomsttur</string>
     <string name="welcome_tour_dialog_text">Å starte velkomstturen på nytt påvirker ikke eventuelle innstillinger som allerede finnes. </string>
     <string name="finish">Avslutt</string>
+    
+    <string name="clear_download_title">Nedlastingshistorikk</string>
+
+    <string name="settings_exit">Gå ut av innstillingene</string>
 
 </resources>

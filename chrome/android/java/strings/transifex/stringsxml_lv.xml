@@ -28,12 +28,17 @@
 
     <string name="menu_exit">Izeja</string>
 
+    <string name="brave_sync">Brave sinhronizācija (beta)</string>
     <string name="sync_settings_add_device_name_title">Pievienojiet ierīces nosaukumu</string>
     <string name="sync_settings_add_device_name_label">Ievadiet izvēles nosaukumu šai ierīcei</string>
     <string name="sync_example_device_name">Android ierīce</string>
     <string name="enter_code_words_sync">Ievadiet koda vārdus</string>
     <string name="sync_device">Sinhronizācijas ierīce</string>
     <string name="sync_device_failure">Sinhronizāciju nevarēja iestatīt</string>
+    <string name="sync_requires_correct_time">Jūsu datora pulkstenim, iespējams, iestatīts nepareizs laiks vai laika zona. Pārbaudiet pulksteņa iestatījumus.</string>
+
+    <string name="brave_stats_text_ads">Reklāmas un izsekotāji
+ir bloķēti</string>
     <string name="brave_stats_text_https">HTTPS
 jauninājumi</string>
     <string name="brave_stats_text_time">Apt. Laiks
@@ -89,6 +94,10 @@ Saglabāts</string>
     <string name="update_notification_title">Brave atjauninājums</string>
     <string name="update_notification_text">Jaunais Brave pārlūks ir par 22 % ātrāks</string>
     <string name="prefs_sync">Sync (beta)</string>
+    <string name="brave_ads_existing_user_offer_title">Brave reklāmas ir klāt!</string>
+    <string name="brave_ads_new_user_offer_title">Iespējot Brave Rewards</string>
+    <string name="brave_ads_offer_text">Nopelniet pamata uzmanības žetonu , vietnē Brave Rewards skatoties privātumu ievērojošas reklāmas.</string>
+    <string name="brave_ads_offer_positive">Esmu iekļauts/-a!</string>
     <string name="brave_sync_description_page_1_part_1">Brave Sync ļauj privāti sinhronizēt grāmatzīmju datus jūsu Brave pārlūkos dažādās ierīcēs.</string>
     <string name="brave_sync_description_page_1_part_2">Vienkārši skenējiet kodu jūsu sinhronizācijas ķēdē, ko izveidojāt citā ierīcē. Vai sāciet jaunu sinhronizācijas ķēdi.</string>
     <string name="brave_sync_scan_chain_code">Skenēt vai ievadīt sinhronizācijas kodu</string>
@@ -99,6 +108,7 @@ Saglabāts</string>
     <string name="brave_sync_btn_laptop">Pievienot datoru</string>
     <string name="brave_sync_scan_sync_code">Skenējiet šo sinhronizācijas kodu</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Lietojot otru tālruni vai planšetdatoru, dodieties uz „Brave iestatījumi” > „Sync” > „Skenēt”.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Mobilās ierīces Iestatījumu panelī dodieties uz \"Brave sinhronizācija\" un noklikšķiniet pogu \"Skenēt sinhronizācijas kodu\". Izmantojiet kameru, lai noskenētu zemāk redzamo QR kodu.</string>
     <string name="brave_sync_btn_done">Gatavs</string>
     <string name="brave_sync_tabs_text">Cilnes</string>
     <string name="brave_sync_history_text">Vēsture</string>
@@ -215,4 +225,84 @@ reģistrējušies, lai saņemtu atbalstu. Jūsu pārlūkprogramma turpinās mē�
 reklāmas, un veiciet priekšapmaksu, lai atbalstītu
 savus iemīļotākos satura veidotājus.</string>
     <string name="brave_welcome_page_rewards_title">IESPĒJOT BRAVE REWARDS</string>
+    <string name="brave_ui_first_tip_text">Jūsu pirmā ikmēneša dzeramnauda tiks nosūtīta:</string>
+    <string name="brave_ui_tip_text">Jūs tikko nosūtījāt dzeramnaudu uz:</string>
+    <string name="brave_ui_auto_tip_text">Jūs automātiski nosūtat dzeramnaudu uz:</string>
+    <string name="brave_ui_monthly_text">Ikmēneša</string>
+    <string name="bottom_toolbar_enable">Iespējot apakšējo rīkjoslu</string>
+    <string name="bottom_toolbar_disable">Atspējot apakšējo rīkjoslu</string>
+    <string name="search_or_url">Meklēt vai ievadīt URL</string>
+    <string name="accessibility_toolbar_btn_bookmark">Izveidot grāmatzīmi</string>
+    <string name="brave_ui_donate_monthly">Sūtīt šai vietnei ikmēneša dzeramnaudu</string>
+
+    <string name="brave_rewards_not_available">Piedodiet, bet Brave Rewards jūsu ierīcē nav pieejams</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">Aizverot visas cilnes, aizvērsies Brave</string>
+    <string name="prefs_section_display">Parādīt</string>
+    <string name="prefs_section_controls">Vadības rīki</string>
+    <string name="prefs_appearance">Izskats</string>
+    <string name="hide_brave_rewards_icon_title">Slēpt Brave Rewards ikonu</string>
+    <string name="hide_brave_rewards_icon_description">Slēpj Brave Rewards ikonu, kad Brave Rewards nav iespējots</string>
+    <string name="reset_brave_rewards_option">Atiestatīt Brave Rewards</string>
+    <string name="reset_brave_rewards_option_description">Šī funkcija izdzēsīs jūsu Brave maku un atiestatīs visus jūsu Brave Rewards datus</string>
+    <string name="reset_brave_rewards_error_title">Atiestatīt kļūmi</string>
+    <string name="reset_brave_rewards_error_description">Brave Rewards atiestatīšanas laikā radās kļūme. Lūdzu, atkārtoti palaidiet Brave un mēģiniet vēlreiz</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">Savā mērķdatorā iestatījumos dodieties uz Brave Sync un noklikšķiniet uz pogas „Man ir sinhronizācijas kods”. Ievadiet sinhronizācijas ķēdes koda vārdus, kas norādīti tālāk.</string>
+
+    <string name="brave_sync_official">Brave Sync</string>
+    <string name="prefs_sync_official">Sinhronizācija</string>
+
+    <string name="brave_sync_code_warning">Izmantojiet šo kodu kā paroli. Ja kāds šo kodu uzzinās, jebkurš var izlasīt un mainīt jūsu sinhronizētos datus.</string>
+
+    <string name="notification_category_group_brave_ads">Brave reklāmas</string>
+    <string name="brave_ads_you_earned">Jūs esat nopelnījis/-usi</string>
+
+    <string name="brave_default_browser_title">Brave ir ievērojami ātrs</string>
+    <string name="brave_default_browser_body">Iestatiet Brave kā savu kā noklusējuma pārlūkprogrammu!</string>
+    <string name="brave_make_default_text">Iestatīt kā kā noklusējuma pārlūkprogrammu</string>
+    <string name="brave_ui_ads_earnings">nopelnīts ar reklāmām</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Izlaist</string>
+
+    <string name="search_engine_onboarding">Meklētājprogrammas uzstādīšana</string>
+    <string name="troubleshooting_onboarding">Problēmu novēršanas funkcijas uzstādīšana</string>
+
+    <string name="welcome_to_brave_browser">Esiet sveicināti Brave pārlūkprogrammā</string>
+    <string name="select_your_default_search_engine">Atlasiet savu noklusējuma meklētājprogrammu</string>
+
+    <string name="block">Bloķēt</string>
+    <string name="brave_shields_onboarding_title">Brave vairogi</string>
+    <string name="brave_shields_onboarding_text">aizsargā privātumu aizskarošas reklāmas un izsekotājus, lai jūs varētu pārlūkot un neviens jums tīmeklī neizsekotu.</string>
+
+    <string name="earn_tokens">Pelniet žetonus</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">atalgo par privātumu ievērojošu reklāmu skatīšanu. Izmantojiet tos, lai atbalstītu savas iecienītākās vietnes un satura veidotājus.</string>
+    <string name="brave_rewards_onboarding_text2">atalgo par privātumu ievērojošu reklāmu skatīšanu.</string>
+
+    <string name="terms_title">Piekrist noteikumiem par Brave Rewards izmantošanu</string>
+    <string name="terms_text">Es piekrītu Brave Rewards</string>
+    <string name="terms_of_service">pakalpojuma noteikumiem</string>
+
+    <string name="agree">Piekrist</string>
+    <string name="join">Pievienoties</string>
+
+     <string name="start_browsing">Sākt pārlūkošanu</string>
+    <string name="i_didnt_see">Es neesmu publicējis/-usi reklāmu</string>
+
+    <string name="brave_ads_onboarding_title">Brave parādīs jūsu pirmo reklāmu</string>
+    <string name="brave_ads_onboarding_text">Lai vietnē Brave Rewards skatītu reklāmas, pārliecinieties, ka Brave ir atļauts rādīt jums paziņojumus.</string>
+
+    <string name="this_is_your_first_ad">Tā ir jūsu pirmā Brave reklāma Pieskarieties, lai uzzinātu vairāk.</string>
+
+    <string name="turn_on">Ieslēgt</string>
+
+    <string name="no_thanks">Nē, paldies</string>
+    <string name="do_not_agree">Nepiekrist</string>
+
+    <string name="prefs_welcome_tour">Iepazīšanās tūre</string>
+    <string name="welcome_tour_dialog_text">Ja iepazīšanās tūre tiek atkārtoti palaista, tas neietekmēs esošos iestatījumus.</string>
+    <string name="finish">Pabeigt</string>
+    
     </resources>

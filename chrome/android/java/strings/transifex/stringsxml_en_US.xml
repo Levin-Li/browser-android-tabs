@@ -248,6 +248,7 @@ content creators you love.</string>
     <string name="prefs_appearance">Appearance</string>
     <string name="hide_brave_rewards_icon_title">Hide Brave Rewards Icon</string>
     <string name="hide_brave_rewards_icon_description">Hides the Brave Rewards Icon when Brave Rewards is not enabled</string>
+    <string name="show_ads_when_brave_is_not_in_use">Show Ads when Brave is not in use</string>
     <string name="reset_brave_rewards_option">Reset Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">This will delete your Brave wallet and reset all of your Brave Rewards data</string>
     <string name="reset_brave_rewards_error_title">Reset Error</string>
@@ -309,5 +310,9 @@ content creators you love.</string>
     <string name="prefs_welcome_tour">Welcome Tour</string>
     <string name="welcome_tour_dialog_text">Relaunching Welcome Tour will not affect any existing settings.</string>
     <string name="finish">Finish</string>
+    
+    <string name="clear_download_title">Download history</string>
+
+    <string name="settings_exit">Settings exit</string>
 
 </resources>

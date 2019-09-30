@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS ทุกแห่ง</string>
     <string name="brave_shields_blocks_scripts_switch">ป้องกันสคริป</string>
     <string name="accessibility_toolbar_btn_brave_shields">เปิดใช้งาน/ปิดเกราะป้องกัน Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">จัดการรางวัล Brave</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">ปิดกั้นคุกกี้จากบุคคลภายนอก</string>
 
     <string name="httpse_summary">เปิดเว็บที่รองรับโดยใช้ HTTPS แทน HTTP หากเป็นไปได้</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">ทางออก</string>
 
+    <string name="brave_sync">การซิงก์ Brave (เบต้า)</string>
     <string name="sync_settings_add_device_name_title">เพิ่มชื่ออุปกรณ์</string>
     <string name="sync_settings_add_device_name_label">ป้อนชื่อเพิ่มเติมสำหรับอุปกรณ์นี้</string>
     <string name="sync_example_device_name">อุปกรณ์ Android</string>
@@ -107,6 +109,7 @@ EST แล้ว</string>
     <string name="brave_sync_btn_laptop">เพิ่มคอมพิวเตอร์</string>
     <string name="brave_sync_scan_sync_code">สแกนรหัสการซิงค์นี้</string>
     <string name="brave_sync_add_mobile_device_text_part_1">หากต้องการใช้โทรศัพท์หรือแท็บเล็ตเครื่องที่สอง ให้นำทางไปยัง การตั้งค่า Brave > ซิงค์ > สแกน</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">เข้าไปที่การซิงก์ Brave ในแผงการตั้งค่าบนอุปกรณ์เคลื่อนที่ของคุณ คลิกปุ่ม \"สแกนรหัสซิงก์\" แล้วใช้กล้องสแกนคิวอาร์โค้ดด้านล่าง</string>
     <string name="brave_sync_btn_done">เสร็จสิ้น</string>
     <string name="brave_sync_tabs_text">แท็บ</string>
     <string name="brave_sync_history_text">ประวัติ</string>
@@ -209,6 +212,7 @@ EST แล้ว</string>
     <string name="brave_ui_reserved_amount_text">คุณได้มอบ <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>BAT ให้กับครีเอเตอร์ที่ยังไม่ได้
 ลงทะเบียนเพื่อรับเงินสนับสนุน เบราว์เซอร์ของคุณจะพยายามมอบเงินสนับสนุนให้
 จนกว่าพวกเขาจะยืนยันตัวตน หรือจนกว่าจะผ่านไป 90 วัน</string>
+    <string name="brave_ui_notification_desc_no_funds">ไม่สามารถดำเนินการชำระเงินรายเดือนตามกำหนดการสนับสนุนอัตโนมัติและให้ทิปรายเดือนได้เนื่องจากยอดเงินมีไม่เพียงพอ เราจะลองอีกครั้งในอีก 30 วัน</string>
     <string name="brave_ui_notification_desc_tip_error">มีปัญหาเกิดขึ้นในการประมวลผลทิปของคุณ กรุณาลองอีกครั้ง</string>
     <string name="brave_ui_notification_desc_contr_error">มีปัญหาเกิดขึ้นในการประมวลผลการสนับสนุนของคุณ</string>
     <string name="brave_rewards_local_uh_oh">แย่แล้ว</string>
@@ -244,6 +248,7 @@ EST แล้ว</string>
     <string name="prefs_appearance">ลักษณะ</string>
     <string name="hide_brave_rewards_icon_title">ซ่อนไอคอน Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">ซ่อนไอคอน Brave Rewards เมื่อไม่ได้เปิดใช้งาน Brave Rewards</string>
+    <string name="show_ads_when_brave_is_not_in_use">แสดงโฆษณาเมื่อไม่ได้ใช้ Brave </string>
     <string name="reset_brave_rewards_option">รีเซ็ต Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">คำสั่งนี้จะลบกระเป๋าเงิน Brave ของคุณและรีเซ็ตข้อมูล Brave Rewards ของคุณทั้งหมด</string>
     <string name="reset_brave_rewards_error_title">ข้อผิดพลาดในการรีเซ็ต</string>
@@ -305,5 +310,9 @@ EST แล้ว</string>
     <string name="prefs_welcome_tour">ทัวร์ต้อนรับ</string>
     <string name="welcome_tour_dialog_text">การเปิดใช้งาน Welcome Tour อีกครั้งจะไม่ส่งผลกระทบต่อการตั้งค่าที่มีอยู่</string>
     <string name="finish">เสร็จสิ้น</string>
+    
+    <string name="clear_download_title">ดาวน์โหลดประวัติ</string>
+
+    <string name="settings_exit">ออกจากการตั้งค่า</string>
 
 </resources>

@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS Svugdje</string>
     <string name="brave_shields_blocks_scripts_switch">Blokirati skripte</string>
     <string name="accessibility_toolbar_btn_brave_shields">Omogućiti/onemogućiti štitove za Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Upravljajte nagradama Brave</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Blokirati kolačiće 3. strana</string>
 
     <string name="httpse_summary">Otvara podržane sajtove uz pomoć HTTPS umjesto HTTP kad je to mogućno</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">Izlaženje</string>
 
+    <string name="brave_sync">Brave Sync (beta) </string>
     <string name="sync_settings_add_device_name_title">Dodaj naziv uređaja</string>
     <string name="sync_settings_add_device_name_label">Unesi neobavezni naziv za ovaj uređaj</string>
     <string name="sync_example_device_name">Uređaj Android</string>
@@ -105,6 +107,7 @@ Spaseno</string>
     <string name="brave_sync_btn_laptop">Dodaj računalo</string>
     <string name="brave_sync_scan_sync_code">Skeniraj ovaj kôd za sinkroniziranje</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Uporabom drugog telefona ili tableta idite u postavke aplikacije Brave > Sinkroniziranje > Skeniraj.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Na svom mobilnom uređaju otiđite do Brave Sync na panelu za postavke i kliknite na gume \"Skeniranje šifru za sinkronizaciju\".  Uz pomoć svoje kamere skeniranje donji kod QR. </string>
     <string name="brave_sync_btn_done">Završeno</string>
     <string name="brave_sync_tabs_text">Kartice</string>
     <string name="brave_sync_history_text">Povijest</string>
@@ -138,7 +141,9 @@ Spaseno</string>
 kao zadani preglednik.</string>
     <string name="brave_default_browser_go_to_settings">Već ste postavili zadani preglednik.
 Zadani preglednik možete promijeniti u postavkama aplikacije.</string>
+    <string name="brave_default_browser_notification_body">Uštedite bateriju i učitavajte mrežne stranice brže. Neka Brave bude vaš standardni preglednik. Iz izbornika Brave dodirnite \"Postaviti kao standardni preglednik\"</string>
     <string name="brave_set_default_browser">Postavi kao zadani preglednik</string>
+    <string name="brave_set_default_browser_dialog_text">Odaberite Brave sa popisa i dodirnite \"Uvijek\"</string>
     <string name="brave_default_browser_existing_notification_body">Postavite Brave kao zadani preglednik
 Uštedite bateriju i brže učitavajte internetske stranice</string>
 
@@ -205,6 +210,7 @@ Sve poslane napojnice ostat će u vašoj lisnici dok ih stvaratelj ne potvrdi.</
     <string name="brave_ui_reserved_amount_text">Namijenili ste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>BAT stvarateljima koji se još nisu
 prijavili za primanje doprinosa. Vaš će preglednik pokušavati proslijediti doprinose
 dok ih stvaratelj ne potvrdi ili dok ne prođe 90 dana.</string>
+    <string name="brave_ui_notification_desc_no_funds">Vaše zakazano mjesečno plaćanje za Auto-doprinos i mjesečne napojnice nije se moglo obavii zbog nedostatnih sredstava. Pokušat ćemo ponovno za 30 dana.</string>
     <string name="brave_ui_notification_desc_tip_error">Nastao je problem pri obradi vaše napojnice.  Pokušajte ponovno.</string>
     <string name="brave_ui_notification_desc_contr_error">Nastao je problem pri obradi vašeg doprinosa.</string>
     <string name="brave_rewards_local_uh_oh">Ups!</string>
@@ -238,6 +244,7 @@ omiljene stvaratelje sadržaja.</string>
     <string name="prefs_appearance">Izgled</string>
     <string name="hide_brave_rewards_icon_title">Sakrijte ikonu Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Sakriva ikonu Brave Rewards onda kad Brave Rewards nije omogućen</string>
+    <string name="show_ads_when_brave_is_not_in_use">Prikazati oglase kad Brave nije u uporabi.</string>
     <string name="reset_brave_rewards_option">Resetirajte Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Ovim će se pobrisati vaša Brave novčarka i resetirati svi vaši Brave Rewards podaci</string>
     <string name="reset_brave_rewards_error_title">Resetirajte pogrešku</string>
@@ -299,5 +306,9 @@ omiljene stvaratelje sadržaja.</string>
     <string name="prefs_welcome_tour">Demonstracijski prikaz</string>
     <string name="welcome_tour_dialog_text">Pokretanjem demonstracijskog prikaza ne utječe se na postojeće postavke.</string>
     <string name="finish">Završi</string>
+    
+    <string name="clear_download_title">Preuzeti povijest</string>
+
+    <string name="settings_exit">Izlaz iz postavki</string>
 
 </resources>

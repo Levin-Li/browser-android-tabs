@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS Her yerde</string>
     <string name="brave_shields_blocks_scripts_switch">Betikleri Engelle</string>
     <string name="accessibility_toolbar_btn_brave_shields">Brave Korumalarını Aç/Kapat</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Brave Ödüllerini Yönet</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Üçüncü kişi çerezlerini engelleyin</string>
 
     <string name="httpse_summary">Desteklenen siteleri mümkün olduğunda HTTP yerine HTTPS kullanarak açar</string>
@@ -108,6 +109,7 @@ Kaydedildi</string>
     <string name="brave_sync_btn_laptop">Bilgisayar Ekle</string>
     <string name="brave_sync_scan_sync_code">Bu senkronizasyon kodunu tarayın</string>
     <string name="brave_sync_add_mobile_device_text_part_1">İkinci bir telefon veya tablet kullanarak Brave Ayarları > Senkronizasyon > Tara öğesine gidin.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Mobil cihazınızda, Ayarlar panosunda Brave Sync\'e gidin ve \"Senkronizasyon Kodunu Tara\" butonuna tıklayın. Aşağıdaki QR Kodunu taramak için kameranızı kullanın.</string>
     <string name="brave_sync_btn_done">Bitti</string>
     <string name="brave_sync_tabs_text">Sekmeler</string>
     <string name="brave_sync_history_text">Geçmiş</string>
@@ -210,6 +212,7 @@ yok...</string>
     <string name="brave_ui_reserved_amount_text">Henüz katkı almak amacıyla kaydolmamış oluşturucular için <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT
 ayırdınız. Tarayıcınız onlar onaylayana veya
 90 gün geçene kadar katkı yapmayı deneyecek.</string>
+    <string name="brave_ui_notification_desc_no_funds">Otomatik Bağış ve aylık ipuçları için planlanmış aylık ödemeniz yetersiz fon nedeniyle tamamlanamadı. 30 gün içinde tekrar deneyeceğiz.</string>
     <string name="brave_ui_notification_desc_tip_error">Bahşişiniz işleme alınırken bir sorun oluştu, lütfen tekrar deneyin.</string>
     <string name="brave_ui_notification_desc_contr_error">Katkınız işleme alınırken bir sorun oluştu.</string>
     <string name="brave_rewards_local_uh_oh">Tüh!</string>
@@ -245,6 +248,7 @@ para kazanın ve sevdiğiniz içerik
     <string name="prefs_appearance">Görünüm</string>
     <string name="hide_brave_rewards_icon_title">Brave Ödülleri Simgesini Gizle</string>
     <string name="hide_brave_rewards_icon_description">Brave Ödülleri etkin olmadığında Brave Ödülleri simgesini gizler</string>
+    <string name="show_ads_when_brave_is_not_in_use">Brave kullanımda değilken Reklamları göster</string>
     <string name="reset_brave_rewards_option">Brave Ödüllerini Sıfırla</string>
     <string name="reset_brave_rewards_option_description">Bu, Brave cüzdanınızı siler ve tüm Brave Ödülleri verilerinizi sıfırlar</string>
     <string name="reset_brave_rewards_error_title">Sıfırlama Hatası</string>
@@ -306,5 +310,9 @@ para kazanın ve sevdiğiniz içerik
     <string name="prefs_welcome_tour">Hoşgeldin Turu</string>
     <string name="welcome_tour_dialog_text">Hoş Geldin Turu\'nu kapatmak mevcut ayarları etkilemeyecektir.</string>
     <string name="finish">Bitir</string>
+    
+    <string name="clear_download_title">Geçmişi indir</string>
+
+    <string name="settings_exit">Ayarlardan çık</string>
 
 </resources>

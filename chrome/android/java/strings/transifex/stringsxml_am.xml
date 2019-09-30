@@ -229,63 +229,63 @@
     <string name="bottom_toolbar_disable">የግርጌ መሳሪያ አሞሌን ከስራ አስቁም</string>
     <string name="search_or_url">ፈልግ ወይም URL</string>
     <string name="accessibility_toolbar_btn_bookmark">እልባት ፍጠር</string>
-    <string name="brave_ui_donate_monthly">ለዚህ ገጽ ወርሀዊ ጉርሻ ስጥ</string>
+    <string name="brave_ui_donate_monthly">ለዚህ ድረ-ገጽ ወርሀዊ ጉርሻ ስጥ</string>
 
-    <string name="brave_rewards_not_available">እናዝናለን Brave ሽልማቶች በስልክዎ ላይ ያለ አይመስልም</string>
+    <string name="brave_rewards_not_available">እናዝናለን የ Brave ሽልማቶች በስልክዎ ላይ ያለ አይመስልም</string>
 
-    <string name="prefs_closing_all_tabs_closes_brave_title">ሀሉንም ታቦች መዝጋት Brave እንዲዘጋ ያደርጋል</string>
+    <string name="prefs_closing_all_tabs_closes_brave_title">ሀሉንም ታቦች መዝጋት Brave ን እንዲዘጋ ያደርጋል</string>
     <string name="prefs_section_display">አሳይ</string>
     <string name="prefs_section_controls">መቆጣጠሪያዎች</string>
-    <string name="prefs_appearance">መገለጫ</string>
+    <string name="prefs_appearance">ገጽታ</string>
     <string name="hide_brave_rewards_icon_title">የ Brave ሽልማቶች አዶን ደብቅ</string>
-    <string name="hide_brave_rewards_icon_description">Brave ሸልማቶች በስራ ላይ በማይሆንበት ጊዜ የ Brave ሸልማቶች አዶን ይደብቃል</string>
+    <string name="hide_brave_rewards_icon_description">የ Brave ሸልማቶች በስራ ላይ በማይሆንበት ጊዜ የ Brave ሸልማቶች አዶንን ይደብቃል</string>
     <string name="reset_brave_rewards_option">የ Brave ሽልማቶችን ወደነበረበት መልስ</string>
-    <string name="reset_brave_rewards_option_description">ይህ ዋሌትዎን ያጠፋ እና ሁሉንም የ Brave ሽልማቶች ውሂቦች ወደነበሩበት ይመልሳቸዋል</string>
+    <string name="reset_brave_rewards_option_description">ይህ ዋሌትዎን ያጠፋ እና ሁሉንም የ Brave ሽልማትዎን ወደነበሩበት ይመልሳቸዋል</string>
     <string name="reset_brave_rewards_error_title">ወደነበረበት የመመለስ ስህተት</string>
-    <string name="reset_brave_rewards_error_description">Brave ሸልማቶችን በማዋቀር ሂደት ውስጥ ስህተት ነበር። እባክዎ Brave አጥፍተው ያብሩ እና እንደገና ይሞክሩ</string>
+    <string name="reset_brave_rewards_error_description">የ Brave ሸልማቶችን በማዋቀር ሂደት ውስጥ ስህተት ነበር። እባክዎ Brave አጥፍተው ያብሩ እና እንደገና ይሞክሩ</string>
 
     <string name="brave_sync_add_laptop_text_part_2_new">በኮምፒውተርዎ ላይ ወደ ቅንብር ውስጥ ወዳለው ወደ Brave ሲንክ ይሂዱ እና \"የሲንክ ኮድ አለኝ\"\ የሚለውን ቁልፍ ጠቅ ያድርጉ። ከዚህ በታች የሚታዩትን የሲንክ ሰንሰለት ኮድ ቃላት ያስገቡ።</string>
 
     <string name="brave_sync_official">Brave ሲንክ</string>
     <string name="prefs_sync_official">ሲንክ</string>
 
-    <string name="brave_sync_code_warning">ይህንን ኮድ ልክ እንደ ይለፍቃል ይያዙት። አንድ ሰው እጅ ላይ የሚገባ ከሆነ ሲንክ የተደረገውን ውሂብዎን ሊያነቡ እና ሊቀይሩት ይችላሉ።</string>
+    <string name="brave_sync_code_warning">ይህንን ኮድ ልክ እንደ ይለፍቃል ይያዙት። አንድ ሰው እጅ ላይ የሚገባ ከሆነ ሲንክ የተደረገውን ዳታዎን ሊያነቡ እና ሊቀይሩት ይችላሉ።</string>
 
-    <string name="notification_category_group_brave_ads">Brave ማስታወቂያዎች</string>
+    <string name="notification_category_group_brave_ads">የ Brave ማስታወቂያዎች</string>
     <string name="brave_ads_you_earned">አግኝተዋል</string>
 
     <string name="brave_default_browser_title">Brave እንደ መብረቅ ፈጣን ነው</string>
-    <string name="brave_default_browser_body">Brave ዋናው አሳሽዎ እንዲሆን ያድርጉ!</string>
+    <string name="brave_default_browser_body">Brave ን መደበኛ አሳሽዎ እንዲሆን ያድርጉ!</string>
     <string name="brave_make_default_text">መደበኛ ያድርጉ</string>
     <string name="brave_ui_ads_earnings">ከማስታወቂያዎች የተገኘ</string>
     <!-- Onboarding strings -->
 
     <string name="skip">ዝለል</string>
 
-    <string name="search_engine_onboarding">የሞተር ኦንቦርዲንግን ፈልግ</string>
-    <string name="troubleshooting_onboarding">ኦንቦርዲንግን ትራብልሹት ማድረግ</string>
+    <string name="search_engine_onboarding">የማሰሻ ኢንጂን አለ</string>
+    <string name="troubleshooting_onboarding">ችግርመፍቻ አለ</string>
 
     <string name="welcome_to_brave_browser">ወደ Brave ማሰሻ እንኳን በደህና መጡ</string>
-    <string name="select_your_default_search_engine">መደበኛውን የፍለጋ ሞተርዎን ይምረጡ</string>
+    <string name="select_your_default_search_engine">መደበኛውን የማሰሻ ኢንጅንዎን ይምረጡ</string>
 
     <string name="block">አግድ</string>
     <string name="brave_shields_onboarding_title">የ Brave ጋሻዎች</string>
-    <string name="brave_shields_onboarding_text">በድር ላይ ክትትል ሳይደረግብዎ እሰሳ ማድረግ ይችሉ ዘንድ ግለኝነት የሚጥሱ ማስታወቂያዎች እና ክትትል ማድረጊያዎች</string>
+    <string name="brave_shields_onboarding_text">በድር ላይ ክትትል ሳይደረግብዎ እሰሳ ማድረግ ይችሉ ዘንድ ግለኝነት የሚጥሱ ማስታወቂያዎች እና ክትትል ማድረጊያዎች።</string>
 
     <string name="earn_tokens">ቶክኖችን ያግኙ</string>
-    <string name="brave_rewards_onboarding_title">Brave ሽልማቶች</string>
+    <string name="brave_rewards_onboarding_title">የ Brave ሽልማቶች</string>
     <string name="brave_rewards_onboarding_text">ግለኝነትን የሚያከብሩ ማስታወቂያዎችን ለማየት። የሚወዷቸውን ገጾች እና ፈጣሪዎች ለመደገፍ ይጠቀሙዋቸው።</string>
     <string name="brave_rewards_onboarding_text2">ግለኝነትን የሚያከብሩ ማስታወቂያዎችን ለማየት።</string>
 
-    <string name="terms_title">Brave ሸልማቶችን ለመጠቀም ከደንቦች ጋር ስምምነት ያድርጉ</string>
+    <string name="terms_title">የ Brave ሸልማቶችን ለመጠቀም ከውሎቹ ጋር ስምምነት ያድርጉ</string>
     <string name="terms_text">ከ Brave ሸልማቶች ጋር እስማማለሁ</string>
-    <string name="terms_of_service">የአገልግሎት ደንቦች</string>
+    <string name="terms_of_service">የአገልግሎት ውሎች</string>
 
     <string name="agree">ተስማማ</string>
     <string name="join">ተቀላቀል</string>
 
      <string name="start_browsing">ማሰስ ጀምር</string>
-    <string name="i_didnt_see">እኔ didn&apos;t ማስታወቂያ ተመልከት</string>
+    <string name="i_didnt_see">እኔ ማስታወቂያ አላየሁም</string>
 
     <string name="brave_ads_onboarding_title">Brave የመጀመሪያውን ማስታወቂያ የሚያሳይዎ በ</string>
     <string name="brave_ads_onboarding_text">ማስታወቂያዎችን ከ Brave ሸልማቶች ለማየት፣ Brave ማሳወቂያዎችን ለእርሶ ለማሳየት ፈቃድ እንዳለው ያረጋግጡ።</string>
@@ -295,10 +295,10 @@
     <string name="turn_on">አብራ</string>
 
     <string name="no_thanks">አይ አመሰግናለሁ</string>
-    <string name="do_not_agree">አትስማማ</string>
+    <string name="do_not_agree">አልስማማም</string>
 
     <string name="prefs_welcome_tour">የእንኳን ደህና መጡ ጉብኝት</string>
     <string name="welcome_tour_dialog_text">የእንኳን ደህን መጡ ጉብኝትን እንደገና ማስፈንጠር አሁን ባሉ ቅንብሮች ላይ ተጽእኖ አያሳድርም።</string>
     <string name="finish">ጨርስ</string>
-
-</resources>
+    
+    </resources>

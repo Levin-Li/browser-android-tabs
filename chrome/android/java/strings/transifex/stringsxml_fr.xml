@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Bloquer les scripts</string>
     <string name="accessibility_toolbar_btn_brave_shields">Activer/Désactiver Brave Shields</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Gérer Brave Rewards</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Bloquer les cookies tiers</string>
 
     <string name="httpse_summary">Ouvre les sites compatibles en HTTPS plutôt qu'en HTTP, lorsque cela est possible</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">Sortie</string>
 
+    <string name="brave_sync">Brave Sync (beta)</string>
     <string name="sync_settings_add_device_name_title">Ajouter un nom d'appareil</string>
     <string name="sync_settings_add_device_name_label">Saisir un nom optionnel pour cet appareil</string>
     <string name="sync_example_device_name">Appareil Android</string>
@@ -107,6 +109,7 @@ Economisé</string>
     <string name="brave_sync_btn_laptop">Ajouter un ordinateur</string>
     <string name="brave_sync_scan_sync_code">Scannez ce code de synchronisation</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Sur un autre téléphone ou une autre tablette, accédez à Paramètres Brave > Synchronisation > Scanner.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Sur votre appareil mobile, accédez à Brave Sync dans le panneau Paramètres et cliquez sur le bouton « Scan Sync Code ». Utilisez votre appareil photo pour scanner le code QR ci-dessous.</string>
     <string name="brave_sync_btn_done">Terminé</string>
     <string name="brave_sync_tabs_text">Onglets</string>
     <string name="brave_sync_history_text">Historique</string>
@@ -208,6 +211,7 @@ pour le moment…</string>
     <string name="brave_ui_reserved_amount_text">Vous avez dédié <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT pour des créateurs qui ne se sont pas
 encore inscrits pour recevoir des dons. Votre navigateur continuera à essayer d\'envoyer des dons
 jusqu\'à ce qu\'ils procèdent à une vérification ou jusqu\'à ce que 90 jours se soient écoulés.</string>
+    <string name="brave_ui_notification_desc_no_funds">Votre échéance mensuelle pour Auto-Contribute et des conseils pratiques mensuels n\'a pas pu être traitée en raison d\'un solde insuffisant. Nous essayerons de nouveau dans 30 jours.</string>
     <string name="brave_ui_notification_desc_tip_error">Un problème est survenu lors du traitement de votre pourboire. Veuillez réessayer.</string>
     <string name="brave_ui_notification_desc_contr_error">Un problème est survenu lors du traitement de votre don.</string>
     <string name="brave_rewards_local_uh_oh">Oups !</string>
@@ -243,6 +247,7 @@ les créateurs de contenu que vous aimez.</string>
     <string name="prefs_appearance">Apparence</string>
     <string name="hide_brave_rewards_icon_title">Masquer l\'icône Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Masque l\'icône Brave Rewards lorsque Brave Rewards n\'est pas activé</string>
+    <string name="show_ads_when_brave_is_not_in_use">Afficher les pubs quand Brave n\'est pas utilisé.</string>
     <string name="reset_brave_rewards_option">Réinitialiser Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Cela supprimera votre portefeuille Brave et réinitialisera toutes vos données Brave Rewards</string>
     <string name="reset_brave_rewards_error_title">Erreur de réinitialisation</string>
@@ -304,5 +309,9 @@ les créateurs de contenu que vous aimez.</string>
     <string name="prefs_welcome_tour">Visite de bienvenue</string>
     <string name="welcome_tour_dialog_text">Relancer la visite guidée de bienvenue n\'affectera pas les paramètres existants. </string>
     <string name="finish">Terminer</string>
+    
+    <string name="clear_download_title">Télécharger l\'historique</string>
+
+    <string name="settings_exit">Sortie des paramètres</string>
 
 </resources>

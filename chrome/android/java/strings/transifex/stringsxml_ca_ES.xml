@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS Arreu</string>
     <string name="brave_shields_blocks_scripts_switch">Bloca scripts</string>
     <string name="accessibility_toolbar_btn_brave_shields">Activa/desactiva escuts Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Gestionar Brave Rewards</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Bloca les galetes de 3rs</string>
 
     <string name="httpse_summary">Obre els llocs compatibles amb HTTPS enlloc de HTTP, si és possible</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">Sortida</string>
 
+    <string name="brave_sync">Brave Sync (beta)</string>
     <string name="sync_settings_add_device_name_title">Afegiu el nom del dispositiu</string>
     <string name="sync_settings_add_device_name_label">Introduïu un nom opcional per a aquest dispositiu</string>
     <string name="sync_example_device_name">Dispositiu Android</string>
@@ -105,6 +107,7 @@ Desat</string>
     <string name="brave_sync_btn_laptop">Afegeix un ordinador</string>
     <string name="brave_sync_scan_sync_code">Escaneja aquest codi de sincronització</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Des d\'un altre telèfon mòbil o una tauleta, ves a l\'opció de Configuració de Brave > Sync > Escaneja.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">En el teu dispositiu mòbil, navega fins a Brave Sync a Configuració i fes clic al botó \"Escanejar el codi de sincronització\". Usa la càmera per escanejar el codi QR a continuació.</string>
     <string name="brave_sync_btn_done">Fet</string>
     <string name="brave_sync_tabs_text">Pestanyes</string>
     <string name="brave_sync_history_text">Historial</string>
@@ -138,7 +141,9 @@ Desat</string>
 com el teu navegador predeterminat.</string>
     <string name="brave_default_browser_go_to_settings">Ja has definit un navegador predeterminat.
 Pots canviar el navegador predeterminat a la configuració de l\'aplicació.</string>
+    <string name="brave_default_browser_notification_body">Estalviar bateria i carregar les pàgines web més ràpidament. Fer que Brave sigui el teu navegador predeterminat. En el menú de Brave vés a \"Fer que sigui el meu navegador predeterminat\"</string>
     <string name="brave_set_default_browser">Defineix com a navegador predeterminat</string>
+    <string name="brave_set_default_browser_dialog_text">Selecciona Brave a la llista i vés a \"Sempre\"</string>
     <string name="brave_default_browser_existing_notification_body">Defineix Brave com el teu navegador web predeterminat
 Estalvia bateria i carrega pàgines web més ràpid</string>
 
@@ -205,6 +210,7 @@ aquest mes...</string>
     <string name="brave_ui_reserved_amount_text">Has designat <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT per als creadors que encara
 no s\'han registrat per rebre contribucions. El teu navegador continuarà intentant contribuir
 fins que es verifiquin o fins que passin 90 dies.</string>
+    <string name="brave_ui_notification_desc_no_funds">No s\'ha pogut realitzar el teu pagament mensual programat de les autocontribucions i les recompenses mensuals perquè no hi ha prou fons. Ho tornarem a provar d\'aquí a 30 dies.</string>
     <string name="brave_ui_notification_desc_tip_error">S\'ha produït un problema en processar la teva propina, torna-ho a provar.</string>
     <string name="brave_ui_notification_desc_contr_error">S\'ha produït un problema en processar la teva contribució.</string>
     <string name="brave_rewards_local_uh_oh">Vaja!</string>
@@ -238,6 +244,7 @@ als creadors de contingut que t\'agraden.</string>
     <string name="prefs_appearance">Aparença</string>
     <string name="hide_brave_rewards_icon_title">Ocultar Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Amaga la icona de Brave Rewards quan Brave Rewards no estigui activat</string>
+    <string name="show_ads_when_brave_is_not_in_use">Mostrar Ads quan Brave no estigui en ús</string>
     <string name="reset_brave_rewards_option">Inicialitzar Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Això eliminarà la cartera Brave Rewards i inicialitzarà totes les teves dades de Brave Rewards</string>
     <string name="reset_brave_rewards_error_title">Error d\'inicialització</string>
@@ -299,5 +306,9 @@ als creadors de contingut que t\'agraden.</string>
     <string name="prefs_welcome_tour">Visita de benvinguda</string>
     <string name="welcome_tour_dialog_text">Tornar a iniciar la visita de benvinguda no afectarà a cap configuració existent.</string>
     <string name="finish">Finalitza</string>
+    
+    <string name="clear_download_title">Descarregar historial</string>
+
+    <string name="settings_exit">Sortir de la configuració</string>
 
 </resources>

@@ -253,7 +253,7 @@ os criadores de conteúdo de que adora.</string>
     <string name="reset_brave_rewards_error_title">Erro de Reiniciar</string>
     <string name="reset_brave_rewards_error_description">Ocorreu um erro ao reiniciar Recompensa Brave. Por favor, reinicie o Brave e tente novamente</string>
 
-    <string name="brave_sync_add_laptop_text_part_2_new">No computador de destino aceda a Brave Sync no painel de Definições e clique no botão \"Tenho um código de sincronização\".\nIntroduza a sequência de caracteres de sincronização apresentados abaixo.</string>
+    <string name="brave_sync_add_laptop_text_part_2_new">No computador de destino aceda a Brave Sync no painel de Definições e clique no botão \"Tenho um código de sincronização\".\nIntroduza a sequência de caracteres de sincronização apresentada abaixo.</string>
 
     <string name="brave_sync_official">Brave Sync</string>
     <string name="prefs_sync_official">Sincronizar</string>
@@ -309,5 +309,5 @@ os criadores de conteúdo de que adora.</string>
     <string name="prefs_welcome_tour">Apresentação de boas-vindas</string>
     <string name="welcome_tour_dialog_text">Voltar a ver a Apresentação de boas-vindas não afeta as definições existentes.</string>
     <string name="finish">Terminar</string>
-
-</resources>
+    
+    </resources>

@@ -246,6 +246,7 @@
     <string name="prefs_appearance">見た目</string>
     <string name="hide_brave_rewards_icon_title">Brave Rewardsのアイコンを隠す</string>
     <string name="hide_brave_rewards_icon_description">Brave Rewardsが有効でない場合にBrave Rewardsのアイコンを隠す</string>
+    <string name="show_ads_when_brave_is_not_in_use">Braveが使われていない時に広告を表示する</string>
     <string name="reset_brave_rewards_option">Brave Rewardsをリセット</string>
     <string name="reset_brave_rewards_option_description">Brave Walletが削除され、すべてのBrave Rewardsのデータがリセットされます</string>
     <string name="reset_brave_rewards_error_title">エラーをリセット</string>
@@ -307,5 +308,9 @@
     <string name="prefs_welcome_tour">ウェルカムツアー</string>
     <string name="welcome_tour_dialog_text">ウェルカムツアーを再起動しても、既存の設定には影響しません。</string>
     <string name="finish">終了</string>
+    
+    <string name="clear_download_title">ダウンロード履歴</string>
+
+    <string name="settings_exit">設定終了</string>
 
 </resources>

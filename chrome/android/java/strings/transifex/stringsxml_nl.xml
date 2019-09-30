@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS overal</string>
     <string name="brave_shields_blocks_scripts_switch">Blokkeer Scripts</string>
     <string name="accessibility_toolbar_btn_brave_shields">Activeer/inactiveer Brave afschermingen</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Brave Rewards beheren</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Blokkeer cookies van derden</string>
 
     <string name="httpse_summary">Opent ondersteunde websites met HTTPS in plaats van HTTP indien mogelijk</string>
@@ -211,6 +212,7 @@ Alle donaties die je doet, blijven in je wallet staan tot de maker is geverifiee
     <string name="brave_ui_reserved_amount_text">Je hebt <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT\'s apart gezet voor makers die zich nog niet
 hebben geregistreerd voor het ontvangen van donaties. Je browser blijft proberen de donatie
 over te maken tot de maker zich registreert, of tot er 90 dagen zijn verstreken.</string>
+    <string name="brave_ui_notification_desc_no_funds">Uw geplande maandelijkse betaling voor Auto-Contribute en maandelijkse fooien kon niet worden voltooid vanwege een ontoereikend saldo. We proberen het over 30 dagen opnieuw.</string>
     <string name="brave_ui_notification_desc_tip_error">Er is een probleem opgetreden bij het verwerken van je donatie. Probeer het opnieuw.</string>
     <string name="brave_ui_notification_desc_contr_error">Er is een probleem opgetreden bij het verwerken van je donatie.</string>
     <string name="brave_rewards_local_uh_oh">Er is een probleem opgetreden.</string>
@@ -246,6 +248,7 @@ anderen meegenieten door de inhoudmakers waar jij fan van bent te ondersteunen.<
     <string name="prefs_appearance">Uiterlijk</string>
     <string name="hide_brave_rewards_icon_title">Brave Rewards-pictogram verbergen</string>
     <string name="hide_brave_rewards_icon_description">Verbergt het Brave Rewards-pictogram wanneer Brave Rewards niet is ingeschakeld</string>
+    <string name="show_ads_when_brave_is_not_in_use">Toon advertenties wanneer Brave niet wordt gebruikt</string>
     <string name="reset_brave_rewards_option">Brave Rewards resetten</string>
     <string name="reset_brave_rewards_option_description">Dit zal uw Brave-portefeuille verwijderen en al uw Brave Reward-gegevens resetten</string>
     <string name="reset_brave_rewards_error_title">Fout resetten</string>
@@ -307,5 +310,9 @@ anderen meegenieten door de inhoudmakers waar jij fan van bent te ondersteunen.<
     <string name="prefs_welcome_tour">Welkomsttour</string>
     <string name="welcome_tour_dialog_text">Het opnieuw starten van de welkomsttour heeft geen effect op bestaande instellingen.</string>
     <string name="finish">Afronden</string>
+    
+    <string name="clear_download_title">Download geschiedenis</string>
+
+    <string name="settings_exit">Instellingen afsluiten</string>
 
 </resources>

@@ -247,6 +247,7 @@ twórcom treści, które lubisz.</string>
     <string name="prefs_appearance">Wygląd</string>
     <string name="hide_brave_rewards_icon_title">Ukryj ikonę nagród Brave</string>
     <string name="hide_brave_rewards_icon_description">Ukrywa ikonę nagród Brave, kiedy nie są one włączone.</string>
+    <string name="show_ads_when_brave_is_not_in_use">Pokaż reklamy, gdy program Brave nie jest w użyciu</string>
     <string name="reset_brave_rewards_option">Zresetuj nagrody Brave</string>
     <string name="reset_brave_rewards_option_description">Spowoduje to usunięcie portfela Brave i zresetowanie wszystkich Twoich danych o nagrodach Brave.</string>
     <string name="reset_brave_rewards_error_title">Błąd resetowania</string>
@@ -278,12 +279,12 @@ twórcom treści, które lubisz.</string>
 
     <string name="block">Zablokuj</string>
     <string name="brave_shields_onboarding_title">Tarcze Brave</string>
-    <string name="brave_shields_onboarding_text">reklamy ingerujące w prywatność oraz programy śledzące, dzięki czemu możesz przeglądać internet bez martwienia się o to, że ktoś monitoruje Twoje działania. </string>
+    <string name="brave_shields_onboarding_text">reklamy naruszające prywatność oraz skrypty śledzące, dzięki czemu możesz przeglądać internet bez martwienia się o to, że ktoś monitoruje Twoje działania.</string>
 
-    <string name="earn_tokens">Zarób tokeny</string>
+    <string name="earn_tokens">Zarabiaj tokeny</string>
     <string name="brave_rewards_onboarding_title">Nagrody Brave</string>
-    <string name="brave_rewards_onboarding_text">dla wyświetlania reklam chroniących prywatność. Korzystaj z nich, aby wspierać ulubione strony i twórców.</string>
-    <string name="brave_rewards_onboarding_text2">dla wyświetlania reklam chroniących prywatność.</string>
+    <string name="brave_rewards_onboarding_text">za wyświetlanie reklam chroniących prywatność. Korzystaj z nich, aby wspierać ulubione strony i twórców.</string>
+    <string name="brave_rewards_onboarding_text2">za wyświetlanie reklam chroniących prywatność.</string>
 
     <string name="terms_title">Akceptuję warunki, aby korzystać z nagród Brave</string>
     <string name="terms_text">Wyrażam zgodę na korzystanie z nagród Brave</string>
@@ -308,5 +309,9 @@ twórcom treści, które lubisz.</string>
     <string name="prefs_welcome_tour">Wprowadzenie</string>
     <string name="welcome_tour_dialog_text">Ponowne włączenie samouczka nie wpływa na istniejące ustawienia.</string>
     <string name="finish">Zakończ</string>
+    
+    <string name="clear_download_title">Historia pobrań</string>
+
+    <string name="settings_exit">Wyjście z ustawień</string>
 
 </resources>

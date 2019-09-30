@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Chặn Script</string>
     <string name="accessibility_toolbar_btn_brave_shields">Bật/ Tắt Lá chắn Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Quản lý Phần thưởng Brave</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Chặn cookies của bên thứ ba</string>
 
     <string name="httpse_summary">Mở các trang được hỗ trợ bằng cách sử dụng HTTPS thay vì HTTP khi có thể</string>
@@ -211,6 +212,7 @@ trong tháng này...</string>
     <string name="brave_ui_reserved_amount_text">Bạn đã dành <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT cho những nhà sáng tạo chưa
 đăng ký nhận đóng góp. Trình duyệt của bạn sẽ tiếp tục cố gắng đóng góp
 cho đến khi họ xác thực, hoặc cho đến khi 90 ngày đã trôi qua.</string>
+    <string name="brave_ui_notification_desc_no_funds">Không thể hoàn tất khoản thanh toán hàng tháng đã đặt lịch của bạn cho tính năng Đóng góp Tự động và lời khuyên hàng tháng do không đủ tiền. Chúng tôi sẽ thử lại sau 30 ngày nữa.</string>
     <string name="brave_ui_notification_desc_tip_error">Có vấn đề khi xử lý khoản tiền boa của bạn, vui lòng thử lại.</string>
     <string name="brave_ui_notification_desc_contr_error">Có vấn đề khi xử lý khoản đóng góp của bạn.</string>
     <string name="brave_rewards_local_uh_oh">Ôi không!</string>
@@ -246,6 +248,7 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
     <string name="prefs_appearance">Hiển thị</string>
     <string name="hide_brave_rewards_icon_title">Ẩn Biểu tượng Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Ẩn biểu tượng </string>
+    <string name="show_ads_when_brave_is_not_in_use">Hiển thị Quảng cáo khi không sử dụng Brave</string>
     <string name="reset_brave_rewards_option">Đặt lại Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Việc này sẽ xóa ví Brave của bạn và đặt lại toàn bộ dữ liệu Brave Rewards của bạn về trạng thái ban đầu</string>
     <string name="reset_brave_rewards_error_title">Lỗi khi Đặt lại</string>
@@ -307,5 +310,9 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
     <string name="prefs_welcome_tour">Chuyến chào mừng</string>
     <string name="welcome_tour_dialog_text">Khởi chạy lại Chuyến chào mừng sẽ không gây ảnh hưởng đến bất kỳ cài đặt hiện tại nào.</string>
     <string name="finish">Kết thúc</string>
+    
+    <string name="clear_download_title">Lịch sử tải xuống</string>
+
+    <string name="settings_exit">Thoát mục Cài đặt</string>
 
 </resources>

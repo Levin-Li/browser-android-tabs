@@ -248,6 +248,7 @@
     <string name="prefs_appearance">Внешний вид</string>
     <string name="hide_brave_rewards_icon_title">Скрыть иконку  Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Скрывает иконку Brave Rewards, когда Brave Rewards не активно</string>
+    <string name="show_ads_when_brave_is_not_in_use">Показывать рекламу, когда Brave не используется</string>
     <string name="reset_brave_rewards_option">Сбросить Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Это действие удалит ваш кошелек Brave и сбросит все ваши данные Brave Rewards</string>
     <string name="reset_brave_rewards_error_title">Ошибка сброса</string>
@@ -272,12 +273,12 @@
     <string name="skip">Пропустить</string>
 
     <string name="search_engine_onboarding">Введение в поисковую систему</string>
-    <string name="troubleshooting_onboarding">Устранение неполадок во введении</string>
+    <string name="troubleshooting_onboarding">Введение в Устранение неполадок</string>
 
     <string name="welcome_to_brave_browser">Добро пожаловать в браузер Brave</string>
     <string name="select_your_default_search_engine">Выберите поисковую систему по умолчанию </string>
 
-    <string name="block">Блокируйте</string>
+    <string name="block">Блокировать</string>
     <string name="brave_shields_onboarding_title">Щиты Brave</string>
     <string name="brave_shields_onboarding_text">нарушающие конфиденциальность рекламные объявления и трекеры, чтобы просматривать сайты по всему интернету без слежки.</string>
 
@@ -309,5 +310,9 @@
     <string name="prefs_welcome_tour">Приветственный тур</string>
     <string name="welcome_tour_dialog_text">Перезапуск Введения не повлияет на существующие настройки.</string>
     <string name="finish">Завершить</string>
+    
+    <string name="clear_download_title">История загрузок</string>
+
+    <string name="settings_exit">Выход из настроек</string>
 
 </resources>

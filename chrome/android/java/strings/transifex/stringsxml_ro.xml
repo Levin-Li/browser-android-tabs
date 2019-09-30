@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Blocare scripturi</string>
     <string name="accessibility_toolbar_btn_brave_shields">Activare/Dezactivare scuturi Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Gestionare Recompense Brave</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Blocare fișiere cookie terțe</string>
 
     <string name="httpse_summary">Deschide site-uri compatibile utilizând HTTPS în loc de HTTP atunci când este posibil</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">Ieșire</string>
 
+    <string name="brave_sync">Sincronizare Brave (beta)</string>
     <string name="sync_settings_add_device_name_title">Adăugare nume dispozitiv</string>
     <string name="sync_settings_add_device_name_label">Introduceți un nume opțional pentru acest dispozitiv</string>
     <string name="sync_example_device_name">Dispozitiv Android</string>
@@ -107,6 +109,7 @@ Salvat</string>
     <string name="brave_sync_btn_laptop">Adăugare computer</string>
     <string name="brave_sync_scan_sync_code">Scanați acest cod de sincronizare</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Pe o a doua tabletă sau un al doilea telefon, accesați Setări Brave  > Sincronizare  > Scanare.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Pe dispozitivul dvs. mobil, navigați la Sincronizare Brave în panoul Setări și apăsați butonul „Scanare cod sincronizare”. Folosiți camera foto pentru a scana Codul QR de mai jos.</string>
     <string name="brave_sync_btn_done">Efectuat</string>
     <string name="brave_sync_tabs_text">File</string>
     <string name="brave_sync_history_text">Istoric</string>
@@ -209,6 +212,7 @@ Orice bonusuri trimiteți vor rămâne în portofelul dumneavoastră până cân
     <string name="brave_ui_reserved_amount_text">Ați alocat <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>BAT pentru creatori care nu
 s-au înregistrat încă pentru a primi contribuții. Browserul dvs. va încerca să transmită contribuțiile
 până când vor verifica sau până la 90 de zile. </string>
+    <string name="brave_ui_notification_desc_no_funds">Plata dvs. lunară programată pentru Contribuție automată și bacșișuri lunare nu a putut fi finalizată din cauza fondurilor insuficiente. Vom încerca din nou peste 30 de zile.</string>
     <string name="brave_ui_notification_desc_tip_error">A apărut o problemă în procesarea bonusului, vă rugăm încercați din nou.</string>
     <string name="brave_ui_notification_desc_contr_error">A apărut o problemă în procesarea donației dumneavoastră.</string>
     <string name="brave_rewards_local_uh_oh">Oo, nu!</string>
@@ -244,6 +248,7 @@ creatorii de conținut care vă plac.</string>
     <string name="prefs_appearance">Aspect</string>
     <string name="hide_brave_rewards_icon_title">Ascunde Iconița Recompense Brave</string>
     <string name="hide_brave_rewards_icon_description">Ascunde Ioniță de Recompense Brave când Recompensele Brave nu sunt activate</string>
+    <string name="show_ads_when_brave_is_not_in_use">Afișează reclame când Brave nu este utilizat</string>
     <string name="reset_brave_rewards_option">Resetează Recompense Brave</string>
     <string name="reset_brave_rewards_option_description">Aceasta va șterge portofelul Brave și va reseta toate datele despre Recompensele Brave</string>
     <string name="reset_brave_rewards_error_title">Resetare Eroare</string>
@@ -305,5 +310,9 @@ creatorii de conținut care vă plac.</string>
     <string name="prefs_welcome_tour">Tur de bun venit</string>
     <string name="welcome_tour_dialog_text">Repornirea Turului de bun venit nu va afecta setările existente.</string>
     <string name="finish">Gata</string>
+    
+    <string name="clear_download_title">Istoric descărcări</string>
+
+    <string name="settings_exit">Ieșire setări</string>
 
 </resources>
