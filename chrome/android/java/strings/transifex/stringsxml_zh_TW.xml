@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS 無所不在</string>
     <string name="brave_shields_blocks_scripts_switch">禁用腳本</string>
     <string name="accessibility_toolbar_btn_brave_shields">啟用/停用 Brave 防護</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">管理 Brave獎勵</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">封鎖第三方 Cookie</string>
 
     <string name="httpse_summary">盡可能使用 HTTPS 而非 HTTP 開啟支援網站</string>
@@ -108,6 +109,7 @@
     <string name="brave_sync_btn_laptop">新增電腦</string>
     <string name="brave_sync_scan_sync_code">掃描此同步代碼</string>
     <string name="brave_sync_add_mobile_device_text_part_1">使用第二部手機或平板電腦，依序瀏覽至「Brave 設定 > 同步 > 掃描」。</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">在您的行動裝置上，前往「設定」面板中的「Brave 同步」，按一下按鈕「掃描同步代碼」。用您的相機掃描下方的 QR 碼。</string>
     <string name="brave_sync_btn_done">完成</string>
     <string name="brave_sync_tabs_text">分頁</string>
     <string name="brave_sync_history_text">記錄</string>
@@ -210,6 +212,7 @@
     <string name="brave_ui_reserved_amount_text">您已將 <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT 指定給尚未註冊而
 未能收取捐獻的創作者。在創作者通過驗證或超過 90 天前，
 瀏覽器會持續試著捐獻。</string>
+    <string name="brave_ui_notification_desc_no_funds">因為資金不足，無法完成您排定的月繳自動捐助和打賞。我們會在 30 天後再試一次。</string>
     <string name="brave_ui_notification_desc_tip_error">處理您的小費時發生問題，請再試一次。</string>
     <string name="brave_ui_notification_desc_contr_error">處理您的捐獻時發生問題。</string>
     <string name="brave_rewards_local_uh_oh">糟糕！</string>
@@ -245,6 +248,7 @@
     <string name="prefs_appearance">外觀</string>
     <string name="hide_brave_rewards_icon_title">隱藏 Brave 獎勵圖標</string>
     <string name="hide_brave_rewards_icon_description">當 Brave 獎勵未啟用時隱藏 Brave 獎勵圖示</string>
+    <string name="show_ads_when_brave_is_not_in_use">未使用 Brave 時顯示廣告</string>
     <string name="reset_brave_rewards_option">重新設定 Brave </string>
     <string name="reset_brave_rewards_option_description">這將會刪除你的 Brave 錢包並重新設定你所有的 Brave 獎勵之數據</string>
     <string name="reset_brave_rewards_error_title">重新設定發生錯誤</string>
@@ -306,5 +310,9 @@
     <string name="prefs_welcome_tour">歡迎導覽</string>
     <string name="welcome_tour_dialog_text">重新啟動「歡迎導覽」並不會影響到任何既有設定。</string>
     <string name="finish">結束</string>
+    
+    <string name="clear_download_title">下載記錄</string>
+
+    <string name="settings_exit">離開設定</string>
 
 </resources>

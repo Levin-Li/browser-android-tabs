@@ -109,6 +109,7 @@ Risparmiato</string>
     <string name="brave_sync_btn_laptop">Aggiungi un computer</string>
     <string name="brave_sync_scan_sync_code">Esegui scansione del codice di sincronizzazione</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Utilizzando un secondo telefono o tablet, vai alle impostazioni di Brave, quindi alla sincronizzazione e all’opzione di scansione.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Sul tuo dispositivo mobile, vai su Brave Sync nel pannello delle impostazioni e clicca su \"Scan Sync Code\". Usa la tua fotocamera per eseguire la scansione del Codice QR che trovi qui sotto.</string>
     <string name="brave_sync_btn_done">Operazione completata</string>
     <string name="brave_sync_tabs_text">Schede</string>
     <string name="brave_sync_history_text">Cronologia</string>
@@ -248,6 +249,7 @@ delle sovvenzioni.</string>
     <string name="prefs_appearance">Aspetto</string>
     <string name="hide_brave_rewards_icon_title">Nascondi l\'Icona delle Ricompense di Brave</string>
     <string name="hide_brave_rewards_icon_description">Nascondi l\'Icona delle Ricompense di Brave quando le Ricompense di Brave non sono abilitate</string>
+    <string name="show_ads_when_brave_is_not_in_use">Mostra Annunci quando Brave non è in uso</string>
     <string name="reset_brave_rewards_option">Resetta le Ricompense di Brave</string>
     <string name="reset_brave_rewards_option_description">Questo eliminerà il tuo portafoglio di Brave e resetterà tutti i dati delle Ricompense di Brave</string>
     <string name="reset_brave_rewards_error_title">Errore durante il Reset</string>
@@ -309,5 +311,9 @@ delle sovvenzioni.</string>
     <string name="prefs_welcome_tour">Tour di benvenuto</string>
     <string name="welcome_tour_dialog_text">Il riavvio della Schermata di benvenuto non influirà sulle impostazioni esistenti.</string>
     <string name="finish">Finisci</string>
+    
+    <string name="clear_download_title">Scarica la cronologia</string>
+
+    <string name="settings_exit">Uscita dalle impostazioni</string>
 
 </resources>

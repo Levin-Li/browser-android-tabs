@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS mindenhol</string>
     <string name="brave_shields_blocks_scripts_switch">Blokkolja a szkripteket</string>
     <string name="accessibility_toolbar_btn_brave_shields">Brave Pajzsok engedélyezése/letiltása</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Brave jutalmak kezelése</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">3. fél sütijeinek blokkolása</string>
 
     <string name="httpse_summary">A támogatott oldalakat lehetőség szerint HTTP helyett HTTPS protokollal nyitja meg</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">Kilépés</string>
 
+    <string name="brave_sync">Brave szinkronizálás (béta)</string>
     <string name="sync_settings_add_device_name_title">Eszköznév hozzáadása</string>
     <string name="sync_settings_add_device_name_label">Adjon egy elfogadható nevet ennek az eszköznek</string>
     <string name="sync_example_device_name">Android eszköz</string>
@@ -107,6 +109,7 @@ idő</string>
     <string name="brave_sync_btn_laptop">Számítógép hozzáadása</string>
     <string name="brave_sync_scan_sync_code">Szinkronizációs kód beolvasása</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Második telefon vagy tablet használatakor kövesse a Beállítások > Szinkronizálás > Beolvasás útvonalat.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Mobilkészülékeden navigálj a Brave szinkronizálásra a menüpanelben, majd kattints \"Szinkronizálási kód beolvasása\" pontra. Kameráddal olvasd be az alábbi QR-kódot.</string>
     <string name="brave_sync_btn_done">Kész</string>
     <string name="brave_sync_tabs_text">Fülek</string>
     <string name="brave_sync_history_text">Előzmények</string>
@@ -209,6 +212,7 @@ A neki küldött borravaló az Ön pénztárcájában marad, amíg nem hitelesí
     <string name="brave_ui_reserved_amount_text">Ön <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>BAT hozzájárulást küldött olyan szerzőknek,
 akik még nem regisztráltak, hogy hozzájárulásokat kaphassanak. Az Ön böngészője továbbra is megpróbálja elküldeni a hozzájárulást,
 amíg nem hitelesíttetik magukat vagy el nem telik 90 nap.</string>
+    <string name="brave_ui_notification_desc_no_funds">Az ütemezett havi fizetés az automatikus közreműködéshez és a havi tippekhez nem hajtható végre elégtelen forrás miatt. Megpróbáljuk újra 30 nap múlva.</string>
     <string name="brave_ui_notification_desc_tip_error">Nem sikerült feldolgozni a borravalót, próbálja meg újra.</string>
     <string name="brave_ui_notification_desc_contr_error">Nem sikerült feldolgozni a hozzájárulását.</string>
     <string name="brave_rewards_local_uh_oh">Ajjaj!</string>
@@ -244,6 +248,7 @@ tartalomkészítők támogatására.</string>
     <string name="prefs_appearance">Megjelenés</string>
     <string name="hide_brave_rewards_icon_title">Brave Jutalmak ikon elrejtése</string>
     <string name="hide_brave_rewards_icon_description">Elrejti a Brave Jutalmak ikont, ha a Brave Jutalmak nincs engedélyezve.</string>
+    <string name="show_ads_when_brave_is_not_in_use">Hirdetések megjelenítése, ha a Brave nincs használatban</string>
     <string name="reset_brave_rewards_option">Brave Jutalmak újraállítása</string>
     <string name="reset_brave_rewards_option_description">Ezzel törlődik Brave tárcád és alaphelyzetbe áll minden Brave Jutalmak adatod.</string>
     <string name="reset_brave_rewards_error_title">Újraállítási hiba</string>
@@ -305,5 +310,9 @@ tartalomkészítők támogatására.</string>
     <string name="prefs_welcome_tour">Bemutatás</string>
     <string name="welcome_tour_dialog_text">A bemutatkozás újraindítása nem lesz hatással semmilyen beállításra</string>
     <string name="finish">Befejezés</string>
+    
+    <string name="clear_download_title">Letöltési előzmények</string>
+
+    <string name="settings_exit">Beállítások kilépés</string>
 
 </resources>

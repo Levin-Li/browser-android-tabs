@@ -244,6 +244,7 @@ përkrahje të krijuesve të lëndës që doni.</string>
     <string name="prefs_appearance">Pamja</string>
     <string name="hide_brave_rewards_icon_title">Fshihni Ikonën e Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Fsheh Ikonën e Brave Rewards kur Brave Rewards nuk është i aktivizuar</string>
+    <string name="show_ads_when_brave_is_not_in_use">Shfaq Reklama kur Brave s’është në përdorim</string>
     <string name="reset_brave_rewards_option">Rivendosni Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Kjo do të fshijë portofolin tuaj Brave dhe do të rivendosë të gjitha të dhënat tuaja të Brave Rewards</string>
     <string name="reset_brave_rewards_error_title">Gabim i rivendosjes</string>
@@ -273,6 +274,7 @@ përkrahje të krijuesve të lëndës që doni.</string>
     <string name="welcome_to_brave_browser">Mirë se vini te Shfletuesi Brave</string>
     <string name="select_your_default_search_engine">Përzgjidhni motorin tuaj parazgjedhje të kërkimeve</string>
 
+    <string name="block">Bllokoje</string>
     <string name="brave_shields_onboarding_title">Mburoja Brave</string>
     <string name="brave_shields_onboarding_text">reklama dhe gjurmues që cenojnë privatësinë, që kështu të mund të shfletoni pa u ndjekur nëpër web.</string>
 
@@ -303,5 +305,9 @@ përkrahje të krijuesve të lëndës që doni.</string>
     <string name="prefs_welcome_tour">Tur Mirëseardhjeje</string>
     <string name="welcome_tour_dialog_text">Rinisja e Turit të Mirëseardhjes s’do të prekë ndonjë nga rregullimet ekzistuese.</string>
     <string name="finish">Përfundoje</string>
+    
+    <string name="clear_download_title">Historik shkarkimesh</string>
+
+    <string name="settings_exit">Dalje nga Rregullimet</string>
 
 </resources>

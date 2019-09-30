@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS všade</string>
     <string name="brave_shields_blocks_scripts_switch">Zablokovať skripty</string>
     <string name="accessibility_toolbar_btn_brave_shields">Aktivovať/deaktivovať ochrany Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Správa odmien Brave</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Blokovať súbory cookie tretích strán</string>
 
     <string name="httpse_summary">Otvára podporované stránky prostredníctvom HTTPS namiesto HTTP vždy, keď je to možné</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">Východ</string>
 
+    <string name="brave_sync">Synchronizácia Brave (beta)</string>
     <string name="sync_settings_add_device_name_title">Pridajte názov zariadenia</string>
     <string name="sync_settings_add_device_name_label">Zadajte nepovinný názov pre toto zariadenie</string>
     <string name="sync_example_device_name">Android zariadenie</string>
@@ -107,6 +109,7 @@ ušetrený čas</string>
     <string name="brave_sync_btn_laptop">Pridať počítač</string>
     <string name="brave_sync_scan_sync_code">Naskenovať tento synchronizačný kód</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Pomocou druhého telefónu alebo tabletu prejdite na položku Brave Settings (Nastavenia Brave) > Sync (Synchronizácia) > Scan (Skenovať).</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">V paneli nastavení vášho mobilného zariadenia vojdite do synchronizácie Brave a stlačte tlačidlo \"Sken synchronizačného kódu\". Na oskenovanie QR kódu nižšie použite svoj fotoaparát.</string>
     <string name="brave_sync_btn_done">Hotovo</string>
     <string name="brave_sync_tabs_text">Karty</string>
     <string name="brave_sync_history_text">História</string>
@@ -210,6 +213,7 @@ za sledovanie reklám, ktoré rešpektujú súkromie.</string>
     <string name="brave_ui_reserved_amount_text">Vyhradili ste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT pre autorov, ktorí
 sa zatiaľ nezaregistrovali na získavanie príspevkov. Váš prehliadač sa bude pokúšať
 prispievať, kým autori neoveria svoj účet, alebo kým neuplynie 90 dní.</string>
+    <string name="brave_ui_notification_desc_no_funds">Z dôvodu nedostatočných prostriedkov sa vaša plánovaná mesačná platba za Auto-Contribute a mesačné príspevky nedali dokončiť . Pokus zopakujeme znova o 30 dní.</string>
     <string name="brave_ui_notification_desc_tip_error">Pri spracovaní vášho sprepitného došlo k chybe. Skúste to znova.</string>
     <string name="brave_ui_notification_desc_contr_error">Pri spracovaní vášho príspevku došlo k chybe.</string>
     <string name="brave_rewards_local_uh_oh">Ale nie!</string>
@@ -245,6 +249,7 @@ tvorcov obsahu, ktorých máte radi.</string>
     <string name="prefs_appearance">Vzhľad</string>
     <string name="hide_brave_rewards_icon_title">Skryť ikonu Odmeny Brave</string>
     <string name="hide_brave_rewards_icon_description">Skryť ikonu Odmeny Brave, keď Odmeny Brave nie sú povolené</string>
+    <string name="show_ads_when_brave_is_not_in_use">Zobrazovať reklamy, keď sa Brave nepoužíva</string>
     <string name="reset_brave_rewards_option">Obnoviť Odmeny Brave</string>
     <string name="reset_brave_rewards_option_description">Týmto vymažete svoju peňaženku Brave a obnovíte všetky svoje dáta  Odmeny Brave</string>
     <string name="reset_brave_rewards_error_title">Chyba obnovenia</string>
@@ -306,5 +311,9 @@ tvorcov obsahu, ktorých máte radi.</string>
     <string name="prefs_welcome_tour">Uvítacia prehliadka</string>
     <string name="welcome_tour_dialog_text">Opätovné spustenie uvítacej prehliadky nebude mať vplyv na žiadne existujúce nastavenia.</string>
     <string name="finish">Skončiť</string>
+    
+    <string name="clear_download_title">História sťahovania</string>
+
+    <string name="settings_exit">Odísť z nastavení</string>
 
 </resources>

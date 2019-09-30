@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS  सब जगह</string>
     <string name="brave_shields_blocks_scripts_switch">अवस्र्द्ध लिपिया </string>
     <string name="accessibility_toolbar_btn_brave_shields">ब्रेव कवच को सक्षम/अक्षम करें </string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Brave रिवॉर्ड्स प्रबंधित करें</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">3सरे दल बन को अवस्र्द्ध करें </string>
 
     <string name="httpse_summary">जहां संभव हो, HTTP के स्थान पर HTTPS का प्रयोग करते हुये समर्थित साइटें खोलता है</string>
@@ -108,6 +109,7 @@
     <string name="brave_sync_btn_laptop">कोई कंप्यूटर जोड़ें</string>
     <string name="brave_sync_scan_sync_code">यह सिंक कोड स्कैन करें</string>
     <string name="brave_sync_add_mobile_device_text_part_1">किसी दूसरे फोन या टैबलेट का उपयोग करके, \'Brave सेटिंग्स > सिंक करें > स्कैन करें\' पर जाएं।</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">अपने मोबाइल डिवाइस के, सेटिंग पैनल में Brave  सिंक पर जाएं और \"स्कैन सिंक कोड\" बटन पर क्लिक करें। नीचे दिए गए QR कोड को स्कैन करने के लिए अपने कैमरे का उपयोग करें।</string>
     <string name="brave_sync_btn_done">हो गया</string>
     <string name="brave_sync_tabs_text">टैब</string>
     <string name="brave_sync_history_text">इतिहास</string>
@@ -210,6 +212,7 @@
     <string name="brave_ui_reserved_amount_text">आपने उन क्रिएटर्स के लिए <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT निर्धारित किए हैं,  जिन्होंने
 योगदान प्राप्त करने के लिए अभी तक साइन अप नहीं किया है.  वे सत्यापित होने या 90 दिन बीत जाने तक
 आपका ब्राउज़र योगदान करने का प्रयास जारी रखेगा.</string>
+    <string name="brave_ui_notification_desc_no_funds">ऑटो-कॉन्ट्रिब्यूट और मासिक टिप्स के लिए आपका निर्धारित मासिक भुगतान अपर्याप्त धन के कारण पूरा नहीं हो सका। हम 30 दिनों में फिर से कोशिश करेंगे।</string>
     <string name="brave_ui_notification_desc_tip_error">आपके सुझाव की प्रक्रिया करने में समस्या हुई थी, कृपया पुनः प्रयास करें.</string>
     <string name="brave_ui_notification_desc_contr_error">आपके योगदान की प्रक्रिया करने में समस्या हुई थी.</string>
     <string name="brave_rewards_local_uh_oh">ऊह ओह!</string>
@@ -246,6 +249,7 @@
     <string name="prefs_appearance">रंगरूप</string>
     <string name="hide_brave_rewards_icon_title">Brave इनाम आइकन छुपाएं</string>
     <string name="hide_brave_rewards_icon_description">Brave इनाम आइकन सक्रिय न होने पर Brave इनाम आइकन छुपाएं</string>
+    <string name="show_ads_when_brave_is_not_in_use">विज्ञापन दिखाएं जब Brave उपयोग में नहीं है</string>
     <string name="reset_brave_rewards_option">Brave इनामों को रिसेट करें</string>
     <string name="reset_brave_rewards_option_description">यह आपके Brave बटुए को डिलीट कर देगा और आपके सभी Brave इनाम डेटा को रीसेट कर देगा</string>
     <string name="reset_brave_rewards_error_title">रिसेट त्रुटि</string>
@@ -307,5 +311,9 @@
     <string name="prefs_welcome_tour">वेलकम टूर</string>
     <string name="welcome_tour_dialog_text">स्वागत टूर को फ़िर से शुरू करने से मौजूदा सेटिंग प्रभावित नही होगी।</string>
     <string name="finish">समाप्त</string>
+    
+    <string name="clear_download_title">हिस्ट्री डाउनलोड करें</string>
+
+    <string name="settings_exit">सेटिंग्स से बाहर निकलें</string>
 
 </resources>

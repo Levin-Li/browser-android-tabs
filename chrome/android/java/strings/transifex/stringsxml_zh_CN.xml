@@ -109,6 +109,7 @@
     <string name="brave_sync_btn_laptop">添加计算机</string>
     <string name="brave_sync_scan_sync_code">扫描此同步代码</string>
     <string name="brave_sync_add_mobile_device_text_part_1">使用第二部手机或平板电脑，导航到Brave设置>同步>扫描。</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">在移动设备上，导航到“设置”面板中的“Brave Sync”，然后点击“扫描同步代码”按钮。 使用摄像头扫描下面的二维码。</string>
     <string name="brave_sync_btn_done">完成</string>
     <string name="brave_sync_tabs_text">选项卡</string>
     <string name="brave_sync_history_text">历史</string>
@@ -245,6 +246,7 @@
     <string name="prefs_appearance">外观</string>
     <string name="hide_brave_rewards_icon_title">隐藏 Brave 奖励图标</string>
     <string name="hide_brave_rewards_icon_description">当未启用 Brave 奖励时隐藏 Brave 奖励图标</string>
+    <string name="show_ads_when_brave_is_not_in_use">未使用 Brave 时显示广告</string>
     <string name="reset_brave_rewards_option">重设 Brave 奖励</string>
     <string name="reset_brave_rewards_option_description">这将会删除你的 Brave 钱包并重设你的全部 Brave 奖励数据</string>
     <string name="reset_brave_rewards_error_title">重设错误</string>
@@ -306,5 +308,9 @@
     <string name="prefs_welcome_tour">欢迎之旅</string>
     <string name="welcome_tour_dialog_text">重启欢迎之旅不会影响任何现有设置。</string>
     <string name="finish">完成</string>
+    
+    <string name="clear_download_title">下载历史记录</string>
+
+    <string name="settings_exit">退出设置</string>
 
 </resources>

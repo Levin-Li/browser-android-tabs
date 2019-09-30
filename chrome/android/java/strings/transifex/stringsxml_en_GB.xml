@@ -34,6 +34,8 @@
     <string name="enter_code_words_sync">Enter code words</string>
     <string name="sync_device">Sync device</string>
     <string name="sync_device_failure">Sync could not be setup</string>
+    <string name="sync_requires_correct_time">Your computer\'s clock may be set to the wrong time, or to the wrong time-zone. Check your clock settings</string>
+
     <string name="brave_stats_text_https">HTTPS
 Upgrades</string>
     <string name="brave_stats_text_time">Est. Time
@@ -89,6 +91,10 @@ Saved</string>
     <string name="update_notification_title">Brave update</string>
     <string name="update_notification_text">The new Brave browser is 22% faster</string>
     <string name="prefs_sync">Sync (beta)</string>
+    <string name="brave_ads_existing_user_offer_title">Brave Ads are here!</string>
+    <string name="brave_ads_new_user_offer_title">Enable Brave Rewards</string>
+    <string name="brave_ads_offer_text">Earn Basic Attention Tokens for viewing privacy preserving ads in Brave Rewards.</string>
+    <string name="brave_ads_offer_positive">I\'m in!</string>
     <string name="brave_sync_description_page_1_part_1">Brave Sync allows you to sync bookmarks data privately between your Brave Browsers on your various devices.</string>
     <string name="brave_sync_description_page_1_part_2">Simply scan the code from your sync chain that you created on another device. Or start a new sync chain.</string>
     <string name="brave_sync_scan_chain_code">Scan or enter sync code</string>
@@ -216,4 +222,84 @@ until they verify, or until 90 days have passed.</string>
 ads, and pay it forward to support
 content creators you love.</string>
     <string name="brave_welcome_page_rewards_title">ENABLE BRAVE REWARDS</string>
+    <string name="brave_ui_first_tip_text">Your first monthly tip will be sent on:</string>
+    <string name="brave_ui_tip_text">You\'ve just sent a tip to:</string>
+    <string name="brave_ui_auto_tip_text">You are automatically sending a tip to:</string>
+    <string name="brave_ui_monthly_text">Monthly</string>
+    <string name="bottom_toolbar_enable">Enable bottom toolbar</string>
+    <string name="bottom_toolbar_disable">Disable bottom toolbar</string>
+    <string name="search_or_url">Search or URL</string>
+    <string name="accessibility_toolbar_btn_bookmark">Create a bookmark</string>
+    <string name="brave_ui_donate_monthly">Tip this site monthly</string>
+
+    <string name="brave_rewards_not_available">We\'re sorry, It appears Brave Rewards is not available on your device</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">Closing all tabs closes Brave</string>
+    <string name="prefs_section_display">Display</string>
+    <string name="prefs_section_controls">Controls</string>
+    <string name="prefs_appearance">Appearance</string>
+    <string name="hide_brave_rewards_icon_title">Hide Brave Rewards Icon</string>
+    <string name="hide_brave_rewards_icon_description">Hides the Brave Rewards Icon when Brave Rewards is not enabled</string>
+    <string name="reset_brave_rewards_option">Reset Brave Rewards</string>
+    <string name="reset_brave_rewards_option_description">This will delete your Brave wallet and reset all of your Brave Rewards data</string>
+    <string name="reset_brave_rewards_error_title">Reset Error</string>
+    <string name="reset_brave_rewards_error_description">There was an error resetting Brave Rewards. Please relaunch Brave and try again</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">On your target computer, navigate to Brave Sync in settings and click the button \"I have a Sync Code\".\nEnter the sync chain code words shown below.</string>
+
+    <string name="brave_sync_official">Brave Sync</string>
+    <string name="prefs_sync_official">Sync</string>
+
+    <string name="brave_sync_code_warning">Treat this code like a password. If someone gets hold of it, they can read and modify your synced data.</string>
+
+    <string name="notification_category_group_brave_ads">Brave Ads</string>
+    <string name="brave_ads_you_earned">You\'ve earned</string>
+
+    <string name="brave_default_browser_title">Brave is lightning fast</string>
+    <string name="brave_default_browser_body">Make Brave your default browser!</string>
+    <string name="brave_make_default_text">Make default</string>
+    <string name="brave_ui_ads_earnings">earned from ads</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Skip</string>
+
+    <string name="search_engine_onboarding">Search engine onboarding</string>
+    <string name="troubleshooting_onboarding">Troubleshooting onboarding</string>
+
+    <string name="welcome_to_brave_browser">Welcome to Brave Browser</string>
+    <string name="select_your_default_search_engine">Select your default search engine</string>
+
+    <string name="block">Block</string>
+    <string name="brave_shields_onboarding_title">Brave Shields</string>
+    <string name="brave_shields_onboarding_text">privacy-invading ads and trackers so you can browse without being followed around the web.</string>
+
+    <string name="earn_tokens">Earn tokens</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
+    <string name="brave_rewards_onboarding_text">for seeing privacy-respecting ads. Use them to support your favourite sites and creators.</string>
+    <string name="brave_rewards_onboarding_text2">for seeing privacy-respecting ads.</string>
+
+    <string name="terms_title">Agree to the Terms to use Brave Rewards</string>
+    <string name="terms_text">I agree to Brave Rewards</string>
+    <string name="terms_of_service">Terms of Service</string>
+
+    <string name="agree">Agree</string>
+    <string name="join">Join</string>
+
+     <string name="start_browsing">Start browsing</string>
+    <string name="i_didnt_see">I didn\'t see an ad</string>
+
+    <string name="brave_ads_onboarding_title">Brave will show your first ad in</string>
+    <string name="brave_ads_onboarding_text">To see ads from Brave Rewards, make sure Brave is allowed to show you notifications.</string>
+
+    <string name="this_is_your_first_ad">This is your first Brave ad. Tap to learn more.</string>
+
+    <string name="turn_on">Turn On</string>
+
+    <string name="no_thanks">No thanks</string>
+    <string name="do_not_agree">Do not agree</string>
+
+    <string name="prefs_welcome_tour">Welcome Tour</string>
+    <string name="welcome_tour_dialog_text">Relaunching Welcome Tour will not affect any existing settings.</string>
+    <string name="finish">Finish</string>
+    
     </resources>

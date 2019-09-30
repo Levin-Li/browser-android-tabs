@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS في كل مكان</string>
     <string name="brave_shields_blocks_scripts_switch">حظر النصوص</string>
     <string name="accessibility_toolbar_btn_brave_shields">تفعيل/ تعطيل دروع Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">إدارة Brave Reward</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">حجب ملفات تعريف الارتباط لطرف ثالث</string>
 
     <string name="httpse_summary">يفتح المواقع المدعمة باستخدام HTTPS بدلا من HTTP إن أمكن</string>
@@ -110,6 +111,7 @@ HTTPS</string>
     <string name="brave_sync_btn_laptop">إضافة كمبيوتر</string>
     <string name="brave_sync_scan_sync_code">مسح رمز المزامنة هذا ضوئيًا</string>
     <string name="brave_sync_add_mobile_device_text_part_1">باستخدام هاتف أو حاسب لوحي ثانٍ، انتقل إلى إعدادات Brave > مزامنة > مسح ضوئي.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">على جهاز الهاتف الخاص بك، انتقل إلى \"مزامنة Brave\" في لوحة الإعدادات وانقر على زر \"مسح كود المزامنة\". استخدم كاميرا هاتفك لمسح رمز الاستجابة السريعة أدناه.</string>
     <string name="brave_sync_btn_done">تم</string>
     <string name="brave_sync_tabs_text">علامات التبويب</string>
     <string name="brave_sync_history_text">السجل</string>
@@ -212,6 +214,7 @@ HTTPS</string>
     <string name="brave_ui_reserved_amount_text">لقد خصصت <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT لمبتكرين لم
 يشتركوا بعد لتلقِّي مساهمات. سيستمر متصفحك في محاولة الإسهام
 حتى يتم  التصديق عليه، أو حتى يمر 90 يومًا.</string>
+    <string name="brave_ui_notification_desc_no_funds">تعذر إكمال دفعتك الشهرية المجدولة للمشاركة التلقائية والنصائح الشهرية نظراً لعدم كفاية الأموال. سنحاول مرة أخرى خلال 30 يوماً. </string>
     <string name="brave_ui_notification_desc_tip_error">وقعت مشكلة أثناء معالجة إكراميتك، يُرجى إعادة المحاولة.</string>
     <string name="brave_ui_notification_desc_contr_error">وقعت مشكلة أثناء معالجة مساهمتك،</string>
     <string name="brave_rewards_local_uh_oh">عذرًا!</string>
@@ -247,6 +250,7 @@ HTTPS</string>
     <string name="prefs_appearance">المظهر</string>
     <string name="hide_brave_rewards_icon_title">إخفاء أيقونة مكافآت Brave</string>
     <string name="hide_brave_rewards_icon_description">تخفي أيقونة مكافآت Brave عند عدم تمكين مكافآت Brave.</string>
+    <string name="show_ads_when_brave_is_not_in_use">عرض الإعلانات عندما لا يكون متصفح Brave قيد الاستخدام </string>
     <string name="reset_brave_rewards_option">إعادة تعيين مكافآت Brave</string>
     <string name="reset_brave_rewards_option_description">سيؤدي ذلك إلى حذف محفظة Brave وإعادة تعيين جميع بيانات مكافآت Brave الخاصة بك</string>
     <string name="reset_brave_rewards_error_title">خطأٌ في إعادة التعيين</string>
@@ -309,5 +313,9 @@ HTTPS</string>
     <string name="prefs_welcome_tour">جولة ترحيبية</string>
     <string name="welcome_tour_dialog_text">لن تؤثر إعادة تشغيل \"جولة الترحيب\" على أي إعدادات حالية.</string>
     <string name="finish">إنهاء</string>
+    
+    <string name="clear_download_title">سجل التنزيلات </string>
+
+    <string name="settings_exit">الخروج من الإعدادات</string>
 
 </resources>

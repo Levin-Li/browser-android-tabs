@@ -245,6 +245,7 @@
     <string name="prefs_appearance">Облик</string>
     <string name="hide_brave_rewards_icon_title">Скриване на иконата на Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Скрива иконата на Brave Rewards, когато система Brave Rewards е неактивна</string>
+    <string name="show_ads_when_brave_is_not_in_use">Показвай реклами, когато Brave не се използва</string>
     <string name="reset_brave_rewards_option">Възстановяване на Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Това ще изтрие вашия Brave портфейл и ще нулира всичките Ви данни за Brave Rewards</string>
     <string name="reset_brave_rewards_error_title">Възстановяване на грешка</string>
@@ -306,5 +307,9 @@
     <string name="prefs_welcome_tour">Обиколка за добре дошли</string>
     <string name="welcome_tour_dialog_text">Повторното стартиране на обиколката за добре дошли няма да повлияе на съществуващите настройки.</string>
     <string name="finish">Край</string>
+    
+    <string name="clear_download_title">История на изтеглянията</string>
+
+    <string name="settings_exit">Изход от Настройки</string>
 
 </resources>

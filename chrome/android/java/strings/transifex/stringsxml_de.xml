@@ -248,6 +248,7 @@ um Ihre Lieblingsersteller zu unterstützen.</string>
     <string name="prefs_appearance">Aussehen</string>
     <string name="hide_brave_rewards_icon_title">Brave-Rewards-Symbol ausblenden</string>
     <string name="hide_brave_rewards_icon_description">Blendet das Brave-Rewards-Symbol aus, wenn Brave Rewards nicht aktiviert ist</string>
+    <string name="show_ads_when_brave_is_not_in_use">Werbung anzeigen, wenn Brave nicht verwendet wird</string>
     <string name="reset_brave_rewards_option">Brave Rewards zurücksetzen</string>
     <string name="reset_brave_rewards_option_description">Dadurch wird Ihre Brave-Wallet gelöscht und all Ihre Brave-Rewards-Daten zurückgesetzt</string>
     <string name="reset_brave_rewards_error_title">Fehler beim Zurücksetzen</string>
@@ -309,5 +310,9 @@ um Ihre Lieblingsersteller zu unterstützen.</string>
     <string name="prefs_welcome_tour">Begrüßungstour</string>
     <string name="welcome_tour_dialog_text">Ein Neustart der Willkommenstour hat keinen Einfluss auf bestehende Einstellungen.</string>
     <string name="finish">Abschließen</string>
+    
+    <string name="clear_download_title">Verlauf herunterladen</string>
+
+    <string name="settings_exit">Einstellungen schließen</string>
 
 </resources>

@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Скрипти</string>
     <string name="accessibility_toolbar_btn_brave_shields">Увімк/Вимк щити Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Керувати Винагородами Brave</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Сторонні куки</string>
 
     <string name="httpse_summary">Відкривати підтримувані сайти з використанням протоколу HTTPS замість HTTP</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">Вихід</string>
 
+    <string name="brave_sync">Синхронізація Brave (бета)</string>
     <string name="sync_settings_add_device_name_title">Додавання імені пристрою</string>
     <string name="sync_settings_add_device_name_label">Введіть ім'я для даного пристрою</string>
     <string name="sync_example_device_name">Android пристрій</string>
@@ -107,6 +109,7 @@
     <string name="brave_sync_btn_laptop">Додати комп’ютер</string>
     <string name="brave_sync_scan_sync_code">Відскануйте цей код синхронізації</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Використовуючи другий телефон або планшет, перейдіть у меню «Налаштування Brave» > «Синхронізація» > «Сканування».</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">На вашому мобільному пристрої перейдіть до Синхронізації Brave на панелі Налаштувань і клацніть на кнопку \"Сканувати код синхронізації\". Використайте свою камеру, щоб відсканувати QR код нижче.  </string>
     <string name="brave_sync_btn_done">Готово</string>
     <string name="brave_sync_tabs_text">Вкладки</string>
     <string name="brave_sync_history_text">Історія</string>
@@ -209,6 +212,7 @@
     <string name="brave_ui_reserved_amount_text">Ви призначали <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT для авторів, які ще не зареєструвалися для отримання внесків.
 Ваш браузер робитиме спроби зробити внесок,
 доки автора не буде підтверджено або доки не мине 90 днів.</string>
+    <string name="brave_ui_notification_desc_no_funds">Ваш запланований щомісячний платіж до Автовнеску та виплату щомісячних чайових не вдалося здійснити через нестачу коштів. Ми спробуємо ще раз за 30 днів.</string>
     <string name="brave_ui_notification_desc_tip_error">Під час обробки заохочення сталася помилка. Спробуйте ще раз.</string>
     <string name="brave_ui_notification_desc_contr_error">Під час обробки заохочення сталася помилка.</string>
     <string name="brave_rewards_local_uh_oh">Ой!</string>
@@ -244,6 +248,7 @@
     <string name="prefs_appearance">Вигляд</string>
     <string name="hide_brave_rewards_icon_title">Сховати іконку нагород Brave</string>
     <string name="hide_brave_rewards_icon_description">Приховує іконку нагород Brave, коли ті вимкнуті</string>
+    <string name="show_ads_when_brave_is_not_in_use">Показувати рекламу, коли Brave не використовується</string>
     <string name="reset_brave_rewards_option">Скинути нагороди Brave</string>
     <string name="reset_brave_rewards_option_description">Це видалить ваш гаманець Brave і скине усі дані ваших нагород Brave</string>
     <string name="reset_brave_rewards_error_title">Помилка скидання</string>
@@ -305,5 +310,9 @@
     <string name="prefs_welcome_tour">Вітальний тур</string>
     <string name="welcome_tour_dialog_text">Перезапуск Вітального туру не вплине на жодні поточні налаштування.</string>
     <string name="finish">Завершити</string>
+    
+    <string name="clear_download_title">Завантажити історію</string>
+
+    <string name="settings_exit">Вихід з налаштувань</string>
 
 </resources>

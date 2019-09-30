@@ -109,6 +109,7 @@ Salvo</string>
     <string name="brave_sync_btn_laptop">Adicionar um computador</string>
     <string name="brave_sync_scan_sync_code">Ler este código de sincronização</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Usando um segundo smartphone ou tablet, navegue até as Configurações do Brave > Sincronizar > Ler.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">No seu dispositivo móvel, navegue até a Sincronização do Brave no painel de Configurações e clique no botão \"Escanear código de sincronização\". Use a sua câmera para escanear o código QR abaixo.</string>
     <string name="brave_sync_btn_done">Concluído</string>
     <string name="brave_sync_tabs_text">Guias</string>
     <string name="brave_sync_history_text">Histórico</string>
@@ -247,6 +248,7 @@ contribuindo para seus criadores de conteúdo favoritos.</string>
     <string name="prefs_appearance">Aparência</string>
     <string name="hide_brave_rewards_icon_title">Ícone Ocultar Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Oculta o ícone Brave Rewards quando o Brave Rewards não está ativado.</string>
+    <string name="show_ads_when_brave_is_not_in_use">Exibir anúncios quando o Brave não estiver em uso</string>
     <string name="reset_brave_rewards_option">Reconfigurar o Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Isso excluirá sua carteira da Brave e redefinirá todos os dados da sua Brave Rewards</string>
     <string name="reset_brave_rewards_error_title">Erro de reconfiguração</string>
@@ -308,5 +310,9 @@ contribuindo para seus criadores de conteúdo favoritos.</string>
     <string name="prefs_welcome_tour">Tour de boas-vindas</string>
     <string name="welcome_tour_dialog_text">Reabrir o Tour de Boas-vindas não vai afetar nenhuma configuração existente.</string>
     <string name="finish">Concluir</string>
+    
+    <string name="clear_download_title">Histórico de download</string>
+
+    <string name="settings_exit">Sair das configurações</string>
 
 </resources>

@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS Παντού</string>
     <string name="brave_shields_blocks_scripts_switch">Μπλοκάρισμα Σκριπτ [scripts]</string>
     <string name="accessibility_toolbar_btn_brave_shields">Ενεργοποίηση/Απενεργοποίηση Ασπίδων [προστασίας] Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Διαχείριση Ανταμοιβών Brave</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Αποκλεισμός στα cookies τρίτων</string>
 
     <string name="httpse_summary">Ανοίγει υποστηριζόμενες ιστοσελίδες που χρησιμοποιούν HTTPS αντί για HTTP όταν είναι δυνατόν</string>
@@ -108,6 +109,7 @@ HTTPS</string>
     <string name="brave_sync_btn_laptop">Προσθήκη υπολογιστή</string>
     <string name="brave_sync_scan_sync_code">Σαρώστε αυτόν τον κωδικό συγχρονισμού</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Χρησιμοποιώντας ένα δεύτερο τηλέφωνο ή tablet, περιηγηθείτε στις Ρυθμίσεις Brave > Συγχρονισμός > Σάρωση.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Στην κινητή συσκευή σας, μεταβείτε στο Brave Sync στον πίνακα Ρυθμίσεων και κάντε κλικ στο κουμπί \"Σάρωση Κώδικα Συγχρονισμού\". Χρησιμοποιήστε τη φωτογραφική μηχανή σας για να σαρώσετε τον παρακάτω κώδικα QR.</string>
     <string name="brave_sync_btn_done">Τέλος</string>
     <string name="brave_sync_tabs_text">Καρτέλες</string>
     <string name="brave_sync_history_text">Ιστορικό</string>
@@ -207,6 +209,7 @@ HTTPS</string>
     <string name="brave_ui_new_token_grant">Δωρεάν εκχώρηση μαρκών</string>
     <string name="brave_ui_claim">Διεκδίκηση</string>
     <string name="brave_ui_reserved_amount_text">Έχετε καθορίσει <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT για δημιουργούς που δεν έχουν εγγραφεί ακόμη για λήψη συμβολών. Το πρόγραμμα περιήγησής σας θα συνεχίσει να προσπαθεί να στείλει τις συμβολές μέχρι ο δημιουργός να επαληθεύσει τον λογαριασμό του ή έως ότου παρέλθουν 90 ημέρες.</string>
+    <string name="brave_ui_notification_desc_no_funds">Η προγραμματισμένη σας μηνιαία πληρωμή για το Auto-Contribute και τις μηνιαίες συμβουλές δεν ήταν δυνατό να ολοκληρωθεί λόγω μη επαρκών κεφαλαίων. Θα προσπαθήσουμε πάλι σε 30 ημέρες.</string>
     <string name="brave_ui_notification_desc_tip_error">Παρουσιάστηκε πρόβλημα κατά τη διεκπεραίωση του φιλοδωρήματος, προσπαθήστε πάλι.</string>
     <string name="brave_ui_notification_desc_contr_error">Παρουσιάστηκε πρόβλημα κατά τη διεκπεραίωση της συμβολής σας.</string>
     <string name="brave_rewards_local_uh_oh">Ωχ!</string>
@@ -242,6 +245,7 @@ HTTPS</string>
     <string name="prefs_appearance">Εμφάνιση</string>
     <string name="hide_brave_rewards_icon_title">Απόκρυψη του Εικονιδίου Brave Rewards </string>
     <string name="hide_brave_rewards_icon_description">Αποκρύπτει το Εικονίδιο Brave Rewards όταν το Brave Rewards δεν είναι ενεργοποιημένο</string>
+    <string name="show_ads_when_brave_is_not_in_use">Εμφάνιση Διαφημίσεων όταν το Brave δεν είναι σε χρήση</string>
     <string name="reset_brave_rewards_option">Επαναφορά Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Αυτό θα διαγράψει το πορτοφόλι σας Brave και θα επαναφέρει όλα τα δεδομένα σας Brave Rewards</string>
     <string name="reset_brave_rewards_error_title">Σφάλμα Επαναφοράς</string>
@@ -303,5 +307,9 @@ HTTPS</string>
     <string name="prefs_welcome_tour">Περιήγηση Καλωσορίσματος</string>
     <string name="welcome_tour_dialog_text">Η επαναφορά της Περιήγησης Καλωσορίσματος δεν επηρεάζει τις υπάρχουσες ρυθμίσεις.</string>
     <string name="finish">Τέλος</string>
+    
+    <string name="clear_download_title">Ιστορικό λήψεων</string>
+
+    <string name="settings_exit">Έξοδος ρυθμίσεων</string>
 
 </resources>

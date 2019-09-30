@@ -112,6 +112,7 @@ Dihemat</string>
     <string name="brave_sync_btn_laptop">Tambah Komputer</string>
     <string name="brave_sync_scan_sync_code">Pindai kode sinkronisasi ini</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Menggunakan ponsel atau tablet kedua, buka Pengaturan Brave > Sinkronisasi > Pindai.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Di perangkat mobile Anda, masuklah ke bagian Brave Sync dalam panel Pengaturan dan klik tombol \"Pindai Kode Sinkronisasi\". Gunakan kamera Anda untuk memindai Kode QR di bawah ini.</string>
     <string name="brave_sync_btn_done">Selesai</string>
     <string name="brave_sync_tabs_text">Tab</string>
     <string name="brave_sync_history_text">Riwayat</string>
@@ -250,6 +251,7 @@ pembuat konten yang Anda sukai.</string>
     <string name="prefs_appearance">Tampilan</string>
     <string name="hide_brave_rewards_icon_title">Sembunyikan Ikon Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Menyembunyikan Ikon Brave Rewards ketika Brave Rewards tidak diaktifkan</string>
+    <string name="show_ads_when_brave_is_not_in_use">Tampilkan Iklan ketika Brave tidak sedang digunakan</string>
     <string name="reset_brave_rewards_option">Atur Ulang Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Dompet Brave Anda akan dihapus dan mengatur ulang semua data Brave Rewards Anda</string>
     <string name="reset_brave_rewards_error_title">Kesalahan Pengaturan Ulang</string>
@@ -311,5 +313,9 @@ pembuat konten yang Anda sukai.</string>
     <string name="prefs_welcome_tour">Tur Selamat Datang</string>
     <string name="welcome_tour_dialog_text">Meluncurkan ulang Tur Sambutan tidak akan memengaruhi pengaturan yang ada.</string>
     <string name="finish">Selesai</string>
+    
+    <string name="clear_download_title">Unduh riwayat</string>
+
+    <string name="settings_exit">Pengaturan keluar</string>
 
 </resources>

@@ -34,6 +34,10 @@
     <string name="enter_code_words_sync">Įveskite žodinį kodą</string>
     <string name="sync_device">Sinchronizuoti įrenginį</string>
     <string name="sync_device_failure">Nepavyko nustatyti sinchronizavimo</string>
+    <string name="sync_requires_correct_time">Gali būti, kad jūsų kompiuterio laikas arba laiko juosta nustatyti neteisingai. Patikrinkite laikrodžio nuostatas</string>
+
+    <string name="brave_stats_text_ads">Reklamos ir sekliai
+Užblokuoti</string>
     <string name="brave_stats_text_https">HTTPS
 atnaujinimų</string>
     <string name="brave_stats_text_time">Sutaupyta
@@ -89,6 +93,10 @@ maždaug laiko</string>
     <string name="update_notification_title">„Brave“ naujinimas</string>
     <string name="update_notification_text">Naujoji naršyklė „Brave“ yra 22 % spartesnė</string>
     <string name="prefs_sync">„Sync“  (beta versija)</string>
+    <string name="brave_ads_existing_user_offer_title">„Brave“ reklamos jau čia!</string>
+    <string name="brave_ads_new_user_offer_title">Įjungti „Brave“ atlygį</string>
+    <string name="brave_ads_offer_text">Gaukite dėmesio žetonų už tai, kad peržiūrite privatumą gerbiančią reklamą per „Brave“ atlygį.</string>
+    <string name="brave_ads_offer_positive">Sutinku!</string>
     <string name="brave_sync_description_page_1_part_1">„Brave Sync“ suteikia galimybę privačiai sinchronizuoti adresyno įrašus tarp „Brave“ naršyklių įvairiuose jūsų įrenginiuose.</string>
     <string name="brave_sync_description_page_1_part_2">Tiesiog nuskaitykite kodą sinchronizavimo grandinėje, kurią sukūrėte kitame įrenginyje. Taip pat galite pradėti naują grandinę.</string>
     <string name="brave_sync_scan_chain_code">Nuskaitykite arba įveskite sinchronizavimo kodą</string>
@@ -216,12 +224,84 @@ kol jie patvirtins arba kol sueis 90 dienų terminas.</string>
 nepažeidžiančias reklamas ir skirkite
 savo uždarbį mėgstamiems turinio kūrėjams.</string>
     <string name="brave_welcome_page_rewards_title">ĮJUNGTI „BRAVE“ ATLYGIO FUNKCIJĄ</string>
+    <string name="brave_ui_first_tip_text">Jūsų pirmieji mėnesio arbatpinigiai bus nusiųsti:</string>
+    <string name="brave_ui_tip_text">Ką tik nusiuntėte arbatpinigių:</string>
+    <string name="brave_ui_auto_tip_text">Automatiškai siunčiate arbatpinigius:</string>
+    <string name="brave_ui_monthly_text">Kas mėnesį</string>
+    <string name="bottom_toolbar_enable">Įgalinti apatinę įrankių juostą</string>
+    <string name="bottom_toolbar_disable">Išjungti apatinę įrankių juostą</string>
+    <string name="search_or_url">Ieškoti arba įvesti URL adresą</string>
+    <string name="accessibility_toolbar_btn_bookmark">Kurti žymę</string>
+    <string name="brave_ui_donate_monthly">Kas mėnesį skirti arbatpinigių šiai svetainei</string>
+
+    <string name="brave_rewards_not_available">Apgailestaujame, bet atrodo, kad jūsų įrenginyje „Brave“ atlygis negalimas</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">„Brave“ uždaroma užveriant visas korteles</string>
+    <string name="prefs_section_display">Rodinys</string>
+    <string name="prefs_section_controls">Valdikliai</string>
     <string name="prefs_appearance">Išvaizda</string>
+    <string name="hide_brave_rewards_icon_title">Slėpti „Brave“ atlygio piktogramą</string>
+    <string name="hide_brave_rewards_icon_description">Kai „Brave“ atlygis išjungtas, „Brave“ atlygio piktograma paslepiama</string>
+    <string name="reset_brave_rewards_option">Iš naujo nustatyti „Brave“ atlygį</string>
+    <string name="reset_brave_rewards_option_description">Taip jūsų „Brave“ piniginė bus panaikinta, o visi jūsų „Brave“ atlygio duomenys bus nustatyti iš naujo</string>
+    <string name="reset_brave_rewards_error_title">Nustatymo iš naujo klaida</string>
+    <string name="reset_brave_rewards_error_description">Iš naujo nustatant „Brave“ atlygį, vyko klaida. Iš naujo paleiskite „Brave“ ir bandykite dar kartą</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">Paskirties vietos kompiuterio nuostatų dalyje nueikite į „Brave Sync“ ir spustelėkite mygtuką „I have a Sync Code“ (turiu sinchronizavimo kodą).\nĮveskite toliau parodytus sinchronizavimo grandinės kodo žodžius.</string>
+
+    <string name="brave_sync_official">„Brave Sync“</string>
+    <string name="prefs_sync_official">Sinchronizavimas</string>
+
+    <string name="brave_sync_code_warning">Su šiuo kodu elkitės kaip su slaptažodžiu. Jei kas nors jį sužinos, galės perskaityti ir keisti jūsų sinchronizuotus duomenis.</string>
+
+    <string name="notification_category_group_brave_ads">„Brave“ reklamos</string>
+    <string name="brave_ads_you_earned">Pelnėte</string>
+
+    <string name="brave_default_browser_title">„Brave“ veikia žaibo greičiu</string>
+    <string name="brave_default_browser_body">Padarykite „Brave“ savo numatytąja naršykle!</string>
+    <string name="brave_make_default_text">Nustatyti kaip numatytąją</string>
+    <string name="brave_ui_ads_earnings">pelnyta iš reklamos</string>
     <!-- Onboarding strings -->
 
     <string name="skip">Praleisti</string>
 
-    <string name="no_thanks">Ne, ačiū</string>
-    <string name="finish">Užbaigti</string>
+    <string name="search_engine_onboarding">Prisijungimo paieškos modulis</string>
+    <string name="troubleshooting_onboarding">Prisijungimo trikčių šalinimas</string>
 
-</resources>
+    <string name="welcome_to_brave_browser">Jus sveikina naršyklė „Brave“</string>
+    <string name="select_your_default_search_engine">Pasirinkite savo numatytąjį paieškos modulį</string>
+
+    <string name="block">Blokuoti</string>
+    <string name="brave_shields_onboarding_title">„Brave“ apsaugo</string>
+    <string name="brave_shields_onboarding_text">nuo privatumą pažeidžiančios reklamos, todėl galite naršyti žiniatinklyje nesekami.</string>
+
+    <string name="earn_tokens">Pelnykite žetonų</string>
+    <string name="brave_rewards_onboarding_title">„Brave“ atlygina</string>
+    <string name="brave_rewards_onboarding_text">už privatumo nepažeidžiančių reklamų peržiūrą. Uždarbiu paremkite mėgstamas svetaines ir kūrėjus.</string>
+    <string name="brave_rewards_onboarding_text2">už privatumo nepažeidžiančių reklamų peržiūrą.</string>
+
+    <string name="terms_title">Sutinku su „Brave“ atlygio naudojimosi sąlygomis</string>
+    <string name="terms_text">Sutinku su „Brave“ atlygiu</string>
+    <string name="terms_of_service">Paslaugos teikimo sąlygos</string>
+
+    <string name="agree">Sutinku</string>
+    <string name="join">Prisijungti</string>
+
+     <string name="start_browsing">Pradėti naršyti</string>
+    <string name="i_didnt_see">Nemačiau reklamos</string>
+
+    <string name="brave_ads_onboarding_title">„Brave“ pirmąją reklamą parodys po</string>
+    <string name="brave_ads_onboarding_text">Jei norite matyti „Brave“ atlygio reklamas, įsitikinkite, kad „Brave“ leidžiama jums rodyti pranešimus.</string>
+
+    <string name="this_is_your_first_ad">Tai jūsų pirmoji „Brave“ reklama. Bakstelėkite, jei norite sužinoti daugiau.</string>
+
+    <string name="turn_on">Įjungti</string>
+
+    <string name="no_thanks">Ne, ačiū</string>
+    <string name="do_not_agree">Nesutinku</string>
+
+    <string name="prefs_welcome_tour">Pristatymas</string>
+    <string name="welcome_tour_dialog_text">Jei pristatymą paleisite iš naujo, tai neturės įtakos esamoms nuostatoms.</string>
+    <string name="finish">Užbaigti</string>
+    
+    </resources>
