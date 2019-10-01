@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.4.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.0)
+ 
+ - Added dark mode. ([#1798](https://github.com/brave/browser-android-tabs/issues/1798)) 
+ - Added an option to exit from settings menu. ([#532](https://github.com/brave/browser-android-tabs/issues/532))
+ - Added long press feature on new tab button. ([#1894](https://github.com/brave/browser-android-tabs/issues/1894))
+ - Added maximum of three ads in notification tray. ([#1932](https://github.com/brave/browser-android-tabs/issues/1932))
+ - Added DuckDuckGo as default search engine for Australia/Germany/Ireland/New Zealand on clean install. ([#2014](https://github.com/brave/browser-android-tabs/issues/2014))
+ - Added an option to delete download history when clearing data. ([#1715](https://github.com/brave/browser-android-tabs/issues/1715))
+ - Added an option to show ads in background. ([#2027](https://github.com/brave/browser-android-tabs/issues/2027))
+ - Updated new images for sync start screen. ([#1864](https://github.com/brave/browser-android-tabs/issues/1864))
+ - Removed onboarding flow for existing users in New Zealand/Ireland/Australia. ([#1893](https://github.com/brave/browser-android-tabs/issues/1893))
+ - Fixed BAT wallet balance not being rounded to one decimal point. ([#1964](https://github.com/brave/browser-android-tabs/issues/1964))
+ - Fixed browser ads service from being launched without UI when a notification is dismissed from notification tray. ([#1946](https://github.com/brave/browser-android-tabs/issues/1946))
+ - Fixed "Ads and Trackers Blocked" not being displayed correctly under New Tab Page when reaching four digits. ([#1879](https://github.com/brave/browser-android-tabs/issues/1879))
+ - Fixed icons size for rewards and shields in address bar. ([#1384](https://github.com/brave/browser-android-tabs/issues/1384))
+ - Fixed share button functionality in browser menu. ([#2000](https://github.com/brave/browser-android-tabs/issues/2000))
+
 ## [1.3.2](https://github.com/brave/browser-android-tabs/releases/tag/v1.3.2)
  
  - Fixed ad notifications not being delivered on new installs in certain cases. ([#2046](https://github.com/brave/browser-android-tabs/issues/2046))
