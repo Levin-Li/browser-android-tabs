@@ -78,6 +78,25 @@ proto_library("ntp_background_proto") {
   generate_python = false
 }
 
+source_set("brave_blockers") {
+  deps = [
+    "//base",
+    "//third_party/leveldatabase",
+    "//third_party/re2",
+    "//brave/vendor/adblock_rust_ffi:adblock_ffi",
+    "//brave_src/browser:browser_process",
+    "//chrome/android:jni_headers",
+  ]
+  sources = [
+    "net/blockers/blockers_worker.cc",
+    "net/blockers/blockers_worker.h",
+    "net/blockers/shields_config.cc",
+    "net/blockers/shields_config.h",
+    "stats_updater.cc",
+    "stats_updater.h",
+  ]
+}
+
 # Use a static library here because many test binaries depend on this but don't
 # require many files from it. This makes linking more efficient.
 jumbo_static_library("browser") {
@@ -966,13 +985,9 @@ jumbo_static_library("browser") {
     "notifications/scheduler/notification_schedule_service_factory.h",
     "notifications/system_notification_helper.cc",
     "notifications/system_notification_helper.h",
-    "net/blockers/blockers_worker.cc",
-    "net/blockers/blockers_worker.h",
     "net/blockers/RecentlyUsedCache.h",
     "net/blockers/shield_exceptions.cc",
     "net/blockers/shield_exceptions.h",
-    "net/blockers/shields_config.cc",
-    "net/blockers/shields_config.h",
     "ntp_snippets/content_suggestions_service_factory.cc",
     "ntp_snippets/content_suggestions_service_factory.h",
     "ntp_snippets/ntp_snippets_metrics.cc",
@@ -1764,8 +1779,6 @@ jumbo_static_library("browser") {
     "ssl/typed_navigation_timing_throttle.h",
     "startup_data.cc",
     "startup_data.h",
-    "stats_updater.cc",
-    "stats_updater.h",
     "status_icons/status_icon.cc",
     "status_icons/status_icon.h",
     "status_icons/status_icon_menu_model.cc",
@@ -1964,6 +1977,7 @@ jumbo_static_library("browser") {
   ]
 
   deps = [
+    ":brave_blockers",
     ":active_use_util",
     ":availability_protos",
     ":buildflags",
@@ -1971,14 +1985,12 @@ jumbo_static_library("browser") {
     ":ntp_background_proto",
     ":permissions_proto",
     ":resource_prefetch_predictor_proto",
-    "//brave/vendor/adblock_rust_ffi:adblock_ffi",
     "//brave/vendor/bat-native-ledger",
     "//base:i18n",
     "//base/allocator:buildflags",
     "//base/util/memory_pressure:memory_pressure",
     "//base/util/values:values_util",
     "//build:branding_buildflags",
-    "//brave_src/browser:browser_process",
     "//brave/common",
     "//brave/components/brave_rewards/browser",
     "//brave/components/resources:strings",
@@ -2241,12 +2253,10 @@ jumbo_static_library("browser") {
     "//third_party/blink/public/common",
     "//third_party/cacheinvalidation",
     "//third_party/icu",
-    "//third_party/leveldatabase",
     "//third_party/libaddressinput",
     "//third_party/libxml:xml_writer",
     "//third_party/libyuv",
     "//third_party/metrics_proto",
-    "//third_party/re2",
     "//third_party/smhasher:cityhash",
     "//third_party/webrtc_overrides:webrtc_component",
     "//third_party/widevine/cdm:buildflags",
@@ -2990,7 +3000,6 @@ jumbo_static_library("browser") {
       ":delta_file_proto",
       ":explore_sites_proto",
       ":usage_stats_proto",
-      "//chrome/android:jni_headers",
       "//chrome/android/modules/extra_icu/provider:native",
       "//chrome/browser/android/thin_webview/internal",
       "//chrome/browser/android/webapk:proto",

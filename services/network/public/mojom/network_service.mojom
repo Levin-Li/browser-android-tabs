@@ -74,15 +74,6 @@ interface NetworkServiceClient {
     array<CookieAndLineWithStatus> cookies_with_status,
     array<HttpRawHeaderPair> headers,
     string? raw_response_headers);
-
-  // Called to notify ledger from UI thread.
-  OnNotifyLedger(
-    url.mojom.Url url,
-    string url_query,
-    url.mojom.Url last_first_party_url,
-    string referrer,
-    int32 process_id,
-    int32 routing_id);
 };
 
 // Values for configuring HTTP authentication that can only be set once.

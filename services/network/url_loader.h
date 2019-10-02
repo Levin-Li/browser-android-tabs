@@ -123,10 +123,6 @@ class COMPONENT_EXPORT(NETWORK_SERVICE) URLLoader
       const net::IPEndPoint& endpoint,
       base::Optional<GURL>* preserve_fragment_on_redirect_url);
 
-  void OnNotifyLedger(
-      const GURL& url, const std::string& urlQuery,
-      const GURL& last_first_party_url, const std::string& referrer);
-
   // mojom::AuthChallengeResponder:
   void OnAuthCredentials(
       const base::Optional<net::AuthCredentials>& credentials) override;
