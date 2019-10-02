@@ -26,7 +26,6 @@
 #include "services/network/websocket.h"
 #endif
 
-#include "brave/components/brave_rewards/browser/rewards_service.h"
 #include "chrome/browser/net/blockers/blockers_worker.h"
 #include "chrome/browser/net/blockers/shields_config.h"
 #include "chrome/browser/stats_updater.h"
@@ -683,24 +682,6 @@ int NetworkServiceNetworkDelegate::OnBeforeURLRequest_PostBlockers(
         , ctx->httpsUpgrades
         , 0
         , 0);
-  }
-
-  // Notify ledger if we have YouTube or Twitch links
-  if (base::FeatureList::IsEnabled(::features::kBraveRewards)
-       && brave_rewards::IsMediaLink(request->url(), last_first_party_url_, GURL(request->referrer()))) {
-    if (request->get_upload()) {
-      std::string urlQuery;
-      for (size_t i = 0; i < (*(request->get_upload())->GetElementReaders()).size(); i++) {
-        const net::UploadBytesElementReader* reader =
-          (*(request->get_upload())->GetElementReaders())[i]->AsBytesReader();
-        if (reader) {
-          std::string upload_data(reader->bytes(), reader->length());
-          urlQuery += upload_data;
-        }
-      }
-      ctx->url_loader->OnNotifyLedger(request->url(), urlQuery,
-              last_first_party_url_, request->referrer());
-    }
   }
 
   if (ctx->block && (nullptr == ctx->url_loader || (uint32_t)content::ResourceType::kImage != ctx->url_loader->GetResourceType())) {

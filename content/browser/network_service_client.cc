@@ -35,10 +35,6 @@
 #if defined(OS_ANDROID)
 #include "base/android/content_uri_utils.h"
 #endif
-#include "brave/components/brave_rewards/browser/rewards_service.h"
-#include "brave/components/brave_rewards/browser/rewards_service_factory.h"
-#include "chrome/browser/profiles/profile_manager.h"
-#include "chrome/browser/sessions/session_tab_helper.h"
 
 #if defined(OS_MACOSX)
 #include "base/message_loop/message_loop_current.h"
@@ -232,31 +228,5 @@ void NetworkServiceClient::OnRawResponse(
   devtools_instrumentation::OnResponseReceivedExtraInfo(
       process_id, routing_id, devtools_request_id, cookies_with_status, headers,
       raw_response_headers);
-}
-
-void NetworkServiceClient::OnNotifyLedger(
-        const GURL& url, const std::string& urlQuery,
-        const GURL& last_first_party_url, const std::string& referrer,
-        int32_t process_id, int32_t routing_id) {
-  auto* web_contents = GetWebContents(process_id, routing_id);
-  if (!web_contents)
-    return;
-
-  auto* tab_helper = SessionTabHelper::FromWebContents(web_contents);
-  if (!tab_helper)
-    return;
-
-  brave_rewards::RewardsService* brave_rewards_service = nullptr;
-  bool incognito = web_contents->GetBrowserContext()->IsOffTheRecord();
-  if (incognito == false) {
-    brave_rewards_service = brave_rewards::RewardsServiceFactory::GetForProfile(
-      ProfileManager::GetActiveUserProfile()->GetOriginalProfile());
-  }
-
-  if (!brave_rewards_service) {
-    return;
-  }
-  brave_rewards_service->OnPostData(tab_helper->session_id(), url, last_first_party_url,
-    GURL(referrer), urlQuery);
 }
 }  // namespace content

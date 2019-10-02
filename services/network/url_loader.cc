@@ -1220,15 +1220,6 @@ int URLLoader::OnHeadersReceived(
   return net::OK;
 }
 
-void URLLoader::OnNotifyLedger(
-        const GURL& url, const std::string& urlQuery,
-        const GURL& last_first_party_url, const std::string& referrer) {
-  if (network_service_client_) {
-    network_service_client_->OnNotifyLedger(url, urlQuery,
-        last_first_party_url, referrer, GetProcessId(), GetRenderFrameId());
-  }
-}
-
 net::LoadState URLLoader::GetLoadStateForTesting() const {
   return url_request_->GetLoadState().state;
 }

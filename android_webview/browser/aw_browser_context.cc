@@ -450,7 +450,7 @@ AwBrowserContext::GetNetworkContextParams(
     const base::FilePath& relative_partition_path) {
   network::mojom::NetworkContextParamsPtr context_params =
       network::mojom::NetworkContextParams::New();
-  context_params->user_agent = android_webview::GetUserAgent();
+  context_params->user_agent = android_webview::GetUserAgent("");
 
   // TODO(ntfschr): set this value to a proper value based on the user's
   // preferred locales (http://crbug.com/898555). For now, set this to
