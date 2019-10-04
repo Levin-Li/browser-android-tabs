@@ -469,21 +469,26 @@ int NetworkServiceNetworkDelegate::OnBeforeURLRequest(
     GURL* new_url,
     bool call_callback) {
   int rv = net::OK;
-  std::shared_ptr<OnBeforeURLRequestContext> ctx(new OnBeforeURLRequestContext());
-  ctx->url_loader = URLLoader::ForRequest(*request);
-  brave::TabProperties tab_prop = GetTabProperties(request);
-  ctx->incognito = tab_prop.is_incognito;
-  if (!request->site_for_cookies().is_empty()) {
-    ctx->tab_url = request->site_for_cookies();
-  } else if (tab_prop.is_valid) {
-    ctx->tab_url = tab_prop.tab_url.GetOrigin();
-  }
-  if (ctx->url_loader && tab_prop.is_valid) {
-    rv = OnBeforeURLRequest_PreBlockersWork(
-        request,
-        std::move(callback),
-        new_url,
-        ctx);
+  // TODO(samartnik): we probably need better place for handling this
+  // as here we receive not only web requests
+  if (request->method() == "GET") {
+    std::shared_ptr<OnBeforeURLRequestContext> ctx(new OnBeforeURLRequestContext());
+    ctx->url_loader = URLLoader::ForRequest(*request);
+    brave::TabProperties tab_prop = GetTabProperties(request);
+    ctx->incognito = tab_prop.is_incognito;
+    if (!request->site_for_cookies().is_empty()) {
+      ctx->tab_url = request->site_for_cookies();
+      tab_prop.is_valid = true;
+    } else if (tab_prop.is_valid) {
+      ctx->tab_url = tab_prop.tab_url.GetOrigin();
+    }
+    if (ctx->url_loader && tab_prop.is_valid) {
+      rv = OnBeforeURLRequest_PreBlockersWork(
+          request,
+          std::move(callback),
+          new_url,
+          ctx);
+    }
   }
   if (call_callback && !callback.is_null()) {
     std::move(callback).Run(rv);
