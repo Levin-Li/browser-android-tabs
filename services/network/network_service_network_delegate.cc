@@ -525,23 +525,17 @@ int NetworkServiceNetworkDelegate::OnBeforeURLRequest_PreBlockersWork(
   ctx->isAdBlockRegionalEnabled = shieldsConfig ? shieldsConfig->getPrivacyAdBlockRegional() : true;
   ctx->isHTTPSEEnabled = shieldsConfig ? shieldsConfig->getPrivacyHTTPSE() : true;
   if (request && nullptr != shieldsConfig) {
-      std::string hostConfig = shieldsConfig->getHostSettings(ctx->incognito, ctx->firstparty_host);
-      // It is a length of ALL_SHIELDS_DEFAULT_MASK in ShieldsConfig.java
-      if (hostConfig.length() == 11) {
-        if ('0' == hostConfig[0]) {
-            ctx->isGlobalBlockEnabled = false;
-        }
-        if (ctx->isGlobalBlockEnabled) {
-            if ('0' ==  hostConfig[2]) {
-                ctx->blockAdsAndTracking = false;
-            }
-            if ('0' ==  hostConfig[4]) {
-                ctx->isHTTPSEEnabled = false;
-            }
-        }
+    std::string hostConfig = shieldsConfig->getHostSettings(ctx->incognito, ctx->firstparty_host);
+    // It is a length of ALL_SHIELDS_DEFAULT_MASK in ShieldsConfig.java
+    if (hostConfig.length() == 11) {
+      ctx->isGlobalBlockEnabled = ('0' != hostConfig[0]);
+      if (ctx->isGlobalBlockEnabled) {
+        ctx->blockAdsAndTracking = ('0' !=  hostConfig[2]);
+        ctx->isHTTPSEEnabled = ('0' !=  hostConfig[4]);
       }
+    }
   } else if (nullptr == shieldsConfig){
-      ctx->isGlobalBlockEnabled = false;
+    ctx->isGlobalBlockEnabled = false;
   }
 
   ctx->isValidUrl = true;
