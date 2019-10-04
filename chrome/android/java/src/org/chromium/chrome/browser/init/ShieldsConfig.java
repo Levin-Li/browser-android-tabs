@@ -37,7 +37,6 @@ public class ShieldsConfig {
     private static final String PREF_ADS_BLOCKED_COUNT = "ads_blocked_count";
     private static final String PREF_HTTPS_UPGRADES_COUNT = "https_upgrades_count";
     private static final String PREF_HTTPSE = "httpse";
-    private static final String PREF_TRACKING_PROTECTION = "tracking_protection";
     private static final String PREF_FINGERPRINTING_PROTECTION = "fingerprinting_protection";
     private static final String TAG = "ShieldsConfig";
     private static final String SHIELDS_CONFIG_LOCALFILENAME = "shields_config.dat";
@@ -365,11 +364,8 @@ public class ShieldsConfig {
             boolean prefAdBlockDefault = true;
             boolean prefAdBlock = mSharedPreferences.getBoolean(
                     PREF_AD_BLOCK, prefAdBlockDefault);
-            boolean prefTPDefault = true;
-            boolean prefTP = mSharedPreferences.getBoolean(
-                    PREF_TRACKING_PROTECTION, prefTPDefault);
 
-            return prefAdBlock || prefTP;
+            return prefAdBlock;
         }
         if ('0' == settings.charAt(2)) {
             return false;
@@ -587,7 +583,6 @@ public class ShieldsConfig {
         finally {
             mLock.readLock().unlock();
         }
-
         return "1";
     }
 
