@@ -104,6 +104,10 @@ public class CustomTabAppMenuPropertiesDelegate extends AppMenuPropertiesDelegat
             mReloadMenuItem.setIcon(icon);
             loadingStateChanged(currentTab.isLoading());
 
+            MenuItem shareItem = menu.findItem(R.id.share_row_menu_id);
+            shareItem.setVisible(mShowShare);
+            shareItem.setEnabled(mShowShare);
+
             boolean openInChromeItemVisible = true;
             boolean bookmarkItemVisible = mShowStar;
             boolean downloadItemVisible = mShowDownload;
