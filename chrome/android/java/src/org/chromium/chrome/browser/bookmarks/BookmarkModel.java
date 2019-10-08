@@ -129,6 +129,10 @@ public class BookmarkModel extends BookmarkBridge {
      * bookmark list. The bookmarks are appended at the end.
      */
     void moveBookmarks(List<BookmarkId> bookmarkIds, BookmarkId newParentId) {
+        assert isBookmarkModelLoaded();
+        if (!isBookmarkModelLoaded()) {
+            return;
+        }
         int appenedIndex = getChildCount(newParentId);
         BookmarkItem[] bookmarksToMove = new BookmarkItem[bookmarkIds.size()];
         ChromeApplication app = (ChromeApplication)ContextUtils.getBaseApplicationContext();
@@ -150,6 +154,10 @@ public class BookmarkModel extends BookmarkBridge {
      * bookmark. The bookmark is appended at the end. Call that method from Brave's sync only
      */
     public void moveBookmark(BookmarkId bookmarkId, BookmarkId newParentId) {
+        assert isBookmarkModelLoaded();
+        if (!isBookmarkModelLoaded()) {
+            return;
+        }
         int appendedIndex = getChildCount(newParentId);
         moveBookmark(bookmarkId, newParentId, appendedIndex);
     }
