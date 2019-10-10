@@ -46,7 +46,7 @@ public class ADBlockUtils {
     public static final String ADBLOCK_REGIONAL_LOCALFILENAME_DOWNLOADED = "ABPRegionalDataDownloaded.dat";
     public static final String ETAG_PREPEND_REGIONAL_ADBLOCK = "abp_r";
 
-    public static final String HTTPS_URL_NEW = "https://s3.amazonaws.com/https-everywhere-data/6.0/httpse.leveldb.zip";
+    public static final String HTTPS_URL_NEW = "https://https-everywhere.s3.brave.com/6.0/httpse.leveldb.zip";
     public static final String HTTPS_LOCALFILENAME_NEW = "httpse.leveldb.zip";
     public static final String HTTPS_LEVELDB_FOLDER = "httpse.leveldb";
     public static final String HTTPS_LOCALFILENAME_DOWNLOADED_NEW = "httpse.leveldbDownloaded.zip";
