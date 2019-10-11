@@ -27,7 +27,7 @@ import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
 import org.chromium.chrome.browser.ConfigAPIs;
-import org.chromium.chrome.browser.preferences.ChromeSwitchPreferenceCompat;
+import org.chromium.chrome.browser.preferences.ChromeSwitchPreference;
 import org.chromium.chrome.browser.preferences.PreferenceUtils;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.RestartWorker;
@@ -55,8 +55,8 @@ public class QAPreferences extends BravePreferenceFragment
         super.onCreate(savedInstanceState);
         PreferenceUtils.addPreferencesFromResource(this, R.xml.qa_preferences);
 
-        ChromeSwitchPreferenceCompat stagingServer =
-                (ChromeSwitchPreferenceCompat) findPreference(PREF_USE_REWARDS_STAGING_SERVER);
+        ChromeSwitchPreference stagingServer =
+                (ChromeSwitchPreference) findPreference(PREF_USE_REWARDS_STAGING_SERVER);
         if (stagingServer != null) {
             stagingServer.setOnPreferenceChangeListener(this);
         }

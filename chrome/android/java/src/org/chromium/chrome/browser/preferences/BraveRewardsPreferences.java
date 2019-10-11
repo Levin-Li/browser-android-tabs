@@ -40,7 +40,7 @@ public class BraveRewardsPreferences extends BravePreferenceFragment
     static final String PREF_RESET_REWARDS = "reset_rewards";
     private static final String PREF_ADS_SWITCH = "ads_switch";
 
-    private ChromeSwitchPreferenceCompat mAdsSwitch;
+    private ChromeSwitchPreference mAdsSwitch;
 
     private BraveRewardsNativeWorker mBraveRewardsNativeWorker;
 
@@ -55,7 +55,7 @@ public class BraveRewardsPreferences extends BravePreferenceFragment
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        mAdsSwitch = (ChromeSwitchPreferenceCompat) findPreference(PREF_ADS_SWITCH);
+        mAdsSwitch = (ChromeSwitchPreference) findPreference(PREF_ADS_SWITCH);
         boolean isAdsInBackgroundEnabled = getPrefAdsInBackgroundEnabled();
         mAdsSwitch.setChecked(isAdsInBackgroundEnabled);
         mAdsSwitch.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {

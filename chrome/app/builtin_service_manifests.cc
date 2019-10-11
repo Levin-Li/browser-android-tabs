@@ -5,9 +5,6 @@
 #include "chrome/app/builtin_service_manifests.h"
 
 #include "base/no_destructor.h"
-#include "brave/components/services/bat_ledger/public/cpp/manifest.h"
-#include "brave/components/services/bat_ads/public/cpp/manifest.h"
-#include "brave/components/brave_ads/browser/buildflags/buildflags.h"
 #include "build/build_config.h"
 
 #if defined(OS_CHROMEOS)
@@ -17,10 +14,6 @@
 const std::vector<service_manager::Manifest>&
 GetChromeBuiltinServiceManifests() {
   static base::NoDestructor<std::vector<service_manager::Manifest>> manifests{{
-      bat_ledger::GetManifest(),
-#if BUILDFLAG(BRAVE_ADS_ENABLED)
-      bat_ads::GetManifest(),
-#endif
 #if defined(OS_CHROMEOS)
       ash::GetManifest(),
 #endif

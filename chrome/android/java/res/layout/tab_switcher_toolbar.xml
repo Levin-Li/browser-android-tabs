@@ -52,7 +52,7 @@
         android:layout_height="32dp"
         android:layout_gravity="center"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/google_logo"
+        app:srcCompat="@drawable/lion"
         android:visibility="gone"
         android:contentDescription="@null"/>
 

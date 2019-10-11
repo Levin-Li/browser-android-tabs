@@ -247,8 +247,8 @@ public class SettingsActivity extends ChromeBaseAppCompatActivity
         }
 
         if (item.getItemId() == android.R.id.home) {
-            if (mainFragmentCompat instanceof OnBackPressedListener) {
-                OnBackPressedListener listener = (OnBackPressedListener) mainFragmentCompat;
+            if (mainFragment instanceof OnBackPressedListener) {
+                OnBackPressedListener listener = (OnBackPressedListener) mainFragment;
                 if (listener.onBackPressed()) {
                     return true;
                 }

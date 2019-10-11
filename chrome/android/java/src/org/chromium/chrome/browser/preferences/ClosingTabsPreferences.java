@@ -19,7 +19,7 @@ public class ClosingTabsPreferences extends BravePreferenceFragment {
     private static final String PREF_CLOSING_TABS_SWITCH = "closing_tabs_switch";
 
     private ClosingTabsManager mClosingTabsManager;
-    private ChromeSwitchPreferenceCompat mClosingTabsSwitch;
+    private ChromeSwitchPreference mClosingTabsSwitch;
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class ClosingTabsPreferences extends BravePreferenceFragment {
         getActivity().setTitle(R.string.prefs_closing_all_tabs_closes_brave_title);
         PreferenceUtils.addPreferencesFromResource(this, R.xml.closing_tabs_preferences);
 
-        mClosingTabsSwitch = (ChromeSwitchPreferenceCompat) findPreference(PREF_CLOSING_TABS_SWITCH);
+        mClosingTabsSwitch = (ChromeSwitchPreference) findPreference(PREF_CLOSING_TABS_SWITCH);
 
         boolean isClosingTabsEnabled = mClosingTabsManager.getPrefClosingAllTabsClosesBraveEnabled();
         mClosingTabsSwitch.setChecked(isClosingTabsEnabled);

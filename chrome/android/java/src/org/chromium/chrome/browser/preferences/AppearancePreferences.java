@@ -65,9 +65,9 @@ public class AppearancePreferences extends BravePreferenceFragment
         Preference enableBottomToolbar = findPreference(ChromePreferenceManager.BOTTOM_TOOLBAR_ENABLED_KEY);
         if (enableBottomToolbar != null) {
             enableBottomToolbar.setOnPreferenceChangeListener(this);
-            if (enableBottomToolbar instanceof ChromeSwitchPreferenceCompat) {
+            if (enableBottomToolbar instanceof ChromeSwitchPreference) {
               boolean isTablet = DeviceFormFactor.isNonMultiDisplayContextOnTablet(ContextUtils.getApplicationContext());
-              ((ChromeSwitchPreferenceCompat)enableBottomToolbar).setChecked(!isTablet && ChromePreferenceManager.getInstance().isBottomToolbarEnabled());
+              ((ChromeSwitchPreference)enableBottomToolbar).setChecked(!isTablet && ChromePreferenceManager.getInstance().isBottomToolbarEnabled());
             }
         }
     }
@@ -141,7 +141,7 @@ public class AppearancePreferences extends BravePreferenceFragment
 
     @Override
     public void OnGetRewardsMainEnabled(boolean enabled) {
-        ChromeSwitchPreferenceCompat hideBraveIconBlockPref = (ChromeSwitchPreferenceCompat)findPreference(PREF_HIDE_BRAVE_ICON);
+        ChromeSwitchPreference hideBraveIconBlockPref = (ChromeSwitchPreference)findPreference(PREF_HIDE_BRAVE_ICON);
         if (hideBraveIconBlockPref != null) {
           hideBraveIconBlockPref.setEnabled(!enabled);
           if (enabled) {
