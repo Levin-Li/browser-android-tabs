@@ -235,7 +235,7 @@ void DataReductionProxyChromeSettings::InitDataReductionProxySettings(
           content::GetNetworkConnectionTracker(),
           data_use_measurement::ChromeDataUseMeasurement::GetInstance(),
           db_task_runner, commit_delay, GetClient(),
-          version_info::GetChannelString(chrome::GetChannel()), GetUserAgent());
+          version_info::GetChannelString(chrome::GetChannel()), GetUserAgent(""));
   data_reduction_proxy::DataReductionProxySettings::
       InitDataReductionProxySettings(profile_prefs, std::move(service));
 

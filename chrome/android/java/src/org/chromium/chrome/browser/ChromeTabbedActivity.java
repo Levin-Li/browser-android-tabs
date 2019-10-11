@@ -867,6 +867,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                     if (getAssistStatusHandler() != null) {
                         getAssistStatusHandler().updateAssistState();
                     }
+                    if (getBraveShieldsMenuHandler() != null) getBraveShieldsMenuHandler().hideBraveShieldsMenu();
                 }
 
                 @Override
@@ -874,6 +875,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                     if (getAssistStatusHandler() != null) {
                         getAssistStatusHandler().updateAssistState();
                     }
+                    if (getBraveShieldsMenuHandler() != null) getBraveShieldsMenuHandler().hideBraveShieldsMenu();
                 }
             };
             mOverviewModeController.addOverviewModeObserver(mOverviewModeObserver);
@@ -1345,18 +1347,10 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                 // (chrome-native://newtab)
                 if (NewTabPage.isNTPUrl(url)) {
                     url = UrlConstants.NTP_URL;
-                } else {
-                    boolean startupHomepageIsNtp = false;
-                    // Migrate legacy NTP URLs (chrome://newtab) to the newer format
-                    // (chrome-native://newtab)
-                    if (NewTabPage.isNTPUrl(url)) {
-                        url = UrlConstants.NTP_URL;
-                        startupHomepageIsNtp = true;
-                    }
-                    RecordHistogram.recordBooleanHistogram(
-                            "MobileStartup.LoadedHomepageOnColdStart", startupHomepageIsNtp);
+                    startupHomepageIsNtp = true;
                 }
-                getTabCreator(false).launchUrl(url, TabLaunchType.FROM_CHROME_UI);
+                RecordHistogram.recordBooleanHistogram(
+                        "MobileStartup.LoadedHomepageOnColdStart", startupHomepageIsNtp);
             }
 
             getTabCreator(false).launchUrl(url, TabLaunchType.FROM_STARTUP);
@@ -2579,11 +2573,6 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
         // When the window size changes through multi-window, the popup windows position does not
         // change. Because of these problems, dismiss the popup window until a solution appears.
         if (mNavigationPopup != null) mNavigationPopup.dismiss();
-    }
-
-    @Override
-    public void onOverviewModeStartedHiding(boolean showToolbar, boolean delayAnimation) {
-        if (getBraveShieldsMenuHandler() != null) getBraveShieldsMenuHandler().hideBraveShieldsMenu();
     }
 
     /**

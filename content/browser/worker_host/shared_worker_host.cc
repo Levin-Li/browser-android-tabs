@@ -210,7 +210,7 @@ void SharedWorkerHost::Start(
   // Send the CreateSharedWorker message.
   factory_.Bind(std::move(factory));
   factory_->CreateSharedWorker(
-      std::move(info), GetContentClient()->browser()->GetUserAgent(),
+      std::move(info), GetContentClient()->browser()->GetUserAgent(""),
       pause_on_start, devtools_worker_token, std::move(renderer_preferences),
       std::move(preference_watcher_receiver), std::move(content_settings),
       service_worker_handle_->TakeProviderInfo(),

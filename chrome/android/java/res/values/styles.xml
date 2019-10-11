@@ -836,10 +836,10 @@
     </style>
 
     <!-- Incognito New Tab Page -->
-    <style name="TextAppearance.IncognitoNewTabLearnMoreLinkModern">
+    <!-- <style name="TextAppearance.IncognitoNewTabLearnMoreLinkModern">
         <item name="android:textColor">@color/modern_blue_300</item>
         <item name="android:textSize">@dimen/text_size_medium</item>
-    </style>
+    </style> -->
 
     <!-- Picker Dialog animations -->
     <style name="PickerDialogAnimation">
@@ -932,5 +932,85 @@
     <!-- Scrolling -->
     <style name="DarkModeCompatibleVerticalScrolling">
         <item name="android:scrollbarThumbVertical">@color/default_scroll_thumb</item>
+    </style>
+
+    <!-- Buttons for Brave Sync -->
+    <style name="BraveSyncButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/brave_sync_btn</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BraveSyncBottomButton">
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="BraveSwitchTheme">
+        <item name="colorControlActivated">@color/brave_theme_color</item>
+    </style>
+    <style name="BraveRewardsSwitchTheme">
+        <item name="colorControlActivated">@color/brave_rewards_theme_color</item>
+        <item name="colorSwitchThumbNormal">@color/modern_grey_600</item>
+        <item name="android:colorForeground">@color/modern_grey_600</item>
+    </style>
+
+    <style name="BraveSyncToggleOffButtonLeft">
+        <item name="android:textColor">@color/brave_theme_color</item>
+        <item name="android:background">@drawable/brave_sync_toggle_off_btn_left</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BraveSyncToggleOffButtonRight">
+        <item name="android:textColor">@color/brave_theme_color</item>
+        <item name="android:background">@drawable/brave_sync_toggle_off_btn_right</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BraveSyncToggleOnButtonRight">
+        <item name="android:textColor">@color/white_alpha_90</item>
+        <item name="android:background">@drawable/brave_sync_toggle_on_btn_right</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BraveSyncToggleOnButtonLeft">
+        <item name="android:textColor">@color/white_alpha_90</item>
+        <item name="android:background">@drawable/brave_sync_toggle_on_btn_left</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Incognito New Tab Page -->
+    <style name="IncognitoNewTabMessage">
+        <item name="android:maxWidth">660dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.WhiteBodyIncognito</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="IncognitoNewTabLearnMoreLink">
+        <item name="android:background">?attr/listChoiceBackgroundIndicator</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.BlueButtonText1</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="BraveDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NewTabPopupMenuLight" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:itemBackground">@android:color/white</item>
+    </style>
+    <style name="NewTabPopupMenuDark" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@color/new_tab_menu_text_dark_color</item>
+        <item name="android:itemBackground">@color/new_tab_menu_bg_dark_color</item>
     </style>
 </resources>

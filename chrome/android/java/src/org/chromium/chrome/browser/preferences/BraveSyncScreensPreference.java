@@ -125,10 +125,10 @@ public class BraveSyncScreensPreference extends BravePreferenceFragment
   // Timeout to show cancel button while loading devices on sync chain creation
   private static final int CANCEL_LOAD_BUTTON_TIMEOUT = 15*1000;
 
-  private ChromeSwitchPreferenceCompat mPrefSwitchTabs;
-  private ChromeSwitchPreferenceCompat mPrefSwitchHistory;
-  private ChromeSwitchPreferenceCompat mPrefSwitchAutofillPasswords;
-  private ChromeSwitchPreferenceCompat mPrefSwitchPaymentSettings;
+  private ChromeSwitchPreference mPrefSwitchTabs;
+  private ChromeSwitchPreference mPrefSwitchHistory;
+  private ChromeSwitchPreference mPrefSwitchAutofillPasswords;
+  private ChromeSwitchPreference mPrefSwitchPaymentSettings;
   private Switch mSyncSwitchBookmarks;
   private Switch mSyncSwitchTabs;
   private Switch mSyncSwitchHistory;
@@ -254,10 +254,10 @@ public class BraveSyncScreensPreference extends BravePreferenceFragment
       SharedPreferences sharedPref = getActivity().getApplicationContext().getSharedPreferences(BraveSyncWorker.PREF_NAME, 0);
       mDeviceName = sharedPref.getString(BraveSyncWorker.PREF_SYNC_DEVICE_NAME, "");
 
-      mPrefSwitchTabs = (ChromeSwitchPreferenceCompat) findPreference(BraveSyncWorker.PREF_SYNC_TABS);
-      mPrefSwitchHistory = (ChromeSwitchPreferenceCompat) findPreference(BraveSyncWorker.PREF_SYNC_HISTORY);
-      mPrefSwitchAutofillPasswords = (ChromeSwitchPreferenceCompat) findPreference(BraveSyncWorker.PREF_SYNC_AUTOFILL_PASSWORDS);
-      mPrefSwitchPaymentSettings = (ChromeSwitchPreferenceCompat) findPreference(BraveSyncWorker.PREF_SYNC_PAYMENT_SETTINGS);
+      mPrefSwitchTabs = (ChromeSwitchPreference) findPreference(BraveSyncWorker.PREF_SYNC_TABS);
+      mPrefSwitchHistory = (ChromeSwitchPreference) findPreference(BraveSyncWorker.PREF_SYNC_HISTORY);
+      mPrefSwitchAutofillPasswords = (ChromeSwitchPreference) findPreference(BraveSyncWorker.PREF_SYNC_AUTOFILL_PASSWORDS);
+      mPrefSwitchPaymentSettings = (ChromeSwitchPreference) findPreference(BraveSyncWorker.PREF_SYNC_PAYMENT_SETTINGS);
 
       // Initialize mSyncScreensObserver
       ChromeApplication application = (ChromeApplication)ContextUtils.getBaseApplicationContext();

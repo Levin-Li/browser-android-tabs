@@ -37,7 +37,7 @@ content::WebUIDataSource* CreateInternalsHTMLSource(
                                                : "Developer build");
   source->AddString(version_ui::kVersionModifier, chrome::GetChannelName());
   source->AddString(version_ui::kCL, version_info::GetLastChange());
-  source->AddString(version_ui::kUserAgent, GetUserAgent());
+  source->AddString(version_ui::kUserAgent, GetUserAgent(""));
   source->AddString("app_locale", g_browser_process->GetApplicationLocale());
   return source;
 }

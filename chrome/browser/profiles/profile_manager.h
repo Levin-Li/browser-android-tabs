@@ -293,7 +293,7 @@ class ProfileManager : public content::NotificationObserver,
 
   // Does final initial actions.
   void DoFinalInit(ProfileInfo* profile_info, bool go_off_the_record);
-  void DoFinalInitForServices(Profile* profile, bool go_off_the_record);
+  virtual void DoFinalInitForServices(Profile* profile, bool go_off_the_record);
   void DoFinalInitLogging(Profile* profile);
 
   // Returns the profile of the active user and / or the off the record profile
