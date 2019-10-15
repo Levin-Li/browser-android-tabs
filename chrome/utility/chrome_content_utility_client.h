@@ -32,6 +32,9 @@ class ChromeContentUtilityClient : public content::ContentUtilityClient {
       service_manager::BinderRegistry* registry) override;
   mojo::ServiceFactory* GetMainThreadServiceFactory() override;
   mojo::ServiceFactory* GetIOThreadServiceFactory() override;
+  bool HandleServiceRequest(
+      const std::string& service_name,
+      service_manager::mojom::ServiceRequest request) override;
 
   // See NetworkBinderProvider above.
   static void SetNetworkBinderCreationCallback(
