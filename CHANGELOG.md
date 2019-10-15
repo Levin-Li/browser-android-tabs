@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.1](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.1)
+
+ - Fixed missing "Share" option under menu on Android Tablet. ([#2121](https://github.com/brave/browser-android-tabs/issues/2121)
+ - Fixed "Not enough tokens" message shown while tipping due to wallet balance being rounded up. ([#2079](https://github.com/brave/browser-android-tabs/issues/2079))
+ - Fixed an issue where rewards grant is claimed but not confirmed on rewards panel. ([#2074](https://github.com/brave/browser-android-tabs/issues/2074))
+ - Fixed rewards summary items being wrongly categorized under rewards panel. ([#2082](https://github.com/brave/browser-android-tabs/issues/2082))
+ - Fixed crash when deleting browser data. ([#2090](https://github.com/brave/browser-android-tabs/issues/2090))
+ - Upgrade to Chromium 77.0.3865.116. ([#2136](https://github.com/brave/browser-android-tabs/issues/2136))
+
 ## [1.4.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.0)
  
  - Added dark mode. ([#1798](https://github.com/brave/browser-android-tabs/issues/1798)) 
