@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.4.2](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.2)
+
+ - Improved code optimization. ([#2151](https://github.com/brave/browser-android-tabs/issues/2151))
+
 ## [1.4.1](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.1)
 
  - Fixed missing "Share" option under menu on Android Tablet. ([#2121](https://github.com/brave/browser-android-tabs/issues/2121)
