@@ -176,7 +176,6 @@
     <color name="web_notification_text">#CCCCCC</color>
 
     <!-- Brave colors -->
-    <color name="brave_theme_color">#fb542b</color>
     <color name="brave_rewards_theme_color">#392DD1</color>
 
     <!-- Onborading colors -->
