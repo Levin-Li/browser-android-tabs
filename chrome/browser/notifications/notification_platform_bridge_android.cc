@@ -114,7 +114,7 @@ constexpr jint NotificationTypeToJava(
 constexpr NotificationHandler::Type JavaToNotificationType(
     jint notification_type) {
   constexpr jint kMinValue =
-      NotificationTypeToJava(NotificationHandler::Type::BRAVE_ADS);
+      NotificationTypeToJava(NotificationHandler::Type::WEB_PERSISTENT);
   constexpr jint kMaxValue =
       NotificationTypeToJava(NotificationHandler::Type::MAX);
 
@@ -122,7 +122,7 @@ constexpr NotificationHandler::Type JavaToNotificationType(
     return static_cast<NotificationHandler::Type>(notification_type);
 
   NOTREACHED();
-  return NotificationHandler::Type::BRAVE_ADS;
+  return NotificationHandler::Type::WEB_PERSISTENT;
 }
 
 }  // namespace
