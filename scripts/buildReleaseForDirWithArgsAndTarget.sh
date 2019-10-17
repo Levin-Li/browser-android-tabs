@@ -79,7 +79,7 @@ fi
 
 echo "Aligning apk..."
 #removed -v key
-third_party/android_sdk/public/build-tools/27.0.3/zipalign -f -p 4 $BASEDIR/apks/${APK_FILE_NAME}.apk $BASEDIR/apks/${APK_FILE_NAME}_aligned.apk
+third_party/android_sdk/public/build-tools/29.0.2/zipalign -f -p 4 $BASEDIR/apks/${APK_FILE_NAME}.apk $BASEDIR/apks/${APK_FILE_NAME}_aligned.apk
 rc=$?
 if [ $rc != 0 ]
 then
@@ -92,7 +92,7 @@ fi
 rm $BASEDIR/apks/${APK_FILE_NAME}.apk
 
 echo "Signing apk..."
-third_party/android_sdk/public/build-tools/27.0.3/apksigner sign --in $BASEDIR/apks/${APK_FILE_NAME}_aligned.apk --out $BASEDIR/apks/${APK_FILE_NAME}_aligned.apk --ks $KEYSTORE_PATH --ks-key-alias linkbubble --ks-pass pass:$KEYSTOREPASSWORD --key-pass pass:$KEYPASSWORD
+third_party/android_sdk/public/build-tools/29.0.2/apksigner sign --in $BASEDIR/apks/${APK_FILE_NAME}_aligned.apk --out $BASEDIR/apks/${APK_FILE_NAME}_aligned.apk --ks $KEYSTORE_PATH --ks-key-alias linkbubble --ks-pass pass:$KEYSTOREPASSWORD --key-pass pass:$KEYPASSWORD
 rc=$?
 if [ $rc != 0 ]
 then
