@@ -2,6 +2,101 @@
 
     <string name="brave_shields_down">Traoñ</string>
     <string name="brave_shields_up">Laez</string>
+    <string name="brave_shields_https_upgrades">Hizivadurioù HTTPS</string>
+    <string name="brave_shields_scripts_blocked">Skriptoù stanket</string>
+    <string name="brave_shields_ads_tracking_switch">Stankañ ar bruderezhioù hag an heulierioù</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS Pep-lec\'h</string>
+    <string name="brave_shields_blocks_scripts_switch">Stankañ ar skriptoù</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Enaouiñ/Lazhañ Skoedoù Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Merañ Loreoù Brave</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Stankañ an toupinoù tredel</string>
+
+    <string name="ad_block_title">Stankañ bruderezh</string>
+    <string name="menu_exit">Kuitaat</string>
+
+    <string name="brave_sync">Sinkro Brave (beta)</string>
+    <string name="sync_settings_add_device_name_title">Ouzhpennañ un anv trevnad</string>
+    <string name="sync_settings_add_device_name_label">Ebarzhiñ un anv diret evit an trevnad-mañ</string>
+    <string name="sync_example_device_name">Trevnad Android</string>
+    <string name="enter_code_words_sync">Ebarzhiñ ar gerioù kod</string>
+    <string name="sync_device">Trevnad sinkro</string>
+    <string name="sync_device_failure">N\'haller ket diazezañ ar sinkro</string>
+    <string name="brave_stats_text_ads">Bruderezhioù hag Heulierioù
+Stanket</string>
+    <string name="brave_stats_text_https">Hizivadurioù
+HTTPS</string>
+    <string name="brave_stats_text_time">Amzer
+Espernet</string>
+
+    <string name="send_metrics_title">Kas ar metrikoù</string>
+
+    <string name="desktop_mode_title">Mod Burev</string>
+    <string name="brave_shields">Skoedoù</string>
+    <string name="brave_shields_ads_and_trackers">Bruderezhioù hag heulierioù</string>
+    <string name="brave_shields_block_phishing_switch">Stankañ an higennañ</string>
+
+    <string name="play_video_in_background_title">Lennadur video en drekleur</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">Enaouet</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">Lazhet</string>
+    <string name="settings_require_relaunch_now">ADLOC\'HAÑ BREMAÑ</string>
+    <string name="settings_require_relaunch_later">DIWEZHATOC\'H</string>
+
+    <string name="play_yt_video_in_browser_title">Lenn video e-barzh Brave</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">Enaouet</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">Lazhet</string>
+    <string name="close_tabs_on_exit_title">Serriñ an ivinelloù en ur guitaat</string>
+    <string name="ddg_offer_positive">Ya</string>
+    <string name="ddg_offer_negative">Ket</string>
+    <string name="prefs_standard_search_engine">Ivinell standard</string>
+    <string name="prefs_private_search_engine">Ivinell brevez</string>
+
+    <string name="brave_open_in_private_tab">Digeriñ en un ivinell brevez</string>
+    <string name="brave_close_all_private_tabs">Serriñ an ivinell brevez</string>
+    <string name="brave_new_private_tab">Ivinell brevez nevez</string>
+    <string name="brave_new_tab_private_header">Un ivinell brevez eo houmañ</string>
+    <string name="update_notification_title">Hizivadur Brave</string>
+    <string name="update_notification_text">Ar merdeer Brave nevez a zo 22% herekoc\'h</string>
+    <string name="prefs_sync">Sinkro (beta)</string>
+    <string name="brave_ads_existing_user_offer_title">Amañ emañ bruderezhioù Brave!</string>
+    <string name="brave_ads_new_user_offer_title">Aotren Loreoù Brave</string>
+    <string name="brave_ads_offer_positive">C\'hoant em eus kemer-perzh!</string>
+    <string name="brave_sync_scan_chain_code">Skannit pe ebarzhiñ ur c\'hod sinkro</string>
+    <string name="brave_sync_start_new_chain">Stagañ gant ur chadenn sinkro nevez</string>
+    <string name="brave_sync_btn_mobile">Ouzhpennañ un trevnad hezoug</string>
+    <string name="brave_sync_btn_laptop">Ouzhpennañ un urzhiataer</string>
+    <string name="brave_sync_scan_sync_code">Skannit ar c\'hod sinkro-mañ</string>
+    <string name="brave_sync_btn_done">Graet</string>
+    <string name="brave_sync_tabs_text">Ivinelloù</string>
+    <string name="brave_sync_history_text">Roll-istor</string>
+    <string name="brave_sync_autofill_passwords_text">Emleuniañ/Gerioù-tremen</string>
+    <string name="brave_sync_payment_settings_text">Arventennoù Paeañ Brave</string>
+    <string name="brave_sync_settings_title">SINKRO WAR AN TREVNAD-MAÑ</string>
+    <string name="brave_sync_add_device_text">Ozuhpennañ un trevnad all</string>
+    <string name="brave_sync_remove_device_text">Dilemel an trevnad-mañ</string>
+    <string name="brave_sync_code_words_title">Gevellañ</string>
+    <string name="brave_sync_confirm_code_words_text">Kadarnaat</string>
+    <string name="brave_sync_word_count_text">Konter gerioù <ph name=\"WORD_COUNT\">%1$d</ph></string>
+    <string name="brave_sync_word_count_error">Niver a c\'herioù direizh</string>
+    <string name="brave_sync_qr_code">Kod QR</string>
+    <string name="brave_sync_code_words">Gerioù Kod</string>
+    <string name="brave_sync_copy_button_text">Eilañ er golver</string>
+    <string name="brave_sync_copied_text">Eilet er golver</string>
+    <string name="brave_sync_this_device_text">(an trevnad-mañ)</string>
+
+    <string name="brave_ui_welcome_footer_text_two">GOUZOUT HIROC\'H</string>
+    <string name="brave_ui_bat_text">BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_rewards_local_panel_add_funds">Ouzhpennañ fontoù</string>
+    <string name="brave_ui_settings">Arventennoù</string>
+    <string name="brave_ui_donation_amount">Sammad ar gwerzh-butun</string>
+    <string name="brave_ui_wallet_balance">sammad an douger-moneiz:</string>
+    <string name="brave_ui_send_tip">kas ur gwerzh-butun</string>
+    <string name="brave_ui_do_monthly">termeniñ ur gwerzh-butun miziek</string>
+    <string name="brave_ui_not_enough_tokens">n\'eus ket trawalc\'h a jedaouerioù</string>
+    <string name="brave_ui_please">mar plij</string>
+    <string name="brave_ui_add_funds">ouzhpennit fontoù</string>
+    <string name="brave_ui_thank_you">Trugarez!</string>
+    <string name="brave_ui_error_init_wallet">Klaskit en-dro diwezhatoc\'h.</string>
     <string name="brave_ui_month_jan">GENVER</string>
     <string name="brave_ui_month_feb">C\'HWEVRER</string>
     <string name="brave_ui_month_mar">MEURZH</string>
@@ -16,6 +111,72 @@
     <string name="brave_ui_month_dec">KERZU</string>
     <string name="brave_ui_month_year"><ph name=\"MONTH\">%1$s<ex>KERZU</ex></ph> <ph name=\"YEAR\">%2$s<ex>2018</ex></ph></string>
     <string name="brave_ui_rewards_contribute_attention">Diwallit</string>
+    <string name="brave_ui_include_in_auto">Enklozañ un em-werzh-butun</string>
+    <string name="brave_ui_donate_now">Kas ur gwerzh-butun...</string>
+    <string name="brave_ui_rewards_contribute">Em-werzh-butun</string>
+    <string name="brave_ui_one_time_donation">Gwerzh-butun evit ur wech</string>
+    <string name="brave_ui_recurring_donation">Gwerzh-butun miziek</string>
+    <string name="brave_ui_verified_publisher">Embanner Brave gwiriet</string>
+    <string name="brave_ui_not_verified_publisher">Neket bet gwiriet c\'hoazh</string>
+    <string name="brave_ui_on_youtube">war YouTube</string>
+    <string name="brave_ui_on_twitch">war Twitch</string>
+    <string name="brave_ui_claim">Goulenn</string>
+    <string name="brave_rewards_local_uh_oh">C\'hem!</string>
+    <string name="brave_ui_grants">Gwerzhioù-butun</string>
+    <string name="brave_ui_insufficient_funds_msg">N\'eus ket trawalc\'h a fontoù</string>
+    <string name="brave_ui_backup_wallet_msg">Enrollañ an doug-moneiz</string>
+    <string name="brave_ui_brave_rewards">Loreoù Brave</string>
+    <string name="brave_ui_welcome_back_message">Degemer mat en-dro!</string>
     <string name="brave_ui_monthly_text">Miziek</string>
+    <string name="bottom_toolbar_enable">Enaouiñ barrenn-ostilhoù traoñ</string>
+    <string name="bottom_toolbar_disable">Lazhañ barrenn-ostilhoù traoñ</string>
     <string name="search_or_url">Klask un URL</string>
-    </resources>
+    <string name="accessibility_toolbar_btn_bookmark">Krouiñ ur sined</string>
+    <string name="brave_ui_donate_monthly">Reiñ ur gwerzh-butun miziek d\'al lec\'hienn-mañ</string>
+
+    <string name="prefs_section_display">Diskouez</string>
+    <string name="prefs_section_controls">Kontrolloù</string>
+    <string name="prefs_appearance">Neuz</string>
+    <string name="hide_brave_rewards_icon_title">Kuzhat ikon Loreoù Brave</string>
+    <string name="reset_brave_rewards_option">Adderaouiñ Loreoù Brave</string>
+    <string name="reset_brave_rewards_error_title">Fazi adderaouiñ</string>
+    <string name="brave_sync_official">Sinkro Brave</string>
+    <string name="prefs_sync_official">Sinkro</string>
+
+    <string name="notification_category_group_brave_ads">Bruderezhioù Brave</string>
+    <string name="brave_ads_you_earned">Bez ho peus bet</string>
+
+    <string name="brave_default_browser_title">Brave \'zo prim evel ul luc\'hedenn</string>
+    <string name="brave_default_browser_body">Lakait Brave evel merdeer dre-ziouer!</string>
+    <string name="brave_make_default_text">Lakaat dre-ziouer</string>
+    <string name="brave_ui_ads_earnings">gounezet diwar ar bruderezhioù</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">Tremen</string>
+
+    <string name="block">Stankañ</string>
+    <string name="brave_shields_onboarding_title">Skoedoù Brave</string>
+    <string name="earn_tokens">Gounit jedaouerioù</string>
+    <string name="brave_rewards_onboarding_title">Loreoù Brave</string>
+    <string name="terms_of_service">Termoù Servij</string>
+
+    <string name="agree">Asantiñ</string>
+    <string name="join">Mont e-barzh</string>
+
+     <string name="start_browsing">Kregiñ da verdeiñ</string>
+    <string name="i_didnt_see">N\'em eus gwelet bruderezh ebet</string>
+
+    <string name="brave_ads_onboarding_title">Brave a ziskouezo deoc\'h ho pruderezh kentañ a-benn</string>
+    <string name="turn_on">Enaouiñ</string>
+
+    <string name="no_thanks">Nann, avat</string>
+    <string name="do_not_agree">Chom hep asantiñ</string>
+
+    <string name="prefs_welcome_tour">Tro degemer</string>
+    <string name="finish">Echuiñ</string>
+    
+    <string name="clear_download_title">Pellgargañ ar roll-istor</string>
+
+    <string name="settings_exit">Arvenntoù kuitaat</string>
+
+</resources>

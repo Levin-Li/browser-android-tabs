@@ -60,7 +60,7 @@ Kaydedildi</string>
     <string name="brave_shields_fingerprint_methods">Parmak İzi Yöntemleri</string>
     <string name="brave_shields_block_phishing_switch">Kimlik Avını Engelleyin</string>
 
-    <string name="play_video_in_background_title">Arka planda vide oynatma</string>
+    <string name="play_video_in_background_title">Arka planda video oynatma</string>
     <string name="website_settings_category_play_video_in_background_enabled_summary">Etkin</string>
     <string name="website_settings_category_play_video_in_background_disabled_summary">Kapalı</string>
     <string name="website_settings_category_play_video_in_background_enabled">Deneme niteliğinde. Sekme etkin olmadığında veya cihaz ekranı kapalıyken arka plandaki videnun oynatma sesini etkinleştirir. Bu özellik çalışmıyorsa masaüstü moduna geçmeyi deneyin.</string>

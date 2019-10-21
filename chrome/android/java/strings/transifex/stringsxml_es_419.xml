@@ -10,6 +10,7 @@
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Bloquear scripts</string>
     <string name="accessibility_toolbar_btn_brave_shields">Habilitar/Deshabilitar protecciones de Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Administrar recompensas de Brave</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Bloquear cookies de terceros</string>
 
     <string name="httpse_summary">Abre los sitios compatibles utilizando HTTPS en lugar de HTTP, cuando sea posible</string>
@@ -18,7 +19,7 @@
 
     <string name="fingerprinting_protection_title">Protección de huellas dactilares</string>
     <string name="fingerprinting_protection_summary">Evita que el navegador obtenga las huellas dactilares</string>
-    <string name="brave_shields_fingerprints_blocked">De huellas dactilares bloqueadas</string>
+    <string name="brave_shields_fingerprints_blocked">Huellas digitales bloqueadas</string>
     <string name="brave_shields_block_fingerprints_switch">Protección de huellas dactilares</string>
 
     <string name="ad_block_regional_title">Bloqueo de publicidades regionales</string>
@@ -46,7 +47,7 @@ estimado</string>
 
     <string name="send_metrics_title">Enviar mediciones</string>
 
-    <string name="desktop_mode_title">Modo Escritorio</string>
+    <string name="desktop_mode_title">Modo escritorio</string>
     <string name="website_settings_category_desktop_view_enabled_summary">Preferir la versión de escritorio de los sitios</string>
     <string name="website_settings_category_desktop_view_disabled_summary">Preferir la versión móvil de los sitios</string>
     <string name="website_settings_category_desktop_view_enabled">Habilitar vista de escritorio para nuevas pestañas</string>
@@ -55,9 +56,9 @@ estimado</string>
     <string name="brave_shields_first_group_title">Monitor de bloqueo</string>
     <string name="brave_shields_second_group_title">Controles individuales</string>
     <string name="brave_shields">Protecciones</string>
-    <string name="brave_shields_ads_and_trackers">Anuncios y Rastreadores</string>
+    <string name="brave_shields_ads_and_trackers">Anuncios y rastreadores</string>
     <string name="brave_shields_fingerprint_methods">Métodos de huellas dactilares </string>
-    <string name="brave_shields_block_phishing_switch">Bloquear Fraude Electrónico </string>
+    <string name="brave_shields_block_phishing_switch">Bloquear fraude electrónico</string>
 
     <string name="play_video_in_background_title">Reproducción de vídeo en el fondo</string>
     <string name="website_settings_category_play_video_in_background_enabled_summary">Habilitado</string>
@@ -108,6 +109,7 @@ estimado</string>
     <string name="brave_sync_btn_laptop">Añadir una computadora</string>
     <string name="brave_sync_scan_sync_code">Escanear este código de sincronización</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Desde un segundo teléfono o tableta, navega hasta Configuración de Brave > Sincronización > Escaneo.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">En su dispositivo móvil, navegue hasta Brave Sync en el panel Configuración y haga clic en el botón \"Escanear código de sincronización\". Use su cámara para escanear el código QR a continuación.</string>
     <string name="brave_sync_btn_done">Listo</string>
     <string name="brave_sync_tabs_text">Pestañas</string>
     <string name="brave_sync_history_text">Historial</string>
@@ -246,6 +248,7 @@ apoyar a los creadores de contenido que más te gustan.</string>
     <string name="prefs_appearance">Apariencia</string>
     <string name="hide_brave_rewards_icon_title">Ocultar el ícono de Recompensas Brave</string>
     <string name="hide_brave_rewards_icon_description">Oculta el ícono de Recompensas Brave cuando las recompensas no están activadas</string>
+    <string name="show_ads_when_brave_is_not_in_use">Mostrar anuncios cuando Brave no esté en uso</string>
     <string name="reset_brave_rewards_option">Restablecer Recompensas Brave</string>
     <string name="reset_brave_rewards_option_description">Esto eliminará tu billetera de Brave y restablecerá todos los datos de tus Recompensas Brave</string>
     <string name="reset_brave_rewards_error_title">Error de restablecimiento</string>
@@ -308,4 +311,8 @@ apoyar a los creadores de contenido que más te gustan.</string>
     <string name="welcome_tour_dialog_text">Reiniciar el Recorrido de bienvenida no afectará los ajustes actuales.</string>
     <string name="finish">Terminar</string>
     
-    </resources>
+    <string name="clear_download_title">Descargar historial</string>
+
+    <string name="settings_exit">Salir de la configuración</string>
+
+</resources>
