@@ -167,9 +167,9 @@
     <string name="brave_ui_rewards_banner_text2">チップの送信をマンスリーに設定して、このサイトを継続的にサポートすることも可能です。</string>
     <string name="brave_ui_donation_amount">チップ額</string>
     <string name="brave_ui_wallet_balance">ウォレット残高:</string>
-    <string name="brave_ui_make_monthly">マンスリーに設定</string>
+    <string name="brave_ui_make_monthly">毎月定期支払いチップを設定</string>
     <string name="brave_ui_send_tip">チップを送信</string>
-    <string name="brave_ui_do_monthly">マンスリーチップを設定</string>
+    <string name="brave_ui_do_monthly">毎月定期支払いチップを設定</string>
     <string name="brave_ui_not_enough_tokens">トークンが不足しています</string>
     <string name="brave_ui_site_banner_notice_text">注: このクリエイターは、まだBraveユーザーからの支援を受諾する手続きを行っていません。クリエイターが確認するまで、または90日間が経過するまで、支援の送信を継続します。</string>
     <string name="brave_ui_please">お願いします</string>
@@ -189,7 +189,7 @@
     <string name="brave_ui_month_nov">11月</string>
     <string name="brave_ui_month_dec">12月</string>
     <string name="brave_ui_month_year"><ph name=\"MONTH\">%1$s<ex>12月</ex></ph> <ph name=\"YEAR\">%2$s<ex>2018年</ex></ph></string>
-    <string name="brave_ui_rewards_contribute_attention">注意</string>
+    <string name="brave_ui_rewards_contribute_attention">アテンション</string>
     <string name="brave_ui_include_in_auto">自動支援に含める</string>
     <string name="brave_ui_donate_now">チップを送信...</string>
     <string name="brave_ui_no_activity">今月はまだアクティビティが
@@ -199,7 +199,7 @@
     <string name="brave_ui_rewards_contribute">自動支援</string>
     <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>BATを支援しました。</string>
     <string name="brave_ui_one_time_donation">チップ</string>
-    <string name="brave_ui_recurring_donation">マンスリーチップ</string>
+    <string name="brave_ui_recurring_donation">毎月定期支払いチップ</string>
     <string name="brave_ui_verified_publisher">Brave認証済みパブリッシャー</string>
     <string name="brave_ui_not_verified_publisher">未認証</string>
     <string name="brave_ui_not_verified_publisher_description">このクリエイターは、まだBraveユーザーからの支援を受諾する手続きを行っていません。クリエイターの認証確認が終了するまで、送信されたチップはウォレット内に維持されます。</string>
@@ -246,7 +246,7 @@
     <string name="prefs_appearance">見た目</string>
     <string name="hide_brave_rewards_icon_title">Brave Rewardsのアイコンを隠す</string>
     <string name="hide_brave_rewards_icon_description">Brave Rewardsが有効でない場合にBrave Rewardsのアイコンを隠す</string>
-    <string name="show_ads_when_brave_is_not_in_use">Braveが使われていない時に広告を表示する</string>
+    <string name="show_ads_when_brave_is_not_in_use">Braveが使われていない時にも広告を表示する</string>
     <string name="reset_brave_rewards_option">Brave Rewardsをリセット</string>
     <string name="reset_brave_rewards_option_description">Brave Walletが削除され、すべてのBrave Rewardsのデータがリセットされます</string>
     <string name="reset_brave_rewards_error_title">エラーをリセット</string>

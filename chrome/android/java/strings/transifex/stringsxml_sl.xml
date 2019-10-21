@@ -247,6 +247,7 @@ ustvarjalcem vsebin, ki so vam všeč.</string>
     <string name="prefs_appearance">Videz</string>
     <string name="hide_brave_rewards_icon_title">Skrij ikono Nagrade Brave</string>
     <string name="hide_brave_rewards_icon_description">Skrije ikono Nagrade Brave, ko Nagrade Brave niso omogočene.</string>
+    <string name="show_ads_when_brave_is_not_in_use">Pokaži oglase, ko Brave ni v uporabi</string>
     <string name="reset_brave_rewards_option">Ponastavi Nagrade Brave</string>
     <string name="reset_brave_rewards_option_description">S tem boste izbrisali svojo denarnico Brave in ponastavili vse podatke Nagrad Brave.</string>
     <string name="reset_brave_rewards_error_title">Napaka ponastavljanja</string>
@@ -309,4 +310,8 @@ ustvarjalcem vsebin, ki so vam všeč.</string>
     <string name="welcome_tour_dialog_text">Ponovno zagon Predstavitve ne bo vplival na obstoječe nastavitve.</string>
     <string name="finish">Konec</string>
     
-    </resources>
+    <string name="clear_download_title">Zgodovina prenosov</string>
+
+    <string name="settings_exit">Izhod iz nastavitev</string>
+
+</resources>
