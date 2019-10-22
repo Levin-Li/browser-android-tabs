@@ -91,6 +91,7 @@ public class SiteSettingsPreferences
         }
         websitePrefs.add(Type.NOTIFICATIONS);
         websitePrefs.add(Type.POPUPS);
+        websitePrefs.add(Type.DESKTOP_VIEW);
         websitePrefs.add(Type.SENSORS);
         websitePrefs.add(Type.PROTECTED_MEDIA);
         websitePrefs.add(Type.SOUND);
