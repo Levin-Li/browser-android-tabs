@@ -52,10 +52,17 @@ public class ThemePreferences extends BravePreferenceFragment {
         SettingsUtils.addPreferencesFromResource(this, R.xml.theme_preferences);
         getActivity().setTitle(R.string.prefs_themes);
 
+        int defaultThemePref = NightModeUtils.getThemeSetting();
+        if (!NightModeUtils.isNightModeSupported() || !FeatureUtilities.isNightModeAvailable())
+            if (!GlobalNightModeStateProviderHolder.getInstance().isInNightMode())
+                defaultThemePref = ThemeSetting.LIGHT;
+            else
+                defaultThemePref = ThemeSetting.DARK;
+
         SharedPreferencesManager sharedPreferencesManager = SharedPreferencesManager.getInstance();
         RadioButtonGroupThemePreference radioButtonGroupThemePreference =
                 (RadioButtonGroupThemePreference) findPreference(PREF_UI_THEME_PREF);
-        radioButtonGroupThemePreference.initialize(NightModeUtils.getThemeSetting(),
+                radioButtonGroupThemePreference.initialize(defaultThemePref,
                 sharedPreferencesManager.readBoolean(DARKEN_WEBSITES_ENABLED_KEY, false));
 
         radioButtonGroupThemePreference.setOnPreferenceChangeListener((preference, newValue) -> {
