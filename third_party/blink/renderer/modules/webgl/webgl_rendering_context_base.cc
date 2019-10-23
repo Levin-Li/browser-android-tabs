@@ -3622,9 +3622,9 @@ WebGLRenderingContextBase::getSupportedExtensions() {
   if (isContextLost())
     return base::nullopt;
 
-  LocalFrame* frame = canvas()->GetDocument().GetFrame();
+  LocalFrame* frame = canvas() ? canvas()->GetDocument().GetFrame() : nullptr;
   bool allowed = true;
-  if (frame) {
+  if (frame && frame->Loader().Client()) {
       allowed = frame->Loader().Client()->AllowFingerprinting();
       if (!allowed && !canvas()->wasBlockedByFingerprinting()) {
           frame->Loader().Client()->DeniedFingerprinting();
