@@ -109,10 +109,16 @@ declare namespace Rewards {
     INCLUDED = 2
   }
 
+  export enum PublisherStatus {
+    NOT_VERIFIED = 0,
+    CONNECTED = 1,
+    VERIFIED = 2
+  }
+
   export interface Publisher {
     publisherKey: string
     percentage: number
-    verified: boolean
+    status: PublisherStatus
     excluded: Status
     url: string
     name: string

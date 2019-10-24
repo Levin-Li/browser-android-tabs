@@ -91,3 +91,11 @@ export const constructBackupString = (backupKey: string) => {
     'Save this key in a safe place, separate from your Brave browser. ' +
     'Make sure you keep this key private, or else your wallet will be compromised.'
 }
+
+export const isPublisherConnectedOrVerified = (status?: Rewards.PublisherStatus) => {
+  if (status === undefined) {
+    return false
+  }
+
+  return status === 2 || status === 1
+}

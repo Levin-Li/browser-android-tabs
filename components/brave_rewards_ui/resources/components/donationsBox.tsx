@@ -46,15 +46,16 @@ class DonationBox extends React.Component<Props, {}> {
     let recurring: DetailRow[] = []
     if (recurringList) {
       recurring = recurringList.map((item: Rewards.Publisher) => {
+        const verified = utils.isPublisherConnectedOrVerified(item.status)
         let faviconUrl = `chrome://favicon/size/48@1x/${item.url}`
-        if (item.favIcon && item.verified) {
+        if (item.favIcon && verified) {
           faviconUrl = `chrome://favicon/size/48@1x/${item.favIcon}`
         }
 
         return {
           profile: {
             name: item.name,
-            verified: item.verified,
+            verified,
             provider: (item.provider ? item.provider : undefined) as Provider,
             src: faviconUrl
           },
@@ -72,8 +73,9 @@ class DonationBox extends React.Component<Props, {}> {
     let tips: DetailRow[] = []
     if (tipsList) {
       tips = tipsList.map((item: Rewards.Publisher) => {
+        const verified = utils.isPublisherConnectedOrVerified(item.status)
         let faviconUrl = `chrome://favicon/size/48@1x/${item.url}`
-        if (item.favIcon && item.verified) {
+        if (item.favIcon && verified) {
           faviconUrl = `chrome://favicon/size/48@1x/${item.favIcon}`
         }
 
@@ -82,7 +84,7 @@ class DonationBox extends React.Component<Props, {}> {
         return {
           profile: {
             name: item.name,
-            verified: item.verified,
+            verified,
             provider: (item.provider ? item.provider : undefined) as Provider,
             src: faviconUrl
           },
