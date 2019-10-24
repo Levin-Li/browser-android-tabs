@@ -75,6 +75,5 @@ CookieSettingsFactory::BuildServiceInstanceFor(
   return new content_settings::CookieSettings(
       HostContentSettingsMapFactory::GetForProfile(profile),
       profile->GetPrefs(), profile->IsIncognitoProfile(),
-      extensions::kExtensionScheme,
-      profile->GetProfileType() == Profile::INCOGNITO_PROFILE);
+      extensions::kExtensionScheme);
 }

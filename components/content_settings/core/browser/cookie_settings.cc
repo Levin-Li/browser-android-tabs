@@ -28,13 +28,11 @@ CookieSettings::CookieSettings(
     HostContentSettingsMap* host_content_settings_map,
     PrefService* prefs,
     bool is_incognito,
-    const char* extension_scheme,
-    const bool &incognito)
+    const char* extension_scheme)
     : host_content_settings_map_(host_content_settings_map),
       is_incognito_(is_incognito),
       extension_scheme_(extension_scheme),
-      block_third_party_cookies_(false),
-      incognito_(incognito) {
+      block_third_party_cookies_(false) {
   pref_change_registrar_.Init(prefs);
   pref_change_registrar_.Add(
       prefs::kBlockThirdPartyCookies,
@@ -274,7 +272,7 @@ bool CookieSettings::BraveShouldBlockThirdPartyCookies(const GURL& first_party_u
   std::string host = first_party_url.host();
 
   if (nullptr != shieldsConfig && 0 != host.length()) {
-    std::string hostConfig = shieldsConfig->getHostSettings(incognito_, host);
+    std::string hostConfig = shieldsConfig->getHostSettings(is_incognito_, host);
     if (hostConfig.length() == 11) {
       if ('1' == hostConfig[0]) {
         if ('0' == hostConfig[8]) {
