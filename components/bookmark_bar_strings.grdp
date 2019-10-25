@@ -18,7 +18,7 @@
 
   <if expr="not use_titlecase">
     <message name="IDS_BOOKMARK_BAR_MOBILE_FOLDER_NAME" desc="Name shown in the tree for the mobile bookmarks folder">
-      Mobile bookmarks
+      Bookmarks
     </message>
     <message name="IDS_BOOKMARK_BAR_OTHER_FOLDER_NAME" desc="Name shown in the tree for the other bookmarks folder">
       Other bookmarks
@@ -32,7 +32,7 @@
   </if>
   <if expr="use_titlecase">
     <message name="IDS_BOOKMARK_BAR_MOBILE_FOLDER_NAME" desc="In Title Case: Name shown in the tree for the mobile bookmarks folder">
-      Mobile Bookmarks
+      Bookmarks
     </message>
     <message name="IDS_BOOKMARK_BAR_OTHER_FOLDER_NAME" desc="In Title Case: Name shown in the tree for the other bookmarks folder">
       Other Bookmarks
