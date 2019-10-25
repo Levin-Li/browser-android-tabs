@@ -49,7 +49,7 @@ public class OnboardingPrefManager {
 
     public static boolean isNotification;
 
-    private static final List<String> adsAvailableRegions = Arrays.asList("US","CA","NZ","IE","AU","CA","FR","GB","DE");
+    private static final List<String> adsAvailableRegions = Arrays.asList("US","CA","NZ","IE","AU","FR","GB","DE");
 
     private static final List<String> newAdsAvailableRegions = Arrays.asList(); //Add country code for new ad regions in the list
 
