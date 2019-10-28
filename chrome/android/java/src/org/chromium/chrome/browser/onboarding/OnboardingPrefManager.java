@@ -49,7 +49,39 @@ public class OnboardingPrefManager {
 
     public static boolean isNotification;
 
-    private static final List<String> adsAvailableRegions = Arrays.asList("US","CA","NZ","IE","AU","FR","GB","DE");
+    private static final List<String> adsAvailableRegions = Arrays.asList(
+      "US",  // United States of America
+      "CA",  // Canada
+      "GB",  // United Kingdom (Great Britain and Northern Ireland)
+      "DE",  // Germany
+      "FR",  // France
+      "AU",  // Australia
+      "NZ",  // New Zealand
+      "IE",  // Ireland
+      "AR",  // Argentina
+      "AT",  // Austria
+      "BR",  // Brazil
+      "CH",  // Switzerland
+      "CL",  // Chile
+      "CO",  // Colombia
+      "DK",  // Denmark
+      "EC",  // Ecuador
+      "IL",  // Israel
+      "IN",  // India
+      "IT",  // Italy
+      "JP",  // Japan
+      "KR",  // Korea
+      "MX",  // Mexico
+      "NL",  // Netherlands
+      "PE",  // Peru
+      "PH",  // Philippines
+      "PL",  // Poland
+      "SE",  // Sweden
+      "SG",  // Singapore
+      "VE",  // Venezuela
+      "ZA",  // South Africa
+      "KY"   // Cayman Islands 
+    );
 
     private static final List<String> newAdsAvailableRegions = Arrays.asList(); //Add country code for new ad regions in the list
 
