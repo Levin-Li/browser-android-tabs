@@ -134,11 +134,15 @@ public:
 
     void FetchGrants(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj);
 
-    void GetAddresses(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj);
+    int GetAdsPerHour(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj);
 
-    base::android::ScopedJavaLocalRef<jstring> GetAddress(JNIEnv* env,
-        const base::android::JavaParamRef<jobject>& obj,
-        const base::android::JavaParamRef<jstring>& jaddress_name);
+    void SetAdsPerHour(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj,
+        jint value);
+
+    int GetAdsPerDay(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj);
+
+    void SetAdsPerDay(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj,
+        jint value);
 
     void OnAdsResetTheWholeState(bool sucess);
 
@@ -195,7 +199,6 @@ public:
         bool rewards_main_enabled) override;
 
 private:
-    void OnGetAddresses(const std::map<std::string, std::string>& addresses);
     void OnBalance(int32_t result, std::unique_ptr<::brave_rewards::Balance> balance);
     JavaObjectWeakGlobalRef weak_java_brave_rewards_native_worker_;
     brave_rewards::RewardsService* brave_rewards_service_;

@@ -38,47 +38,36 @@ import org.chromium.base.Log;
  * Settings fragment containing preferences for QA team.
  */
 public class QAPreferences extends BravePreferenceFragment
-        implements OnPreferenceChangeListener, OnPreferenceClickListener, BraveRewardsObserver {
+        implements OnPreferenceChangeListener, BraveRewardsObserver {
     private static final String PREF_USE_REWARDS_STAGING_SERVER = "use_rewards_staging_server";
-    private static final String PREF_WALLET_BAT = "wallet_bat";
-    private static final String PREF_WALLET_BTC = "wallet_btc";
-    private static final String PREF_WALLET_ETH = "wallet_eth";
-    private static final String PREF_WALLET_LTC = "wallet_ltc";
+    private static final String PREF_QA_MAXIMIZE_INITIAL_ADS_NUMBER = "qa_maximize_initial_ads_number";
 
-    private static final String BAT_ADDRESS_NAME = "BAT";
-    private static final String BTC_ADDRESS_NAME = "BTC";
-    private static final String ETH_ADDRESS_NAME = "ETH";
-    private static final String LTC_ADDRESS_NAME = "LTC";
+    private static final String QA_ADS_PER_HOUR = "qa_ads_per_hour";
+    private static final String QA_ADS_PER_DAY = "qa_ads_per_day";
+
+    private static final int MAX_ADS_NUMBER = 50;
+    private static final int DEFAULT_ADS_PER_HOUR = 2;
+    private static final int DEFAULT_ADS_PER_DAY = 20;
+
+    ChromeSwitchPreference mIsStagingServer;
+    ChromeSwitchPreference mMaximizeAdsNumber;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         PreferenceUtils.addPreferencesFromResource(this, R.xml.qa_preferences);
 
-        ChromeSwitchPreference stagingServer =
+        mIsStagingServer =
                 (ChromeSwitchPreference) findPreference(PREF_USE_REWARDS_STAGING_SERVER);
-        if (stagingServer != null) {
-            stagingServer.setOnPreferenceChangeListener(this);
+        if (mIsStagingServer != null) {
+            mIsStagingServer.setOnPreferenceChangeListener(this);
         }
 
-        Preference walletBAT = findPreference(PREF_WALLET_BAT);
-        if (walletBAT != null) {
-            walletBAT.setOnPreferenceClickListener(this);
-        }
-
-        Preference walletBTC = findPreference(PREF_WALLET_BTC);
-        if (walletBTC != null) {
-            walletBTC.setOnPreferenceClickListener(this);
-        }
-
-        Preference walletETH = findPreference(PREF_WALLET_ETH);
-        if (walletETH != null) {
-            walletETH.setOnPreferenceClickListener(this);
-        }
-
-        Preference walletLTC = findPreference(PREF_WALLET_LTC);
-        if (walletLTC != null) {
-            walletLTC.setOnPreferenceClickListener(this);
+        mMaximizeAdsNumber =
+                (ChromeSwitchPreference) findPreference(PREF_QA_MAXIMIZE_INITIAL_ADS_NUMBER);
+        if (mMaximizeAdsNumber != null) {
+            mMaximizeAdsNumber.setEnabled(mIsStagingServer.isChecked());
+            mMaximizeAdsNumber.setOnPreferenceChangeListener(this);
         }
     }
 
@@ -100,23 +89,11 @@ public class QAPreferences extends BravePreferenceFragment
         if (PREF_USE_REWARDS_STAGING_SERVER.equals(preference.getKey())) {
             PrefServiceBridge.getInstance().setUseRewardsStagingServer((boolean) newValue);
             BraveRewardsNativeWorker.getInstance().ResetTheWholeState();
+            mMaximizeAdsNumber.setEnabled((boolean) newValue);
+            enableMaximumAdsNumber(((boolean) newValue) && mMaximizeAdsNumber.isChecked());
             RestartWorker.AskForRelaunch(getActivity());
-        }
-        return true;
-    }
-
-    @Override
-    public boolean onPreferenceClick(Preference preference) {
-        if (PREF_WALLET_BAT.equals(preference.getKey()) ||
-            PREF_WALLET_BTC.equals(preference.getKey()) ||
-            PREF_WALLET_ETH.equals(preference.getKey()) ||
-            PREF_WALLET_LTC.equals(preference.getKey())) {
-            ClipboardManager clipboard = (ClipboardManager) getActivity().getSystemService(Context.CLIPBOARD_SERVICE);
-            ClipData clip = ClipData.newPlainText("", preference.getSummary());
-            clipboard.setPrimaryClip(clip);
-            Toast.makeText(getActivity().getApplicationContext(),
-                getResources().getString(R.string.brave_sync_copied_text) + "\n" + preference.getSummary(),
-                Toast.LENGTH_LONG).show();
+        } else if (PREF_QA_MAXIMIZE_INITIAL_ADS_NUMBER.equals(preference.getKey())) {
+            enableMaximumAdsNumber((boolean) newValue);
         }
         return true;
     }
@@ -133,23 +110,6 @@ public class QAPreferences extends BravePreferenceFragment
                 if (button != AlertDialog.BUTTON_POSITIVE ||
                     !input.getText().toString().equals(ConfigAPIs.QA_CODE)) {
                     getActivity().finish();
-                } else {
-                    Preference walletBAT = findPreference(PREF_WALLET_BAT);
-                    if (walletBAT != null) {
-                        walletBAT.setSummary(BraveRewardsNativeWorker.getInstance().GetAddress(BAT_ADDRESS_NAME));
-                    }
-                    Preference walletBTC = findPreference(PREF_WALLET_BTC);
-                    if (walletBTC != null) {
-                        walletBTC.setSummary(BraveRewardsNativeWorker.getInstance().GetAddress(BTC_ADDRESS_NAME));
-                    }
-                    Preference walletETH = findPreference(PREF_WALLET_ETH);
-                    if (walletETH != null) {
-                        walletETH.setSummary(BraveRewardsNativeWorker.getInstance().GetAddress(ETH_ADDRESS_NAME));
-                    }
-                    Preference walletLTC = findPreference(PREF_WALLET_LTC);
-                    if (walletLTC != null) {
-                        walletLTC.setSummary(BraveRewardsNativeWorker.getInstance().GetAddress(LTC_ADDRESS_NAME));
-                    }
                 }
             }
         };
@@ -167,6 +127,28 @@ public class QAPreferences extends BravePreferenceFragment
         Dialog dialog = alertDialog.create();
         dialog.setCanceledOnTouchOutside(false);
         dialog.show();
+    }
+
+    private void enableMaximumAdsNumber(boolean enable) {
+        if (enable) {
+            // Save current values
+            int adsPerHour = BraveRewardsNativeWorker.getInstance().GetAdsPerHour();
+            int adsPerDay = BraveRewardsNativeWorker.getInstance().GetAdsPerDay();
+            SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
+            SharedPreferences.Editor sharedPreferencesEditor = sharedPreferences.edit();
+            sharedPreferencesEditor.putInt(QA_ADS_PER_HOUR, adsPerHour);
+            sharedPreferencesEditor.putInt(QA_ADS_PER_DAY, adsPerDay);
+            sharedPreferencesEditor.apply();
+            // Set max values
+            BraveRewardsNativeWorker.getInstance().SetAdsPerHour(MAX_ADS_NUMBER);
+            BraveRewardsNativeWorker.getInstance().SetAdsPerDay(MAX_ADS_NUMBER);
+            return;
+        }
+        // Set saved values
+        int adsPerHour = ContextUtils.getAppSharedPreferences().getInt(QA_ADS_PER_HOUR, DEFAULT_ADS_PER_HOUR);
+        int adsPerDay = ContextUtils.getAppSharedPreferences().getInt(QA_ADS_PER_DAY, DEFAULT_ADS_PER_DAY);
+        BraveRewardsNativeWorker.getInstance().SetAdsPerHour(adsPerHour);
+        BraveRewardsNativeWorker.getInstance().SetAdsPerDay(adsPerDay);
     }
 
     @Override
