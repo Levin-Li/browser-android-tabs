@@ -11,20 +11,11 @@
         android:summaryOn="@string/text_on"
         android:summaryOff="@string/text_off" />
 
-    <Preference
-        android:key="wallet_bat"
-        android:title="BAT" />
+    <org.chromium.chrome.browser.preferences.ChromeSwitchPreference
+        android:key="qa_maximize_initial_ads_number"
+        android:title="Maximize initial ads number"
+        android:summaryOn="@string/text_on"
+        android:summaryOff="@string/text_off"
+        android:defaultValue="true" />
     
-    <Preference
-        android:key="wallet_btc"
-        android:title="BTC" />
-
-    <Preference
-        android:key="wallet_eth"
-        android:title="ETH" />
-
-    <Preference
-        android:key="wallet_ltc"
-        android:title="LTC" />
-
 </PreferenceScreen>

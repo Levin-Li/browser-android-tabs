@@ -308,15 +308,27 @@ public class BraveRewardsNativeWorker {
         }
     }
 
-    public void GetAddresses() {
+    public int GetAdsPerHour() {
         synchronized(lock) {
-            nativeGetAddresses(mNativeBraveRewardsNativeWorker);
+            return nativeGetAdsPerHour(mNativeBraveRewardsNativeWorker);
         }
     }
 
-    public String GetAddress(String addressName) {
+    public int GetAdsPerDay() {
         synchronized(lock) {
-            return nativeGetAddress(mNativeBraveRewardsNativeWorker, addressName);
+            return nativeGetAdsPerDay(mNativeBraveRewardsNativeWorker);
+        }
+    }
+
+    public void SetAdsPerHour(int value) {
+        synchronized(lock) {
+            nativeSetAdsPerHour(mNativeBraveRewardsNativeWorker, value);
+        }
+    }
+
+    public void SetAdsPerDay(int value) {
+        synchronized(lock) {
+            nativeSetAdsPerDay(mNativeBraveRewardsNativeWorker, value);
         }
     }
 
@@ -486,6 +498,8 @@ public class BraveRewardsNativeWorker {
     private native void nativeRemoveRecurring(long nativeBraveRewardsNativeWorker, String publisher);
     private native void nativeResetTheWholeState(long nativeBraveRewardsNativeWorker);
     private native void nativeFetchGrants(long nativeBraveRewardsNativeWorker);
-    private native void nativeGetAddresses(long nativeBraveRewardsNativeWorker);
-    private native String nativeGetAddress(long nativeBraveRewardsNativeWorker, String addressName);
+    private native int nativeGetAdsPerHour(long nativeBraveRewardsNativeWorker);
+    private native int nativeGetAdsPerDay(long nativeBraveRewardsNativeWorker);
+    private native void nativeSetAdsPerHour(long nativeBraveRewardsNativeWorker, int value);
+    private native void nativeSetAdsPerDay(long nativeBraveRewardsNativeWorker, int value);
 }
