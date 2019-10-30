@@ -14,6 +14,9 @@
 #include "content/public/browser/url_data_source.h"
 #include "chrome/android/chrome_jni_headers/BraveRewardsNativeWorker_jni.h"
 
+#define DEFAULT_ADS_PER_HOUR 2
+#define DEFAULT_ADS_PER_DAY 12
+
 namespace chrome {
 namespace android {
 
@@ -609,7 +612,7 @@ int BraveRewardsNativeWorker::GetAdsPerHour(JNIEnv* env, const base::android::Ja
   auto* ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(
     ProfileManager::GetActiveUserProfile()->GetOriginalProfile());
   if (!ads_service_) {
-    return 3;
+    return DEFAULT_ADS_PER_HOUR;
   }
   return ads_service_->GetAdsPerHour();
 }
@@ -628,7 +631,7 @@ int BraveRewardsNativeWorker::GetAdsPerDay(JNIEnv* env, const base::android::Jav
   auto* ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(
     ProfileManager::GetActiveUserProfile()->GetOriginalProfile());
   if (!ads_service_) {
-    return 13;
+    return DEFAULT_ADS_PER_DAY;
   }
   return ads_service_->GetAdsPerDay();
 }
