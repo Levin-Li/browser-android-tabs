@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.4.3](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.3)
+
+ - Fixed webview crash upon visiting certain sites. ([#2166](https://github.com/brave/browser-android-tabs/issues/2166))
+ - Increased max number of Brave Ads from 12 to 20 to match desktop. ([#2068](https://github.com/brave/browser-android-tabs/issues/2068))
+ - Upgraded to Chromium 78.0.3904.62. ([#2163](https://github.com/brave/browser-android-tabs/issues/2163))
+
 ## [1.4.2](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.2)
 
  - Improved code optimization. ([#2151](https://github.com/brave/browser-android-tabs/issues/2151))
