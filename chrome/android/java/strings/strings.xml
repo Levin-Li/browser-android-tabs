@@ -166,7 +166,7 @@ watching privacy-respecting ads.</string>
     <string name="brave_rewards_local_panel_add_funds">Add Funds</string>
     <string name="brave_ui_settings">Settings</string>
     <string name="brave_ui_rewards_summary">REWARDS SUMMARY</string>
-    <string name="brave_ui_site_banner_welcome">Thanks for stopping by!</string>
+    <string name="brave_ui_site_banner_welcome">Welcome!</string>
     <string name="brave_ui_rewards_banner_text1">You can support this site by sending a tip. It's a way of thanking them for making great content. Verified content creators get paid for their tips during the first week of each calendar month.</string>
     <string name="brave_ui_rewards_banner_text2">If you like, you can schedule monthly tips to support this site on a continuous basis.</string>
     <string name="brave_ui_donation_amount">Tip amount</string>
