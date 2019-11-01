@@ -596,11 +596,9 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                   View fadein = root.findViewById(R.id.progress_br_claim_button);
                   BraveRewardsHelper.crossfade(claimOk, fadein, View.GONE, 1f, BraveRewardsHelper.CROSS_FADE_DURATION);
 
-
                   mBraveRewardsNativeWorker.GetGrant(promId);
                   walletDetailsReceived = false; //re-read wallet status
                   EnableWalletDetails(false);
-
               }
             }
           }));
@@ -829,9 +827,33 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         }
     }
 
+    private boolean IsValidNotificationType(int type){
+        boolean valid = false;
+        switch (type) {
+            case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_AUTO_CONTRIBUTE:
+            case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_GRANT:
+            case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_GRANT_ADS:
+            case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS:
+            case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_BACKUP_WALLET:
+            case REWARDS_NOTIFICATION_NO_INTERNET:
+                valid = true;
+                break;
+            default:
+                valid = false;
+        }
+        return valid;
+    }
+
 
     private void ShowNotification(String id, int type, long timestamp,
             String[] args) {
+
+        // don't process unknown notifications
+        if ( !IsValidNotificationType (type) && mBraveRewardsNativeWorker != null) {
+            mBraveRewardsNativeWorker.DeleteNotification(id);
+            return;
+        }
+
         currentNotificationId = id;
         LinearLayout hl = (LinearLayout)root.findViewById(R.id.header_layout);
         hl.setBackgroundResource(R.drawable.notification_header);
@@ -922,7 +944,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                         tv.setGravity(Gravity.START);
                     }
                 } else {
-                    assert false;
+                    assert false : "Not enough data to process rewards notification";
                 }
                 break;
             case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_GRANT:
@@ -970,7 +992,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
             default:
                 Log.e(TAG, "This notification type is either invalid or not handled yet: " + type);
                 assert false;
-                break;
+                return;
         }
         String stringToInsert = (title.isEmpty() ? "" : ("<b>" + title + "</b>" + " | ")) + description +
           (title.isEmpty() ? "" : ("  <font color=#a9aab4>" + notificationTime + "</font>"));
@@ -1352,8 +1374,8 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         if (amount > 0.0) {
             String non_verified_summary =
               String.format(root.getResources().getString(
-                R.string.brave_ui_reserved_amount_text), String.format("%.1f", amount), batPointsText) + 
-              " <font color=#73CBFF>" + root.getResources().getString(R.string.learn_more) + 
+                R.string.brave_ui_reserved_amount_text), String.format("%.1f", amount), batPointsText) +
+              " <font color=#73CBFF>" + root.getResources().getString(R.string.learn_more) +
               ".</font>";
             Spanned toInsert = BraveRewardsHelper.spannedFromHtmlString(non_verified_summary);
             tvPublisherNotVerifiedSummary.setText(toInsert);
