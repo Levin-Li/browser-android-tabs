@@ -155,7 +155,7 @@ class SettingsPage extends React.Component<Props, State> {
   }
 
   render () {
-    const { enabledMain, balance } = this.props.rewardsData
+    const { enabledMain, balance, onlyAnonWallet } = this.props.rewardsData
     const { total } = balance
     const convertedBalance = utils.convertBalance((total || 0).toString(), balance.rates)
 
@@ -189,6 +189,7 @@ class SettingsPage extends React.Component<Props, State> {
           onClick={this.onToggleWallet}
           balance={total.toFixed(1).toString()}
           id={'mobile-wallet'}
+          onlyAnonWallet={onlyAnonWallet}
           converted={`${convertedBalance} USD`}
         />
         <AdsBox />
