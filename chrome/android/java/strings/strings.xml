@@ -288,14 +288,10 @@ content creators you love.</string>
     <string name="brave_rewards_onboarding_text">for seeing privacy-respecting ads. Use them to support your favorite sites and creators.</string>
     <string name="brave_rewards_onboarding_text2">for seeing privacy-respecting ads.</string>
 
-    <string name="terms_title">Agree to the Terms to use Brave Rewards</string>
-    <string name="terms_text">I agree to Brave Rewards</string>
+    <string name="terms_text">By turning on Rewards, you agree to the</string>
     <string name="terms_of_service">Terms of Service</string>
 
-    <string name="agree">Agree</string>
-    <string name="join">Join</string>
-
-     <string name="start_browsing">Start browsing</string>
+    <string name="start_browsing">Start browsing</string>
     <string name="i_didnt_see">I didn&apos;t see an ad</string>
 
     <string name="brave_ads_onboarding_title">Brave will show your first ad in</string>
@@ -306,7 +302,6 @@ content creators you love.</string>
     <string name="turn_on">Turn On</string>
 
     <string name="no_thanks">No thanks</string>
-    <string name="do_not_agree">Do not agree</string>
 
     <string name="prefs_welcome_tour">Welcome Tour</string>
     <string name="welcome_tour_dialog_text">Relaunching Welcome Tour will not affect any existing settings.</string>
