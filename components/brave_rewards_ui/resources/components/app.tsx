@@ -34,6 +34,7 @@ export class App extends React.Component<Props, State> {
     this.actions.getRewardsEnabled()
     this.actions.getExcludedSites()
     this.actions.getBalance()
+    this.actions.onlyAnonWallet()
   }
 
   componentDidUpdate (prevProps: Props, prevState: State) {

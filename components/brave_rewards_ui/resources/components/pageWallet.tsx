@@ -112,7 +112,8 @@ class PageWallet extends React.Component<Props, State> {
       connectedWallet,
       balance,
       ui,
-      pendingContributionTotal
+      pendingContributionTotal,
+      onlyAnonWallet
     } = this.props.rewardsData
     const { emptyWallet } = ui
     const { total } = balance
@@ -135,10 +136,11 @@ class PageWallet extends React.Component<Props, State> {
               actions={[]}
               compact={true}
               isMobile={true}
-              showCopy={true}
+              showCopy={false}
               showSecActions={false}
               grants={this.getGrants()}
               alert={this.walletAlerts()}
+              onlyAnonWallet={onlyAnonWallet}
               connectedWallet={connectedWallet}
             >
               {

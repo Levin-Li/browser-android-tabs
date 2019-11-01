@@ -108,7 +108,8 @@ class DonationBox extends React.Component<Props, {}> {
       balance,
       enabledMain,
       recurringList,
-      reconcileStamp
+      reconcileStamp,
+      onlyAnonWallet
     } = this.props.rewardsData
     const donationRows = this.getDonationRows()
     const numRows = donationRows.length
@@ -126,7 +127,7 @@ class DonationBox extends React.Component<Props, {}> {
       >
         <List title={<StyledListContent>{getLocale('donationTotalDonations')}</StyledListContent>}>
           <StyledListContent>
-            <Tokens value={total} converted={converted} />
+            <Tokens onlyAnonWallet={onlyAnonWallet} value={total} converted={converted} />
           </StyledListContent>
         </List>
         {
@@ -145,6 +146,7 @@ class DonationBox extends React.Component<Props, {}> {
             rows={donationRows}
             allItems={allSites}
             headerColor={true}
+            onlyAnonWallet={onlyAnonWallet}
           >
             {getLocale('donationVisitSome')}
           </TableDonation>

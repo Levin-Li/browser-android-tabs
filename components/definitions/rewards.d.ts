@@ -23,6 +23,7 @@ declare namespace Rewards {
     currentGrant?: Grant
     createdTimestamp: number | null
     enabledMain: boolean
+    onlyAnonWallet: boolean
     enabledContribute: boolean
     firstLoad: boolean | null
     walletCreated: boolean

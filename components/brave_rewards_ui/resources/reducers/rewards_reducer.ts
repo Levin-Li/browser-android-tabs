@@ -158,6 +158,16 @@ const rewardsReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State
         chrome.send('brave_rewards.getRewardsMainEnabled', [])
         break
       }
+    case types.ONLY_ANON_WALLET:
+      {
+        chrome.send('brave_rewards.onlyAnonWallet')
+        break
+      }
+    case types.ON_ONLY_ANON_WALLET:
+      {
+        state.onlyAnonWallet = !!action.payload.only
+        break
+      }
   }
 
   return state

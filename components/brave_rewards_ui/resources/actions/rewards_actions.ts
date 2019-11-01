@@ -181,3 +181,9 @@ export const onBalance = (status: number, balance: Rewards.Balance) => action(ty
   status,
   balance
 })
+
+export const onlyAnonWallet = () => action(types.ONLY_ANON_WALLET)
+
+export const onOnlyAnonWallet = (only: boolean) => action(types.ON_ONLY_ANON_WALLET, {
+  only
+})
