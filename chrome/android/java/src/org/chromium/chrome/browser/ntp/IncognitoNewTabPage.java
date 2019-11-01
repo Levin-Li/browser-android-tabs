@@ -76,7 +76,7 @@ public class IncognitoNewTabPage
                 // Both is not supported in VR. Request to exit VR and if we succeed show the 'Learn
                 // More' page in 2D.
                 if (VrModuleProvider.getDelegate().isInVr()) {
-                    VrModuleProvider.getDelegate().requestToExitVrAndRunOnSuccess(
+                VrModuleProvider.getDelegate().requestToExitVrAndRunOnSuccess(
                             IncognitoNewTabPage.this ::showIncognitoLearnMore);
                     return;
                 }

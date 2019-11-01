@@ -1099,10 +1099,15 @@ public class LocationBarLayout extends FrameLayout
         }
 
         mStatusViewCoordinator.setUseDarkColors(useDarkColors);
-        mStatusViewCoordinator.setIncognitoBadgeVisibility(
-                /*mToolbarDataProvider.isIncognito() && !mIsTablet*/false);
         mAutocompleteCoordinator.updateVisualsForState(
                 useDarkColors, mToolbarDataProvider.isIncognito());
+        if (mToolbarDataProvider.isIncognito()) {
+            mStatusViewCoordinator.setIncognitoBadgeVisibility(true);
+            // mLocationBar.setBackgroundColor(getContext().getResources().getColor(R.color.incognito_url_bar_bg_color));
+        } else {
+            mStatusViewCoordinator.setIncognitoBadgeVisibility(false);
+            // mLocationBar.setBackgroundColor(getContext().getResources().getColor(R.color.modern_grey_100));
+        }
     }
 
     @Override
