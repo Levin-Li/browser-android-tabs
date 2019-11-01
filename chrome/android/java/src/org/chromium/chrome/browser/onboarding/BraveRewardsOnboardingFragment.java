@@ -76,8 +76,6 @@ public class BraveRewardsOnboardingFragment extends Fragment {
 
         isAdsAvailable = OnboardingPrefManager.getInstance().isAdsAvailable();
 
-        isAgree=false;
-
         isJapanLocale = BraveRewardsHelper.isJapanLocale();
  
         // Inflate the layout for this fragment
