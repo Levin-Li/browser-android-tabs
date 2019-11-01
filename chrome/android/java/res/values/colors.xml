@@ -37,7 +37,6 @@
     <color name="tab_switcher_background">#14181C</color>
     <color name="accessibility_tab_switcher_list_item">#252525</color>
     <color name="tab_back">#F1F1F1</color>
-    <color name="tab_back_incognito">#4F4F4F</color>
 
     <!-- App banner colors -->
     <color name="app_banner_install_button_bg">#0F9D58</color>
@@ -71,13 +70,10 @@
 
     <!-- Compositor Tab Colors -->
     <color name="compositor_background_tab_bg">@color/modern_grey_300</color>
-    <color name="compositor_background_tab_bg_incognito">@color/modern_grey_900</color>
     <color name="compositor_background_tab_outline">#ACB1B6</color>
-    <color name="compositor_background_tab_outline_incognito">@android:color/black</color>
 
     <!-- Compositor Tab Title Colors -->
     <color name="compositor_tab_title_bar_text">@color/default_text_color</color>
-    <color name="compositor_tab_title_bar_text_incognito">@android:color/white</color>
 
     <!-- Account Signin Colors -->
     <!-- As in dimens.xml, signin uses values from the First Run Experience -->
@@ -89,12 +85,8 @@
     <color name="signin_header_animation_laptop_screen">#F4F4F4</color>
 
     <!-- NTP and Home sheet colors. Also used on the bookmarks and recent tabs pages. -->
-    <color name="ntp_bg_incognito">@color/default_bg_color_dark_elev_3</color>
     <color name="suggestions_modern_bg">@color/modern_primary_color</color>
     <!--<color name="google_logo_tint">@android:color/transparent</color>-->
-
-    <!-- Incognito NTP Colors. -->
-    <color name="incognito_emphasis">@android:color/white</color>
 
     <!-- Overlay Panel colors -->
     <color name="overlay_panel_bar_background_color">@color/default_bg_color_elev_4</color>
@@ -107,7 +99,6 @@
 
     <!-- Toolbar colors -->
     <color name="toolbar_text_box_background">@color/modern_grey_100</color>
-    <color name="toolbar_text_box_background_incognito">@color/black_alpha_38</color>
 
     <!-- LocationBar colors -->
     <color name="locationbar_dark_hint_text">@color/search_box_hint</color>
@@ -127,7 +118,6 @@
     <color name="find_result_bar_active_color">#FF9632</color>
     <color name="find_result_bar_active_border_color">#C37E3B</color>
     <color name="find_in_page_query_white_color">@android:color/white</color>
-    <color name="find_in_page_query_incognito_hint_color">@color/white_alpha_70</color>
     <color name="find_in_page_failed_results_status_color">@color/default_red</color>
     <color name="find_in_page_query_default_hint_color">@color/search_box_hint</color>
 
@@ -205,5 +195,25 @@
     <color name="new_tab_menu_bg_dark_color">@color/modern_grey_800</color>
 
     <color name="brave_set_default_dialog_text_color">@color/modern_grey_700</color>
+
+    <!-- Incognito mode colors -->
+    <color name="ntp_bg_incognito">@color/incognito_modern_primary_color</color>
+
+    <!-- Incognito background and branding colors -->
+    <color name="incognito_modern_primary_color">#210950</color>
+
+    <color name="toolbar_background_primary_incognito">#1B0C32</color>
+    <color name="toolbar_text_box_background_incognito">#3D2742</color>
+
+    <color name="tab_back_incognito">@color/toolbar_background_primary_incognito</color>
+
+    <color name="compositor_background_tab_bg_incognito">@color/toolbar_background_primary_incognito</color>
+    <color name="compositor_background_tab_outline_incognito">@color/toolbar_background_primary_incognito</color>
+    <color name="compositor_tab_title_bar_text_incognito">@android:color/white</color>
+    
+    <!-- Incognito NTP Colors. -->
+    <color name="incognito_emphasis">@android:color/white</color>
+
+    <color name="find_in_page_query_incognito_hint_color">@color/white_alpha_70</color>
 
 </resources>

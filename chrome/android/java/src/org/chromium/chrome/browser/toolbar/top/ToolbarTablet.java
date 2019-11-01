@@ -705,17 +705,10 @@ public class ToolbarTablet extends ToolbarLayout
 
     @Override
     void updateButtonVisibility() {
-        if (mBraveRewardsPanelButton != null && mBraveRewardsPanelButton.getDrawable() != null) {
-            if (isIncognito()) {
-                mBraveRewardsPanelButton.setEnabled(false);
-                ColorMatrix matrix = new ColorMatrix();
-                matrix.setSaturation(0);
-                ColorMatrixColorFilter filter = new ColorMatrixColorFilter(matrix);
-                mBraveRewardsPanelButton.getDrawable().setColorFilter(filter);
-            } else {
-                mBraveRewardsPanelButton.setEnabled(true);
-                mBraveRewardsPanelButton.getDrawable().clearColorFilter();
-            }
+        if (isIncognito()) {
+            mRewardsLayout.setVisibility(View.GONE);
+        } else {
+            mRewardsLayout.setVisibility(View.VISIBLE);
         }
 
         mLocationBar.updateButtonVisibility();
