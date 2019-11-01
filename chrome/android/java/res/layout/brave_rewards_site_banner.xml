@@ -272,7 +272,6 @@
                     android:layout_gravity="start|bottom"
                     android:background="@android:color/transparent"
                     android:fontFamily="sans-serif"
-                    android:text="0.00 BAT"
                     android:textColor="@android:color/white"
                     android:textSize="12sp"
                     android:textStyle="bold" />
@@ -307,8 +306,6 @@
                     android:paddingEnd="12dp"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
-                    android:textOff="1 BAT"
-                    android:textOn="1 BAT"
                     android:textSize="12sp" />
 
                 <TextView
@@ -342,8 +339,6 @@
                     android:paddingEnd="12dp"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
-                    android:textOff="5 BAT"
-                    android:textOn="5 BAT"
                     android:textSize="12sp" />
 
                 <TextView
@@ -376,8 +371,6 @@
                     android:paddingEnd="12dp"
                     android:textAlignment="center"
                     android:textColor="@android:color/white"
-                    android:textOff="10 BAT"
-                    android:textOn="10 BAT"
                     android:textSize="12sp" />
 
                 <TextView

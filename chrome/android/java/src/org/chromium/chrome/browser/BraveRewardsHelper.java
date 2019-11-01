@@ -36,7 +36,7 @@ import org.chromium.chrome.browser.favicon.LargeIconBridge;
 import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tabmodel.TabModelImpl;
 import org.chromium.chrome.browser.widget.RoundedIconGenerator;
-
+import org.chromium.chrome.browser.BraveAdsNativeHelper;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
@@ -52,6 +52,9 @@ public class BraveRewardsHelper implements LargeIconBridge.LargeIconCallback{
     private static final int FAVICON_TEXT_SIZE = 50; // dp
     private static final int FAVICON_FETCH_INTERVAL = 1000; // In milliseconds
     private static final int FAVICON_DESIRED_SIZE = 64; // px
+
+    private static final String JP_LOCALE = "JP";
+
     private static LargeIconBridge mLargeIconBridge;
 
     private String mFaviconUrl;
@@ -381,5 +384,11 @@ public class BraveRewardsHelper implements LargeIconBridge.LargeIconCallback{
         } else {
             return Html.fromHtml(string);
         }
+    }
+
+    public static boolean isJapanLocale(){
+      String locale = BraveAdsNativeHelper.nativeGetLocale();
+      String countryCode = BraveAdsNativeHelper.nativeGetCountryCode(locale);
+      return countryCode.equals(JP_LOCALE);
     }
 }
