@@ -799,7 +799,7 @@ public abstract class StackLayoutBase extends Layout {
 
         assert !isLayoutAnimating();
 
-        // If homepage is enabled and there is a maximum of 1 tab in both models
+        // If CloseAppWithZeroTabs is enabled and there is a maximum of 1 tab in both models
         // (this is the last tab), the tab closure cannot be undone.
         canUndo &= !(ClosingTabsManager.shouldCloseAppWithZeroTabs()
                 && (mTabModelSelector.getModel(true).getCount()
