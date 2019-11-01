@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave site shield settings for</string>
     <string name="brave_shields_down">Down</string>
     <string name="brave_shields_up">Up</string>
-    <string name="brave_shields_ads_trackers">Ads and Trackers Blocked</string>
+    <string name="brave_shields_ads_trackers">Ads &amp; Trackers Blocked</string>
     <string name="brave_shields_https_upgrades">HTTPS Upgrades</string>
     <string name="brave_shields_scripts_blocked">Scripts Blocked</string>
-    <string name="brave_shields_ads_tracking_switch">Block Ads and Tracking</string>
+    <string name="brave_shields_ads_tracking_switch">Block Ads &amp; Tracking</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Block Scripts</string>
     <string name="accessibility_toolbar_btn_brave_shields">Enable/Disable Brave Shields</string>
@@ -38,7 +38,7 @@
     <string name="sync_device_failure">Sync could not be setup</string>
     <string name="sync_requires_correct_time">Your computer's clock may be set to the wrong time, or to the wrong time-zone. Check your clock settings</string>
 
-    <string name="brave_stats_text_ads">Ads and Trackers
+    <string name="brave_stats_text_ads">Ads &amp; Trackers
 Blocked</string>
     <string name="brave_stats_text_https">HTTPS
 Upgrades</string>
@@ -56,7 +56,7 @@ Saved</string>
     <string name="brave_shields_first_group_title">Blocking Monitor</string>
     <string name="brave_shields_second_group_title">Individual Controls</string>
     <string name="brave_shields">Shields</string>
-    <string name="brave_shields_ads_and_trackers">Ads and Trackers</string>
+    <string name="brave_shields_ads_and_trackers">Ads &amp; Trackers</string>
     <string name="brave_shields_fingerprint_methods">Fingerprint Methods</string>
     <string name="brave_shields_block_phishing_switch">Block Phishing</string>
 
@@ -281,7 +281,7 @@ content creators you love.</string>
 
     <string name="block">Block</string>
     <string name="brave_shields_onboarding_title">Brave Shields</string>
-    <string name="brave_shields_onboarding_text">privacy-invading ads and trackers so you can browse without being followed around the web.</string>
+    <string name="brave_shields_onboarding_text">privacy-invading ads &amp; trackers so you can browse without being followed around the web.</string>
 
     <string name="earn_tokens">Earn tokens</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
