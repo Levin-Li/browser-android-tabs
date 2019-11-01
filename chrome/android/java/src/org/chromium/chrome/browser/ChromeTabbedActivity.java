@@ -619,20 +619,20 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
 
                 @Override
                 public void didCloseTab(int tabId, boolean incognito) {
-                    closeIfNoTabsAndHomepageEnabled(false);
+                    closeIfNoTabsAndCloseAppWithZeroTabsEnabled(false);
                 }
 
                 @Override
                 public void tabPendingClosure(Tab tab) {
-                    closeIfNoTabsAndHomepageEnabled(true);
+                    closeIfNoTabsAndCloseAppWithZeroTabsEnabled(true);
                 }
 
                 @Override
                 public void tabRemoved(Tab tab) {
-                    closeIfNoTabsAndHomepageEnabled(false);
+                    closeIfNoTabsAndCloseAppWithZeroTabsEnabled(false);
                 }
 
-                private void closeIfNoTabsAndHomepageEnabled(boolean isPendingClosure) {
+                private void closeIfNoTabsAndCloseAppWithZeroTabsEnabled(boolean isPendingClosure) {
                     if (getTabModelSelector().getTotalTabCount() == 0) {
                         // If the last tab is closed, and one of the following is true, then exit
                         // Chrome:
@@ -647,6 +647,12 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                         } else if (isPendingClosure) {
                             NewTabPageUma.recordNTPImpression(
                                     NewTabPageUma.NTP_IMPESSION_POTENTIAL_NOTAB);
+                        } else {
+                            getTabModelSelector().getModel(false).commitAllTabClosures();
+                            getCurrentTabCreator().launchNTP();
+
+                            for (int i = 0; i < getTabModelSelector().getModel(false).getCount()-1; i++) getTabModelSelector().getModel(false).getTabAt(i).setClosing(true);
+                            while (getTabModelSelector().getModel(false).getCount() > 1) TabModelUtils.closeTabByIndex(getTabModelSelector().getModel(false), 0);
                         }
                     }
 
