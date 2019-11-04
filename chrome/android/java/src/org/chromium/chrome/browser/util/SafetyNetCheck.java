@@ -31,6 +31,7 @@ import org.chromium.base.annotations.CalledByNative;
 import org.chromium.base.annotations.JNINamespace;
 import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
+import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.ConfigAPIs;
 
 /**
@@ -69,7 +70,7 @@ public class SafetyNetCheck {
     public boolean clientAttestation(String nonceData) {
         boolean res = false;
         try {
-            Activity activity = ApplicationStatus.getLastTrackedFocusedActivity();
+            Activity activity = (Activity)BraveRewardsHelper.getChromeTabbedActivity();
             if (activity == null) return false;
             if (GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(activity) == ConnectionResult.SUCCESS) {
                 SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
@@ -83,7 +84,7 @@ public class SafetyNetCheck {
                 }
                 byte[] nonce = nonceData.isEmpty() ? getRequestNonce() : nonceData.getBytes();
                 SafetyNetClient client = SafetyNet.getClient(activity);
-                Task<SafetyNetApi.AttestationResponse> attestTask = client.attest(nonce, ConfigAPIs.GS_API_KEY);                
+                Task<SafetyNetApi.AttestationResponse> attestTask = client.attest(nonce, ConfigAPIs.GS_API_KEY);
                 attestTask.addOnSuccessListener(activity,
                     new OnSuccessListener<SafetyNetApi.AttestationResponse>() {
                         @Override
