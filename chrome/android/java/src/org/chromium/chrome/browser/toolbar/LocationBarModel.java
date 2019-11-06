@@ -410,21 +410,21 @@ public class LocationBarModel implements ToolbarDataProvider, ToolbarCommonPrope
                                 && (!SearchEngineLogoUtils.shouldShowSearchEngineLogo(isIncognito())
                                         || getNewTabPageForCurrentTab() != null)
                         ? 0
-                        : R.drawable.omnibox_info;
+                        : R.drawable.omnibox_info_red;
             case ConnectionSecurityLevel.WARNING:
                 if (mNativeLocationBarModelAndroid == 0) {
-                    return R.drawable.omnibox_info;
+                    return R.drawable.omnibox_info_red;
                 }
                 if (SecurityStateModel.shouldShowDangerTriangleForWarningLevel()) {
-                    return R.drawable.omnibox_not_secure_warning;
+                    return R.drawable.omnibox_https_invalid_red;
                 }
-                return R.drawable.omnibox_info;
+                return R.drawable.omnibox_info_red;
             case ConnectionSecurityLevel.DANGEROUS:
-                return R.drawable.omnibox_not_secure_warning;
+                return R.drawable.omnibox_https_invalid_red;
             case ConnectionSecurityLevel.SECURE_WITH_POLICY_INSTALLED_CERT:
             case ConnectionSecurityLevel.SECURE:
             case ConnectionSecurityLevel.EV_SECURE:
-                return R.drawable.omnibox_https_valid;
+                return R.drawable.omnibox_https_valid_new;
             default:
                 assert false;
         }
