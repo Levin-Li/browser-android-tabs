@@ -710,7 +710,9 @@ public class ToolbarTablet extends ToolbarLayout
             if (mRewardsLayout != null) {
                 mRewardsLayout.setVisibility(View.GONE);
             }
-        } else if (ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) &&
+        } else if (isNativeLibraryReady() &&
+                ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) &&
+                !PrefServiceBridge.getInstance().isSafetynetCheckFailed() &&
                 !sharedPreferences.getBoolean(PREF_HIDE_BRAVE_ICON, false)) {
             if (mRewardsLayout != null) {
                 mRewardsLayout.setVisibility(View.VISIBLE);
