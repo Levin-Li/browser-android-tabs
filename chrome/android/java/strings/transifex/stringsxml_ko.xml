@@ -3,10 +3,10 @@
     <string name="brave_settings_title">다음 사이트에 대한 Brave shield 설정</string>
     <string name="brave_shields_down">내리기</string>
     <string name="brave_shields_up">올리기</string>
-    <string name="brave_shields_ads_trackers">차단된 광고 및 개인정보 추적</string>
+    <string name="brave_shields_ads_trackers">광고 및 트래커가 차단됐습니다</string>
     <string name="brave_shields_https_upgrades">HTTPS 업그레이드</string>
     <string name="brave_shields_scripts_blocked">차단된 스크립트</string>
-    <string name="brave_shields_ads_tracking_switch">광고 및 개인정보 추적 차단</string>
+    <string name="brave_shields_ads_tracking_switch">광고 및 트래킹 차단</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS 우선 사용</string>
     <string name="brave_shields_blocks_scripts_switch">스크립트 차단</string>
     <string name="accessibility_toolbar_btn_brave_shields">Brave Shields 사용 / 사용않함</string>
@@ -39,7 +39,7 @@
     <string name="sync_requires_correct_time">이 컴퓨터의 시간 또는 시간대가 잘못 설정되어 있을 가능성이 있습니다. 시간 설정을 확인해주세요</string>
 
     <string name="brave_stats_text_ads">광고 및 트래커
-차단됨</string>
+차단</string>
     <string name="brave_stats_text_https">HTTPS
 업그레이드</string>
     <string name="brave_stats_text_time">예상 시간
@@ -151,18 +151,21 @@
 
     <string name="brave_ui_welcome_header_two">인터넷의 그 너머를
 경험해 보십시오.</string>
-    <string name="brave_ui_welcome_desc_two">개인 설정에 따른 광고를 볼 수 있는
-토큰을 획득할 수 있습니다.</string>
+    <string name="brave_ui_welcome_desc_two">이제 개인 정보 보호 광고를 시청하면 %1$ss을 획득할 수 있습니다. </string>
     <string name="brave_ui_welcome_button_text_two">Rewards 가입</string>
     <string name="brave_ui_welcome_footer_text_two">자세히 알아보기</string>
     <string name="brave_ui_rewards_creating_text">지갑 생성</string>
     <string name="brave_ui_your_wallet">나의 지갑</string>
+    <string name="brave_ui_your_balance">잔액</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT 포인트</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">미화(USD)</string>
     <string name="brave_rewards_local_panel_add_funds">자금 추가</string>
     <string name="brave_ui_settings">설정</string>
     <string name="brave_ui_rewards_summary">Reward 요약</string>
-    <string name="brave_ui_site_banner_welcome">관심을 가져 주셔서 감사합니다!</string>
+    <string name="brave_ui_site_banner_welcome">환영합니다!</string>
     <string name="brave_ui_rewards_banner_text1">팁을 전송하여 이 사이트를 지원할 수 있습니다. 이는 훌륭한 콘텐츠를 만든 작업자에게 감사를 표시하는 방법입니다. 인증된 콘텐츠 작성자들은 매월 첫째 주에 팁을 지불받습니다.</string>
     <string name="brave_ui_rewards_banner_text2">원하시면 해당 사이트를 지속적으로 지원하도록 월별 팁을 일정으로 만들 수 있습니다.</string>
     <string name="brave_ui_donation_amount">팁 금액</string>
@@ -170,7 +173,7 @@
     <string name="brave_ui_make_monthly">월별 일정으로 만들기</string>
     <string name="brave_ui_send_tip">내 팁 전송</string>
     <string name="brave_ui_do_monthly">월별 팁으로 설정</string>
-    <string name="brave_ui_not_enough_tokens">토큰이 충분하지 않음</string>
+    <string name="brave_ui_not_enough_tokens"><ph name=\"TOKEN\">%1$s<ex>토큰</ex></ph>이 충분하지 않습니다</string>
     <string name="brave_ui_site_banner_notice_text">알림: 이 작성자는 아직 Brave 사용자로부터 기여를 받도록 등록된 상태가 아닙니다. 해당 사용자가 인증하거나 90일이 지나갈 때까지 계속 기여를 시도합니다.</string>
     <string name="brave_ui_please">부탁합니다.</string>
     <string name="brave_ui_add_funds">자금 추가</string>
@@ -195,9 +198,10 @@
     <string name="brave_ui_no_activity">이번 달에 아직 활동이
 없습니다...</string>
     <string name="brave_ui_token_grant_claimed">토큰 승인 요청됨</string>
+    <string name="brave_ui_point_grant_claimed">포인트 보조금 청구 완료</string>
     <string name="brave_ui_earnings_ads">광고에서 벌기</string>
     <string name="brave_ui_rewards_contribute">자동 기여</string>
-    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT를 기여했습니다.</string>
+    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>를 기부하셨습니다.</string>
     <string name="brave_ui_one_time_donation">1회성 팁</string>
     <string name="brave_ui_recurring_donation">월별 팁</string>
     <string name="brave_ui_verified_publisher">Brave 인증 게시자</string>
@@ -206,18 +210,18 @@
         전송하신 모든 팁은 당사자가 인증할 때까지 지갑에 남아있게 됩니다.</string>
     <string name="brave_ui_on_youtube">YouTube에서</string>
     <string name="brave_ui_on_twitch">Twitch에서</string>
-    <string name="brave_ui_new_grant">사용할 수 있는 무료 토큰 승인이 있습니다.</string>
+    <string name="brave_ui_new_grant">무료 <ph name=\"TOKEN\">%1$s<ex>토큰</ex></ph> 보조금을 사용할 수 있습니다.</string>
     <string name="brave_ui_new_token_grant">무료 토큰 승인</string>
+    <string name="brave_ui_new_point_grant">무료 포인트 보조금</string>
     <string name="brave_ui_claim">요청</string>
-    <string name="brave_ui_reserved_amount_text">귀하가 <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT를 주도록지명한 작성자는 아직
-기여를 받도록 등록된 상태가 아닙니다. 해당 사용자가 인증하거나 90일이 지나갈 때까지
-브라우저는 계속 기여를 시도합니다.</string>
+    <string name="brave_ui_reserved_amount_text">아직 기부금을 받을 수 있게 가입하지 않은 제작자를 위해 <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>를 지정하셨습니다. 이들이 확인할 때까지, 아니면 90일이 지날 때까지, 귀하의 브라우저가 계속 기부하려고 노력할 것입니다.    </string>
     <string name="brave_ui_notification_desc_no_funds">부족한 자금으로 인해 자동 기고 및 월간 팁에 대한 예정된 월별 결제를 완료할 수 없습니다. 30일 후에 다시 시도하겠습니다.</string>
     <string name="brave_ui_notification_desc_tip_error">팁을 처리하는 도중 문제가 발생했습니다. 다시 시도해주세요.</string>
     <string name="brave_ui_notification_desc_contr_error">귀하의 기여를 처리하는 도중 문제가 발생했습니다.</string>
     <string name="brave_rewards_local_uh_oh">이런!</string>
     <string name="brave_rewards_local_server_not_responding">Brave Rewards 서버가 응답하지 않습니다. 가능한 빨리 수정하겠습니다.</string>
     <string name="brave_ui_grants">승인</string>
+    <string name="brave_ui_details">세부 정보</string>
     <string name="brave_ui_expires_on"><ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph>에 만료</string>
     <string name="brave_ui_insufficient_funds_msg">자금 부족</string>
     <string name="brave_ui_insufficient_funds_desc">귀하의 Brave Rewards 계정이 예금을 기다리고 있습니다.</string>
@@ -280,21 +284,17 @@
 
     <string name="block">차단</string>
     <string name="brave_shields_onboarding_title">Brave 실드</string>
-    <string name="brave_shields_onboarding_text">프라이버시 침해 광고 및 추적 프로그램을 통해 웹 환경을 추적받지 않으면서 이용할 수 있습니다.</string>
+    <string name="brave_shields_onboarding_text">개인 정보 침해 광고 및 트래커를 차단하여 추적 당하지 않고 웹을 검색할 수 있습니다. </string>
 
-    <string name="earn_tokens">토큰 적립</string>
+    <string name="earn_tokens"><ph name=\"TOKEN\">%1$s<ex>토큰</ex></ph>을 획득하세요</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">프라이버시를 존중하는 광고를 보는 것으로 당신이 좋아하는 사이트와 크리에이터를 지원할 수 있습니다.</string>
     <string name="brave_rewards_onboarding_text2">프라이버시를 존중하는 광고를 보는 것.</string>
 
-    <string name="terms_title">Brave Rewards 사용 약관에 동의</string>
-    <string name="terms_text">Brave Rewards 에 동의합니다</string>
+    <string name="terms_text">리워드를 켜면 다음에 동의하시는 겁니다:</string>
     <string name="terms_of_service">서비스 약관</string>
 
-    <string name="agree">동의</string>
-    <string name="join">들어가기</string>
-
-     <string name="start_browsing">브라우징 시작</string>
+    <string name="start_browsing">브라우징 시작</string>
     <string name="i_didnt_see">광고를 보지 못했습니다</string>
 
     <string name="brave_ads_onboarding_title">Brave 는 첫 광고를 보여줍니다</string>
@@ -306,7 +306,6 @@
     <string name="turn_on">켜기</string>
 
     <string name="no_thanks">괜찮습니다</string>
-    <string name="do_not_agree">동의하지 않습니다</string>
 
     <string name="prefs_welcome_tour">웰컴 투어</string>
     <string name="welcome_tour_dialog_text">둘러보기를 다시 시작해도 기존 설정에는 영향을 미치지 않습니다.</string>
@@ -315,5 +314,13 @@
     <string name="clear_download_title">다운로드 기록 </string>
 
     <string name="settings_exit">설정 종료</string>
+
+    <string name="brave_license_text">Brave 라이선스</string>
+    <string name="token">토큰</string>
+    <string name="point">포인트</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

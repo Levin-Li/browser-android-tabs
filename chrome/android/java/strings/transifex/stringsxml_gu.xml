@@ -1,3 +1,328 @@
 <resources>
 
-    </resources>
+    <string name="brave_settings_title">ના માટે Brave સાઇટ શિલ્ડ સેટિંગ્સ</string>
+    <string name="brave_shields_down">નીચે</string>
+    <string name="brave_shields_up">ઉપર</string>
+    <string name="brave_shields_ads_trackers">એડ્સ &amp; ટ્રેકર્સ બ્લોક કરાયેલ છે</string>
+    <string name="brave_shields_https_upgrades">HTTPS અપગ્રેડ્સ</string>
+    <string name="brave_shields_scripts_blocked">સ્ક્રીપ્ટ્સ બ્લોક કરાયેલ છે</string>
+    <string name="brave_shields_ads_tracking_switch">બ્લોક એડ્સ &amp; ટ્રેકીંગ</string>
+    <string name="brave_shields_https_everywhere_switch">HTTPS સર્વત્ર</string>
+    <string name="brave_shields_blocks_scripts_switch">સ્ક્રીપ્ટ્સ બ્લૉક કરો</string>
+    <string name="accessibility_toolbar_btn_brave_shields">Brave શિલ્ડ્સને સક્રિય/નિષ્ક્રિય કરો</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Brave પુરસ્કારોને મેનેજ કરો</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">3 જા પક્ષની કૂકીઝ બ્લોક કરો</string>
+
+    <string name="httpse_summary">શક્ય હોય ત્યારે HTTP ને બદલે HTTPS નો ઉપયોગ કરીને સમર્થિત સાઇટ્સ ખોલે છે</string>
+    <string name="ad_block_title">એડ બ્લોક</string>
+    <string name="ad_block_summary">એડ્સ ને લોડ થતી અટકાવે છે</string>
+
+    <string name="fingerprinting_protection_title">ફિંગરપ્રિન્ટિંગ સંરક્ષણ</string>
+    <string name="fingerprinting_protection_summary">બ્રાઉઝરને ફિંગરપ્રિન્ટિંગથી રોકે છે</string>
+    <string name="brave_shields_fingerprints_blocked">ફિંગરપ્રિંટિંગ પદ્ધતિઓ બ્લોક કરાયેલ છે</string>
+    <string name="brave_shields_block_fingerprints_switch">ફિંગરપ્રિન્ટિંગ સંરક્ષણ</string>
+
+    <string name="ad_block_regional_title">ક્ષેત્રિય એડ બ્લોક</string>
+    <string name="ad_block_regional_summary">ક્ષેત્રિય એડ્સને લોડ થતી અટકાવે છે</string>
+
+    <string name="ad_block_regional_summary_no_list">તમારા ક્રિયાસ્થળ માટે કોઈ વધારાની સૂચિ ઉપલબ્ધ નથી</string>
+
+    <string name="menu_exit">બહાર નીકળો</string>
+
+    <string name="brave_sync">Brave સિંક (બીટા)</string>
+    <string name="sync_settings_add_device_name_title">ઉપકરણનું નામ ઉમેરો</string>
+    <string name="sync_settings_add_device_name_label">આ ઉપકરણ માટે એક વૈકલ્પિક નામ દાખલ કરો</string>
+    <string name="sync_example_device_name">એંડરોઈડ ડિવાઇસ</string>
+    <string name="enter_code_words_sync">કોડ વર્ડ્સ દાખલ કરો</string>
+    <string name="sync_device">ઉપકરણ સિંક કરો</string>
+    <string name="sync_device_failure">સિંક સેટ અપ ન થયું</string>
+    <string name="sync_requires_correct_time">તમારા કમ્પ્યુટરની ક્લોક ખોટા સમય પર અથવા ખોટા ટાઇમ-ઝોનમાં સેટ થઈ હોઈ શકે છે.  તમારાં ક્લોક સેટિંગ્સ ચકાસો</string>
+
+    <string name="brave_stats_text_ads">એડ્સ &amp; ટ્રેકર્સ
+બ્લોક કરાયેલ છે</string>
+    <string name="brave_stats_text_https">HTTPS
+અપગ્રેડ્સ</string>
+    <string name="brave_stats_text_time">Est. બચેલો
+સમય</string>
+
+    <string name="send_metrics_title">મેટ્રિક્સ મોકલો</string>
+
+    <string name="desktop_mode_title">ડેસ્કટૉપ મોડ</string>
+    <string name="website_settings_category_desktop_view_enabled_summary">સાઇટ્સનું ડેસ્કટૉપ સંસ્કરણ પસંદ કરો</string>
+    <string name="website_settings_category_desktop_view_disabled_summary">સાઇટ્સનું મોબાઇલ સંસ્કરણ પસંદ કરો</string>
+    <string name="website_settings_category_desktop_view_enabled">નવા ટેબ્સ માટે ડેસ્કટોપ વ્યૂ સક્ષમ કરો</string>
+    <string name="website_settings_category_desktop_view_disabled">નવા ટેબ્સ માટે સાઇટ્સના મોબાઇલ સંસ્કરણોનો ઉપયોગ કરો (ભલામણ કરેલ)</string>
+
+    <string name="brave_shields_first_group_title">મોનિટર બ્લોક કરવું</string>
+    <string name="brave_shields_second_group_title">વ્યક્તિગત નિયંત્રણો</string>
+    <string name="brave_shields">શિલ્ડ્સ</string>
+    <string name="brave_shields_ads_and_trackers">એડ્સ &amp; ટ્રેકર્સ</string>
+    <string name="brave_shields_fingerprint_methods">ફિંગરપ્રિન્ટ પદ્ધતિઓ</string>
+    <string name="brave_shields_block_phishing_switch">બ્લોક ફિશીંગ</string>
+
+    <string name="play_video_in_background_title">બેકગ્રાઉંડ વિડિઓ પ્લેબેક</string>
+    <string name="website_settings_category_play_video_in_background_enabled_summary">સક્ષમ</string>
+    <string name="website_settings_category_play_video_in_background_disabled_summary">અક્ષમ કરેલ</string>
+    <string name="website_settings_category_play_video_in_background_enabled">પ્રાયોગિક. જ્યારે ટેબ સક્રિય ન હોય અથવા ડિવાઇસ સ્ક્રીન બંધ હોય ત્યારે પૃષ્ઠભૂમિમાં વિડિઓમાંથી ઓડિઓ ચલાવવાનું સક્ષમ કરે છે. જો આ સુવિધા કાર્યરત ન હોય તો ડેસ્કટોપ મોડ પર સ્વિચ કરવાનો પ્રયાસ કરો.</string>
+    <string name="settings_require_relaunch_notice">આગલા વખતે જ્યારે તમે Braveને ફરીથી લોંચ કરો ત્યારે તમારા ફેરફારો પ્રભાવમાં આવશે</string>
+    <string name="settings_require_relaunch_now">હમણાં જ રિલોંચ કરો</string>
+    <string name="settings_require_relaunch_later">પછીથી</string>
+
+    <string name="play_yt_video_in_browser_title">Braveમાં વિડિઓ પ્લેબેક</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled_summary">સક્ષમ</string>
+    <string name="website_settings_category_play_yt_video_in_browser_disabled_summary">અક્ષમ કરેલ</string>
+    <string name="website_settings_category_play_yt_video_in_browser_enabled">જો સક્ષમ કરેલ હોય, તો વિડિઓ અનુરૂપ એપ્લિકેશનને બદલે Braveમાં ચલાવવામાં આવશે</string>
+
+    <string name="close_tabs_on_exit_title">બહાર નીકળવા પર ટૅબ્સ બંધ કરો</string>
+    <string name="close_tabs_on_exit_summary">બ્રાઉઝિંગ સત્રો વચ્ચે ટૅબ્સ ચાલુ રાખશો નહીં</string>
+
+    <string name="open_pages_in_custom_tabs_title">કસ્ટમ ટૅબ્સમાં ટૅબ્સને ખોલો</string>
+    <string name="open_pages_in_custom_tabs_summary">કસ્ટમ ટેબ્સમાં ટેબ્સ ખોલવાની ઓફર</string>
+
+    <string name="ddg_offer_title">DuckDuckGo ની સાથે ખાનગી સર્ચ કરશો?</string>
+    <string name="ddg_offer_text">જ્યારે તમે આ ખાનગી ટૅબમાં હશો, ત્યારે ખાનગી શોધ સાથે, Brave તમારી શોધનો જવાબ આપવા માટે DuckDuckGoનો ઉપયોગ કરશે. DuckDuckGo એક સર્ચ એંજિન છે જે તમારા શોધ ઇતિહાસને ટ્રેક કરતું નથી, તમને ખાનગી રીતે શોધવામાં સક્ષમ કરે છે.</string>
+    <string name="ddg_offer_positive">હા</string>
+    <string name="ddg_offer_negative">ના</string>
+    <string name="ddg_offer_link">DuckDuckGo સાથેની ખાનગી શોધ વિશે જાણો</string>
+    <string name="prefs_standard_search_engine">સ્ટાન્ડર્ડ ટૅબ</string>
+    <string name="prefs_private_search_engine">ખાનગી ટૅબ</string>
+
+    <string name="brave_open_in_private_tab">ખાનગી ટૅબમાં ખોલો</string>
+    <string name="brave_close_all_private_tabs">ખાનગી ટેબ્સ બંધ કરો</string>
+    <string name="brave_new_private_tab">નવું ખાનગી ટેબ</string>
+    <string name="brave_new_tab_private_header">આ એક ખાનગી ટૅબ છે</string>
+    <string name="brave_new_tab_private_message">તેમ છતાં, તમે ખાનગી ટેબ્સમાં મુલાકાત લો છો તે સાઇટ્સ સ્થાનિક રૂપે સાચવવામાં આવી નથી, તે તમને તમારા ISP, તમારા એમ્પ્લોયર અથવા તમે મુલાકાત લઈ રહ્યાં છો તે સાઇટ્સ માટે અનામી અથવા અદ્રશ્ય બનાવતા નથી.</string>
+    <string name="update_notification_title">Brave સુધારો</string>
+    <string name="update_notification_text">નવું Brave બ્રાઉઝર 22% ઝડપી છે</string>
+    <string name="prefs_sync">સિંક (બીટા)</string>
+    <string name="brave_ads_existing_user_offer_title">Brave એડ્સ અહીં છે!</string>
+    <string name="brave_ads_new_user_offer_title">Brave પુરસ્કારોને સક્ષમ કરો</string>
+    <string name="brave_ads_offer_text">Brave પુરસ્કારોમાં ગોપનીયતા સાચવવાની એડ્સ જોવા માટે મૂળભૂત ધ્યાન ટોકન કમાઓ.</string>
+    <string name="brave_ads_offer_positive">હું અંદર છું!</string>
+    <string name="brave_sync_description_page_1_part_1">Brave સિંક તમને તમારા વિવિધ ઉપકરણો પર તમારા Brave બ્રાઉઝર્સ વચ્ચે બુકમાર્ક્સ ડેટાને ખાનગી રીતે સિંક કરવાની મંજૂરી આપે છે.</string>
+    <string name="brave_sync_description_page_1_part_2">ફક્ત તમારી સિંક ચેઇનમાંથી કોડને સ્કેન કરો કે જે તમે બીજા ઉપકરણ પર બનાવ્યો છે. અથવા નવી સિંક ચેન શરૂ કરો.</string>
+    <string name="brave_sync_scan_chain_code">સિંક કોડ સ્કેન કરો અથવા દાખલ કરો</string>
+    <string name="brave_sync_start_new_chain">નવી સિંક ચેન શરૂ કરો</string>
+    <string name="brave_sync_qrcode_message_v2">અસ્તિત્વમાં સમન્વયિત ઉપકરણનો ઉપયોગ કરીને, Brave સેટિંગ્સ ખોલો અને સેટિંગ્સ > સિંક પર નેવિગેટ કરો. \"ઉપકરણ ઉમેરો\" પસંદ કરો અને QR કોડ સ્ક્રીન પર પ્રદર્શિત સ્કેન કરે છે.</string>
+    <string name="brave_sync_codewords_message">અસ્તિત્વમાં સમન્વયિત ઉપકરણનો ઉપયોગ કરીને, Brave સેટિંગ્સ ખોલો અને સેટિંગ્સ > સિંક પર નેવિગેટ કરો. \"ઉપકરણ ઉમેરો\" પસંદ કરો અને પછી \"તેના બદલે કોડ શબ્દો દર્શાવો\" પસંદ કરો.</string>
+    <string name="brave_sync_btn_mobile">મોબાઇલ ઉપકરણ ઉમેરો</string>
+    <string name="brave_sync_btn_laptop">કમ્પ્યુટર ઉમેરો</string>
+    <string name="brave_sync_scan_sync_code">આ સિંક કોડને સ્કેન કરો</string>
+    <string name="brave_sync_add_mobile_device_text_part_1">બીજો ફોન અથવા ટેબ્લેટનો ઉપયોગ કરીને, Brave સેટિંગ્સ > સિંક > સ્કેન પર નેવિગેટ કરો.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">તમારા મોબાઇલ ઉપકરણ પર, સેટિંગ્સ પેનલમાં Brave સિંક પર નેવિગેટ કરો અને \"સ્કેન સિંક કોડ\" બટનને ક્લિક કરો. નીચે આપેલા QR કોડને સ્કેન કરવા માટે તમારા કેમેરાનો ઉપયોગ કરો.</string>
+    <string name="brave_sync_btn_done">પૂર્ણ</string>
+    <string name="brave_sync_tabs_text">ટૅબ્સ</string>
+    <string name="brave_sync_history_text">ઇતિહાસ</string>
+    <string name="brave_sync_autofill_passwords_text">ઓટોફિલ/પાસવર્ડ્સ</string>
+    <string name="brave_sync_payment_settings_text">Brave ચુકવણી સેટિંગ્સ</string>
+    <string name="brave_sync_settings_title">આ ઉપકરણ પર સિન્ક કરો</string>
+    <string name="brave_sync_settings_description">સેટિંગ્સ બદલવાનું ફક્ત આ ડેટાને અસર કરશે જે આ ઉપકરણ અન્ય લોકો સાથે શેર કરે છે.</string>
+    <string name="brave_sync_devices_title">ચેઇન પરના અન્ય ઉપકરણો</string>
+    <string name="brave_sync_loading_devices_title">ઉપકરણ લોડ કરી રહ્યું છે...</string>
+    <string name="brave_sync_add_device_text">અન્ય ઉપકરણ ઉમેરો</string>
+    <string name="brave_sync_remove_device_text">આ ઉપકરણને દૂર કરો</string>
+    <string name="brave_sync_code_words_title">જોડી બનાવો</string>
+    <string name="brave_sync_add_laptop_text_title">સિંક ચેન કોડ દાખલ કરો</string>
+    <string name="brave_sync_add_laptop_text_part_1">તમારા કમ્પ્યુટર પર, Brave સેટિંગ્સ > સિંક પર નેવિગેટ કરો. \"એક સિંક ચેઇન કોડ દાખલ કરો\" પસંદ કરો.</string>
+    <string name="brave_sync_add_laptop_text_part_2">જગ્યાઓ સહિત ઉપરના કોડ શબ્દો દાખલ કરો.</string>
+    <string name="brave_sync_delete_device">શું તમે ખરેખર ઉપકરણ ‘<ph name=\"DEVICE_NAME\">%1$s</ph>’ ને કાઢી નાખવા માંગો છો?</string>
+    <string name="brave_sync_delete_sent">કાઢી નાખવાની વિનંતિ મોકલવામાં આવી છે. ઉપકરણ ટૂંક સમયમાં દૂર કરવામાં આવશે.</string>
+    <string name="brave_sync_loading_data_title">ડેટા લોડ કરી રહ્યું છે...</string>
+    <string name="brave_sync_time_out_message">કંઈક ખોટું થયું, એવું લાગે છે કે તમારી વિનંતી સમય સમાપ્ત થઈ ગઈ છે.</string>
+    <string name="brave_sync_use_camera_text">હું મારો કેમેરો વાપરીશ...</string>
+    <string name="brave_sync_confirm_code_words_text">પુષ્ટિ કરો</string>
+    <string name="brave_sync_word_count_text">શબ્દ ગણતરી: <ph name=\"WORD_COUNT\">%1$d</ph></string>
+    <string name="brave_sync_word_count_error">શબ્દો ખોટો નંબર</string>
+    <string name="brave_sync_qr_code">QR કોડ</string>
+    <string name="brave_sync_code_words">કોડ શબ્દો</string>
+    <string name="brave_sync_copy_button_text">ક્લિપબોર્ડ પર કોપિ કરો</string>
+    <string name="brave_sync_copied_text">ક્લિપબોર્ડ પર કૉપિ</string>
+    <string name="brave_sync_this_device_text">(આ ઉપકરણ)</string>
+
+    <string name="brave_already_set_as_default_browser">Brave પહેલેથી જ સેટ છે
+તમારા ડિફોલ્ટ બ્રાઉઝર તરીકે.</string>
+    <string name="brave_default_browser_go_to_settings">તમે પહેલેથી જ ડિફોલ્ટ બ્રાઉઝર સેટ કર્યું છે.
+તમે તમારી એપ્લિકેશન સેટિંગ્સમાં ડિફોલ્ટ બ્રાઉઝર બદલી શકો છો.</string>
+    <string name="brave_default_browser_notification_body">બેટરી સાચવો અને વેબ પૃષ્ઠોને ઝડપથી લોડ કરો. Brave ને તમારું ડિફૉલ્ટ બ્રાઉઝર બનાવો. Brave મેનૂ ટેપમાંથી \"ડિફોલ્ટ બ્રાઉઝર તરીકે સેટ કરો\"</string>
+    <string name="brave_set_default_browser">ડિફોલ્ટ બ્રાઉઝર તરીકે સેટ કરો</string>
+    <string name="brave_set_default_browser_dialog_text">સૂચિમાંથી Brave પસંદ કરો અને \"હંમેશાં\" ને ટેપ કરો.</string>
+    <string name="brave_default_browser_existing_notification_body">Braveને તમારું ડિફોલ્ટ વેબ બ્રાઉઝર બનાવો
+બેટરી સાચવો અને વેબ પેઇજને ઝડપી લોડ કરો</string>
+
+    <string name="brave_ui_welcome_header_two">આગલા ઇન્ટરનેટનો
+અનુભવ કરવા માટે તૈયાર થાઓ.</string>
+    <string name="brave_ui_welcome_desc_two">તમે હવે ગોપનીયતા-માન આપતી એડ્સ
+જોવા માટે %1$s કમાવી શકો છો.</string>
+    <string name="brave_ui_welcome_button_text_two">પુરસ્કારોમાં જોડાઓ</string>
+    <string name="brave_ui_welcome_footer_text_two">વધુ શીખો</string>
+    <string name="brave_ui_rewards_creating_text">વૉલેટ બનાવી રહ્યા છીએ</string>
+    <string name="brave_ui_your_wallet">તમારું વૉલેટ</string>
+    <string name="brave_ui_your_balance">તમારું બેલેન્સ</string>
+    <string name="brave_ui_bat_text">BAT</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT પોઇંટ્સ</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
+    <string name="brave_rewards_local_panel_add_funds">ફંડ્સ ઉમેરો</string>
+    <string name="brave_ui_settings">સેટિંગ્સ</string>
+    <string name="brave_ui_rewards_summary">પુરસ્કારોનો સારાંશ</string>
+    <string name="brave_ui_site_banner_welcome">સ્વાગત છે!</string>
+    <string name="brave_ui_rewards_banner_text1">તમે ટીપ મોકલીને આ સાઇટને ટેકો આપી શકો છો. તે મહાન સામગ્રી બનાવવા માટે તેમને આભાર માનવાનો એક માર્ગ છે. ચકાસાયેલ સામગ્રી નિર્માતાઓને દરેક કેલેન્ડર મહિનાના પ્રથમ અઠવાડિયા દરમિયાન તેમની ટીપ્સ માટે ચૂકવણી કરવામાં આવે છે.</string>
+    <string name="brave_ui_rewards_banner_text2">જો તમને ગમે, તો તમે સતત આધારે આ સાઇટને ટેકો આપવા માટે માસિક ટીપ્સનું શેડ્યૂલ કરી શકો છો.</string>
+    <string name="brave_ui_donation_amount">ટીપની રકમ</string>
+    <string name="brave_ui_wallet_balance">વોલેટ બેલેન્સ:</string>
+    <string name="brave_ui_make_monthly">આને માસિક બનાવો</string>
+    <string name="brave_ui_send_tip">મારી ટીપ મોકલો</string>
+    <string name="brave_ui_do_monthly">માસિક ટીપ સેટ કરો</string>
+    <string name="brave_ui_not_enough_tokens">પૂરતા <ph name=\"TOKEN\">%1$s<ex>ટોકન્સ નથી</ex></ph></string>
+    <string name="brave_ui_site_banner_notice_text">નોંધ: આ સર્જકે Brave વપરાશકર્તાઓ તરફથી યોગદાન પ્રાપ્ત કરવા માટે હજી સુધી સાઇન અપ કર્યું નથી. જ્યાં સુધી તેઓ ચકાસે નહીં ત્યાં સુધી અથવા 90 દિવસ પસાર ન થાય ત્યાં સુધી અમે યોગદાન આપવાનો પ્રયત્ન કરીશું.</string>
+    <string name="brave_ui_please">કૃપા કરીને</string>
+    <string name="brave_ui_add_funds">ફંડ્સ ઉમેરો</string>
+    <string name="brave_ui_thank_you">આપનો આભાર!</string>
+    <string name="brave_ui_error_init_wallet">કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.</string>
+    <string name="brave_ui_month_jan">જાન્યુઆરી</string>
+    <string name="brave_ui_month_feb">ફેબ્રુઆરી</string>
+    <string name="brave_ui_month_mar">માર્ચ</string>
+    <string name="brave_ui_month_apr">એપ્રિલ</string>
+    <string name="brave_ui_month_may">મે</string>
+    <string name="brave_ui_month_jun">જુન</string>
+    <string name="brave_ui_month_jul">જુલાઈ</string>
+    <string name="brave_ui_month_aug">ઓગસ્ટ</string>
+    <string name="brave_ui_month_sep">સપ્ટેમ્બર</string>
+    <string name="brave_ui_month_oct">ઓક્ટોબર</string>
+    <string name="brave_ui_month_nov">નવેમ્બર</string>
+    <string name="brave_ui_month_dec">ડિસેમ્બર</string>
+    <string name="brave_ui_month_year"><ph name=\"MONTH\">%1$s<ex>ડિસેમ્બર</ex></ph> <ph name=\"YEAR\">%2$s<ex>2018</ex></ph></string>
+    <string name="brave_ui_rewards_contribute_attention">ધ્યાન</string>
+    <string name="brave_ui_include_in_auto">સ્વત: યોગદાનમાં શામેલ કરો</string>
+    <string name="brave_ui_donate_now">એક ટિપ મોકલો...</string>
+    <string name="brave_ui_no_activity">આ મહિને હજી સુધી કોઈ
+પ્રવૃત્તિઓ નથી...</string>
+    <string name="brave_ui_token_grant_claimed">દાવો કરેલ ટોકન ગ્રાન્ટ્સ</string>
+    <string name="brave_ui_point_grant_claimed">પોઇન્ટ ગ્રાન્ટ્સ દાવો કરે છે</string>
+    <string name="brave_ui_earnings_ads">એડ્સથી કમાણી</string>
+    <string name="brave_ui_rewards_contribute">સ્વતઃ યોગદાન</string>
+    <string name="brave_ui_rewards_contribute_description">તમે <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> ફાળો આપ્યો છે.</string>
+    <string name="brave_ui_one_time_donation">વન-ટાઇમ ટિપ્સ</string>
+    <string name="brave_ui_recurring_donation">માસિક ટીપ્સ</string>
+    <string name="brave_ui_verified_publisher">Brave ચકાસાયેલ પ્રકાશક</string>
+    <string name="brave_ui_not_verified_publisher">હજી ચકાસી નથી</string>
+    <string name="brave_ui_not_verified_publisher_description">આ સર્જકે Brave વપરાશકર્તાઓ તરફથી યોગદાન પ્રાપ્ત કરવા માટે હજી સુધી સાઇન અપ કર્યું નથી.
+  તમે મોકલેલી કોઈપણ ટીપ્સ તે ચકાસે ત્યાં સુધી તમારા વોલેટમાં રહેશે.</string>
+    <string name="brave_ui_on_youtube">YouTube પર</string>
+    <string name="brave_ui_on_twitch">Twitch પર</string>
+    <string name="brave_ui_new_grant">મફત <ph name=\"TOKEN\">%1$s<ex>ટોકન</ex></ph> ગ્રાન્ટ ઉપલબ્ધ છે.</string>
+    <string name="brave_ui_new_token_grant">નિઃશુલ્ક ટોકન ગ્રાન્ટ</string>
+    <string name="brave_ui_new_point_grant">ફ્રી પોઇન્ટ ગ્રાન્ટ</string>
+    <string name="brave_ui_claim">દાવો</string>
+    <string name="brave_ui_reserved_amount_text">તમે યોગદાન પ્રાપ્ત કરવા માટે હજી સુધી સાઇન અપ ન કરનારા નિર્માતાઓ માટે <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> ને નિયુક્ત
+કર્યું છે. તમારું બ્રાઉઝર તેઓની ચકાસણી કરે ત્યાં સુધી
+અથવા 90 દિવસ પસાર ન થાય ત્યાં સુધી યોગદાન આપવાનો પ્રયત્ન કરશે.</string>
+    <string name="brave_ui_notification_desc_no_funds">અપૂરતા ભંડોળને કારણે ઓટો-ફાળો અને માસિક ટીપ્સ માટે તમારું શેડ્યૂલ થયેલ માસિક ચુકવણી પૂર્ણ થઈ શક્યું નથી. અમે 30 દિવસમાં ફરી પ્રયાસ કરીશું.</string>
+    <string name="brave_ui_notification_desc_tip_error">તમારી ટીપ પર પ્રક્રિયા કરવામાં સમસ્યા આવી, કૃપા કરી ફરીથી પ્રયત્ન કરો.</string>
+    <string name="brave_ui_notification_desc_contr_error">તમારા યોગદાન પર પ્રક્રિયા કરવામાં સમસ્યા આવી.</string>
+    <string name="brave_rewards_local_uh_oh">ઓહ ઓહ!</string>
+    <string name="brave_rewards_local_server_not_responding">Brave વળતરો સર્વર પ્રતિસાદ આપી રહ્યું નથી. અમે શક્ય તેટલી વહેલી તકે આ ફિક્સ કરશે.</string>
+    <string name="brave_ui_grants">ગ્રાંટ્સ</string>
+    <string name="brave_ui_details">વિગતો</string>
+    <string name="brave_ui_expires_on"><ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph> ના રોજ સમાપ્ત થાય છે</string>
+    <string name="brave_ui_insufficient_funds_msg">અપર્યાપ્ત ભંડોળ</string>
+    <string name="brave_ui_insufficient_funds_desc">તમારું Brave પુરસ્કાર ખાતું એક થાપણની રાહ જોઈ રહ્યું છે.</string>
+    <string name="brave_ui_backup_wallet_msg">બેકઅપ વોલેટ</string>
+    <string name="brave_ui_backup_wallet_desc">કૃપા કરીને તમારા Brave વોલેટનો બેકઅપ લો.</string>
+    <string name="brave_ui_brave_rewards">Brave પુરસ્કારો</string>
+    <string name="brave_ui_welcome_back_message">પરત ફરવા પર સ્વાગત છે!</string>
+    <string name="brave_ui_get_rewarded">બ્રાઉઝિંગ માટે પુરસ્કારો મેળવો.</string>
+    <string name="brave_ui_brave_rewards_desc">ગોપનીયતા-માન આપતી એડ્સ જોઈને
+કમાઓ અને તમને ગમતી સામગ્રી નિર્માતાઓને ટેકો
+આપવા માટે તેને આગળ ચૂકવો.</string>
+    <string name="brave_welcome_page_rewards_title">BRAVE પુરસ્કારોને સક્ષમ કરો</string>
+    <string name="brave_ui_first_tip_text">તમારી પ્રથમ માસિક ટિપ આના પર મોકલવામાં આવશે:</string>
+    <string name="brave_ui_tip_text">તમે હમણાં જ એક ટિપ મોકલ્યો છે:</string>
+    <string name="brave_ui_auto_tip_text">તમે આપમેળે એક ટિપ મોકલી રહ્યાં છો:</string>
+    <string name="brave_ui_monthly_text">માસિક</string>
+    <string name="bottom_toolbar_enable">બોટમ ટૂલબારને સક્ષમ કરો</string>
+    <string name="bottom_toolbar_disable">બોટમ ટૂલબારને અક્ષમ કરો</string>
+    <string name="search_or_url">શોધ અથવા URL</string>
+    <string name="accessibility_toolbar_btn_bookmark">બુકમાર્ક બનાવો</string>
+    <string name="brave_ui_donate_monthly">આ સાઇટને માસિક ટીપ આપો</string>
+
+    <string name="brave_rewards_not_available">અમને દિલગીર છે કે એવું લાગે છે કે તમારા ઉપકરણ પર Brave પુરસ્કારો ઉપલબ્ધ નથી</string>
+
+    <string name="prefs_closing_all_tabs_closes_brave_title">બધા ટેબ્સ બંધ કરવાથી Brave બંધ થાય છે</string>
+    <string name="prefs_section_display">પ્રદર્શન</string>
+    <string name="prefs_section_controls">નિયંત્રણો</string>
+    <string name="prefs_appearance">દેખાવ</string>
+    <string name="hide_brave_rewards_icon_title">Brave પુરસ્કારોનું આઇકોન છુપાવો</string>
+    <string name="hide_brave_rewards_icon_description">જ્યારે Brave પુરસ્કારો સક્ષમ ન હોય ત્યારે Brave પુરસ્કારોને ચિહ્નિત કરે છે</string>
+    <string name="show_ads_when_brave_is_not_in_use">Brave ઉપયોગમાં ન હોય ત્યારે એડ્સ બતાવો</string>
+    <string name="reset_brave_rewards_option">Brave રિવોર્ડ્સ ફરીથી સેટ કરો</string>
+    <string name="reset_brave_rewards_option_description">આ તમારા Brave વૉલેટને કાઢી નાખશે અને તમારા બધા Brave પુરસ્કારો ડેટાને ફરીથી સેટ કરશે</string>
+    <string name="reset_brave_rewards_error_title">રીસેટ ભૂલ</string>
+    <string name="reset_brave_rewards_error_description">Brave પુરસ્કારો રીસેટ કરતી વખતે ભૂલ આવી હતી. કૃપા કરીને Braveને ફરીથી લોંચ કરો અને ફરીથી પ્રયાસ કરો</string>
+
+    <string name="brave_sync_add_laptop_text_part_2_new">તમારા લક્ષ્ય કમ્પ્યુટર પર, સેટિંગ્સમાં Brave સિંક પર નેવિગેટ કરો અને \"મારી પાસે સિંક કોડ છે\" બટનને ક્લિક કરો.\nનીચે બતાવેલ સિંક ચેન કોડ શબ્દો દાખલ કરો.</string>
+
+    <string name="brave_sync_official">Brave સિંક</string>
+    <string name="prefs_sync_official">સિંક</string>
+
+    <string name="brave_sync_code_warning">આ કોડને પાસવર્ડની જેમ ગણો અને સાચવો. જો કોઈ તેને મેળવી લે છે, તો તે તમારા સિંક્ડ ડેટાને વાંચી અને તેમાં ફેરફાર કરી શકે છે.</string>
+
+    <string name="notification_category_group_brave_ads">Brave એડ્સ</string>
+    <string name="brave_ads_you_earned">તમે કમાવ્યા છે</string>
+
+    <string name="brave_default_browser_title">Brave વીજળી જેવુ ઝડપી છે</string>
+    <string name="brave_default_browser_body">Brave ને તમારું ડિફૉલ્ટ બ્રાઉઝર બનાવો!</string>
+    <string name="brave_make_default_text">ડિફૉલ્ટ બનાવો</string>
+    <string name="brave_ui_ads_earnings">એડ્સ માંથી કમાયેલ</string>
+    <!-- Onboarding strings -->
+
+    <string name="skip">સ્કીપ</string>
+
+    <string name="search_engine_onboarding">સર્ચ એન્જિન ઓનબોર્ડિંગ</string>
+    <string name="troubleshooting_onboarding">ઓનબોર્ડિંગ મુશ્કેલીનિવારણ</string>
+
+    <string name="welcome_to_brave_browser">Brave બ્રાઉઝર પર આપનું સ્વાગત છે</string>
+    <string name="select_your_default_search_engine">તમારું ડિફોલ્ટ સર્ચ એંજિન પસંદ કરો</string>
+
+    <string name="block">બ્લોક</string>
+    <string name="brave_shields_onboarding_title">Brave શિલ્ડ્સ</string>
+    <string name="brave_shields_onboarding_text">ગોપનીયતા-આક્રમણ એડ્સ &amp; કરનારા ટ્રેકર્સ જેથી તમે વેબની આસપાસ અનુસર્યા વિના બ્રાઉઝ કરી શકો.</string>
+
+    <string name="earn_tokens"><ph name=\"TOKEN\">%1$s<ex>ટોકન્સ</ex></ph> કમાઓ</string>
+    <string name="brave_rewards_onboarding_title">Brave પુરસ્કારો</string>
+    <string name="brave_rewards_onboarding_text">ગોપનીયતાને આદર આપતી એડ્સ જોવા માટે. તમારી મનપસંદ સાઇટ્સ અને નિર્માતાઓને ટેકો આપવા માટે તેનો ઉપયોગ કરો.</string>
+    <string name="brave_rewards_onboarding_text2">ગોપનીયતાને આદર આપતી એડ્સ જોવા માટે.</string>
+
+    <string name="terms_text">પુરસ્કારોને ચાલુ કરીને, તમે આના માટે સંમત થાઓ છો</string>
+    <string name="terms_of_service">સેવાની શરતો</string>
+
+    <string name="start_browsing">બ્રાઉઝ કરવાનું પ્રારંભ કરો</string>
+    <string name="i_didnt_see">મને કોઈ એડ દેખાઈ નથી</string>
+
+    <string name="brave_ads_onboarding_title">Brave તમારી પ્રથમ એડ આમાં બતાવશે</string>
+    <string name="brave_ads_onboarding_text">Brave પુરસ્કારોની એડ્સ જોવા માટે, ખાતરી કરો કે Braveને તમને સૂચનાઓ બતાવવાની મંજૂરી છે.</string>
+
+    <string name="this_is_your_first_ad">આ તમારી પ્રથમ Brave એડ છે. વધુ જાણવા માટે ટેપ કરો.</string>
+
+    <string name="turn_on">ચાલુ કરો</string>
+
+    <string name="no_thanks">ખૂબ ખૂબ આભાર</string>
+
+    <string name="prefs_welcome_tour">સ્વાગત યાત્રા</string>
+    <string name="welcome_tour_dialog_text">સ્વાગત યાત્રાને ફરીથી લૉન્ચ કરવાથી કોઇપણ હાલની સેટિંગ્સને અસર થશે નહીં.</string>
+    <string name="finish">પૂર્ણ</string>
+    
+    <string name="clear_download_title">ડાઉનલોડ ઇતિહાસ</string>
+
+    <string name="settings_exit">સેટિંગ્સમાંથી બહાર નીકળો</string>
+
+    <string name="brave_license_text">Brave લાઈસન્સ</string>
+    <string name="token">ટોકન</string>
+    <string name="point">પોઇન્ટ</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+</resources>

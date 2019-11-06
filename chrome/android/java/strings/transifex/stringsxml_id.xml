@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Pengaturan perisai situs Brave untuk</string>
     <string name="brave_shields_down">Turun</string>
     <string name="brave_shields_up">Naik</string>
-    <string name="brave_shields_ads_trackers">Iklan dan Pelacak Diblokir</string>
+    <string name="brave_shields_ads_trackers">Iklan &amp; Pelacak Diblokir</string>
     <string name="brave_shields_https_upgrades">Peningkatan HTTPS</string>
     <string name="brave_shields_scripts_blocked">Skrip Diblokir</string>
-    <string name="brave_shields_ads_tracking_switch">Blokir Iklan dan Pelacakan</string>
+    <string name="brave_shields_ads_tracking_switch">Blokir Iklan &amp; Pelacakan</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Blokir Skrip</string>
     <string name="accessibility_toolbar_btn_brave_shields">Aktifkan/Nonaktifkan Perisai Brave</string>
@@ -38,7 +38,7 @@
     <string name="sync_device_failure">Sinkronisasi tidak dapat disiapkan</string>
     <string name="sync_requires_correct_time">Jam komputer Anda mungkin diatur ke waktu atau zona waktu yang salah. Periksa pengaturan jam Anda.</string>
 
-    <string name="brave_stats_text_ads">Iklan dan Pelacak
+    <string name="brave_stats_text_ads">Iklan &amp; Pelacak
 Diblokir</string>
     <string name="brave_stats_text_https">Peningkatan
 HTTPS</string>
@@ -56,7 +56,7 @@ Dihemat</string>
     <string name="brave_shields_first_group_title">Layar Pemblokiran</string>
     <string name="brave_shields_second_group_title">Kontrol Individu</string>
     <string name="brave_shields">Perisai</string>
-    <string name="brave_shields_ads_and_trackers">Iklan dan Pelacak</string>
+    <string name="brave_shields_ads_and_trackers">Iklan &amp; Pelacak</string>
     <string name="brave_shields_fingerprint_methods">Metode Sidik Jari</string>
     <string name="brave_shields_block_phishing_switch">Blokir Phishing</string>
 
@@ -154,18 +154,21 @@ Hemat baterai dan muat laman web lebih cepat</string>
 
     <string name="brave_ui_welcome_header_two">Bersiaplah untuk merasakan pengalaman
 menelusuri Internet berikutnya.</string>
-    <string name="brave_ui_welcome_desc_two">Anda kini dapat memperoleh token untuk
-menonton iklan yang tidak mengganggu privasi.</string>
+    <string name="brave_ui_welcome_desc_two">Anda kini bisa mendapatkan %1$ss karena melihat iklan yang menghormati privasi.</string>
     <string name="brave_ui_welcome_button_text_two">BERGABUNGLAH DENGAN BRAVE REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">PELAJARI SELENGKAPNYA</string>
     <string name="brave_ui_rewards_creating_text">Membuat dompet</string>
     <string name="brave_ui_your_wallet">Dompet Anda</string>
+    <string name="brave_ui_your_balance">Saldo Anda</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Poin BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Tambahkan Dana</string>
     <string name="brave_ui_settings">Pengaturan</string>
     <string name="brave_ui_rewards_summary">RINGKASAN BRAVE REWARDS</string>
-    <string name="brave_ui_site_banner_welcome">Terima kasih telah berkunjung!</string>
+    <string name="brave_ui_site_banner_welcome">Selamat Datang!</string>
     <string name="brave_ui_rewards_banner_text1">Anda dapat mendukung situs ini dengan mengirim tip. Tip adalah cara untuk menunjukkan penghargaan kepada situs karena telah membuat konten menarik. Pembuat konten terverifikasi mendapatkan pembayaran untuk tip mereka selama minggu pertama pada setiap bulan kalender.</string>
     <string name="brave_ui_rewards_banner_text2">Jika ingin, Anda dapat menjadwalkan tip bulanan untuk mendukung situs ini secara berkelanjutan.</string>
     <string name="brave_ui_donation_amount">Jumlah tip</string>
@@ -173,7 +176,7 @@ menonton iklan yang tidak mengganggu privasi.</string>
     <string name="brave_ui_make_monthly">Buat tip jadi bulanan</string>
     <string name="brave_ui_send_tip">kirim tip saya</string>
     <string name="brave_ui_do_monthly">atur tip bulanan</string>
-    <string name="brave_ui_not_enough_tokens">token tidak cukup</string>
+    <string name="brave_ui_not_enough_tokens"><ph name=\"TOKEN\">%1$s<ex>token</ex></ph> tidak cukup</string>
     <string name="brave_ui_site_banner_notice_text">CATATAN: Pembuat ini belum terdaftar untuk menerima kontribusi dari pengguna Brave. Kami akan terus mencoba memberikan kontribusi hingga diverifikasi, atau hingga 90 hari telah lewat.</string>
     <string name="brave_ui_please">tambahkan</string>
     <string name="brave_ui_add_funds">dana</string>
@@ -198,9 +201,10 @@ menonton iklan yang tidak mengganggu privasi.</string>
     <string name="brave_ui_no_activity">Belum ada aktivitas di
 bulan ini...</string>
     <string name="brave_ui_token_grant_claimed">Hadiah Token Diklaim</string>
+    <string name="brave_ui_point_grant_claimed">Pemberian Poin Diklaim</string>
     <string name="brave_ui_earnings_ads">Pendapatan dari Iklan</string>
     <string name="brave_ui_rewards_contribute">Kontribusi Otomatis</string>
-    <string name="brave_ui_rewards_contribute_description">Anda telah berkontribusi sebesar <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Anda telah berkontribusi <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Tip Satu Kali</string>
     <string name="brave_ui_recurring_donation">Tip Bulanan</string>
     <string name="brave_ui_verified_publisher">Penerbit Terverifikasi Brave</string>
@@ -209,18 +213,18 @@ bulan ini...</string>
         Setiap tip yang Anda kirim akan tetap ada di dompet Anda hingga diverifikasi.</string>
     <string name="brave_ui_on_youtube">di YouTube</string>
     <string name="brave_ui_on_twitch">di Twitch</string>
-    <string name="brave_ui_new_grant">Tersedia hadiah token gratis.</string>
+    <string name="brave_ui_new_grant">Pemberian <ph name=\"TOKEN\">%1$s<ex>token gratis</ex></ph> tersedia.</string>
     <string name="brave_ui_new_token_grant">Hadiah Token Gratis</string>
+    <string name="brave_ui_new_point_grant">Pemberian Poin Gratis</string>
     <string name="brave_ui_claim">Klaim</string>
-    <string name="brave_ui_reserved_amount_text">Anda telah menetapkan <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT kepada pembuat yang belum terdaftar
-untuk menerima kontribusi. Browser Anda akan terus mencoba memberikan kontribusi
-hingga diverifikasi, atau hingga 90 hari telah lewat.</string>
+    <string name="brave_ui_reserved_amount_text">Anda telah menetapkan <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> untuk pembuat yang belum mendaftar untuk menerima kontribusi. Browser Anda akan terus mencoba berkontribusi hingga diverifikasi, atau hingga lewat 90 hari.</string>
     <string name="brave_ui_notification_desc_no_funds">Pembayaran bulanan terjadwal Anda untuk Kontribusi Otomatis dan tip bulanan tidak dapat diselesaikan karena dana tidak mencukupi. Kami akan mencoba kembali dalam 30 hari.</string>
     <string name="brave_ui_notification_desc_tip_error">Terjadi masalah saat memproses tip Anda, coba lagi.</string>
     <string name="brave_ui_notification_desc_contr_error">Terjadi masalah saat memproses kontribusi Anda.</string>
     <string name="brave_rewards_local_uh_oh">Oh!</string>
     <string name="brave_rewards_local_server_not_responding">Server Brave Rewards tidak merespons. Kami akan memperbaiki masalah ini secepat mungkin.</string>
     <string name="brave_ui_grants">Hadiah</string>
+    <string name="brave_ui_details">Detail</string>
     <string name="brave_ui_expires_on">berakhir pada <ph name=\"DATE\">%1$s<ex>14/4/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Dana Tidak Cukup</string>
     <string name="brave_ui_insufficient_funds_desc">Akun Brave Rewards Anda sedang menunggu setoran dari Anda.</string>
@@ -283,21 +287,17 @@ pembuat konten yang Anda sukai.</string>
 
     <string name="block">Blokir</string>
     <string name="brave_shields_onboarding_title">Perisai Brave </string>
-    <string name="brave_shields_onboarding_text">iklan dan pelacak yang melanggar privasi agar Anda dapat meramban tanpa diikuti saat menyusuri web.</string>
+    <string name="brave_shields_onboarding_text">iklan &amp; pelacak  yang mengganggu privasi sehingga Anda dapat menelusuri web tanpa diikuti.</string>
 
-    <string name="earn_tokens">Dapatkan token</string>
+    <string name="earn_tokens">Dapatkan <ph name=\"TOKEN\">%1$s<ex></ex></ph> token</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">untuk melihat iklan yang menghargai privasi. Gunakan mereka untuk mendukung situs dan kreator favorit Anda.</string>
     <string name="brave_rewards_onboarding_text2">untuk melihat iklan yang menghargai privasi.</string>
 
-    <string name="terms_title">Setujui Persyaratan untuk menggunakan Brave Rewards</string>
-    <string name="terms_text">Saya menyetujui Brave Rewards</string>
+    <string name="terms_text">Dengan mengaktifkan Hadiah, Anda menyetujui</string>
     <string name="terms_of_service">Syarat Layanan</string>
 
-    <string name="agree">Setuju</string>
-    <string name="join">Gabung</string>
-
-     <string name="start_browsing">Mulai meramban</string>
+    <string name="start_browsing">Mulai meramban</string>
     <string name="i_didnt_see">Saya tidak melihat iklan</string>
 
     <string name="brave_ads_onboarding_title">Brave akan menampilkan iklan pertama Anda dalam</string>
@@ -308,7 +308,6 @@ pembuat konten yang Anda sukai.</string>
     <string name="turn_on">Nyalakan</string>
 
     <string name="no_thanks">Tidak, terima kasih</string>
-    <string name="do_not_agree">Tidak setuju</string>
 
     <string name="prefs_welcome_tour">Tur Selamat Datang</string>
     <string name="welcome_tour_dialog_text">Meluncurkan ulang Tur Sambutan tidak akan memengaruhi pengaturan yang ada.</string>
@@ -317,5 +316,13 @@ pembuat konten yang Anda sukai.</string>
     <string name="clear_download_title">Unduh riwayat</string>
 
     <string name="settings_exit">Pengaturan keluar</string>
+
+    <string name="brave_license_text">Lisensi Berani</string>
+    <string name="token">token</string>
+    <string name="point">poin</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

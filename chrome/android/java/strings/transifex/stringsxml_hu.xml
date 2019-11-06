@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave site shield beállítások ehhez</string>
     <string name="brave_shields_down">Le</string>
     <string name="brave_shields_up">Fel</string>
-    <string name="brave_shields_ads_trackers">Reklámok és követések blokkolva</string>
+    <string name="brave_shields_ads_trackers">Reklámok és követők letiltva</string>
     <string name="brave_shields_https_upgrades">HTTPS használata</string>
     <string name="brave_shields_scripts_blocked">Szkriptek blokkolva</string>
-    <string name="brave_shields_ads_tracking_switch">Blokkolja a reklámokat és a követést</string>
+    <string name="brave_shields_ads_tracking_switch">Reklámok és követők blokkolása</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS mindenhol</string>
     <string name="brave_shields_blocks_scripts_switch">Blokkolja a szkripteket</string>
     <string name="accessibility_toolbar_btn_brave_shields">Brave Pajzsok engedélyezése/letiltása</string>
@@ -38,8 +38,7 @@
     <string name="sync_device_failure">A szinkronizálást nem lehetett beállítani</string>
     <string name="sync_requires_correct_time">Lehet, hogy számítógéped órája rosszul van beállítva, vagy más időzónát mutat. Ellenőrizd az óra beállításait.</string>
 
-    <string name="brave_stats_text_ads">Reklámok és nyomkövetők 
-Blokkolva</string>
+    <string name="brave_stats_text_ads">Reklámok</string>
     <string name="brave_stats_text_https">HTTPS
 használata</string>
     <string name="brave_stats_text_time">Becsült megspórolt
@@ -56,7 +55,7 @@ idő</string>
     <string name="brave_shields_first_group_title">Blokkolási ellenőrzés</string>
     <string name="brave_shields_second_group_title">Egyéni irányítás</string>
     <string name="brave_shields">Pajzsok</string>
-    <string name="brave_shields_ads_and_trackers">Reklámok és követések</string>
+    <string name="brave_shields_ads_and_trackers">Reklámok és követők</string>
     <string name="brave_shields_fingerprint_methods">Ujjlenyomat-módszerek</string>
     <string name="brave_shields_block_phishing_switch">Adathalászat blokkolása</string>
 
@@ -151,18 +150,21 @@ Kímélje az akkumulátort és töltsön be weboldalakat gyorsabban</string>
 
     <string name="brave_ui_welcome_header_two">Készüljön fel
 a következő internet megtapasztalására.</string>
-    <string name="brave_ui_welcome_desc_two">Mostantól jutalompontokat kaphat
-a magánszférát tiszteletben tartó hirdetések megtekintéséért.</string>
+    <string name="brave_ui_welcome_desc_two">Mostantól %1$ss jutalmat kaphatsz adatvédelmet tiszteletben tartó reklámok megnézésével.</string>
     <string name="brave_ui_welcome_button_text_two">CSATLAKOZZON A REWARDSHOZ</string>
     <string name="brave_ui_welcome_footer_text_two">TOVÁBBI INFORMÁCIÓ</string>
     <string name="brave_ui_rewards_creating_text">Pénztárca létrehozása</string>
     <string name="brave_ui_your_wallet">Az Ön pénztárcája</string>
+    <string name="brave_ui_your_balance">Egyenleged</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT-pontok</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Pénz hozzáadása</string>
     <string name="brave_ui_settings">Beállítások</string>
     <string name="brave_ui_rewards_summary">A REWARDS ÖSSZEFOGLALÁSA</string>
-    <string name="brave_ui_site_banner_welcome">Köszönjük, hogy benézett hozzánk!</string>
+    <string name="brave_ui_site_banner_welcome">Üdvözlünk!</string>
     <string name="brave_ui_rewards_banner_text1">Weblapunkat borravaló küldésével támogathatja. Ezzel köszönheti meg a remek tartalmat. A hitelesített tartalomkészítők a borravaló alapján kapnak díjazást minden naptári hónap első hetében.</string>
     <string name="brave_ui_rewards_banner_text2">Havi borravaló beállításával folyamatos támogatást is nyújthat az oldalnak.</string>
     <string name="brave_ui_donation_amount">Borravaló összege</string>
@@ -170,7 +172,7 @@ a magánszférát tiszteletben tartó hirdetések megtekintéséért.</string>
     <string name="brave_ui_make_monthly">Legyen havi borravaló</string>
     <string name="brave_ui_send_tip">borravaló elküldése</string>
     <string name="brave_ui_do_monthly">havi borravaló beállítása</string>
-    <string name="brave_ui_not_enough_tokens">nincs elég jutalompontja</string>
+    <string name="brave_ui_not_enough_tokens">nincs elég<ph name=\"TOKEN\">%1$s<ex>token</ex></ph></string>
     <string name="brave_ui_site_banner_notice_text">MEGJEGYZÉS: Ez a szerző még nem regisztrált, hogy hozzájárulásokat kaphasson a Brave felhasználóitól. Tovább próbálkozunk a hozzájárulás elküldésével, amíg a szerző nem hitelesíti magát, vagy el nem telik 90 nap.</string>
     <string name="brave_ui_please">kérjük</string>
     <string name="brave_ui_add_funds">adjon hozzá pénzt</string>
@@ -195,9 +197,10 @@ a magánszférát tiszteletben tartó hirdetések megtekintéséért.</string>
     <string name="brave_ui_no_activity">Ebben a hónapban még nem volt
 tevékenység...</string>
     <string name="brave_ui_token_grant_claimed">Igényelt jutalompontok</string>
+    <string name="brave_ui_point_grant_claimed">Igényelt pontjóváírások</string>
     <string name="brave_ui_earnings_ads">Bevételek hirdetésekből</string>
     <string name="brave_ui_rewards_contribute">Automatikus hozzájárulás</string>
-    <string name="brave_ui_rewards_contribute_description">Az Ön hozzájárulása <ph name=\"BAT_VALUE\">%1$s<ex>50 </ex></ph>BAT. </string>
+    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT-tal</ex></ph> járultál hozzá.</string>
     <string name="brave_ui_one_time_donation">Egyszeri borravalók</string>
     <string name="brave_ui_recurring_donation">Havi borravalók</string>
     <string name="brave_ui_verified_publisher">A Brave által hitelesített szerző</string>
@@ -206,18 +209,18 @@ tevékenység...</string>
 A neki küldött borravaló az Ön pénztárcájában marad, amíg nem hitelesíti magát.</string>
     <string name="brave_ui_on_youtube">a YouTube-on</string>
     <string name="brave_ui_on_twitch">a Twitch-en</string>
-    <string name="brave_ui_new_grant">Ingyenes jutalompont áll rendelkezésre.</string>
+    <string name="brave_ui_new_grant">Egy ingyenes <ph name=\"TOKEN\">%1$s<ex>token</ex></ph> jóváírás áll rendelkezésre.</string>
     <string name="brave_ui_new_token_grant">Ingyenes jutalompont</string>
+    <string name="brave_ui_new_point_grant">Ingyen pont jóváírás</string>
     <string name="brave_ui_claim">Igénylés</string>
-    <string name="brave_ui_reserved_amount_text">Ön <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>BAT hozzájárulást küldött olyan szerzőknek,
-akik még nem regisztráltak, hogy hozzájárulásokat kaphassanak. Az Ön böngészője továbbra is megpróbálja elküldeni a hozzájárulást,
-amíg nem hitelesíttetik magukat vagy el nem telik 90 nap.</string>
+    <string name="brave_ui_reserved_amount_text">Kijelöltél <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT-et</ex></ph> olyan alkotóknak, akik még nem regisztráltak adományok fogadására. Böngésződ próbálkozni fog az adományozással, amíg elvégzik az ellenőrzést, vagy eltelik 90 nap. </string>
     <string name="brave_ui_notification_desc_no_funds">Az ütemezett havi fizetés az automatikus közreműködéshez és a havi tippekhez nem hajtható végre elégtelen forrás miatt. Megpróbáljuk újra 30 nap múlva.</string>
     <string name="brave_ui_notification_desc_tip_error">Nem sikerült feldolgozni a borravalót, próbálja meg újra.</string>
     <string name="brave_ui_notification_desc_contr_error">Nem sikerült feldolgozni a hozzájárulását.</string>
     <string name="brave_rewards_local_uh_oh">Ajjaj!</string>
     <string name="brave_rewards_local_server_not_responding">A Brave Rewards kiszolgálója nem válaszol. A lehető leggyorsabban elhárítjuk a hibát.</string>
     <string name="brave_ui_grants">Jutalom</string>
+    <string name="brave_ui_details">Részletek</string>
     <string name="brave_ui_expires_on">lejárat: <ph name=\"DATE\">%1$s<ex>2019. 04. 14.</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Nincs elég hozzáadott pénz</string>
     <string name="brave_ui_insufficient_funds_desc">Az Ön Brave Rewards-fiókja pénzhozzáadásra vár.</string>
@@ -280,21 +283,17 @@ tartalomkészítők támogatására.</string>
 
     <string name="block">Tiltás</string>
     <string name="brave_shields_onboarding_title">Brave Pajzsok</string>
-    <string name="brave_shields_onboarding_text">magánéletet sértő hirdetések és nyomkövetők, hogy ne lehessen követni webes böngészésedet.</string>
+    <string name="brave_shields_onboarding_text">adatvédelmet sértő reklámok és követők, hogy ne kövessenek az interneten való böngészés közben.</string>
 
-    <string name="earn_tokens">Szerezz tokeneket</string>
+    <string name="earn_tokens">Szerezz <ph name=\"TOKEN\">%1$s<ex>tokent</ex></ph></string>
     <string name="brave_rewards_onboarding_title">Brave Jutalmak</string>
     <string name="brave_rewards_onboarding_text">magánéletet tiszteletben tartó hirdetések megtekintésével. Ezeket használhatod kedvenc oldalaid és alkotóid támogatására.</string>
     <string name="brave_rewards_onboarding_text2">magánéletet tiszteletben tartó hirdetések megtekintésével.</string>
 
-    <string name="terms_title">Fogadd el a Brave Jutalmak használati feltételeit</string>
-    <string name="terms_text">Elfogadom a Brave Jutalmak feltételeit</string>
+    <string name="terms_text">A jutalmak bekapcsolásával elfogadod a </string>
     <string name="terms_of_service">Szolgáltatási feltételek</string>
 
-    <string name="agree">Elfogadom</string>
-    <string name="join">Csatlakozás</string>
-
-     <string name="start_browsing">Kezdj el böngészni</string>
+    <string name="start_browsing">Kezdj el böngészni</string>
     <string name="i_didnt_see">Nem láttam hirdetést</string>
 
     <string name="brave_ads_onboarding_title">A Brave mutatja első hirdetésedet: </string>
@@ -305,7 +304,6 @@ tartalomkészítők támogatására.</string>
     <string name="turn_on">Bekapcsolás</string>
 
     <string name="no_thanks">Köszönöm, nem</string>
-    <string name="do_not_agree">Nem értek egyet</string>
 
     <string name="prefs_welcome_tour">Bemutatás</string>
     <string name="welcome_tour_dialog_text">A bemutatkozás újraindítása nem lesz hatással semmilyen beállításra</string>
@@ -314,5 +312,13 @@ tartalomkészítők támogatására.</string>
     <string name="clear_download_title">Letöltési előzmények</string>
 
     <string name="settings_exit">Beállítások kilépés</string>
+
+    <string name="brave_license_text">Brave licenc</string>
+    <string name="token">token</string>
+    <string name="point">pont</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

@@ -3,13 +3,14 @@
     <string name="brave_settings_title">এর জন্য Brave সাইট রক্ষার সেটিংস</string>
     <string name="brave_shields_down">নিচে</string>
     <string name="brave_shields_up">উপরে</string>
-    <string name="brave_shields_ads_trackers">বিজ্ঞাপন ও ট্র্যাকারগুলি অবরুদ্ধ করা হয়েছে</string>
+    <string name="brave_shields_ads_trackers">বিজ্ঞাপন &amp; ট্র্যাকারগুলি অবরুদ্ধ করা হয়েছে</string>
     <string name="brave_shields_https_upgrades">HTTPS আপগ্রেডসমূহ</string>
     <string name="brave_shields_scripts_blocked">স্ক্রিপ্টগুলি অবরুদ্ধ করা হয়েছে</string>
-    <string name="brave_shields_ads_tracking_switch">বিজ্ঞাপন ও ট্র্যাকিংগুলি অবরুদ্ধ করুন</string>
+    <string name="brave_shields_ads_tracking_switch">বিজ্ঞাপন &amp; ট্র্যাকিং অবরুদ্ধ করুন</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS সব জায়গায়</string>
     <string name="brave_shields_blocks_scripts_switch">স্ক্রিপ্টগুলি অবরুদ্ধ করুন</string>
     <string name="accessibility_toolbar_btn_brave_shields">Brave রক্ষকগুলি সক্রিয়/নিষ্ক্রিয় করুন</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Brave পুরস্কারগুলি পরিচালনা করুন</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">3য় পক্ষের কুকিগুলি অবরুদ্ধ করুন</string>
 
     <string name="httpse_summary">যখন সম্ভব তখন HTTP এর পরিবর্তে HTTPS ব্যবহার করে সমর্থিত সাইটগুলি খোলে</string>
@@ -37,8 +38,7 @@
     <string name="sync_device_failure">সিঙ্ক সেট আপ করা গেল না</string>
     <string name="sync_requires_correct_time">আপনার কম্পিউটারের ঘড়ি, অথবা টাইম-জোন ভুল সময়ে সেট করা হয়ে থাকতে পারে। আপনার ঘড়ির সেটিংস পরীক্ষা করুন</string>
 
-    <string name="brave_stats_text_ads">বিজ্ঞাপন ও ট্র্যাকারগুলি
-অবরুদ্ধ করা হয়েছে</string>
+    <string name="brave_stats_text_ads">বিজ্ঞাপন &amp; ট্র্যাকারগুলি অবরুদ্ধ করা হয়েছে</string>
     <string name="brave_stats_text_https">HTTPS
 আপগ্রেডসমূহ</string>
     <string name="brave_stats_text_time">আনুমানিক সাশ্রিত
@@ -55,7 +55,7 @@
     <string name="brave_shields_first_group_title">মনিটর অবরুদ্ধ করছে</string>
     <string name="brave_shields_second_group_title">ব্যক্তিগত নিয়ন্ত্রণসমূহ</string>
     <string name="brave_shields">রক্ষকসমূহ</string>
-    <string name="brave_shields_ads_and_trackers">বিজ্ঞাপন ও ট্র্যাকারসমূহ</string>
+    <string name="brave_shields_ads_and_trackers">বিজ্ঞাপন &amp; ট্র্যাকারসমূহ</string>
     <string name="brave_shields_fingerprint_methods">আঙুলের ছাপ পদ্ধতিসমূহ</string>
     <string name="brave_shields_block_phishing_switch">ফিসিং অবরুদ্ধ করে</string>
 
@@ -142,24 +142,30 @@
 আপনার ডিফল্ট ব্রাউজার হিসাবে সেট করা আছে।</string>
     <string name="brave_default_browser_go_to_settings">আপনি ইতিমধ্যে একটি ডিফল্ট ব্রাউজার সেট করেছেন।
 আপনি আপনার অ্যাপ সেটিংসে ডিফল্ট ব্রাউজার পরিবর্তন করতে পারেন।</string>
+    <string name="brave_default_browser_notification_body">ব্যাটারি বাঁচান এবং ওয়েব পৃষ্ঠাগুলি আরও দ্রুত লোড করুন। Brave কে আপনার ডিফল্ট ব্রাউজার করুন। Brave মেনু থেকে \"ডিফল্ট ব্রাউজার হিসেবে সেট করুন\" ট্যাপ করুন</string>
     <string name="brave_set_default_browser">ডিফল্ট ব্রাউজার হিসাবে সেট করুন</string>
+    <string name="brave_set_default_browser_dialog_text">তালিকাটি থেকে Brave নির্বাচন করে \"সর্বদা\" ট্যাপ করুন</string>
     <string name="brave_default_browser_existing_notification_body">Brave কে আপনার ডিফল্ট ওয়েব ব্রাউজার করুন
 ব্যাটারি সংরক্ষণ করুন এবং ওয়েব পৃষ্ঠাগুলি আরও দ্রুত লোড করুন</string>
 
     <string name="brave_ui_welcome_header_two">পরের প্রজন্মের ইন্টারনেট
 অভিজ্ঞতা করতে প্রস্তুত থাকুন।</string>
-    <string name="brave_ui_welcome_desc_two">আপনি এখন
-গোপনীয়তার-মর্যাদা দেওয়া বিজ্ঞাপনগুলি দেখার জন্য টোকেন উপার্জন করবেন।</string>
+    <string name="brave_ui_welcome_desc_two">আপনি এখন গোপনীয়তার-মর্যাদা দেওয়া বিজ্ঞাপনগুলি দেখার জন্য
+%1$ss উপার্জন করতে পারবেন।</string>
     <string name="brave_ui_welcome_button_text_two">পুরস্কারগুলিতে যোগদান করুন</string>
     <string name="brave_ui_welcome_footer_text_two">আরও জানুন</string>
     <string name="brave_ui_rewards_creating_text">ওয়ালেট তৈরি করছে</string>
     <string name="brave_ui_your_wallet">আপনার ওয়ালেট</string>
+    <string name="brave_ui_your_balance">আপনার ব্যালেন্স</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT পয়েন্ট</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">তহবিল যোগ করুন</string>
     <string name="brave_ui_settings">সেটিংস</string>
     <string name="brave_ui_rewards_summary">পুরস্কারের সারসংক্ষেপ</string>
-    <string name="brave_ui_site_banner_welcome">বন্ধ করার জন্য ধন্যবাদ!</string>
+    <string name="brave_ui_site_banner_welcome">স্বাগতম!</string>
     <string name="brave_ui_rewards_banner_text1">আপনি একটি বকশিস পাঠিয়ে সাইটটিকে সহায়তা করতে পারেন। অসাধারণ সামগ্রী বানানোর জন্য এটি তাদের ধন্যবাদ জানানোর একটি উপায়। যাচাইকৃত সামগ্রীর স্রষ্টাদের প্রত্যেক মাসের প্রথম সপ্তাহে তাদের পরামর্শগুলির জন্য অর্থ প্রদান করা হয়।</string>
     <string name="brave_ui_rewards_banner_text2">আপনি চাইলে, একটানা ভিত্তিতে এই সাইটটিকে সহায়তা করতে আপনি মাসিক পরামর্শ সূচিত করতে পারেন।</string>
     <string name="brave_ui_donation_amount">বকশিসের মোট অর্থ</string>
@@ -167,7 +173,7 @@
     <string name="brave_ui_make_monthly">এটি মাসিক করুন</string>
     <string name="brave_ui_send_tip">আমার বকশিস পাঠান</string>
     <string name="brave_ui_do_monthly">মাসিক বকশিস সেট করুন</string>
-    <string name="brave_ui_not_enough_tokens">পর্যাপ্ত টোকেন নেই</string>
+    <string name="brave_ui_not_enough_tokens">পর্যাপ্ত <ph name=\"TOKEN\">%1$s<ex>টোকেন</ex></ph> নেই</string>
     <string name="brave_ui_site_banner_notice_text">দ্রষ্টব্য: এই স্রষ্টা Brave ব্যবহারকারীদের থেকে অবদানগুলি পেতে এখনও সাইন আপ করেননি। যতক্ষণ না তারা যাচাই করে, বা 90 দিন অতিক্রান্ত না হওয়া পর্যন্ত আমরা অবদান রাখার চেষ্টা করে যাব।</string>
     <string name="brave_ui_please">অনুগ্রহ করে</string>
     <string name="brave_ui_add_funds">তহবিল যোগ করুন</string>
@@ -192,9 +198,10 @@
     <string name="brave_ui_no_activity">এই
 মাসে এখনও কোনো কার্যকলাপ নেই…</string>
     <string name="brave_ui_token_grant_claimed">টোকেনের অনুদানগুলি দাবি করা হয়েছে</string>
+    <string name="brave_ui_point_grant_claimed">পয়েন্টের অনুদানগুলি দাবি করা হয়েছে</string>
     <string name="brave_ui_earnings_ads">বিজ্ঞাপনগুলি থেকে আয়</string>
     <string name="brave_ui_rewards_contribute">স্বয়ংক্রিয়-অবদান</string>
-    <string name="brave_ui_rewards_contribute_description">আপনি <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT অবদান রেখেছেন।</string>
+    <string name="brave_ui_rewards_contribute_description">আপনি <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> অবদান রেখেছেন।</string>
     <string name="brave_ui_one_time_donation">একক-সময়ের বকশিস</string>
     <string name="brave_ui_recurring_donation">মাসিক পরামর্শ</string>
     <string name="brave_ui_verified_publisher">Brave যাচাইকৃত প্রকাশক</string>
@@ -203,17 +210,20 @@
         তারা যাচাই করার আগে আপনার পাঠানো যে কোনো বকশিস আপনার ওয়ালেটে থাকবে।</string>
     <string name="brave_ui_on_youtube">YouTube এ</string>
     <string name="brave_ui_on_twitch">Twitch এ</string>
-    <string name="brave_ui_new_grant">একটি বিনামূল্যের টোকেন অনুদান উপলব্ধ।</string>
+    <string name="brave_ui_new_grant">একটি বিনামূল্যের <ph name=\"TOKEN\">%1$s<ex>টোকেন</ex></ph> অনুদান উপলভ্য।</string>
     <string name="brave_ui_new_token_grant">বিনামূল্যের টোকেন অনুদান</string>
+    <string name="brave_ui_new_point_grant">বিনামূল্যের পয়েন্ট অনুদান</string>
     <string name="brave_ui_claim">দাবি করুন</string>
-    <string name="brave_ui_reserved_amount_text">অবদানগুলি গ্রহণ করতে এখনও সাইন আপ না করা স্রষ্টাদের জন্য আপনাকে <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT এর জন্য মনোনীত
-করা হয়েছে। যতক্ষণ না তারা যাচাই করে, বা
-90 দিন অতিক্রান্ত না হওয়া পর্যন্ত আপনার ব্রাউজার অবদান রাখার চেষ্টা করে যাব।</string>
+    <string name="brave_ui_reserved_amount_text">অবদানগুলি গ্রহণ করতে এখনও সাইন আপ না করা স্রষ্টাদের জন্য আপনাকে <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> এর জন্য মনোনীত
+করা হয়েছে। যতক্ষণ না তারা যাচাই করছে, বা
+90 দিন অতিক্রান্ত না হওয়া পর্যন্ত আপনার ব্রাউজার অবদান রাখার চেষ্টা করে যাবে।</string>
+    <string name="brave_ui_notification_desc_no_funds">অপর্যাপ্ত ফান্ডের জন্য স্বয়ংক্রিয়-অবদান এবং মাসিক পরামর্শের জন্য আপনার সূচিত মাসিক পেমেন্ট সম্পূর্ণ করা গেল না। আমরা 30 দিন পর আবার চেষ্টা করব।</string>
     <string name="brave_ui_notification_desc_tip_error">আপনার পরামর্শ প্রক্রিয়াকরণ করতে একটি সমস্যা হয়েছে, অনুগ্রহ করে আবার চেষ্টা করুন।</string>
     <string name="brave_ui_notification_desc_contr_error">আপনার অবদান প্রক্রিয়াকরণ করতে একটি সমস্যা হয়েছে।</string>
     <string name="brave_rewards_local_uh_oh">ওহো!</string>
     <string name="brave_rewards_local_server_not_responding">Brave পুরস্কারের সার্ভারটি উত্তর দিচ্ছে না। আমরা যত শীঘ্র সম্ভব সমস্যাটির সমাধান করব।</string>
     <string name="brave_ui_grants">অনুদানগুলি</string>
+    <string name="brave_ui_details">বিশদ</string>
     <string name="brave_ui_expires_on"><ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph> এ মেয়াদ শেষ হয়ে যাচ্ছে</string>
     <string name="brave_ui_insufficient_funds_msg">অপর্যাপ্ত তহবিল</string>
     <string name="brave_ui_insufficient_funds_desc">আপনার Brave অ্যাকাউন্ট একটি জমার জন্য অপেক্ষা করছে।</string>
@@ -244,6 +254,7 @@
     <string name="prefs_appearance">চেহারা</string>
     <string name="hide_brave_rewards_icon_title">Brave পুরস্কারের আইকন লুকান</string>
     <string name="hide_brave_rewards_icon_description">Brave পুরস্কারগুলি সক্রিয় না থাকলে Brave পুরস্কারের আইকনটি লুকান</string>
+    <string name="show_ads_when_brave_is_not_in_use">Brave ব্যবহার না হওয়ার সময় বিজ্ঞাপনগুলি দেখান</string>
     <string name="reset_brave_rewards_option">Brave পুরস্কারগুলি রিসেট করুন</string>
     <string name="reset_brave_rewards_option_description">এটি আপনার Brave ওয়ালেট মুছবে এবং আপনার সমস্ত Brave পুরস্কারের ডেটা রিসেট করবে</string>
     <string name="reset_brave_rewards_error_title">রিসেটের ত্রুটি</string>
@@ -275,21 +286,17 @@
 
     <string name="block">অবরুদ্ধ করুন</string>
     <string name="brave_shields_onboarding_title">Brave রক্ষাকবচসমূহ</string>
-    <string name="brave_shields_onboarding_text">গোপনীয়তা-বিপন্নকারী বিজ্ঞাপন এবং ট্র্যাকারসমূহ যাতে ওয়েব জুড়ে আপনি কারোর দ্বারা অনুসৃত না হয়ে ব্রাউজ করতে পারেন।</string>
+    <string name="brave_shields_onboarding_text">গোপনীয়তা-বিপন্নকারী বিজ্ঞাপন &amp; ট্র্যাকারসমূহ যাতে ওয়েব জুড়ে আপনি কারোর দ্বারা অনুসৃত না হয়ে ব্রাউজ করতে পারেন।</string>
 
-    <string name="earn_tokens">টোকেনগুলি উপার্জন করুন</string>
+    <string name="earn_tokens"> <ph name=\"TOKEN\">%1$s<ex>টোকেন</ex></ph> উপার্জন করুন</string>
     <string name="brave_rewards_onboarding_title">Brave পুরস্কারসমূহ</string>
     <string name="brave_rewards_onboarding_text">গোপনীয়তা-সম্মানকারী বিজ্ঞাপনগুলি দেখার জন্য। আপনার প্রিয় সাইট এবং স্রষ্টাদের সহায়তা করার জন্য সেগুলি ব্যবহার করুন।</string>
     <string name="brave_rewards_onboarding_text2">গোপনীয়তা-সম্মানকারী বিজ্ঞাপনগুলি দেখার জন্য।</string>
 
-    <string name="terms_title">Brave পুরস্কারগুলি ব্যবহার করতে শর্তাবলীতে সম্মত হন</string>
-    <string name="terms_text">আমি Brave পুরস্কারগুলিতে সম্মস্ত হচ্ছি</string>
+    <string name="terms_text">পুরস্কারগুলি চালু করে, আপনি এতে সম্মত হচ্ছেন</string>
     <string name="terms_of_service">পরিষেবার শর্তাবলী</string>
 
-    <string name="agree">সম্মত</string>
-    <string name="join">যোগদান করুন</string>
-
-     <string name="start_browsing">ব্রাউজিং শুরু করুন</string>
+    <string name="start_browsing">ব্রাউজিং শুরু করুন</string>
     <string name="i_didnt_see">আমি একটি বিজ্ঞাপন দেখিনি</string>
 
     <string name="brave_ads_onboarding_title">Brave আপনার প্রথম বিজ্ঞাপনটি দেখাবে এর মধ্যে</string>
@@ -300,10 +307,21 @@
     <string name="turn_on">চালু করুন</string>
 
     <string name="no_thanks">না ধন্যবাদ</string>
-    <string name="do_not_agree">সম্মত নই</string>
 
     <string name="prefs_welcome_tour">স্বাগত সফর</string>
     <string name="welcome_tour_dialog_text">স্বাগত সফরের আবার লঞ্চ করা কোনো বিদ্যমান সেটিংসকে ক্ষতিগ্রস্ত করবে না।</string>
     <string name="finish">শেষ করুন</string>
     
-    </resources>
+    <string name="clear_download_title">ডাউনলোডের ইতিহাস</string>
+
+    <string name="settings_exit">সেটিংস থেকে প্রস্থান</string>
+
+    <string name="brave_license_text">Brave লাইসেন্স</string>
+    <string name="token">টোকেন</string>
+    <string name="point">পয়েন্ট</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+</resources>

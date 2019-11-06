@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Настройки на щита на Brave сайта</string>
     <string name="brave_shields_down">Надолу</string>
     <string name="brave_shields_up">Нагоре</string>
-    <string name="brave_shields_ads_trackers">Блокирани реклами и проследяване</string>
+    <string name="brave_shields_ads_trackers">Блокирани реклами и тракери</string>
     <string name="brave_shields_https_upgrades">HTTPS актуализации</string>
     <string name="brave_shields_scripts_blocked">Скриптове блокирани</string>
-    <string name="brave_shields_ads_tracking_switch">Блокиране на реклами и проследяване</string>
+    <string name="brave_shields_ads_tracking_switch">Блокирай реклами и проследяване</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS навсякъде</string>
     <string name="brave_shields_blocks_scripts_switch">Блокирайте скриптовете</string>
     <string name="accessibility_toolbar_btn_brave_shields">Разрешете/отменете щитовете на Brave</string>
@@ -54,7 +54,7 @@
     <string name="brave_shields_first_group_title">Блокиране на монитор</string>
     <string name="brave_shields_second_group_title">Индивидуално управление</string>
     <string name="brave_shields">Щитове</string>
-    <string name="brave_shields_ads_and_trackers">Реклами и Проследяване</string>
+    <string name="brave_shields_ads_and_trackers">Реклами и тракери</string>
     <string name="brave_shields_fingerprint_methods">Методи на пръстови отпечатъци</string>
     <string name="brave_shields_block_phishing_switch">Блокиране на фишинг</string>
 
@@ -149,18 +149,18 @@
 
     <string name="brave_ui_welcome_header_two">Пригответе се да опитате
 следващия интернет.</string>
-    <string name="brave_ui_welcome_desc_two">Вече можете да печелите токени за
-гледане на реклами, защитаващи неприкосновеността на личните данни.</string>
     <string name="brave_ui_welcome_button_text_two">ПРИСЪЕДИНЯВАНЕ КЪМ REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">НАУЧЕТЕ ПОВЕЧЕ</string>
     <string name="brave_ui_rewards_creating_text">Създаване на портфейл</string>
     <string name="brave_ui_your_wallet">Вашият портфейл</string>
+    <string name="brave_ui_your_balance">Вашият баланс</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT точки</string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Добавяне на средства</string>
     <string name="brave_ui_settings">Настройки</string>
     <string name="brave_ui_rewards_summary">ОБОБЩЕНИЕ НА REWARDS</string>
-    <string name="brave_ui_site_banner_welcome">Благодаря, че се отбихте!</string>
     <string name="brave_ui_rewards_banner_text1">Можете да подкрепите този сайт, като изпратите дарение. Това е начин да им благодарим за създаването на страхотно съдържание. Потвърдените създатели на съдържание получават заплащане за даренията си през първата седмица на всеки календарен месец.</string>
     <string name="brave_ui_rewards_banner_text2">Ако желаете, можете да планирате месечни дарения за непрекъсната подкрепа на този сайт.</string>
     <string name="brave_ui_donation_amount">Размер на дарението</string>
@@ -168,7 +168,6 @@
     <string name="brave_ui_make_monthly">Правете това месечно</string>
     <string name="brave_ui_send_tip">изпращане на моето дарение</string>
     <string name="brave_ui_do_monthly">задаване на месечно дарение</string>
-    <string name="brave_ui_not_enough_tokens">няма достатъчно токени</string>
     <string name="brave_ui_site_banner_notice_text">ЗАБЕЛЕЖКА: Този създател все още не се е регистрирал, за да получава дарения от потребители на Brave. Ще продължим да се опитваме да даряваме, докато не потвърдят, или до изтичането на 90 дни.</string>
     <string name="brave_ui_please">моля</string>
     <string name="brave_ui_add_funds">добавяне на средства</string>
@@ -193,9 +192,9 @@
     <string name="brave_ui_no_activity">Все още няма дейности този
 месец...</string>
     <string name="brave_ui_token_grant_claimed">Поискано е отпускане на токени</string>
+    <string name="brave_ui_point_grant_claimed">Взети безвъзмездни точки</string>
     <string name="brave_ui_earnings_ads">Приходи от реклами</string>
     <string name="brave_ui_rewards_contribute">Автоматично дарение</string>
-    <string name="brave_ui_rewards_contribute_description">Дарили сте <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
     <string name="brave_ui_one_time_donation">Еднократни дарения</string>
     <string name="brave_ui_recurring_donation">Месечни дарения</string>
     <string name="brave_ui_verified_publisher">Издател, потвърден от Brave</string>
@@ -204,19 +203,16 @@
         Всички дарения, които изпращате, ще останат в портфейла Ви, докато не бъдат потвърдени.</string>
     <string name="brave_ui_on_youtube">в YouTube</string>
     <string name="brave_ui_on_twitch">в Twitch</string>
-    <string name="brave_ui_new_grant">
-Налице е получаване на безплатен токен.</string>
     <string name="brave_ui_new_token_grant">Получаване на безплатен токен</string>
+    <string name="brave_ui_new_point_grant">Безплатна безвъзмездна точка</string>
     <string name="brave_ui_claim">Искане</string>
-    <string name="brave_ui_reserved_amount_text">Определили сте <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT за създателите, които 
-все още не са се регистрирали за получаване на дарения. Вашият браузър ще продължава да се опитва да извърши дарение,
-докато не потвърдят, или до изтичането на 90 дни.</string>
     <string name="brave_ui_notification_desc_no_funds">Планираното месечно плащане на автоматични дарения и месечни дарения не беше извършено, поради липса на достатъчно средства. Ще опитаме отново след 30 дни.</string>
     <string name="brave_ui_notification_desc_tip_error">Възникна проблем при обработката на Вашето дарение. Моля, опитайте отново.</string>
     <string name="brave_ui_notification_desc_contr_error">Възникна проблем при обработката на Вашето дарение.</string>
     <string name="brave_rewards_local_uh_oh">Ъ!</string>
     <string name="brave_rewards_local_server_not_responding">Сървърът на Brave Rewards не отговаря. Ще поправим това възможно най-скоро.</string>
     <string name="brave_ui_grants">Дарения</string>
+    <string name="brave_ui_details">Подробности</string>
     <string name="brave_ui_expires_on">изтича на <ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Липса на достатъчно средства</string>
     <string name="brave_ui_insufficient_funds_desc">Вашата Brave Rewards сметка очаква депозит.</string>
@@ -277,21 +273,17 @@
 
     <string name="block">Блокирай</string>
     <string name="brave_shields_onboarding_title">Brave Shields</string>
-    <string name="brave_shields_onboarding_text">реклами и тракери, нарушаващи поверителността, за да можете да разглеждате, без да бъдете следени в мрежата.</string>
+    <string name="brave_shields_onboarding_text">реклами и тракери, засягащи поверителността, за да можете да разглеждате, без да бъдете следени в интернет.</string>
 
-    <string name="earn_tokens">Печелете токени</string>
+    <string name="earn_tokens">Спечелете <ph name=\"TOKEN\">%1$s<ex>токена</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">за гледане на реклами, зачитащи поверителността. Използвайте ги, за да подкрепите любимите си сайтове и създатели.</string>
     <string name="brave_rewards_onboarding_text2">за гледане на реклами, зачитащи поверителността.</string>
 
-    <string name="terms_title">Приемете условията, за да използвате Brave Rewards</string>
-    <string name="terms_text">Приемам Brave Rewards</string>
+    <string name="terms_text">Като включите наградите, вие се съгласявате с</string>
     <string name="terms_of_service">Условия за ползване</string>
 
-    <string name="agree">Приемам</string>
-    <string name="join">Присъедини се</string>
-
-     <string name="start_browsing">Започнете да разглеждате</string>
+    <string name="start_browsing">Започнете да разглеждате</string>
     <string name="i_didnt_see">Не видях реклама</string>
 
     <string name="brave_ads_onboarding_title">Brave ще покаже първата ви реклама в</string>
@@ -302,7 +294,6 @@
     <string name="turn_on">Включи</string>
 
     <string name="no_thanks">Не, благодаря</string>
-    <string name="do_not_agree">Не съм съгласен/а</string>
 
     <string name="prefs_welcome_tour">Обиколка за добре дошли</string>
     <string name="welcome_tour_dialog_text">Повторното стартиране на обиколката за добре дошли няма да повлияе на съществуващите настройки.</string>
@@ -311,5 +302,13 @@
     <string name="clear_download_title">История на изтеглянията</string>
 
     <string name="settings_exit">Изход от Настройки</string>
+
+    <string name="brave_license_text">Лиценз на Brave</string>
+    <string name="token">токен</string>
+    <string name="point">точка</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

@@ -38,7 +38,7 @@
     <string name="sync_device_failure">No se ha podido configurar la sincronización</string>
     <string name="sync_requires_correct_time">El reloj de su ordenador podría tener la hora o la zona horaria mal configuradas. Revise la configuración de su reloj</string>
 
-    <string name="brave_stats_text_ads">Bloqueados anuncios y rastreadores</string>
+    <string name="brave_stats_text_ads">Anuncios y rastreadores bloqueados</string>
     <string name="brave_stats_text_https">Actualizaciones
 HTTPS</string>
     <string name="brave_stats_text_time">Tiempo estimado
@@ -150,18 +150,21 @@ Ahorre batería y cargue las páginas más rápido</string>
 
     <string name="brave_ui_welcome_header_two">Prepárate para disfrutar
 de la próxima generación de Internet.</string>
-    <string name="brave_ui_welcome_desc_two">Ahora puedes ganar vales
-por ver anuncios que respetan tu privacidad.</string>
+    <string name="brave_ui_welcome_desc_two">Ahora puede ganar %1$ss por ver anuncios que respetan la privacidad.</string>
     <string name="brave_ui_welcome_button_text_two">UNIRME Y GANAR RECOMPENSAS</string>
     <string name="brave_ui_welcome_footer_text_two">MÁS INFORMACIÓN</string>
     <string name="brave_ui_rewards_creating_text">Creando monedero</string>
     <string name="brave_ui_your_wallet">Tu monedero</string>
+    <string name="brave_ui_your_balance">Su saldo</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,00</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Puntos BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Añadir fondos</string>
     <string name="brave_ui_settings">Ajustes</string>
     <string name="brave_ui_rewards_summary">RESUMEN DE LAS RECOMPENSAS</string>
-    <string name="brave_ui_site_banner_welcome">¡Gracias por pasarte por aquí!</string>
+    <string name="brave_ui_site_banner_welcome">¡Bienvenido!</string>
     <string name="brave_ui_rewards_banner_text1">Si quieres contribuir con este sitio web, puedes enviar una propina a los creadores de contenido verificados como agradecimiento por haber creado un material tan maravilloso. Ellos las recibirán la primera semana de cada mes.</string>
     <string name="brave_ui_rewards_banner_text2">Si quieres, puedes programar el envío mensual de propinas para no dejar de contribuir con este sitio web en ningún momento.</string>
     <string name="brave_ui_donation_amount">Importe de la propina</string>
@@ -169,7 +172,7 @@ por ver anuncios que respetan tu privacidad.</string>
     <string name="brave_ui_make_monthly">Enviarla mensualmente</string>
     <string name="brave_ui_send_tip">enviar la propina</string>
     <string name="brave_ui_do_monthly">fijar una propina mensual</string>
-    <string name="brave_ui_not_enough_tokens">no hay vales suficientes</string>
+    <string name="brave_ui_not_enough_tokens">no hay suficientes <ph name=\"TOKEN\">%1$s<ex>vale</ex></ph>s</string>
     <string name="brave_ui_site_banner_notice_text">NOTA: Este creador de contenido todavía no se ha registrado y no puede recibir las aportaciones de los usuarios de Brave. Seguiremos intentando enviárselas hasta que se haya verificado o hayan transcurrido 90 días.</string>
     <string name="brave_ui_please">por favor</string>
     <string name="brave_ui_add_funds">añade fondos</string>
@@ -194,9 +197,10 @@ por ver anuncios que respetan tu privacidad.</string>
     <string name="brave_ui_no_activity">Todavía no hay actividades este
 mes...</string>
     <string name="brave_ui_token_grant_claimed">Donaciones de vales canjeadas</string>
+    <string name="brave_ui_point_grant_claimed">Asignación de puntos solicitada</string>
     <string name="brave_ui_earnings_ads">Ganancias procedentes de anuncios</string>
     <string name="brave_ui_rewards_contribute">Contribuir automáticamente</string>
-    <string name="brave_ui_rewards_contribute_description">Has aportado <ph name=\"BAT_VALUE\">%1$s<ex> 50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Ha contribuido con <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph><ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Propinas puntuales</string>
     <string name="brave_ui_recurring_donation">Propinas mensuales</string>
     <string name="brave_ui_verified_publisher">Editor de Brave verificado</string>
@@ -205,18 +209,18 @@ mes...</string>
         Cualquier propina que quieras enviarle se quedará en tu monedero hasta que se haya verificado.</string>
     <string name="brave_ui_on_youtube">en YouTube</string>
     <string name="brave_ui_on_twitch">en Twitch</string>
-    <string name="brave_ui_new_grant">Hay disponible una donación de vale gratuito.</string>
+    <string name="brave_ui_new_grant">Hay disponible una asignación gratuita de <ph name=\"TOKEN\">%1$s<ex>vale</ex></ph>.</string>
     <string name="brave_ui_new_token_grant">Donación de vale gratuito</string>
+    <string name="brave_ui_new_point_grant">Asignación de puntos gratuita</string>
     <string name="brave_ui_claim">Canjear</string>
-    <string name="brave_ui_reserved_amount_text">Has fijado <ph name=\"BAT_VALUE\">%1$s<ex> 50</ex></ph> BAT para los creadores de contenido que no se han registrado todavía
-y no pueden recibir aportaciones. El navegador seguirá intentando enviarle la aportación
-hasta que se haya verificado o hayan transcurrido 90 días.</string>
+    <string name="brave_ui_reserved_amount_text">Ha reservado <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph><ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> para creadores que todavía no se han registrado para recibir las contribuciones. Su navegador seguirá intentando contribuir hasta que dichos creadores se hayan verificado o hasta que pasen 90 días.</string>
     <string name="brave_ui_notification_desc_no_funds">Su pago mensual programado por contribución automática y propinas mensuales no se pudo completar debido a la insuficiencia de fondos. Lo intentaremos de nuevo en 30 días.</string>
     <string name="brave_ui_notification_desc_tip_error">Ha surgido un problema al procesar tu propina. Vuelve a intentarlo.</string>
     <string name="brave_ui_notification_desc_contr_error">Ha surgido un problema al procesar tu aportación.</string>
     <string name="brave_rewards_local_uh_oh">¡Vaya!</string>
     <string name="brave_rewards_local_server_not_responding">El servidor de recompensas de Brave no responde. Trataremos de solucionar este problema cuanto antes.</string>
     <string name="brave_ui_grants">Donaciones</string>
+    <string name="brave_ui_details">Información</string>
     <string name="brave_ui_expires_on">caduca el <ph name=\"DATE\">%1$s<ex>14/4/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Fondos insuficientes</string>
     <string name="brave_ui_insufficient_funds_desc">La cuenta de recompensas de Brave está esperando a que hagas algún ingreso.</string>
@@ -279,21 +283,17 @@ apoyar a los creadores de contenido que más te gustan.</string>
 
     <string name="block">Bloquear</string>
     <string name="brave_shields_onboarding_title">Escudos de Brave</string>
-    <string name="brave_shields_onboarding_text">anuncios y rastreadores que invaden la privacidad, a fin de que pueda navegar sin ser rastreado por la web.</string>
+    <string name="brave_shields_onboarding_text">anuncios y rastreadores que invaden la privacidad para que pueda navegar sin que lo sigan por toda la web.</string>
 
-    <string name="earn_tokens">Gane «tokens»</string>
+    <string name="earn_tokens">Gane <ph name=\"TOKEN\">%1$s<ex>vale</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">para ver anuncios que respetan la privacidad. Úselos para apoyar a sus sitios y creadores favoritos.</string>
     <string name="brave_rewards_onboarding_text2">para ver anuncios que respetan la privacidad.</string>
 
-    <string name="terms_title">Acepte los términos para poder utilizar Brave Rewards</string>
-    <string name="terms_text">Estoy de acuerdo con Brave Rewards</string>
+    <string name="terms_text">Al activar las recompensas, acepta los</string>
     <string name="terms_of_service">Términos de servicio</string>
 
-    <string name="agree">Estoy de acuerdo</string>
-    <string name="join">Unirse</string>
-
-     <string name="start_browsing">Comenzar a navegar</string>
+    <string name="start_browsing">Comenzar a navegar</string>
     <string name="i_didnt_see">No vi ningún anuncio</string>
 
     <string name="brave_ads_onboarding_title">Brave mostrará su primer anuncio en</string>
@@ -304,7 +304,6 @@ apoyar a los creadores de contenido que más te gustan.</string>
     <string name="turn_on">Encender</string>
 
     <string name="no_thanks">No, gracias</string>
-    <string name="do_not_agree">No estoy de acuerdo</string>
 
     <string name="prefs_welcome_tour">Recorrido de bienvenida</string>
     <string name="welcome_tour_dialog_text">El reinicio del «recorrido de bienvenida» no afectará ninguna configuración existente.</string>
@@ -313,5 +312,13 @@ apoyar a los creadores de contenido que más te gustan.</string>
     <string name="clear_download_title">Descargar historial</string>
 
     <string name="settings_exit">Salir de la configuración</string>
+
+    <string name="brave_license_text">Licencia de Brave</string>
+    <string name="token">vale</string>
+    <string name="point">punto</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

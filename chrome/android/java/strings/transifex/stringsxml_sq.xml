@@ -3,10 +3,8 @@
     <string name="brave_settings_title">Rregullime mburoje Brave sajti për</string>
     <string name="brave_shields_down">Poshtë</string>
     <string name="brave_shields_up">Sipër</string>
-    <string name="brave_shields_ads_trackers">Reklama dhe Gjurmues të Bllokuar</string>
     <string name="brave_shields_https_upgrades">Përmirësime HTTPS</string>
     <string name="brave_shields_scripts_blocked">Programthe të Bllokuar</string>
-    <string name="brave_shields_ads_tracking_switch">Bllokoni Reklama dhe Gjurmues</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Bllokoni Skripte</string>
     <string name="accessibility_toolbar_btn_brave_shields">Aktivizoni/Çaktivizoni Mburoja Brave</string>
@@ -38,8 +36,6 @@
     <string name="sync_device_failure">S\’u rregullua dot njëkohësim</string>
     <string name="sync_requires_correct_time">Ora e kompjuterit tuaj, ose zona kohore për të, mund të jetë caktuar gabim. Ju lutemi, kontrolloni rregullimet tuaja për orën.</string>
 
-    <string name="brave_stats_text_ads">Reklama dhe Gjurmues
-të Bllokuar</string>
     <string name="brave_stats_text_https">Përmirësime
 HTTPS-je</string>
     <string name="brave_stats_text_time">Kohë e Kursyes
@@ -56,7 +52,6 @@ Afërsisht</string>
     <string name="brave_shields_first_group_title">Bllokim Monitori</string>
     <string name="brave_shields_second_group_title">Kontrolle Individuale</string>
     <string name="brave_shields">Mburoja</string>
-    <string name="brave_shields_ads_and_trackers">Reklama dhe Gjurmues</string>
     <string name="brave_shields_fingerprint_methods">Metoda Fingerprinting-u</string>
     <string name="brave_shields_block_phishing_switch">Blloko Karremëzim</string>
 
@@ -151,18 +146,17 @@ Kurseni baterinë dhe ngarkojini faqet web më shpejt</string>
 
     <string name="brave_ui_welcome_header_two">Bëhuni gati të shijoni
 Internetin e ardhshëm.</string>
-    <string name="brave_ui_welcome_desc_two">Tani mund të fitoni pikë nga
-shikim reklamash që respektojnë privatësinë.</string>
+    <string name="brave_ui_welcome_desc_two">Mund të fitoni %1$ss duke parë
+reklama që respektojnë privatësinë.</string>
     <string name="brave_ui_welcome_button_text_two">MERRNI PJESË TE SHPËRBLIME</string>
     <string name="brave_ui_welcome_footer_text_two">MËSONI MË TEPËR</string>
     <string name="brave_ui_rewards_creating_text">Krijim portofoli</string>
     <string name="brave_ui_your_wallet">Portofoli juaj</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name="VALUE">%1$s<ex>0.0</ex></ph> USD</string>
     <string name="brave_rewards_local_panel_add_funds">Shtoni Fonde</string>
     <string name="brave_ui_settings">Rregullime</string>
     <string name="brave_ui_rewards_summary">PËRMBLEDHJE SHPËRBLIMESH</string>
-    <string name="brave_ui_site_banner_welcome">Falemnderit për ndalesën!</string>
+    <string name="brave_ui_site_banner_welcome">Mirë se vini!</string>
     <string name="brave_ui_rewards_banner_text1">Mund ta përkrahni këtë sajt duke dërguar një bakshish. Është një mënyrë për t\’i falënderuar për krijim lënde të mirë. Krijuesve të verifikuar të lëndës u paguhen bakshishet gjatë javës së parë të çdo muaji kalendarik.</string>
     <string name="brave_ui_rewards_banner_text2">Nëse dëshironi, mund të planifikoni bakshishe të përmuajshëm, në përkrahje të vazhdueshme të këtij sajti.</string>
     <string name="brave_ui_donation_amount">Sasi bakshishi</string>
@@ -170,7 +164,6 @@ shikim reklamash që respektojnë privatësinë.</string>
     <string name="brave_ui_make_monthly">Bëje të përmuajshëm</string>
     <string name="brave_ui_send_tip">dërgo bakshishin tim</string>
     <string name="brave_ui_do_monthly">caktoni bakshish të përmuajshëm</string>
-    <string name="brave_ui_not_enough_tokens">pikë të pamjaftueshme</string>
     <string name="brave_ui_site_banner_notice_text">SHËNIM: Ky krijues s\’është regjistruar ende për të marrë kontribute nga përdorues të Brave-it. Do të provojmë ta japim kontributin derisa të verifikohen, ose derisa të kenë kaluar 90 ditë.</string>
     <string name="brave_ui_please">ju lutemi</string>
     <string name="brave_ui_add_funds">shtoni fonde</string>
@@ -196,7 +189,6 @@ shikim reklamash që respektojnë privatësinë.</string>
 muaj…</string>
     <string name="brave_ui_earnings_ads">Fitim nga Reklama</string>
     <string name="brave_ui_rewards_contribute">Vetëkontribut</string>
-    <string name="brave_ui_rewards_contribute_description">Keni kontribuar <ph name="BAT_VALUE">%1$s<ex>50</ex></ph> BAT.</string>
     <string name="brave_ui_one_time_donation">Bakshishe të Një here</string>
     <string name="brave_ui_recurring_donation">Bakshishe të Përmuajshëm</string>
     <string name="brave_ui_verified_publisher">Botues Brave i Verifikuar</string>
@@ -205,15 +197,13 @@ muaj…</string>
 Çfarëdo bakshishi që dërgoni do të mbetet në portofolin tuaj derisa të verifikohen.</string>
     <string name="brave_ui_on_youtube">në YouTube</string>
     <string name="brave_ui_on_twitch">në Twitch</string>
-    <string name="brave_ui_reserved_amount_text">Keni caktuar <ph name="BAT_VALUE">%1$s<ex>50</ex></ph> BAT për krijues që s’janë
-regjistruar ende për të marrë kontributet për ta. Shfletuesi juaj do të provojë
-të japë kontributet derisa të bëjnë verifikim, ose derisa të kenë kaluar 90 ditë.</string>
     <string name="brave_ui_notification_desc_no_funds">Pagesa juaj e planifikuar e përmuajshme për Vetëkontribut dhe bakshishe të përmuajshëm s\’u plotësua dot, për shkak fondesh të pamjaftueshme. Do të riprovojmë pas 30 ditësh.</string>
     <string name="brave_ui_notification_desc_tip_error">Pati një problem me përpunimin e bakshishit tuaj, ju lutemi, riprovoni.</string>
     <string name="brave_ui_notification_desc_contr_error">Pati një problem me përpunimin e kontributit tuaj.</string>
     <string name="brave_rewards_local_uh_oh">Hëm!</string>
     <string name="brave_rewards_local_server_not_responding">Shërbyesi i Shpërblimeve Brave nuk po përgjigjet. Do ta ndreqim sa më shpejt të jetë e mundur.</string>
     <string name="brave_ui_grants">Grante</string>
+    <string name="brave_ui_details">Hollësi</string>
     <string name="brave_ui_expires_on">skadon më <ph name="DATE">%1$s<ex>4/14/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Fonde të Pamjaftueshëm</string>
     <string name="brave_ui_insufficient_funds_desc">Llogaria jua Shpërblime Brave po pret për një depozitim.</string>
@@ -276,20 +266,14 @@ përkrahje të krijuesve të lëndës që doni.</string>
 
     <string name="block">Bllokoje</string>
     <string name="brave_shields_onboarding_title">Mburoja Brave</string>
-    <string name="brave_shields_onboarding_text">reklama dhe gjurmues që cenojnë privatësinë, që kështu të mund të shfletoni pa u ndjekur nëpër web.</string>
-
     <string name="brave_rewards_onboarding_title">Shpërblime Brave</string>
     <string name="brave_rewards_onboarding_text">për parje reklamash që respektojnë privatësinë. Përdorini për të përkrahur sajtet dhe krijuesit tuaj të parapëlqyer.</string>
     <string name="brave_rewards_onboarding_text2">për parje reklamash që respektojnë privatësinë.</string>
 
-    <string name="terms_title">Që të përdorni Shpërblimet Brave, pajtohuni me Kushtet</string>
-    <string name="terms_text">Pajtohem me Shpërblimet Brave</string>
+    <string name="terms_text">Duke aktivizuar shpërblimet, pajtoheni me</string>
     <string name="terms_of_service">Kushte Shërbimi</string>
 
-    <string name="agree">Pajtohem</string>
-    <string name="join">Bëhuni Pjesë</string>
-
-     <string name="start_browsing">Filloni të shfletoni</string>
+    <string name="start_browsing">Filloni të shfletoni</string>
     <string name="i_didnt_see">S\’pashë ndonjë reklamë</string>
 
     <string name="brave_ads_onboarding_title">Brave-i do t\’ju shfaqë reklamën e parë për</string>
@@ -300,7 +284,6 @@ përkrahje të krijuesve të lëndës që doni.</string>
     <string name="turn_on">Aktivizoji</string>
 
     <string name="no_thanks">Jo, faleminderit</string>
-    <string name="do_not_agree">Nuk pajtohem</string>
 
     <string name="prefs_welcome_tour">Tur Mirëseardhjeje</string>
     <string name="welcome_tour_dialog_text">Rinisja e Turit të Mirëseardhjes s’do të prekë ndonjë nga rregullimet ekzistuese.</string>
@@ -309,5 +292,10 @@ përkrahje të krijuesve të lëndës që doni.</string>
     <string name="clear_download_title">Historik shkarkimesh</string>
 
     <string name="settings_exit">Dalje nga Rregullimet</string>
+
+    <string name="brave_license_text">Licencën e Brave-it</string>
+    <string name="one_tip_option">1 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

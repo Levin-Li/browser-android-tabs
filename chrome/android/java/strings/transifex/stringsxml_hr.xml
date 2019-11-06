@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Postavke štita mrežne stranice Brave za</string>
     <string name="brave_shields_down">Dolje</string>
     <string name="brave_shields_up">Gore</string>
-    <string name="brave_shields_ads_trackers">Oglasi i obilježivači blokirani</string>
+    <string name="brave_shields_ads_trackers">Pratitelji &amp; oglasa blokirani</string>
     <string name="brave_shields_https_upgrades">HTTPS Unaprjeđenja</string>
     <string name="brave_shields_scripts_blocked">Skripte blokirane</string>
-    <string name="brave_shields_ads_tracking_switch">Blokirati oglase i obilježivače</string>
+    <string name="brave_shields_ads_tracking_switch">Blokirajte slijeđenje &amp; oglasa</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Svugdje</string>
     <string name="brave_shields_blocks_scripts_switch">Blokirati skripte</string>
     <string name="accessibility_toolbar_btn_brave_shields">Omogućiti/onemogućiti štitove za Brave</string>
@@ -36,8 +36,8 @@
     <string name="enter_code_words_sync">Unesi kodne riječi</string>
     <string name="sync_device">Sinkroniziraj uređaj</string>
     <string name="sync_device_failure">Postavljanje sinkronizacije nije uspjelo</string>
-    <string name="brave_stats_text_ads">Blokirani
-oglasi i elementi za praćenje</string>
+    <string name="brave_stats_text_ads">Pratitelji &amp; oglasa
+Blokirano</string>
     <string name="brave_stats_text_https">HTTPS
 Unaprjeđenja</string>
     <string name="brave_stats_text_time">Est. Vrijeme
@@ -54,7 +54,7 @@ Spaseno</string>
     <string name="brave_shields_first_group_title">Blokirajući zaslon</string>
     <string name="brave_shields_second_group_title">Pojedinačni upravljački elementi</string>
     <string name="brave_shields">Štitnici</string>
-    <string name="brave_shields_ads_and_trackers">Oglasi i obilježivači</string>
+    <string name="brave_shields_ads_and_trackers">Pratitelji &amp; oglasa</string>
     <string name="brave_shields_fingerprint_methods">Načini otiska prsta</string>
     <string name="brave_shields_block_phishing_switch">Blokiraj pokušaj krađe identiteta</string>
 
@@ -149,18 +149,22 @@ Uštedite bateriju i brže učitavajte internetske stranice</string>
 
     <string name="brave_ui_welcome_header_two">Pripremite se za
 novu vrstu interneta.</string>
-    <string name="brave_ui_welcome_desc_two">Gledanjem oglasa koji poštuju privatnost
-sada možete zaraditi žetone.</string>
+    <string name="brave_ui_welcome_desc_two">Sad možete zaraditi %1$ss za
+gledanje oglasa kojima se poštuje privatnost.</string>
     <string name="brave_ui_welcome_button_text_two">PRIDRUŽITE SE NAGRADAMA</string>
     <string name="brave_ui_welcome_footer_text_two">SAZNAJTE VIŠE</string>
     <string name="brave_ui_rewards_creating_text">Izrada lisnice</string>
     <string name="brave_ui_your_wallet">Vaša lisnica</string>
+    <string name="brave_ui_your_balance">Vaš saldo</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph>USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Poeni BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Dodaj sredstva</string>
     <string name="brave_ui_settings">Postavke</string>
     <string name="brave_ui_rewards_summary">SAŽETAK NAGRADA</string>
-    <string name="brave_ui_site_banner_welcome">Hvala što ste navratili!</string>
+    <string name="brave_ui_site_banner_welcome">Dobro došli!</string>
     <string name="brave_ui_rewards_banner_text1">Ovu stranicu možete podržati tako da pošaljete napojnicu. Na taj im se način možete zahvaliti za stvaranje odličnih sadržaja. Potvrđeni se stvaratelji sadržaja isplaćuju na temelju napojnica tijekom prvog tjedna svakog kalendarskog mjeseca.</string>
     <string name="brave_ui_rewards_banner_text2">Ako želite, možete zakazati mjesečnu uplatu napojnica radi pružanja redovite podrške ovoj stranici.</string>
     <string name="brave_ui_donation_amount">Iznos napojnice</string>
@@ -168,7 +172,7 @@ sada možete zaraditi žetone.</string>
     <string name="brave_ui_make_monthly">Uplaćuj mjesečno</string>
     <string name="brave_ui_send_tip">pošalji napojnicu</string>
     <string name="brave_ui_do_monthly">postavi mjesečnu napojnicu</string>
-    <string name="brave_ui_not_enough_tokens">nedovoljan broj žetona</string>
+    <string name="brave_ui_not_enough_tokens">nije dovoljno <ph name=\"TOKEN\">%1$s<ex>žeton</ex></ph>s</string>
     <string name="brave_ui_site_banner_notice_text">NAPOMENA: Stvaratelj se još nije prijavio za primanje doprinosa od korisnika aplikacije Brave. Pokušavati ćemo proslijediti doprinose dok ih stvaratelj ne potvrdi ili dok ne prođe 90 dana.</string>
     <string name="brave_ui_please">molim</string>
     <string name="brave_ui_add_funds">dodaj sredstva</string>
@@ -193,9 +197,10 @@ sada možete zaraditi žetone.</string>
     <string name="brave_ui_no_activity">Još ne postoje aktivnosti u ovom
 mjesecu</string>
     <string name="brave_ui_token_grant_claimed">Preuzeti iznos žetona</string>
+    <string name="brave_ui_point_grant_claimed">Preuzeto sredstava za poene</string>
     <string name="brave_ui_earnings_ads">Zarada od oglasa</string>
     <string name="brave_ui_rewards_contribute">Automatski doprinesi</string>
-    <string name="brave_ui_rewards_contribute_description">Doprinijeli ste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Vi ste pridonijeli sa <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Jednokratne napojnice</string>
     <string name="brave_ui_recurring_donation">Mjesečne napojnice</string>
     <string name="brave_ui_verified_publisher">Izdavač kojeg je potvrdio Brave</string>
@@ -204,18 +209,20 @@ mjesecu</string>
 Sve poslane napojnice ostat će u vašoj lisnici dok ih stvaratelj ne potvrdi.</string>
     <string name="brave_ui_on_youtube">na mrežnoj usluzi Youtube</string>
     <string name="brave_ui_on_twitch">na mrežnoj usluzi Twitch</string>
-    <string name="brave_ui_new_grant">Dostupni su besplatni žetoni.</string>
+    <string name="brave_ui_new_grant">Besplatan <ph name=\"TOKEN\">%1$s<ex>žeton</ex></ph> kao poklon je dostupan.</string>
     <string name="brave_ui_new_token_grant">Besplatni žetoni</string>
+    <string name="brave_ui_new_point_grant">Besplatno sredstvo za poene</string>
     <string name="brave_ui_claim">Preuzmi</string>
-    <string name="brave_ui_reserved_amount_text">Namijenili ste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>BAT stvarateljima koji se još nisu
-prijavili za primanje doprinosa. Vaš će preglednik pokušavati proslijediti doprinose
-dok ih stvaratelj ne potvrdi ili dok ne prođe 90 dana.</string>
+    <string name="brave_ui_reserved_amount_text">Vi ste odredili <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> koji se još nisu
+prijavili za primanje doprinosa. Vaš preglednik će nastaviti pokušavati pridonijeti
+dok oni ne izvrše provjeru, ili dok ne prođe 90 dana.</string>
     <string name="brave_ui_notification_desc_no_funds">Vaše zakazano mjesečno plaćanje za Auto-doprinos i mjesečne napojnice nije se moglo obavii zbog nedostatnih sredstava. Pokušat ćemo ponovno za 30 dana.</string>
     <string name="brave_ui_notification_desc_tip_error">Nastao je problem pri obradi vaše napojnice.  Pokušajte ponovno.</string>
     <string name="brave_ui_notification_desc_contr_error">Nastao je problem pri obradi vašeg doprinosa.</string>
     <string name="brave_rewards_local_uh_oh">Ups!</string>
     <string name="brave_rewards_local_server_not_responding">Polužitelj nagrada za Brave ne reagira. Popravit ćemo problem što je prije moguće.</string>
     <string name="brave_ui_grants">Dodijeljenja sredstva</string>
+    <string name="brave_ui_details">Pojedinosti</string>
     <string name="brave_ui_expires_on">istječe<ph name=\"DATE\"> %1$s<ex>14. 4. 2019.</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Nedovoljno sredstava</string>
     <string name="brave_ui_insufficient_funds_desc">Vaš račun nagrada za Brave čeka depozit.</string>
@@ -276,21 +283,17 @@ omiljene stvaratelje sadržaja.</string>
 
     <string name="block">Blokiraj</string>
     <string name="brave_shields_onboarding_title">Štitnici Brave</string>
-    <string name="brave_shields_onboarding_text">oglasi kojima se ugrožava privatnost i elementi za praćenje kako biste mogli pregledavati internet, a da vas se pritom ne prati.</string>
+    <string name="brave_shields_onboarding_text">praititelji &amp; oglasa koji napadaju privatnost tako da možete vršiti pregledanje a da vas se ne prati po mreži.</string>
 
-    <string name="earn_tokens">Osvojite žetone</string>
+    <string name="earn_tokens">Zaradite <ph name=\"TOKEN\">%1$s<ex>žeton</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Nagrade Brave</string>
     <string name="brave_rewards_onboarding_text">za pregledavanje oglasa kojima se poštuje privatnost. Upotrijebite ih za podržavanje omiljenih mrežnih mjesta i stvaratelja.</string>
     <string name="brave_rewards_onboarding_text2">za pregledavanje oglasa kojima se poštuje privatnost.</string>
 
-    <string name="terms_title">Slažem se s odredbama korištenja nagradama Brave</string>
-    <string name="terms_text">Slažem se s nagradama Brave</string>
+    <string name="terms_text">Paljenjem Nagrada, vi se slažete sa</string>
     <string name="terms_of_service">Odredbe pružanja usluge</string>
 
-    <string name="agree">Slažem se</string>
-    <string name="join">Sudjelovanje</string>
-
-     <string name="start_browsing">Započni pregledavanje</string>
+    <string name="start_browsing">Započni pregledavanje</string>
     <string name="i_didnt_see">Nisam vidio/la oglas</string>
 
     <string name="brave_ads_onboarding_title">U pregledniku se Brave prvi oglas prikazuje za</string>
@@ -301,7 +304,6 @@ omiljene stvaratelje sadržaja.</string>
     <string name="turn_on">Uključi</string>
 
     <string name="no_thanks">Ne, hvala</string>
-    <string name="do_not_agree">Ne slažem se</string>
 
     <string name="prefs_welcome_tour">Demonstracijski prikaz</string>
     <string name="welcome_tour_dialog_text">Pokretanjem demonstracijskog prikaza ne utječe se na postojeće postavke.</string>
@@ -310,5 +312,13 @@ omiljene stvaratelje sadržaja.</string>
     <string name="clear_download_title">Preuzeti povijest</string>
 
     <string name="settings_exit">Izlaz iz postavki</string>
+
+    <string name="brave_license_text">Dozvola za Brave</string>
+    <string name="token">žeton</string>
+    <string name="point">poen</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Nastavení stránkového štítu Brave pro</string>
     <string name="brave_shields_down">Dolů</string>
     <string name="brave_shields_up">Nahoru</string>
-    <string name="brave_shields_ads_trackers">Reklamy a trackery zablokovány</string>
+    <string name="brave_shields_ads_trackers">Reklamy a trackery blokovány</string>
     <string name="brave_shields_https_upgrades">Rozšíření HTTPS</string>
     <string name="brave_shields_scripts_blocked">Skripty zablokovány</string>
-    <string name="brave_shields_ads_tracking_switch">Zablokovat reklamy a sledování</string>
+    <string name="brave_shields_ads_tracking_switch">Blokování reklam a sledování</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS všude</string>
     <string name="brave_shields_blocks_scripts_switch">Blokovat skripty</string>
     <string name="accessibility_toolbar_btn_brave_shields">Zapnout/vypnout štíty Brave</string>
@@ -38,8 +38,7 @@
     <string name="sync_device_failure">Synchronizace nemohla být nastavena</string>
     <string name="sync_requires_correct_time">Hodiny vašeho počítače mohou být nastaveny na nesprávný čas nebo na nesprávnou časovou zónu. Zkontrolujte nastavení hodin</string>
 
-    <string name="brave_stats_text_ads">Reklamy a nástroje na sledování
-Blokováno</string>
+    <string name="brave_stats_text_ads">Reklamy a trackery blokovány</string>
     <string name="brave_stats_text_https">HTTPS
 Rozšíření</string>
     <string name="brave_stats_text_time">Odhadovaný čas
@@ -151,18 +150,21 @@ Změnit ho můžete v nastavení aplikací. </string>
 
     <string name="brave_ui_welcome_header_two">Připravte se na nový zážitek
 z internetu.</string>
-    <string name="brave_ui_welcome_desc_two">Tokeny nyní můžete získat
-za sledování reklam respektujících soukromí.</string>
+    <string name="brave_ui_welcome_desc_two">Nyní si můžete vydělat %1$ss za sledování reklam respektujících soukromí.</string>
     <string name="brave_ui_welcome_button_text_two">PŘIPOJIT SE DO PROGRAMU REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">DALŠÍ INFORMACE</string>
     <string name="brave_ui_rewards_creating_text">Vytváření peněženky</string>
     <string name="brave_ui_your_wallet">Vaše peněženka</string>
+    <string name="brave_ui_your_balance">Váš zůstatek</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Body BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Přidat prostředky</string>
     <string name="brave_ui_settings">Nastavení</string>
     <string name="brave_ui_rewards_summary">SHRNUTÍ ODMĚN</string>
-    <string name="brave_ui_site_banner_welcome">Děkujeme za návštěvu!</string>
+    <string name="brave_ui_site_banner_welcome">Vítejte!</string>
     <string name="brave_ui_rewards_banner_text1">Tuto stránku můžete podpořit tím, že pošlete spropitné. Je to způsob, jak autorům poděkovat za vytvoření skvělého obsahu. Ověřeným autorům obsahu je spropitné vypláceno první týden každého kalendářního měsíce.</string>
     <string name="brave_ui_rewards_banner_text2">Pokud chcete, můžete si naplánovat pravidelné měsíční spropitné na podporu této stránky.</string>
     <string name="brave_ui_donation_amount">Výše spropitného</string>
@@ -170,7 +172,7 @@ za sledování reklam respektujících soukromí.</string>
     <string name="brave_ui_make_monthly">Platit měsíčně</string>
     <string name="brave_ui_send_tip">poslat spropitné</string>
     <string name="brave_ui_do_monthly">nastavit měsíční spropitné</string>
-    <string name="brave_ui_not_enough_tokens">nedostatek tokenů</string>
+    <string name="brave_ui_not_enough_tokens">nedostatek not enough <ph name=\"TOKEN\">%1$s<ex>tokenů</ex></ph></string>
     <string name="brave_ui_site_banner_notice_text">POZNÁMKA: Tento autor se zatím nezaregistroval, aby mohl získávat příspěvky od uživatelů Brave. Budeme se mu snažit přispívat, dokud svůj účet neověří, nebo dokud neuplyne 90 dní.</string>
     <string name="brave_ui_please">prosím</string>
     <string name="brave_ui_add_funds">přidat prostředky</string>
@@ -195,9 +197,10 @@ za sledování reklam respektujících soukromí.</string>
     <string name="brave_ui_no_activity">Tento měsíc zatím nedošlo
 k žádné aktivitě...</string>
     <string name="brave_ui_token_grant_claimed">Získány dárkové tokeny</string>
+    <string name="brave_ui_point_grant_claimed">Granty na body uplatněny</string>
     <string name="brave_ui_earnings_ads">Výnosy z reklam</string>
     <string name="brave_ui_rewards_contribute">Automatické přispívání</string>
-    <string name="brave_ui_rewards_contribute_description">Přispěl/a jste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Přispěli jste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Jednorázové spropitné</string>
     <string name="brave_ui_recurring_donation">Měsíční spropitné</string>
     <string name="brave_ui_verified_publisher">Autor ověřený Brave</string>
@@ -206,18 +209,18 @@ k žádné aktivitě...</string>
       Jakékoli zaslané spropitné zůstane ve vaší peněžence, dokud autor svůj účet neověří.</string>
     <string name="brave_ui_on_youtube">na YouTube</string>
     <string name="brave_ui_on_twitch">na Twitchi</string>
-    <string name="brave_ui_new_grant">Je k dispozici dárkový token zdarma.</string>
+    <string name="brave_ui_new_grant">Bezplatný grant <ph name=\"TOKEN\">%1$s<ex>tokenu</ex></ph> je dostupný.</string>
     <string name="brave_ui_new_token_grant">Dárkový token zdarma</string>
+    <string name="brave_ui_new_point_grant">Grant bodů zdarma</string>
     <string name="brave_ui_claim">Získat</string>
-    <string name="brave_ui_reserved_amount_text">Vyhradili jste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT pro tvůrce, kteří se ještě
-nezaregistrovali, aby mohli získávat příspěvky. Váš prohlížeč se bude pokoušet přispívat,
-dokud autoři svůj účet neověří, nebo dokud neuplyne 90 dní. </string>
+    <string name="brave_ui_reserved_amount_text">Určili jste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> pro tvůrce, kteří se dosud nepřihlásili k získání příspěvků. Váš prohlížeč se bude pokoušet přispět do jejich ověření, nebo do uplynutí 90 dnů.</string>
     <string name="brave_ui_notification_desc_no_funds">Vaše naplánovaná měsíční platba automatických příspěvků a měsíčních spropitných se nepodařila kvůli nedostatku prostředků. Zkusíme to znovu za 30 dní.</string>
     <string name="brave_ui_notification_desc_tip_error">Při zpracovávání vašeho spropitného došlo k chybě. Zkuste to znovu.</string>
     <string name="brave_ui_notification_desc_contr_error">Při zpracovávání vašeho příspěvku došlo k chybě.</string>
     <string name="brave_rewards_local_uh_oh">Jejda!</string>
     <string name="brave_rewards_local_server_not_responding">Server Brave Rewards neodpovídá. Co nejrychleji to napravíme.</string>
     <string name="brave_ui_grants">Dárky</string>
+    <string name="brave_ui_details">Podrobnosti</string>
     <string name="brave_ui_expires_on">vyprší <ph name=\"DATE\">%1$s<ex>14. 4. 2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Nedostatek prostředků</string>
     <string name="brave_ui_insufficient_funds_desc">Váš účet Brave Rewards čeká na vklad.</string>
@@ -280,21 +283,17 @@ tvůrce obsahu, který milujete.</string>
 
     <string name="block">Blok</string>
     <string name="brave_shields_onboarding_title">Brave Shields</string>
-    <string name="brave_shields_onboarding_text">reklamy a sledovače, které narušují soukromí, abyste mohli procházet webové stránky, aniž by vás někdo sledoval.</string>
+    <string name="brave_shields_onboarding_text">reklamy zasahující do soukromí a trackery, takže můžete prohlížet web, aniž byste byli sledováni.</string>
 
-    <string name="earn_tokens">Získat tokeny</string>
+    <string name="earn_tokens">Získat <ph name=\"TOKEN\">%1$s<ex>tokenů</ex></ph></string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">pro zobrazování reklam respektujících soukromí. Použijte je k podpoře svých oblíbených webových stránek a tvůrců.</string>
     <string name="brave_rewards_onboarding_text2">za sledování reklam respektujících soukromí. </string>
 
-    <string name="terms_title">Souhlasit se smluvními podmínkami Brave Rewards</string>
-    <string name="terms_text">Souhlasím s Brave Rewards</string>
+    <string name="terms_text">Aktivací odměn souhlasíte s</string>
     <string name="terms_of_service">Podmínky služby</string>
 
-    <string name="agree">Souhlasit </string>
-    <string name="join">Připojit se </string>
-
-     <string name="start_browsing">Začít procházet</string>
+    <string name="start_browsing">Začít procházet</string>
     <string name="i_didnt_see">Reklamu jsem neviděl/a</string>
 
     <string name="brave_ads_onboarding_title">Brave zobrazí vaši první reklamu za </string>
@@ -305,7 +304,6 @@ tvůrce obsahu, který milujete.</string>
     <string name="turn_on">Zapnout</string>
 
     <string name="no_thanks">Ne, děkuji</string>
-    <string name="do_not_agree">Nesouhlasím</string>
 
     <string name="prefs_welcome_tour">Uvítací prohlídka</string>
     <string name="welcome_tour_dialog_text">Opětovné spuštění uvítací prohlídky neovlivní žádná existující nastavení.</string>
@@ -314,5 +312,13 @@ tvůrce obsahu, který milujete.</string>
     <string name="clear_download_title">Historie stahování</string>
 
     <string name="settings_exit">Ukončení nastavení</string>
+
+    <string name="brave_license_text">Licence Brave</string>
+    <string name="token">token</string>
+    <string name="point">bod</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

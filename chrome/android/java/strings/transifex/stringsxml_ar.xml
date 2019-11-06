@@ -3,10 +3,10 @@
     <string name="brave_settings_title">إعدادات موقع درع Brave  ل</string>
     <string name="brave_shields_down">أسفل</string>
     <string name="brave_shields_up">فوق</string>
-    <string name="brave_shields_ads_trackers">حجب القتفون والإعلانات</string>
+    <string name="brave_shields_ads_trackers">تم حجب الإعلانات &amp; وبرامج التتبع</string>
     <string name="brave_shields_https_upgrades">تحديثات HTTPS</string>
     <string name="brave_shields_scripts_blocked">حجب النصوص</string>
-    <string name="brave_shields_ads_tracking_switch">حظر الإعلانات والتتبع</string>
+    <string name="brave_shields_ads_tracking_switch">حجب الإعلانات &amp; وبرامج التتبع</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS في كل مكان</string>
     <string name="brave_shields_blocks_scripts_switch">حظر النصوص</string>
     <string name="accessibility_toolbar_btn_brave_shields">تفعيل/ تعطيل دروع Brave</string>
@@ -38,7 +38,8 @@
     <string name="sync_device_failure">تعذر إعداد المزامنة</string>
     <string name="sync_requires_correct_time">قد تكون ساعة الكمبيوتر الخاص بك مضبوطة على الوقت الخطأ، أو على المنطقة الزمنية الخطأ. تحققْ من إعدادات الساعة الخاصة بك</string>
 
-    <string name="brave_stats_text_ads">تم حجب الإعلانات وبرامج التتبع</string>
+    <string name="brave_stats_text_ads">تم حجب 
+الإعلانات &amp; وبرامج التتبع</string>
     <string name="brave_stats_text_https">ترقيات 
 HTTPS</string>
     <string name="brave_stats_text_time">حُفِظ
@@ -56,7 +57,7 @@ HTTPS</string>
     <string name="brave_shields_first_group_title">حظر المراقبة</string>
     <string name="brave_shields_second_group_title">وسائل التحكم الفردية</string>
     <string name="brave_shields">دروع</string>
-    <string name="brave_shields_ads_and_trackers">إعلانات ومتتبعات</string>
+    <string name="brave_shields_ads_and_trackers">الإعلانات &amp; وبرامج التتبع</string>
     <string name="brave_shields_fingerprint_methods">وسائل قراءة البصمات</string>
     <string name="brave_shields_block_phishing_switch">حظر التصيد الاحتيالي</string>
 
@@ -153,18 +154,22 @@ HTTPS</string>
 
     <string name="brave_ui_welcome_header_two">استعد لتجربة
 الإنترنت الجديد.</string>
-    <string name="brave_ui_welcome_desc_two">يمكنك الآن كسب رموزًا مميزة
-لمشاهدتك إعلانات تحترم الخصوصية.</string>
+    <string name="brave_ui_welcome_desc_two">يمكنك الآن ربح %1$ss مقابل
+مشاهدة الإعلانات التي تحترم الخصوصية.</string>
     <string name="brave_ui_welcome_button_text_two">الانضمام إلى الجوائز</string>
     <string name="brave_ui_welcome_footer_text_two">معرفة المزيد</string>
     <string name="brave_ui_rewards_creating_text">جار إنشاء محفظة</string>
     <string name="brave_ui_your_wallet">محفظتك</string>
+    <string name="brave_ui_your_balance">رصيدك</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">نقاط BAP</string>
+    <string name="brave_ui_bat_points_text">نقاط عملة BAT الرمزية</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">دولار أمريكي</string>
     <string name="brave_rewards_local_panel_add_funds">إضافة أموال</string>
     <string name="brave_ui_settings">الإعدادات</string>
     <string name="brave_ui_rewards_summary">ملخص الجوائز</string>
-    <string name="brave_ui_site_banner_welcome">نشكرك على مرورك علينا!</string>
+    <string name="brave_ui_site_banner_welcome">مرحباً!</string>
     <string name="brave_ui_rewards_banner_text1">يمكنك دعم الموقع عن طريق إرسال إكرامية. إنها طريقة لشكرهم على ابتكار محتوى رائع. يقبض مبتكرو المحتوى المُصدَّق عليه المال مقابل الإكراميات المرسلة إليهم أثناء الأسبوع الأول من كل شهر في التقويم.</string>
     <string name="brave_ui_rewards_banner_text2">يمكنك إذا أردت أن تحدد موعدًا للإكراميات الشهرية لدعم هذا الموقع بشكلٍ مستمر.</string>
     <string name="brave_ui_donation_amount">مبلغ الإكرامية</string>
@@ -172,7 +177,7 @@ HTTPS</string>
     <string name="brave_ui_make_monthly">اجعل هذا شهريًّا</string>
     <string name="brave_ui_send_tip">أرسل إكراميتي</string>
     <string name="brave_ui_do_monthly">حدد إكرامية شهرية</string>
-    <string name="brave_ui_not_enough_tokens">لا توجد رموز سرية كافية</string>
+    <string name="brave_ui_not_enough_tokens">لا توجد عملة (عملات) <ph name=\"TOKEN\">%1$s<ex>رمزية كافية </ex></ph></string>
     <string name="brave_ui_site_banner_notice_text">ملحوظة: لم يشترك هذا المبتكر بعد ليتلقّى المساهمات من مستخدمي Brave. سنستمر في محاولة الإسهام حتى يتم التصديق عليه، أو حتى يمر 90 يومًا.</string>
     <string name="brave_ui_please">رجاءً</string>
     <string name="brave_ui_add_funds">إضافة أموال</string>
@@ -197,9 +202,10 @@ HTTPS</string>
     <string name="brave_ui_no_activity">لم تظهر أنشطة بعد
 هذا الشهر...</string>
     <string name="brave_ui_token_grant_claimed">تمت المطالبة بمِنح الرموز السرية</string>
+    <string name="brave_ui_point_grant_claimed">منح النقاط المطالب بها</string>
     <string name="brave_ui_earnings_ads">الأرباح من الإعلانات</string>
     <string name="brave_ui_rewards_contribute">المساهمة التلقائية</string>
-    <string name="brave_ui_rewards_contribute_description">لقد ساهمت بـ <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">لقد ساهمت بـ <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>عملة BAT الرمزية</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">إكراميات لمرة واحدة</string>
     <string name="brave_ui_recurring_donation">إكراميات شهرية</string>
     <string name="brave_ui_verified_publisher">ناشر مُصدّق في Brave</string>
@@ -208,18 +214,20 @@ HTTPS</string>
 ستظل أي إكراميات في محفظتك حتى يتم التصديق عليه.</string>
     <string name="brave_ui_on_youtube">على YouTube</string>
     <string name="brave_ui_on_twitch">على Twitch</string>
-    <string name="brave_ui_new_grant">تتوفر منحة رمز سري مجانية.</string>
+    <string name="brave_ui_new_grant">تتوفر منحة مجانية بمقدار <ph name=\"TOKEN\">%1$s<ex>عملة رمزية</ex></ph>.</string>
     <string name="brave_ui_new_token_grant">منحة رمز سري</string>
+    <string name="brave_ui_new_point_grant">منح النقاط المجانية</string>
     <string name="brave_ui_claim">مطالبة</string>
-    <string name="brave_ui_reserved_amount_text">لقد خصصت <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT لمبتكرين لم
-يشتركوا بعد لتلقِّي مساهمات. سيستمر متصفحك في محاولة الإسهام
-حتى يتم  التصديق عليه، أو حتى يمر 90 يومًا.</string>
+    <string name="brave_ui_reserved_amount_text">لقد حددت <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex> من عملة BAT الرمزية</ex></ph>للمُنشئين الذين لم يشتركوا
+بعد لتلقي المساهمات. سوف يستمر متصفحك في محاولة المساهمة
+حتى تتم عملية التحقق، أو حتى مرور 90 يوماً.</string>
     <string name="brave_ui_notification_desc_no_funds">تعذر إكمال دفعتك الشهرية المجدولة للمشاركة التلقائية والنصائح الشهرية نظراً لعدم كفاية الأموال. سنحاول مرة أخرى خلال 30 يوماً. </string>
     <string name="brave_ui_notification_desc_tip_error">وقعت مشكلة أثناء معالجة إكراميتك، يُرجى إعادة المحاولة.</string>
     <string name="brave_ui_notification_desc_contr_error">وقعت مشكلة أثناء معالجة مساهمتك،</string>
     <string name="brave_rewards_local_uh_oh">عذرًا!</string>
     <string name="brave_rewards_local_server_not_responding">لا يستجيب خادم جوائز Brave. سنُصلح هذه المشكلة بأسرع ما يمكن.</string>
     <string name="brave_ui_grants">المِنح</string>
+    <string name="brave_ui_details">التفاصيل</string>
     <string name="brave_ui_expires_on">تنتهي الصلاحية في <ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">أموال غير كافية</string>
     <string name="brave_ui_insufficient_funds_desc">ينتظر حساب جوائز Brave الخاص بك إيداعًا.</string>
@@ -283,21 +291,17 @@ HTTPS</string>
 
     <string name="block">حظر</string>
     <string name="brave_shields_onboarding_title">تقنية Brave Shields</string>
-    <string name="brave_shields_onboarding_text">إعلانات منتهكة للخصوصية وبرامج تتبع بحيث يمكنك التصفح دون أن يتم تعقبك عبر الويب.</string>
+    <string name="brave_shields_onboarding_text">برامج التتتبع &amp; والإعلانات التي تخترق الخصوصية، حتى تتمكن من التصفح دون تتبعك عبر الويب.</string>
 
-    <string name="earn_tokens">اربح العملات الرمزية</string>
+    <string name="earn_tokens">اربح <ph name=\"TOKEN\">%1$s<ex>عملة رمزية</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">منصة Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">لمشاهدة الإعلانات التي تحترم الخصوصية. استخدمها لدعم المواقع ومنشئي المحتوى المفضلين لديك.</string>
     <string name="brave_rewards_onboarding_text2">لمشاهدة الإعلانات التي تحترم الخصوصية.</string>
 
-    <string name="terms_title">وافق على شروط استخدام منصة Brave Rewards</string>
-    <string name="terms_text">أوافق على شروط منصة Brave Rewards</string>
+    <string name="terms_text">بتشغيل نظام Rewards، فإنك توافق على</string>
     <string name="terms_of_service">شروط الخدمة</string>
 
-    <string name="agree">أوافق</string>
-    <string name="join">انضمام</string>
-
-     <string name="start_browsing">ابدأ التصفح</string>
+    <string name="start_browsing">ابدأ التصفح</string>
     <string name="i_didnt_see">لا أرى أية إعلانات</string>
 
     <string name="brave_ads_onboarding_title">سوف يعرض لك Brave إعلانك الأول في غضون</string>
@@ -308,7 +312,6 @@ HTTPS</string>
     <string name="turn_on">تشغيل</string>
 
     <string name="no_thanks">لا شكراً</string>
-    <string name="do_not_agree">لا أوافق</string>
 
     <string name="prefs_welcome_tour">جولة ترحيبية</string>
     <string name="welcome_tour_dialog_text">لن تؤثر إعادة تشغيل \"جولة الترحيب\" على أي إعدادات حالية.</string>
@@ -317,5 +320,13 @@ HTTPS</string>
     <string name="clear_download_title">سجل التنزيلات </string>
 
     <string name="settings_exit">الخروج من الإعدادات</string>
+
+    <string name="brave_license_text">ترخيص Brave </string>
+    <string name="token">عملة رمزية</string>
+    <string name="point">نقطة</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>عملة BAT الرمزية</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>عملة BAT الرمزية</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>عملة BAT الرمزية</ex></ph></string>
 
 </resources>

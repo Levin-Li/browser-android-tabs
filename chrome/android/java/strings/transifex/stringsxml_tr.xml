@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave sitesi koruma ayarları:</string>
     <string name="brave_shields_down">Aşağı</string>
     <string name="brave_shields_up">Yukarı</string>
-    <string name="brave_shields_ads_trackers">Reklam ve Takipçiler Engellendi</string>
+    <string name="brave_shields_ads_trackers">Reklamlar &amp; Engellenen İzleyiciler</string>
     <string name="brave_shields_https_upgrades">HTTPS Yükseltmeleri</string>
     <string name="brave_shields_scripts_blocked">Betikler Engellendi</string>
-    <string name="brave_shields_ads_tracking_switch">Reklam ve Takipçileri Engelle</string>
+    <string name="brave_shields_ads_tracking_switch">Reklamları &amp; Engelleyin; İzleniyor</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Her yerde</string>
     <string name="brave_shields_blocks_scripts_switch">Betikleri Engelle</string>
     <string name="accessibility_toolbar_btn_brave_shields">Brave Korumalarını Aç/Kapat</string>
@@ -38,7 +38,7 @@
     <string name="sync_device_failure">Senk. sıfırlanamadı.</string>
     <string name="sync_requires_correct_time">Bilgisayarınızın saati yanlış zamana veya yanlış zaman dilimine ayarlanmış olabilir. Saat ayarlarınızı kontrol edin</string>
 
-    <string name="brave_stats_text_ads">Reklamlar ve İzleyiciler
+    <string name="brave_stats_text_ads">Reklamlar &amp; İzleyiciler
 Engellendi</string>
     <string name="brave_stats_text_https">HTTPS
 Yükseltmeleri</string>
@@ -56,7 +56,7 @@ Kaydedildi</string>
     <string name="brave_shields_first_group_title">Ekranı Engelleme</string>
     <string name="brave_shields_second_group_title">Bireysel Kontroller</string>
     <string name="brave_shields">Kalkanlar</string>
-    <string name="brave_shields_ads_and_trackers">Reklamlar ve Takipçiler</string>
+    <string name="brave_shields_ads_and_trackers">Reklamlar &amp; İzleyiciler</string>
     <string name="brave_shields_fingerprint_methods">Parmak İzi Yöntemleri</string>
     <string name="brave_shields_block_phishing_switch">Kimlik Avını Engelleyin</string>
 
@@ -151,18 +151,21 @@ Pilden tasarruf edin ve web sayfalarını daha hızlı yükleyin</string>
 
     <string name="brave_ui_welcome_header_two">İnternetin geleceğini
 deneyimlemeye hazır olun.</string>
-    <string name="brave_ui_welcome_desc_two">Artık gizliliğe saygılı reklamlar
-izleme karşılığında kupon kazanabilirsiniz.</string>
+    <string name="brave_ui_welcome_desc_two">Şimdi gizliliğe saygı gösteren reklamları izleyerek %1$s kazanabilirsiniz.</string>
     <string name="brave_ui_welcome_button_text_two">ÖDÜLLERE KATIL</string>
     <string name="brave_ui_welcome_footer_text_two">DAHA FAZLASINI ÖĞREN</string>
     <string name="brave_ui_rewards_creating_text">Cüzdan oluşturuluyor</string>
     <string name="brave_ui_your_wallet">Cüzdanınız</string>
+    <string name="brave_ui_your_balance">Bakiyeniz</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT Puanları</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Para Ekle</string>
     <string name="brave_ui_settings">Ayarlar</string>
     <string name="brave_ui_rewards_summary">ÖDÜLLER ÖZETİ</string>
-    <string name="brave_ui_site_banner_welcome">Uğradığınız için teşekkür ederiz!</string>
+    <string name="brave_ui_site_banner_welcome">Hoşgeldiniz!</string>
     <string name="brave_ui_rewards_banner_text1">Bu siteyi bir bahşiş göndererek destekleyebilirsiniz. Bu, muhteşem içerik için kendilerine teşekkür etmenin bir yoludur. Onaylı içerik oluşturucular her takvim ayının ilk haftası içinde bahşişleri için ödeme alır.</string>
     <string name="brave_ui_rewards_banner_text2">İsterseniz bu siteyi devamlı olarak desteklemek için aylık bahşiş ödemeleri planlayabilirsiniz.</string>
     <string name="brave_ui_donation_amount">Bahşiş tutarı</string>
@@ -170,7 +173,7 @@ izleme karşılığında kupon kazanabilirsiniz.</string>
     <string name="brave_ui_make_monthly">Bunu aylık yap</string>
     <string name="brave_ui_send_tip">bahşişimi gönder</string>
     <string name="brave_ui_do_monthly">aylık bahşiş ayarla</string>
-    <string name="brave_ui_not_enough_tokens">yeterli kupon yok</string>
+    <string name="brave_ui_not_enough_tokens">yetersiz <ph name=\"TOKEN\">%1$s<ex>jeton</ex></ph></string>
     <string name="brave_ui_site_banner_notice_text">NOT: Bu oluşturucu henüz Brave kullanıcılarından katkı almak için kaydolmamış. Onlar onaylayana veya 90 gün geçene kadar katkı yapmaya çalışacağız.</string>
     <string name="brave_ui_please">lütfen</string>
     <string name="brave_ui_add_funds">para ekleyin</string>
@@ -195,9 +198,10 @@ izleme karşılığında kupon kazanabilirsiniz.</string>
     <string name="brave_ui_no_activity">Bu ay henüz aktivite
 yok...</string>
     <string name="brave_ui_token_grant_claimed">Alınan Kuponlar</string>
+    <string name="brave_ui_point_grant_claimed">Puan Hibesi Alındı</string>
     <string name="brave_ui_earnings_ads">Reklam Gelirleri</string>
     <string name="brave_ui_rewards_contribute">Otomatik Katkı</string>
-    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT katkıda bulundunuz.</string>
+    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> bağış yaptınız.</string>
     <string name="brave_ui_one_time_donation">Tek Seferlik Bahşişler</string>
     <string name="brave_ui_recurring_donation">Aylık Bahşişler</string>
     <string name="brave_ui_verified_publisher">Brave Onaylı Yayıncı</string>
@@ -206,18 +210,18 @@ yok...</string>
         Gönderdiğiniz tüm bahşişler onlar onaylayana kadar cüzdanınızda kalacaktır.</string>
     <string name="brave_ui_on_youtube">YouTube\'da</string>
     <string name="brave_ui_on_twitch">Twitch\'te</string>
-    <string name="brave_ui_new_grant">Ücretsiz bir kupon mevcut.</string>
+    <string name="brave_ui_new_grant">Ücretsiz bir <ph name=\"TOKEN\">%1$s<ex>jeton</ex></ph> hibesi mevcut.</string>
     <string name="brave_ui_new_token_grant">Ücretsiz Kupon Verme</string>
+    <string name="brave_ui_new_point_grant">Ücretsiz Puan Hibesi</string>
     <string name="brave_ui_claim">Al</string>
-    <string name="brave_ui_reserved_amount_text">Henüz katkı almak amacıyla kaydolmamış oluşturucular için <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT
-ayırdınız. Tarayıcınız onlar onaylayana veya
-90 gün geçene kadar katkı yapmayı deneyecek.</string>
+    <string name="brave_ui_reserved_amount_text">Bağış almak için henüz kayıt olmamış üreticiler için <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> tayin ettiniz. Tarayıcınız bu kişiler doğrulanana ya da 90 gün geçene kadar bağışta bulunmayı deneyecektir.</string>
     <string name="brave_ui_notification_desc_no_funds">Otomatik Bağış ve aylık ipuçları için planlanmış aylık ödemeniz yetersiz fon nedeniyle tamamlanamadı. 30 gün içinde tekrar deneyeceğiz.</string>
     <string name="brave_ui_notification_desc_tip_error">Bahşişiniz işleme alınırken bir sorun oluştu, lütfen tekrar deneyin.</string>
     <string name="brave_ui_notification_desc_contr_error">Katkınız işleme alınırken bir sorun oluştu.</string>
     <string name="brave_rewards_local_uh_oh">Tüh!</string>
     <string name="brave_rewards_local_server_not_responding">Brave Ödülleri sunucusu yanıt vermiyor. Bunu en kısa zamanda düzelteceğiz.</string>
     <string name="brave_ui_grants">Verilenler</string>
+    <string name="brave_ui_details">Detaylar</string>
     <string name="brave_ui_expires_on"><ph name=\"DATE\">%1$s<ex>14/4/2019</ex></ph> tarihinde süresi doluyor</string>
     <string name="brave_ui_insufficient_funds_msg">Yetersiz Tutar</string>
     <string name="brave_ui_insufficient_funds_desc">Brave Ödülleri hesabınız para yatırılmasını bekliyor.</string>
@@ -280,21 +284,17 @@ para kazanın ve sevdiğiniz içerik
 
     <string name="block">Engelle</string>
     <string name="brave_shields_onboarding_title">Brave Kalkanları</string>
-    <string name="brave_shields_onboarding_text">gizliliği ihlal eden reklamlar ve takipçiler, böylece internet üzerinde takip edilmeden dolaşabilirsiniz.</string>
+    <string name="brave_shields_onboarding_text">gizliliği istila eden reklamlar &amp; izleyiciler takip edilmeden webde gezinebilin diye</string>
 
-    <string name="earn_tokens">Token kazanın</string>
+    <string name="earn_tokens"><ph name=\"TOKEN\">%1$s<ex>jeton</ex></ph> kazanın</string>
     <string name="brave_rewards_onboarding_title">Brave Ödülleri</string>
     <string name="brave_rewards_onboarding_text">gizlilik uyumlu reklamları görmek için. Favori sitelerinizi ve oluşturucuları desteklemek için kullanın.</string>
     <string name="brave_rewards_onboarding_text2">gizlilik uyumlu reklamlar görmek için</string>
 
-    <string name="terms_title">Brave Ödülleri\'ni kullanmak için Şartlar\'ı kabul edin</string>
-    <string name="terms_text">Brave Ödülleri\'ni kabul ediyorum</string>
+    <string name="terms_text">Ödülleri açarak, kabul etmiş olursunuz</string>
     <string name="terms_of_service">Hizmet Şartları</string>
 
-    <string name="agree">Kabul</string>
-    <string name="join">Katıl</string>
-
-     <string name="start_browsing">Taramaya başla</string>
+    <string name="start_browsing">Taramaya başla</string>
     <string name="i_didnt_see">Bir reklam görmedim</string>
 
     <string name="brave_ads_onboarding_title">Brave ilk reklamınızı gösterecek</string>
@@ -305,7 +305,6 @@ para kazanın ve sevdiğiniz içerik
     <string name="turn_on">Aç</string>
 
     <string name="no_thanks">Hayır, teşekkürler</string>
-    <string name="do_not_agree">Kabul etmiyorum</string>
 
     <string name="prefs_welcome_tour">Hoşgeldin Turu</string>
     <string name="welcome_tour_dialog_text">Hoş Geldin Turu\'nu kapatmak mevcut ayarları etkilemeyecektir.</string>
@@ -314,5 +313,13 @@ para kazanın ve sevdiğiniz içerik
     <string name="clear_download_title">Geçmişi indir</string>
 
     <string name="settings_exit">Ayarlardan çık</string>
+
+    <string name="brave_license_text">Brave Lisansı</string>
+    <string name="token">jeton</string>
+    <string name="point">puan</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

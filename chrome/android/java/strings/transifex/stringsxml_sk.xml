@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Nastavenie webovej ochrany Brave pre:</string>
     <string name="brave_shields_down">Dole</string>
     <string name="brave_shields_up">Hore</string>
-    <string name="brave_shields_ads_trackers">Reklamy a sledovanie zablokované</string>
+    <string name="brave_shields_ads_trackers">Reklamy &amp; Sledovače sú blokované</string>
     <string name="brave_shields_https_upgrades">Upgrady HTTPS</string>
     <string name="brave_shields_scripts_blocked">Skripty zablokované</string>
-    <string name="brave_shields_ads_tracking_switch">Zablokovať reklamy a sledovanie</string>
+    <string name="brave_shields_ads_tracking_switch">Blokovanie reklám &amp; Sledovanie</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS všade</string>
     <string name="brave_shields_blocks_scripts_switch">Zablokovať skripty</string>
     <string name="accessibility_toolbar_btn_brave_shields">Aktivovať/deaktivovať ochrany Brave</string>
@@ -38,7 +38,7 @@
     <string name="sync_device_failure">Synchronizáciu nie je možné nastaviť</string>
     <string name="sync_requires_correct_time">Hodiny vo vašom počítači majú možno nastavený nesprávny čas alebo časovú zónu. Skontrolujte nastavenia hodín</string>
 
-    <string name="brave_stats_text_ads">Reklamy a sledovače
+    <string name="brave_stats_text_ads">Reklamy &amp; Sledovače
 Blokované</string>
     <string name="brave_stats_text_https">Upgrady
 HTTPS</string>
@@ -56,7 +56,7 @@ ušetrený čas</string>
     <string name="brave_shields_first_group_title">Monitorovanie blokovania</string>
     <string name="brave_shields_second_group_title">Individuálne nastavenia</string>
     <string name="brave_shields">Štíty</string>
-    <string name="brave_shields_ads_and_trackers">Reklama a sledovanie</string>
+    <string name="brave_shields_ads_and_trackers">Reklamy &amp; Sledovače</string>
     <string name="brave_shields_fingerprint_methods">Spôsoby identifikácie</string>
     <string name="brave_shields_block_phishing_switch">Blokovanie phishingu</string>
 
@@ -152,18 +152,22 @@ Váš predvolený prehliadač môžete zmeniť v nastaveniach aplikácie.</strin
 
     <string name="brave_ui_welcome_header_two">Pripravte sa na zážitok z
 nového internetu.</string>
-    <string name="brave_ui_welcome_desc_two">Teraz môžete získať tokeny za
-za sledovanie reklám, ktoré rešpektujú súkromie.</string>
+    <string name="brave_ui_welcome_desc_two">Teraz môžete zarobiť %1$ss za
+sledovanie reklám rešpektujúcich súkromie.</string>
     <string name="brave_ui_welcome_button_text_two">PRIPOJIŤ SA DO PROGRAMU ODMIEN</string>
     <string name="brave_ui_welcome_footer_text_two">ĎALŠIE INFORMÁCIE</string>
     <string name="brave_ui_rewards_creating_text">Vytvára sa peňaženka</string>
     <string name="brave_ui_your_wallet">Vaša peňaženka</string>
+    <string name="brave_ui_your_balance">Váš zostatok</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Body BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Pridať finančné prostriedky</string>
     <string name="brave_ui_settings">Nastavenia</string>
     <string name="brave_ui_rewards_summary">ZHRNUTIE ODMIEN</string>
-    <string name="brave_ui_site_banner_welcome">Ďakujeme za návštevu!</string>
+    <string name="brave_ui_site_banner_welcome">Vitajte!</string>
     <string name="brave_ui_rewards_banner_text1">Túto stránku môžete podporiť tým, že pošlete sprepitné. Je to spôsob ako poďakovať autorom za vytvorenie skvelého obsahu. Overeným autorom obsahu sa sprepitné vypláca prvý týždeň každého kalendárneho mesiaca.</string>
     <string name="brave_ui_rewards_banner_text2">Ak chcete, môžete si naplánovať mesačné sprepitné na pravidelnú podporu tejto stránky.</string>
     <string name="brave_ui_donation_amount">Výška sprepitného</string>
@@ -171,7 +175,7 @@ za sledovanie reklám, ktoré rešpektujú súkromie.</string>
     <string name="brave_ui_make_monthly">Platiť mesačne</string>
     <string name="brave_ui_send_tip">poslať moje sprepitné</string>
     <string name="brave_ui_do_monthly">nastaviť mesačné sprepitné</string>
-    <string name="brave_ui_not_enough_tokens">nedostatok tokenov</string>
+    <string name="brave_ui_not_enough_tokens">nedostatok <ph name=\"TOKEN\">%1$s<ex>tokenov</ex></ph></string>
     <string name="brave_ui_site_banner_notice_text">POZNÁMKA: Tento autor sa zatiaľ nezaregistroval, aby mohol získavať príspevky od používateľov prehliadača Brave. Budeme sa snažiť prispievať, kým neoverí svoj účet, alebo kým neuplynie 90 dní.</string>
     <string name="brave_ui_please">prosím</string>
     <string name="brave_ui_add_funds">pridať finančné prostriedky</string>
@@ -196,9 +200,10 @@ za sledovanie reklám, ktoré rešpektujú súkromie.</string>
     <string name="brave_ui_no_activity">Tento mesiac zatiaľ nedošlo k
 žiadnej aktivite...</string>
     <string name="brave_ui_token_grant_claimed">Získané darčekové tokeny</string>
+    <string name="brave_ui_point_grant_claimed">Bodové granty boli nárokované</string>
     <string name="brave_ui_earnings_ads">Výnosy z reklám</string>
     <string name="brave_ui_rewards_contribute">Automatické prispievanie</string>
-    <string name="brave_ui_rewards_contribute_description">Prispeli ste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Prispeli ste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Jednorazové sprepitné</string>
     <string name="brave_ui_recurring_donation">Mesačné sprepitné</string>
     <string name="brave_ui_verified_publisher">Autor overený spoločnosťou Brave</string>
@@ -207,18 +212,19 @@ za sledovanie reklám, ktoré rešpektujú súkromie.</string>
         Akékoľvek poslané sprepitné zostane vo vašej peňaženke, kým autor neoverí svoj účet.</string>
     <string name="brave_ui_on_youtube">v službe YouTube</string>
     <string name="brave_ui_on_twitch">v službe Twitch</string>
-    <string name="brave_ui_new_grant">K dispozícii je bezplatný darčekový token.</string>
+    <string name="brave_ui_new_grant">Bezplatný <ph name=\"TOKEN\">%1$s<ex>token</ex></ph> grant je k dispozícii.</string>
     <string name="brave_ui_new_token_grant">Bezplatný darčekový token</string>
+    <string name="brave_ui_new_point_grant">Bezplatný bodový grant</string>
     <string name="brave_ui_claim">Získať</string>
-    <string name="brave_ui_reserved_amount_text">Vyhradili ste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT pre autorov, ktorí
-sa zatiaľ nezaregistrovali na získavanie príspevkov. Váš prehliadač sa bude pokúšať
-prispievať, kým autori neoveria svoj účet, alebo kým neuplynie 90 dní.</string>
+    <string name="brave_ui_reserved_amount_text">Určili ste <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> pre tvorcov, ktorí ešte nie sú prihlásení na príjem príspevkov. Váš prehliadač sa im bude aj naďalej snažiť prispievať,
+až kým nebudú overení alebo kým neuplynie 90 dní.</string>
     <string name="brave_ui_notification_desc_no_funds">Z dôvodu nedostatočných prostriedkov sa vaša plánovaná mesačná platba za Auto-Contribute a mesačné príspevky nedali dokončiť . Pokus zopakujeme znova o 30 dní.</string>
     <string name="brave_ui_notification_desc_tip_error">Pri spracovaní vášho sprepitného došlo k chybe. Skúste to znova.</string>
     <string name="brave_ui_notification_desc_contr_error">Pri spracovaní vášho príspevku došlo k chybe.</string>
     <string name="brave_rewards_local_uh_oh">Ale nie!</string>
     <string name="brave_rewards_local_server_not_responding">Server odmien Brave neodpovedá. Opravíme to čo najskôr.</string>
     <string name="brave_ui_grants">Darčeky</string>
+    <string name="brave_ui_details">Podrobnosti</string>
     <string name="brave_ui_expires_on">vyprší <ph name=\"DATE\">%1$s<ex>14.4.2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Nedostatok finančných prostriedkov</string>
     <string name="brave_ui_insufficient_funds_desc">Váš účet odmien Brave čaká na vklad.</string>
@@ -281,21 +287,17 @@ tvorcov obsahu, ktorých máte radi.</string>
 
     <string name="block">Blokovať</string>
     <string name="brave_shields_onboarding_title">Brave Shields</string>
-    <string name="brave_shields_onboarding_text">reklamy a sledovače, ktoré napádajú súkromie, takže môžete prehliadať stránky bez toho, aby ste sa museli riadiť webom.</string>
+    <string name="brave_shields_onboarding_text">reklamy napádajúce súkromie &amp; sledovače, aby ste mohli prehliadať webové stránky bez toho, že by ste boli sledovaní.</string>
 
-    <string name="earn_tokens">Získať tokeny</string>
+    <string name="earn_tokens">Zarobte <ph name=\"TOKEN\">%1$s<ex>tokeny</ex></ph></string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">na zobrazovanie reklám rešpektujúcich súkromie. Použite ich na podporu svojich obľúbených stránok a tvorcov.</string>
     <string name="brave_rewards_onboarding_text2">na zobrazovanie reklám rešpektujúcich súkromie.</string>
 
-    <string name="terms_title">Súhlas s podmienkami používania Brave Rewards</string>
-    <string name="terms_text">Súhlasím s Brave Rewards</string>
+    <string name="terms_text">Zapnutím Odmien súhlasíte s</string>
     <string name="terms_of_service">Podmienky služby</string>
 
-    <string name="agree">Súhlasiť</string>
-    <string name="join">Pridať sa</string>
-
-     <string name="start_browsing">Spustiť prehliadanie</string>
+    <string name="start_browsing">Spustiť prehliadanie</string>
     <string name="i_didnt_see">Reklamu som nevidel</string>
 
     <string name="brave_ads_onboarding_title">Brave zobrazí vašu prvú reklamu za</string>
@@ -306,7 +308,6 @@ tvorcov obsahu, ktorých máte radi.</string>
     <string name="turn_on">Zapnúť</string>
 
     <string name="no_thanks">Nie, ďakujem</string>
-    <string name="do_not_agree">Nesúhlas</string>
 
     <string name="prefs_welcome_tour">Uvítacia prehliadka</string>
     <string name="welcome_tour_dialog_text">Opätovné spustenie uvítacej prehliadky nebude mať vplyv na žiadne existujúce nastavenia.</string>
@@ -315,5 +316,13 @@ tvorcov obsahu, ktorých máte radi.</string>
     <string name="clear_download_title">História sťahovania</string>
 
     <string name="settings_exit">Odísť z nastavení</string>
+
+    <string name="brave_license_text">Licencia Brave</string>
+    <string name="token">token</string>
+    <string name="point">bod</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

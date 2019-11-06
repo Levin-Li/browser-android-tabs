@@ -3,10 +3,10 @@
     <string name="brave_settings_title">הגדרות מגן אתר Brave עבור</string>
     <string name="brave_shields_down">למטה</string>
     <string name="brave_shields_up">למעלה</string>
-    <string name="brave_shields_ads_trackers">מודעות ושרתי מעקב שנחסמו</string>
+    <string name="brave_shields_ads_trackers">פרסומות ותוכנות מעקב נחסמו</string>
     <string name="brave_shields_https_upgrades">שדרוגי HTTPS</string>
     <string name="brave_shields_scripts_blocked">קובצי תסריט שנחסמו</string>
-    <string name="brave_shields_ads_tracking_switch">חסימת מודעות ומעקב</string>
+    <string name="brave_shields_ads_tracking_switch">חסום/חסמי פרסומות ותוכנות מעקב</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS בכל מקום</string>
     <string name="brave_shields_blocks_scripts_switch">לחסום קובצי תסריט</string>
     <string name="accessibility_toolbar_btn_brave_shields">הפעלה/השבתה של מגני Brave</string>
@@ -38,8 +38,7 @@
     <string name="sync_device_failure">לא ניתן להגדיר את הסנכרון</string>
     <string name="sync_requires_correct_time">ייתכן ששעון המחשב שלך מוגדר לשעה שגויה או לאזור זמן שגוי. נא לבדוק את הגדרות השעון</string>
 
-    <string name="brave_stats_text_ads">פרסומות ומעקבים
-חסומים</string>
+    <string name="brave_stats_text_ads">פרסומות ותוכנות מעקב חסומות</string>
     <string name="brave_stats_text_https">שדרוגי
 HTTPS</string>
     <string name="brave_stats_text_time">הזמן המשוער
@@ -56,7 +55,7 @@ HTTPS</string>
     <string name="brave_shields_first_group_title">צג חסימות</string>
     <string name="brave_shields_second_group_title">פקדים פרטניים</string>
     <string name="brave_shields">מגנים</string>
-    <string name="brave_shields_ads_and_trackers">פרסומות וכלי מעקב</string>
+    <string name="brave_shields_ads_and_trackers">פרסומות ותוכנות מעקב</string>
     <string name="brave_shields_fingerprint_methods">שיטות לקיחת טביעת אצבע</string>
     <string name="brave_shields_block_phishing_switch">חסימת דיוג</string>
 
@@ -151,18 +150,21 @@ HTTPS</string>
 
     <string name="brave_ui_welcome_header_two">תתכונן לחוויית
 האינטרנט הבא.</string>
-    <string name="brave_ui_welcome_desc_two">באפשרותך להרוויח אסימונים
-על צפייה בפרסומות מכבדות פרטיות.</string>
+    <string name="brave_ui_welcome_desc_two">באפשרותך להרוויח עכשיו %1$ss על צפייה בפרסומות שמכבדות את פרטיותך.</string>
     <string name="brave_ui_welcome_button_text_two">הצטרף לגמול כספי</string>
     <string name="brave_ui_welcome_footer_text_two">למידע נוסף</string>
     <string name="brave_ui_rewards_creating_text">יצירת ארנק</string>
     <string name="brave_ui_your_wallet">הארנק שלך</string>
+    <string name="brave_ui_your_balance">היתרה שלך</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">נקודות BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">דולר</string>
     <string name="brave_rewards_local_panel_add_funds">הוסף כסף</string>
     <string name="brave_ui_settings">הגדרות</string>
     <string name="brave_ui_rewards_summary">סיכום הגמול הכספי</string>
-    <string name="brave_ui_site_banner_welcome">תודה שקפצת לבקר!</string>
+    <string name="brave_ui_site_banner_welcome">ברוכים הבאים!</string>
     <string name="brave_ui_rewards_banner_text1">ניתן לתמוך באתר זה באמצעות שליחת טיפ. זוהי דרך להודות להם על התוכן נהדר. יוצרי תוכן מאומתים מקבלים תשלום עבור הטיפים שלהם במהלך השבוע הראשון של כל חודש קלנדרי.</string>
     <string name="brave_ui_rewards_banner_text2">אם תרצה, תוכל לתזמן טיפים חודשיים לתמיכה באתר זה באופן קבוע.</string>
     <string name="brave_ui_donation_amount">כמות טיפים</string>
@@ -170,7 +172,7 @@ HTTPS</string>
     <string name="brave_ui_make_monthly">הפוך לחודשי</string>
     <string name="brave_ui_send_tip">שלח את הטיפ שלי</string>
     <string name="brave_ui_do_monthly">הגדר טיפ חודשי</string>
-    <string name="brave_ui_not_enough_tokens">אין מספיק אסימונים</string>
+    <string name="brave_ui_not_enough_tokens"> <ph name=\"TOKEN\">%1$s<ex>אסימון</ex></ph>(ים) אינם מספיקים</string>
     <string name="brave_ui_site_banner_notice_text">הערה: יוצר זה עדיין לא נרשם לקבלת תרומות ממשתמשי Brave. אנו נמשיך לנסות לתרום עד שהוא יאמת, או עד שיחלפו 90 יום.</string>
     <string name="brave_ui_please">בבקשה</string>
     <string name="brave_ui_add_funds">הוסף כסף</string>
@@ -195,9 +197,10 @@ HTTPS</string>
     <string name="brave_ui_no_activity">אין עדיין פעילויות
 החודש...</string>
     <string name="brave_ui_token_grant_claimed">מימוש מענק אסימונים</string>
+    <string name="brave_ui_point_grant_claimed">מענקי נקודות שנדרשו</string>
     <string name="brave_ui_earnings_ads">להרוויח מצפייה בפרסומות</string>
     <string name="brave_ui_rewards_contribute">תרומה אוטומטית</string>
-    <string name="brave_ui_rewards_contribute_description">תרמת <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">תרמת <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">תרומת טיפ חד פעמית</string>
     <string name="brave_ui_recurring_donation">טיפים חודשיים</string>
     <string name="brave_ui_verified_publisher">מפרסם מאומת של Brave</string>
@@ -206,18 +209,18 @@ HTTPS</string>
  כל טיפ שתשלח ישאר בארנק שלך עד לאימות.</string>
     <string name="brave_ui_on_youtube">ב-YouTube</string>
     <string name="brave_ui_on_twitch">ב-Twitch</string>
-    <string name="brave_ui_new_grant">מענק אסימונים חינם זמין.</string>
+    <string name="brave_ui_new_grant">זמין מענק של <ph name=\"TOKEN\">%1$s<ex>אסימון</ex></ph> חינם.</string>
     <string name="brave_ui_new_token_grant">מענק אסימונים חינם</string>
+    <string name="brave_ui_new_point_grant">מענק נקודה חינם</string>
     <string name="brave_ui_claim">מימוש</string>
-    <string name="brave_ui_reserved_amount_text">ייעדת <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT ליוצרים שלא
- נרשמו עדיין לקבלת תרומות. הדפדפן שלך ימשיך לנסות לתרום
-עד שהם יאשרו, או עד שיחלפו 90 יום.</string>
+    <string name="brave_ui_reserved_amount_text">הקצית  <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> ליוצרים שעדיין לא נרשמו לקבלת תרומות. הדפדפן שלך ימשיך לנסות לתרום עד שהם יאמתו, ולא יותר מ-90 יום.</string>
     <string name="brave_ui_notification_desc_no_funds">לא ניתן היה להשלים את התשלום החודשי המתוכנן שלך עבור תרומה אוטומטית וטיפים חודשיים בגלל חוסר בכספים. אנו ננסה שוב בעוד 30 יום.</string>
     <string name="brave_ui_notification_desc_tip_error">חלה בעיה בעיבוד הטיפ שלך, אנא נסה שנית.</string>
     <string name="brave_ui_notification_desc_contr_error">חלה בעיה בעיבוד התרומה שלך.</string>
     <string name="brave_rewards_local_uh_oh">אוי לא!</string>
     <string name="brave_rewards_local_server_not_responding">שרת גמול כספי של Brave אינו מגיב. נתקן זאת בהקדם האפשרי.</string>
     <string name="brave_ui_grants">מענקים</string>
+    <string name="brave_ui_details">פרטים</string>
     <string name="brave_ui_expires_on">תקף עד <ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">סכום הכסף אינו מספיק</string>
     <string name="brave_ui_insufficient_funds_desc">חשבון הגמול הכספי של Brave שלך ממתין להפקדה.</string>
@@ -280,21 +283,17 @@ HTTPS</string>
 
     <string name="block">חסימה</string>
     <string name="brave_shields_onboarding_title">Brave Shields </string>
-    <string name="brave_shields_onboarding_text">פרסומות ואפליקציות מעקב שפולשות לפרטיות כדי שתוכל/י לדפדף בלי שיעקבו  אחריך ברחבי הרשת.</string>
+    <string name="brave_shields_onboarding_text">פרסומות ותוכנות מעקב מפרות פרטיות כדי שתוכל/י לגלוש ברשת בלי שיעקבו אחריך לכל מקום.</string>
 
-    <string name="earn_tokens">זכייה באסימונים</string>
+    <string name="earn_tokens">הרווח/י  <ph name=\"TOKEN\">%1$s<ex>אסימון</ex></ph>(ים)</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">לצפייה בפרסומות שמכבדות את הפרטיות. השתמש/י בהן לתמיכה באתרים וביוצרים החביבים עליך.</string>
     <string name="brave_rewards_onboarding_text2">לצפייה בפרסומות שמכבדות את הפרטיות.</string>
 
-    <string name="terms_title">נא להסכים לתנאים כדי להשתמש ב-Brave Rewards</string>
-    <string name="terms_text">אני מסכים/ה ל-Brave Rewards</string>
+    <string name="terms_text">בהפעלת תגמולים הנך מסכים/ה ל-</string>
     <string name="terms_of_service">תנאי שירות</string>
 
-    <string name="agree">מסכים/ה</string>
-    <string name="join">הצטרפות</string>
-
-     <string name="start_browsing">התחל דפדוף</string>
+    <string name="start_browsing">התחל דפדוף</string>
     <string name="i_didnt_see">לא ראיתי פרסומת</string>
 
     <string name="brave_ads_onboarding_title">Brave יציג לך את הפרסומת הראשונה שלך בעוד</string>
@@ -305,7 +304,6 @@ HTTPS</string>
     <string name="turn_on">הפעלה</string>
 
     <string name="no_thanks">לא תודה</string>
-    <string name="do_not_agree">לא מסכים/ה</string>
 
     <string name="prefs_welcome_tour">סיור קבלת פנים</string>
     <string name="welcome_tour_dialog_text">הפעלה מחדש של סיור קבלת הפנים לא תשפיע על הגדרות קיימות.</string>
@@ -314,5 +312,13 @@ HTTPS</string>
     <string name="clear_download_title">היסטוריית הורדות</string>
 
     <string name="settings_exit">יציאה מההגדרות</string>
+
+    <string name="brave_license_text">רישיון Brave</string>
+    <string name="token">אסימון</string>
+    <string name="point">נקודה</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave site afscherming instellingen voor</string>
     <string name="brave_shields_down">Gedeactiveerd</string>
     <string name="brave_shields_up">Geactiveerd</string>
-    <string name="brave_shields_ads_trackers">Ads en Trackers geblokkeerd</string>
+    <string name="brave_shields_ads_trackers">Ads &amp; Trackers geblokkeerd</string>
     <string name="brave_shields_https_upgrades">HTTPS upgrades</string>
     <string name="brave_shields_scripts_blocked">Scripts geblokkeerd</string>
-    <string name="brave_shields_ads_tracking_switch">Blokkeer Ads en Tracking</string>
+    <string name="brave_shields_ads_tracking_switch">Blokkeer Ads &amp; Tracking</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS overal</string>
     <string name="brave_shields_blocks_scripts_switch">Blokkeer Scripts</string>
     <string name="accessibility_toolbar_btn_brave_shields">Activeer/inactiveer Brave afschermingen</string>
@@ -38,7 +38,7 @@
     <string name="sync_device_failure">Synchronisatie kon niet worden gestart</string>
     <string name="sync_requires_correct_time">Mogelijk is de klok van uw computer ingesteld op de verkeerde tijd of tijdzone. Controleer uw klokinstellingen</string>
 
-    <string name="brave_stats_text_ads">Reclames en Trackers
+    <string name="brave_stats_text_ads">Ads &amp; Trackers
 Geblokkeerd</string>
     <string name="brave_stats_text_https">HTTPS
 upgrades</string>
@@ -56,7 +56,7 @@ Bespaard</string>
     <string name="brave_shields_first_group_title">Blokkeermonitor</string>
     <string name="brave_shields_second_group_title">Individuele instellingen</string>
     <string name="brave_shields">Afschermingen</string>
-    <string name="brave_shields_ads_and_trackers">Advertenties en trackers</string>
+    <string name="brave_shields_ads_and_trackers">Ads &amp; Trackers</string>
     <string name="brave_shields_fingerprint_methods">Vingerafdrukmethoden</string>
     <string name="brave_shields_block_phishing_switch">Blokkeer phishing</string>
 
@@ -151,18 +151,21 @@ Verleng de gebruiksduur van de batterij en laad webpagina\'s sneller</string>
 
     <string name="brave_ui_welcome_header_two">Bereid je voor op
 het \'nieuwe internet\'.</string>
-    <string name="brave_ui_welcome_desc_two">Je kunt nu tokens verdienen door
-advertenties te bekijken waarbij de privacy wordt gerespecteerd.</string>
+    <string name="brave_ui_welcome_desc_two">Je kan nu %1$ss verdienen door het kijken van privacy-respecterende ads.</string>
     <string name="brave_ui_welcome_button_text_two">LID WORDEN VAN REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">MEER INFORMATIE</string>
     <string name="brave_ui_rewards_creating_text">Wallet maken</string>
     <string name="brave_ui_your_wallet">Je wallet</string>
+    <string name="brave_ui_your_balance">Je balans</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,00</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT Punten</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Geld toevoegen</string>
     <string name="brave_ui_settings">Instellingen</string>
     <string name="brave_ui_rewards_summary">REWARDS-OVERZICHT</string>
-    <string name="brave_ui_site_banner_welcome">Bedankt voor je bezoek!</string>
+    <string name="brave_ui_site_banner_welcome">Welkom!</string>
     <string name="brave_ui_rewards_banner_text1">Je kunt deze site ondersteunen door een donatie te doen. Hiermee bedank je de makers voor hun fantastische inhoud. Geverifieerde makers van inhoud krijgen tijdens de eerste week van elke kalendermaand hun donaties uitbetaald.</string>
     <string name="brave_ui_rewards_banner_text2">Als je wilt, kun je structureel elke maand een donatie doen om de site doorlopend te blijven ondersteunen.</string>
     <string name="brave_ui_donation_amount">Donatiebedrag</string>
@@ -170,7 +173,7 @@ advertenties te bekijken waarbij de privacy wordt gerespecteerd.</string>
     <string name="brave_ui_make_monthly">Maandelijks herhalen</string>
     <string name="brave_ui_send_tip">mijn donatie verzenden</string>
     <string name="brave_ui_do_monthly">maandelijkse donatie instellen</string>
-    <string name="brave_ui_not_enough_tokens">niet voldoende tokens</string>
+    <string name="brave_ui_not_enough_tokens">niet genoeg <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_ui_site_banner_notice_text">OPMERKING: deze maker heeft zich nog niet geregistreerd voor het ontvangen van donaties van Brave-gebruikers. We blijven proberen de donatie over te maken tot de maker zich registreert, of tot er 90 dagen zijn verstreken.</string>
     <string name="brave_ui_please">graag</string>
     <string name="brave_ui_add_funds">geld toevoegen</string>
@@ -195,9 +198,10 @@ advertenties te bekijken waarbij de privacy wordt gerespecteerd.</string>
     <string name="brave_ui_no_activity">Nog geen activiteiten deze
 maand...</string>
     <string name="brave_ui_token_grant_claimed">Aantal geclaimde toegewezen tokens</string>
+    <string name="brave_ui_point_grant_claimed">Puntentoekenningen geclaimd</string>
     <string name="brave_ui_earnings_ads">Inkomsten van advertenties</string>
     <string name="brave_ui_rewards_contribute">Automatisch doneren</string>
-    <string name="brave_ui_rewards_contribute_description">Je hebt<ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT\'s gedoneerd.</string>
+    <string name="brave_ui_rewards_contribute_description">Je hebt <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> bijgedragen.</string>
     <string name="brave_ui_one_time_donation">Eenmalige donaties</string>
     <string name="brave_ui_recurring_donation">Maandelijkse donaties</string>
     <string name="brave_ui_verified_publisher">Door Brave geverifieerde uitgever</string>
@@ -206,18 +210,18 @@ maand...</string>
 Alle donaties die je doet, blijven in je wallet staan tot de maker is geverifieerd.</string>
     <string name="brave_ui_on_youtube">op YouTube</string>
     <string name="brave_ui_on_twitch">op Twitch</string>
-    <string name="brave_ui_new_grant">Er zijn gratis toegewezen tokens beschikbaar.</string>
+    <string name="brave_ui_new_grant">Een gratis <ph name=\"TOKEN\">%1$s<ex>token</ex></ph> toekenning is beschikbaar.</string>
     <string name="brave_ui_new_token_grant">Gratis toegewezen tokens</string>
+    <string name="brave_ui_new_point_grant">Gratis puntentoekenning</string>
     <string name="brave_ui_claim">Claimen</string>
-    <string name="brave_ui_reserved_amount_text">Je hebt <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT\'s apart gezet voor makers die zich nog niet
-hebben geregistreerd voor het ontvangen van donaties. Je browser blijft proberen de donatie
-over te maken tot de maker zich registreert, of tot er 90 dagen zijn verstreken.</string>
+    <string name="brave_ui_reserved_amount_text">Je hebt <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> toegewezen aan makers die zich nog niet hebben aangemeld om bijdrages te ontvangen. Je browser zal blijven proberen om bij te dragen tot zij verifiëren, of totdat er 90 dagen voorbij zijn gegaan.</string>
     <string name="brave_ui_notification_desc_no_funds">Uw geplande maandelijkse betaling voor Auto-Contribute en maandelijkse fooien kon niet worden voltooid vanwege een ontoereikend saldo. We proberen het over 30 dagen opnieuw.</string>
     <string name="brave_ui_notification_desc_tip_error">Er is een probleem opgetreden bij het verwerken van je donatie. Probeer het opnieuw.</string>
     <string name="brave_ui_notification_desc_contr_error">Er is een probleem opgetreden bij het verwerken van je donatie.</string>
     <string name="brave_rewards_local_uh_oh">Er is een probleem opgetreden.</string>
     <string name="brave_rewards_local_server_not_responding">De Brave Rewards-server reageert niet. We proberen dit zo snel mogelijk op te lossen.</string>
     <string name="brave_ui_grants">Toewijzingen</string>
+    <string name="brave_ui_details">Details</string>
     <string name="brave_ui_expires_on">verloopt op <ph name=\"DATE\">%1$s<ex>14-04-2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Onvoldoende geld</string>
     <string name="brave_ui_insufficient_funds_desc">Er moet geld worden gestort naar je Brave Rewards-account.</string>
@@ -280,21 +284,17 @@ anderen meegenieten door de inhoudmakers waar jij fan van bent te ondersteunen.<
 
     <string name="block">Blokkeren</string>
     <string name="brave_shields_onboarding_title">Brave Adblockers</string>
-    <string name="brave_shields_onboarding_text">privacy-schendende advertenties en trackers, zodat je kunt browsen zonder gevolgd te worden.</string>
+    <string name="brave_shields_onboarding_text">privacy-inbreukmakende ads &amp; trackers zodat je kan surfen zonder gevolgd te worden op het web.</string>
 
-    <string name="earn_tokens">Verdien tokens</string>
+    <string name="earn_tokens">Verdien <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Brave Beloningen</string>
     <string name="brave_rewards_onboarding_text">om privacy-respecterende advertenties te zien. Gebruik ze om je favoriete sites en ontwikkelaars te ondersteunen.</string>
     <string name="brave_rewards_onboarding_text2">om privacy-respecterende advertenties te zien.</string>
 
-    <string name="terms_title">Ga akkoord met de Voorwaarden om Brave Beloningen te gebruiken</string>
-    <string name="terms_text">Ik stem in met Brave Beloningen</string>
+    <string name="terms_text">Door Beloningen aan te zetten, stem je in met de </string>
     <string name="terms_of_service">Voorwaarden</string>
 
-    <string name="agree">Accepteren</string>
-    <string name="join">Word lid</string>
-
-     <string name="start_browsing">Begin met browsen</string>
+    <string name="start_browsing">Begin met browsen</string>
     <string name="i_didnt_see">Ik heb geen advertentie gezien</string>
 
     <string name="brave_ads_onboarding_title">Brave zal je eerste advertentie tonen over</string>
@@ -305,7 +305,6 @@ anderen meegenieten door de inhoudmakers waar jij fan van bent te ondersteunen.<
     <string name="turn_on">Aanzetten</string>
 
     <string name="no_thanks">Nee, bedankt</string>
-    <string name="do_not_agree">Ik ga niet akkoord</string>
 
     <string name="prefs_welcome_tour">Welkomsttour</string>
     <string name="welcome_tour_dialog_text">Het opnieuw starten van de welkomsttour heeft geen effect op bestaande instellingen.</string>
@@ -314,5 +313,13 @@ anderen meegenieten door de inhoudmakers waar jij fan van bent te ondersteunen.<
     <string name="clear_download_title">Download geschiedenis</string>
 
     <string name="settings_exit">Instellingen afsluiten</string>
+
+    <string name="brave_license_text">Brave licentie</string>
+    <string name="token">token</string>
+    <string name="point">punt</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave site shield settings for</string>
     <string name="brave_shields_down">Down</string>
     <string name="brave_shields_up">Up</string>
-    <string name="brave_shields_ads_trackers">Ads and Trackers Blocked</string>
+    <string name="brave_shields_ads_trackers">Ads &amp; Trackers Blocked</string>
     <string name="brave_shields_https_upgrades">HTTPS Upgrades</string>
     <string name="brave_shields_scripts_blocked">Scripts Blocked</string>
-    <string name="brave_shields_ads_tracking_switch">Block Ads and Tracking</string>
+    <string name="brave_shields_ads_tracking_switch">Block Ads &amp; Tracking</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Block Scripts</string>
     <string name="accessibility_toolbar_btn_brave_shields">Enable/Disable Brave Shields</string>
@@ -38,7 +38,7 @@
     <string name="sync_device_failure">Sync could not be setup</string>
     <string name="sync_requires_correct_time">Your computer's clock may be set to the wrong time, or to the wrong time-zone. Check your clock settings</string>
 
-    <string name="brave_stats_text_ads">Ads and Trackers
+    <string name="brave_stats_text_ads">Ads &amp; Trackers
 Blocked</string>
     <string name="brave_stats_text_https">HTTPS
 Upgrades</string>
@@ -56,7 +56,7 @@ Saved</string>
     <string name="brave_shields_first_group_title">Blocking Monitor</string>
     <string name="brave_shields_second_group_title">Individual Controls</string>
     <string name="brave_shields">Shields</string>
-    <string name="brave_shields_ads_and_trackers">Ads and Trackers</string>
+    <string name="brave_shields_ads_and_trackers">Ads &amp; Trackers</string>
     <string name="brave_shields_fingerprint_methods">Fingerprint Methods</string>
     <string name="brave_shields_block_phishing_switch">Block Phishing</string>
 
@@ -151,18 +151,22 @@ Save battery and load web pages faster</string>
 
     <string name="brave_ui_welcome_header_two">Get ready to experience
 the next Internet.</string>
-    <string name="brave_ui_welcome_desc_two">You can now earn tokens for
+    <string name="brave_ui_welcome_desc_two">You can now earn %1$ss for
 watching privacy-respecting ads.</string>
     <string name="brave_ui_welcome_button_text_two">JOIN REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">LEARN MORE</string>
     <string name="brave_ui_rewards_creating_text">Creating wallet</string>
     <string name="brave_ui_your_wallet">Your wallet</string>
+    <string name="brave_ui_your_balance">Your balance</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name="VALUE">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT Points</string>
+    <string name="brave_ui_usd"><ph name="VALUE">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Add Funds</string>
     <string name="brave_ui_settings">Settings</string>
     <string name="brave_ui_rewards_summary">REWARDS SUMMARY</string>
-    <string name="brave_ui_site_banner_welcome">Thanks for stopping by!</string>
+    <string name="brave_ui_site_banner_welcome">Welcome!</string>
     <string name="brave_ui_rewards_banner_text1">You can support this site by sending a tip. It's a way of thanking them for making great content. Verified content creators get paid for their tips during the first week of each calendar month.</string>
     <string name="brave_ui_rewards_banner_text2">If you like, you can schedule monthly tips to support this site on a continuous basis.</string>
     <string name="brave_ui_donation_amount">Tip amount</string>
@@ -170,7 +174,7 @@ watching privacy-respecting ads.</string>
     <string name="brave_ui_make_monthly">Make this monthly</string>
     <string name="brave_ui_send_tip">send my tip</string>
     <string name="brave_ui_do_monthly">set monthly tip</string>
-    <string name="brave_ui_not_enough_tokens">not enough tokens</string>
+    <string name="brave_ui_not_enough_tokens">not enough <ph name="TOKEN">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_ui_site_banner_notice_text">NOTE: This creator has not yet signed up to receive contributions from Brave users. We'll keep trying to contribute until they verify, or until 90 days have passed.</string>
     <string name="brave_ui_please">please</string>
     <string name="brave_ui_add_funds">add funds</string>
@@ -195,9 +199,10 @@ watching privacy-respecting ads.</string>
     <string name="brave_ui_no_activity">No activities yet this
 month...</string>
     <string name="brave_ui_token_grant_claimed">Token Grants Claimed</string>
+    <string name="brave_ui_point_grant_claimed">Point Grants Claimed</string>
     <string name="brave_ui_earnings_ads">Earnings from Ads</string>
     <string name="brave_ui_rewards_contribute">Auto-Contribute</string>
-    <string name="brave_ui_rewards_contribute_description">You've contributed <ph name="BAT_VALUE">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">You've contributed <ph name="BAT_VALUE">%1$s<ex>50</ex></ph> <ph name="BAT_TEXT">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">One-time Tips</string>
     <string name="brave_ui_recurring_donation">Monthly Tips</string>
     <string name="brave_ui_verified_publisher">Brave Verified Publisher</string>
@@ -206,10 +211,11 @@ month...</string>
         Any tips you send will remain in your wallet until they verify.</string>
     <string name="brave_ui_on_youtube">on YouTube</string>
     <string name="brave_ui_on_twitch">on Twitch</string>
-    <string name="brave_ui_new_grant">A free token grant is available.</string>
+    <string name="brave_ui_new_grant">A free <ph name="TOKEN">%1$s<ex>token</ex></ph> grant is available.</string>
     <string name="brave_ui_new_token_grant">Free Token Grant</string>
+    <string name="brave_ui_new_point_grant">Free Point Grant</string>
     <string name="brave_ui_claim">Claim</string>
-    <string name="brave_ui_reserved_amount_text">You've designated <ph name="BAT_VALUE">%1$s<ex>50</ex></ph> BAT for creators who haven't
+    <string name="brave_ui_reserved_amount_text">You've designated <ph name="BAT_VALUE">%1$s<ex>50</ex></ph>  <ph name="BAT_TEXT">%2$s<ex>BAT</ex></ph> for creators who haven't
 yet signed up to receive contributions. Your browser will keep trying to contribute
 until they verify, or until 90 days have passed.</string>
     <string name="brave_ui_notification_desc_no_funds">Your scheduled monthly payment for Auto-Contribute and monthly tips could not be completed due to insufficient funds. We'll try again in 30 days.</string>
@@ -218,6 +224,7 @@ until they verify, or until 90 days have passed.</string>
     <string name="brave_rewards_local_uh_oh">Uh oh!</string>
     <string name="brave_rewards_local_server_not_responding">The Brave Rewards server is not responding. We will fix this as soon as possible.</string>
     <string name="brave_ui_grants">Grants</string>
+    <string name="brave_ui_details">Details</string>
     <string name="brave_ui_expires_on">expires on <ph name="DATE">%1$s<ex>4/14/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Insufficient Funds</string>
     <string name="brave_ui_insufficient_funds_desc">Your Brave Rewards account is waiting for a deposit.</string>
@@ -280,21 +287,17 @@ content creators you love.</string>
 
     <string name="block">Block</string>
     <string name="brave_shields_onboarding_title">Brave Shields</string>
-    <string name="brave_shields_onboarding_text">privacy-invading ads and trackers so you can browse without being followed around the web.</string>
+    <string name="brave_shields_onboarding_text">privacy-invading ads &amp; trackers so you can browse without being followed around the web.</string>
 
-    <string name="earn_tokens">Earn tokens</string>
+    <string name="earn_tokens">Earn <ph name="TOKEN">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">for seeing privacy-respecting ads. Use them to support your favorite sites and creators.</string>
     <string name="brave_rewards_onboarding_text2">for seeing privacy-respecting ads.</string>
 
-    <string name="terms_title">Agree to the Terms to use Brave Rewards</string>
-    <string name="terms_text">I agree to Brave Rewards</string>
+    <string name="terms_text">By turning on Rewards, you agree to the</string>
     <string name="terms_of_service">Terms of Service</string>
 
-    <string name="agree">Agree</string>
-    <string name="join">Join</string>
-
-     <string name="start_browsing">Start browsing</string>
+    <string name="start_browsing">Start browsing</string>
     <string name="i_didnt_see">I didn&apos;t see an ad</string>
 
     <string name="brave_ads_onboarding_title">Brave will show your first ad in</string>
@@ -305,7 +308,6 @@ content creators you love.</string>
     <string name="turn_on">Turn On</string>
 
     <string name="no_thanks">No thanks</string>
-    <string name="do_not_agree">Do not agree</string>
 
     <string name="prefs_welcome_tour">Welcome Tour</string>
     <string name="welcome_tour_dialog_text">Relaunching Welcome Tour will not affect any existing settings.</string>
@@ -314,5 +316,13 @@ content creators you love.</string>
     <string name="clear_download_title">Download history</string>
 
     <string name="settings_exit">Settings exit</string>
+
+    <string name="brave_license_text">Brave License</string>
+    <string name="token">token</string>
+    <string name="point">point</string>
+
+    <string name="one_tip_option">1 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

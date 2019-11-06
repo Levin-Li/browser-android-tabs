@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave 網站防護設定</string>
     <string name="brave_shields_down">關閉</string>
     <string name="brave_shields_up">開啟</string>
-    <string name="brave_shields_ads_trackers">廣告和追蹤器已阻擋</string>
+    <string name="brave_shields_ads_trackers">廣告與追蹤器已封鎖</string>
     <string name="brave_shields_https_upgrades">HTTPS 升級</string>
     <string name="brave_shields_scripts_blocked">腳本已禁用</string>
-    <string name="brave_shields_ads_tracking_switch">阻擋廣告和追蹤器</string>
+    <string name="brave_shields_ads_tracking_switch">封鎖廣告與追蹤</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS 無所不在</string>
     <string name="brave_shields_blocks_scripts_switch">禁用腳本</string>
     <string name="accessibility_toolbar_btn_brave_shields">啟用/停用 Brave 防護</string>
@@ -151,18 +151,22 @@
 
     <string name="brave_ui_welcome_header_two">準備體驗
 新一代網際網路。</string>
-    <string name="brave_ui_welcome_desc_two">您現在可以透過觀看
-不會侵犯隱私的廣告，獲得代幣。</string>
+    <string name="brave_ui_welcome_desc_two">您現在可以看尊重
+隱私的廣告來賺 %1$ss。</string>
     <string name="brave_ui_welcome_button_text_two">參加獎勵計畫</string>
     <string name="brave_ui_welcome_footer_text_two">深入瞭解</string>
     <string name="brave_ui_rewards_creating_text">正在建立錢包</string>
     <string name="brave_ui_your_wallet">您的錢包</string>
+    <string name="brave_ui_your_balance">您的餘額</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> 美元</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT 點數</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">美元</string>
     <string name="brave_rewards_local_panel_add_funds">新增資金</string>
     <string name="brave_ui_settings">設定</string>
     <string name="brave_ui_rewards_summary">獎勵摘要</string>
-    <string name="brave_ui_site_banner_welcome">感謝您的來訪！</string>
+    <string name="brave_ui_site_banner_welcome">歡迎！</string>
     <string name="brave_ui_rewards_banner_text1">您可以給點小費來支持這個網站。這是向他們創作絕佳內容表達謝意的方法。通過驗證的內容創作者會在每個日曆月的第一週收到小費。</string>
     <string name="brave_ui_rewards_banner_text2">如果您想要的話，可以定期每月給小費來支持這個網站。</string>
     <string name="brave_ui_donation_amount">小費金額</string>
@@ -170,7 +174,7 @@
     <string name="brave_ui_make_monthly">設為月付</string>
     <string name="brave_ui_send_tip">給出我的小費</string>
     <string name="brave_ui_do_monthly">設定每月小費</string>
-    <string name="brave_ui_not_enough_tokens">代幣不足</string>
+    <string name="brave_ui_not_enough_tokens"><ph name=\"TOKEN\">%1$s<ex>代幣</ex></ph>不夠</string>
     <string name="brave_ui_site_banner_notice_text">注意：這位創作者尚未註冊，而未能收取 Brave 使用者的捐獻。在創作者通過驗證或超過 90 天前，我們會持續試著捐獻。</string>
     <string name="brave_ui_please">請</string>
     <string name="brave_ui_add_funds">新增資金</string>
@@ -195,9 +199,10 @@
     <string name="brave_ui_no_activity">這個月還沒有任何
 活動...</string>
     <string name="brave_ui_token_grant_claimed">已領取代幣</string>
+    <string name="brave_ui_point_grant_claimed">已領取點數頒贈</string>
     <string name="brave_ui_earnings_ads">廣告收入</string>
     <string name="brave_ui_rewards_contribute">自動捐獻</string>
-    <string name="brave_ui_rewards_contribute_description">您已捐獻 <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT。</string>
+    <string name="brave_ui_rewards_contribute_description">您資助了 <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>。</string>
     <string name="brave_ui_one_time_donation">單次小費</string>
     <string name="brave_ui_recurring_donation">每月小費</string>
     <string name="brave_ui_verified_publisher">經 Brave 驗證的發佈商</string>
@@ -206,18 +211,20 @@
        在創作者通過驗證前，您給出所有小費會保留在您的錢包中。</string>
     <string name="brave_ui_on_youtube">在 YouTube 上</string>
     <string name="brave_ui_on_twitch">在 Twitch 上</string>
-    <string name="brave_ui_new_grant">有免費代幣可用。</string>
+    <string name="brave_ui_new_grant">有一個免費的 <ph name=\"TOKEN\">%1$s<ex>代幣</ex></ph>頒贈。</string>
     <string name="brave_ui_new_token_grant">免費代幣</string>
+    <string name="brave_ui_new_point_grant">免費點數頒贈</string>
     <string name="brave_ui_claim">領取</string>
-    <string name="brave_ui_reserved_amount_text">您已將 <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT 指定給尚未註冊而
-未能收取捐獻的創作者。在創作者通過驗證或超過 90 天前，
-瀏覽器會持續試著捐獻。</string>
+    <string name="brave_ui_reserved_amount_text">您已指定 <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> 給尚未
+登記接受資助的創作者。您的瀏覽器會不斷嘗試捐助，
+直到他們驗證或 90 天過後為止。</string>
     <string name="brave_ui_notification_desc_no_funds">因為資金不足，無法完成您排定的月繳自動捐助和打賞。我們會在 30 天後再試一次。</string>
     <string name="brave_ui_notification_desc_tip_error">處理您的小費時發生問題，請再試一次。</string>
     <string name="brave_ui_notification_desc_contr_error">處理您的捐獻時發生問題。</string>
     <string name="brave_rewards_local_uh_oh">糟糕！</string>
     <string name="brave_rewards_local_server_not_responding">Brave 獎勵伺服器沒有回應。我們會盡快修復此問題。</string>
     <string name="brave_ui_grants">款項</string>
+    <string name="brave_ui_details">詳情</string>
     <string name="brave_ui_expires_on"><ph name=\"DATE\">%1$s<ex>2019/4/14</ex></ph> 到期</string>
     <string name="brave_ui_insufficient_funds_msg">資金不足</string>
     <string name="brave_ui_insufficient_funds_desc">您的 Brave 獎勵帳戶正在等待一筆存款。</string>
@@ -280,21 +287,17 @@
 
     <string name="block">封鎖</string>
     <string name="brave_shields_onboarding_title">Brave 防護</string>
-    <string name="brave_shields_onboarding_text">侵犯隱私的廣告與追蹤器，讓您在網路瀏覽時不會被跟蹤。</string>
+    <string name="brave_shields_onboarding_text">侵犯隱私的廣告和追蹤器，讓您可以瀏覽網路而不被跟蹤。</string>
 
-    <string name="earn_tokens">贏取令牌</string>
+    <string name="earn_tokens">賺 <ph name=\"TOKEN\">%1$s<ex>代幣</ex></ph></string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">只看尊重隱私的廣告。使用它們來支持您喜愛的網站與創作者。</string>
     <string name="brave_rewards_onboarding_text2">只看尊重隱私的廣告。</string>
 
-    <string name="terms_title">同意條款以開始使用 Brave Rewards</string>
-    <string name="terms_text">我同意 Brave Rewards</string>
+    <string name="terms_text">開啟「獎勵」，即表示您同意</string>
     <string name="terms_of_service">服務條款</string>
 
-    <string name="agree">同意</string>
-    <string name="join">加入</string>
-
-     <string name="start_browsing">開始瀏覽</string>
+    <string name="start_browsing">開始瀏覽</string>
     <string name="i_didnt_see">我沒有看到廣告</string>
 
     <string name="brave_ads_onboarding_title">Brave 會顯示您的第一個廣告於</string>
@@ -305,7 +308,6 @@
     <string name="turn_on">開啟</string>
 
     <string name="no_thanks">謝謝不必</string>
-    <string name="do_not_agree">不同意</string>
 
     <string name="prefs_welcome_tour">歡迎導覽</string>
     <string name="welcome_tour_dialog_text">重新啟動「歡迎導覽」並不會影響到任何既有設定。</string>
@@ -314,5 +316,13 @@
     <string name="clear_download_title">下載記錄</string>
 
     <string name="settings_exit">離開設定</string>
+
+    <string name="brave_license_text">Brave 授權</string>
+    <string name="token">代幣</string>
+    <string name="point">點數</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>
