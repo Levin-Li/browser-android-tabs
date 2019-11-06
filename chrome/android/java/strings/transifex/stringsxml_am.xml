@@ -3,13 +3,14 @@
     <string name="brave_settings_title">Brave ጣቢያ ጋሻዎች ቅንብር ለ</string>
     <string name="brave_shields_down">ታች</string>
     <string name="brave_shields_up">ላይ</string>
-    <string name="brave_shields_ads_trackers">ማስታወቂያዎች እና ተከታታዮች ታግደዋል</string>
+    <string name="brave_shields_ads_trackers">ማስታወቂያዎች &amp; ተከታታዮች ታግደዋል</string>
     <string name="brave_shields_https_upgrades">የHTTPS ማሳደጊያዎች</string>
     <string name="brave_shields_scripts_blocked">ስክሪፕቶች ታግደዋል</string>
-    <string name="brave_shields_ads_tracking_switch">ማስታወቂያዎችን እና ክትትልን አግድ</string>
+    <string name="brave_shields_ads_tracking_switch">ማስታወቂያዎች &amp; ክትትልን አግድ</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS በሁሉም ቦታ</string>
     <string name="brave_shields_blocks_scripts_switch">ስክሪፕቶችን አግድ</string>
     <string name="accessibility_toolbar_btn_brave_shields">የBrave ጋሻዎችን አንቃ/አሰናክል</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">የ Brave ሽልማቶችን አስተዳድር</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">የ3ኛ ወገን ኩኪዎችን አግድ</string>
 
     <string name="httpse_summary">በተቻለ ሰአት ከ HTTP ይልቅ HTTPSን በመጠቀም የሚደገፉ ጣቢያዎችን ይከፍታል</string>
@@ -37,6 +38,8 @@
     <string name="sync_device_failure">ለማጣመር አልተቻለም</string>
     <string name="sync_requires_correct_time">የኮምፒውተርዎ ሰአት ቅንብር ትክክል ላይሆን ይችላል፣ ወይም ትክክለኛ ባልሆነ የሰአት ክልል ውስጥ ሊሆን ይችላል። የሰአት ቅንብርዎን ያረጋግጡ።</string>
 
+    <string name="brave_stats_text_ads">ማስታወቂያዎች &amp; ተከታታዮች 
+ታግደዋል</string>
     <string name="brave_stats_text_https">የ HTTPS እደሳዎች</string>
     <string name="brave_stats_text_time">ማትረፍ የተቻለ ግዜ መጠን ግምት</string>
 
@@ -51,7 +54,7 @@
     <string name="brave_shields_first_group_title">ከልካይ ተቆጣጣሪ</string>
     <string name="brave_shields_second_group_title">የግል መቆጣጠሪያዎች</string>
     <string name="brave_shields">መከላከያዎች</string>
-    <string name="brave_shields_ads_and_trackers">ማስታወቂያዎች እና መከታተያዎች</string>
+    <string name="brave_shields_ads_and_trackers">ማስታወቂያዎች &amp; መከታተያዎች</string>
     <string name="brave_shields_fingerprint_methods">የጣት አሻራ ዘዴዎች</string>
     <string name="brave_shields_block_phishing_switch">ማጭበርበርን ከልክል</string>
 
@@ -104,6 +107,7 @@
     <string name="brave_sync_btn_laptop">ኮምፒውተር ይጨምሩ</string>
     <string name="brave_sync_scan_sync_code">ይህንን የሲንክ ኮድ ይጨምሩ</string>
     <string name="brave_sync_add_mobile_device_text_part_1">ሁለተኛ ስልክን ወይም ታብሌትን ጥቅም ላይ በማዋል፣ ወደ Brave> ቅንብሮች > ሲንክ > ስካን ይሂዱ።</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">በሞባይል መሳሪያዎ ላይ ወደ ቅንብር ውስጥ ወዳለው ወደ Brave ማሳመሪያ ይሂዱና \"የማሳመሪያ ኮድ ስካን አድርግ\" የሚለውን ቁልፍ ጠቅ ያድርጉ። ካሜራዎን ተጠቅመው ከዚህ በታች የሚታየውን የ QR ኮድ ስካን ያድርጉ።</string>
     <string name="brave_sync_btn_done">አልቋል</string>
     <string name="brave_sync_tabs_text">ታቦች</string>
     <string name="brave_sync_history_text">ታሪክ</string>
@@ -137,24 +141,30 @@
 ማሰሻዎ ተወስኗል።</string>
     <string name="brave_default_browser_go_to_settings">መጠቀም የሚፈልጉትን መደበኛወ አሳሽ ወስነዋል።
 በመተግበሪያ ቅንብሮች ውስጥ መደበኛ አሳሽን ሊቀይሩ ይችላሉ።</string>
+    <string name="brave_default_browser_notification_body">ባትሪ ይቆጥቡ እንዲሁም ድረገጾችን በፍጥነት ይክፈቱ። Brave መደበኛ አሳሽዎ እንዲሆን ያድርጉ። ከ Brave የመተግበሪያ ምናሌ ውስጥ \"አንደ መደበኛ አሳሽ አቀናብር\" የሚለውን ይንኩ። </string>
     <string name="brave_set_default_browser">እንደመደበኛ አሳሽ ያቀናብሩ</string>
+    <string name="brave_set_default_browser_dialog_text">ከዝርዝሩ ውስጥ Brave የሚለውን ይምረጡ እና \"ሁልጊዜ\" የሚለውን ይንኩ</string>
     <string name="brave_default_browser_existing_notification_body">Brave መደበኛ የድር አሳሽዎ እንዲሆን ያድርጉ
 ባትሪ ያድኑ እንዲሁም የድር ገጸችን በፍጥነት ይጫኑ</string>
 
     <string name="brave_ui_welcome_header_two">የሚቀጥለውን ኢንተርኔት
 ለመሞክር ዝግጁ ይሁኑ።</string>
-    <string name="brave_ui_welcome_desc_two">ግለኝነትን የሚያከብሩ ማስታወቂያዎቸን በማየት
-ሁልጊዜም ቶክኖችን ማግኘት ይችላሉ።</string>
+    <string name="brave_ui_welcome_desc_two">አሁን ግለኝነትን የሚያከብሩ ማስታወቂያዎቸን በማየት
+ %1$s ማግኘት ይችላሉ።</string>
     <string name="brave_ui_welcome_button_text_two">ሽልማትን ይቀላቀሉ</string>
     <string name="brave_ui_welcome_footer_text_two">ተጨማሪ ይማሩ</string>
     <string name="brave_ui_rewards_creating_text">ዋሌት በመፍጠር ላይ</string>
     <string name="brave_ui_your_wallet">የእርሶ ዋሌት</string>
+    <string name="brave_ui_your_balance">ቀሪ ሂሳብዎ</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">የ BAP ነጥቦች</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> </string>
+    <string name="brave_ui_usd_text">ዩኤስዲ</string>
     <string name="brave_rewards_local_panel_add_funds">ገንዘብ ይጨምሩ</string>
     <string name="brave_ui_settings">ቅንብሮች</string>
     <string name="brave_ui_rewards_summary">የሽልማቶች አጭር መግለጫ</string>
-    <string name="brave_ui_site_banner_welcome">እዚህ ስለመጡ እናመሰግንዎታለን!</string>
+    <string name="brave_ui_site_banner_welcome">እንኳን ደህና መጡ!</string>
     <string name="brave_ui_rewards_banner_text1">ጉርሻ በመስጠት ይህንን ገጽ መደገፍ ይችላሉ። ምርጥ የሆነ ይዘት ስላላቸው እናመሰግናለን መባያ አንድ መንገድ ነው። የተረጋገጡ የይዘት ፈጣሪዎች በእያንዳንዱ የቀን መቁጠሪያ ወር የመጀመሪያው ሳምንት ላይ ጉርሻቸው ይከፈላቸዋል።</string>
     <string name="brave_ui_rewards_banner_text2">ይህንን ድረገጽ በቀጣይነት ለመርዳት የሚፈልጉ እንደሆነ የሚፈልጉ ከሆነ ወርሀዊ ጉርሻዎች ተቆራጭ እንዲሆኑ ሊያደርጉ ይችላሉ።</string>
     <string name="brave_ui_donation_amount">የጉርሻ መጠን</string>
@@ -162,7 +172,7 @@
     <string name="brave_ui_make_monthly">ይህንን ወርሀዊ አድርግ</string>
     <string name="brave_ui_send_tip">ጉርሻዬን ላክ</string>
     <string name="brave_ui_do_monthly">ወርሀዊ ጉርሻ መጠንን ወስን</string>
-    <string name="brave_ui_not_enough_tokens">በቂ የሆነ ቶክን የሎትም</string>
+    <string name="brave_ui_not_enough_tokens">በቂ የሆነ<ph name=\"TOKEN\">%1$s<ex>ቶክን</ex></ph>የለም</string>
     <string name="brave_ui_site_banner_notice_text">ያስታውሱ፡ ይህ ፈጣሪ ከ Brave ተጠቃሚዎች መዋጮዎችን ለመቀበል ገና አልተመዘገበም። እስከሚያረጋግጡ ወይም 90 ቀናት እስከሚያልፉ ድረስ መዋጮውን ለማድረግ እንሞክራለን።</string>
     <string name="brave_ui_please">እባክዎትን</string>
     <string name="brave_ui_add_funds">ገንዘብ ይጨምሩ</string>
@@ -187,9 +197,10 @@
     <string name="brave_ui_no_activity">በዚህ ወር ምንም
 እንቅስቃሴ የለም...</string>
     <string name="brave_ui_token_grant_claimed">የቶክን ግራንቶችዎን ወስደዋል</string>
+    <string name="brave_ui_point_grant_claimed">የነጥብ ግራንቶችዎን ወስደዋል</string>
     <string name="brave_ui_earnings_ads">ከማስታወቂያ የተገኘ ገቢ</string>
     <string name="brave_ui_rewards_contribute">በራስ ሰር መዋጮ አድርግ</string>
-    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT ያክል መዋጮ አድርገዋል።</string>
+    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph><ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>አዋጥተዋል።</string>
     <string name="brave_ui_one_time_donation">የአንድ ጊዜ መዋጮ</string>
     <string name="brave_ui_recurring_donation">ወርሀዊ መዋጮ</string>
     <string name="brave_ui_verified_publisher">Brave ያረጋገጠው አታሚ</string>
@@ -198,17 +209,20 @@
 እስከሚያረጋግጡ ድረስ ማንኛውም መዋጮ በእርሶ ዋሌት ውስጥ የሚቆይ ይሆናል።</string>
     <string name="brave_ui_on_youtube">በዩቲውብ ላይ</string>
     <string name="brave_ui_on_twitch">በትዊች ላይ</string>
-    <string name="brave_ui_new_grant">ነጻ የሆነ የቶክን ግራንት አለ።</string>
+    <string name="brave_ui_new_grant">ነጻ የ<ph name=\"TOKEN\">%1$s<ex>ቶክን</ex></ph>ግራንት አለ።</string>
     <string name="brave_ui_new_token_grant">ነጻ የቶክን ግራንት</string>
+    <string name="brave_ui_new_point_grant">ነጻ የነጥብ ግራንት</string>
     <string name="brave_ui_claim">ይገባኛል</string>
-    <string name="brave_ui_reserved_amount_text">ገና ላልተመዘገቡ ፈጣሪዎች <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT መድበዋል
-። አሳሽዎ እርሶ እስከሚያረጋግጡ ወይም 90 ቀን እስሚሞላ ድረስ መዋጮውን ለማድረግ ይሞክራል
-።</string>
+    <string name="brave_ui_reserved_amount_text">ገና ላልተመዘገቡ ፈጣሪዎች <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> መድበዋል
+። አሳሽዎ እርስዎ እስከሚያረጋግጡ ወይም 90 ቀን እስሚሞላ ድረስ 
+መዋጮውን ለማድረግ ይሞክራል።</string>
+    <string name="brave_ui_notification_desc_no_funds">በቂ የሆነ ፈንድ ስለሌዎ የተቀጠረው በራስ ሰር የሚደረገው ወርሀዊ መዋጮዎ ክፍያ ሊጠናቀቅ አልቻለም። በ30 ቀናት ውስጥ እንደገና እንሞክራለን።</string>
     <string name="brave_ui_notification_desc_tip_error">ጉርሻዎትን በማስተላለፍ ሂደት ውስጥ ችግር አጋጥሟል፣ እባክዎትን አንደገና ይሞክሩ።</string>
     <string name="brave_ui_notification_desc_contr_error">መዋጮዎትን በማስተላለፍ ሂደት ውስጥ ችግር አጋጥሟል።</string>
     <string name="brave_rewards_local_uh_oh">ውይ!</string>
     <string name="brave_rewards_local_server_not_responding">የ Brave ሽልማቶች ሰርቨር ምላሽ እየሰጠ አይደለም። ይህንን በተቻለ ፍጥነት እናስተካክለዋለን።</string>
     <string name="brave_ui_grants">ግራንቶች</string>
+    <string name="brave_ui_details">ዝርዝሮች</string>
     <string name="brave_ui_expires_on">በ <ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph>አገልግሎት መስጠት ያቆማል</string>
     <string name="brave_ui_insufficient_funds_msg">በቂ ያልሆነ ገንዘብ</string>
     <string name="brave_ui_insufficient_funds_desc">የ Brave Rewards አካውንትዎ ተቀማጭ እስሚደረግበት እየጠበቀ ነው።</string>
@@ -239,6 +253,7 @@
     <string name="prefs_appearance">ገጽታ</string>
     <string name="hide_brave_rewards_icon_title">የ Brave ሽልማቶች አዶን ደብቅ</string>
     <string name="hide_brave_rewards_icon_description">የ Brave ሸልማቶች በስራ ላይ በማይሆንበት ጊዜ የ Brave ሸልማቶች አዶንን ይደብቃል</string>
+    <string name="show_ads_when_brave_is_not_in_use">Brave ጥቅም ላይ በማይውልበት ወቅት ማስታወቂያዎችን አሳይ</string>
     <string name="reset_brave_rewards_option">የ Brave ሽልማቶችን ወደነበረበት መልስ</string>
     <string name="reset_brave_rewards_option_description">ይህ ዋሌትዎን ያጠፋ እና ሁሉንም የ Brave ሽልማትዎን ወደነበሩበት ይመልሳቸዋል</string>
     <string name="reset_brave_rewards_error_title">ወደነበረበት የመመለስ ስህተት</string>
@@ -270,21 +285,17 @@
 
     <string name="block">አግድ</string>
     <string name="brave_shields_onboarding_title">የ Brave ጋሻዎች</string>
-    <string name="brave_shields_onboarding_text">በድር ላይ ክትትል ሳይደረግብዎ እሰሳ ማድረግ ይችሉ ዘንድ ግለኝነት የሚጥሱ ማስታወቂያዎች እና ክትትል ማድረጊያዎች።</string>
+    <string name="brave_shields_onboarding_text">በድር ላይ ክትትል ሳይደረግብዎ እሰሳ ማድረግ ይችሉ ዘንድ ግለኝነት የሚጥሱ ማስታወቂያዎች &amp; ክትትል ማድረጊያዎች።</string>
 
-    <string name="earn_tokens">ቶክኖችን ያግኙ</string>
+    <string name="earn_tokens"><ph name=\"TOKEN\">%1$s<ex>ቶክኖችን</ex></ph>ያግኙ</string>
     <string name="brave_rewards_onboarding_title">የ Brave ሽልማቶች</string>
     <string name="brave_rewards_onboarding_text">ግለኝነትን የሚያከብሩ ማስታወቂያዎችን ለማየት። የሚወዷቸውን ገጾች እና ፈጣሪዎች ለመደገፍ ይጠቀሙዋቸው።</string>
     <string name="brave_rewards_onboarding_text2">ግለኝነትን የሚያከብሩ ማስታወቂያዎችን ለማየት።</string>
 
-    <string name="terms_title">የ Brave ሸልማቶችን ለመጠቀም ከውሎቹ ጋር ስምምነት ያድርጉ</string>
-    <string name="terms_text">ከ Brave ሸልማቶች ጋር እስማማለሁ</string>
+    <string name="terms_text">ወደ ሽልማቶች በመመለስዎ፣ ስምምነትዎን እየገለጹ ነው</string>
     <string name="terms_of_service">የአገልግሎት ውሎች</string>
 
-    <string name="agree">ተስማማ</string>
-    <string name="join">ተቀላቀል</string>
-
-     <string name="start_browsing">ማሰስ ጀምር</string>
+    <string name="start_browsing">ማሰስ ጀምር</string>
     <string name="i_didnt_see">እኔ ማስታወቂያ አላየሁም</string>
 
     <string name="brave_ads_onboarding_title">Brave የመጀመሪያውን ማስታወቂያ የሚያሳይዎ በ</string>
@@ -295,10 +306,21 @@
     <string name="turn_on">አብራ</string>
 
     <string name="no_thanks">አይ አመሰግናለሁ</string>
-    <string name="do_not_agree">አልስማማም</string>
 
     <string name="prefs_welcome_tour">የእንኳን ደህና መጡ ጉብኝት</string>
     <string name="welcome_tour_dialog_text">የእንኳን ደህን መጡ ጉብኝትን እንደገና ማስፈንጠር አሁን ባሉ ቅንብሮች ላይ ተጽእኖ አያሳድርም።</string>
     <string name="finish">ጨርስ</string>
     
-    </resources>
+    <string name="clear_download_title">የአውርድ ታሪክ</string>
+
+    <string name="settings_exit">ከቅንብሮች መውጫ</string>
+
+    <string name="brave_license_text">የ Brave ፈቃድ</string>
+    <string name="token">ቶክን</string>
+    <string name="point">ነጥብ</string>
+
+    <string name="one_tip_option">1<ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5<ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10<ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+</resources>

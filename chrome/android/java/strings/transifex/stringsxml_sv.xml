@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave site shield-inställningar för</string>
     <string name="brave_shields_down">Av</string>
     <string name="brave_shields_up">På</string>
-    <string name="brave_shields_ads_trackers">Annonser och trackers är blockerade</string>
+    <string name="brave_shields_ads_trackers">Annonser och spårare blockerade</string>
     <string name="brave_shields_https_upgrades">HTTPS-uppgraderingar</string>
     <string name="brave_shields_scripts_blocked">Skript är blockerade</string>
-    <string name="brave_shields_ads_tracking_switch">Blockera annonser och tracking</string>
+    <string name="brave_shields_ads_tracking_switch">Blockera annonser och spårning</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS överallt</string>
     <string name="brave_shields_blocks_scripts_switch">Blockera skript</string>
     <string name="accessibility_toolbar_btn_brave_shields">Aktivera/Inaktivera Brave Shields</string>
@@ -38,7 +38,8 @@
     <string name="sync_device_failure">Sync kunde inte ställas in</string>
     <string name="sync_requires_correct_time">Klockan på din dator kan vara inställd på fel tid, eller fel tidszon. Kolla inställningarna. </string>
 
-    <string name="brave_stats_text_ads">Reklam och spårning blockerade</string>
+    <string name="brave_stats_text_ads">Annonser och spårare
+blockerade</string>
     <string name="brave_stats_text_https">HTTPS
 uppgraderingar</string>
     <string name="brave_stats_text_time">Sparad
@@ -150,18 +151,22 @@ Spara batteri och ladda hemsidor snabbare </string>
 
     <string name="brave_ui_welcome_header_two">Gör dig redo att uppleva
 nästa steg av internet.</string>
-    <string name="brave_ui_welcome_desc_two">Du kan få polletter för att
-titta på integritetsrespekterande reklam.</string>
+    <string name="brave_ui_welcome_desc_two">Nu kan du tjäna %1$ss genom att
+titta på annonser som respekterar din integritet.</string>
     <string name="brave_ui_welcome_button_text_two">GÅ MED I REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">LÄS MER</string>
     <string name="brave_ui_rewards_creating_text">Skapar plånbok</string>
     <string name="brave_ui_your_wallet">Din plånbok</string>
+    <string name="brave_ui_your_balance">Ditt saldo</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT-poäng</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Lägg till pengar</string>
     <string name="brave_ui_settings">Inställningar</string>
     <string name="brave_ui_rewards_summary">REWARDS-SAMMANSTÄLLNING</string>
-    <string name="brave_ui_site_banner_welcome">Tack för besöket!</string>
+    <string name="brave_ui_site_banner_welcome">Välkommen!</string>
     <string name="brave_ui_rewards_banner_text1">Du kan visa ditt stöd för den här webbplatsen genom att skicka lite dricks. Det är ett bra sätt att tacka dem för att de skapar bra innehåll. Verifierade innehållsskapare får sin dricks utbetald den första veckan varje kalendermånad.</string>
     <string name="brave_ui_rewards_banner_text2">Om du vill kan du lägga in månatlig dricks för att ge ditt stöd till webbplatsen regelbundet.</string>
     <string name="brave_ui_donation_amount">Dricks</string>
@@ -169,7 +174,7 @@ titta på integritetsrespekterande reklam.</string>
     <string name="brave_ui_make_monthly">Gör det här varje månad</string>
     <string name="brave_ui_send_tip">skicka min dricks</string>
     <string name="brave_ui_do_monthly">ställ in månatlig dricks</string>
-    <string name="brave_ui_not_enough_tokens">för lite polletter</string>
+    <string name="brave_ui_not_enough_tokens">inte tillräckligt många <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_ui_site_banner_notice_text">Obs! Den här skaparen har inte registrerat sig att ta emot bidrag från Brave-användare. Vi försöker få skaparen att verifiera sig så att ditt bidrag går fram (i upp till 90 dagar).</string>
     <string name="brave_ui_please">snälla</string>
     <string name="brave_ui_add_funds">lägg till pengar</string>
@@ -194,9 +199,10 @@ titta på integritetsrespekterande reklam.</string>
     <string name="brave_ui_no_activity">Ingen aktivitet den här
 månaden...</string>
     <string name="brave_ui_token_grant_claimed">Tog emot polletter</string>
+    <string name="brave_ui_point_grant_claimed">Poänggåvor inlösta</string>
     <string name="brave_ui_earnings_ads">Reklamintäkter</string>
     <string name="brave_ui_rewards_contribute">Autobidrag</string>
-    <string name="brave_ui_rewards_contribute_description">Du har bidragit med <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Du har bidragit med <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Engångsdricks</string>
     <string name="brave_ui_recurring_donation">Månatlig dricks</string>
     <string name="brave_ui_verified_publisher">Brave-verifierad utgivare</string>
@@ -205,18 +211,20 @@ månaden...</string>
         All dricks du skickar ligger kvar i din plånbok tills användaren har blivit verifierad.</string>
     <string name="brave_ui_on_youtube">på YouTube</string>
     <string name="brave_ui_on_twitch">på Twitch</string>
-    <string name="brave_ui_new_grant">En gratis pollett är tillgänglig.</string>
+    <string name="brave_ui_new_grant">En gratis <ph name=\"TOKEN\">%1$s<ex>tokengåva</ex></ph> är tillgänglig.</string>
     <string name="brave_ui_new_token_grant">Gratis pollett</string>
+    <string name="brave_ui_new_point_grant">Gratis poänggåva</string>
     <string name="brave_ui_claim">Hämta</string>
-    <string name="brave_ui_reserved_amount_text">Du har skickat <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT till skapare som inte har
-registrerat sig för att ta emot bidrag. Din webbläsare försöker skicka ditt bidrag
-tills de har verifierat sig (i upp till 90 dagar).</string>
+    <string name="brave_ui_reserved_amount_text">Du har reserverat <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> till skapare som ännu inte
+registrerat sig för att ta emot bidrag. Din webbläsare kommer att fortsätta försöka bidra
+till dess de bekräftats eller till dess 90 dagar gått.</string>
     <string name="brave_ui_notification_desc_no_funds">Din schemalagda månadsvisa betalning för Auto-Contribute och månadsvisa tips kunde inte genomföras på grund av otillräckliga medel. Vi försöker igen om 30 dagar.</string>
     <string name="brave_ui_notification_desc_tip_error">Ett fel inträffade vid behandlingen av din dricks. Försök igen senare.</string>
     <string name="brave_ui_notification_desc_contr_error">Ett fel inträffade vid behandlingen av ditt bidrag.</string>
     <string name="brave_rewards_local_uh_oh">Oj!</string>
     <string name="brave_rewards_local_server_not_responding">Brave Rewards-servern svarar inte. Vi försöker åtgärda det så fort som möjligt.</string>
     <string name="brave_ui_grants">Bidrag</string>
+    <string name="brave_ui_details">Information</string>
     <string name="brave_ui_expires_on">upphör <ph name=\"DATE\">%1$s<ex>2019-04-14</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Otillräckligt saldo</string>
     <string name="brave_ui_insufficient_funds_desc">Ditt Brave Rewards-konto väntar på en insättning.</string>
@@ -279,21 +287,17 @@ för att visa ditt stöd för skapare du gillar.</string>
 
     <string name="block">Blockera</string>
     <string name="brave_shields_onboarding_title">Brave-sköldar</string>
-    <string name="brave_shields_onboarding_text">integritetsinskränkande annonser och spårare så att du kan surfa utan att följas på nätet. </string>
+    <string name="brave_shields_onboarding_text">integritetskränkande annonser och spårare så att du kan surfa utan att bli förföljd på nätet.</string>
 
-    <string name="earn_tokens">Tjäna poäng</string>
+    <string name="earn_tokens">Tjäna <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Brave Belöningar</string>
     <string name="brave_rewards_onboarding_text">för att se integritetsrespekterande annonser. Använd dem för att stötta dina favoritsajter- och skapare.</string>
     <string name="brave_rewards_onboarding_text2">för att se integritetsrespekterande annonser.</string>
 
-    <string name="terms_title">Godkänn villkoren för att använda Brave Belöningar</string>
-    <string name="terms_text">Jag samtycker till Brave Belöningar</string>
+    <string name="terms_text">Genom att slå på Belöningar går du med på</string>
     <string name="terms_of_service">Användarvillkor</string>
 
-    <string name="agree">Godkänn</string>
-    <string name="join">Gå med</string>
-
-     <string name="start_browsing">Börja surfa</string>
+    <string name="start_browsing">Börja surfa</string>
     <string name="i_didnt_see">Jag såg ingen annons</string>
 
     <string name="brave_ads_onboarding_title">Brave kommer att visa din första annons i</string>
@@ -304,7 +308,6 @@ för att visa ditt stöd för skapare du gillar.</string>
     <string name="turn_on">Sätt på</string>
 
     <string name="no_thanks">Nej tack</string>
-    <string name="do_not_agree">Godkänn ej</string>
 
     <string name="prefs_welcome_tour">Välkomsttur</string>
     <string name="welcome_tour_dialog_text">Omstart av välkomstguiden kommer inte att påverka några befintliga inställningar.</string>
@@ -313,5 +316,13 @@ för att visa ditt stöd för skapare du gillar.</string>
     <string name="clear_download_title">Nedladdningshistorik</string>
 
     <string name="settings_exit">Lämna inställningar</string>
+
+    <string name="brave_license_text">Bravelicens</string>
+    <string name="token">token</string>
+    <string name="point">poäng</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

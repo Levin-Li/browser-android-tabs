@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Preferências do Brave Shield para o site</string>
     <string name="brave_shields_down">Desligado</string>
     <string name="brave_shields_up">Ligado</string>
-    <string name="brave_shields_ads_trackers">Anúncios e Rastreadores Bloqueados</string>
+    <string name="brave_shields_ads_trackers">Anúncios &amp; Rastreadores Bloqueados</string>
     <string name="brave_shields_https_upgrades">HTTPS Atualizados</string>
     <string name="brave_shields_scripts_blocked">Scripts Bloqueados</string>
-    <string name="brave_shields_ads_tracking_switch">Bloquear Anúncios e Rastreadores</string>
+    <string name="brave_shields_ads_tracking_switch">Bloquear Ads &amp; Rastreamento</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS em tudo</string>
     <string name="brave_shields_blocks_scripts_switch">Bloquear Scripts</string>
     <string name="accessibility_toolbar_btn_brave_shields">Habilitar/Desabilitar Brave Shields</string>
@@ -38,8 +38,8 @@
     <string name="sync_device_failure">A sincronização não pôde ser configurada</string>
     <string name="sync_requires_correct_time">O relógio do seu computador pode estar configurado com a hora errada ou o fuso horário errado. Verifique as configurações do relógio</string>
 
-    <string name="brave_stats_text_ads">Anúncios e Rastreadores
-Bloqueado</string>
+    <string name="brave_stats_text_ads">Anúncios &amp; Rastreadores
+Bloqueados</string>
     <string name="brave_stats_text_https">HTTPS
 Atualizados</string>
     <string name="brave_stats_text_time">Tempo Estimado
@@ -56,7 +56,7 @@ Salvo</string>
     <string name="brave_shields_first_group_title">Monitor de bloqueio</string>
     <string name="brave_shields_second_group_title">Controles individuais</string>
     <string name="brave_shields">Blindagens</string>
-    <string name="brave_shields_ads_and_trackers">Anúncios e rastreadores</string>
+    <string name="brave_shields_ads_and_trackers">Anúncio &amp; Rastreadores</string>
     <string name="brave_shields_fingerprint_methods">Métodos de impressão digital</string>
     <string name="brave_shields_block_phishing_switch">Bloqueio de phishing</string>
 
@@ -151,18 +151,21 @@ Economize bateria e carregue as páginas web mais rápido</string>
 
     <string name="brave_ui_welcome_header_two">Prepare-se para conhecer
 a nova internet.</string>
-    <string name="brave_ui_welcome_desc_two">Agora você pode ganhar tokens ao
-assistir a anúncios que respeitam sua privacidade.</string>
+    <string name="brave_ui_welcome_desc_two">Você agora pode ganhar %1$ss para assistir anúncios que respeitam sua privacidade.</string>
     <string name="brave_ui_welcome_button_text_two">PARTICIPAR DO REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">SAIBA MAIS</string>
     <string name="brave_ui_rewards_creating_text">Criando carteira digital</string>
     <string name="brave_ui_your_wallet">Sua carteira digital</string>
+    <string name="brave_ui_your_balance">Seu saldo</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,00</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Pontos BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">US$</string>
     <string name="brave_rewards_local_panel_add_funds">Adicionar saldo</string>
     <string name="brave_ui_settings">Configurações</string>
     <string name="brave_ui_rewards_summary">RESUMO DO REWARDS</string>
-    <string name="brave_ui_site_banner_welcome">Obrigado pela visita!</string>
+    <string name="brave_ui_site_banner_welcome">Bem Vindo!</string>
     <string name="brave_ui_rewards_banner_text1">Você pode apoiar esse site enviando uma doação. É uma forma de agradecer ao site pela criação de conteúdo de qualidade. Criadores de conteúdo verificados recebem as doações na primeira semana de cada mês.</string>
     <string name="brave_ui_rewards_banner_text2">Se quiser, você poderá agendar doações mensais para apoiar esse site de modo contínuo.</string>
     <string name="brave_ui_donation_amount">Valor da doação</string>
@@ -170,7 +173,7 @@ assistir a anúncios que respeitam sua privacidade.</string>
     <string name="brave_ui_make_monthly">Fazer esta doação a cada mês</string>
     <string name="brave_ui_send_tip">enviar minha doação</string>
     <string name="brave_ui_do_monthly">definir doação mensal</string>
-    <string name="brave_ui_not_enough_tokens">não há tokens suficientes</string>
+    <string name="brave_ui_not_enough_tokens"><ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s insuficientes</string>
     <string name="brave_ui_site_banner_notice_text">OBSERVAÇÃO: este criador ainda não se cadastrou para receber contribuições de usuários do Brave. Continuaremos tentando fazer a contribuição até que o criador verifique a conta ou por um período de 90 dias.</string>
     <string name="brave_ui_please">por favor</string>
     <string name="brave_ui_add_funds">adicionar saldo</string>
@@ -195,9 +198,10 @@ assistir a anúncios que respeitam sua privacidade.</string>
     <string name="brave_ui_no_activity">Ainda não há nenhuma
 atividade neste mês...</string>
     <string name="brave_ui_token_grant_claimed">Concessões de tokens reivindicadas</string>
+    <string name="brave_ui_point_grant_claimed">Ofertas de Pontos Resgatadas</string>
     <string name="brave_ui_earnings_ads">Lucros com anúncios</string>
     <string name="brave_ui_rewards_contribute">Contribuir automaticamente</string>
-    <string name="brave_ui_rewards_contribute_description">Você contribuiu <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Você contribuiu com <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Doações individuais</string>
     <string name="brave_ui_recurring_donation">Doações mensais</string>
     <string name="brave_ui_verified_publisher">Editor verificado pelo Brave</string>
@@ -206,18 +210,19 @@ atividade neste mês...</string>
         As contribuições que você enviar permanecerão na sua carteira digital até que o criador verifique a conta.</string>
     <string name="brave_ui_on_youtube">no YouTube</string>
     <string name="brave_ui_on_twitch">no Twitch</string>
-    <string name="brave_ui_new_grant">Uma concessão de token gratuita está disponível.</string>
+    <string name="brave_ui_new_grant">Uma oferta de <ph name=\"TOKEN\">%1$s<ex>tokens</ex></ph> está disponível.</string>
     <string name="brave_ui_new_token_grant">Concessão de token gratuita</string>
+    <string name="brave_ui_new_point_grant">Pontos Gratuitos</string>
     <string name="brave_ui_claim">Reivindicar</string>
-    <string name="brave_ui_reserved_amount_text">Você designou <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT para criadores que
-ainda não se cadastraram para receber contribuições. Seu navegador continuará tentando contribuir
-até que os criadores verifiquem as contas ou por um período de 90 dias.</string>
+    <string name="brave_ui_reserved_amount_text">Você destinou <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> para criadores que ainda
+não assinaram para receber contribuições. Sue navegador continuará tentando contribuir até que eles passem pela verificação, ou até expirar o prazo de 90 dias.</string>
     <string name="brave_ui_notification_desc_no_funds">Não foi possível realizar seu pagamento mensal da Contribuição automática e das doações mensais. Seu saldo é insuficiente. Tentaremos novamente em 30 dias.</string>
     <string name="brave_ui_notification_desc_tip_error">Houve um problema no processamento da sua doação. Tente novamente.</string>
     <string name="brave_ui_notification_desc_contr_error">Houve um problema no processamento da sua doação.</string>
     <string name="brave_rewards_local_uh_oh">Oh, não!</string>
     <string name="brave_rewards_local_server_not_responding">O servidor do Brave Rewards não está respondendo. Corrigiremos esse problema o mais rápido possível.</string>
     <string name="brave_ui_grants">Concessões</string>
+    <string name="brave_ui_details">Detalhes</string>
     <string name="brave_ui_expires_on">expira em <ph name=\"DATE\">%1$s<ex>14/04/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Saldo insuficiente</string>
     <string name="brave_ui_insufficient_funds_desc">Sua conta do Brave Rewards está aguardando um depósito.</string>
@@ -280,21 +285,17 @@ contribuindo para seus criadores de conteúdo favoritos.</string>
 
     <string name="block">Bloquear</string>
     <string name="brave_shields_onboarding_title">Brave Shields</string>
-    <string name="brave_shields_onboarding_text">anúncios que invadem sua privacidade e rastreadores, para que você possa navegar pela web nem ser seguido.</string>
+    <string name="brave_shields_onboarding_text">anúncios que não respeitam sua privacidade  &amp; e rastreadores para que você possa navegar sem ser perseguido internet a fora.</string>
 
-    <string name="earn_tokens">Ganhe tokens</string>
+    <string name="earn_tokens">Ganhe <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">para ver anúncios que respeitam a privacidade. Use-os para dar suporte aos seus sites e criadores favoritos.</string>
     <string name="brave_rewards_onboarding_text2">para ver anúncios que respeitam a privacidade.</string>
 
-    <string name="terms_title">Concorde com os termos para usar o Brave Rewards</string>
-    <string name="terms_text">Concordo com o Brave Rewards</string>
+    <string name="terms_text">Ao ativar as Recompensas, você concorda com o</string>
     <string name="terms_of_service">Termos de Serviço</string>
 
-    <string name="agree">Concordar</string>
-    <string name="join">Juntar-se</string>
-
-     <string name="start_browsing">Iniciar navegação</string>
+    <string name="start_browsing">Iniciar navegação</string>
     <string name="i_didnt_see">Não vi nenhum anúncio</string>
 
     <string name="brave_ads_onboarding_title">Brave vai exibir seu primeiro anúncio em</string>
@@ -305,7 +306,6 @@ contribuindo para seus criadores de conteúdo favoritos.</string>
     <string name="turn_on">Ativar</string>
 
     <string name="no_thanks">Não, obrigado</string>
-    <string name="do_not_agree">Não concordar</string>
 
     <string name="prefs_welcome_tour">Tour de boas-vindas</string>
     <string name="welcome_tour_dialog_text">Reabrir o Tour de Boas-vindas não vai afetar nenhuma configuração existente.</string>
@@ -314,5 +314,13 @@ contribuindo para seus criadores de conteúdo favoritos.</string>
     <string name="clear_download_title">Histórico de download</string>
 
     <string name="settings_exit">Sair das configurações</string>
+
+    <string name="brave_license_text">Licença Brave</string>
+    <string name="token">token</string>
+    <string name="point">ponto</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

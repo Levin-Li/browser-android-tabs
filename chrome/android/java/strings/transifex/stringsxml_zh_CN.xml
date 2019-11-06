@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave网站屏蔽设置对象为</string>
     <string name="brave_shields_down">关闭</string>
     <string name="brave_shields_up">开启</string>
-    <string name="brave_shields_ads_trackers">已屏蔽广告和跟踪器</string>
+    <string name="brave_shields_ads_trackers">已拦截广告与跟踪器</string>
     <string name="brave_shields_https_upgrades">HTTPS 升级</string>
     <string name="brave_shields_scripts_blocked">已屏蔽脚本</string>
-    <string name="brave_shields_ads_tracking_switch">屏蔽广告和跟踪</string>
+    <string name="brave_shields_ads_tracking_switch">拦截广告与跟踪</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">屏蔽脚本</string>
     <string name="accessibility_toolbar_btn_brave_shields">启用/禁用Brave屏蔽器</string>
@@ -38,8 +38,8 @@
     <string name="sync_device_failure">无法设置同步</string>
     <string name="sync_requires_correct_time">你的设备上可能设置了错误的系统时间或时区。 请设置正确的时间和时区 </string>
 
-    <string name="brave_stats_text_ads">广告和跟踪器
-已屏蔽</string>
+    <string name="brave_stats_text_ads">广告与跟踪器
+已拦截</string>
     <string name="brave_stats_text_https">HTTPS
 已升级</string>
     <string name="brave_stats_text_time">时间
@@ -56,7 +56,7 @@
     <string name="brave_shields_first_group_title">屏蔽监视器</string>
     <string name="brave_shields_second_group_title">个人控制</string>
     <string name="brave_shields">屏蔽</string>
-    <string name="brave_shields_ads_and_trackers">广告和跟踪器</string>
+    <string name="brave_shields_ads_and_trackers">广告与跟踪器</string>
     <string name="brave_shields_fingerprint_methods">指纹识别方法</string>
     <string name="brave_shields_block_phishing_switch">阻止网络钓鱼</string>
 
@@ -151,18 +151,22 @@
 
     <string name="brave_ui_welcome_header_two">做好准备，体验
 下一代因特网。</string>
-    <string name="brave_ui_welcome_desc_two">您现在可以通过
-观看尊重隐私的广告赚取代币。</string>
+    <string name="brave_ui_welcome_desc_two">现在观看尊重隐私权的广告可以赚取 %1$ss
+。</string>
     <string name="brave_ui_welcome_button_text_two">加入奖励</string>
     <string name="brave_ui_welcome_footer_text_two">详细了解</string>
     <string name="brave_ui_rewards_creating_text">创建钱包</string>
     <string name="brave_ui_your_wallet">您的钱包</string>
+    <string name="brave_ui_your_balance">您的余额</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT 积分</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">美元</string>
     <string name="brave_rewards_local_panel_add_funds">增加资金</string>
     <string name="brave_ui_settings">设置</string>
     <string name="brave_ui_rewards_summary">奖励摘要</string>
-    <string name="brave_ui_site_banner_welcome">感谢您关注！</string>
+    <string name="brave_ui_site_banner_welcome">欢迎！</string>
     <string name="brave_ui_rewards_banner_text1">您可以发送小费支持此网站。这是对他们提供极好内容的一种感谢方式。请在每个日历月份的第一个星期期间验证内容创建者收到了他们的小费。</string>
     <string name="brave_ui_rewards_banner_text2">如果您喜欢，您可以每月安排提供小费以持续支持此网站。</string>
     <string name="brave_ui_donation_amount">小费金额</string>
@@ -170,7 +174,7 @@
     <string name="brave_ui_make_monthly">每月进行此操作</string>
     <string name="brave_ui_send_tip">发送我的小费</string>
     <string name="brave_ui_do_monthly">设置每月小费</string>
-    <string name="brave_ui_not_enough_tokens">代币不足</string>
+    <string name="brave_ui_not_enough_tokens"><ph name=\"TOKEN\">%1$s<ex> 代币</ex></ph>不足</string>
     <string name="brave_ui_site_banner_notice_text">注意：此创建者尚未签收 Brave 用户的捐款。我们将不断尝试捐献，直至得到验证，或者直至 90 天后。</string>
     <string name="brave_ui_please">请</string>
     <string name="brave_ui_add_funds">增加资金</string>
@@ -195,9 +199,10 @@
     <string name="brave_ui_no_activity">此月尚无
 任何活动...</string>
     <string name="brave_ui_token_grant_claimed">代币捐款已认领</string>
+    <string name="brave_ui_point_grant_claimed">已领取积分补助</string>
     <string name="brave_ui_earnings_ads">广告收益</string>
     <string name="brave_ui_rewards_contribute">自动捐献</string>
-    <string name="brave_ui_rewards_contribute_description">您已捐献 <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT。</string>
+    <string name="brave_ui_rewards_contribute_description">您已捐 <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>。</string>
     <string name="brave_ui_one_time_donation">一次性小费</string>
     <string name="brave_ui_recurring_donation">每月小费</string>
     <string name="brave_ui_verified_publisher">Brave 验证发表者</string>
@@ -206,18 +211,20 @@
     您发送的任何小费将仍然在您的钱包中，直至得到验证。</string>
     <string name="brave_ui_on_youtube">在 YouTube 上</string>
     <string name="brave_ui_on_twitch">在 Twitch 上</string>
-    <string name="brave_ui_new_grant">有未认领代币捐款。</string>
+    <string name="brave_ui_new_grant">现提供免费的 <ph name=\"TOKEN\">%1$s<ex> 代币</ex></ph>补助。</string>
     <string name="brave_ui_new_token_grant">未认领代币捐款</string>
+    <string name="brave_ui_new_point_grant">免费积分补助</string>
     <string name="brave_ui_claim">认领</string>
-    <string name="brave_ui_reserved_amount_text">您已为尚未签收捐款的创建者指定
- <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT。您的浏览器
-将不断尝试捐献，直至得到验证，或者直至 90 天后。</string>
+    <string name="brave_ui_reserved_amount_text">您为尚未注册接收捐款的创作者分派了 <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>
+。 您的浏览器将在他们通过验证
+或 90 天后继续尝试捐赠。</string>
     <string name="brave_ui_notification_desc_no_funds">由于资金不足，您无法完成预定的每月自动付款和提示付款。我们会在30天后再试一次。</string>
     <string name="brave_ui_notification_desc_tip_error">处理您的小费时出现问题，请再试一次。</string>
     <string name="brave_ui_notification_desc_contr_error">处理您的捐款时出现问题。</string>
     <string name="brave_rewards_local_uh_oh">哎呀！</string>
     <string name="brave_rewards_local_server_not_responding">Brave 奖励服务器无响应。我们将尽快修复。</string>
     <string name="brave_ui_grants">捐款</string>
+    <string name="brave_ui_details">详细信息</string>
     <string name="brave_ui_expires_on">于 <ph name=\"DATE\">%1$s<ex>2019 年 4 月 14 日</ex></ph> 到期</string>
     <string name="brave_ui_insufficient_funds_msg">资金不足</string>
     <string name="brave_ui_insufficient_funds_desc">您的 Brave 奖励账户正在等待存款。</string>
@@ -278,21 +285,17 @@
 
     <string name="block">屏蔽</string>
     <string name="brave_shields_onboarding_title">Brave 屏蔽器</string>
-    <string name="brave_shields_onboarding_text">侵犯隐私的广告和跟踪器，让您可以浏览在网上浏览内容，而不必担心被跟踪。</string>
+    <string name="brave_shields_onboarding_text">侵犯隐私权的广告与跟踪器，以便您在浏览网络时免遭跟踪。</string>
 
-    <string name="earn_tokens">赚取代币</string>
+    <string name="earn_tokens">赚取 <ph name=\"TOKEN\">%1$s<ex> 代币</ex></ph></string>
     <string name="brave_rewards_onboarding_title">Brave 奖励</string>
     <string name="brave_rewards_onboarding_text">查看尊重隐私的广告。利用他们支持您喜爱的网站和创作者。</string>
     <string name="brave_rewards_onboarding_text2">查看尊重隐私的广告。</string>
 
-    <string name="terms_title">同意使用 Brave 奖励的条款</string>
-    <string name="terms_text">我同意 Brave 奖励</string>
+    <string name="terms_text">启用奖励，即表示您同意</string>
     <string name="terms_of_service">服务条款</string>
 
-    <string name="agree">同意</string>
-    <string name="join">加入</string>
-
-     <string name="start_browsing">开始浏览</string>
+    <string name="start_browsing">开始浏览</string>
     <string name="i_didnt_see">我没有看到广告</string>
 
     <string name="brave_ads_onboarding_title">Brave 将为您显示第一条广告</string>
@@ -303,7 +306,6 @@
     <string name="turn_on">开启</string>
 
     <string name="no_thanks">不，谢谢</string>
-    <string name="do_not_agree">不同意</string>
 
     <string name="prefs_welcome_tour">欢迎之旅</string>
     <string name="welcome_tour_dialog_text">重启欢迎之旅不会影响任何现有设置。</string>
@@ -312,5 +314,13 @@
     <string name="clear_download_title">下载历史记录</string>
 
     <string name="settings_exit">退出设置</string>
+
+    <string name="brave_license_text">Brave 许可</string>
+    <string name="token">代币</string>
+    <string name="point">积分</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

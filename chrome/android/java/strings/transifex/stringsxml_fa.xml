@@ -3,13 +3,14 @@
     <string name="brave_settings_title">تنظیمات سپر سایت Brave برای</string>
     <string name="brave_shields_down">پایین</string>
     <string name="brave_shields_up">بالا</string>
-    <string name="brave_shields_ads_trackers">تبلیغات و ردیاب‌ها مسدود شدند</string>
+    <string name="brave_shields_ads_trackers">آگهی‌ها و ردیاب‌ها مسدود شدند</string>
     <string name="brave_shields_https_upgrades">ارتقاهای HTTPS</string>
     <string name="brave_shields_scripts_blocked">اسکریپت‌ها مسدود شدند</string>
-    <string name="brave_shields_ads_tracking_switch">مسدود کردن تبلیغات و ردیابی</string>
+    <string name="brave_shields_ads_tracking_switch">مسدود کردن آگهی‌ها و ردیابی</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS در هر جایی</string>
     <string name="brave_shields_blocks_scripts_switch">مسدود کردن اسکریپت‌ها</string>
     <string name="accessibility_toolbar_btn_brave_shields">فعال‌سازی/غیرفعال‌سازی سپرهای Brave</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">مدیریت «پاداش‌های Brave»</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">مسدود کردن کوکی‌های شخص ثالث</string>
 
     <string name="httpse_summary">سایت‌های پشتیبانی شده را در صورت امکان با استفاده از HTTPS به جای HTTP باز می‌کند</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">خروج</string>
 
+    <string name="brave_sync">همگام‌سازی Brave (نسخه بتا)‍</string>
     <string name="sync_settings_add_device_name_title">نام دستگاه را اضافه کنید</string>
     <string name="sync_settings_add_device_name_label">یک نام اختیاری برای این دستگاه وارد کنید</string>
     <string name="sync_example_device_name">دستگاه اندروید</string>
@@ -36,6 +38,8 @@
     <string name="sync_device_failure">همگام سازی تنظیم نشد</string>
     <string name="sync_requires_correct_time">ساعت رایانه شما ممکن است روی زمان یا منطقه زمانی اشتباهی تنظیم شده باشد. تنظیمات ساعت را بررسی کنید.</string>
 
+    <string name="brave_stats_text_ads">آگهی‌ها و ردیاب‌ها
+مسدود شدند</string>
     <string name="brave_stats_text_https">ارتقاهای
 HTTPS</string>
     <string name="brave_stats_text_time">زمان تقریبی
@@ -105,6 +109,7 @@ HTTPS</string>
     <string name="brave_sync_btn_laptop">افزودن رایانه</string>
     <string name="brave_sync_scan_sync_code">اسکن کردن این کد همگام‌سازی</string>
     <string name="brave_sync_add_mobile_device_text_part_1">با استفاده از تلفن یا تبلت دیگری، به «تنظیمات Brave > همگام‌سازی > اسکن» بروید.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">در دستگاهتان همراهتان، به بخش «همگام‌سازی Brave» در پانل «تنظیمات» بروید و روی دکمه «اسکن کد همگام‌سازی» کلیک کنید. با استفاده از دوربین، کد QR زیر را اسکن کنید.</string>
     <string name="brave_sync_btn_done">تمام</string>
     <string name="brave_sync_tabs_text">برگه‌ها</string>
     <string name="brave_sync_history_text">سابقه</string>
@@ -138,24 +143,30 @@ HTTPS</string>
 مرورگر پیش‌فرضتان تنظیم شده است.</string>
     <string name="brave_default_browser_go_to_settings">ازقبل مرورگر پیش‌فرضی را تنظیم کرده‌اید.
 می‌توانید در تنظیمات برنامه، مرورگر پیش‌فرض را تغییر دهید.</string>
+    <string name="brave_default_browser_notification_body">در شارژ باتری صرفه‌جویی کنید و صفحه‌های وب را سریع‌تر بارگیری کنید. Brave را مرورگر پیش‌فرضتان کنید. در منوی Brave روی «تنظیم به‌عنوان مرورگر پیش‌فرض» ضربه بزنید</string>
     <string name="brave_set_default_browser">تنظیم به‌عنوان مرورگر پیش‌فرض</string>
+    <string name="brave_set_default_browser_dialog_text">Brave را از فهرست انتخاب کنید و روی «همیشه» ضربه بزنید</string>
     <string name="brave_default_browser_existing_notification_body">Brave را مرورگر پیش‌فرضتان کنید
 در مصرف شارژ باتری صرفه‌جویی کنید و صفحات وب را سریع‌تر بار کنید</string>
 
     <string name="brave_ui_welcome_header_two">برای تجربه کردن اینترنت آینده،
 آماده شوید.</string>
-    <string name="brave_ui_welcome_desc_two">می‌توانید با تماشای آگهی‌های رعایت‌کننده
-حریم خصوصی، توکن دریافت کنید.</string>
+    <string name="brave_ui_welcome_desc_two">اکنون برای تماشای آگهی‌های رعایت‌کننده حریم خصوصی %1$s
+ دریافت می‌کنید.</string>
     <string name="brave_ui_welcome_button_text_two">به «پاداش‌ها» بپیوندید</string>
     <string name="brave_ui_welcome_footer_text_two">بیشتر بدانید</string>
     <string name="brave_ui_rewards_creating_text">درحال ایجاد کیف پول</string>
     <string name="brave_ui_your_wallet">کیف پول شما</string>
+    <string name="brave_ui_your_balance">موجودی شما</string>
     <string name="brave_ui_bat_text">بت</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> دلار آمریکا</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">امتیازهای BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">دلار آمریکا</string>
     <string name="brave_rewards_local_panel_add_funds">افزودن سرمایه</string>
     <string name="brave_ui_settings">تنظیمات</string>
     <string name="brave_ui_rewards_summary">خلاصه پاداش‌ها</string>
-    <string name="brave_ui_site_banner_welcome">از بازدیدتان سپاسگزاریم!</string>
+    <string name="brave_ui_site_banner_welcome">خوش آمدید!</string>
     <string name="brave_ui_rewards_banner_text1">می‌توانید با ارسال انعام از این سایت حمایت کنید. این یک راه تشکر از آنها برای ساخت محتوای عالی است. پدیدآورندگان تأییدشده محتوا در اولین هفته هر ماه تقویمی، بابت انعام‌هایشان پول دریافت می‌کنند.</string>
     <string name="brave_ui_rewards_banner_text2">در صورت تمایل، می‌توانید انعامی ماهانه و مستمر برای حمایت از این سایت برنامه‌ریزی کنید. </string>
     <string name="brave_ui_donation_amount">مقدار انعام</string>
@@ -163,7 +174,7 @@ HTTPS</string>
     <string name="brave_ui_make_monthly">ماهانه پرداخت شود</string>
     <string name="brave_ui_send_tip">ارسال انعام من</string>
     <string name="brave_ui_do_monthly">تنظیم انعام ماهانه</string>
-    <string name="brave_ui_not_enough_tokens">توکن کافی وجود ندارد</string>
+    <string name="brave_ui_not_enough_tokens"><ph name=\"TOKEN\">%1$s<ex>توکن کافی نیست</ex></ph></string>
     <string name="brave_ui_site_banner_notice_text">توجه: این پدیدآورنده هنوز برای دریافت کمک‌های نقدی کاربران Brave ثبت‌نام نکرده است. تا زمانی‌که ناشر تأیید شود یا تا 90‌ روز،‌ به تلاش برای انتقال کمکتان ادامه می‌دهیم.</string>
     <string name="brave_ui_please">لطفاً</string>
     <string name="brave_ui_add_funds">سرمایه اضافه کنید</string>
@@ -188,9 +199,10 @@ HTTPS</string>
     <string name="brave_ui_no_activity">هنوز فعالیتی در این ماه
 نداشته‌اید...</string>
     <string name="brave_ui_token_grant_claimed">اعطای توکن مطالبه شد</string>
+    <string name="brave_ui_point_grant_claimed">امتیاز اهدایی مطالبه شد</string>
     <string name="brave_ui_earnings_ads">کسب درآمد از آگهی‌ها</string>
     <string name="brave_ui_rewards_contribute">کمک نقدی خودکار</string>
-    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> بت کمک نقدی داشتید.</string>
+    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> کمک مالی کرده‌اید.</string>
     <string name="brave_ui_one_time_donation">انعام یک‌باره</string>
     <string name="brave_ui_recurring_donation">انعام ماهانه</string>
     <string name="brave_ui_verified_publisher">ناشر تأییدشده Brave</string>
@@ -199,17 +211,20 @@ HTTPS</string>
         تا زمانی‌که ناشر تأیید نشده است، انعام‌هایی که ارسال می‌کنید در کیف پولتان باقی می‌ماند.</string>
     <string name="brave_ui_on_youtube">در YouTube</string>
     <string name="brave_ui_on_twitch">در Twitch</string>
-    <string name="brave_ui_new_grant">اعطای توکن رایگان دردسترس است.</string>
+    <string name="brave_ui_new_grant">اعطای <ph name=\"TOKEN\">%1$s<ex> توکن رایگان</ex></ph> در دسترس است.</string>
     <string name="brave_ui_new_token_grant">اعطای توکن رایگان</string>
+    <string name="brave_ui_new_point_grant">اعطای امتیاز رایگان</string>
     <string name="brave_ui_claim">مطالبه</string>
-    <string name="brave_ui_reserved_amount_text"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> بت برای پدیدآورندگانی که هنوز برای دریافت کمک نقدی
-ثبت‌نام نکرده‌اند، در نظر گرفته‌اید. مرورگرتان تا زمانی‌که آنها به تأیید برسند، یا
-تا 90 روز دیگر سعی می‌کند کمک شما را منتقل کند.</string>
+    <string name="brave_ui_reserved_amount_text"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> برای پدیدآورندگانی که هنوز برای دریافت کمک نقدی ثبت‌نام نکرده‌اند در نظر گرفته‌اید.
+مرورگرتان تا زمانی‌که آنها به تأیید برسند، یا تا 90 روز دیگر سعی می‌کند
+کمک شما را منتقل کند.</string>
+    <string name="brave_ui_notification_desc_no_funds">به‌دلیل موجودی ناکافی نمی‌توانیم پرداخت ماهانه زمان‌بندی‌شده شما برای «کمک نقدی خودکار» و انعام‌های ماهانه را کامل کنیم. 30 روز دیگر دوباره امتحان خواهیم کرد.</string>
     <string name="brave_ui_notification_desc_tip_error">هنگام پردازش انعامتان مشکلی پیش آمد؛ لطفاً دوباره امتحان کنید.</string>
     <string name="brave_ui_notification_desc_contr_error">هنگام پردازش کمک نقدی‌تان مشکلی پیش آمد.</string>
     <string name="brave_rewards_local_uh_oh">وای نه!</string>
     <string name="brave_rewards_local_server_not_responding">سرور «پاداش‌های Brave» پاسخ نمی‌دهد. در اسرع وقت مشکل را برطرف خواهیم کرد.</string>
     <string name="brave_ui_grants">اعطاها</string>
+    <string name="brave_ui_details">جزئیات</string>
     <string name="brave_ui_expires_on">در <ph name=\"DATE\">%1$s<ex>4/14/2019</ex> </ph> منقضی می‌شود</string>
     <string name="brave_ui_insufficient_funds_msg">سرمایه کافی نیست</string>
     <string name="brave_ui_insufficient_funds_desc">حساب «پاداش‌های Brave» شما در انتظار سرمایه است.</string>
@@ -240,6 +255,7 @@ HTTPS</string>
     <string name="prefs_appearance">ظاهر</string>
     <string name="hide_brave_rewards_icon_title">پنهان کردن آیکون «پاداش‌های Brave»</string>
     <string name="hide_brave_rewards_icon_description">هنگام فعال نبودن «پاداش‌های Brave»، آیکون «پاداش‌های Brave» را پنهان می‌کند</string>
+    <string name="show_ads_when_brave_is_not_in_use">نمایش آگهی وقتی از Brave استفاده نمی‌شود</string>
     <string name="reset_brave_rewards_option">بازنشانی «پاداش‌های Brave»</string>
     <string name="reset_brave_rewards_option_description">این گزینه کیف پول Brave شما را حذف و همه داده‌های «پاداش‌های Brave» را بازنشانی می‌کند</string>
     <string name="reset_brave_rewards_error_title">بازنشانی خطا</string>
@@ -271,21 +287,17 @@ HTTPS</string>
 
     <string name="block">مسدود کردن</string>
     <string name="brave_shields_onboarding_title">سپرهای Brave</string>
-    <string name="brave_shields_onboarding_text">آگهی‌های و ردیاب‌های ناقض حریم خصوصی تا بتوانید بدون تعقیب شدن در سراسر وب، آن را مرور کنید.</string>
+    <string name="brave_shields_onboarding_text">آگهی‌های و ردیاب‌های ناقض حریم خصوصی تا بتوانید بدون تعقیب شدن در وب، آن را مرور کنید.</string>
 
-    <string name="earn_tokens">کسب توکن‌ها</string>
+    <string name="earn_tokens"><ph name=\"TOKEN\">%1$s<ex>توکن</ex></ph> دریافت کنید</string>
     <string name="brave_rewards_onboarding_title">پاداش‌های Brave</string>
     <string name="brave_rewards_onboarding_text">برای مشاهده تبلیغاتی که به حریم خصوصی احترام می‌گذارند. از آنها برای پشتیبانی از سایت‌ها و سازندگان محبوب خود استفاده کنید.</string>
     <string name="brave_rewards_onboarding_text2">برای مشاهده تبلیغاتی که به حریم خصوصی احترام می‌گذارند.</string>
 
-    <string name="terms_title">با شرایط استفاده از «پاداش‌های Brave» موافقت کنید</string>
-    <string name="terms_text">با «پاداش‌های Brave» موافق هستم</string>
+    <string name="terms_text">با روشن کردن «پاداش‌ها»، با این‌ها موافقت می‌کنید</string>
     <string name="terms_of_service">شرایط سرویس</string>
 
-    <string name="agree">موافق هستم</string>
-    <string name="join">پیوستن</string>
-
-     <string name="start_browsing">شروع مرور</string>
+    <string name="start_browsing">شروع مرور</string>
     <string name="i_didnt_see">هیچ تبلیغی را مشاهده ن&apos;کردم</string>
 
     <string name="brave_ads_onboarding_title">Brave اولین تبلیغ شما را نشان می‌دهد در</string>
@@ -296,10 +308,21 @@ HTTPS</string>
     <string name="turn_on">روشن کردن</string>
 
     <string name="no_thanks">خیر، متشکرم</string>
-    <string name="do_not_agree">موافق نیستم</string>
 
     <string name="prefs_welcome_tour">تور خوشامدگویی</string>
     <string name="welcome_tour_dialog_text">راه‌اندای مجدد «تور خوشامدگویی» روی هیچ‌کدام از تنظیمات موجود تأثیری نمی‌گذارد.</string>
     <string name="finish">پایان</string>
     
-    </resources>
+    <string name="clear_download_title">سابقه دانلود</string>
+
+    <string name="settings_exit">خروج از تنظیمات</string>
+
+    <string name="brave_license_text">مجوز Brave</string>
+    <string name="token">توکن</string>
+    <string name="point">امتیاز</string>
+
+    <string name="one_tip_option">‎1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">‎5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">‎10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+</resources>

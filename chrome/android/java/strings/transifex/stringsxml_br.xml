@@ -4,7 +4,6 @@
     <string name="brave_shields_up">Laez</string>
     <string name="brave_shields_https_upgrades">Hizivadurioù HTTPS</string>
     <string name="brave_shields_scripts_blocked">Skriptoù stanket</string>
-    <string name="brave_shields_ads_tracking_switch">Stankañ ar bruderezhioù hag an heulierioù</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Pep-lec\'h</string>
     <string name="brave_shields_blocks_scripts_switch">Stankañ ar skriptoù</string>
     <string name="accessibility_toolbar_btn_brave_shields">Enaouiñ/Lazhañ Skoedoù Brave</string>
@@ -21,8 +20,6 @@
     <string name="enter_code_words_sync">Ebarzhiñ ar gerioù kod</string>
     <string name="sync_device">Trevnad sinkro</string>
     <string name="sync_device_failure">N\'haller ket diazezañ ar sinkro</string>
-    <string name="brave_stats_text_ads">Bruderezhioù hag Heulierioù
-Stanket</string>
     <string name="brave_stats_text_https">Hizivadurioù
 HTTPS</string>
     <string name="brave_stats_text_time">Amzer
@@ -32,7 +29,6 @@ Espernet</string>
 
     <string name="desktop_mode_title">Mod Burev</string>
     <string name="brave_shields">Skoedoù</string>
-    <string name="brave_shields_ads_and_trackers">Bruderezhioù hag heulierioù</string>
     <string name="brave_shields_block_phishing_switch">Stankañ an higennañ</string>
 
     <string name="play_video_in_background_title">Lennadur video en drekleur</string>
@@ -85,14 +81,12 @@ Espernet</string>
 
     <string name="brave_ui_welcome_footer_text_two">GOUZOUT HIROC\'H</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
     <string name="brave_rewards_local_panel_add_funds">Ouzhpennañ fontoù</string>
     <string name="brave_ui_settings">Arventennoù</string>
     <string name="brave_ui_donation_amount">Sammad ar gwerzh-butun</string>
     <string name="brave_ui_wallet_balance">sammad an douger-moneiz:</string>
     <string name="brave_ui_send_tip">kas ur gwerzh-butun</string>
     <string name="brave_ui_do_monthly">termeniñ ur gwerzh-butun miziek</string>
-    <string name="brave_ui_not_enough_tokens">n\'eus ket trawalc\'h a jedaouerioù</string>
     <string name="brave_ui_please">mar plij</string>
     <string name="brave_ui_add_funds">ouzhpennit fontoù</string>
     <string name="brave_ui_thank_you">Trugarez!</string>
@@ -156,21 +150,16 @@ Espernet</string>
 
     <string name="block">Stankañ</string>
     <string name="brave_shields_onboarding_title">Skoedoù Brave</string>
-    <string name="earn_tokens">Gounit jedaouerioù</string>
     <string name="brave_rewards_onboarding_title">Loreoù Brave</string>
     <string name="terms_of_service">Termoù Servij</string>
 
-    <string name="agree">Asantiñ</string>
-    <string name="join">Mont e-barzh</string>
-
-     <string name="start_browsing">Kregiñ da verdeiñ</string>
+    <string name="start_browsing">Kregiñ da verdeiñ</string>
     <string name="i_didnt_see">N\'em eus gwelet bruderezh ebet</string>
 
     <string name="brave_ads_onboarding_title">Brave a ziskouezo deoc\'h ho pruderezh kentañ a-benn</string>
     <string name="turn_on">Enaouiñ</string>
 
     <string name="no_thanks">Nann, avat</string>
-    <string name="do_not_agree">Chom hep asantiñ</string>
 
     <string name="prefs_welcome_tour">Tro degemer</string>
     <string name="finish">Echuiñ</string>
@@ -179,4 +168,4 @@ Espernet</string>
 
     <string name="settings_exit">Arvenntoù kuitaat</string>
 
-</resources>
+    </resources>

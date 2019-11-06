@@ -3,13 +3,14 @@
     <string name="brave_settings_title">Mipangilio mahiri ya ngao ya tovuti</string>
     <string name="brave_shields_down">Chini</string>
     <string name="brave_shields_up">Juu</string>
-    <string name="brave_shields_ads_trackers">Matangazo na Vifuatiliaji Vimezuiwa</string>
+    <string name="brave_shields_ads_trackers">Matangazo; Vifuatiliaji Vimezuiwa</string>
     <string name="brave_shields_https_upgrades">Uboreshaji wa HTTPS</string>
     <string name="brave_shields_scripts_blocked">Hati Zimezuiwa</string>
-    <string name="brave_shields_ads_tracking_switch">Zuia Matangazo na Ufuatiliaji</string>
+    <string name="brave_shields_ads_tracking_switch">Zuia Matangazo; Ufuatiliaji</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Zuia Hati</string>
     <string name="accessibility_toolbar_btn_brave_shields">Wezesha/Lemaza Ngao Mahiri</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Dhibiti Zawadi za Brave</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Zuia vidakuzi vya mhusika mwengine</string>
 
     <string name="httpse_summary">Hufungua tovuti zinazoauniwa kwa kutumia HTTPS badala ya HTTP ikiwezekana</string>
@@ -28,6 +29,7 @@
 
     <string name="menu_exit">Mlango wa kutoka</string>
 
+    <string name="brave_sync">Uoanishaji wa Brave (beta)</string>
     <string name="sync_settings_add_device_name_title">Ongeza jina la kifaa</string>
     <string name="sync_settings_add_device_name_label">Ingiza jina la hiari la kifaa hiki</string>
     <string name="sync_example_device_name">Kifaa cha Android</string>
@@ -36,8 +38,8 @@
     <string name="sync_device_failure">Ulandanishaji usingesanidiwa</string>
     <string name="sync_requires_correct_time">Saa ya kompyuta yako huenda ikawekwa saa isiyofaa, au saa za eneo zisizofaa. Angalia mipangilio ya saa yako</string>
 
-    <string name="brave_stats_text_ads">Matangazo na Vifuatiliaji
-Yamezuiwa</string>
+    <string name="brave_stats_text_ads">Matangazo; Vifuatiliaji
+Vimezuiwa</string>
     <string name="brave_stats_text_https">Uboreshaji
 wa HTTPS</string>
     <string name="brave_stats_text_time">Muda Kadiriwa
@@ -54,7 +56,7 @@ Umehifadhiwa</string>
     <string name="brave_shields_first_group_title">Inaziba Monita</string>
     <string name="brave_shields_second_group_title">Vidhibiti Binafsi</string>
     <string name="brave_shields">Ngao</string>
-    <string name="brave_shields_ads_and_trackers">Matangazo na Vifuatiliaji</string>
+    <string name="brave_shields_ads_and_trackers">Matangazo; Vifuatiliaji</string>
     <string name="brave_shields_fingerprint_methods">Mbinu za Alama za Vidole</string>
     <string name="brave_shields_block_phishing_switch">Zuia Udukuzi</string>
 
@@ -107,6 +109,7 @@ Umehifadhiwa</string>
     <string name="brave_sync_btn_laptop">Ongeza Kompyuta</string>
     <string name="brave_sync_scan_sync_code">Skani msimbo huu wa kuoanisha</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Kwa kutumia simu ya pili au tabuleti, nenda kwenye Mipangilio ya Brave > Oanisha > Skani</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Katika rununu yako, enda katika Uoanishaji wa Brave katika eneo la Mipangilio na ubonyeze kitufe cha \"Skani Kodi ya Uoanishaji\". Tumia kamera yako kuskani Kodi ya QR hapo chini.</string>
     <string name="brave_sync_btn_done">Imekamilika</string>
     <string name="brave_sync_tabs_text">Vichupo</string>
     <string name="brave_sync_history_text">Historia</string>
@@ -140,24 +143,30 @@ Umehifadhiwa</string>
 kivinjari chako chaguomsingi.</string>
     <string name="brave_default_browser_go_to_settings">Tayari umeshapangilia kivinjari chaguomsingi.
 Unaweza kubadilisha kivinjari chaguomsingi katika mipangilio ya programu yako.</string>
+    <string name="brave_default_browser_notification_body">Okoa betri na ufungue kurasa za mtandao haraka zaidi. Fanya Brave iwe kisakuro chako. Kutoka katika menyu ya Brave bonyeza \"Weka kama brauza yako\"</string>
     <string name="brave_set_default_browser">Kiweke kuwa kivinjari chaguomsingi</string>
+    <string name="brave_set_default_browser_dialog_text">Chagua Brave kutoka katika orodha na ubonyeze \"Kila Wakati\"</string>
     <string name="brave_default_browser_existing_notification_body">Fanya Brave kuwa kivinjari chako chaguomsingi
 Okoa betri na vinjari haraka zaidi.</string>
 
     <string name="brave_ui_welcome_header_two">Kaa tayari kufurahia
 intaneti mpya.</string>
-    <string name="brave_ui_welcome_desc_two">Sasa unaweza kupata zawadi kwa
+    <string name="brave_ui_welcome_desc_two">Sasa unaweza kupata %1$s kwa
 kutazama matangazo yanayoheshimu faragha.</string>
     <string name="brave_ui_welcome_button_text_two">JIUNGE NA REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">PATA MAELEZO ZAIDI</string>
     <string name="brave_ui_rewards_creating_text">Kutengeneza waleti</string>
     <string name="brave_ui_your_wallet">Waleti yako</string>
+    <string name="brave_ui_your_balance">Salio lako</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Pointi za BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Weka Fedha</string>
     <string name="brave_ui_settings">Mipangilio</string>
     <string name="brave_ui_rewards_summary">MUHTASARI WA REWRDS</string>
-    <string name="brave_ui_site_banner_welcome">Asante kwa kutembelea tovuti hii!</string>
+    <string name="brave_ui_site_banner_welcome">Karibu!</string>
     <string name="brave_ui_rewards_banner_text1">Unaweza kuwezesha tovuti hii kwa kutuma zawadi. Ni namna ya kuwashukuru kwa kutengeneza maudhui mazuri. Watengenezaji maudhui waliothibitishwa wanalipwa zawadi zao wiki ya kwanza ya kila mwezi.</string>
     <string name="brave_ui_rewards_banner_text2">Kama unapenda, unaweza kupanga kutoa zawadi kila mwezi ili kuiwezesha tovuti hii kwa mwendelezo.</string>
     <string name="brave_ui_donation_amount">Kiwango cha zawadi</string>
@@ -165,7 +174,7 @@ kutazama matangazo yanayoheshimu faragha.</string>
     <string name="brave_ui_make_monthly">Ifanye hii kila mwezi</string>
     <string name="brave_ui_send_tip">tuma zawadi yangu</string>
     <string name="brave_ui_do_monthly">weka zawadi ya kila mwezi</string>
-    <string name="brave_ui_not_enough_tokens">hakuna zawazi za kutosha</string>
+    <string name="brave_ui_not_enough_tokens">tokeni<ph name=\"TOKEN\">%1$s<ex>haitoshi</ex></ph></string>
     <string name="brave_ui_site_banner_notice_text">ZINGATIA: Mtengenezaji huyu bado hajajisajili ili kuweza kupokea michango kutoka kwa watumiaji wa Brave. Tutaendelea kujaribu kuchangia hadi watakapothibitisha, au hadi siku 90 zitakapopita.</string>
     <string name="brave_ui_please">tafadhali</string>
     <string name="brave_ui_add_funds">weka fedha</string>
@@ -190,9 +199,10 @@ kutazama matangazo yanayoheshimu faragha.</string>
     <string name="brave_ui_no_activity">Hakuna shughuli
 mwezi huu...</string>
     <string name="brave_ui_token_grant_claimed">Ruzuku za Zawadi Zilizodaiwa</string>
+    <string name="brave_ui_point_grant_claimed">Ruzuku za Zawadi Zilizodaiwa</string>
     <string name="brave_ui_earnings_ads">Mapato kutokana na Matangazo</string>
     <string name="brave_ui_rewards_contribute">Auto-Contribute</string>
-    <string name="brave_ui_rewards_contribute_description">Umechangia <ph name=\"BAT_VALUE\">%1$s<ex>BAT 50</ex></ph>.</string>
+    <string name="brave_ui_rewards_contribute_description">Umechangia<ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph><ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Zawadi za mara moja</string>
     <string name="brave_ui_recurring_donation">Zawadi za Kila Mwezi</string>
     <string name="brave_ui_verified_publisher">Mchapishaji wa Brave Aliyethibitishwa</string>
@@ -200,15 +210,20 @@ mwezi huu...</string>
     <string name="brave_ui_not_verified_publisher_description">Mtengenezaji huyu bado hajajisajili ili kuweza kupokea michango kutoka kwa watumiaji wa Brave. Zawadi zozote utakazotuma zitabaki kwenye waleti yake hadi atakapothibitisha.</string>
     <string name="brave_ui_on_youtube">kwenye YouTube</string>
     <string name="brave_ui_on_twitch">kwenye Twitch</string>
-    <string name="brave_ui_new_grant">Ruzuku ya zawadi ya bure inapatikana.</string>
+    <string name="brave_ui_new_grant">Tokeni<ph name=\"TOKEN\">%1$s<ex>ya bure</ex></ph>inapatikana.</string>
     <string name="brave_ui_new_token_grant">Ruzuku ya Zawadi ya Bure</string>
+    <string name="brave_ui_new_point_grant">Ruzuku ya Zawadi ya Bure</string>
     <string name="brave_ui_claim">Dai</string>
-    <string name="brave_ui_reserved_amount_text">Umeweka <ph name=\"BAT_VALUE\">%1$s<ex>BAT 50</ex></ph> kwa  watengenezaji wa maudhui ambao hawajajisajili kupokea michango. Kivinjari chako kitaendelea kujaribu kuchangia hadi watakapothibitisha, au hadi siku 90 zipite.</string>
+    <string name="brave_ui_reserved_amount_text">Umeweka<ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph><ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>kwa watengenezaji wa maudhui ambao hawajajisajili
+ kupokea michango. Kivinjari chako kitaendelea kujaribu kuchangia
+ hadi watakapothibitisha, au hadi siku 90 zipite.</string>
+    <string name="brave_ui_notification_desc_no_funds">Malipo yako yaliyopangwa kila mwezi ya Kioto na pointi za kila mwezi hayakuweza kukamilishwa kwa sababu ya fedha kidogo. Tutajaribu tena katika siku 30.</string>
     <string name="brave_ui_notification_desc_tip_error">Hitilafu fulani ilitokea wakati wa kuchakata zawadi yako, tafadhali jaribu tena.</string>
     <string name="brave_ui_notification_desc_contr_error">Hitilafu fulani ilitokea wakati wa kuchakata mchango wako.</string>
     <string name="brave_rewards_local_uh_oh">Ayaa!</string>
     <string name="brave_rewards_local_server_not_responding">Seva ya Brave Rewards imepata hitilafu. Tutarekebisha hii mapema iwezekanavyo.</string>
     <string name="brave_ui_grants">Ruzuku</string>
+    <string name="brave_ui_details">Maelezo</string>
     <string name="brave_ui_expires_on">huisha muda wake mnamo <ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Hakuna Fedha za Kutosha</string>
     <string name="brave_ui_insufficient_funds_desc">Akaunti yako ya Brave inasubiri kuwekwa fedha.</string>
@@ -239,6 +254,7 @@ watengenezaji maudhui unaowapenda.</string>
     <string name="prefs_appearance">Mwonekano</string>
     <string name="hide_brave_rewards_icon_title">Ficha Ikoni ya Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Huficha Ikoni ya Brave Rewards wakati Brave Rewards haijawezeshwa</string>
+    <string name="show_ads_when_brave_is_not_in_use">Onyesha matangazo wakati Brave haitumiki</string>
     <string name="reset_brave_rewards_option">Weka upya Brave Rewards</string>
     <string name="reset_brave_rewards_option_description">Hatua hii itafuta pochi yako ya Brave na kuweka upya data zako zote za Brave Rewards</string>
     <string name="reset_brave_rewards_error_title">Hitilafu ya Kuweka Upya</string>
@@ -272,19 +288,15 @@ watengenezaji maudhui unaowapenda.</string>
     <string name="brave_shields_onboarding_title">Ngao za Brave</string>
     <string name="brave_shields_onboarding_text">matangazo na vifuatiliaji vya kuvamia faragha ili uvinjari bila kufuatwa kwenye wavuti.</string>
 
-    <string name="earn_tokens">Pata tokeni</string>
+    <string name="earn_tokens">Pata tokeni<ph name=\"TOKEN\">%1$s<ex></ex></ph></string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">kwa ajili ya kuona matangazo ya kuheshimu faragha. Yatumie kuauni tovuti na watengenezaji wako unaopenda.</string>
     <string name="brave_rewards_onboarding_text2">kwa ajili ya kuona matangazo yanayoheshimu faragha.</string>
 
-    <string name="terms_title">Kubali Sheria na Masharti ya kutumia Brave Rewards</string>
-    <string name="terms_text">Ninakubali Brave Rewards</string>
+    <string name="terms_text">Kwa kuwasha Zawadi, unakubaliana na</string>
     <string name="terms_of_service">Sheria na Masharti</string>
 
-    <string name="agree">Kubali</string>
-    <string name="join">Jiunge</string>
-
-     <string name="start_browsing">Anza kuvinjari</string>
+    <string name="start_browsing">Anza kuvinjari</string>
     <string name="i_didnt_see">Sikuchapisha ona tangazo</string>
 
     <string name="brave_ads_onboarding_title">Brave itaonyesha tangazo lako la kwanza katika</string>
@@ -295,10 +307,21 @@ watengenezaji maudhui unaowapenda.</string>
     <string name="turn_on">Washa</string>
 
     <string name="no_thanks">La, asante</string>
-    <string name="do_not_agree">Sikubali</string>
 
     <string name="prefs_welcome_tour">Welcome Tour</string>
     <string name="welcome_tour_dialog_text">Kuanzisha tena Welcome Tour hakutaathiri mipangilio yoyote iliyopo.</string>
     <string name="finish">Kamilisha</string>
     
-    </resources>
+    <string name="clear_download_title">Historia ya Kupakua</string>
+
+    <string name="settings_exit">Kutoka Mipangilio</string>
+
+    <string name="brave_license_text">Leseni ya Brave</string>
+    <string name="token">tokeni</string>
+    <string name="point">pointi</string>
+
+    <string name="one_tip_option">1<ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5<ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10<ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+</resources>

@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Настройки щитов Brave для</string>
     <string name="brave_shields_down">Выкл</string>
     <string name="brave_shields_up">Вкл</string>
-    <string name="brave_shields_ads_trackers">Реклам или трекеров заблокировано</string>
+    <string name="brave_shields_ads_trackers">Заблокированная реклама и трекеры</string>
     <string name="brave_shields_https_upgrades">HTTPS-перенаправлений</string>
-    <string name="brave_shields_scripts_blocked">Скриптов заблокировано</string>
-    <string name="brave_shields_ads_tracking_switch">Блокировать рекламу и трекинг</string>
+    <string name="brave_shields_scripts_blocked">Блокировано скриптов</string>
+    <string name="brave_shields_ads_tracking_switch">Блокируйте рекламу и трекеры</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS везде</string>
     <string name="brave_shields_blocks_scripts_switch">Блокировать скрипты</string>
     <string name="accessibility_toolbar_btn_brave_shields">Вкл/Выкл щиты Brave</string>
@@ -39,7 +39,7 @@
     <string name="sync_requires_correct_time">В часах вашего компьютера может быть установлено неправильное время или неправильный часовой пояс. Проверьте настройки часов</string>
 
     <string name="brave_stats_text_ads">Реклама и трекеры
-Блокировано</string>
+заблокированы</string>
     <string name="brave_stats_text_https">HTTPS-пере-
 направлений</string>
     <string name="brave_stats_text_time">Сохранено
@@ -151,18 +151,22 @@
 
     <string name="brave_ui_welcome_header_two">Новые способы
 получать токены.</string>
-    <string name="brave_ui_welcome_desc_two">Теперь вы можете получать токены за просмотр рекламы,
-в которой соблюдается конфиденциальность данных.</string>
+    <string name="brave_ui_welcome_desc_two">Теперь вы можете заработать %1$ss за
+просмотр рекламы, которая уважает вашу конфиденциальность.</string>
     <string name="brave_ui_welcome_button_text_two">ВСТУПИТЬ В ПРОГРАММУ BRAVE REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">ПОДРОБНЕЕ</string>
     <string name="brave_ui_rewards_creating_text">Создание кошелька</string>
     <string name="brave_ui_your_wallet">Ваш кошелек</string>
+    <string name="brave_ui_your_balance">Ваш баланс</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> долл. США</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Баллы BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Добавить средства</string>
     <string name="brave_ui_settings">Настройки</string>
     <string name="brave_ui_rewards_summary">О BRAVE REWARDS</string>
-    <string name="brave_ui_site_banner_welcome">Спасибо, что заглянули!</string>
+    <string name="brave_ui_site_banner_welcome">Добро пожаловать!</string>
     <string name="brave_ui_rewards_banner_text1">Вы можете поддержать авторов этого сайта и поблагодарить их за труд, сделав пожертвование. Создатели контента, которые прошли проверку, получают вознаграждение в течение первой недели каждого календарного месяца.</string>
     <string name="brave_ui_rewards_banner_text2">При желании вы можете настроить ежемесячные взносы.</string>
     <string name="brave_ui_donation_amount">Сумма пожертвования</string>
@@ -170,7 +174,7 @@
     <string name="brave_ui_make_monthly">Перечислять ежемесячно</string>
     <string name="brave_ui_send_tip">отправить пожертвование</string>
     <string name="brave_ui_do_monthly">настроить ежемесячные пожертвования</string>
-    <string name="brave_ui_not_enough_tokens">недостаточно токенов</string>
+    <string name="brave_ui_not_enough_tokens">недостаточно <ph name=\"TOKEN\">%1$s<ex>токен</ex></ph>ов</string>
     <string name="brave_ui_site_banner_notice_text">ПРИМЕЧАНИЕ. Этот создатель контента еще не зарегистрировался в нашей программе. Повторные попытки отправить ему пожертвование будут совершаться до тех пор, пока он не пройдет проверку или пока не истечет 90 дней.</string>
     <string name="brave_ui_please">пожалуйста</string>
     <string name="brave_ui_add_funds">добавить средства</string>
@@ -195,9 +199,10 @@
     <string name="brave_ui_no_activity">Нет информации
 о действиях в этом месяце.</string>
     <string name="brave_ui_token_grant_claimed">Полученные в подарок токены</string>
+    <string name="brave_ui_point_grant_claimed">Получено грантов за баллы</string>
     <string name="brave_ui_earnings_ads">Доходы от рекламы</string>
     <string name="brave_ui_rewards_contribute">Автоплатеж</string>
-    <string name="brave_ui_rewards_contribute_description">Вы сделали пожертвование: <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Вы внесли вклад в размере <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Разовые пожертвования</string>
     <string name="brave_ui_recurring_donation">Ежемесячные пожертвования</string>
     <string name="brave_ui_verified_publisher">Издатель, проверенный Brave</string>
@@ -206,18 +211,20 @@
         Отправленные пожертвования останутся в вашем кошельке до тех пор, пока автор не пройдет проверку.</string>
     <string name="brave_ui_on_youtube">на YouTube</string>
     <string name="brave_ui_on_twitch">в Twitch</string>
-    <string name="brave_ui_new_grant">Доступен бесплатный токен.</string>
+    <string name="brave_ui_new_grant">Доступен бесплатный грант в размере <ph name=\"TOKEN\">%1$s<ex>токен</ex></ph>ов.</string>
     <string name="brave_ui_new_token_grant">Токен в подарок</string>
+    <string name="brave_ui_new_point_grant">Бесплатный грант за баллы</string>
     <string name="brave_ui_claim">Получить</string>
-    <string name="brave_ui_reserved_amount_text">Вы хотите отправить <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT создателям контента, которые еще не зарегистрировались в нашей программе.
-Повторные попытки отправить им пожертвование будут совершаться в браузере до тех пор,
-пока эти лица не пройдут проверку или пока не истечет 90 дней.</string>
+    <string name="brave_ui_reserved_amount_text">Вы подарили <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> создателям контента, которые
+еще не зарегистрировались для получения вкладов. Ваш браузер продолжит попытки внести вклад
+до тех пор, пока они не подтвердят его или пока не пройдет 90 дней.</string>
     <string name="brave_ui_notification_desc_no_funds">Вы запланировали ежемесячный автоплатеж и чаевые, но отправить пожертвование не удалось, поскольку у вас недостаточно средств. Мы повторим попытку через 30 дней.</string>
     <string name="brave_ui_notification_desc_tip_error">При обработке платежа произошла ошибка. Повторите попытку.</string>
     <string name="brave_ui_notification_desc_contr_error">При обработке платежа произошла ошибка.</string>
     <string name="brave_rewards_local_uh_oh">Ошибка!</string>
     <string name="brave_rewards_local_server_not_responding">Сервер Brave Rewards не отвечает. Мы постараемся исправить это как можно скорее.</string>
     <string name="brave_ui_grants">Подарки</string>
+    <string name="brave_ui_details">Подробности</string>
     <string name="brave_ui_expires_on">(срок действия истекает <ph name=\"DATE\">%1$s<ex>14/4/2019</ex></ph>)</string>
     <string name="brave_ui_insufficient_funds_msg">Недостаточно средств</string>
     <string name="brave_ui_insufficient_funds_desc">Необходимо пополнить баланс аккаунта Brave Rewards.</string>
@@ -280,21 +287,17 @@
 
     <string name="block">Блокировать</string>
     <string name="brave_shields_onboarding_title">Щиты Brave</string>
-    <string name="brave_shields_onboarding_text">нарушающие конфиденциальность рекламные объявления и трекеры, чтобы просматривать сайты по всему интернету без слежки.</string>
+    <string name="brave_shields_onboarding_text">рекламу и трекеры, нарушающие конфиденциальность, чтобы вы могли просматривать контент, не опасаясь отслеживания на различных сайтах.</string>
 
-    <string name="earn_tokens">Заработать токены</string>
+    <string name="earn_tokens">Заработайте <ph name=\"TOKEN\">%1$s<ex>токен</ex></ph>ов</string>
     <string name="brave_rewards_onboarding_title">Brave Reward</string>
     <string name="brave_rewards_onboarding_text">для просмотра рекламы, уважающей конфиденциальность. Используйте его для поддержки ваших любимых сайтов и создателей.</string>
     <string name="brave_rewards_onboarding_text2">для просмотра рекламы, уважающей конфиденциальность.</string>
 
-    <string name="terms_title">Согласиться с условиями использования Brave Rewards</string>
-    <string name="terms_text">Я согласен(-на) с Brave Rewards</string>
+    <string name="terms_text">Включая \"Вознаграждения\", вы соглашаетесь с</string>
     <string name="terms_of_service">Условия обслуживания</string>
 
-    <string name="agree">Согласиться</string>
-    <string name="join">Присоединиться</string>
-
-     <string name="start_browsing">Начать просмотр</string>
+    <string name="start_browsing">Начать просмотр</string>
     <string name="i_didnt_see">Я не вижу рекламу</string>
 
     <string name="brave_ads_onboarding_title">Brave покажет вашу первую рекламу через</string>
@@ -305,7 +308,6 @@
     <string name="turn_on">Включить</string>
 
     <string name="no_thanks">Нет, спасибо</string>
-    <string name="do_not_agree">Не могу согласиться</string>
 
     <string name="prefs_welcome_tour">Приветственный тур</string>
     <string name="welcome_tour_dialog_text">Перезапуск Введения не повлияет на существующие настройки.</string>
@@ -314,5 +316,13 @@
     <string name="clear_download_title">История загрузок</string>
 
     <string name="settings_exit">Выход из настроек</string>
+
+    <string name="brave_license_text">Лицензия Brave</string>
+    <string name="token">токен</string>
+    <string name="point">балл</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

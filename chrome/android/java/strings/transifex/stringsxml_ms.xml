@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Tetapan perisai laman Brave untuk</string>
     <string name="brave_shields_down">Bawah</string>
     <string name="brave_shields_up">Atas</string>
-    <string name="brave_shields_ads_trackers">Iklan dan Penjejak Disekat</string>
+    <string name="brave_shields_ads_trackers">Penjejak &amp; Iklan Disekat</string>
     <string name="brave_shields_https_upgrades">Naik Taraf HTTPS </string>
     <string name="brave_shields_scripts_blocked">Skrip Disekat</string>
-    <string name="brave_shields_ads_tracking_switch">Sekat Iklan dan Penjejakan</string>
+    <string name="brave_shields_ads_tracking_switch">Sekat Penjejakan &amp; Iklan</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Di Mana-mana</string>
     <string name="brave_shields_blocks_scripts_switch">Sekat Skrip</string>
     <string name="accessibility_toolbar_btn_brave_shields">Aktifkan/Lumpuhkan Perisai Brave</string>
@@ -38,7 +38,8 @@
     <string name="sync_device_failure">Penyegerakan tidak boleh ditetapkan</string>
     <string name="sync_requires_correct_time">Jam komputer anda mungkin ditetapkan</string>
 
-    <string name="brave_stats_text_ads">Iklan dan Penjejak Disekat</string>
+    <string name="brave_stats_text_ads">Penjejak &amp; Iklan
+Disekat</string>
     <string name="brave_stats_text_https">HTTPS
 Naik Taraf</string>
     <string name="brave_stats_text_time">Masa Jangkaan
@@ -55,7 +56,7 @@ Disimpan</string>
     <string name="brave_shields_first_group_title">Monitor Penyekatan</string>
     <string name="brave_shields_second_group_title">Kawalan Individu</string>
     <string name="brave_shields">Perisai</string>
-    <string name="brave_shields_ads_and_trackers">Iklan dan Penjejak</string>
+    <string name="brave_shields_ads_and_trackers">Penjejak &amp; Iklan</string>
     <string name="brave_shields_fingerprint_methods">Kaedah Cap Jari</string>
     <string name="brave_shields_block_phishing_switch">Sekat Memancing Data</string>
 
@@ -150,18 +151,22 @@ Jimat bateri dan muatkan laman web dengan lebih cepat</string>
 
     <string name="brave_ui_welcome_header_two">Bersedia untuk mengalami
 Internet seterusnya.</string>
-    <string name="brave_ui_welcome_desc_two">Anda kini boleh mendapat token kerana
+    <string name="brave_ui_welcome_desc_two">Anda kini boleh memperoleh %1$ss dengan
 menonton iklan yang menghormati privasi.</string>
     <string name="brave_ui_welcome_button_text_two">SERTAI GANJARAN</string>
     <string name="brave_ui_welcome_footer_text_two">KETAHUI LEBIH LANJUT</string>
     <string name="brave_ui_rewards_creating_text">Mencipta dompet</string>
     <string name="brave_ui_your_wallet">Dompet anda</string>
+    <string name="brave_ui_your_balance">Baki anda</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Mata BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Tambah Dana</string>
     <string name="brave_ui_settings">Tetapan</string>
     <string name="brave_ui_rewards_summary">RINGKASAN GANJARAN</string>
-    <string name="brave_ui_site_banner_welcome">Terima kasih kerana singgah!</string>
+    <string name="brave_ui_site_banner_welcome">Selamat datang!</string>
     <string name="brave_ui_rewards_banner_text1">Anda boleh menyokong tapak ini dengan menghantar petua. Ini cara mengucapkan terima kasih kepada mereka kerana menyediakan kandungan yang hebat. Pencipta kandungan yang disahkan dibayar untuk petua mereka pada minggu pertama setiap bulan kalendar.</string>
     <string name="brave_ui_rewards_banner_text2">Jika anda mahu, anda boleh menjadualkan petua bulanan untuk menyokong tapak ini secara berterusan.</string>
     <string name="brave_ui_donation_amount">Amaun petua</string>
@@ -169,7 +174,7 @@ menonton iklan yang menghormati privasi.</string>
     <string name="brave_ui_make_monthly">Jadikan ini bulanan</string>
     <string name="brave_ui_send_tip">hantar petua saya</string>
     <string name="brave_ui_do_monthly">tetapkan petua bulanan</string>
-    <string name="brave_ui_not_enough_tokens">tidak cukup token</string>
+    <string name="brave_ui_not_enough_tokens"><ph name=\"TOKEN\">%1$s<ex>token</ex></ph> tidak mencukupi</string>
     <string name="brave_ui_site_banner_notice_text">NOTA: Pencipta ini masih belum mendaftar untuk menerima sumbangan daripada pengguna Brave. Kami akan terus berusaha menyumbang sehingga mereka mengesahkan, atau sehingga 90 hari telah berlalu.</string>
     <string name="brave_ui_please">sila</string>
     <string name="brave_ui_add_funds">tambah dana</string>
@@ -194,9 +199,10 @@ menonton iklan yang menghormati privasi.</string>
     <string name="brave_ui_no_activity">Tiada aktiviti lagi
 bulan ini...</string>
     <string name="brave_ui_token_grant_claimed">Geran Token Dituntut</string>
+    <string name="brave_ui_point_grant_claimed">Pemberian Mata Dituntut</string>
     <string name="brave_ui_earnings_ads">Pendapatan daripada Iklan</string>
     <string name="brave_ui_rewards_contribute">Sumbang Auto</string>
-    <string name="brave_ui_rewards_contribute_description">Anda telah menyumbang <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Anda telah menyumbang <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Petua Satu Kali</string>
     <string name="brave_ui_recurring_donation">Petua Bulanan</string>
     <string name="brave_ui_verified_publisher">Penerbit Disahkan Brave</string>
@@ -205,18 +211,18 @@ bulan ini...</string>
         Sebarang petua yang anda hantar akan kekal dalam dompet anda sehingga mereka sahkan.</string>
     <string name="brave_ui_on_youtube">di YouTube</string>
     <string name="brave_ui_on_twitch">di Twitch</string>
-    <string name="brave_ui_new_grant">Geran token percuma tersedia.</string>
+    <string name="brave_ui_new_grant">Pemberian <ph name=\"TOKEN\">%1$s<ex>token</ex></ph> percuma tersedia.</string>
     <string name="brave_ui_new_token_grant">Geran Token Percuma</string>
+    <string name="brave_ui_new_point_grant">Pemberian Mata Percuma</string>
     <string name="brave_ui_claim">Tuntut</string>
-    <string name="brave_ui_reserved_amount_text">Anda telah memperuntukkan <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT untuk pencipta yang belum
-lagi mendaftar untuk menerima sumbangan. Penyemak imbas anda akan terus mencuba untuk menyumbang
-sehingga mereka mengesahkan, atau sehingga 90 hari telah berlalu.</string>
+    <string name="brave_ui_reserved_amount_text">Anda telah memperuntukkan <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> untuk pencipta yang belum lagi mendaftar untuk menerima sumbangan. Pelayar anda akan terus cuba menyumbang hinggalah mereka mengesahkan akaun mereka, atau hinggalah 90 hari telah berlalu.</string>
     <string name="brave_ui_notification_desc_no_funds">Bayaran bulanan terjadual anda untuk Sumbangan Auto dan tip bulanan tidak dapat disempurnakan kerana dana tidak cukup. Kami akan cuba lagi dalam masa 30 hari.</string>
     <string name="brave_ui_notification_desc_tip_error">Terdapat masalah memproses petua anda, sila cuba lagi.</string>
     <string name="brave_ui_notification_desc_contr_error">Terdapat masalah memproses sumbangan anda.</string>
     <string name="brave_rewards_local_uh_oh">Oh oh!</string>
     <string name="brave_rewards_local_server_not_responding">Pelayan Ganjaran Brave tidak memberi tindak balas. Kami akan membetulkan ini secepat mungkin.</string>
     <string name="brave_ui_grants">Geran</string>
+    <string name="brave_ui_details">Butiran</string>
     <string name="brave_ui_expires_on">tamat tempoh pada <ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Dana Tidak Mencukupi</string>
     <string name="brave_ui_insufficient_funds_desc">Akaun Ganjaran Brave anda menunggu untuk deposit.</string>
@@ -279,21 +285,17 @@ pencipta kandungan yang anda suka.</string>
 
     <string name="block">Halang</string>
     <string name="brave_shields_onboarding_title">Perisai Brave</string>
-    <string name="brave_shields_onboarding_text">iklan yang mengganggu privasi dan penjejak jadi anda boleh menyemak imbas tanpa diikuti di sekitar web.</string>
+    <string name="brave_shields_onboarding_text">penjejak &amp; iklan mengganggu privasi supaya anda boleh melayari Internet tanpa diikuti.</string>
 
-    <string name="earn_tokens">Dapatkan token</string>
+    <string name="earn_tokens">Peroleh <ph name=\"TOKEN\">%1$s<ex>token</ex></ph></string>
     <string name="brave_rewards_onboarding_title">Ganjaran Brave</string>
     <string name="brave_rewards_onboarding_text">untuk melihat iklan yang menghormati privasi. Gunakannya untuk menyokong laman dan pencipta kegemaran anda.</string>
     <string name="brave_rewards_onboarding_text2">untuk melihat iklan yang menghormati privasi.</string>
 
-    <string name="terms_title">Bersetuju dengan terma penggunaan Ganjaran Brave</string>
-    <string name="terms_text">Saya bersetuju dengan Ganjaran Brave</string>
+    <string name="terms_text">Dengan menghidupkan Ganjaran, anda bersetuju dengan</string>
     <string name="terms_of_service">Terma Penggunaan</string>
 
-    <string name="agree">Setuju</string>
-    <string name="join">Sertai</string>
-
-     <string name="start_browsing">Mula menyemak imbas</string>
+    <string name="start_browsing">Mula menyemak imbas</string>
     <string name="i_didnt_see">Saya tidak boleh melihat iklan</string>
 
     <string name="brave_ads_onboarding_title">Brave akan menunjukkan iklan pertama anda di</string>
@@ -304,7 +306,6 @@ pencipta kandungan yang anda suka.</string>
     <string name="turn_on">Hidupkan</string>
 
     <string name="no_thanks">Terima kasih sajalah</string>
-    <string name="do_not_agree">Tidak bersetuju</string>
 
     <string name="prefs_welcome_tour">Lawatan Alu-Aluan</string>
     <string name="welcome_tour_dialog_text">Pelancaran semula Jelajah Selamat Datang tidak akan menjejaskan sebarang tetapan sedia ada.</string>
@@ -313,5 +314,13 @@ pencipta kandungan yang anda suka.</string>
     <string name="clear_download_title">Sejarah muat turun</string>
 
     <string name="settings_exit">Keluar tetapan</string>
+
+    <string name="brave_license_text">Lesen Brave</string>
+    <string name="token">token</string>
+    <string name="point">mata</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

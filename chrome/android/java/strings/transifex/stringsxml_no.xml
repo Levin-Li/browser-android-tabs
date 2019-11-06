@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Skjoldinnstillinger for Brave-nettstedet</string>
     <string name="brave_shields_down">Ned</string>
     <string name="brave_shields_up">Opp</string>
-    <string name="brave_shields_ads_trackers">Annonser og sporing blokkert</string>
+    <string name="brave_shields_ads_trackers">Annonser og sporere blokkert </string>
     <string name="brave_shields_https_upgrades">HTTPS-oppgraderinger</string>
     <string name="brave_shields_scripts_blocked">Skript blokkert</string>
-    <string name="brave_shields_ads_tracking_switch">Blokker annonser og sporing</string>
+    <string name="brave_shields_ads_tracking_switch">Blokker annonser og sporing </string>
     <string name="brave_shields_https_everywhere_switch">HTTPS overalt</string>
     <string name="brave_shields_blocks_scripts_switch">Blokker skript</string>
     <string name="accessibility_toolbar_btn_brave_shields">Aktiver/deaktiver Brave-skjold</string>
@@ -38,8 +38,7 @@
     <string name="sync_device_failure">Synk kunne ikke settes opp</string>
     <string name="sync_requires_correct_time">Datamaskinklokken din kan være satt feil, eller </string>
 
-    <string name="brave_stats_text_ads">Annonser og sporere
-Blokkert</string>
+    <string name="brave_stats_text_ads">Annonser og sporere blokkert </string>
     <string name="brave_stats_text_https">HTTPS-
 oppgraderinger</string>
     <string name="brave_stats_text_time">Beregnet tid
@@ -56,7 +55,7 @@ Lagret</string>
     <string name="brave_shields_first_group_title">Blokkeringsmonitor</string>
     <string name="brave_shields_second_group_title">Individuelle kontroller</string>
     <string name="brave_shields">Skjermer</string>
-    <string name="brave_shields_ads_and_trackers">Annonser og sporinger</string>
+    <string name="brave_shields_ads_and_trackers">Annonser og sporere </string>
     <string name="brave_shields_fingerprint_methods">Fingeravtrykksmetoder</string>
     <string name="brave_shields_block_phishing_switch">Blokker nettfisking</string>
 
@@ -151,18 +150,21 @@ Spar batteri og last nettsider raskere</string>
 
     <string name="brave_ui_welcome_header_two">Nå kan du oppleve
 fremtidens internett.</string>
-    <string name="brave_ui_welcome_desc_two">Nå kan du få polletter for
-å se reklame som respekterer personvernet ditt.</string>
+    <string name="brave_ui_welcome_desc_two">Du kan nå tjene %1$ss på å se annonser som respekterer personvernet ditt. </string>
     <string name="brave_ui_welcome_button_text_two">BLI MED I REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">FINN UT MER</string>
     <string name="brave_ui_rewards_creating_text">Oppretter lommebok</string>
     <string name="brave_ui_your_wallet">Lommeboken din</string>
+    <string name="brave_ui_your_balance">Din balanse</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT-poeng</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Legg til midler</string>
     <string name="brave_ui_settings">Innstillinger</string>
     <string name="brave_ui_rewards_summary">OPPSUMMERING FOR REWARDS</string>
-    <string name="brave_ui_site_banner_welcome">Takk for at du stakk innom!</string>
+    <string name="brave_ui_site_banner_welcome">Velkommen!</string>
     <string name="brave_ui_rewards_banner_text1">Du kan støtte de som driver dette nettstedet, ved å sende tips. Slik takker du dem for innholdet de lager. Verifiserte innholdsskapere får betalt for tipsen de mottar, den første uken i hver kalendermåned.</string>
     <string name="brave_ui_rewards_banner_text2">Hvis du vil, kan du angi en månedlig tips for å støtte nettstedet fast.</string>
     <string name="brave_ui_donation_amount">Tipsbeløp</string>
@@ -170,7 +172,7 @@ fremtidens internett.</string>
     <string name="brave_ui_make_monthly">Gjør dette månedlig</string>
     <string name="brave_ui_send_tip">send tipsen</string>
     <string name="brave_ui_do_monthly">angi månedlig tips</string>
-    <string name="brave_ui_not_enough_tokens">ikke nok polletter</string>
+    <string name="brave_ui_not_enough_tokens">ikke nok <ph name=\"TOKEN\">%1$s<ex>pollett</ex></ph>er</string>
     <string name="brave_ui_site_banner_notice_text">OBS! Denne innholdsskaperen har foreløpig ikke registrert seg for å motta bidrag fra Brave-brukere. Vi prøver å sende bidraget inntil vedkommende bekrefter, eller til det har gått 90 dager.</string>
     <string name="brave_ui_please">du må</string>
     <string name="brave_ui_add_funds">legge til midler</string>
@@ -195,9 +197,10 @@ fremtidens internett.</string>
     <string name="brave_ui_no_activity">Foreløpig ingen aktivitet
 denne måneden …</string>
     <string name="brave_ui_token_grant_claimed">Pollettbidrag hentet</string>
+    <string name="brave_ui_point_grant_claimed">Poenggaver hentet </string>
     <string name="brave_ui_earnings_ads">Inntekt fra reklame</string>
     <string name="brave_ui_rewards_contribute">Automatisk bidrag</string>
-    <string name="brave_ui_rewards_contribute_description">Du bidro med <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Du har bidratt med <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Engangstips</string>
     <string name="brave_ui_recurring_donation">Månedlig tips</string>
     <string name="brave_ui_verified_publisher">Brave-verifisert utgiver</string>
@@ -206,18 +209,18 @@ denne måneden …</string>
         Tips du vil sende, blir værende i lommeboken din inntil vedkommende bekrefter.</string>
     <string name="brave_ui_on_youtube">på YouTube</string>
     <string name="brave_ui_on_twitch">på Twitch</string>
-    <string name="brave_ui_new_grant">Et gratis pollettbidrag er tilgjengelig.</string>
+    <string name="brave_ui_new_grant">En gratis <ph name=\"TOKEN\">%1$s<ex>pollett</ex></ph>-gave er tilgjengelig. </string>
     <string name="brave_ui_new_token_grant">Gratis pollettbidrag</string>
+    <string name="brave_ui_new_point_grant">Gratis poenggave </string>
     <string name="brave_ui_claim">Hent</string>
-    <string name="brave_ui_reserved_amount_text">Du har reservert <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT til skapere som foreløpig ikke
-har registrert seg for å motta bidrag. Nettleseren din vil prøve å sende bidraget
-inntil vedkommende har bekreftet, eller det har gått 90 dager.</string>
+    <string name="brave_ui_reserved_amount_text">Du har satt av <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> for skapere som ennå ikke har registrert seg for å motta bidrag. Nettleseren din vil fortsette å forsøke å bidra frem til de verifiserer eller frem til det har gått 90 dager. </string>
     <string name="brave_ui_notification_desc_no_funds">Den planlagte månedlige betalingen for autobidrag og månedlige tips kunne ikke fullføres på grunn av utilstrekkelige midler. Vi prøver på nytt om 30 dager.</string>
     <string name="brave_ui_notification_desc_tip_error">Det oppsto et problem med behandlingen av tipsen. Prøv igjen.</string>
     <string name="brave_ui_notification_desc_contr_error">Det oppsto et problem med behandlingen av bidraget.</string>
     <string name="brave_rewards_local_uh_oh">Å nei!</string>
     <string name="brave_rewards_local_server_not_responding">Brave Rewards-serveren svarer ikke. Vi skal rette feilen så fort som mulig.</string>
     <string name="brave_ui_grants">Bidrag</string>
+    <string name="brave_ui_details">Detaljer</string>
     <string name="brave_ui_expires_on">utløper <ph name=\"DATE\">%1$s<ex>14.4.2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Ikke nok midler</string>
     <string name="brave_ui_insufficient_funds_desc">Brave Rewards-kontoen din venter på innskudd.</string>
@@ -280,21 +283,17 @@ til å støtte innholdsskapere du liker.</string>
 
     <string name="block">Blokker</string>
     <string name="brave_shields_onboarding_title">Brave Shields</string>
-    <string name="brave_shields_onboarding_text">personverninvaderende annonser og sporing, slik at du kan søke uten å bli fulgt etter på nettet.</string>
+    <string name="brave_shields_onboarding_text">annonser som invaderer personvernet ditt og sporere slik at du kan surfe uten å bli forfulgt på nettet.</string>
 
-    <string name="earn_tokens">Tjen tokens</string>
+    <string name="earn_tokens">Tjen <ph name=\"TOKEN\">%1$s<ex>pollett</ex></ph>er</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">for å se annonser som respekterer personvernet. Bruk dem for å støtte dine favorittnettsteder og skapere.</string>
     <string name="brave_rewards_onboarding_text2">for å se annonser som respekterer personvernet.</string>
 
-    <string name="terms_title">Godta vilkårene for å bruke Brave Rewards </string>
-    <string name="terms_text">Jeg godtar Brave Rewards\'</string>
+    <string name="terms_text">Ved å slå på belønninger godtar du </string>
     <string name="terms_of_service">Vilkår for tjenesten</string>
 
-    <string name="agree">Godta</string>
-    <string name="join">Bli med</string>
-
-     <string name="start_browsing">Start søkingen</string>
+    <string name="start_browsing">Start søkingen</string>
     <string name="i_didnt_see">Jeg så ingen annonse</string>
 
     <string name="brave_ads_onboarding_title">Brave viser din første annonse i</string>
@@ -305,7 +304,6 @@ til å støtte innholdsskapere du liker.</string>
     <string name="turn_on">Slå på</string>
 
     <string name="no_thanks">Nei takk</string>
-    <string name="do_not_agree">Ikke godta</string>
 
     <string name="prefs_welcome_tour">Velkomsttur</string>
     <string name="welcome_tour_dialog_text">Å starte velkomstturen på nytt påvirker ikke eventuelle innstillinger som allerede finnes. </string>
@@ -314,5 +312,13 @@ til å støtte innholdsskapere du liker.</string>
     <string name="clear_download_title">Nedlastingshistorikk</string>
 
     <string name="settings_exit">Gå ut av innstillingene</string>
+
+    <string name="brave_license_text">Lisens for Brave</string>
+    <string name="token">pollett </string>
+    <string name="point">poeng</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

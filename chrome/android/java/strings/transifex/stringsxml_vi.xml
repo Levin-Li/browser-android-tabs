@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Cài đặt lá chắn của trang Brave cho</string>
     <string name="brave_shields_down">Xuống</string>
     <string name="brave_shields_up">Lên</string>
-    <string name="brave_shields_ads_trackers">Quảng cáo và Công cụ theo dõi đã bị chặn</string>
+    <string name="brave_shields_ads_trackers">Đã chặn Quảng cáo &amp; Trình theo dõi</string>
     <string name="brave_shields_https_upgrades">Nâng cấp HTTPS</string>
     <string name="brave_shields_scripts_blocked">Script đã bị chặn</string>
-    <string name="brave_shields_ads_tracking_switch">Chặn Quảng cáo và Theo dõi</string>
+    <string name="brave_shields_ads_tracking_switch">Chặn Quảng cáo &amp; Theo dõi</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Chặn Script</string>
     <string name="accessibility_toolbar_btn_brave_shields">Bật/ Tắt Lá chắn Brave</string>
@@ -38,8 +38,7 @@
     <string name="sync_device_failure">Không thể thiết lập đồng bộ</string>
     <string name="sync_requires_correct_time">Giờ hoặc múi giờ của đồng hồ máy tính bạn có thể bị sai. Hãy kiểm tra cài đặt đồng hồ của bạn</string>
 
-    <string name="brave_stats_text_ads">Quảng cáo &amp; Công cụ Theo dõi
-Đã bị Chặn</string>
+    <string name="brave_stats_text_ads">Đã chặn Quảng cáo &amp; Trình theo dõi</string>
     <string name="brave_stats_text_https">Nâng cấp
 HTTPS</string>
     <string name="brave_stats_text_time">Thời gian ước tính
@@ -56,7 +55,7 @@ HTTPS</string>
     <string name="brave_shields_first_group_title">Giám sát Chặn</string>
     <string name="brave_shields_second_group_title">Kiểm soát Riêng lẻ</string>
     <string name="brave_shields">Khiên bảo vệ</string>
-    <string name="brave_shields_ads_and_trackers">Quảng cáo và Trình theo dõi</string>
+    <string name="brave_shields_ads_and_trackers">Quảng cáo &amp; Trình theo dõi</string>
     <string name="brave_shields_fingerprint_methods">Biện pháp Vân tay</string>
     <string name="brave_shields_block_phishing_switch">Chặn Lừa đảo</string>
 
@@ -151,18 +150,21 @@ Tiết kiệm pin và tải các trang web nhanh hơn</string>
 
     <string name="brave_ui_welcome_header_two">Hãy sẵn sàng trải nghiệm
 thế giới Internet mới.</string>
-    <string name="brave_ui_welcome_desc_two">Giờ đây bạn có thể kiếm token khi
-xem những quảng cáo tôn trọng quyền riêng tư.</string>
+    <string name="brave_ui_welcome_desc_two">Bạn giờ đây có thể kiếm %1$ss khi xem quảng cáo tôn trọng quyền riêng tư.</string>
     <string name="brave_ui_welcome_button_text_two">THAM GIA PHẦN THƯỞNG</string>
     <string name="brave_ui_welcome_footer_text_two">TÌM HIỂU THÊM</string>
     <string name="brave_ui_rewards_creating_text">Tạo ví</string>
     <string name="brave_ui_your_wallet">Ví của bạn</string>
+    <string name="brave_ui_your_balance">Số dư của bạn</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Điểm BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Thêm tiền</string>
     <string name="brave_ui_settings">Cài đặt</string>
     <string name="brave_ui_rewards_summary">TÓM TẮT PHẦN THƯỞNG</string>
-    <string name="brave_ui_site_banner_welcome">Cảm ơn đã ghé qua!</string>
+    <string name="brave_ui_site_banner_welcome">Chào mừng bạn!</string>
     <string name="brave_ui_rewards_banner_text1">Bạn có thể hỗ trợ trang này bằng cách gửi tiền boa. Đó là một cách để cảm ơn họ vì đã tạo rao những nội dung tuyệt vời. Các nhà sáng tạo nội dung đã được xác thực sẽ nhận được tiền boa vào tuần đầu tiên của mỗi tháng.</string>
     <string name="brave_ui_rewards_banner_text2">Nếu bạn thích, bạn có thể đặt lịch gửi tiền boa hàng tháng để hỗ trợ trang này một cách liên tục.</string>
     <string name="brave_ui_donation_amount">Số tiền boa</string>
@@ -170,7 +172,7 @@ xem những quảng cáo tôn trọng quyền riêng tư.</string>
     <string name="brave_ui_make_monthly">Thực hiện điều này hàng tháng</string>
     <string name="brave_ui_send_tip">gửi tiền boa của tôi</string>
     <string name="brave_ui_do_monthly">đặt số tiền boa hàng tháng</string>
-    <string name="brave_ui_not_enough_tokens">không đủ token</string>
+    <string name="brave_ui_not_enough_tokens">không đủ <ph name=\"TOKEN\">%1$s<ex>token</ex></ph></string>
     <string name="brave_ui_site_banner_notice_text">LƯU Ý: Nhà sáng tạo này chưa đăng ký nhận đóng góp từ người dùng Brave. Chúng tôi sẽ tiếp tục cố gắng đóng góp cho đến khi họ xác thực hoặc cho đến khi 90 ngày đã trôi qua.</string>
     <string name="brave_ui_please">vui lòng</string>
     <string name="brave_ui_add_funds">thêm tiền</string>
@@ -195,9 +197,10 @@ xem những quảng cáo tôn trọng quyền riêng tư.</string>
     <string name="brave_ui_no_activity">Chưa có hoạt động nào
 trong tháng này...</string>
     <string name="brave_ui_token_grant_claimed">Đã nhận tài trợ token</string>
+    <string name="brave_ui_point_grant_claimed">Đã nhận Hỗ trợ Điểm</string>
     <string name="brave_ui_earnings_ads">Thu nhập từ quảng cáo</string>
     <string name="brave_ui_rewards_contribute">Tự động đóng góp</string>
-    <string name="brave_ui_rewards_contribute_description">Bạn đã đóng góp <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT.</string>
+    <string name="brave_ui_rewards_contribute_description">Bạn đã đóng góp <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Boa một lần</string>
     <string name="brave_ui_recurring_donation">Boa hàng tháng</string>
     <string name="brave_ui_verified_publisher">Nhà phát hành đã được Brave xác thực</string>
@@ -206,18 +209,18 @@ trong tháng này...</string>
         Mọi khoản tiền boa bạn gửi sẽ vẫn nằm trong ví của bạn cho đến khi họ xác thực.</string>
     <string name="brave_ui_on_youtube">trên YouTube</string>
     <string name="brave_ui_on_twitch">trên Twitch</string>
-    <string name="brave_ui_new_grant">Có một khoản tài trợ token miễn phí.</string>
+    <string name="brave_ui_new_grant">Hiện có một khoản hỗ trợ <ph name=\"TOKEN\">%1$s<ex>token</ex></ph> miễn phí.</string>
     <string name="brave_ui_new_token_grant">Tài trợ token miễn phí</string>
+    <string name="brave_ui_new_point_grant">Hỗ trợ Điểm Miễn phí</string>
     <string name="brave_ui_claim">Nhận</string>
-    <string name="brave_ui_reserved_amount_text">Bạn đã dành <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT cho những nhà sáng tạo chưa
-đăng ký nhận đóng góp. Trình duyệt của bạn sẽ tiếp tục cố gắng đóng góp
-cho đến khi họ xác thực, hoặc cho đến khi 90 ngày đã trôi qua.</string>
+    <string name="brave_ui_reserved_amount_text">Bạn đã chỉ định <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> cho những người sáng tạo chưa đăng ký nhận đóng góp. Trình duyệt của bạn sẽ tiếp tục cố gắng đóng góp cho đến khi họ xác nhận việc này, hoặc cho đến khi hết thời hạn 90 ngày.</string>
     <string name="brave_ui_notification_desc_no_funds">Không thể hoàn tất khoản thanh toán hàng tháng đã đặt lịch của bạn cho tính năng Đóng góp Tự động và lời khuyên hàng tháng do không đủ tiền. Chúng tôi sẽ thử lại sau 30 ngày nữa.</string>
     <string name="brave_ui_notification_desc_tip_error">Có vấn đề khi xử lý khoản tiền boa của bạn, vui lòng thử lại.</string>
     <string name="brave_ui_notification_desc_contr_error">Có vấn đề khi xử lý khoản đóng góp của bạn.</string>
     <string name="brave_rewards_local_uh_oh">Ôi không!</string>
     <string name="brave_rewards_local_server_not_responding">Máy chủ Phần thưởng Brave không phản hồi. Chúng tôi sẽ sửa sớm nhất có thể.</string>
     <string name="brave_ui_grants">Tài trợ</string>
+    <string name="brave_ui_details">Thông tin chi tiết</string>
     <string name="brave_ui_expires_on">hết hạn vào <ph name=\"DATE\">%1$s<ex>14/04/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Không đủ tiền</string>
     <string name="brave_ui_insufficient_funds_desc">Tài khoản Phần thưởng Brave của bạn đang chờ nạp tiền.</string>
@@ -280,21 +283,17 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
 
     <string name="block">Chặn</string>
     <string name="brave_shields_onboarding_title">Brave Shields</string>
-    <string name="brave_shields_onboarding_text">các trình theo dõi và quảng cáo xâm phạm quyền riêng tư để bạn có thể duyệt qua mà không bị theo dõi trên trang web này.</string>
+    <string name="brave_shields_onboarding_text">các trình theo dõi &amp; quảng cáo xâm phạm quyền riêng tư để bạn có thể duyệt web mà không bị theo dõi khắp nơi trên mạng.</string>
 
-    <string name="earn_tokens">Kiếm mã token</string>
+    <string name="earn_tokens">Kiếm <ph name=\"TOKEN\">%1$s<ex>token</ex></ph></string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">để xem các quảng cáo tôn trọng quyền riêng tư. Hãy sử dụng các quảng cáo này để ủng hộ những trang web và người sáng tạo mà bạn yêu thích.</string>
     <string name="brave_rewards_onboarding_text2">để xem các quảng cáo tôn trọng quyền riêng tư.</string>
 
-    <string name="terms_title">Đồng ý với Điều khoản sử dụng Brave Rewards</string>
-    <string name="terms_text">Tôi đồng ý với Điều khoản sử dụng Brave Rewards</string>
+    <string name="terms_text">Bằng việc bật tính năng Phần thưởng, bạn đồng ý với</string>
     <string name="terms_of_service">Điều khoản sử dụng</string>
 
-    <string name="agree">Đồng ý</string>
-    <string name="join">Tham gia</string>
-
-     <string name="start_browsing">Bắt đầu duyệt qua</string>
+    <string name="start_browsing">Bắt đầu duyệt qua</string>
     <string name="i_didnt_see">Tôi không nhìn thấy quảng cáo</string>
 
     <string name="brave_ads_onboarding_title">Brave sẽ hiển thị quảng cáo đầu tiên của bạn trong</string>
@@ -305,7 +304,6 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
     <string name="turn_on">Bật</string>
 
     <string name="no_thanks">Không, cảm ơn</string>
-    <string name="do_not_agree">Không đồng ý</string>
 
     <string name="prefs_welcome_tour">Chuyến chào mừng</string>
     <string name="welcome_tour_dialog_text">Khởi chạy lại Chuyến chào mừng sẽ không gây ảnh hưởng đến bất kỳ cài đặt hiện tại nào.</string>
@@ -314,5 +312,13 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
     <string name="clear_download_title">Lịch sử tải xuống</string>
 
     <string name="settings_exit">Thoát mục Cài đặt</string>
+
+    <string name="brave_license_text">Giấy phép Brave</string>
+    <string name="token">token</string>
+    <string name="point">điểm</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

@@ -3,10 +3,10 @@
     <string name="brave_settings_title">रेव साइट के लिए रक्षा करनेवाला अस्</string>
     <string name="brave_shields_down">नीचे</string>
     <string name="brave_shields_up">ऊपर</string>
-    <string name="brave_shields_ads_trackers">विज्ञापन और रास्ता ढूँढ़ने वाला अवरुद्ध</string>
+    <string name="brave_shields_ads_trackers">विज्ञापन &amp; ट्रैकर्स को ब्लॉक किया गया</string>
     <string name="brave_shields_https_upgrades">एचटीटीपीएस उन्नयन</string>
     <string name="brave_shields_scripts_blocked">लिपिया अवरुद्</string>
-    <string name="brave_shields_ads_tracking_switch">अवस्र्द्ध विज्ञापन और निगाह रखना</string>
+    <string name="brave_shields_ads_tracking_switch">विज्ञापन &amp; ब्लॉक करें; ट्रैक किया जा रहा है</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS  सब जगह</string>
     <string name="brave_shields_blocks_scripts_switch">अवस्र्द्ध लिपिया </string>
     <string name="accessibility_toolbar_btn_brave_shields">ब्रेव कवच को सक्षम/अक्षम करें </string>
@@ -38,8 +38,8 @@
     <string name="sync_device_failure">सिंक सैट-अप नहीं किया जा सका </string>
     <string name="sync_requires_correct_time">आपके कंप्यूटर की घड़ी गलत समय या गलत टाइम ज़ोन पर सेट हो सकती है। अपनी घड़ी की सेटिंग की जाँच करें</string>
 
-    <string name="brave_stats_text_ads">विज्ञापन और ट्रैकर
-ब्लॉक कर दिया गया</string>
+    <string name="brave_stats_text_ads">विज्ञापन &amp; ट्रैकर्स
+ब्लॉक कर दिए गए हैं</string>
     <string name="brave_stats_text_https">एचटीटीपीएस 
 अपग्रेड </string>
     <string name="brave_stats_text_time">स्थापित   समय 
@@ -56,7 +56,7 @@
     <string name="brave_shields_first_group_title">मॉनीटर ब्लॉक करना</string>
     <string name="brave_shields_second_group_title">व्यक्तिगत नियंत्रण</string>
     <string name="brave_shields">शील्ड</string>
-    <string name="brave_shields_ads_and_trackers">विज्ञापन व ट्रैकर्स</string>
+    <string name="brave_shields_ads_and_trackers">विज्ञापन &amp; ट्रैकर्स</string>
     <string name="brave_shields_fingerprint_methods">फिंगरप्रिंट विधि</string>
     <string name="brave_shields_block_phishing_switch">फिशिंग ब्लॉक करें</string>
 
@@ -151,18 +151,22 @@
 
     <string name="brave_ui_welcome_header_two">अगला इंटरनेट अनुभव
 करने के लिए तैयार रहें.</string>
-    <string name="brave_ui_welcome_desc_two">अब आप गोपनीयता का सम्मान करने संबंधित विज्ञापन देखकर
-टोकन प्राप्त कर सकते हैं.</string>
+    <string name="brave_ui_welcome_desc_two">अब आप गोपनीयता-सम्बंधित विज्ञापन 
+देखने के लिए %1$ss अर्जित कर सकते हैं।</string>
     <string name="brave_ui_welcome_button_text_two">रिवार्ड्स से जुड़ें</string>
     <string name="brave_ui_welcome_footer_text_two">अधिक जानें</string>
     <string name="brave_ui_rewards_creating_text">वॉलेट बनाना</string>
     <string name="brave_ui_your_wallet">आपका वॉलेट</string>
+    <string name="brave_ui_your_balance">आपका बैलेंस</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT पॉइंट</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">फ़ंड जोड़ें</string>
     <string name="brave_ui_settings">सेटिंग्स</string>
     <string name="brave_ui_rewards_summary">रिवार्ड्स सारांश</string>
-    <string name="brave_ui_site_banner_welcome">यहां रूकने के लिए धन्यवाद!</string>
+    <string name="brave_ui_site_banner_welcome">स्वागत है!</string>
     <string name="brave_ui_rewards_banner_text1">आप कोई सुझाव भेजकर इस साइट का समर्थन कर सकते हैं. अच्छी सामग्री बनाने के लिए उन्हें धन्यवाद करने का यह अच्छा तरीका है. सत्यापित सामग्री क्रिएटर्स को प्रत्येक कैलेंडर महीने के पहले सप्ताह के दौरान उनके सुझावों के लिए भुगतान किया जाता है.</string>
     <string name="brave_ui_rewards_banner_text2">यदि आपको पसंद हो, तो आप निरंतर रूप से इस साइट का समर्थन करने के लिए मासिक सुझाव निर्धारित कर सकते हैं.</string>
     <string name="brave_ui_donation_amount">सुझाव के लिए धनराशि</string>
@@ -170,7 +174,7 @@
     <string name="brave_ui_make_monthly">इस मासिक बनाएं</string>
     <string name="brave_ui_send_tip">मेरा सुझाव भेजें</string>
     <string name="brave_ui_do_monthly">मासिक सुझाव सेट करें</string>
-    <string name="brave_ui_not_enough_tokens">पर्याप्त टोकन नहीं</string>
+    <string name="brave_ui_not_enough_tokens">पर्याप्त <ph name=\"TOKEN\">%1$s<ex>टोकन</ex></ph> नहीं हैं</string>
     <string name="brave_ui_site_banner_notice_text">नोट: इस क्रिएटर ने अभी तक Brave के उपयोगकर्ताओं से मिलने वाले योगदान प्राप्त होने के लिए साइन अप नहीं किया है. हम उनके द्वारा सत्यापित करने या 90 दिन बीत जाने तक प्रयास करना जारी रखेंगे.</string>
     <string name="brave_ui_please">कृपया</string>
     <string name="brave_ui_add_funds">फ़ंड जोड़ें</string>
@@ -195,9 +199,10 @@
     <string name="brave_ui_no_activity">इस महीने अभी तक कोई गतिविधि
 नहीं...</string>
     <string name="brave_ui_token_grant_claimed">टोकन ग्रांट्स का दावा किया गया</string>
+    <string name="brave_ui_point_grant_claimed">प्वाइंट का अनुदान क्लेम किया गया</string>
     <string name="brave_ui_earnings_ads">विज्ञापनों से कमाई</string>
     <string name="brave_ui_rewards_contribute">स्वतः योगदान</string>
-    <string name="brave_ui_rewards_contribute_description">आपने <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT का योगदान किया है.</string>
+    <string name="brave_ui_rewards_contribute_description">आपने <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> का योगदान दिया है।</string>
     <string name="brave_ui_one_time_donation">वन-टाइम सुझाव</string>
     <string name="brave_ui_recurring_donation">मासिक सुझाव</string>
     <string name="brave_ui_verified_publisher">Brave का सत्यापित प्रकाशक</string>
@@ -206,18 +211,21 @@
         आपके द्वारा भेजे जाने वाले सभी सुझाव सत्यापित होने तक आपके वॉलेट में ही रहेंगे.</string>
     <string name="brave_ui_on_youtube">YouTube पर</string>
     <string name="brave_ui_on_twitch">Twitch पर</string>
-    <string name="brave_ui_new_grant">एक फ़्री टोकन ग्रांट उपलब्ध है.</string>
+    <string name="brave_ui_new_grant">एक मुफ़्त <ph name=\"TOKEN\">%1$s<ex>टोकन</ex></ph> अनुदान उपलब्ध है।</string>
     <string name="brave_ui_new_token_grant">फ़्री टोकन ग्रांट</string>
+    <string name="brave_ui_new_point_grant">पॉइंट का मुफ़्त अनुदान</string>
     <string name="brave_ui_claim">दावा</string>
-    <string name="brave_ui_reserved_amount_text">आपने उन क्रिएटर्स के लिए <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT निर्धारित किए हैं,  जिन्होंने
-योगदान प्राप्त करने के लिए अभी तक साइन अप नहीं किया है.  वे सत्यापित होने या 90 दिन बीत जाने तक
-आपका ब्राउज़र योगदान करने का प्रयास जारी रखेगा.</string>
+    <string name="brave_ui_reserved_amount_text">जिन निर्माताओं ने योगदान प्राप्त करने के लिए 
+अभी तक साइन उप नहीं किया है आपने उनके लिए <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> आबंटित किए हैं। 
+उनके सत्यापन करने तक या 90 दिन बीतने तक आपका ब्राउज़र 
+योगदान देने का प्रयास करता रहेगा।</string>
     <string name="brave_ui_notification_desc_no_funds">ऑटो-कॉन्ट्रिब्यूट और मासिक टिप्स के लिए आपका निर्धारित मासिक भुगतान अपर्याप्त धन के कारण पूरा नहीं हो सका। हम 30 दिनों में फिर से कोशिश करेंगे।</string>
     <string name="brave_ui_notification_desc_tip_error">आपके सुझाव की प्रक्रिया करने में समस्या हुई थी, कृपया पुनः प्रयास करें.</string>
     <string name="brave_ui_notification_desc_contr_error">आपके योगदान की प्रक्रिया करने में समस्या हुई थी.</string>
     <string name="brave_rewards_local_uh_oh">ऊह ओह!</string>
     <string name="brave_rewards_local_server_not_responding">Brave रिवार्ड्स सर्वर प्रतिक्रिया नहीं दे रहा है. हम शीघ्र ही इसे ठीक करेंगे.</string>
     <string name="brave_ui_grants">ग्रांट्स</string>
+    <string name="brave_ui_details">विवरण</string>
     <string name="brave_ui_expires_on"><ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph> को समय-सीमा समाप्त</string>
     <string name="brave_ui_insufficient_funds_msg">अपर्याप्त फ़ंड</string>
     <string name="brave_ui_insufficient_funds_desc">आपका Brave रिवार्ड्स खाता जमा की प्रतीक्षा में है.</string>
@@ -281,21 +289,17 @@
 
     <string name="block">ब्लॉक करें</string>
     <string name="brave_shields_onboarding_title">Brave शील्ड</string>
-    <string name="brave_shields_onboarding_text">गोपनीयता में दखल देने वाले विज्ञापन और ट्रैकर्स ताकि आप वेब पर किसी के द्वारा फ़ॉलो किए बिना ब्राउज़ कर सकें।</string>
+    <string name="brave_shields_onboarding_text">गोपनीयता-अतिक्रमण विज्ञापन &amp; ट्रैकर्स ताकि आप वेब पर किसी के भी द्वारा फ़ोलो किए गए बिना ब्राउज़ कर सकें।</string>
 
-    <string name="earn_tokens">टोकन अर्जित करें</string>
+    <string name="earn_tokens"><ph name=\"TOKEN\">%1$s<ex>टोकन</ex></ph> अर्जित करें</string>
     <string name="brave_rewards_onboarding_title">Brave पुरस्कार</string>
     <string name="brave_rewards_onboarding_text">गोपनीयता-सम्बंधित विज्ञापनों को देखने के लिए। अपने पसंदीदा साइट और निर्माताओं का समर्थन करने के लिए उनका उपयोग करें।</string>
     <string name="brave_rewards_onboarding_text2">गोपनीयता-सम्बंधित विज्ञापनों को देखने के लिए।</string>
 
-    <string name="terms_title">Brave पुरस्कारों का उपयोग करने के लिए शर्तों से सहमत हों</string>
-    <string name="terms_text">मै Brave पुरस्कारों से सहमत हूँ</string>
+    <string name="terms_text">पुरस्कारों को सक्रिय करके आप सहमती प्रदान करते हैं</string>
     <string name="terms_of_service">सेवा की शर्तें</string>
 
-    <string name="agree">सहमत हैं</string>
-    <string name="join">शामिल हों</string>
-
-     <string name="start_browsing">ब्राउज़ करना शुरू करें</string>
+    <string name="start_browsing">ब्राउज़ करना शुरू करें</string>
     <string name="i_didnt_see">मैंने पोस्टn&amp;aकिया; एक विज्ञापन देखें</string>
 
     <string name="brave_ads_onboarding_title">Brave आपका पहला विज्ञापन में दिखाएगा</string>
@@ -306,7 +310,6 @@
     <string name="turn_on">शुरू करें</string>
 
     <string name="no_thanks">जी नहीं, धन्यवाद</string>
-    <string name="do_not_agree">सहमत नहीं हैं</string>
 
     <string name="prefs_welcome_tour">वेलकम टूर</string>
     <string name="welcome_tour_dialog_text">स्वागत टूर को फ़िर से शुरू करने से मौजूदा सेटिंग प्रभावित नही होगी।</string>
@@ -315,5 +318,13 @@
     <string name="clear_download_title">हिस्ट्री डाउनलोड करें</string>
 
     <string name="settings_exit">सेटिंग्स से बाहर निकलें</string>
+
+    <string name="brave_license_text">Brave लाइसेंस</string>
+    <string name="token">टोकन</string>
+    <string name="point">पॉइंट</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

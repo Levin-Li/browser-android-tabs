@@ -3,10 +3,8 @@
     <string name="brave_settings_title">Axustes dos escudos web do Brave para</string>
     <string name="brave_shields_down">Abaixo</string>
     <string name="brave_shields_up">Arriba</string>
-    <string name="brave_shields_ads_trackers">Anuncios e rastrexadores bloqueados</string>
     <string name="brave_shields_https_upgrades">Actualizacións HTTPS</string>
     <string name="brave_shields_scripts_blocked">Scripts bloqueados</string>
-    <string name="brave_shields_ads_tracking_switch">Bloquear anuncios e rastrexadores</string>
     <string name="brave_shields_blocks_scripts_switch">Bloquear scripts</string>
     <string name="accessibility_toolbar_btn_brave_shields">Activar/desactivar escudos do Brave</string>
     <string name="brave_shields_block_3rd_party_cookies_switch">Bloquear cookies de terceiros</string>
@@ -50,7 +48,6 @@ Gardado</string>
     <string name="brave_shields_first_group_title">Monitor de bloqueos</string>
     <string name="brave_shields_second_group_title">Controis individuais</string>
     <string name="brave_shields">Escudos</string>
-    <string name="brave_shields_ads_and_trackers">Anuncios e rastrexadores</string>
     <string name="brave_shields_fingerprint_methods">Métodos de pegadas dixitais</string>
     <string name="brave_shields_block_phishing_switch">Bloquear mensaxes fraudulentas</string>
 

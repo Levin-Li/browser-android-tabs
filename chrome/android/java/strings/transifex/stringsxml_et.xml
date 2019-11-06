@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave‘i lehe kaitse seaded</string>
     <string name="brave_shields_down">Alla</string>
     <string name="brave_shields_up">Üles</string>
-    <string name="brave_shields_ads_trackers">Blokeeritud reklaamid ja jälitajad</string>
+    <string name="brave_shields_ads_trackers">Ads &amp; Träkkerid blokitud</string>
     <string name="brave_shields_https_upgrades">HTTPS uuendused</string>
     <string name="brave_shields_scripts_blocked">Blokeeritud skriptid</string>
-    <string name="brave_shields_ads_tracking_switch">Blokeerige reklaame ja jälitajaid</string>
+    <string name="brave_shields_ads_tracking_switch">Blokkige reklaamid &amp; Träkkimine</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Blokeerige skripte</string>
     <string name="accessibility_toolbar_btn_brave_shields">Luba/keela Brave‘i kaitsed</string>
@@ -38,8 +38,8 @@
     <string name="sync_device_failure">Sünki seadistamine nurjus</string>
     <string name="sync_requires_correct_time">Teie arvuti kell või ajavöönd võib olla vale. Kontrollige oma kella seadeid.</string>
 
-    <string name="brave_stats_text_ads">Reklaamid ja jälitajad
-Blokeeritud</string>
+    <string name="brave_stats_text_ads">Ads &amp; Träkkerid
+Blokitud</string>
     <string name="brave_stats_text_https">HTTPS
 Uuendused</string>
     <string name="brave_stats_text_time">Hin. aeg
@@ -56,7 +56,7 @@ Salvestatud</string>
     <string name="brave_shields_first_group_title">Blokeerimise jälgija</string>
     <string name="brave_shields_second_group_title">Täpsed värvid</string>
     <string name="brave_shields">Kaitsed</string>
-    <string name="brave_shields_ads_and_trackers">Reklaamid ja jälitajad</string>
+    <string name="brave_shields_ads_and_trackers">Ads &amp; Träkkerid</string>
     <string name="brave_shields_fingerprint_methods">Sõrmejälje meetodid</string>
     <string name="brave_shields_block_phishing_switch">Blokeeri andmepüük</string>
 
@@ -151,18 +151,22 @@ Säästa akut ja lae lehti kiiremini</string>
 
     <string name="brave_ui_welcome_header_two">Valmistu kogema
 uut internetti.</string>
-    <string name="brave_ui_welcome_desc_two">Saad nüüd eraelu austavate reklaamide
-vaatamise eest märke teenida.</string>
+    <string name="brave_ui_welcome_desc_two">Nüüd on teil võimalik teenida %1$ss (mille eest)
+privaatsust austavate reklaamide jälgimine.</string>
     <string name="brave_ui_welcome_button_text_two">LIITU PREEMIATEGA</string>
     <string name="brave_ui_welcome_footer_text_two">LISATEAVE</string>
     <string name="brave_ui_rewards_creating_text">Rahakoti loomine</string>
     <string name="brave_ui_your_wallet">Sinu rahakott</string>
+    <string name="brave_ui_your_balance">Teie saldo</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> dollarit</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT-punktid</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Raha lisamine</string>
     <string name="brave_ui_settings">Seaded</string>
     <string name="brave_ui_rewards_summary">PREEMIATE ÜLEVAADE</string>
-    <string name="brave_ui_site_banner_welcome">Täname läbi astumast!</string>
+    <string name="brave_ui_site_banner_welcome">Tere tulemast!</string>
     <string name="brave_ui_rewards_banner_text1">Sellele lehele saab toetuseks jootraha saata. See on võimalus nende tänamiseks hea sisu loomise eest. Kinnitatud sisuloojatele makstakse jootraha iga kalendrikuu esimesel nädalal.</string>
     <string name="brave_ui_rewards_banner_text2">Soovi korral saad selle lehe pidevaks toetamiseks ajastada igakuise jootraha.</string>
     <string name="brave_ui_donation_amount">Jootraha summa</string>
@@ -170,7 +174,7 @@ vaatamise eest märke teenida.</string>
     <string name="brave_ui_make_monthly">Muuda igakuiseks</string>
     <string name="brave_ui_send_tip">saada jootraha</string>
     <string name="brave_ui_do_monthly">määra igakuine jootraha</string>
-    <string name="brave_ui_not_enough_tokens">pole piisavalt märke</string>
+    <string name="brave_ui_not_enough_tokens">pole piisavalt <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_ui_site_banner_notice_text">MÄRKUS! See looja pole veel registreerunud Brave’i kasutajate toetuseid saama. Püüame toetust edastada, kuni nad oma kasutaja kinnitavad või kuni 90 päeva möödumiseni.</string>
     <string name="brave_ui_please">palun</string>
     <string name="brave_ui_add_funds">raha lisamine</string>
@@ -195,9 +199,10 @@ vaatamise eest märke teenida.</string>
     <string name="brave_ui_no_activity">Sel kuul veel tegevusi
 pole...</string>
     <string name="brave_ui_token_grant_claimed">Vastu võetud märgid</string>
+    <string name="brave_ui_point_grant_claimed">Sissenõutud jagatud punktid</string>
     <string name="brave_ui_earnings_ads">Reklaamidest saadav tulu</string>
     <string name="brave_ui_rewards_contribute">Automaatne toetus</string>
-    <string name="brave_ui_rewards_contribute_description">Oled toetanud <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT-iga.</string>
+    <string name="brave_ui_rewards_contribute_description">Panustasite <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Ühekordsed jootrahad</string>
     <string name="brave_ui_recurring_donation">Igakuised jootrahad</string>
     <string name="brave_ui_verified_publisher">Brave’i kinnitatud sisulooja</string>
@@ -206,18 +211,20 @@ pole...</string>
         Saadetud jootrahad jäävad nende konto kinnitamiseni sinu rahakotti.</string>
     <string name="brave_ui_on_youtube">YouTube’is</string>
     <string name="brave_ui_on_twitch">Twitch’is</string>
-    <string name="brave_ui_new_grant">Saadaval on tasuta märk.</string>
+    <string name="brave_ui_new_grant">Tasuta <ph name=\"TOKEN\">%1$s<ex>token</ex></ph> on saadaval.</string>
     <string name="brave_ui_new_token_grant">Tasuta märk</string>
+    <string name="brave_ui_new_point_grant">Tasuta punktide jagamine</string>
     <string name="brave_ui_claim">Võta vastu</string>
-    <string name="brave_ui_reserved_amount_text">Oled eraldanud <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT-i loojatele, kes pole veel
-registreerunud toetuseid saama. Veebilehitseja jätkab toetuse edastamise püüdluseid
-konto kinnitamiseni või 90 päeva möödumiseni.</string>
+    <string name="brave_ui_reserved_amount_text">Olete määranud <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> loojatele, kes ei ole
+veel registreerunud panuste saamiseks. Teie brauser jätkab panustamise üritamist,
+kuni kinnituse saamiseni või kuni 90 päeva möödumiseni.</string>
     <string name="brave_ui_notification_desc_no_funds">Kavakohast kuumakser automaatse panustamise ja igakuiste nõuannete eest ei saanud teostada, kuna selleks polnud piisavalt raha. Proovime 30 päeva pärast uuesti.</string>
     <string name="brave_ui_notification_desc_tip_error">Jootraha töötlemisel esines probleem, proovi uuesti.</string>
     <string name="brave_ui_notification_desc_contr_error">Panuse töötlemisel ilmnes probleem.</string>
     <string name="brave_rewards_local_uh_oh">Oih!</string>
     <string name="brave_rewards_local_server_not_responding">Brave’i preemiate server ei vasta. Parandame selle esimesel võimalusel.</string>
     <string name="brave_ui_grants">Toetused</string>
+    <string name="brave_ui_details">Üksikasjad</string>
     <string name="brave_ui_expires_on">aegub <ph name=\"DATE\">%1$s<ex>14.04.2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Pole piisavalt vahendeid</string>
     <string name="brave_ui_insufficient_funds_desc">Brave’i preemiate konto ootab sissemakset.</string>
@@ -280,21 +287,17 @@ armastatud sisuloojate toetamiseks.</string>
 
     <string name="block">Blokeeri</string>
     <string name="brave_shields_onboarding_title">Brave’i kaitsed</string>
-    <string name="brave_shields_onboarding_text">eraellu tungivaid reklaame ja jälitajaid, et saaksite lehitseda ilma, et keegi teid veebis jälitaks.</string>
+    <string name="brave_shields_onboarding_text">privaatsust rikkuvad ads &amp; träkkerid, et saaksite veebis sirvida ilma, et teid jälitataks.</string>
 
-    <string name="earn_tokens">Teeni märke</string>
+    <string name="earn_tokens">Teenige Earn <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Brave’i preemiad</string>
     <string name="brave_rewards_onboarding_text">eraelu austavate reklaamide vaatamise eest. Kasutage neid oma lemmiklehtede ja -loojate toetamiseks.</string>
     <string name="brave_rewards_onboarding_text2">eraelu austavate reklaamide vaatamise eest.</string>
 
-    <string name="terms_title">Brave’i preemiate kasutamiseks nõustuge tingimustega</string>
-    <string name="terms_text">Nõustun Brave’i preemiate</string>
+    <string name="terms_text">Boonuste sisselülitamisel nõustute te</string>
     <string name="terms_of_service">tingimustega</string>
 
-    <string name="agree">Nõustun</string>
-    <string name="join">Liitu</string>
-
-     <string name="start_browsing">Alusta lehitsemist</string>
+    <string name="start_browsing">Alusta lehitsemist</string>
     <string name="i_didnt_see">Ma ei näinud reklaami</string>
 
     <string name="brave_ads_onboarding_title">Brave näitab teile teie esimest reklaami:</string>
@@ -305,7 +308,6 @@ armastatud sisuloojate toetamiseks.</string>
     <string name="turn_on">Lülita sisse</string>
 
     <string name="no_thanks">Ei, aitäh</string>
-    <string name="do_not_agree">Ei nõustu</string>
 
     <string name="prefs_welcome_tour">Tervitusaken</string>
     <string name="welcome_tour_dialog_text">Tervitusakna uuesti avamine ei mõjuta olemasolevaid seadeid.</string>
@@ -314,5 +316,13 @@ armastatud sisuloojate toetamiseks.</string>
     <string name="clear_download_title">Allalaadimiste ajalugu</string>
 
     <string name="settings_exit">Seadetest väljumine</string>
+
+    <string name="brave_license_text">Brave\'i litsents</string>
+    <string name="token">talong</string>
+    <string name="point">punkt</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

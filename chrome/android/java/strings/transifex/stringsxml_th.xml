@@ -3,10 +3,10 @@
     <string name="brave_settings_title">การตั้งค่าเกราะป้องกัน Brave สำหรับ</string>
     <string name="brave_shields_down">ลง</string>
     <string name="brave_shields_up">ขึ้น</string>
-    <string name="brave_shields_ads_trackers">ป้องกันโฆษณาและการติดตามข้อมูลแล้ว</string>
+    <string name="brave_shields_ads_trackers">บล็อกโฆษณาและโปรแกรมติดตามแล้ว</string>
     <string name="brave_shields_https_upgrades">อัพเกรด HTTPS</string>
     <string name="brave_shields_scripts_blocked">ป้องกันสคริปแล้ว</string>
-    <string name="brave_shields_ads_tracking_switch">ป้องกันโฆษณาและการติดตามข้อมูล</string>
+    <string name="brave_shields_ads_tracking_switch">บล็อกโฆษณาและโปรแกรมติดตาม</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS ทุกแห่ง</string>
     <string name="brave_shields_blocks_scripts_switch">ป้องกันสคริป</string>
     <string name="accessibility_toolbar_btn_brave_shields">เปิดใช้งาน/ปิดเกราะป้องกัน Brave</string>
@@ -38,8 +38,8 @@
     <string name="sync_device_failure">ไม่สามารถตั้งค่าการซิงค์ได้</string>
     <string name="sync_requires_correct_time">นาฬิกาบนคอมพิวเตอร์ของคุณอาจตั้งเวลาไว้ไม่ถูกต้องหรือตั้งเขตเวลาไว้ไม่ถูกต้อง โปรดตรวจสอบการตั้งค่านาฬิกาของคุณ</string>
 
-    <string name="brave_stats_text_ads">โฆษณาและตัวติดตาม
-บล็อกแล้ว</string>
+    <string name="brave_stats_text_ads">บล็อกโฆษณา
+และโปรแกรมติดตามแล้ว</string>
     <string name="brave_stats_text_https">อัพเกรด
 HTTPS</string>
     <string name="brave_stats_text_time">บันทึกเวลา
@@ -56,7 +56,7 @@ EST แล้ว</string>
     <string name="brave_shields_first_group_title">การบล็อกหน้าจอ</string>
     <string name="brave_shields_second_group_title">ระบบควบคุมส่วนตัว</string>
     <string name="brave_shields">เกราะป้องกัน</string>
-    <string name="brave_shields_ads_and_trackers">โฆษณาและระบบติดตาม</string>
+    <string name="brave_shields_ads_and_trackers">โฆษณาและโปรแกรมติดตาม</string>
     <string name="brave_shields_fingerprint_methods">วิธีใช้ลายนิ้วมือ</string>
     <string name="brave_shields_block_phishing_switch">บล็อกฟิชชิ่ง</string>
 
@@ -151,18 +151,22 @@ EST แล้ว</string>
 
     <string name="brave_ui_welcome_header_two">เตรียมตัวพบกับ
 อินเตอร์เน็ตรูปแบบใหม่</string>
-    <string name="brave_ui_welcome_desc_two">ตอนนี้คุณสามารถได้รับโทเค็นสำหรับ
-การดูโฆษณาที่ไม่รบกวนความเป็นส่วนตัวได้แล้ว</string>
+    <string name="brave_ui_welcome_desc_two">รับ %1$ss ได้แล้วตอนนี้
+เพียงดูโฆษณาเกี่ยวกับความเป็นส่วนตัว</string>
     <string name="brave_ui_welcome_button_text_two">ร่วมรับรางวัล</string>
     <string name="brave_ui_welcome_footer_text_two">เรียนรู้เพิ่มเติม</string>
     <string name="brave_ui_rewards_creating_text">การสร้างกระเป๋าเงิน</string>
     <string name="brave_ui_your_wallet">กระเป๋าเงินของคุณ</string>
+    <string name="brave_ui_your_balance">ยอดคงเหลือ</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">คะแนน BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">เติมเงิน</string>
     <string name="brave_ui_settings">การตั้งค่า</string>
     <string name="brave_ui_rewards_summary">สรุปรางวัล</string>
-    <string name="brave_ui_site_banner_welcome">ขอบคุณที่แวะมา</string>
+    <string name="brave_ui_site_banner_welcome">ยินดีต้อนรับ</string>
     <string name="brave_ui_rewards_banner_text1">คุณสามารถสนับสนุนเว็บไซต์นี้ด้วยการส่งทิป ซึ่งเป็นวิธีในการขอบคุณพวกเขาที่ทำเนื้อหาดีๆ ออกมา ครีเอเตอร์เนื้อหาที่ยืนยันตัวตนแล้วจะได้รับค่าทิปของพวกเขาในช่วงสัปดาห์แรกของแต่ละเดือนตามปฏิทิน</string>
     <string name="brave_ui_rewards_banner_text2">หากว่าคุณชอบ คุณสามารถกำหนดทิปรายเดือนเพื่อสนับสนุนเว็บไซต์นี้อย่างต่อเนื่องได้</string>
     <string name="brave_ui_donation_amount">จำนวนทิป</string>
@@ -170,7 +174,7 @@ EST แล้ว</string>
     <string name="brave_ui_make_monthly">ทำให้เป็นรายเดือน</string>
     <string name="brave_ui_send_tip">ส่งทิปของฉัน</string>
     <string name="brave_ui_do_monthly">กำหนดทิปรายเดือน</string>
-    <string name="brave_ui_not_enough_tokens">มีโทเค็นไม่เพียงพอ</string>
+    <string name="brave_ui_not_enough_tokens">มี<ph name=\"TOKEN\">โทเคน <ex>%1$s</ex></ph> ไม่เพียงพอ</string>
     <string name="brave_ui_site_banner_notice_text">หมายเหตุ: ครีเอเตอร์รายนี้ยังไม่ได้ลงทะเบียนเพื่อรับเงินสนับสนุนจากผู้ใช้ Brave เราจะพยายามส่งเงินสนับสนุนให้พวกเขาจนกว่าจะยืนยันตัวตนหรือจนกว่าจะผ่านไป 90 วัน</string>
     <string name="brave_ui_please">ได้โปรด</string>
     <string name="brave_ui_add_funds">เติมเงิน</string>
@@ -195,9 +199,10 @@ EST แล้ว</string>
     <string name="brave_ui_no_activity">ยังไม่มีกิจกรรมเลย
 ในเดือนนี้...</string>
     <string name="brave_ui_token_grant_claimed">รับเงินสนับสนุนเป็นโทเค็นแล้ว</string>
+    <string name="brave_ui_point_grant_claimed">ขอรับแต้มฟรีแล้ว</string>
     <string name="brave_ui_earnings_ads">สร้างรายได้จากโฆษณา</string>
     <string name="brave_ui_rewards_contribute">ระบบสนับสนุนอัตโนมัติ</string>
-    <string name="brave_ui_rewards_contribute_description">คุณได้สนับสนุน <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>BAT</string>
+    <string name="brave_ui_rewards_contribute_description">คุณได้ร่วมสนับสนุน <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph></string>
     <string name="brave_ui_one_time_donation">ทิปครั้งเดียว</string>
     <string name="brave_ui_recurring_donation">ทิปรายเดือน</string>
     <string name="brave_ui_verified_publisher">ผู้เผยแพร่ที่ยืนยันตัวตนกับ Brave แล้ว</string>
@@ -206,18 +211,20 @@ EST แล้ว</string>
         ทิปที่คุณส่งจะยังคงอยู่ในกระเป๋าเงินของคุณจนกว่าพวกเขาจะยืนยันตัวตน</string>
     <string name="brave_ui_on_youtube">บน Youtube</string>
     <string name="brave_ui_on_twitch">บน Twitch</string>
-    <string name="brave_ui_new_grant">เงินรางวัลโทเค็นฟรีพร้อมแล้ว</string>
+    <string name="brave_ui_new_grant">มี<ph name=\"TOKEN\">โทเคน <ex>%1$s</ex></ph> แจกฟรี</string>
     <string name="brave_ui_new_token_grant">เงินรางวัลโทเค็นฟรี</string>
+    <string name="brave_ui_new_point_grant">แจกคะแนนฟรี</string>
     <string name="brave_ui_claim">รับ</string>
-    <string name="brave_ui_reserved_amount_text">คุณได้มอบ <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>BAT ให้กับครีเอเตอร์ที่ยังไม่ได้
-ลงทะเบียนเพื่อรับเงินสนับสนุน เบราว์เซอร์ของคุณจะพยายามมอบเงินสนับสนุนให้
-จนกว่าพวกเขาจะยืนยันตัวตน หรือจนกว่าจะผ่านไป 90 วัน</string>
+    <string name="brave_ui_reserved_amount_text">คุณเลือกสนับสนุน <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> ให้กับครีเอเตอร์ที่ยังไม่ได้
+ลงทะเบียนเพื่อรับเงินสนับสนุน เบราว์เซอร์ของคุณจะพยายามส่งเงินสนับสนุน
+จนกว่าจะได้รับการยืนยัน หรือจนกว่าจะครบ 90 วัน</string>
     <string name="brave_ui_notification_desc_no_funds">ไม่สามารถดำเนินการชำระเงินรายเดือนตามกำหนดการสนับสนุนอัตโนมัติและให้ทิปรายเดือนได้เนื่องจากยอดเงินมีไม่เพียงพอ เราจะลองอีกครั้งในอีก 30 วัน</string>
     <string name="brave_ui_notification_desc_tip_error">มีปัญหาเกิดขึ้นในการประมวลผลทิปของคุณ กรุณาลองอีกครั้ง</string>
     <string name="brave_ui_notification_desc_contr_error">มีปัญหาเกิดขึ้นในการประมวลผลการสนับสนุนของคุณ</string>
     <string name="brave_rewards_local_uh_oh">แย่แล้ว</string>
     <string name="brave_rewards_local_server_not_responding">เซิร์ฟเวอร์ของ Brave Rewards ไม่ตอบสนอง เราจะรีบแก้ไขให้เร็วที่สุดเท่าที่จะเป็นไปได้</string>
     <string name="brave_ui_grants">เงินรางวัล</string>
+    <string name="brave_ui_details">รายละเอียด</string>
     <string name="brave_ui_expires_on">หมดอายุวันที่ <ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">เงินไม่เพียงพอ</string>
     <string name="brave_ui_insufficient_funds_desc">บัญชี Brave Rewards ของคุณกำลังรอการฝากอยู่</string>
@@ -280,21 +287,17 @@ EST แล้ว</string>
 
     <string name="block">บล็อค</string>
     <string name="brave_shields_onboarding_title">Brave Shields</string>
-    <string name="brave_shields_onboarding_text">โฆษณาแบบบุกรุกความเป็นส่วนตัวและเครื่องติดตามเพื่อที่คุณสามารถค้นหาโดยไม่ถูกติดตามในเว็บ</string>
+    <string name="brave_shields_onboarding_text">โฆษณาและโปรแกรมติดตามที่บุกรุกความเป็นส่วนตัว เพื่อให้คุณท่องเว็บโดยไม่ถูกติดตามไปทั่วทั้งเว็บ</string>
 
-    <string name="earn_tokens">รับเหรียญตรา</string>
+    <string name="earn_tokens">รับ <ph name=\"TOKEN\">%1$s <ex>โทเคน</ex></ph></string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">สำหรับการชมโฆษณาที่เคารพความเป็นส่วนตัว ใช้มันในการสนับสนุนเว็บและผู้สร้างที่คุณชื่นชอบ</string>
     <string name="brave_rewards_onboarding_text2">เพื่อการชมโฆษณาที่เคารพความเป็นส่วนตัว</string>
 
-    <string name="terms_title">ยอมรับข้อตกลงเพื่อใช้ Brave Rewards</string>
-    <string name="terms_text">ฉันยอมรับ Brave Rewards</string>
+    <string name="terms_text">การเปิดใช้ Rewards ถือว่าคุณยอมรับใน</string>
     <string name="terms_of_service">เงื่อนไขการให้บริการ</string>
 
-    <string name="agree">ตกลง</string>
-    <string name="join">เข้าร่วม</string>
-
-     <string name="start_browsing">เริ่มทำการค้นหา</string>
+    <string name="start_browsing">เริ่มทำการค้นหา</string>
     <string name="i_didnt_see">ฉันไม่เห็นโฆษณา</string>
 
     <string name="brave_ads_onboarding_title">Brave จะแสดงโฆษณาตัวแรกของคุณใน</string>
@@ -305,7 +308,6 @@ EST แล้ว</string>
     <string name="turn_on">เปิด</string>
 
     <string name="no_thanks">ไม่ ขอบคุณ</string>
-    <string name="do_not_agree">ไม่เห็นด้วย</string>
 
     <string name="prefs_welcome_tour">ทัวร์ต้อนรับ</string>
     <string name="welcome_tour_dialog_text">การเปิดใช้งาน Welcome Tour อีกครั้งจะไม่ส่งผลกระทบต่อการตั้งค่าที่มีอยู่</string>
@@ -314,5 +316,13 @@ EST แล้ว</string>
     <string name="clear_download_title">ดาวน์โหลดประวัติ</string>
 
     <string name="settings_exit">ออกจากการตั้งค่า</string>
+
+    <string name="brave_license_text">ใบอนุญาต Brave</string>
+    <string name="token">โทเคน</string>
+    <string name="point">คะแนน</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>

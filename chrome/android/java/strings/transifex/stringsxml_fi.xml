@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave -sivustosuoja-asetukset kohteelle</string>
     <string name="brave_shields_down">Alas</string>
     <string name="brave_shields_up">Ylös</string>
-    <string name="brave_shields_ads_trackers">Mainokset ja Seuraimet Estetty</string>
+    <string name="brave_shields_ads_trackers">Mainokset ja seurantaohjelmat estetty</string>
     <string name="brave_shields_https_upgrades">HTTPS Päivitykset</string>
     <string name="brave_shields_scripts_blocked">Komentosarjat Estetty</string>
-    <string name="brave_shields_ads_tracking_switch">Estä Mainokset ja Seuranta</string>
+    <string name="brave_shields_ads_tracking_switch">Estä mainokset ja seuranta</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Kaikkialla</string>
     <string name="brave_shields_blocks_scripts_switch">Estä Komentosarjat</string>
     <string name="accessibility_toolbar_btn_brave_shields">Ota käyttöön/Poista käytöstä Brave -suojat</string>
@@ -38,8 +38,8 @@
     <string name="sync_device_failure">Synkronoinnin määritys ei onnistunut</string>
     <string name="sync_requires_correct_time">Tietokoneesi kello on saatettu asettaa väärään aikaan tai väärälle aikavyöhykkeelle. Tarkista kellosi asetukset</string>
 
-    <string name="brave_stats_text_ads">Mainokset ja seuraimet
-Estetty</string>
+    <string name="brave_stats_text_ads">Mainokset ja seurantaohjelmat
+estetty</string>
     <string name="brave_stats_text_https">HTTPS
 Päivitykset</string>
     <string name="brave_stats_text_time">Arvioitu aika
@@ -151,18 +151,22 @@ Säästä akkua ja lataa verkkosivut nopeammin</string>
 
     <string name="brave_ui_welcome_header_two">Valmistaudu kokemaan
 seuraava Internet.</string>
-    <string name="brave_ui_welcome_desc_two">Voit ansaita poletteja katsomalla
-yksityisyyttä kunnioittavia mainoksia.</string>
+    <string name="brave_ui_welcome_desc_two">Voit nyt ansaita %1$s
+katsomalla yksityisyyttä kunnioittavia mainoksia.</string>
     <string name="brave_ui_welcome_button_text_two">LIITY REWARDSIIN</string>
     <string name="brave_ui_welcome_footer_text_two">LUE LISÄÄ</string>
     <string name="brave_ui_rewards_creating_text">Luodaan lompakkoa</string>
     <string name="brave_ui_your_wallet">Oma lompakko</string>
+    <string name="brave_ui_your_balance">Oma saldosi</string>
     <string name="brave_ui_bat_text">BAT</string>
-    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph> USD</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">BAT-pisteet</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0,0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Lisää varoja</string>
     <string name="brave_ui_settings">Asetukset</string>
     <string name="brave_ui_rewards_summary">REWARDS-YHTEENVETO</string>
-    <string name="brave_ui_site_banner_welcome">Kiitos käynnistä!</string>
+    <string name="brave_ui_site_banner_welcome">Tervetuloa!</string>
     <string name="brave_ui_rewards_banner_text1">Voit tukea tätä sivustoa lähettämällä tipin. Se on tapa kiittää heitä loistavasta sisällöstä. Vahvistetuille sisällöntuottajille maksetaan tipeistä jokaisen kuukauden ensimmäisellä viikolla.</string>
     <string name="brave_ui_rewards_banner_text2">Voit halutessasi ajastaa jatkuvan kuukausittaisen tipin tälle sivustolle.</string>
     <string name="brave_ui_donation_amount">Tipin summa</string>
@@ -170,7 +174,7 @@ yksityisyyttä kunnioittavia mainoksia.</string>
     <string name="brave_ui_make_monthly">Tee tästä kuukausittainen</string>
     <string name="brave_ui_send_tip">lähetä tippini</string>
     <string name="brave_ui_do_monthly">aseta kuukausittainen tippi</string>
-    <string name="brave_ui_not_enough_tokens">poletit eivät riitä</string>
+    <string name="brave_ui_not_enough_tokens">ei tarpeeksi <ph name=\"TOKEN\">%1$s<ex>poletteja</ex></ph></string>
     <string name="brave_ui_site_banner_notice_text">HUOMIO: Tämä luoja ei ole kirjautunut vielä vastaanottamaan avustuksia Brave-käyttäjiltä. Yritämme avustaa, kunnes hän vahvistaa itsensä tai 90 päivän aikaraja umpeutuu.</string>
     <string name="brave_ui_please">kiitos</string>
     <string name="brave_ui_add_funds">lisää varoja</string>
@@ -195,9 +199,10 @@ yksityisyyttä kunnioittavia mainoksia.</string>
     <string name="brave_ui_no_activity">Ei vielä toimintaa tässä
 kuussa...</string>
     <string name="brave_ui_token_grant_claimed">Polettilahjoituksia lunastettu</string>
+    <string name="brave_ui_point_grant_claimed">Pisteapurahaa lunastettu</string>
     <string name="brave_ui_earnings_ads">Ansiot mainoksista</string>
     <string name="brave_ui_rewards_contribute">Automaattinen avustus</string>
-    <string name="brave_ui_rewards_contribute_description">Avustit <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> BAT:illa.</string>
+    <string name="brave_ui_rewards_contribute_description">Olet antanut <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> kannatusmaksuna.</string>
     <string name="brave_ui_one_time_donation">Kertaluontoiset tipit</string>
     <string name="brave_ui_recurring_donation">Kuukausittaiset tipit</string>
     <string name="brave_ui_verified_publisher">Vahvistettu Brave-julkaisija</string>
@@ -206,18 +211,18 @@ kuussa...</string>
 Kaikki lähettämäsi tipit pysyvät lompakossasi, kunnes hän vahvistaa itsensä.</string>
     <string name="brave_ui_on_youtube">YouTubessa</string>
     <string name="brave_ui_on_twitch">Twitchissä</string>
-    <string name="brave_ui_new_grant">Ilmainen poletti saatavilla.</string>
+    <string name="brave_ui_new_grant">Ilmainen <ph name=\"TOKEN\">%1$s<ex>poletin</ex></ph> apuraha on saatavilla.</string>
     <string name="brave_ui_new_token_grant">Ilmainen polettilahjoitus</string>
+    <string name="brave_ui_new_point_grant">Ilmainen pisteapuraha</string>
     <string name="brave_ui_claim">Lunasta</string>
-    <string name="brave_ui_reserved_amount_text"><ph name=\"BAT_VALUE\">Osoitit %1$s<ex>50</ex></ph> BAT:ia luojalle, joka ei ole vielä kirjautunut
-vastaanottamaan avustuksia. Selaimesi yrittää avustaa, kunnes hän vahvistaa
-itsensä tai 90 päivän aikaraja umpeutuu.</string>
+    <string name="brave_ui_reserved_amount_text">Olet osoittanut <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> tekijöille, jotka eivät ole vielä rekisteröityneet kannatusmaksujen vastaanottajiksi. Selaimesi jatkaa kannatusmaksuyritysten tekemistä siihen asti, että tekijät ovat vahvistaneet tai että on kulunut 90 vuorokautta.</string>
     <string name="brave_ui_notification_desc_no_funds">Ajoitettua kuukausimaksuasi automaattisesta avustuksesta ja kuukausittaisia tippejä ei voitu suorittaa tarvittavien varojen puuttuessa. Yritämme uudestaan 30 vuorokauden kuluttua.</string>
     <string name="brave_ui_notification_desc_tip_error">Tippisi käsittelyssä ilmeni ongelma, yritä uudestaan.</string>
     <string name="brave_ui_notification_desc_contr_error">Avustuksesi käsittelyssä ilmeni ongelma.</string>
     <string name="brave_rewards_local_uh_oh">Ohoh!</string>
     <string name="brave_rewards_local_server_not_responding">Brave Rewards -palvelin ei vastaa. Korjaamme tämän mahdollisimman pian.</string>
     <string name="brave_ui_grants">Lahjoitukset</string>
+    <string name="brave_ui_details">Tarkat tiedot</string>
     <string name="brave_ui_expires_on">erääntyy <ph name=\"DATE\">%1$s<ex>14.4.2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Varat eivät riitä</string>
     <string name="brave_ui_insufficient_funds_desc">Brave Rewards -tilisi odottaa talletusta.</string>
@@ -280,21 +285,17 @@ rakastamillesi sisällöntuottajille.</string>
 
     <string name="block">Estä</string>
     <string name="brave_shields_onboarding_title">Brave Shields</string>
-    <string name="brave_shields_onboarding_text">yksityisyyttä rikkovat mainokset ja seurantaohjelmat, jotta voit selata rauhassa ilman pelkoa, että joku seuraisi sinua verkossa.</string>
+    <string name="brave_shields_onboarding_text">yksityisyyttä kunnioittavia mainoksia ja seurantaohjelmia, jotta voit jatkaa selaamista ilman, että sinua seurataan verkossa.</string>
 
-    <string name="earn_tokens">Ansaitse käyttötunnuksia</string>
+    <string name="earn_tokens">Ansaitse <ph name=\"TOKEN\">%1$s<ex>poletti</ex></ph>a</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">nähdäksesi yksityisyyttä kunnioittavat mainokset. Käytä niitä suosikkisivustojesi ja -kehittäjiesi tukemiseen.</string>
     <string name="brave_rewards_onboarding_text2">nähdäksesi yksityisyyttä kunnioittavat mainokset.</string>
 
-    <string name="terms_title">Hyväksy käyttöehdot voidaksesi käyttää Brave Rewardsin palkintoja</string>
-    <string name="terms_text">Hyväksyn Brave Rewardsin</string>
+    <string name="terms_text">Ottamalla palkinnot käyttöön hyväksyt</string>
     <string name="terms_of_service">Käyttöehdot</string>
 
-    <string name="agree">Hyväksy</string>
-    <string name="join">Liity</string>
-
-     <string name="start_browsing">Aloita selaaminen</string>
+    <string name="start_browsing">Aloita selaaminen</string>
     <string name="i_didnt_see">En nähnyt mainosta</string>
 
     <string name="brave_ads_onboarding_title">Brave näyttää seuraavan mainoksesi:</string>
@@ -305,7 +306,6 @@ rakastamillesi sisällöntuottajille.</string>
     <string name="turn_on">Aseta päälle</string>
 
     <string name="no_thanks">Ei kiitos</string>
-    <string name="do_not_agree">Älä hyväksy</string>
 
     <string name="prefs_welcome_tour">Tutustumiskierros</string>
     <string name="welcome_tour_dialog_text">Tervetuliaiskierroksen käynnistäminen uudelleen ei vaikuta nykyisiin asetuksiin.</string>
@@ -314,5 +314,13 @@ rakastamillesi sisällöntuottajille.</string>
     <string name="clear_download_title">Lataushistoria</string>
 
     <string name="settings_exit">Asetuksista poistuminen</string>
+
+    <string name="brave_license_text">Brave-lisenssi</string>
+    <string name="token">poletti</string>
+    <string name="point">piste</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
 </resources>
