@@ -705,10 +705,16 @@ public class ToolbarTablet extends ToolbarLayout
 
     @Override
     void updateButtonVisibility() {
+        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         if (isIncognito()) {
-            mRewardsLayout.setVisibility(View.GONE);
-        } else {
-            mRewardsLayout.setVisibility(View.VISIBLE);
+            if (mRewardsLayout != null) {
+                mRewardsLayout.setVisibility(View.GONE);
+            }
+        } else if (ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) &&
+                !sharedPreferences.getBoolean(PREF_HIDE_BRAVE_ICON, false)) {
+            if (mRewardsLayout != null) {
+                mRewardsLayout.setVisibility(View.VISIBLE);
+            }
         }
 
         mLocationBar.updateButtonVisibility();
