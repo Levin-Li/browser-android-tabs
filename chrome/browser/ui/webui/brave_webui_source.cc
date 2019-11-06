@@ -313,7 +313,10 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "whyBraveRewardsDesc1", IDS_BRAVE_UI_WHY_BRAVE_REWARDS_DESC_1 },
         { "whyBraveRewardsDesc2", IDS_BRAVE_UI_WHY_BRAVE_REWARDS_DESC_2 },
         { "yourWallet", IDS_BRAVE_UI_YOUR_WALLET },
-        { "viewDetails", IDS_BRAVE_UI_VIEW_DETAILS }
+        { "viewDetails", IDS_BRAVE_UI_VIEW_DETAILS },
+        { "adsDescPoints",  IDS_BRAVE_REWARDS_LOCAL_ADS_DESC_POINTS },
+        { "bap", IDS_BRAVE_UI_BAP_REWARDS_TEXT },
+        { "points", IDS_BRAVE_UI_POINTS }
       }
     },
     {
