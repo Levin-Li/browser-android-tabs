@@ -165,7 +165,7 @@ class ContributeBox extends React.Component<Props, State> {
               ]}
             />
           </ControlWrapper>
-          <ControlWrapper text={getLocale('contributionAllowed')}>
+          <ControlWrapper text={getLocale('contributionOther')}>
             <Checkbox
               value={{
                 contributionNonVerified: contributionNonVerified,
@@ -174,7 +174,7 @@ class ContributeBox extends React.Component<Props, State> {
               multiple={true}
               onChange={this.onCheckSettingChange}
             >
-              <div data-key='contributionNonVerified'>{getLocale('contributionNonVerified')}</div>
+              <div data-key='contributionNonVerified'>{getLocale('contributionShowNonVerified')}</div>
               <div data-key='contributionVideos'>{getLocale('contributionVideos')}</div>
             </Checkbox>
           </ControlWrapper>
