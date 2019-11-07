@@ -64,7 +64,7 @@ public class BraveRewardsOnboardingFragment extends Fragment {
 
     private boolean isAdsAvailable;
 
-    private boolean isJapanLocale;
+    private boolean isAnonWallet;
 
     public BraveRewardsOnboardingFragment() {
         // Required empty public constructor
@@ -76,7 +76,7 @@ public class BraveRewardsOnboardingFragment extends Fragment {
 
         isAdsAvailable = OnboardingPrefManager.getInstance().isAdsAvailable();
 
-        isJapanLocale = BraveRewardsHelper.isJapanLocale();
+        isAnonWallet = BraveRewardsHelper.isAnonWallet();
  
         // Inflate the layout for this fragment
         View root = inflater.inflate(R.layout.fragment_brave_rewards_onboarding, container, false);
@@ -122,13 +122,13 @@ public class BraveRewardsOnboardingFragment extends Fragment {
 
             tvTitle.setText(getResources().getString(R.string.brave_ads_existing_user_offer_title));
 
-            String braveRewardsText = "<b>" + String.format(getResources().getString(R.string.earn_tokens), isJapanLocale ? getResources().getString(R.string.point) : getResources().getString(R.string.token)) + "</b> " + getResources().getString(R.string.brave_rewards_onboarding_text2);
+            String braveRewardsText = "<b>" + String.format(getResources().getString(R.string.earn_tokens), isAnonWallet ? getResources().getString(R.string.point) : getResources().getString(R.string.token)) + "</b> " + getResources().getString(R.string.brave_rewards_onboarding_text2);
             textToInsert = BraveRewardsHelper.spannedFromHtmlString(braveRewardsText);
             tvText.setText(textToInsert);
 
             btnNext.setText(getResources().getString(R.string.turn_on));
         } else {
-            String braveRewardsText = "<b>" + String.format(getResources().getString(R.string.earn_tokens), isJapanLocale ? getResources().getString(R.string.point) : getResources().getString(R.string.token)) + "</b> " + getResources().getString(R.string.brave_rewards_onboarding_text);
+            String braveRewardsText = "<b>" + String.format(getResources().getString(R.string.earn_tokens), isAnonWallet ? getResources().getString(R.string.point) : getResources().getString(R.string.token)) + "</b> " + getResources().getString(R.string.brave_rewards_onboarding_text);
             textToInsert = BraveRewardsHelper.spannedFromHtmlString(braveRewardsText);
             tvText.setText(textToInsert);
         }

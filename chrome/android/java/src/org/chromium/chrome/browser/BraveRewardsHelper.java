@@ -53,8 +53,6 @@ public class BraveRewardsHelper implements LargeIconBridge.LargeIconCallback{
     private static final int FAVICON_FETCH_INTERVAL = 1000; // In milliseconds
     private static final int FAVICON_DESIRED_SIZE = 64; // px
 
-    private static final String JP_LOCALE = "JP";
-
     private static LargeIconBridge mLargeIconBridge;
 
     private String mFaviconUrl;
@@ -386,9 +384,7 @@ public class BraveRewardsHelper implements LargeIconBridge.LargeIconCallback{
         }
     }
 
-    public static boolean isJapanLocale(){
-      String locale = BraveAdsNativeHelper.nativeGetLocale();
-      String countryCode = BraveAdsNativeHelper.nativeGetCountryCode(locale);
-      return countryCode.equals(JP_LOCALE);
+    public static boolean isAnonWallet() {
+      return BraveRewardsNativeWorker.getInstance().IsAnonWallet();
     }
 }

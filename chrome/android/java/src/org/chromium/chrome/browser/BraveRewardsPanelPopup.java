@@ -165,7 +165,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
     private String batText;
     private String batPointsText;
-    private boolean isJapanLocale;
+    private boolean isAnonWallet;
 
     public static boolean isBraveRewardsEnabled() {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
@@ -256,14 +256,14 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
         ViewGroup root = (ViewGroup) inflater.inflate(R.layout.brave_rewards_panel, null);
 
-        isJapanLocale = BraveRewardsHelper.isJapanLocale();
+        isAnonWallet = BraveRewardsHelper.isAnonWallet();
 
-        batText = isJapanLocale ? root.getResources().getString(R.string.brave_ui_bap_text) : root.getResources().getString(R.string.brave_ui_bat_text);
-        batPointsText = isJapanLocale ? root.getResources().getString(R.string.brave_ui_bat_points_text) : root.getResources().getString(R.string.brave_ui_bat_text);
+        batText = isAnonWallet ? root.getResources().getString(R.string.brave_ui_bap_text) : root.getResources().getString(R.string.brave_ui_bat_text);
+        batPointsText = isAnonWallet ? root.getResources().getString(R.string.brave_ui_bat_points_text) : root.getResources().getString(R.string.brave_ui_bat_text);
 
         setContentView(root);
 
-        ((TextView)root.findViewById(R.id.get_paid_id)).setText(String.format(root.getResources().getString(R.string.brave_ui_welcome_desc_two), isJapanLocale ? root.getResources().getString(R.string.point) : root.getResources().getString(R.string.token)));
+        ((TextView)root.findViewById(R.id.get_paid_id)).setText(String.format(root.getResources().getString(R.string.brave_ui_welcome_desc_two), isAnonWallet ? root.getResources().getString(R.string.point) : root.getResources().getString(R.string.token)));
 
         tvPublisherNotVerifiedSummary = (TextView)root.findViewById(R.id.publisher_not_verified_summary);
         tvPublisherNotVerifiedSummary.setOnTouchListener(new View.OnTouchListener() {
@@ -325,14 +325,14 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         }
 
         tvYourWalletTitle = (TextView)root.findViewById(R.id.your_wallet_title);
-        tvYourWalletTitle.setText(isJapanLocale ? root.getResources().getString(R.string.brave_ui_your_balance) : root.getResources().getString(R.string.brave_ui_your_wallet));
+        tvYourWalletTitle.setText(isAnonWallet ? root.getResources().getString(R.string.brave_ui_your_balance) : root.getResources().getString(R.string.brave_ui_your_wallet));
 
         ((TextView)root.findViewById(R.id.br_bat)).setText(batPointsText);
 
         btAddFunds = (Button)root.findViewById(R.id.br_add_funds);
         if (btAddFunds != null) {
           if(btAddFunds.getVisibility() == View.VISIBLE)
-            btAddFunds.setVisibility(isJapanLocale ? View.GONE : View.VISIBLE);
+            btAddFunds.setVisibility(isAnonWallet ? View.GONE : View.VISIBLE);
           btAddFunds.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -411,7 +411,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
         Button btGrants = (Button)this.root.findViewById(R.id.grants_dropdown);
         if (btGrants != null) {
-            btGrants.setText(isJapanLocale ? context.getResources().getString(R.string.brave_ui_details) : context.getResources().getString(R.string.brave_ui_grants));
+            btGrants.setText(isAnonWallet ? context.getResources().getString(R.string.brave_ui_details) : context.getResources().getString(R.string.brave_ui_grants));
             btGrants.setOnClickListener((new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -956,11 +956,11 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                 notification_icon.setImageResource(grant_icon_id);
 
                 title = (BraveRewardsNativeWorker.REWARDS_NOTIFICATION_GRANT == type ) ?
-                        (isJapanLocale ? root.getResources().getString(R.string.brave_ui_new_point_grant) : root.getResources().getString(R.string.brave_ui_new_token_grant)):
+                        (isAnonWallet ? root.getResources().getString(R.string.brave_ui_new_point_grant) : root.getResources().getString(R.string.brave_ui_new_token_grant)):
                         root.getResources().getString(R.string.notification_category_group_brave_ads);
 
                 description = (BraveRewardsNativeWorker.REWARDS_NOTIFICATION_GRANT == type ) ?
-                        String.format(root.getResources().getString(R.string.brave_ui_new_grant), isJapanLocale ? root.getResources().getString(R.string.point) : root.getResources().getString(R.string.token)) :
+                        String.format(root.getResources().getString(R.string.brave_ui_new_grant), isAnonWallet ? root.getResources().getString(R.string.point) : root.getResources().getString(R.string.token)) :
                         root.getResources().getString(R.string.brave_ads_you_earned);
                 break;
             case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS:
@@ -1066,7 +1066,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
 
           int currentGrantsCount = mBraveRewardsNativeWorker.GetCurrentGrantsCount();
           Button btGrants = (Button)this.root.findViewById(R.id.grants_dropdown);
-          btGrants.setText(isJapanLocale ? this.root.getResources().getString(R.string.brave_ui_details) : this.root.getResources().getString(R.string.brave_ui_grants));
+          btGrants.setText(isAnonWallet ? this.root.getResources().getString(R.string.brave_ui_details) : this.root.getResources().getString(R.string.brave_ui_grants));
           if (currentGrantsCount != 0) {
               btGrants.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.down_icon, 0);
               btGrants.setVisibility(View.VISIBLE);
@@ -1256,7 +1256,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
               break;
             case BALANCE_REPORT_GRANTS:
               tvTitle = (TextView)root.findViewById(R.id.br_grants_claimed_title);
-              tvTitle.setText(isJapanLocale ? BraveRewardsPanelPopup.this.root.getResources().getString(R.string.brave_ui_point_grant_claimed) : BraveRewardsPanelPopup.this.root.getResources().getString(R.string.brave_ui_token_grant_claimed));
+              tvTitle.setText(isAnonWallet ? BraveRewardsPanelPopup.this.root.getResources().getString(R.string.brave_ui_point_grant_claimed) : BraveRewardsPanelPopup.this.root.getResources().getString(R.string.brave_ui_token_grant_claimed));
               tv = (TextView)root.findViewById(R.id.br_grants_claimed_bat);
               tvUSD = (TextView)root.findViewById(R.id.br_grants_claimed_usd);
               text = "<font color=#8E2995>" + value + "</font><font color=#000000> "+batText+"</font>";
