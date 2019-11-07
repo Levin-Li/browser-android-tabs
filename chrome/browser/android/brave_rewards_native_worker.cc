@@ -646,5 +646,13 @@ void BraveRewardsNativeWorker::SetAdsPerDay(JNIEnv* env, const base::android::Ja
   ads_service_->SetAdsPerDay(value);
 }
 
+bool BraveRewardsNativeWorker::IsAnonWallet(JNIEnv* env, const
+        base::android::JavaParamRef<jobject>& jcaller) {
+  if (brave_rewards_service_) {
+    return brave_rewards_service_->OnlyAnonWallet();
+  }
+  return false;
+}
+
 }
 }

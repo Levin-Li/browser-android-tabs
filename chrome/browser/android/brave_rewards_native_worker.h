@@ -198,6 +198,9 @@ public:
     void OnRewardsMainEnabled(brave_rewards::RewardsService* rewards_service, 
         bool rewards_main_enabled) override;
 
+    bool IsAnonWallet(JNIEnv* env, const
+        base::android::JavaParamRef<jobject>& jcaller);
+
 private:
     void OnBalance(int32_t result, std::unique_ptr<::brave_rewards::Balance> balance);
     JavaObjectWeakGlobalRef weak_java_brave_rewards_native_worker_;

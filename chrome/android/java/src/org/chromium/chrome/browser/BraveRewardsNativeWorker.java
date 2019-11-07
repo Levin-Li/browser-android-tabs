@@ -332,6 +332,12 @@ public class BraveRewardsNativeWorker {
         }
     }
 
+    public boolean IsAnonWallet() {
+        synchronized(lock) {
+            return nativeIsAnonWallet(mNativeBraveRewardsNativeWorker);
+        }
+    }
+
     @CalledByNative
     public void OnGetRewardsMainEnabled(boolean enabled) {
         for(BraveRewardsObserver observer : observers_) {
@@ -502,4 +508,5 @@ public class BraveRewardsNativeWorker {
     private native int nativeGetAdsPerDay(long nativeBraveRewardsNativeWorker);
     private native void nativeSetAdsPerHour(long nativeBraveRewardsNativeWorker, int value);
     private native void nativeSetAdsPerDay(long nativeBraveRewardsNativeWorker, int value);
+    private native boolean nativeIsAnonWallet(long nativeBraveRewardsNativeWorker);
 }
