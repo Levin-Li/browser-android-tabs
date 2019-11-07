@@ -151,7 +151,7 @@
 
     <string name="brave_ui_welcome_header_two">做好准备，体验
 下一代因特网。</string>
-    <string name="brave_ui_welcome_desc_two">现在观看尊重隐私权的广告可以赚取 %1$ss
+    <string name="brave_ui_welcome_desc_two">现在观看尊重隐私权的广告可以赚取 <ph name="TOKEN">%1$s<ex>token</ex></ph>
 。</string>
     <string name="brave_ui_welcome_button_text_two">加入奖励</string>
     <string name="brave_ui_welcome_footer_text_two">详细了解</string>

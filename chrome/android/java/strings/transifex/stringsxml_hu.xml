@@ -150,7 +150,7 @@ Kímélje az akkumulátort és töltsön be weboldalakat gyorsabban</string>
 
     <string name="brave_ui_welcome_header_two">Készüljön fel
 a következő internet megtapasztalására.</string>
-    <string name="brave_ui_welcome_desc_two">Mostantól %1$ss jutalmat kaphatsz adatvédelmet tiszteletben tartó reklámok megnézésével.</string>
+    <string name="brave_ui_welcome_desc_two">Mostantól <ph name="TOKEN">%1$s<ex>token</ex></ph> jutalmat kaphatsz adatvédelmet tiszteletben tartó reklámok megnézésével.</string>
     <string name="brave_ui_welcome_button_text_two">CSATLAKOZZON A REWARDSHOZ</string>
     <string name="brave_ui_welcome_footer_text_two">TOVÁBBI INFORMÁCIÓ</string>
     <string name="brave_ui_rewards_creating_text">Pénztárca létrehozása</string>

@@ -150,7 +150,7 @@ Ahorre batería y cargue las páginas más rápido</string>
 
     <string name="brave_ui_welcome_header_two">Prepárate para disfrutar
 de la próxima generación de Internet.</string>
-    <string name="brave_ui_welcome_desc_two">Ahora puede ganar %1$ss por ver anuncios que respetan la privacidad.</string>
+    <string name="brave_ui_welcome_desc_two">Ahora puede ganar <ph name="TOKEN">%1$s<ex>token</ex></ph> por ver anuncios que respetan la privacidad.</string>
     <string name="brave_ui_welcome_button_text_two">UNIRME Y GANAR RECOMPENSAS</string>
     <string name="brave_ui_welcome_footer_text_two">MÁS INFORMACIÓN</string>
     <string name="brave_ui_rewards_creating_text">Creando monedero</string>

@@ -151,7 +151,7 @@ Säästa akut ja lae lehti kiiremini</string>
 
     <string name="brave_ui_welcome_header_two">Valmistu kogema
 uut internetti.</string>
-    <string name="brave_ui_welcome_desc_two">Nüüd on teil võimalik teenida %1$ss (mille eest)
+    <string name="brave_ui_welcome_desc_two">Nüüd on teil võimalik teenida <ph name="TOKEN">%1$s<ex>token</ex></ph> (mille eest)
 privaatsust austavate reklaamide jälgimine.</string>
     <string name="brave_ui_welcome_button_text_two">LIITU PREEMIATEGA</string>
     <string name="brave_ui_welcome_footer_text_two">LISATEAVE</string>

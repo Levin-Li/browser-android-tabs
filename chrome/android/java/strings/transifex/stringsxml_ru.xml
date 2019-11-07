@@ -151,7 +151,7 @@
 
     <string name="brave_ui_welcome_header_two">Новые способы
 получать токены.</string>
-    <string name="brave_ui_welcome_desc_two">Теперь вы можете заработать %1$ss за
+    <string name="brave_ui_welcome_desc_two">Теперь вы можете заработать <ph name="TOKEN">%1$s<ex>token</ex></ph> за
 просмотр рекламы, которая уважает вашу конфиденциальность.</string>
     <string name="brave_ui_welcome_button_text_two">ВСТУПИТЬ В ПРОГРАММУ BRAVE REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">ПОДРОБНЕЕ</string>

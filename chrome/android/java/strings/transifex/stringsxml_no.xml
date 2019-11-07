@@ -150,7 +150,7 @@ Spar batteri og last nettsider raskere</string>
 
     <string name="brave_ui_welcome_header_two">Nå kan du oppleve
 fremtidens internett.</string>
-    <string name="brave_ui_welcome_desc_two">Du kan nå tjene %1$ss på å se annonser som respekterer personvernet ditt. </string>
+    <string name="brave_ui_welcome_desc_two">Du kan nå tjene <ph name="TOKEN">%1$s<ex>token</ex></ph> på å se annonser som respekterer personvernet ditt. </string>
     <string name="brave_ui_welcome_button_text_two">BLI MED I REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">FINN UT MER</string>
     <string name="brave_ui_rewards_creating_text">Oppretter lommebok</string>

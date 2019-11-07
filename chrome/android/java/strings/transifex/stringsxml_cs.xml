@@ -150,7 +150,7 @@ Změnit ho můžete v nastavení aplikací. </string>
 
     <string name="brave_ui_welcome_header_two">Připravte se na nový zážitek
 z internetu.</string>
-    <string name="brave_ui_welcome_desc_two">Nyní si můžete vydělat %1$ss za sledování reklam respektujících soukromí.</string>
+    <string name="brave_ui_welcome_desc_two">Nyní si můžete vydělat <ph name="TOKEN">%1$s<ex>token</ex></ph> za sledování reklam respektujících soukromí.</string>
     <string name="brave_ui_welcome_button_text_two">PŘIPOJIT SE DO PROGRAMU REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">DALŠÍ INFORMACE</string>
     <string name="brave_ui_rewards_creating_text">Vytváření peněženky</string>

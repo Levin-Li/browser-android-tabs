@@ -151,7 +151,7 @@ Taupykite akumuliatoriaus energiją ir negaiškite laukdami, kol puslapiai bus �
 
     <string name="brave_ui_welcome_header_two">Pasiruoškite internete
 naršyti kitaip.</string>
-    <string name="brave_ui_welcome_desc_two">Dabar galite uždirbti %1$ss už
+    <string name="brave_ui_welcome_desc_two">Dabar galite uždirbti <ph name="TOKEN">%1$s<ex>token</ex></ph> už
 tai, kad žiūrėsite privatumo nepažeidžiančius skelbimus.</string>
     <string name="brave_ui_welcome_button_text_two">DALYVAUTI ATLYGIO PROGRAMOJE</string>
     <string name="brave_ui_welcome_footer_text_two">DAUGIAU INFORMACIJOS</string>

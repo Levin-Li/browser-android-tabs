@@ -150,7 +150,7 @@ Economisiți baterie şi încărcați mai rapid paginile web</string>
 
     <string name="brave_ui_welcome_header_two">Pregătiți-vă pentru experiența
 următorului nivel de Internet.</string>
-    <string name="brave_ui_welcome_desc_two">Acum puteți să câștigați %1$ss pentru vizualizarea reclamelor care respectă confidențialitatea</string>
+    <string name="brave_ui_welcome_desc_two">Acum puteți să câștigați <ph name="TOKEN">%1$s<ex>token</ex></ph> pentru vizualizarea reclamelor care respectă confidențialitatea</string>
     <string name="brave_ui_welcome_button_text_two">DEVENIȚI MEMBRU REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">AFLAȚI MAI MULTE</string>
     <string name="brave_ui_rewards_creating_text">Creare portofel</string>

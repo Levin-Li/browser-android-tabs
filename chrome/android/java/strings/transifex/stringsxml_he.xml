@@ -150,7 +150,7 @@ HTTPS</string>
 
     <string name="brave_ui_welcome_header_two">תתכונן לחוויית
 האינטרנט הבא.</string>
-    <string name="brave_ui_welcome_desc_two">באפשרותך להרוויח עכשיו %1$ss על צפייה בפרסומות שמכבדות את פרטיותך.</string>
+    <string name="brave_ui_welcome_desc_two">באפשרותך להרוויח עכשיו <ph name="TOKEN">%1$s<ex>token</ex></ph> על צפייה בפרסומות שמכבדות את פרטיותך.</string>
     <string name="brave_ui_welcome_button_text_two">הצטרף לגמול כספי</string>
     <string name="brave_ui_welcome_footer_text_two">למידע נוסף</string>
     <string name="brave_ui_rewards_creating_text">יצירת ארנק</string>

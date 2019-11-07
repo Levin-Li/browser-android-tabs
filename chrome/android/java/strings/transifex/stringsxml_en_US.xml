@@ -151,7 +151,7 @@ Save battery and load web pages faster</string>
 
     <string name="brave_ui_welcome_header_two">Get ready to experience
 the next Internet.</string>
-    <string name="brave_ui_welcome_desc_two">You can now earn %1$ss for
+    <string name="brave_ui_welcome_desc_two">You can now earn <ph name="TOKEN">%1$s<ex>token</ex></ph> for
 watching privacy-respecting ads.</string>
     <string name="brave_ui_welcome_button_text_two">JOIN REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">LEARN MORE</string>

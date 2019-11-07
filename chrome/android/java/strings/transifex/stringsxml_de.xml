@@ -150,7 +150,7 @@ Sparen Sie Akku und laden Sie Webseiten schneller</string>
 
     <string name="brave_ui_welcome_header_two">Erleben Sie die
 Zukunft des Internets.</string>
-    <string name="brave_ui_welcome_desc_two">Sie können jetzt %1$ss verdienen, indem Sie Werbung ansehen, welche den Schutz Ihrer Daten wahrt.</string>
+    <string name="brave_ui_welcome_desc_two">Sie können jetzt <ph name="TOKEN">%1$s<ex>token</ex></ph> verdienen, indem Sie Werbung ansehen, welche den Schutz Ihrer Daten wahrt.</string>
     <string name="brave_ui_welcome_button_text_two">MACHEN SIE MIT BEI REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">MEHR ERFAHREN</string>
     <string name="brave_ui_rewards_creating_text">Erstelle Wallet</string>

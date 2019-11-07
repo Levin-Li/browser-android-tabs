@@ -149,7 +149,7 @@ HTTPS</string>
 
     <string name="brave_ui_welcome_header_two">Ετοιμαστείτε να ζήσετε
 την εμπειρία νέου Διαδικτύου.</string>
-    <string name="brave_ui_welcome_desc_two">Τώρα μπορείτε να κερδίσετε %1$ss για
+    <string name="brave_ui_welcome_desc_two">Τώρα μπορείτε να κερδίσετε <ph name="TOKEN">%1$s<ex>token</ex></ph> για
 την παρακολούθηση διαφημίσεων οι οποίες σέβονται την ιδιωτικότητα.</string>
     <string name="brave_ui_welcome_button_text_two">ΕΓΓΡΑΦΗ ΣΤΙΣ ΕΠΙΒΡΑΒΕΥΣΕΙΣ</string>
     <string name="brave_ui_welcome_footer_text_two">ΜΑΘΕΤΕ ΠΕΡΙΣΣΟΤΕΡΑ</string>
