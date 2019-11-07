@@ -257,7 +257,8 @@
                                 android:text="@string/brave_ui_usd"
                                 android:fontFamily="sans-serif"
                                 android:textSize="14sp"
-                                android:textColor="#FFFFFF"/>
+                                android:textColor="#FFFFFF"
+                                android:alpha=".5"/>
 
                             <TextView
                                 android:id="@+id/br_usd"
