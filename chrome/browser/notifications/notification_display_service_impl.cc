@@ -239,11 +239,12 @@ void NotificationDisplayServiceImpl::ProcessNotificationOperation(
           profile_, origin);
       break;
   }
-  if (brave_ads_initialized_ && !notification_handler.is_null()) {
-    std::move(notification_handler).Run();
+
+  if (notification_type == NotificationHandler::Type::BRAVE_ADS && !brave_ads_initialized_) {
+    brave_ads_actions_.push(std::move(notification_handler));
   }
   else {
-    brave_ads_actions_.push(std::move(notification_handler));
+    std::move(notification_handler).Run();
   }
 }
 
