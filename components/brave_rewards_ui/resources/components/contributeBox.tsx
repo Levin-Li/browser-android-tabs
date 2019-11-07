@@ -108,7 +108,8 @@ class ContributeBox extends React.Component<Props, State> {
       contributionNonVerified,
       contributionVideos,
       contributionMonthly,
-      enabledMain
+      enabledMain,
+      onlyAnonWallet
     } = this.props.rewardsData
 
     if (!enabledMain) {
@@ -120,6 +121,7 @@ class ContributeBox extends React.Component<Props, State> {
         <Column size={1} customStyle={{ justifyContent: 'center', flexWrap: 'wrap' }}>
           <ControlWrapper text={getLocale('contributionMonthly')}>
             <SelectMobile
+              onlyAnonWallet={onlyAnonWallet}
               amountOptions={this.getAmountOptions(monthlyList)}
               onChange={this.onSelectSettingChange.bind(this, 'contributionMonthly')}
               value={parseFloat((contributionMonthly.toString() || '0')).toFixed(1)}
@@ -192,7 +194,8 @@ class ContributeBox extends React.Component<Props, State> {
       autoContributeList,
       enabledContribute,
       excludedList,
-      balance
+      balance,
+      onlyAnonWallet
     } = this.props.rewardsData
     const prefix = this.state.allSitesShown ? 'Hide all' : 'Show all'
     const monthlyList: MonthlyChoice[] = utils.generateContributionMonthly(walletInfo.choices, balance.rates)
@@ -215,6 +218,7 @@ class ContributeBox extends React.Component<Props, State> {
           <StyledListContent>
             <SelectMobile
               floating={true}
+              onlyAnonWallet={onlyAnonWallet}
               amountOptions={this.getAmountOptions(monthlyList)}
               onChange={this.onSelectSettingChange.bind(this, 'contributionMonthly')}
               value={parseFloat((contributionMonthly.toString() || '0')).toFixed(1)}
