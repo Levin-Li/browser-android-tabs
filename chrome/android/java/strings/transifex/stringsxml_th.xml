@@ -151,7 +151,7 @@ EST แล้ว</string>
 
     <string name="brave_ui_welcome_header_two">เตรียมตัวพบกับ
 อินเตอร์เน็ตรูปแบบใหม่</string>
-    <string name="brave_ui_welcome_desc_two">รับ %1$ss ได้แล้วตอนนี้
+    <string name="brave_ui_welcome_desc_two">รับ <ph name="TOKEN">%1$s<ex>token</ex></ph> ได้แล้วตอนนี้
 เพียงดูโฆษณาเกี่ยวกับความเป็นส่วนตัว</string>
     <string name="brave_ui_welcome_button_text_two">ร่วมรับรางวัล</string>
     <string name="brave_ui_welcome_footer_text_two">เรียนรู้เพิ่มเติม</string>

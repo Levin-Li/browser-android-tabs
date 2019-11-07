@@ -154,7 +154,7 @@ Hemat baterai dan muat laman web lebih cepat</string>
 
     <string name="brave_ui_welcome_header_two">Bersiaplah untuk merasakan pengalaman
 menelusuri Internet berikutnya.</string>
-    <string name="brave_ui_welcome_desc_two">Anda kini bisa mendapatkan %1$ss karena melihat iklan yang menghormati privasi.</string>
+    <string name="brave_ui_welcome_desc_two">Anda kini bisa mendapatkan <ph name="TOKEN">%1$s<ex>token</ex></ph> karena melihat iklan yang menghormati privasi.</string>
     <string name="brave_ui_welcome_button_text_two">BERGABUNGLAH DENGAN BRAVE REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">PELAJARI SELENGKAPNYA</string>
     <string name="brave_ui_rewards_creating_text">Membuat dompet</string>

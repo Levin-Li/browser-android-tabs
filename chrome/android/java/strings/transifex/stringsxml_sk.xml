@@ -152,7 +152,7 @@ Váš predvolený prehliadač môžete zmeniť v nastaveniach aplikácie.</strin
 
     <string name="brave_ui_welcome_header_two">Pripravte sa na zážitok z
 nového internetu.</string>
-    <string name="brave_ui_welcome_desc_two">Teraz môžete zarobiť %1$ss za
+    <string name="brave_ui_welcome_desc_two">Teraz môžete zarobiť <ph name="TOKEN">%1$s<ex>token</ex></ph> za
 sledovanie reklám rešpektujúcich súkromie.</string>
     <string name="brave_ui_welcome_button_text_two">PRIPOJIŤ SA DO PROGRAMU ODMIEN</string>
     <string name="brave_ui_welcome_footer_text_two">ĎALŠIE INFORMÁCIE</string>

@@ -151,7 +151,7 @@ Vous pouvez changer de navigateur par défaut dans les paramètres de votre appl
 
     <string name="brave_ui_welcome_header_two">Préparez-vous à découvrir
 la prochaine évolution d\'Internet.</string>
-    <string name="brave_ui_welcome_desc_two">Vous pouvez désormais gagner %1$ss en regardant des publicités qui respectent la vie privée.</string>
+    <string name="brave_ui_welcome_desc_two">Vous pouvez désormais gagner <ph name="TOKEN">%1$s<ex>token</ex></ph> en regardant des publicités qui respectent la vie privée.</string>
     <string name="brave_ui_welcome_button_text_two">PARTICIPER AU PROGRAMME REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">EN SAVOIR PLUS</string>
     <string name="brave_ui_rewards_creating_text">Création d\'un portefeuille</string>

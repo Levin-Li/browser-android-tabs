@@ -152,7 +152,7 @@
     <string name="brave_ui_welcome_header_two">अगला इंटरनेट अनुभव
 करने के लिए तैयार रहें.</string>
     <string name="brave_ui_welcome_desc_two">अब आप गोपनीयता-सम्बंधित विज्ञापन 
-देखने के लिए %1$ss अर्जित कर सकते हैं।</string>
+देखने के लिए <ph name="TOKEN">%1$s<ex>token</ex></ph> अर्जित कर सकते हैं।</string>
     <string name="brave_ui_welcome_button_text_two">रिवार्ड्स से जुड़ें</string>
     <string name="brave_ui_welcome_footer_text_two">अधिक जानें</string>
     <string name="brave_ui_rewards_creating_text">वॉलेट बनाना</string>

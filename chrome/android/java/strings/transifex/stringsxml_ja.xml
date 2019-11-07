@@ -152,7 +152,7 @@
     <string name="brave_ui_welcome_header_two">次世代インターネットを
 体験しましょう。</string>
     <string name="brave_ui_welcome_desc_two">プライバシーを尊重する広告を視聴して
-%1$ssを獲得することができます。</string>
+<ph name="TOKEN">%1$s<ex>token</ex></ph>を獲得することができます。</string>
     <string name="brave_ui_welcome_button_text_two">Rewardsに参加</string>
     <string name="brave_ui_welcome_footer_text_two">詳細</string>
     <string name="brave_ui_rewards_creating_text">ウォレットを作成</string>

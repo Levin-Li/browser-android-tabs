@@ -149,7 +149,7 @@ Uštedite bateriju i brže učitavajte internetske stranice</string>
 
     <string name="brave_ui_welcome_header_two">Pripremite se za
 novu vrstu interneta.</string>
-    <string name="brave_ui_welcome_desc_two">Sad možete zaraditi %1$ss za
+    <string name="brave_ui_welcome_desc_two">Sad možete zaraditi <ph name="TOKEN">%1$s<ex>token</ex></ph> za
 gledanje oglasa kojima se poštuje privatnost.</string>
     <string name="brave_ui_welcome_button_text_two">PRIDRUŽITE SE NAGRADAMA</string>
     <string name="brave_ui_welcome_footer_text_two">SAZNAJTE VIŠE</string>

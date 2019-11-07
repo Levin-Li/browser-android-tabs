@@ -152,7 +152,7 @@
     <string name="brave_ui_welcome_header_two">準備體驗
 新一代網際網路。</string>
     <string name="brave_ui_welcome_desc_two">您現在可以看尊重
-隱私的廣告來賺 %1$ss。</string>
+隱私的廣告來賺 <ph name="TOKEN">%1$s<ex>token</ex></ph>。</string>
     <string name="brave_ui_welcome_button_text_two">參加獎勵計畫</string>
     <string name="brave_ui_welcome_footer_text_two">深入瞭解</string>
     <string name="brave_ui_rewards_creating_text">正在建立錢包</string>

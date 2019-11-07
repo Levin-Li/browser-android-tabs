@@ -151,7 +151,7 @@ Spara batteri och ladda hemsidor snabbare </string>
 
     <string name="brave_ui_welcome_header_two">Gör dig redo att uppleva
 nästa steg av internet.</string>
-    <string name="brave_ui_welcome_desc_two">Nu kan du tjäna %1$ss genom att
+    <string name="brave_ui_welcome_desc_two">Nu kan du tjäna <ph name="TOKEN">%1$s<ex>token</ex></ph> genom att
 titta på annonser som respekterar din integritet.</string>
     <string name="brave_ui_welcome_button_text_two">GÅ MED I REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">LÄS MER</string>

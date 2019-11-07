@@ -151,7 +151,7 @@ Taupiet akumulatoru un ielādējiet tīmekļa vietnes ātrāk.</string>
 
     <string name="brave_ui_welcome_header_two">Sagatavojieties, lai pieredzētu
 nākamās paaudzes internetu.</string>
-    <string name="brave_ui_welcome_desc_two">Tagad varat nopelnīt %1$ss,
+    <string name="brave_ui_welcome_desc_two">Tagad varat nopelnīt <ph name="TOKEN">%1$s<ex>token</ex></ph>,
 skatoties privātumu respektējošas reklāmas.</string>
     <string name="brave_ui_welcome_button_text_two">PIEVIENOTIES REWARDS PROGRAMMAI</string>
     <string name="brave_ui_welcome_footer_text_two">UZZINĀT VAIRĀK</string>

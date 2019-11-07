@@ -151,7 +151,7 @@ Oszczędzaj baterię dzięki szybszemu ładowaniu stron</string>
 
     <string name="brave_ui_welcome_header_two">Przygotuj się na
 nowe oblicze Internetu.</string>
-    <string name="brave_ui_welcome_desc_two">Teraz możesz zyskać %1$ss za oglądanie reklam szanujących prywatność.</string>
+    <string name="brave_ui_welcome_desc_two">Teraz możesz zyskać <ph name="TOKEN">%1$s<ex>token</ex></ph> za oglądanie reklam szanujących prywatność.</string>
     <string name="brave_ui_welcome_button_text_two">DOŁĄCZ DO NAGRÓD</string>
     <string name="brave_ui_welcome_footer_text_two">DOWIEDZ SIĘ WIĘCEJ</string>
     <string name="brave_ui_rewards_creating_text">Tworzenie portfela</string>

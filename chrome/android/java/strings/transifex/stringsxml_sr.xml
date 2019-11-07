@@ -150,7 +150,7 @@ Podrazumevani pregledač možete promeniti u podešavanjima aplikacije.</string>
 
     <string name="brave_ui_welcome_header_two">Spremi se da iskusiš
 novi internet.</string>
-    <string name="brave_ui_welcome_desc_two">Sada možete da zaradite %1$ss za
+    <string name="brave_ui_welcome_desc_two">Sada možete da zaradite <ph name="TOKEN">%1$s<ex>token</ex></ph> za
 gledanje oglasa koji poštuju privatnost.</string>
     <string name="brave_ui_welcome_button_text_two">PRIDRUŽI SE NAGRADAMA</string>
     <string name="brave_ui_welcome_footer_text_two">VIŠE INFORMACIJA</string>

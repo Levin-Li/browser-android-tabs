@@ -146,7 +146,7 @@ Kurseni baterinë dhe ngarkojini faqet web më shpejt</string>
 
     <string name="brave_ui_welcome_header_two">Bëhuni gati të shijoni
 Internetin e ardhshëm.</string>
-    <string name="brave_ui_welcome_desc_two">Mund të fitoni %1$ss duke parë
+    <string name="brave_ui_welcome_desc_two">Mund të fitoni <ph name="TOKEN">%1$s<ex>token</ex></ph> duke parë
 reklama që respektojnë privatësinë.</string>
     <string name="brave_ui_welcome_button_text_two">MERRNI PJESË TE SHPËRBLIME</string>
     <string name="brave_ui_welcome_footer_text_two">MËSONI MË TEPËR</string>

@@ -150,7 +150,7 @@
 
     <string name="brave_ui_welcome_header_two">Починайте користуватися
 Інтернетом на новому рівні!</string>
-    <string name="brave_ui_welcome_desc_two">Тепер ви можете заробити %1$ss
+    <string name="brave_ui_welcome_desc_two">Тепер ви можете заробити <ph name="TOKEN">%1$s<ex>token</ex></ph>
 за перегляд реклами, яка має правила конфіденційності.</string>
     <string name="brave_ui_welcome_button_text_two">ПРИЄДНАТИСЯ ДО ПРОГРАМИ «НАГОРОДИ»</string>
     <string name="brave_ui_welcome_footer_text_two">ДІЗНАТИСЯ БІЛЬШЕ</string>
