@@ -275,7 +275,7 @@ public class StripLayoutTab implements VirtualView {
         int tint = mIncognito ? R.color.compositor_background_tab_bg_incognito
                               : R.color.compositor_background_tab_bg;
         if (foreground) {
-            tint = mIncognito ? R.color.default_bg_color_dark_elev_3
+            tint = mIncognito ? R.color.toolbar_background_primary_incognito
                               : R.color.default_bg_color_elev_3;
         }
 
