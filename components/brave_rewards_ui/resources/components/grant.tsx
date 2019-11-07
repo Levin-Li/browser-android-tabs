@@ -114,6 +114,7 @@ class Grant extends React.Component<Props, State> {
 
   render () {
     const { grant } = this.props
+    const { onlyAnonWallet } = this.props.rewardsData
 
     if (!grant) {
       return null
@@ -163,6 +164,7 @@ class Grant extends React.Component<Props, State> {
                 onClose={this.onSuccess}
                 amount={tokens}
                 date={date}
+                onlyAnonWallet={onlyAnonWallet}
                 {...getGrantCompleteContentProps(type)}
               />
             </GrantWrapper>
