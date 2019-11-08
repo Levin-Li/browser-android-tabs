@@ -97,6 +97,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "grantDateTitleAds", IDS_BRAVE_UI_GRANT_DATE_TITLE_ADS },
 
         { "bat", IDS_BRAVE_UI_BAT_REWARDS_TEXT },
+        { "batPoints", IDS_BRAVE_UI_BAT_POINTS_TEXT },
         { "contributionTitle",  IDS_BRAVE_REWARDS_LOCAL_CONTR_TITLE },
         { "contributionDesc",  IDS_BRAVE_REWARDS_LOCAL_CONTR_DESC },
         { "contributionMonthly",  IDS_BRAVE_REWARDS_LOCAL_CONTR_MONTHLY },
