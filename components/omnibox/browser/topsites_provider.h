@@ -28,14 +28,14 @@ class TopSitesProvider : public AutocompleteProvider {
 
   static const int kRelevance;
 
-  static std::vector<std::string> top_sites_;
+  static std::vector<base::string16> top_sites_;
 
   void AddMatch(const base::string16& match_string,
                 const ACMatchClassifications& styles);
 
   static ACMatchClassifications StylesForSingleMatch(
-      const std::string &input_text,
-      const std::string &site,
+      const base::string16 &input_text,
+      const base::string16 &site,
       const size_t &foundPos);
 
   DISALLOW_COPY_AND_ASSIGN(TopSitesProvider);
