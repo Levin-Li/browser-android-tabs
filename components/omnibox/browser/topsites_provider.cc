@@ -30,16 +30,16 @@ void TopSitesProvider::Start(const AutocompleteInput& input,
       (input.type() == metrics::OmniboxInputType::QUERY))
     return;
 
-  const std::string input_text = base::ToLowerASCII(base::UTF16ToASCII(input.text()));
+  const base::string16 input_text = input.text();
 
-  for (std::vector<std::string>::const_iterator i = top_sites_.begin();
+  for (std::vector<base::string16>::const_iterator i = top_sites_.begin();
     (i != top_sites_.end()) && (matches_.size() < provider_max_matches()); ++i) {
 
-    const std::string &current_site = *i;
+    const base::string16 &current_site = *i;
     size_t foundPos = current_site.find(input_text);
-    if (std::string::npos != foundPos) {
+    if (base::string16::npos != foundPos) {
       ACMatchClassifications styles = StylesForSingleMatch(input_text, current_site, foundPos);
-      AddMatch(base::ASCIIToUTF16(current_site), styles);
+      AddMatch(current_site, styles);
     }
   }
 
@@ -58,8 +58,8 @@ TopSitesProvider::~TopSitesProvider() {}
 
 //static
 ACMatchClassifications TopSitesProvider::StylesForSingleMatch(
-    const std::string &input_text,
-    const std::string &site,
+    const base::string16 &input_text,
+    const base::string16 &site,
     const size_t &foundPos) {
   ACMatchClassifications styles;
   if (foundPos == 0) {
