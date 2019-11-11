@@ -2241,6 +2241,11 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
     public void OnRewardsMainEnabled(boolean enabled) {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         SharedPreferences.Editor sharedPreferencesEditor = sharedPreferences.edit();
+        boolean needRelaunch = false;
+        if (enabled && sharedPreferences.getBoolean(PREF_HIDE_BRAVE_ICON, false)) {
+            sharedPreferencesEditor.putBoolean(PREF_HIDE_BRAVE_ICON, false);
+            needRelaunch = true;
+        }
         sharedPreferencesEditor.putBoolean(BraveRewardsPanelPopup.PREF_IS_BRAVE_REWARDS_ENABLED, enabled);
         sharedPreferencesEditor.apply();
         if (mBraveRewardsNotificationsCount != null) {
@@ -2249,6 +2254,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
                 mBraveRewardsNotificationsCount.setVisibility(enabled ? View.VISIBLE : View.GONE);
             }
         }
+        if (needRelaunch) RestartWorker.AskForRelaunch(getContext());
     }
 
     @Override
