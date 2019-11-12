@@ -1,6 +1,22 @@
 # Changelog
 
-## [1.4.3](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.3)
+## [1.5.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.0)
+
+ - Hide both HTTPS:// and HTTP:// under the URL bar. ([#1592](https://github.com/brave/browser-android-tabs/issues/1592))
+ - Hide Brave Rewards icon under Private Mode. ([#2156](https://github.com/brave/browser-android-tabs/issues/2156))
+ - Added new tab automatically being created when the last remaining tab is closed and "Closing all tabs closes Brave" is disabled. ([#2031](https://github.com/brave/browser-android-tabs/issues/2031))
+ - Added private theme when using Private Mode. ([#2078](https://github.com/brave/browser-android-tabs/issues/2078))
+ - Added "Brave License" under "Legal Information". ([#2170](https://github.com/brave/browser-android-tabs/issues/2170))
+ - Updated sync folder mapping to match desktop. ([#2135](https://github.com/brave/browser-android-tabs/issues/2135))
+ - Updated "Ads and Trackers Blocked" to "Ads & Trackers Blocked" under New Tab Page. ([#2149](https://github.com/brave/browser-android-tabs/issues/2149))
+ - Fixed notifications not working in certain cases. ([#2138](https://github.com/brave/browser-android-tabs/issues/2138))
+ - Fixed browser crash when restarting after enabling rewards through onboarding modal. ([#2240](https://github.com/brave/browser-android-tabs/issues/2240))
+ - Fixed rewards not always being enabled when opt in via the onboarding modal. ([#2203](https://github.com/brave/browser-android-tabs/issues/2203))
+ - Fixed incorrect date format being used under tipping banner for certain locales. ([#1309](https://github.com/brave/browser-android-tabs/issues/1309))
+ - Fixed incorrect color being used for balance under Brave Rewards. ([#1151](https://github.com/brave/browser-android-tabs/issues/1151))
+ - Upgraded to Chromium 78.0.3904.90. ([#2221](https://github.com/brave/browser-android-tabs/issues/2221))
+
+ ## [1.4.3](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.3)
 
  - Fixed webview crash upon visiting certain sites. ([#2166](https://github.com/brave/browser-android-tabs/issues/2166))
  - Increased max number of Brave Ads from 12 to 20 to match desktop. ([#2068](https://github.com/brave/browser-android-tabs/issues/2068))
