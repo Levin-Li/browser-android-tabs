@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.1](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.1)
+
+ - Upgraded to Chromium 78.0.3904.96. ([#2257](https://github.com/brave/browser-android-tabs/issues/2257))
+
 ## [1.5.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.0)
 
  - Hide both HTTPS:// and HTTP:// under the URL bar. ([#1592](https://github.com/brave/browser-android-tabs/issues/1592))
