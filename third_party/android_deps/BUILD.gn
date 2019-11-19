@@ -1023,7 +1023,7 @@ android_aar_prebuilt("google_play_services_vision_java") {
 }
 
 android_aar_prebuilt("google_play_services_safetynet_java") {
-  aar_path = "libs/com_google_android_gms_play_services_safetynet/play-services-safetynet-15.0.1.aar"
+  aar_path = "libs/com_google_android_gms_play_services_safetynet/play-services-safetynet-17.0.0.aar"
   info_path = "libs/com_google_android_gms_play_services_safetynet/com_google_android_gms_play_services_safetynet.info"
   deps = [
     ":google_play_services_base_java",
