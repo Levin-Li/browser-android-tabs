@@ -287,11 +287,11 @@ public class ShieldsConfig {
         }
 
         if (incognitoTab) {
-            PrefServiceBridge.getInstance().nativeSetContentSettingForPatternIncognito(
+            PrefServiceBridge.getInstance().setContentSettingForPatternIncognito(
                       ContentSettingsType.CONTENT_SETTINGS_TYPE_JAVASCRIPT, host,
                       setting);
         } else {
-            PrefServiceBridge.getInstance().nativeSetContentSettingForPattern(
+            PrefServiceBridge.getInstance().setContentSettingForPattern(
                       ContentSettingsType.CONTENT_SETTINGS_TYPE_JAVASCRIPT, host,
                       setting);
         }

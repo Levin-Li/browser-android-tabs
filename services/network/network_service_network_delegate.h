@@ -94,10 +94,9 @@ class COMPONENT_EXPORT(NETWORK_SERVICE) NetworkServiceNetworkDelegate
   bool OnCanUseReportingClient(const url::Origin& origin,
                                const GURL& endpoint) const override;
 
-  int OnBeforeURLRequest(net::URLRequest* request,
+  int OnBeforeURLRequestInternal(net::URLRequest* request,
                          net::CompletionOnceCallback callback,
-                         GURL* new_url,
-                         bool call_callback) override;
+                         GURL* new_url);
   int OnBeforeURLRequest_PreBlockersWork(
             net::URLRequest* request,
             net::CompletionOnceCallback callback,

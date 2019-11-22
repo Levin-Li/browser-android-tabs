@@ -796,18 +796,10 @@ public class ExternalNavigationHandler {
 
         if (PrefServiceBridge.getInstance().playYTVideoInBrowserEnabled()) {
             // Force to open YouTube urls in Brave
-            String intentPackageName = intent.getPackage();
+            String intentPackageName = targetIntent.getPackage();
             if (intentPackageName != null && intentPackageName.equals(YT_PACKAGE_NAME)) {
                 if (DEBUG) Log.i(TAG, "NO_OVERRIDE: YouTube URL for YouTube app");
                 return OverrideUrlLoadingResult.NO_OVERRIDE;
-            }
-        }
-
-        if (PrefServiceBridge.getInstance().playYTVideoInBrowserEnabled()) {
-            // Force to open YouTube urls in Brave, override app chooser
-            if (ContainsYT(resolvingInfos)) {
-              if (DEBUG) Log.i(TAG, "NO_OVERRIDE: YouTube URL for YouTube app (2)");
-              return OverrideUrlLoadingResult.NO_OVERRIDE;
             }
         }
 
@@ -821,6 +813,14 @@ public class ExternalNavigationHandler {
         List<ResolveInfo> resolvingInfos = mDelegate.queryIntentActivities(targetIntent);
         if (resolvingInfos.isEmpty()) {
             return handleUnresolvableIntent(params, targetIntent, browserFallbackUrl);
+        }
+
+        if (PrefServiceBridge.getInstance().playYTVideoInBrowserEnabled()) {
+            // Force to open YouTube urls in Brave, override app chooser
+            if (ContainsYT(resolvingInfos)) {
+              if (DEBUG) Log.i(TAG, "NO_OVERRIDE: YouTube URL for YouTube app (2)");
+              return OverrideUrlLoadingResult.NO_OVERRIDE;
+            }
         }
 
         if (browserFallbackUrl != null) targetIntent.removeExtra(EXTRA_BROWSER_FALLBACK_URL);

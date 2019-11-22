@@ -94,28 +94,28 @@ public class PrefServiceBridge {
      * @param whether AdBlock should be enabled.
      */
     public void setAdBlockEnabled(boolean enabled) {
-        PrefServiceBridgeJni.get().setAdBlockEnabled(enabled);
+        PrefServiceBridgeJni.get().setAdBlockEnabled(PrefServiceBridge.this, enabled);
     }
 
     /**
      * @param whether HTTPSE should be enabled.
      */
     public void setHTTPSEEnabled(boolean enabled) {
-        PrefServiceBridgeJni.get().setHTTPSEEnabled(enabled);
+        PrefServiceBridgeJni.get().setHTTPSEEnabled(PrefServiceBridge.this, enabled);
     }
 
     /**
      * @param whether Fingerprinting Protection should be enabled.
      */
     public void setFingerprintingProtectionEnabled(boolean enabled) {
-        PrefServiceBridgeJni.get().setFingerprintingProtectionEnabled(enabled);
+        PrefServiceBridgeJni.get().setFingerprintingProtectionEnabled(PrefServiceBridge.this, enabled);
     }
 
     /**
      * @param whether AdBlock should be enabled.
      */
     public void setAdBlockRegionalEnabled(boolean enabled) {
-        PrefServiceBridgeJni.get().setAdBlockRegionalEnabled(enabled);
+        PrefServiceBridgeJni.get().setAdBlockRegionalEnabled(PrefServiceBridge.this, enabled);
     }
 
     /**
@@ -123,7 +123,7 @@ public class PrefServiceBridge {
      * The default is false.
      */
     public boolean desktopViewEnabled() {
-        return PrefServiceBridgeJni.get().getDesktopViewEnabled();
+        return PrefServiceBridgeJni.get().getDesktopViewEnabled(PrefServiceBridge.this);
     }
 
     /**
@@ -137,7 +137,7 @@ public class PrefServiceBridge {
      * Enable or disable Desktop View .
      */
     public void setDesktopViewEnabled(boolean enabled) {
-        PrefServiceBridgeJni.get().setDesktopViewEnabled(enabled);
+        PrefServiceBridgeJni.get().setDesktopViewEnabled(PrefServiceBridge.this, enabled);
     }
 
     /**
@@ -147,7 +147,7 @@ public class PrefServiceBridge {
      */
     public List<ContentSettingException> getContentSettingsExceptionsIncognito(int contentSettingsType) {
         List<ContentSettingException> list = new ArrayList<ContentSettingException>();
-        PrefServiceBridgeJni.get().getContentSettingsExceptionsIncognito(contentSettingsType, list);
+        PrefServiceBridgeJni.get().getContentSettingsExceptionsIncognito(PrefServiceBridge.this, contentSettingsType, list);
         return list;
     }
 
@@ -156,7 +156,7 @@ public class PrefServiceBridge {
      * The default is false.
      */
     public boolean playVideoInBackgroundEnabled() {
-        return PrefServiceBridgeJni.getPlayVideoInBackgroundEnabled();
+        return PrefServiceBridgeJni.get().getPlayVideoInBackgroundEnabled(PrefServiceBridge.this);
     }
 
     /**
@@ -170,7 +170,7 @@ public class PrefServiceBridge {
      * Enable or disable 'Play video in background' option
      */
     public void setPlayVideoInBackgroundEnabled(boolean enabled) {
-        PrefServiceBridgeJni.setPlayVideoInBackgroundEnabled(enabled);
+        PrefServiceBridgeJni.get().setPlayVideoInBackgroundEnabled(PrefServiceBridge.this, enabled);
     }
 
     /**
@@ -178,7 +178,7 @@ public class PrefServiceBridge {
      * The default is true.
      */
     public boolean playYTVideoInBrowserEnabled() {
-        return PrefServiceBridgeJni.getPlayYTVideoInBrowserEnabled();
+        return PrefServiceBridgeJni.get().getPlayYTVideoInBrowserEnabled(PrefServiceBridge.this);
     }
 
     /**
@@ -192,18 +192,26 @@ public class PrefServiceBridge {
      * Enable or disable 'Play YouTube video in browser' option
      */
     public void setPlayYTVideoInBrowserEnabled(boolean enabled) {
-        PrefServiceBridgeJni.setPlayYTVideoInBrowserEnabled(enabled);
+        PrefServiceBridgeJni.get().setPlayYTVideoInBrowserEnabled(PrefServiceBridge.this, enabled);
     }
 
     /**
      * @param whether should use staging server for Rewards.
      */
     public void setUseRewardsStagingServer(boolean value) {
-        PrefServiceBridgeJni.get().setUseRewardsStagingServer(value);
+        PrefServiceBridgeJni.get().setUseRewardsStagingServer(PrefServiceBridge.this, value);
     }
 
     public boolean useRewardsStagingServer() {
-        return PrefServiceBridgeJni.get().getUseRewardsStagingServer();
+        return PrefServiceBridgeJni.get().getUseRewardsStagingServer(PrefServiceBridge.this);
+    }
+
+    public void setContentSettingForPattern(int contentSettingType, String pattern, int setting) {
+        PrefServiceBridgeJni.get().setContentSettingForPattern(PrefServiceBridge.this, contentSettingType, pattern, setting);
+    }
+
+    public void setContentSettingForPatternIncognito(int contentSettingType, String pattern, int setting) {
+        PrefServiceBridgeJni.get().setContentSettingForPatternIncognito(PrefServiceBridge.this, contentSettingType, pattern, setting);
     }
 
     @VisibleForTesting

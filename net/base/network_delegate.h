@@ -55,8 +55,7 @@ class NET_EXPORT NetworkDelegate {
   // the methods and their arguments.
   int NotifyBeforeURLRequest(URLRequest* request,
                              CompletionOnceCallback callback,
-                             GURL* new_url,
-                             bool call_callback);
+                             GURL* new_url);
   int NotifyBeforeStartTransaction(URLRequest* request,
                                    CompletionOnceCallback callback,
                                    HttpRequestHeaders* headers);
@@ -136,8 +135,7 @@ class NET_EXPORT NetworkDelegate {
   // The default implementation returns OK (continue with request).
   virtual int OnBeforeURLRequest(URLRequest* request,
                                  CompletionOnceCallback callback,
-                                 GURL* new_url,
-                                 bool call_callback) = 0;
+                                 GURL* new_url) = 0;
 
   // Called right before the network transaction starts. Allows the delegate to
   // read/write |headers| before they get sent out.

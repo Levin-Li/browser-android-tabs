@@ -205,9 +205,9 @@ public class EphemeralTabCoordinator implements View.OnLayoutChangeListener {
         switch (securityLevel) {
             case ConnectionSecurityLevel.NONE:
             case ConnectionSecurityLevel.WARNING:
-                return R.drawable.omnibox_info;
+                return R.drawable.omnibox_info_red;
             case ConnectionSecurityLevel.DANGEROUS:
-                return R.drawable.omnibox_not_secure_warning;
+                return R.drawable.omnibox_https_invalid_red;
             case ConnectionSecurityLevel.SECURE_WITH_POLICY_INSTALLED_CERT:
             case ConnectionSecurityLevel.SECURE:
             case ConnectionSecurityLevel.EV_SECURE:

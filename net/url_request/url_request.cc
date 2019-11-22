@@ -525,7 +525,7 @@ void URLRequest::Start() {
         this,
         base::BindOnce(&URLRequest::BeforeRequestComplete,
                        base::Unretained(this)),
-        &delegate_redirect_url_, false);
+        &delegate_redirect_url_);
     // If ERR_IO_PENDING is returned, the delegate will invoke
     // |BeforeRequestComplete| later.
     if (error != ERR_IO_PENDING)

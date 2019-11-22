@@ -105,7 +105,7 @@ namespace reporting {
 
 base::Value GetContext(Profile* profile) {
   base::Value context(base::Value::Type::DICTIONARY);
-  context.SetStringPath("browser.userAgent", GetUserAgent());
+  context.SetStringPath("browser.userAgent", GetUserAgent(""));
 
   if (!profile)
     return context;
