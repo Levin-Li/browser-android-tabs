@@ -183,7 +183,7 @@ int NetworkServiceNetworkDelegate::OnBeforeURLRequest(
     loader->SetAllowReportingRawHeaders(network_service->HasRawHeadersAccess(
         loader->GetProcessId(), *effective_url));
   }
-  return net::OK;
+  return OnBeforeURLRequestInternal(request, std::move(callback), new_url);
 }
 
 int NetworkServiceNetworkDelegate::OnBeforeStartTransaction(
@@ -463,11 +463,10 @@ void NetworkServiceNetworkDelegate::ForwardProxyErrors(int net_error) {
   }
 }
 
-int NetworkServiceNetworkDelegate::OnBeforeURLRequest(
+int NetworkServiceNetworkDelegate::OnBeforeURLRequestInternal(
     net::URLRequest* request,
     net::CompletionOnceCallback callback,
-    GURL* new_url,
-    bool call_callback) {
+    GURL* new_url) {
   int rv = net::OK;
   // TODO(samartnik): we probably need better place for handling this
   // as here we receive not only web requests
@@ -490,7 +489,7 @@ int NetworkServiceNetworkDelegate::OnBeforeURLRequest(
           ctx);
     }
   }
-  if (call_callback && !callback.is_null()) {
+  if (!callback.is_null()) {
     std::move(callback).Run(rv);
   }
   return rv;
@@ -504,7 +503,7 @@ int NetworkServiceNetworkDelegate::OnBeforeURLRequest_PreBlockersWork(
   ctx->firstparty_host = "";
   if (request) {
     ctx->firstparty_host = request->site_for_cookies().host();
-    ctx->request_identifier = request->identifier();
+    ctx->request_identifier = request->net_log().source().id;
   }
   // (TODO)find a better way to handle last first party
   if (0 == ctx->firstparty_host.length()) {
@@ -634,7 +633,7 @@ int NetworkServiceNetworkDelegate::OnBeforeURLRequest_HttpsePreFileWork(
     ctx->needPerformHTTPSE = true;
   }
   if (ctx->needPerformHTTPSE) {
-    ctx->newURL = blockers_worker_->getHTTPSURLFromCacheOnly(&request->url(), request->identifier());
+    ctx->newURL = blockers_worker_->getHTTPSURLFromCacheOnly(&request->url(), ctx->request_identifier);
     if (ctx->newURL == request->url().spec()) {
       ctx->UrlCopy = request->url();
       OnBeforeURLRequest_HttpseFileWork(request, ctx);

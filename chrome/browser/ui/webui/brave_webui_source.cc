@@ -72,7 +72,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "adsDisabledTextOne",  IDS_BRAVE_REWARDS_LOCAL_ADS_DISABLED_TEXT_ONE },                // NOLINT
         { "adsDisabledTextTwo",  IDS_BRAVE_REWARDS_LOCAL_ADS_DISABLED_TEXT_TWO },                // NOLINT
         { "adsNotificationsReceived",  IDS_BRAVE_REWARDS_LOCAL_ADS_NOTIFICATIONS_RECEIVED },     // NOLINT
-        { "adsNotSupported", IDS_BRAVE_REWARDS_LOCAL_ADS_NOT_SUPPORTED },
+        { "adsNotSupported", IDS_BRAVE_REWARDS_LOCAL_ADS_NOT_SUPPORTED_REGION },
         { "adsNotSupportedDevice", IDS_BRAVE_REWARDS_LOCAL_ADS_NOT_SUPPORTED_DEVICE },           // NOLINT
         { "adsPaymentDate",  IDS_BRAVE_REWARDS_LOCAL_ADS_PAYMENT_DATE },
         { "adsPagesViewed",  IDS_BRAVE_REWARDS_LOCAL_ADS_PAGES_VIEWED },
@@ -139,9 +139,9 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "proveHuman",  IDS_BRAVE_REWARDS_LOCAL_PROVE_HUMAN },
         { "serverNotResponding",  IDS_BRAVE_REWARDS_LOCAL_SERVER_NOT_RESPONDING },                // NOLINT
         { "uhOh",  IDS_BRAVE_REWARDS_LOCAL_UH_OH },
-        { "grantGoneTitle",  IDS_BRAVE_REWARDS_LOCAL_GRANT_GONE_TITLE },
-        { "grantGoneButton",  IDS_BRAVE_REWARDS_LOCAL_GRANT_GONE_BUTTON },
-        { "grantGoneText",  IDS_BRAVE_REWARDS_LOCAL_GRANT_GONE_TEXT },
+        // { "grantGoneTitle",  IDS_BRAVE_REWARDS_LOCAL_GRANT_GONE_TITLE },
+        // { "grantGoneButton",  IDS_BRAVE_REWARDS_LOCAL_GRANT_GONE_BUTTON },
+        // { "grantGoneText",  IDS_BRAVE_REWARDS_LOCAL_GRANT_GONE_TEXT },
         { "grantGeneralErrorTitle",  IDS_BRAVE_REWARDS_LOCAL_GENERAL_GRANT_ERROR_TITLE },         // NOLINT
         { "grantGeneralErrorButton",  IDS_BRAVE_REWARDS_LOCAL_GENERAL_GRANT_ERROR_BUTTON },       // NOLINT
         { "grantGeneralErrorText",  IDS_BRAVE_REWARDS_LOCAL_GENERAL_GRANT_ERROR_TEXT },           // NOLINT
@@ -315,7 +315,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "whyBraveRewardsDesc2", IDS_BRAVE_UI_WHY_BRAVE_REWARDS_DESC_2 },
         { "yourWallet", IDS_BRAVE_UI_YOUR_WALLET },
         { "viewDetails", IDS_BRAVE_UI_VIEW_DETAILS },
-        { "adsDescPoints",  IDS_BRAVE_REWARDS_LOCAL_ADS_DESC_POINTS },
+        { "adsDescPoints",  IDS_BRAVE_UI_BRAVE_ADS_DESC_POINTS },
         { "bap", IDS_BRAVE_UI_BAP_REWARDS_TEXT },
         { "points", IDS_BRAVE_UI_POINTS }
       }

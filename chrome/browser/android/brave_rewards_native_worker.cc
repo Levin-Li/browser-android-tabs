@@ -274,9 +274,11 @@ void BraveRewardsNativeWorker::WalletExist(JNIEnv* env,
 }
 
 void BraveRewardsNativeWorker::FetchGrants(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj) {
-  if (brave_rewards_service_) {
-    brave_rewards_service_->FetchGrants(std::string(), std::string());
-  }
+  // TODO (samartnik): this method is just a stub now
+  // We will need to move new changes from brave-core
+  // if (brave_rewards_service_) {
+  //   brave_rewards_service_->FetchGrants(std::string(), std::string());
+  // }
 }
 
 void BraveRewardsNativeWorker::OnIsWalletCreated(bool created) {
@@ -344,26 +346,34 @@ void BraveRewardsNativeWorker::DeleteNotification(JNIEnv* env,
 
 void BraveRewardsNativeWorker::GetGrant(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj,
         const base::android::JavaParamRef<jstring>& promotionId) {
-  if (brave_rewards_service_) {
-    brave_rewards_service_->GetGrantViaSafetynetCheck(base::android::ConvertJavaStringToUTF8(env, promotionId));
-  }
+  // TODO (samartnik): this method is just a stub now
+  // We will need to move new changes from brave-core
+  // if (brave_rewards_service_) {
+  //   brave_rewards_service_->GetGrantViaSafetynetCheck(base::android::ConvertJavaStringToUTF8(env, promotionId));
+  // }
 }
 
 int BraveRewardsNativeWorker::GetCurrentGrantsCount(JNIEnv* env, 
         const base::android::JavaParamRef<jobject>& obj) {
-  return wallet_properties_.grants.size();
+  // TODO (samartnik): this method is just a stub now
+  // We will need to move new changes from brave-core
+  // return wallet_properties_.grants.size();
+  return 0;
 }
 
 base::android::ScopedJavaLocalRef<jobjectArray> BraveRewardsNativeWorker::GetCurrentGrant(JNIEnv* env, 
         const base::android::JavaParamRef<jobject>& obj,
         int position) {
-  if ((size_t)position > wallet_properties_.grants.size() - 1) {
-    return base::android::ScopedJavaLocalRef<jobjectArray>();
-  }
   std::vector<std::string> values;
-  values.push_back(wallet_properties_.grants[position].probi);
-  values.push_back(std::to_string(wallet_properties_.grants[position].expiryTime));
-  values.push_back(wallet_properties_.grants[position].type);
+
+  // TODO (samartnik): this method is just a stub now
+  // We will need to move new changes from brave-core
+  // if ((size_t)position > wallet_properties_.grants.size() - 1) {
+  //   return base::android::ScopedJavaLocalRef<jobjectArray>();
+  // }
+  // values.push_back(wallet_properties_.grants[position].probi);
+  // values.push_back(std::to_string(wallet_properties_.grants[position].expiryTime));
+  // values.push_back(wallet_properties_.grants[position].type);
 
   return base::android::ToJavaArrayOfStrings(env, values);
 }
@@ -558,12 +568,10 @@ void BraveRewardsNativeWorker::OnNotificationDeleted(
         base::android::ConvertUTF8ToJavaString(env, notification.id_));
 }
 
-void BraveRewardsNativeWorker::OnGrant(brave_rewards::RewardsService* rewards_service, 
-      unsigned int result, brave_rewards::Grant grant) {
-  // TODO what do we need to do here? We receive notification about deletion
-}
-void BraveRewardsNativeWorker::OnGrantFinish(brave_rewards::RewardsService* rewards_service, 
-      unsigned int result, brave_rewards::Grant grant) {
+void BraveRewardsNativeWorker::OnGrantFinish(brave_rewards::RewardsService* rewards_service,
+    unsigned int result) {
+  // TODO (samartnik): this method is just a stub now
+  // We will need to move new changes from brave-core
   JNIEnv* env = base::android::AttachCurrentThread();
 
   Java_BraveRewardsNativeWorker_OnGrantFinish(env, 

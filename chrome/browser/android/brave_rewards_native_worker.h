@@ -187,11 +187,7 @@ public:
       brave_rewards::RewardsNotificationService* rewards_notification_service,
       const brave_rewards::RewardsNotificationService::RewardsNotification& notification) override;
 
-    void OnGrant(brave_rewards::RewardsService* rewards_service, unsigned int result,
-        brave_rewards::Grant grant) override;
-
-    void OnGrantFinish(brave_rewards::RewardsService* rewards_service, unsigned int result,
-        brave_rewards::Grant grant) override;
+    void OnGrantFinish(brave_rewards::RewardsService* rewards_service, unsigned int result);
 
     void OnGetRecurringTips(std::unique_ptr<brave_rewards::ContentSiteList> list);
 

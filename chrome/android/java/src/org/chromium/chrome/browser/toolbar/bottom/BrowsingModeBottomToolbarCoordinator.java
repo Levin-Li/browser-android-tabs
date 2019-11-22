@@ -40,6 +40,8 @@ import org.chromium.ui.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.util.TabUtil;
 import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
 
+import org.chromium.ui.widget.Toast;
+
 /**
  * The coordinator for the browsing mode bottom toolbar. This class has two primary components,
  * an Android view that handles user actions and a composited texture that draws when the controls
@@ -288,7 +290,7 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
             description = resources.getString(R.string.accessibility_toolbar_btn_search_accelerator);
         }
 
-        return AccessibilityUtil.showAccessibilityToast(context, v, description);
+        return Toast.showAnchoredToast(context, v, description);
     }
 
     /**

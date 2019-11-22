@@ -167,7 +167,7 @@ void AddToHomescreenDataFetcher::OnDidGetWebApplicationInfo(
         ShortcutInfo::SOURCE_ADD_TO_HOMESCREEN_STANDALONE);
   }*/
   // We always want to handle it in browser
-  shortcut_info_.display = blink::kWebDisplayModeBrowser;
+  shortcut_info_.display = blink::mojom::DisplayMode::kBrowser;
   shortcut_info_.UpdateSource(
       ShortcutInfo::SOURCE_ADD_TO_HOMESCREEN_SHORTCUT);
 

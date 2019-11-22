@@ -228,6 +228,8 @@ import com.google.android.gms.security.ProviderInstaller;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 
+import android.provider.Settings;
+
 /**
  * A {@link AsyncInitializationActivity} that builds and manages a {@link CompositorViewHolder}
  * and associated classes.
@@ -1899,6 +1901,8 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         // INVALID_ID, so the code below will fall back on adding a new bookmark instead.
         // TODO(bauerb): This does not take partner bookmarks into account.
         final long bookmarkId = BookmarkBridge.getUserBookmarkIdForTab(tabToBookmark);
+        final boolean bCreateBookmark = (BookmarkId.INVALID_ID == bookmarkId);
+
         final BookmarkModel bookmarkModel = new BookmarkModel();
 
         bookmarkModel.finishLoadingBookmarkModel(() -> {

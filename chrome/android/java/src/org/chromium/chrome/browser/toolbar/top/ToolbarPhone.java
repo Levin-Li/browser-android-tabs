@@ -109,6 +109,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.chromium.ui.widget.Toast;
+
 /**
  * Phone specific toolbar implementation.
  */
@@ -661,7 +663,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
             description = resources.getString(R.string.accessibility_toolbar_btn_brave_rewards);
         }
 
-        return AccessibilityUtil.showAccessibilityToast(context, v, description);
+        return Toast.showAnchoredToast(context, v, description);
     }
 
     @Override

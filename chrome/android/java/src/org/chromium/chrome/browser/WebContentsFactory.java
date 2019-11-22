@@ -48,7 +48,7 @@ public class WebContentsFactory {
         WebContents webContents = null;
 
         try {
-            webContents = WebContentsFactoryJni.get().createWebContents((
+            webContents = WebContentsFactoryJni.get().createWebContents(
                 Profile.getLastUsedProfile(), incognito, initiallyHidden, true);
         } catch (UnsatisfiedLinkError err) {
             // Just return a null object in that case

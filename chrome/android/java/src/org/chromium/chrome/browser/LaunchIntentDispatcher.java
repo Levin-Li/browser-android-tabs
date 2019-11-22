@@ -56,6 +56,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.util.Calendar;
 import java.util.UUID;
 
+import org.chromium.chrome.browser.util.FeatureUtilities;
+
 /**
  * Dispatches incoming intents to the appropriate activity based on the current configuration and
  * Intent fired.
