@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.2](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.2)
+
+ - Fixed rewards icon not being displayed in the URL bar after re-enabling Brave Rewards. ([#2265](https://github.com/brave/browser-android-tabs/issues/2265))
+ - Fixed Brave ads not being auto-enabled when toggling "Hide Brave Rewards Icon" under settings. ([#2264](https://github.com/brave/browser-android-tabs/issues/2264))
+ - Upgrade to Chromium 78.0.3904.108. ([#2305](https://github.com/brave/browser-android-tabs/issues/2305))
+
 ## [1.5.1](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.1)
 
  - Upgraded to Chromium 78.0.3904.96. ([#2257](https://github.com/brave/browser-android-tabs/issues/2257))
