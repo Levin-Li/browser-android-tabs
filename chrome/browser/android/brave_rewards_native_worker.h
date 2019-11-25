@@ -187,7 +187,8 @@ public:
       brave_rewards::RewardsNotificationService* rewards_notification_service,
       const brave_rewards::RewardsNotificationService::RewardsNotification& notification) override;
 
-    void OnGrantFinish(brave_rewards::RewardsService* rewards_service, unsigned int result);
+    void OnPromotionFinished(brave_rewards::RewardsService* rewards_service,
+        unsigned int result, brave_rewards::Promotion grant) override;
 
     void OnGetRecurringTips(std::unique_ptr<brave_rewards::ContentSiteList> list);
 
@@ -196,6 +197,13 @@ public:
 
     bool IsAnonWallet(JNIEnv* env, const
         base::android::JavaParamRef<jobject>& jcaller);
+
+    void OnFetchPromotions(brave_rewards::RewardsService* rewards_service,
+        const uint32_t result,
+        const std::vector<brave_rewards::Promotion>& list) override;
+
+    void OnClaimPromotion(const int32_t result,
+        std::unique_ptr<brave_rewards::Promotion> promotion);
 
 private:
     void OnBalance(int32_t result, std::unique_ptr<::brave_rewards::Balance> balance);
@@ -207,6 +215,7 @@ private:
     PublishersInfoMap map_publishers_info_; // <tabId, PublisherInfoPtr>
     std::map<std::string, brave_rewards::ContentSite> map_recurrent_publishers_;      // <publisher, reconcile_stampt>
     std::map<std::string, std::string> addresses_;
+    std::vector<brave_rewards::Promotion> promotions_;
     base::WeakPtrFactory<BraveRewardsNativeWorker> weak_factory_;
 };
 }

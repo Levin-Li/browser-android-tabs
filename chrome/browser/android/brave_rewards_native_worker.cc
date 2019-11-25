@@ -1,6 +1,7 @@
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+#include <iomanip>
 #include "brave_rewards_native_worker.h"
 #include "base/android/jni_android.h"
 #include "base/android/jni_string.h"
@@ -274,11 +275,9 @@ void BraveRewardsNativeWorker::WalletExist(JNIEnv* env,
 }
 
 void BraveRewardsNativeWorker::FetchGrants(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj) {
-  // TODO (samartnik): this method is just a stub now
-  // We will need to move new changes from brave-core
-  // if (brave_rewards_service_) {
-  //   brave_rewards_service_->FetchGrants(std::string(), std::string());
-  // }
+  if (brave_rewards_service_) {
+    brave_rewards_service_->FetchPromotions();
+  }
 }
 
 void BraveRewardsNativeWorker::OnIsWalletCreated(bool created) {
@@ -346,19 +345,25 @@ void BraveRewardsNativeWorker::DeleteNotification(JNIEnv* env,
 
 void BraveRewardsNativeWorker::GetGrant(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj,
         const base::android::JavaParamRef<jstring>& promotionId) {
-  // TODO (samartnik): this method is just a stub now
-  // We will need to move new changes from brave-core
-  // if (brave_rewards_service_) {
-  //   brave_rewards_service_->GetGrantViaSafetynetCheck(base::android::ConvertJavaStringToUTF8(env, promotionId));
-  // }
+  if (brave_rewards_service_) {
+    std::string promotion_id =
+      base::android::ConvertJavaStringToUTF8(env, promotionId);
+      brave_rewards_service_->ClaimPromotion(promotion_id,
+        base::BindOnce(
+          &BraveRewardsNativeWorker::OnClaimPromotion,
+          base::Unretained(this)));
+  }
 }
 
-int BraveRewardsNativeWorker::GetCurrentGrantsCount(JNIEnv* env, 
+void BraveRewardsNativeWorker::OnClaimPromotion(const int32_t result,
+        std::unique_ptr<brave_rewards::Promotion> promotion) {
+  // TODO(sergz) do nothing here. We receive an even that promotion
+  // being claimed on delete notification
+}
+
+int BraveRewardsNativeWorker::GetCurrentGrantsCount(JNIEnv* env,
         const base::android::JavaParamRef<jobject>& obj) {
-  // TODO (samartnik): this method is just a stub now
-  // We will need to move new changes from brave-core
-  // return wallet_properties_.grants.size();
-  return 0;
+  return promotions_.size();
 }
 
 base::android::ScopedJavaLocalRef<jobjectArray> BraveRewardsNativeWorker::GetCurrentGrant(JNIEnv* env, 
@@ -366,14 +371,14 @@ base::android::ScopedJavaLocalRef<jobjectArray> BraveRewardsNativeWorker::GetCur
         int position) {
   std::vector<std::string> values;
 
-  // TODO (samartnik): this method is just a stub now
-  // We will need to move new changes from brave-core
-  // if ((size_t)position > wallet_properties_.grants.size() - 1) {
-  //   return base::android::ScopedJavaLocalRef<jobjectArray>();
-  // }
-  // values.push_back(wallet_properties_.grants[position].probi);
-  // values.push_back(std::to_string(wallet_properties_.grants[position].expiryTime));
-  // values.push_back(wallet_properties_.grants[position].type);
+  if ((size_t)position > promotions_.size() - 1) {
+    return base::android::ScopedJavaLocalRef<jobjectArray>();
+  }
+  std::stringstream stream;
+  stream << std::fixed << std::setprecision(2) << promotions_[position].amount;
+  values.push_back(stream.str());
+  values.push_back(std::to_string(promotions_[position].expires_at));
+  values.push_back(std::to_string(promotions_[position].type));
 
   return base::android::ToJavaArrayOfStrings(env, values);
 }
@@ -568,17 +573,16 @@ void BraveRewardsNativeWorker::OnNotificationDeleted(
         base::android::ConvertUTF8ToJavaString(env, notification.id_));
 }
 
-void BraveRewardsNativeWorker::OnGrantFinish(brave_rewards::RewardsService* rewards_service,
-    unsigned int result) {
-  // TODO (samartnik): this method is just a stub now
-  // We will need to move new changes from brave-core
+void BraveRewardsNativeWorker::OnPromotionFinished(
+    brave_rewards::RewardsService* rewards_service,
+    const uint32_t result,
+    brave_rewards::Promotion promotion) {
   JNIEnv* env = base::android::AttachCurrentThread();
-
-  Java_BraveRewardsNativeWorker_OnGrantFinish(env, 
+  Java_BraveRewardsNativeWorker_OnGrantFinish(env,
         weak_java_brave_rewards_native_worker_.get(env), result);
 }
 
-void BraveRewardsNativeWorker::SetRewardsMainEnabled(JNIEnv* env, 
+void BraveRewardsNativeWorker::SetRewardsMainEnabled(JNIEnv* env,
       const base::android::JavaParamRef<jobject>& obj, bool enabled) {
   if (brave_rewards_service_) {
     brave_rewards_service_->SetRewardsMainEnabled(enabled);
@@ -610,6 +614,26 @@ void BraveRewardsNativeWorker::OnGetRewardsMainEnabled(
         weak_java_brave_rewards_native_worker_.get(env), enabled);
 }
 
+void BraveRewardsNativeWorker::OnFetchPromotions(
+    brave_rewards::RewardsService* rewards_service,
+    const uint32_t result,
+    const std::vector<brave_rewards::Promotion>& list) {
+  // All unclaimed promotions come via notifications,
+  // we filter claimed here to show in a panel
+
+  promotions_.clear();
+  for (auto& promotion : list) {
+    if ((ledger::PromotionStatus)promotion.status !=
+        ledger::PromotionStatus::FINISHED) {
+      continue;
+    }
+    promotions_.push_back(promotion);
+  }
+
+  JNIEnv* env = base::android::AttachCurrentThread();
+  Java_BraveRewardsNativeWorker_OnFetchPromotions(env,
+    weak_java_brave_rewards_native_worker_.get(env));
+}
 
 static void JNI_BraveRewardsNativeWorker_Init(JNIEnv* env, const
     base::android::JavaParamRef<jobject>& jcaller) {
