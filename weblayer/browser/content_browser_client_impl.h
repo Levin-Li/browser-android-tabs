@@ -36,7 +36,7 @@ class ContentBrowserClientImpl : public content::ContentBrowserClient {
   base::Optional<service_manager::Manifest> GetServiceManifestOverlay(
       base::StringPiece name) override;
   std::string GetProduct() override;
-  std::string GetUserAgent() override;
+  std::string GetUserAgent(const std::string& host) override;
   blink::UserAgentMetadata GetUserAgentMetadata() override;
   void OverrideWebkitPrefs(content::RenderViewHost* render_view_host,
                            content::WebPreferences* prefs) override;

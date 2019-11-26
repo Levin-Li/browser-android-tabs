@@ -157,7 +157,7 @@ std::string ContentBrowserClientImpl::GetProduct() {
   return version_info::GetProductNameAndVersionForUserAgent();
 }
 
-std::string ContentBrowserClientImpl::GetUserAgent() {
+std::string ContentBrowserClientImpl::GetUserAgent(const std::string& host) {
   std::string product = GetProduct();
 
   const base::CommandLine& command_line =
@@ -165,7 +165,7 @@ std::string ContentBrowserClientImpl::GetUserAgent() {
 
   if (command_line.HasSwitch(switches::kUseMobileUserAgent))
     product += " Mobile";
-  return content::BuildUserAgentFromProduct(product);
+  return content::BuildUserAgentFromProduct(product, host);
 }
 
 blink::UserAgentMetadata ContentBrowserClientImpl::GetUserAgentMetadata() {
@@ -201,7 +201,7 @@ ContentBrowserClientImpl::CreateNetworkContext(
   mojo::Remote<network::mojom::NetworkContext> network_context;
   network::mojom::NetworkContextParamsPtr context_params =
       network::mojom::NetworkContextParams::New();
-  context_params->user_agent = GetUserAgent();
+  context_params->user_agent = GetUserAgent("");
   context_params->accept_language = GetAcceptLangs(context);
   if (!context->IsOffTheRecord()) {
     base::FilePath cookie_path = context->GetPath();
