@@ -6,16 +6,26 @@
 
 package org.chromium.chrome.browser;
 
+import android.os.Handler;
+
 import org.chromium.base.Log;
 import org.chromium.base.annotations.CalledByNative;
 import org.chromium.base.annotations.JNINamespace;
+import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.BraveRewardsObserver;
+import org.chromium.chrome.browser.util.UrlConstants;
+import org.chromium.chrome.browser.tab.Tab;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @JNINamespace("chrome::android")
 public class BraveRewardsNativeWorker {
+    /**
+     * Allows to monitor a front tab publisher changes.
+     */
+    public interface PublisherObserver { void onfronTabPublisherChanged(boolean verified); }
+
     // Rewards notifications
     // Taken from components/brave_rewards/browser/rewards_notification_service.h
     public static final int REWARDS_NOTIFICATION_INVALID = 0;
@@ -31,8 +41,16 @@ public class BraveRewardsNativeWorker {
     public static final int LEDGER_ERROR = 1;
     public static final int WALLET_CREATED = 12;
     public static final int SAFETYNET_ATTESTATION_FAILED = 27;
-    
+
+    private static final int REWARDS_UNKNOWN = 0;
+    private static final int REWARDS_DISABLED = 1;
+    private static final int REWARDS_ENABLED = 2;
+    private static int rewardsStatus = REWARDS_UNKNOWN;
+    private String frontTabUrl;
+    private static final Handler mHandler = new Handler();
+
     private List<BraveRewardsObserver> observers_;
+    private List<PublisherObserver> front_tab_publisher_observers_;
     private long mNativeBraveRewardsNativeWorker;
 
     private static BraveRewardsNativeWorker instance;
@@ -52,6 +70,7 @@ public class BraveRewardsNativeWorker {
 
     private BraveRewardsNativeWorker() {
         observers_ = new ArrayList<BraveRewardsObserver>();
+        front_tab_publisher_observers_ = new ArrayList<PublisherObserver>();
     }
 
     private void Init() {
@@ -81,6 +100,18 @@ public class BraveRewardsNativeWorker {
     public void RemoveObserver(BraveRewardsObserver observer) {
         synchronized(lock) {
             observers_.remove(observer);
+        }
+    }
+
+    public void AddPublisherObserver(PublisherObserver observer) {
+        synchronized(lock) {
+            front_tab_publisher_observers_.add(observer);
+        }
+    }
+
+    public void RemovePublisherObserver(PublisherObserver observer) {
+        synchronized(lock) {
+            front_tab_publisher_observers_.remove(observer);
         }
     }
 
@@ -338,8 +369,55 @@ public class BraveRewardsNativeWorker {
         }
     }
 
+    public void OnNotifyFrontTabUrlChanged(int tabId, String url) {
+        boolean chromeUrl =  url.startsWith(UrlConstants.CHROME_SCHEME);
+        boolean newUrl = (frontTabUrl == null || !frontTabUrl.equals(url));
+        if (rewardsStatus != REWARDS_ENABLED || chromeUrl ) {
+            //don't query 'GetPublisherInfo' and post response now
+            mHandler.post(new Runnable() {
+                @Override
+                public void run() {
+                    NotifyPublisherObservers(false);
+                }
+            });
+        }
+        else if (newUrl) {
+            GetPublisherInfo(tabId, url);
+        }
+        //else: url has not changed
+
+        frontTabUrl = url;
+    }
+
+    private void NotifyPublisherObservers(boolean verified) {
+        for(PublisherObserver observer : front_tab_publisher_observers_) {
+            observer.onfronTabPublisherChanged(verified);
+        }
+    }
+
+    private void TriggerOnNotifyFrontTabUrlChanged() {
+        //clean frontTabUrl so that all observers are updated
+        frontTabUrl = "";
+        mHandler.post(new Runnable() {
+            @Override
+            public void run() {
+                Tab tab = BraveRewardsHelper.currentActiveTab();
+                if (tab != null && !tab.isIncognito()) {
+                    OnNotifyFrontTabUrlChanged(tab.getId(), tab.getUrl());
+                }
+            }
+        });
+
+    }
+
     @CalledByNative
     public void OnGetRewardsMainEnabled(boolean enabled) {
+        int oldRewardsStatus = rewardsStatus;
+        rewardsStatus = (enabled)? REWARDS_ENABLED : REWARDS_DISABLED;
+        if (oldRewardsStatus != rewardsStatus) {
+            TriggerOnNotifyFrontTabUrlChanged();
+        }
+
         for(BraveRewardsObserver observer : observers_) {
             observer.OnGetRewardsMainEnabled(enabled);
         }
@@ -368,6 +446,17 @@ public class BraveRewardsNativeWorker {
     @CalledByNative
     public void OnWalletInitialized(int error_code) {
         createWalletInProcess = false;
+
+        //query rewards state
+        if (LEDGER_OK == error_code){
+            mHandler.post(new Runnable() {
+                @Override
+                public void run() {
+                    instance.GetRewardsMainEnabled();
+                }
+            });
+        }
+
         for(BraveRewardsObserver observer : observers_) {
             observer.OnWalletInitialized(error_code);
         }
@@ -375,6 +464,10 @@ public class BraveRewardsNativeWorker {
 
     @CalledByNative
     public void OnPublisherInfo(int tabId) {
+        boolean verified = GetPublisherVerified(tabId);
+        NotifyPublisherObservers (verified);
+
+        //notify BraveRewardsObserver (panel)
         for(BraveRewardsObserver observer : observers_) {
             observer.OnPublisherInfo(tabId);
         }
@@ -459,6 +552,12 @@ public class BraveRewardsNativeWorker {
 
     @CalledByNative
     public void OnRewardsMainEnabled(boolean enabled) {
+        int oldRewardsStatus = rewardsStatus;
+        rewardsStatus = (enabled)? REWARDS_ENABLED : REWARDS_DISABLED;
+        if (oldRewardsStatus != rewardsStatus) {
+            TriggerOnNotifyFrontTabUrlChanged();
+        }
+
         for(BraveRewardsObserver observer : observers_) {
             observer.OnRewardsMainEnabled(enabled);
         }
@@ -490,10 +589,10 @@ public class BraveRewardsNativeWorker {
       boolean exclude);
     private native void nativeRemovePublisherFromMap(long nativeBraveRewardsNativeWorker, int tabId);
     private native void nativeGetCurrentBalanceReport(long nativeBraveRewardsNativeWorker);
-    private native void nativeDonate(long nativeBraveRewardsNativeWorker, String publisher_key, 
+    private native void nativeDonate(long nativeBraveRewardsNativeWorker, String publisher_key,
         int amount, boolean recurring);
     private native void nativeGetAllNotifications(long nativeBraveRewardsNativeWorker);
-    private native void nativeDeleteNotification(long nativeBraveRewardsNativeWorker, 
+    private native void nativeDeleteNotification(long nativeBraveRewardsNativeWorker,
         String notification_id);
     private native void nativeGetGrant(long nativeBraveRewardsNativeWorker, String promotionId);
     private native int nativeGetCurrentGrantsCount(long nativeBraveRewardsNativeWorker);
