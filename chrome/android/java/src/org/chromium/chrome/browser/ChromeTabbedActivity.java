@@ -651,13 +651,13 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                         } else if (isPendingClosure) {
                             NewTabPageUma.recordNTPImpression(
                                     NewTabPageUma.NTP_IMPESSION_POTENTIAL_NOTAB);
-                        } else {
+                        }/* else {
                             getTabModelSelector().getModel(false).commitAllTabClosures();
                             getCurrentTabCreator().launchNTP();
 
                             for (int i = 0; i < getTabModelSelector().getModel(false).getCount()-1; i++) getTabModelSelector().getModel(false).getTabAt(i).setClosing(true);
                             while (getTabModelSelector().getModel(false).getCount() > 1) TabModelUtils.closeTabByIndex(getTabModelSelector().getModel(false), 0);
-                        }
+                        }*/
                     }
 
                     // TODO(960196) : remove this when the associated bug fix. This is a band-aid
