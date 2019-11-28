@@ -21,10 +21,13 @@ import android.view.ViewStub;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.content.SharedPreferences;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
+import org.chromium.base.ContextUtils;
+import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
 import org.chromium.base.TraceEvent;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ChromeActivity;
@@ -81,7 +84,6 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
     private View mNoSearchLogoSpacer;
 
     private ViewGroup mBraveStatsView;
-    private ImageView mBraveStatsShadow;
 
     @Nullable
     private View mExploreSectionView; // View is null if explore flag is disabled.
@@ -260,7 +262,6 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
         mNoSearchLogoSpacer = findViewById(R.id.no_search_logo_spacer);
 
         mBraveStatsView = (ViewGroup) findViewById(R.id.brave_stats);
-        mBraveStatsShadow = (ImageView) findViewById(R.id.brave_stats_shadow);
 
         initializeSearchBoxTextView();
         initializeVoiceSearchButton();
@@ -793,7 +794,12 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
     }
 
     private static int getMaxTileRows() {
-        return 2;
+        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
+        if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)) {
+            return 1;
+        } else {
+            return 2;
+        }
     }
 
     /**
