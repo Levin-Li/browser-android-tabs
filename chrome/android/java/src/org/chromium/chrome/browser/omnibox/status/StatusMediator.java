@@ -462,6 +462,10 @@ class StatusMediator {
                               : R.color.locationbar_status_preview_color_light;
         }
 
+        if (icon == R.drawable.omnibox_https_invalid_red || icon ==R.drawable.omnibox_info_red) {
+            tint = 0;
+        }
+
         mModel.set(StatusProperties.STATUS_ICON_RES, icon);
         mModel.set(StatusProperties.STATUS_ICON_TINT_RES, tint);
         mModel.set(StatusProperties.STATUS_ICON_ACCESSIBILITY_TOAST_RES, toast);
