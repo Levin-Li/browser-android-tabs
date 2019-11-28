@@ -16,6 +16,7 @@ import org.chromium.chrome.browser.init.StatsUpdater;
 import org.chromium.chrome.browser.notifications.channels.ChannelsUpdater;
 import org.chromium.chrome.browser.vr.VrModuleProvider;
 import org.chromium.base.task.AsyncTask;
+import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
 
 /**
  * Triggered when Chrome's package is replaced (e.g. when it is upgraded).
@@ -38,6 +39,7 @@ public final class PackageReplacedBroadcastReceiver extends BroadcastReceiver {
         updateChannelsIfNecessary(context);
         VrModuleProvider.maybeRequestModuleIfDaydreamReady();
         AutofillAssistantModuleEntryProvider.maybeInstallDeferred();
+        BackgroundImagesPreferences.setOnPreferenceValue(BackgroundImagesPreferences.PREF_APP_OPEN_COUNT ,0);
         // try {
         //     NotificationIntent.fireNotificationIfNecessary(context);
         // } catch (Exception exc) {

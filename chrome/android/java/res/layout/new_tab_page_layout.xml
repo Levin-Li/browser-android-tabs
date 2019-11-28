@@ -8,7 +8,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ntp_content"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:orientation="vertical"
     android:gravity="center"
@@ -97,17 +97,6 @@
         </LinearLayout>
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/brave_stats_shadow"
-        android:src="@drawable/toolbar_shadow"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:scaleType="fitXY"
-        android:contentDescription="@null" />
-
     <!-- Search provider logo -->
     <!-- <org.chromium.chrome.browser.ntp.LogoView
         android:id="@+id/search_provider_logo"
@@ -164,4 +153,5 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:visibility="gone" />
+
 </org.chromium.chrome.browser.ntp.NewTabPageLayout>

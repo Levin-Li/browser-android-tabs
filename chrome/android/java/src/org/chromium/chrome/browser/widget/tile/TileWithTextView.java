@@ -8,6 +8,10 @@ import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.TextView;
+import android.content.SharedPreferences;
+
+import org.chromium.base.ContextUtils;
+import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
 
 import org.chromium.chrome.R;
 
@@ -50,5 +54,9 @@ public class TileWithTextView extends TileView {
     public void setTitle(String title, int titleLines) {
         mTitleView.setLines(titleLines);
         mTitleView.setText(title);
+        SharedPreferences mSharedPreferences = ContextUtils.getAppSharedPreferences();
+        if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)) {
+            mTitleView.setTextColor(getResources().getColor(android.R.color.white));
+        }
     }
 }
