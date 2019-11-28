@@ -95,27 +95,22 @@ class COMPONENT_EXPORT(NETWORK_SERVICE) NetworkServiceNetworkDelegate
                                const GURL& endpoint) const override;
 
   int OnBeforeURLRequestInternal(net::URLRequest* request,
-                         net::CompletionOnceCallback callback,
                          GURL* new_url);
   int OnBeforeURLRequest_PreBlockersWork(
             net::URLRequest* request,
-            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_AdBlockPreFileWork(
             net::URLRequest* request,
-            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   void OnBeforeURLRequest_AdBlockFileWork(std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_AdBlockPostFileWork(
             net::URLRequest* request,
-            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_HttpsePreFileWork(
             net::URLRequest* request,
-            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   void OnBeforeURLRequest_HttpseFileWork(
@@ -123,12 +118,10 @@ class COMPONENT_EXPORT(NETWORK_SERVICE) NetworkServiceNetworkDelegate
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_HttpsePostFileWork(
             net::URLRequest* request,
-            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
   int OnBeforeURLRequest_PostBlockers(
             net::URLRequest* request,
-            net::CompletionOnceCallback callback,
             GURL* new_url,
             std::shared_ptr<OnBeforeURLRequestContext> ctx);
 
