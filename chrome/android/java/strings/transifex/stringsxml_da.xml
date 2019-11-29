@@ -250,6 +250,9 @@ de indholdsskabere, du elsker.</string>
     <string name="prefs_section_display">Visning</string>
     <string name="prefs_section_controls">Styring</string>
     <string name="prefs_appearance">Udseende</string>
+    <string name="prefs_new_tab_page">Ny faneside</string>
+    <string name="show_background_images">Vis baggrundsbilleder</string>
+    <string name="show_sponsored_images">Vis sponsorerede billeder</string>
     <string name="hide_brave_rewards_icon_title">Skjul Ikonet for Brave Belønninger</string>
     <string name="hide_brave_rewards_icon_description">Skjuler Ikonet for Brave Belønninger, når Brave Belønninger ikke er aktiveret</string>
     <string name="show_ads_when_brave_is_not_in_use">Vis reklamer når Brave ikke er i brug </string>

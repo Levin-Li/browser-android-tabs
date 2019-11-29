@@ -249,6 +249,9 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
     <string name="prefs_section_display">Hiển thị</string>
     <string name="prefs_section_controls">Bộ điều khiển</string>
     <string name="prefs_appearance">Hiển thị</string>
+    <string name="prefs_new_tab_page">Trang tab mới</string>
+    <string name="show_background_images">Hiện hình ảnh nền</string>
+    <string name="show_sponsored_images">Hiện hình ảnh được tài trợ</string>
     <string name="hide_brave_rewards_icon_title">Ẩn Biểu tượng Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Ẩn biểu tượng </string>
     <string name="show_ads_when_brave_is_not_in_use">Hiển thị Quảng cáo khi không sử dụng Brave</string>

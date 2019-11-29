@@ -250,6 +250,9 @@ HTTPS</string>
     <string name="prefs_section_display">Παρουσίαση</string>
     <string name="prefs_section_controls">Έλεγχοι</string>
     <string name="prefs_appearance">Εμφάνιση</string>
+    <string name="prefs_new_tab_page">Σελίδα Νέας Καρτέλας</string>
+    <string name="show_background_images">Εμφάνιση Εικόνων Φόντου</string>
+    <string name="show_sponsored_images">Εμφάνιση Χορηγούμενων Εικόνων</string>
     <string name="hide_brave_rewards_icon_title">Απόκρυψη του Εικονιδίου Brave Rewards </string>
     <string name="hide_brave_rewards_icon_description">Αποκρύπτει το Εικονίδιο Brave Rewards όταν το Brave Rewards δεν είναι ενεργοποιημένο</string>
     <string name="show_ads_when_brave_is_not_in_use">Εμφάνιση Διαφημίσεων όταν το Brave δεν είναι σε χρήση</string>

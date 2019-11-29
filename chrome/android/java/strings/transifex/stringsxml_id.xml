@@ -253,6 +253,9 @@ pembuat konten yang Anda sukai.</string>
     <string name="prefs_section_display">Layar Tampilan</string>
     <string name="prefs_section_controls">Kendali</string>
     <string name="prefs_appearance">Tampilan</string>
+    <string name="prefs_new_tab_page">Halaman Tab Baru</string>
+    <string name="show_background_images">Tampilkan Gambar Latar Belakang</string>
+    <string name="show_sponsored_images">Tampilkan Gambar Bersponsor</string>
     <string name="hide_brave_rewards_icon_title">Sembunyikan Ikon Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Menyembunyikan Ikon Brave Rewards ketika Brave Rewards tidak diaktifkan</string>
     <string name="show_ads_when_brave_is_not_in_use">Tampilkan Iklan ketika Brave tidak sedang digunakan</string>

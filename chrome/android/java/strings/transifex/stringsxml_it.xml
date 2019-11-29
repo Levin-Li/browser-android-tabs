@@ -250,6 +250,9 @@ delle sovvenzioni.</string>
     <string name="prefs_section_display">Mostra</string>
     <string name="prefs_section_controls">Controlli</string>
     <string name="prefs_appearance">Aspetto</string>
+    <string name="prefs_new_tab_page">Pagina in un Nuovo Tab</string>
+    <string name="show_background_images">Mostra Immagini di Sfondo</string>
+    <string name="show_sponsored_images">Mostra Immagini Sponsorizzate</string>
     <string name="hide_brave_rewards_icon_title">Nascondi l\'Icona delle Ricompense di Brave</string>
     <string name="hide_brave_rewards_icon_description">Nascondi l\'Icona delle Ricompense di Brave quando le Ricompense di Brave non sono abilitate</string>
     <string name="show_ads_when_brave_is_not_in_use">Mostra Annunci quando Brave non è in uso</string>

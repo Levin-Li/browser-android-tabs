@@ -253,6 +253,9 @@
     <string name="prefs_section_display">顯示</string>
     <string name="prefs_section_controls">控制功能</string>
     <string name="prefs_appearance">外觀</string>
+    <string name="prefs_new_tab_page">新的索引標籤頁</string>
+    <string name="show_background_images">顯示背景影像</string>
+    <string name="show_sponsored_images">顯示贊助影像</string>
     <string name="hide_brave_rewards_icon_title">隱藏 Brave 獎勵圖標</string>
     <string name="hide_brave_rewards_icon_description">當 Brave 獎勵未啟用時隱藏 Brave 獎勵圖示</string>
     <string name="show_ads_when_brave_is_not_in_use">未使用 Brave 時顯示廣告</string>

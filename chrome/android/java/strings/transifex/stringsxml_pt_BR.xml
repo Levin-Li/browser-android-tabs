@@ -251,6 +251,9 @@ contribuindo para seus criadores de conteúdo favoritos.</string>
     <string name="prefs_section_display">Exibição</string>
     <string name="prefs_section_controls">Controles</string>
     <string name="prefs_appearance">Aparência</string>
+    <string name="prefs_new_tab_page">Página em Nova Aba</string>
+    <string name="show_background_images">Mostrar Imagens de Fundo</string>
+    <string name="show_sponsored_images">Mostrar Imagens Patrocinadas</string>
     <string name="hide_brave_rewards_icon_title">Ícone Ocultar Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Oculta o ícone Brave Rewards quando o Brave Rewards não está ativado.</string>
     <string name="show_ads_when_brave_is_not_in_use">Exibir anúncios quando o Brave não estiver em uso</string>

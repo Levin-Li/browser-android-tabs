@@ -251,6 +251,9 @@ rakastamillesi sisällöntuottajille.</string>
     <string name="prefs_section_display">Näytä</string>
     <string name="prefs_section_controls">Ohjaimet</string>
     <string name="prefs_appearance">Ulkoasu</string>
+    <string name="prefs_new_tab_page">Uusi välilehtisivu</string>
+    <string name="show_background_images">Näytä taustakuvat</string>
+    <string name="show_sponsored_images">Näytä sponsoroidut kuvat</string>
     <string name="hide_brave_rewards_icon_title">Piilota Brave Rewards -kuvake</string>
     <string name="hide_brave_rewards_icon_description">Piilottaa Brave Rewards -kuvakkeen, kun Brave Rewards ei ole käytössä</string>
     <string name="show_ads_when_brave_is_not_in_use">Näytä mainoksia, kun Brave ei ole käytössä</string>

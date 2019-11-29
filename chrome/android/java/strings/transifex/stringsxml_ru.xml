@@ -253,6 +253,9 @@
     <string name="prefs_section_display">Отобразить</string>
     <string name="prefs_section_controls">Управление</string>
     <string name="prefs_appearance">Внешний вид</string>
+    <string name="prefs_new_tab_page">Страница новой вкладки</string>
+    <string name="show_background_images">Показывать фоновые изображения</string>
+    <string name="show_sponsored_images">Показывать спонсированные изображения</string>
     <string name="hide_brave_rewards_icon_title">Скрыть иконку  Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Скрывает иконку Brave Rewards, когда Brave Rewards не активно</string>
     <string name="show_ads_when_brave_is_not_in_use">Показывать рекламу, когда Brave не используется</string>
@@ -271,7 +274,7 @@
     <string name="notification_category_group_brave_ads">Реклама Brave</string>
     <string name="brave_ads_you_earned">Вы заработали</string>
 
-    <string name="brave_default_browser_title">Brave молниеносный</string>
+    <string name="brave_default_browser_title">Brave - это стремительность молнии</string>
     <string name="brave_default_browser_body">Сделайте Brave своим браузером по умолчанию!</string>
     <string name="brave_make_default_text">Использовать по умолчанию</string>
     <string name="brave_ui_ads_earnings">заработано от рекламы</string>
@@ -279,8 +282,8 @@
 
     <string name="skip">Пропустить</string>
 
-    <string name="search_engine_onboarding">Введение в поисковую систему</string>
-    <string name="troubleshooting_onboarding">Введение в Устранение неполадок</string>
+    <string name="search_engine_onboarding">Помощь при использовании поисковой системы</string>
+    <string name="troubleshooting_onboarding">Помощь в устранении неполадок</string>
 
     <string name="welcome_to_brave_browser">Добро пожаловать в браузер Brave</string>
     <string name="select_your_default_search_engine">Выберите поисковую систему по умолчанию </string>
@@ -290,11 +293,11 @@
     <string name="brave_shields_onboarding_text">рекламу и трекеры, нарушающие конфиденциальность, чтобы вы могли просматривать контент, не опасаясь отслеживания на различных сайтах.</string>
 
     <string name="earn_tokens">Заработайте <ph name=\"TOKEN\">%1$s<ex>токен</ex></ph>ов</string>
-    <string name="brave_rewards_onboarding_title">Brave Reward</string>
+    <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">для просмотра рекламы, уважающей конфиденциальность. Используйте его для поддержки ваших любимых сайтов и создателей.</string>
     <string name="brave_rewards_onboarding_text2">для просмотра рекламы, уважающей конфиденциальность.</string>
 
-    <string name="terms_text">Включая \"Вознаграждения\", вы соглашаетесь с</string>
+    <string name="terms_text">Включая Brave Rewards, вы принимаете</string>
     <string name="terms_of_service">Условия обслуживания</string>
 
     <string name="start_browsing">Начать просмотр</string>
@@ -309,8 +312,8 @@
 
     <string name="no_thanks">Нет, спасибо</string>
 
-    <string name="prefs_welcome_tour">Приветственный тур</string>
-    <string name="welcome_tour_dialog_text">Перезапуск Введения не повлияет на существующие настройки.</string>
+    <string name="prefs_welcome_tour">Обзорный тур</string>
+    <string name="welcome_tour_dialog_text">Повторный запуск обзорного тура не повлияет на существующие настройки.</string>
     <string name="finish">Завершить</string>
     
     <string name="clear_download_title">История загрузок</string>

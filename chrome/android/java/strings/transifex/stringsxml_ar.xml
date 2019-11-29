@@ -256,6 +256,9 @@ HTTPS</string>
     <string name="prefs_section_display">العرض</string>
     <string name="prefs_section_controls">أدوات التحكم</string>
     <string name="prefs_appearance">المظهر</string>
+    <string name="prefs_new_tab_page">صفحة علامة تبويب جديدة</string>
+    <string name="show_background_images">عرض صور الخلفية</string>
+    <string name="show_sponsored_images">عرض الصور الدعائية</string>
     <string name="hide_brave_rewards_icon_title">إخفاء أيقونة مكافآت Brave</string>
     <string name="hide_brave_rewards_icon_description">تخفي أيقونة مكافآت Brave عند عدم تمكين مكافآت Brave.</string>
     <string name="show_ads_when_brave_is_not_in_use">عرض الإعلانات عندما لا يكون متصفح Brave قيد الاستخدام </string>

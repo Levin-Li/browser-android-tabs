@@ -253,6 +253,9 @@ tvorcov obsahu, ktorých máte radi.</string>
     <string name="prefs_section_display">Zobraziť</string>
     <string name="prefs_section_controls">Ovládacie prvky</string>
     <string name="prefs_appearance">Vzhľad</string>
+    <string name="prefs_new_tab_page">Stránka novej karty</string>
+    <string name="show_background_images">Zobraziť obrázky pozadia</string>
+    <string name="show_sponsored_images">Zobraziť sponzorované obrázky</string>
     <string name="hide_brave_rewards_icon_title">Skryť ikonu Odmeny Brave</string>
     <string name="hide_brave_rewards_icon_description">Skryť ikonu Odmeny Brave, keď Odmeny Brave nie sú povolené</string>
     <string name="show_ads_when_brave_is_not_in_use">Zobrazovať reklamy, keď sa Brave nepoužíva</string>

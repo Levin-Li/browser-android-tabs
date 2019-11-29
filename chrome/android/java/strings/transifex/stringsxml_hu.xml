@@ -249,6 +249,9 @@ tartalomkészítők támogatására.</string>
     <string name="prefs_section_display">Megjelenítés</string>
     <string name="prefs_section_controls">Irányítás</string>
     <string name="prefs_appearance">Megjelenés</string>
+    <string name="prefs_new_tab_page">Új lap oldal</string>
+    <string name="show_background_images">Háttérképek megjelenítése</string>
+    <string name="show_sponsored_images">Szponzorált képek megjelenítése</string>
     <string name="hide_brave_rewards_icon_title">Brave Jutalmak ikon elrejtése</string>
     <string name="hide_brave_rewards_icon_description">Elrejti a Brave Jutalmak ikont, ha a Brave Jutalmak nincs engedélyezve.</string>
     <string name="show_ads_when_brave_is_not_in_use">Hirdetések megjelenítése, ha a Brave nincs használatban</string>
