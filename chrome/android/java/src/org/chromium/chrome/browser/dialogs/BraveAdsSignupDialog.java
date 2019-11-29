@@ -87,7 +87,7 @@ public class BraveAdsSignupDialog {
     }
 
     @CalledByNative
-    public static void enqueueOobeNotificationNative() {
+    public static void enqueueOnboardingNotificationNative() {
         enqueueOobeNotification(ContextUtils.getApplicationContext());
     }
 

@@ -2890,6 +2890,7 @@ generate_jni("chrome_jni_headers") {
   if (brave_ads_enabled) {
     sources += [
       "java/src/org/chromium/chrome/browser/notifications/BraveAds.java",
+      "java/src/org/chromium/chrome/browser/notifications/BraveNotificationSettingsBridge.java",
       "java/src/org/chromium/chrome/browser/dialogs/BraveAdsSignupDialog.java",
       "java/src/org/chromium/chrome/browser/BraveAdsNativeHelper.java",
     ]
