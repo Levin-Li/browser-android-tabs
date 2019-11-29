@@ -251,6 +251,9 @@ kreatore sadržaja koji vam se sviđaju.</string>
     <string name="prefs_section_display">Prikaz</string>
     <string name="prefs_section_controls">Kontrole</string>
     <string name="prefs_appearance">Izgled</string>
+    <string name="prefs_new_tab_page">Stranica nove kartice</string>
+    <string name="show_background_images">Prikaži slike u pozadini</string>
+    <string name="show_sponsored_images">Prikaži sponzorisane slike</string>
     <string name="hide_brave_rewards_icon_title">Sakrijte Brave Rewards ikonicu</string>
     <string name="hide_brave_rewards_icon_description">Sakrijte Brave Rewards ikonicu kada Brave Rewards nije omogućena</string>
     <string name="show_ads_when_brave_is_not_in_use">Prikazivanje reklama kada se Brave ne koristi</string>

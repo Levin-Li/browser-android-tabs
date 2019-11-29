@@ -251,6 +251,9 @@ pencipta kandungan yang anda suka.</string>
     <string name="prefs_section_display">Papar</string>
     <string name="prefs_section_controls">Kawalan</string>
     <string name="prefs_appearance">Penampilan</string>
+    <string name="prefs_new_tab_page">Halaman Tab Baharu</string>
+    <string name="show_background_images">Tunjukkan Imej Latar Belakang</string>
+    <string name="show_sponsored_images">Tunjukkan Imej Tajaan</string>
     <string name="hide_brave_rewards_icon_title">Sembunyikan Ikon Ganjaran Brave</string>
     <string name="hide_brave_rewards_icon_description">Sembunyikan Ikon Ganjaran Brave apabila Ganjaran Brave tidak diaktifkan</string>
     <string name="show_ads_when_brave_is_not_in_use">Tunjukkan Iklan apabila Brave tidak digunakan</string>

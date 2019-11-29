@@ -255,6 +255,9 @@
     <string name="prefs_section_display">डिस्प्ले</string>
     <string name="prefs_section_controls">नियंत्रण</string>
     <string name="prefs_appearance">रंगरूप</string>
+    <string name="prefs_new_tab_page">नया टैब पृष्ठ</string>
+    <string name="show_background_images">बैकग्राउंड इमेज दिखाएँ</string>
+    <string name="show_sponsored_images">प्रायोजित इमेज दिखाएँ</string>
     <string name="hide_brave_rewards_icon_title">Brave इनाम आइकन छुपाएं</string>
     <string name="hide_brave_rewards_icon_description">Brave इनाम आइकन सक्रिय न होने पर Brave इनाम आइकन छुपाएं</string>
     <string name="show_ads_when_brave_is_not_in_use">विज्ञापन दिखाएं जब Brave उपयोग में नहीं है</string>

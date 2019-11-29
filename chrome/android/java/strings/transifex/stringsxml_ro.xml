@@ -249,6 +249,9 @@ creatorii de conținut care vă plac.</string>
     <string name="prefs_section_display">Afișaj</string>
     <string name="prefs_section_controls">Controale</string>
     <string name="prefs_appearance">Aspect</string>
+    <string name="prefs_new_tab_page">Pagină Nouă</string>
+    <string name="show_background_images">Arată Imaginile de Fundal</string>
+    <string name="show_sponsored_images">Arată Imaginile Sponsorizate</string>
     <string name="hide_brave_rewards_icon_title">Ascunde Iconița Recompense Brave</string>
     <string name="hide_brave_rewards_icon_description">Ascunde Ioniță de Recompense Brave când Recompensele Brave nu sunt activate</string>
     <string name="show_ads_when_brave_is_not_in_use">Afișează reclame când Brave nu este utilizat</string>

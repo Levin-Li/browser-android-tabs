@@ -250,6 +250,9 @@ anderen meegenieten door de inhoudmakers waar jij fan van bent te ondersteunen.<
     <string name="prefs_section_display">Scherm</string>
     <string name="prefs_section_controls">Bediening</string>
     <string name="prefs_appearance">Uiterlijk</string>
+    <string name="prefs_new_tab_page">Nieuw tabblad</string>
+    <string name="show_background_images">Toon achtergrondafbeeldingen</string>
+    <string name="show_sponsored_images">Toon gesponsorde afbeeldingen</string>
     <string name="hide_brave_rewards_icon_title">Brave Rewards-pictogram verbergen</string>
     <string name="hide_brave_rewards_icon_description">Verbergt het Brave Rewards-pictogram wanneer Brave Rewards niet is ingeschakeld</string>
     <string name="show_ads_when_brave_is_not_in_use">Toon advertenties wanneer Brave niet wordt gebruikt</string>

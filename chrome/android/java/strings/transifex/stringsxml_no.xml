@@ -249,6 +249,9 @@ til å støtte innholdsskapere du liker.</string>
     <string name="prefs_section_display">Vis</string>
     <string name="prefs_section_controls">Kontroller</string>
     <string name="prefs_appearance">Utseende</string>
+    <string name="prefs_new_tab_page">Ny faneside</string>
+    <string name="show_background_images">Vis bakgrunnsbilder</string>
+    <string name="show_sponsored_images">Vis sponsede bilder</string>
     <string name="hide_brave_rewards_icon_title">Skjul Brave Rewards-ikonet</string>
     <string name="hide_brave_rewards_icon_description">Skjuler Brave Rewards-ikonet når Brave Rewards ikke er aktivert</string>
     <string name="show_ads_when_brave_is_not_in_use">Vis annonser når Brave ikke er i bruk</string>

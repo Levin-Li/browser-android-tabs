@@ -249,6 +249,9 @@ HTTPS</string>
     <string name="prefs_section_display">תצוגה</string>
     <string name="prefs_section_controls">פקדים</string>
     <string name="prefs_appearance">מראה</string>
+    <string name="prefs_new_tab_page">עמוד כרטיסייה חדשה</string>
+    <string name="show_background_images">הצג תמונות רקע</string>
+    <string name="show_sponsored_images">הצג תמונות ממומנות</string>
     <string name="hide_brave_rewards_icon_title">מסתיר את אייקון Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">מסתיר את אייקון Brave Rewards כש-Brave Rewards אינו זמין</string>
     <string name="show_ads_when_brave_is_not_in_use">הצג מודעות כאשר Brave אינו בשימוש</string>

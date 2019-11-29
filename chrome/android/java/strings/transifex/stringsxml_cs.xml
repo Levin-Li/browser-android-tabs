@@ -249,6 +249,9 @@ tvůrce obsahu, který milujete.</string>
     <string name="prefs_section_display">Zobrazit</string>
     <string name="prefs_section_controls">Ovládání</string>
     <string name="prefs_appearance">Vzhled</string>
+    <string name="prefs_new_tab_page">Stránka na novém panelu</string>
+    <string name="show_background_images">Zobrazit obrázky pozadí</string>
+    <string name="show_sponsored_images">Zobrazit sponzorované obrázky</string>
     <string name="hide_brave_rewards_icon_title">Skrýt ikonu odměn Brave</string>
     <string name="hide_brave_rewards_icon_description">Skryje ikonu odměn Brave, pokud nejsou odměny Brave k dispozici</string>
     <string name="show_ads_when_brave_is_not_in_use">Zobrazovat reklamy, když Brave zrovna nepoužíváte</string>

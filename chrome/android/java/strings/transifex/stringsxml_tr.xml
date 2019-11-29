@@ -250,6 +250,9 @@ para kazanın ve sevdiğiniz içerik
     <string name="prefs_section_display">Göster</string>
     <string name="prefs_section_controls">Kontroller</string>
     <string name="prefs_appearance">Görünüm</string>
+    <string name="prefs_new_tab_page">Yeni Sekme Sayfası</string>
+    <string name="show_background_images">Arka Plan Görsellerini Göster</string>
+    <string name="show_sponsored_images">Sponsorlu Görselleri Göster</string>
     <string name="hide_brave_rewards_icon_title">Brave Ödülleri Simgesini Gizle</string>
     <string name="hide_brave_rewards_icon_description">Brave Ödülleri etkin olmadığında Brave Ödülleri simgesini gizler</string>
     <string name="show_ads_when_brave_is_not_in_use">Brave kullanımda değilken Reklamları göster</string>

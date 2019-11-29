@@ -250,6 +250,9 @@
     <string name="prefs_section_display">표시하기</string>
     <string name="prefs_section_controls">제어</string>
     <string name="prefs_appearance">외형</string>
+    <string name="prefs_new_tab_page">새 탭 페이지</string>
+    <string name="show_background_images">배경 이미지 표시</string>
+    <string name="show_sponsored_images">스폰서 이미지 표시</string>
     <string name="hide_brave_rewards_icon_title">Brave 리워드 아이콘 숨기기</string>
     <string name="hide_brave_rewards_icon_description">Brave 리워드 비활성화 시에 Brave 리워드 아이콘 숨기기</string>
     <string name="show_ads_when_brave_is_not_in_use">Brave를 사용하지 않을 때 광고 표시</string>
