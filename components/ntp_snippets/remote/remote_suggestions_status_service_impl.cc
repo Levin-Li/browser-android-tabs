@@ -36,8 +36,8 @@ RemoteSuggestionsStatusServiceImpl::~RemoteSuggestionsStatusServiceImpl() =
 // static
 void RemoteSuggestionsStatusServiceImpl::RegisterProfilePrefs(
     PrefRegistrySimple* registry) {
-  registry->RegisterBooleanPref(prefs::kEnableSnippets, true);
-  registry->RegisterBooleanPref(prefs::kArticlesListVisible, true);
+  registry->RegisterBooleanPref(prefs::kEnableSnippets, false);
+  registry->RegisterBooleanPref(prefs::kArticlesListVisible, false);
 }
 
 void RemoteSuggestionsStatusServiceImpl::Init(
