@@ -154,4 +154,22 @@
         android:layout_weight="1"
         android:visibility="gone" />
 
+     <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/credit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:background="@drawable/image_credit_rounded_shape"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:textColor = "@android:color/white"/>
+
+    </FrameLayout>
+
 </org.chromium.chrome.browser.ntp.NewTabPageLayout>
