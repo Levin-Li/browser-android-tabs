@@ -60,6 +60,7 @@ import org.chromium.chrome.browser.util.ViewUtils;
 import org.chromium.chrome.browser.vr.VrModeObserver;
 import org.chromium.chrome.browser.vr.VrModuleProvider;
 import org.chromium.ui.base.DeviceFormFactor;
+import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;
 
 /**
  * Layout for the new tab page. This positions the page elements in the correct vertical positions.
@@ -786,6 +787,14 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
             if (mTileGridPlaceholder == null) {
                 ViewStub placeholderStub = findViewById(R.id.tile_grid_placeholder_stub);
                 mTileGridPlaceholder = placeholderStub.inflate();
+                SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
+                if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
+                    && (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M || (Build.VERSION.SDK_INT < Build.VERSION_CODES.M && SponsoredImageUtil.imageIndex <= 16))) {
+                    TextView title = mTileGridPlaceholder.findViewById(R.id.most_visited_placeholder_title);
+                    TextView summary = mTileGridPlaceholder.findViewById(R.id.most_visited_placeholder_summary);                    
+                    title.setTextColor(getResources().getColor(android.R.color.white));
+                    summary.setTextColor(getResources().getColor(android.R.color.white));
+                }
             }
             mTileGridPlaceholder.setVisibility(VISIBLE);
         } else if (mTileGridPlaceholder != null) {
@@ -795,7 +804,8 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
 
     private static int getMaxTileRows() {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
-        if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)) {
+        if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)
+            && (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M || (Build.VERSION.SDK_INT < Build.VERSION_CODES.M && SponsoredImageUtil.imageIndex <= 16))) {
             return 1;
         } else {
             return 2;
