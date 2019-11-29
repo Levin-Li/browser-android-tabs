@@ -28,6 +28,11 @@ import android.graphics.drawable.GradientDrawable;
 import android.graphics.Color;
 import android.app.Activity;
 import android.os.Build;
+import android.graphics.LinearGradient;
+import android.graphics.Paint;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffXfermode;
+import android.graphics.Shader;
 
 import androidx.annotation.VisibleForTesting;
 
@@ -135,7 +140,6 @@ public class NewTabPageView extends HistoryNavigationLayout {
         mNewTabPageLayout = (NewTabPageLayout) LayoutInflater.from(getContext())
                                     .inflate(R.layout.new_tab_page_layout, mRecyclerView, false);
         mSharedPreferences = ContextUtils.getAppSharedPreferences();
-        backgroundImage = getBackgroundImage();
     }
 
     @Override
@@ -231,7 +235,11 @@ public class NewTabPageView extends HistoryNavigationLayout {
 
         mBraveStatsView = (ViewGroup)mNewTabPageLayout.findViewById(R.id.brave_stats);
 
-        showBackgroundImage();
+        backgroundImage = mTab.getTabBackgroundImage();
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M || (Build.VERSION.SDK_INT < Build.VERSION_CODES.M && SponsoredImageUtil.imageIndex <= 16) ) {
+            showBackgroundImage();
+        }
 
         initializeLayoutChangeListener();
         mNewTabPageLayout.setSearchProviderInfo(searchProviderHasLogo, searchProviderIsGoogle);
@@ -334,10 +342,12 @@ public class NewTabPageView extends HistoryNavigationLayout {
         TextView httpsUpgradesTextView = (TextView) mBraveStatsView.findViewById(R.id.brave_stats_text_https);
         TextView estTimeSavedTextView = (TextView) mBraveStatsView.findViewById(R.id.brave_stats_text_time);
 
-        if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)) {
+        if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
+            && (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M || (Build.VERSION.SDK_INT < Build.VERSION_CODES.M && SponsoredImageUtil.imageIndex <= 16))) {
             adsBlockedTextView.setTextColor(mNewTabPageLayout.getResources().getColor(android.R.color.white));
             httpsUpgradesTextView.setTextColor(mNewTabPageLayout.getResources().getColor(android.R.color.white));
             estTimeSavedTextView.setTextColor(mNewTabPageLayout.getResources().getColor(android.R.color.white));            
+            estTimeSavedCountTextView.setTextColor(mNewTabPageLayout.getResources().getColor(android.R.color.white));            
         }
 
         TraceEvent.end(TAG + ".updateBraveStats()");
@@ -517,16 +527,33 @@ public class NewTabPageView extends HistoryNavigationLayout {
                         startX = newImageWidth - layoutWidth;
                     }
                     imageBitmap = Bitmap.createScaledBitmap(imageBitmap, newImageWidth, newImageHeight, true);
+
+                    Bitmap newBitmap = Bitmap.createBitmap(imageBitmap, startX, (newImageHeight - layoutHeight) / 2, layoutWidth, (int) layoutHeight);
+
+                    Bitmap bitmapWithGradient = addGradient(newBitmap, mNewTabPageLayout.getContext().getResources().getColor(R.color.black_alpha_50),Color.TRANSPARENT);
+
+                    imageBitmap.recycle();
+                    newBitmap.recycle();
+
                     // Center vertically, and crop to new center
-                    final BitmapDrawable imageDrawable = new BitmapDrawable(mNewTabPageLayout.getResources(), Bitmap.createBitmap(imageBitmap, startX, (newImageHeight - layoutHeight) / 2, layoutWidth, (int) layoutHeight));
+                    final BitmapDrawable imageDrawable = new BitmapDrawable(mNewTabPageLayout.getResources(), bitmapWithGradient);
 
                     mNewTabPageLayout.setBackground(imageDrawable);
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                        GradientDrawable gradientDrawable =new GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM,new int[]{ mNewTabPageLayout.getContext().getResources().getColor(R.color.black_alpha_30), Color.TRANSPARENT });
-                        mNewTabPageLayout.setForeground(gradientDrawable);
-                    }
 
-                    SponsoredImageUtil.imageIndex++;
+                    if (backgroundImage instanceof SponsoredImage ) {
+                        mNewTabPageLayout.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                for (Activity ref : ApplicationStatus.getRunningActivities()) {
+                                    if (!(ref instanceof ChromeTabbedActivity)) continue;
+                                      ChromeTabbedActivity chromeTabbedActivity =  (ChromeTabbedActivity)ref;
+                                      if (backgroundImage.getImageCredit() != null) {
+                                        chromeTabbedActivity.openNewOrSelectExistingTab(backgroundImage.getImageCredit().getUrl());
+                                      } 
+                                }
+                            }
+                        });
+                    }
 
                     mNewTabPageLayout.getViewTreeObserver().removeOnGlobalLayoutListener(this);
                 }
@@ -534,52 +561,19 @@ public class NewTabPageView extends HistoryNavigationLayout {
         }
     }
 
-    private BackgroundImage getBackgroundImage() {
-        BackgroundImage backgroundImage;
+    private Bitmap addGradient(Bitmap src, int color1, int color2) {
+        int w = src.getWidth();
+        int h = src.getHeight();
+        Bitmap result = Bitmap.createBitmap(src,0,0,w,h);
+        Canvas canvas = new Canvas(result);
 
-        if (mSharedPreferences.getInt(BackgroundImagesPreferences.PREF_APP_OPEN_COUNT, 0) == 2
-            && SponsoredImageUtil.imageIndex == 2) {
-            SponsoredImage sponsoredImage = SponsoredImageUtil.getSponsoredImage(); 
-            long currentTime = Calendar.getInstance().getTimeInMillis();
-            if ((sponsoredImage.getStartDate() <= currentTime  && currentTime <= sponsoredImage.getEndDate()) 
-                && LocaleUtil.isSponsoredRegions()
-                && mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_SPONSORED_IMAGES, true)) {
-                sponsoredImageClick();
-                return sponsoredImage;
-            }
-        }
+        Paint paint = new Paint();
+        LinearGradient shader = new LinearGradient(0,0,0,h/3, color1, color2, Shader.TileMode.CLAMP);
+        paint.setShader(shader);
+        paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.DARKEN));
+        canvas.drawRect(0,0,w,h/3,paint);
 
-        if (SponsoredImageUtil.imageIndex % 4 == 0 && SponsoredImageUtil.imageIndex != 1) {
-            SponsoredImage sponsoredImage = SponsoredImageUtil.getSponsoredImage(); 
-            long currentTime = Calendar.getInstance().getTimeInMillis();
-            if ((sponsoredImage.getStartDate() <= currentTime  && currentTime <= sponsoredImage.getEndDate()) 
-                && LocaleUtil.isSponsoredRegions()
-                && mSharedPreferences.getInt(BackgroundImagesPreferences.PREF_APP_OPEN_COUNT, 0) != 1
-                && mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_SPONSORED_IMAGES, true)) {
-                sponsoredImageClick();
-                backgroundImage = sponsoredImage;
-            } else {
-                backgroundImage = SponsoredImageUtil.getBackgroundImage();
-            }
-        } else {
-            backgroundImage = SponsoredImageUtil.getBackgroundImage();
-        }
-
-        return backgroundImage;
+        return result;
     }
 
-    private void sponsoredImageClick() {
-        mNewTabPageLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                for (Activity ref : ApplicationStatus.getRunningActivities()) {
-                    if (!(ref instanceof ChromeTabbedActivity)) continue;
-                      ChromeTabbedActivity chromeTabbedActivity =  (ChromeTabbedActivity)ref;
-                      if (backgroundImage.getImageCredit() != null) {
-                        chromeTabbedActivity.openNewOrSelectExistingTab(backgroundImage.getImageCredit().getUrl());
-                      } 
-                }
-            }
-        });
-    }
 }

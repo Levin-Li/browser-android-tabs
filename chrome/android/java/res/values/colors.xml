@@ -20,6 +20,7 @@
     <color name="black_alpha_12">#1F000000</color>
     <color name="black_alpha_20">#33000000</color>
     <color name="black_alpha_30">#4D000000</color>
+    <color name="black_alpha_50">#80000000</color>
     <color name="white_alpha_65">#A6FFFFFF</color>
     <color name="white_alpha_90">#E6FFFFFF</color>
 
