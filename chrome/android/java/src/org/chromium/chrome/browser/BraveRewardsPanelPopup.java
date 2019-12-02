@@ -1351,7 +1351,6 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
     public void OnNotificationDeleted(String id) {
         DismissNotification(id);
         mBraveRewardsNativeWorker.GetWalletProperties();
-        mBraveRewardsNativeWorker.FetchGrants();
     }
 
     @Override
