@@ -61,6 +61,7 @@ import org.chromium.chrome.browser.vr.VrModeObserver;
 import org.chromium.chrome.browser.vr.VrModuleProvider;
 import org.chromium.ui.base.DeviceFormFactor;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;
+import org.chromium.chrome.browser.tab.Tab;
 
 /**
  * Layout for the new tab page. This positions the page elements in the correct vertical positions.
@@ -127,6 +128,8 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
     /** Flag used to request some layout changes after the next layout pass is completed. */
     private boolean mTileCountChanged;
     private boolean mSnapshotTileGridChanged;
+
+    private Tab mTab;
 
     /**
      * Vertical inset to add to the top and bottom of the search box bounds. May be 0 if no inset
@@ -218,7 +221,7 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
      * @param contextMenuManager The manager for long-press context menus.
      * @param uiConfig UiConfig that provides display information about this view.
      */
-    public void initialize(NewTabPageManager manager, ChromeActivity activity,
+    public void initialize(NewTabPageManager manager, Tab tab, ChromeActivity activity,
             @Nullable OverviewModeBehavior overviewModeBehavior,
             TileGroup.Delegate tileGroupDelegate, boolean searchProviderHasLogo,
             boolean searchProviderIsGoogle, ScrollDelegate scrollDelegate,
@@ -228,6 +231,8 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
         mManager = manager;
         mActivity = activity;
         mUiConfig = uiConfig;
+
+        mTab = tab;
 
         Profile profile = Profile.getLastUsedProfile();
         OfflinePageBridge offlinePageBridge =
@@ -789,7 +794,7 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
                 mTileGridPlaceholder = placeholderStub.inflate();
                 SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
                 if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
-                    && (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M || (Build.VERSION.SDK_INT < Build.VERSION_CODES.M && SponsoredImageUtil.imageIndex <= 16))) {
+                    && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && mTab.getIndex() <= 16))) {
                     TextView title = mTileGridPlaceholder.findViewById(R.id.most_visited_placeholder_title);
                     TextView summary = mTileGridPlaceholder.findViewById(R.id.most_visited_placeholder_summary);                    
                     title.setTextColor(getResources().getColor(android.R.color.white));
@@ -802,10 +807,10 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
         }
     }
 
-    private static int getMaxTileRows() {
+    private int getMaxTileRows() {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)
-            && (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M || (Build.VERSION.SDK_INT < Build.VERSION_CODES.M && SponsoredImageUtil.imageIndex <= 16))) {
+            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && mTab.getIndex() <= 16))) {
             return 1;
         } else {
             return 2;

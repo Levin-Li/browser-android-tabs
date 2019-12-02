@@ -14,6 +14,8 @@ import android.os.Build;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;
+import org.chromium.chrome.browser.BraveRewardsHelper;
+import org.chromium.chrome.browser.ChromeTabbedActivity;
 
 import org.chromium.chrome.R;
 
@@ -56,9 +58,11 @@ public class TileWithTextView extends TileView {
     public void setTitle(String title, int titleLines) {
         mTitleView.setLines(titleLines);
         mTitleView.setText(title);
+
+        ChromeTabbedActivity chromeTabbedActivity = BraveRewardsHelper.getChromeTabbedActivity();
         SharedPreferences mSharedPreferences = ContextUtils.getAppSharedPreferences();
         if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
-            && (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M || (Build.VERSION.SDK_INT < Build.VERSION_CODES.M && SponsoredImageUtil.imageIndex <= 16))) {
+            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && chromeTabbedActivity.getActivityTab().getIndex() < 16))) {
             mTitleView.setTextColor(getResources().getColor(android.R.color.white));
         }
     }
