@@ -242,6 +242,7 @@ public class TabImpl implements Tab {
     private final UserDataHost mUserDataHost = new UserDataHost();
 
     private BackgroundImage backgroundImage;
+    private int index;
 
     /**
      * Creates an instance of a {@link TabImpl}.
@@ -301,6 +302,7 @@ public class TabImpl implements Tab {
         mFingerprintsBlocked = 0;
 
         backgroundImage = getBackgroundImage();
+        index = SponsoredImageUtil.imageIndex;
     }
 
     @Override
@@ -1659,6 +1661,10 @@ public class TabImpl implements Tab {
         return backgroundImage;
     }
 
+    public int getIndex() {
+        return index;
+    }
+
     private BackgroundImage getBackgroundImage() {
         BackgroundImage backgroundImage;
         SharedPreferences mSharedPreferences = ContextUtils.getAppSharedPreferences();
@@ -1670,8 +1676,7 @@ public class TabImpl implements Tab {
             if ((sponsoredImage.getStartDate() <= currentTime  && currentTime <= sponsoredImage.getEndDate()) 
                 && LocaleUtil.isSponsoredRegions()
                 && mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_SPONSORED_IMAGES, true)) {
-                // sponsoredImageClick();
-                SponsoredImageUtil.imageIndex = SponsoredImageUtil.imageIndex + 3;
+                SponsoredImageUtil.imageIndex++;
                 return sponsoredImage;
             }
         }
@@ -1683,7 +1688,6 @@ public class TabImpl implements Tab {
                 && LocaleUtil.isSponsoredRegions()
                 && mSharedPreferences.getInt(BackgroundImagesPreferences.PREF_APP_OPEN_COUNT, 0) != 1
                 && mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_SPONSORED_IMAGES, true)) {
-                // sponsoredImageClick();
                 backgroundImage = sponsoredImage;
             } else {
                 backgroundImage = SponsoredImageUtil.getBackgroundImage();
