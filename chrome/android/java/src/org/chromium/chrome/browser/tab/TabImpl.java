@@ -70,6 +70,7 @@ import org.chromium.chrome.browser.ntp.sponsored.BackgroundImage;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImage;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;
 import org.chromium.chrome.browser.util.LocaleUtil;
+import android.os.Build;
 
 /**
  * Implementation of the interface {@link Tab}. Contains and manages a {@link ContentView}.
@@ -301,7 +302,9 @@ public class TabImpl implements Tab {
         mScriptsBlocked = 0;
         mFingerprintsBlocked = 0;
 
-        backgroundImage = getBackgroundImage();
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
+            backgroundImage = getBackgroundImage();
+        }
         index = SponsoredImageUtil.imageIndex;
     }
 
@@ -1676,7 +1679,7 @@ public class TabImpl implements Tab {
             if ((sponsoredImage.getStartDate() <= currentTime  && currentTime <= sponsoredImage.getEndDate()) 
                 && LocaleUtil.isSponsoredRegions()
                 && mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_SPONSORED_IMAGES, true)) {
-                SponsoredImageUtil.imageIndex++;
+                SponsoredImageUtil.imageIndex = SponsoredImageUtil.imageIndex + 3;
                 return sponsoredImage;
             }
         }

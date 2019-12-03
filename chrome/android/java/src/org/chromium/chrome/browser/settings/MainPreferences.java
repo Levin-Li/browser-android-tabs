@@ -72,6 +72,7 @@ public class MainPreferences extends BravePreferenceFragment
     // public static final String PREF_DATA_REDUCTION = "data_reduction";
     public static final String PREF_NOTIFICATIONS = "notifications";
     public static final String PREF_WELCOME_TOUR = "welcome_tour";
+    public static final String PREF_BACKGROUND_IMAGES = "backgroud_images";
     public static final String PREF_LANGUAGES = "languages";
     public static final String PREF_DOWNLOADS = "downloads";
     public static final String PREF_DEVELOPER = "developer";
@@ -225,6 +226,10 @@ public class MainPreferences extends BravePreferenceFragment
 
         if (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
             getPreferenceScreen().removePreference(welcomeTour);
+        }
+
+        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
+            getPreferenceScreen().removePreference(findPreference(PREF_BACKGROUND_IMAGES));
         }
     }
 

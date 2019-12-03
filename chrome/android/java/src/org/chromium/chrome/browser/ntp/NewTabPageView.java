@@ -342,7 +342,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
         TextView estTimeSavedTextView = (TextView) mBraveStatsView.findViewById(R.id.brave_stats_text_time);
 
         if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
-            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && mTab.getIndex() <= 16))) {
+            && Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
             adsBlockedTextView.setTextColor(mNewTabPageLayout.getResources().getColor(android.R.color.white));
             httpsUpgradesTextView.setTextColor(mNewTabPageLayout.getResources().getColor(android.R.color.white));
             estTimeSavedTextView.setTextColor(mNewTabPageLayout.getResources().getColor(android.R.color.white));            
@@ -496,7 +496,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
         TextView creditText = (TextView)mNewTabPageLayout.findViewById(R.id.credit_text);
 
         if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)
-            && Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && mTab.getIndex() <= 16)) {
+            && Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
             ViewTreeObserver observer = mNewTabPageLayout.getViewTreeObserver();
             observer.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
                 @Override
@@ -543,27 +543,29 @@ public class NewTabPageView extends HistoryNavigationLayout {
 
                     mNewTabPageLayout.setBackground(imageDrawable);
 
-                    if (backgroundImage.getImageCredit() != null && !(backgroundImage instanceof SponsoredImage)) {
-
-                        String imageCreditStr = String.format(mNewTabPageLayout.getResources().getString(R.string.photo_by, backgroundImage.getImageCredit().getName()));
-
-                        SpannableStringBuilder spannableString = new SpannableStringBuilder(imageCreditStr);
-                        spannableString.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), ((imageCreditStr.length()-1) - (backgroundImage.getImageCredit().getName().length()-1)), imageCreditStr.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-
-                        creditText.setText(spannableString);
-                        creditText.setVisibility(View.VISIBLE);
-                        creditText.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                for (Activity ref : ApplicationStatus.getRunningActivities()) {
-                                    if (!(ref instanceof ChromeTabbedActivity)) continue;
-                                      ChromeTabbedActivity chromeTabbedActivity =  (ChromeTabbedActivity)ref;
-                                      if (backgroundImage.getImageCredit() != null) {
-                                        chromeTabbedActivity.openNewOrSelectExistingTab(backgroundImage.getImageCredit().getUrl());
-                                      } 
+                    if (backgroundImage.getImageCredit() != null) {
+                        if (backgroundImage instanceof SponsoredImage) {
+                            mNewTabPageLayout.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    openImageCredit();
                                 }
-                            }
-                        });
+                            });
+                        } else {
+                            String imageCreditStr = String.format(mNewTabPageLayout.getResources().getString(R.string.photo_by, backgroundImage.getImageCredit().getName()));
+
+                            SpannableStringBuilder spannableString = new SpannableStringBuilder(imageCreditStr);
+                            spannableString.setSpan(new android.text.style.StyleSpan(android.graphics.Typeface.BOLD), ((imageCreditStr.length()-1) - (backgroundImage.getImageCredit().getName().length()-1)), imageCreditStr.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+                            creditText.setText(spannableString);
+                            creditText.setVisibility(View.VISIBLE);
+                            creditText.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    openImageCredit();
+                                }
+                            });
+                        }
                     } else {
                         creditText.setVisibility(View.GONE);
                     }
@@ -591,4 +593,13 @@ public class NewTabPageView extends HistoryNavigationLayout {
         return result;
     }
 
+    private void openImageCredit() {
+        for (Activity ref : ApplicationStatus.getRunningActivities()) {
+            if (!(ref instanceof ChromeTabbedActivity)) continue;
+            ChromeTabbedActivity chromeTabbedActivity =  (ChromeTabbedActivity)ref;
+            if (backgroundImage.getImageCredit() != null) {
+                chromeTabbedActivity.openNewOrSelectExistingTab(backgroundImage.getImageCredit().getUrl());
+            } 
+        }
+    }
 }
