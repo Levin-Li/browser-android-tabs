@@ -62,7 +62,7 @@ public class TileWithTextView extends TileView {
         ChromeTabbedActivity chromeTabbedActivity = BraveRewardsHelper.getChromeTabbedActivity();
         SharedPreferences mSharedPreferences = ContextUtils.getAppSharedPreferences();
         if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
-            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && chromeTabbedActivity.getActivityTab().getIndex() < 16))) {
+            && Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
             mTitleView.setTextColor(getResources().getColor(android.R.color.white));
         }
     }
