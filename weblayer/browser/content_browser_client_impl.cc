@@ -364,7 +364,7 @@ SafeBrowsingService* ContentBrowserClientImpl::GetSafeBrowsingService() {
     // Create and initialize safe_browsing_service on first get.
     // Note: Initialize() needs to happen on UI thread.
     safe_browsing_service_ =
-        std::make_unique<SafeBrowsingService>(GetUserAgent());
+        std::make_unique<SafeBrowsingService>(GetUserAgent(""));
     safe_browsing_service_->Initialize();
   }
   return safe_browsing_service_.get();
