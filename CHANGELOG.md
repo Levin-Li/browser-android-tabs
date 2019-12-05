@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.6.0)
+ 
+ - Added images to new tab page. ([#2176](https://github.com/brave/browser-android-tabs/issues/2176))
+ - Improved URL bar icons visibility when using either dark and light themes. ([#2287](https://github.com/brave/browser-android-tabs/issues/2287))
+ - Fixed incorrect icons being used for HTTP and broken HTTPS sites. ([#2296](https://github.com/brave/browser-android-tabs/issues/2296))
+ - Fixed new tab button ("+") from creating 2 tabs when all existing tabs are closed. ([#2295](https://github.com/brave/browser-android-tabs/issues/2295))
+
 ## [1.5.2](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.2)
 
  - Fixed rewards icon not being displayed in the URL bar after re-enabling Brave Rewards. ([#2265](https://github.com/brave/browser-android-tabs/issues/2265))
