@@ -736,8 +736,14 @@ public class ToolbarTablet extends ToolbarLayout
     void updateButtonVisibility() {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         if (isIncognito()) {
-            if (mRewardsLayout != null) {
+            if (mRewardsLayout != null && mShieldsLayout != null) {
                 mRewardsLayout.setVisibility(View.GONE);
+                mShieldsLayout.setBackgroundDrawable(
+                    ApiCompatibilityUtils.getDrawable(getContext().getResources(), R.drawable.modern_toolbar_background_grey_end_segment));
+                final int textBoxColor = ColorUtils.getTextBoxColorForToolbarBackground(
+                    getResources(), false, 0, isIncognito());
+                mShieldsLayout.getBackground().setColorFilter(textBoxColor, PorterDuff.Mode.SRC_IN);
+                mShieldsLayoutIsColorBackground = false;
             }
         } else if (isNativeLibraryReady() &&
                 ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) &&
