@@ -40,6 +40,30 @@ jboolean JNI_BraveAdsNativeHelper_IsLocaleValid(
   return ads_service_->IsSupportedLocale();
 }
 
+jboolean JNI_BraveAdsNativeHelper_IsSupportedLocale(
+    JNIEnv* env,
+    const base::android::JavaParamRef<jobject>& j_profile_android) {
+  Profile* profile = ProfileAndroid::FromProfileAndroid(j_profile_android);
+  auto* ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(profile);
+  if (!ads_service_) {
+    return false;
+  }
+
+  return ads_service_->IsSupportedLocale();
+}
+
+jboolean JNI_BraveAdsNativeHelper_IsNewlySupportedLocale(
+    JNIEnv* env,
+    const base::android::JavaParamRef<jobject>& j_profile_android) {
+  Profile* profile = ProfileAndroid::FromProfileAndroid(j_profile_android);
+  auto* ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(profile);
+  if (!ads_service_) {
+    return false;
+  }
+
+  return ads_service_->IsNewlySupportedLocale();
+}
+
 void JNI_BraveAdsNativeHelper_SetAdsEnabled(
     JNIEnv* env,
     const base::android::JavaParamRef<jobject>& j_profile_android) {
@@ -50,23 +74,6 @@ void JNI_BraveAdsNativeHelper_SetAdsEnabled(
   }
 
   ads_service_->SetEnabled(true);
-}
-
-base::android::ScopedJavaLocalRef<jstring> JNI_BraveAdsNativeHelper_GetCountryCode(
-  JNIEnv* env,
-  const base::android::JavaParamRef<jstring>& jlocale){
-
-  std::string locale = base::android::ConvertJavaStringToUTF8(env, jlocale);
-  std::string country_code = brave_ads::LocaleHelperAndroid::GetCountryCode(locale);
-  return base::android::ConvertUTF8ToJavaString(env, country_code);
-}
-
-base::android::ScopedJavaLocalRef<jstring> JNI_BraveAdsNativeHelper_GetLocale(
-  JNIEnv* env){
-
-  brave_ads::LocaleHelper* locale_helper = brave_ads::LocaleHelper::GetInstance();
-  std::string locale = locale_helper->GetLocale();
-  return base::android::ConvertUTF8ToJavaString(env, locale);
 }
 
 }  // namespace android

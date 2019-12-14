@@ -49,42 +49,6 @@ public class OnboardingPrefManager {
 
     public static boolean isNotification;
 
-    private static final List<String> adsAvailableRegions = Arrays.asList(
-      "US",  // United States of America
-      "CA",  // Canada
-      "GB",  // United Kingdom (Great Britain and Northern Ireland)
-      "DE",  // Germany
-      "FR",  // France
-      "AU",  // Australia
-      "NZ",  // New Zealand
-      "IE",  // Ireland
-      "AR",  // Argentina
-      "AT",  // Austria
-      "BR",  // Brazil
-      "CH",  // Switzerland
-      "CL",  // Chile
-      "CO",  // Colombia
-      "DK",  // Denmark
-      "EC",  // Ecuador
-      "IL",  // Israel
-      "IN",  // India
-      "IT",  // Italy
-      "JP",  // Japan
-      "KR",  // Korea
-      "MX",  // Mexico
-      "NL",  // Netherlands
-      "PE",  // Peru
-      "PH",  // Philippines
-      "PL",  // Poland
-      "SE",  // Sweden
-      "SG",  // Singapore
-      "VE",  // Venezuela
-      "ZA",  // South Africa
-      "KY"   // Cayman Islands 
-    );
-
-    private static final List<String> newAdsAvailableRegions = Arrays.asList(); //Add country code for new ad regions in the list
-
     private static final String GOOGLE = "Google";
     private static final String DUCKDUCKGO = "DuckDuckGo";
     private static final String DUCKDUCKGOLITE = "DuckDuckGo Lite";
@@ -196,15 +160,11 @@ public class OnboardingPrefManager {
     }
 
     public boolean isAdsAvailable() {
-      String locale = BraveAdsNativeHelper.nativeGetLocale();
-      String countryCode = BraveAdsNativeHelper.nativeGetCountryCode(locale);
-      return adsAvailableRegions.contains(countryCode);
+      return BraveAdsNativeHelper.nativeIsSupportedLocale(Profile.getLastUsedProfile());
     }
 
     public boolean isAdsAvailableNewLocale(){
-      String locale = BraveAdsNativeHelper.nativeGetLocale();
-      String countryCode = BraveAdsNativeHelper.nativeGetCountryCode(locale);
-      return newAdsAvailableRegions.contains(countryCode);
+      return BraveAdsNativeHelper.nativeIsNewlySupportedLocale(Profile.getLastUsedProfile());
     }
 
     public void showOnboarding(Context context, boolean fromSettings) {
