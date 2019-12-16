@@ -18,7 +18,7 @@ public class SponsoredImageUtil {
             new BackgroundImage(R.drawable.ben_karpinski, 815, new ImageCredit("Ben Karpinski", "http://www.benkarpinski.com/landscapes")),
             new BackgroundImage(R.drawable.dc_cavalleri, 480, new ImageCredit("D.C. Cavalleri", "https://gradivis.com")),
             new BackgroundImage(R.drawable.joe_gardner, 1277, new ImageCredit("Joe Gardner", "https://unsplash.com/@josephgardnerphotography?utm_source=unsplash&utm_medium=referral&utm_content=credit")),
-            new BackgroundImage(R.drawable.louis_kim, 0, new ImageCredit("Louis Kim", "http://www.louiskimphotography.com/")),
+            new BackgroundImage(R.drawable.louis_kim, 0, new ImageCredit("Louis Kim", "http://louiskimphotography.com/")),
             new BackgroundImage(R.drawable.matt_palmer, 1205, new ImageCredit("Matt Palmer", "https://unsplash.com/@mattpalmer?utm_source=unsplash&utm_medium=referral&utm_content=credit")),
             new BackgroundImage(R.drawable.oliwier_gesla, 780, new ImageCredit("Oliwier Gesla", "https://www.instagram.com/oliwiergesla/")),
             new BackgroundImage(R.drawable.svalbard_jerol_soibam, 1280, new ImageCredit("Jerol Soibam", "https://www.instagram.com/jerol_soibam/")),
