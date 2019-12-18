@@ -59,13 +59,14 @@ const walletReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State,
         let ui = state.ui
 
         // TODO NZ check why enum can't be used inside Rewards namespace
-        if (action.payload.properties.status === 1) {
+        if (action.payload.properties.status != 0) {
           ui.walletServerProblem = true
         } else {
           // TODO NZ don't just assign directly
           state.contributionMonthly = action.payload.properties.monthlyAmount
           state.walletInfo = action.payload.properties.wallet
           ui.walletServerProblem = false
+          chrome.send('brave_rewards.fetchBalance')
         }
 
         state = {
@@ -211,7 +212,7 @@ const walletReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State,
         }
 
         if (!state.walletCreated && action.payload.exists) {
-          state = createWallet(state) 
+          state = createWallet(state)
         }
 
         fetchRewardsInfo(state)
@@ -241,7 +242,7 @@ const walletReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State,
         state.pendingContributionTotal = action.payload.amount
         break
       }
-    case types.GET_BALANCE: 
+    case types.GET_BALANCE:
       {
         chrome.send('brave_rewards.fetchBalance')
         break
@@ -250,18 +251,18 @@ const walletReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State,
       {
         const status = action.payload.status
         let ui = state.ui
-  
+
         if (status === 0) { // on ledger::Result::LEDGER_OK
           state.balance = action.payload.balance
           ui.walletServerProblem = false
-  
+
           if (ui.emptyWallet && state.balance && state.balance.total > 0) {
             ui.emptyWallet = false
           }
         } else if (status === 1) { // on ledger::Result::LEDGER_ERROR
           ui.walletServerProblem = true
         }
-  
+
         state = {
           ...state,
           ui

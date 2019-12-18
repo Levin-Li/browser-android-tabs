@@ -131,7 +131,7 @@ class PageWallet extends React.Component<Props, State> {
           </StyledWalletClose>
           <StyledWalletWrapper>
             <WalletWrapper
-              balance={total.toFixed(1)}
+              balance={utils.convertNumberToFixed(total)}
               converted={utils.formatConverted(this.getConversion())}
               actions={[]}
               compact={true}

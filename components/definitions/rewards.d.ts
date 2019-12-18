@@ -85,6 +85,43 @@ declare namespace Rewards {
     status?: GrantStatus
   }
 
+  //new Promotion types/////////////////////////////////////////////////////////////////
+  export type CaptchaStatus = 'start' | 'wrongPosition' | 'generalError' | 'finished' | null
+  export enum PromotionTypes {
+    UGP = 0,
+    ADS = 1
+  }
+  export enum PromotionStatus {
+    ACTIVE = 0,
+    ATTESTED = 1,
+    CLAIMED = 2,
+    SIGNED_TOKENS = 3,
+    FINISHED = 4,
+    OVER = 5
+  }
+  export interface Promotion {
+    promotionId: string
+    amount: number
+    expiresAt: number
+    status: PromotionStatus
+    type: PromotionTypes
+    captchaImage?: string
+    captchaId?: string
+    hint?: string
+    captchaStatus?: CaptchaStatus
+  }
+  export interface PromotionResponse {
+    result: number
+    promotions: Promotion[]
+  }
+
+  export interface PromotionFinish {
+    result: Result,
+    promotion?: Promotion
+  }
+
+  //////////////////////////////////////////////////////////////////////////////////////
+
   export interface WalletProperties {
     choices: number[]
     range?: number[]

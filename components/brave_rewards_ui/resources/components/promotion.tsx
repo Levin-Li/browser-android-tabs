@@ -17,7 +17,7 @@ import { Type as GrantType } from 'brave-ui/src/features/rewards/grantClaim'
 // Utils
 import { getLocale } from '../../../common/locale'
 import * as rewardsActions from '../actions/rewards_actions'
-import { convertProbiToFixed } from '../utils'
+//import { convertProbiToFixed } from '../utils'
 
 type Step = '' | 'complete'
 
@@ -84,7 +84,7 @@ class Grant extends React.Component<Props, State> {
 
   onClaim = (promotionId?: string) => {
     this.setState({ loading: true })
-    this.actions.getGrantCaptcha(promotionId)
+    this.actions.claimPromotion(promotionId)
     this.setState({ grantStep: 'complete' })
   }
 
@@ -93,7 +93,7 @@ class Grant extends React.Component<Props, State> {
       grantShown: false,
       loading: false
     })
-    this.actions.onDeleteGrant()
+    this.actions.deletePromotion()
   }
 
   validateGrant = (tokens?: string) => {
@@ -130,15 +130,17 @@ class Grant extends React.Component<Props, State> {
       promoId = grant.promotionId
     }
     if (grant.probi) {
-      tokens = convertProbiToFixed(grant.probi)
+      //tokens = convertProbiToFixed(grant.probi)
+      tokens = grant.probi
     }
 
     if (grant.type !== 'ads') {
-      date = new Date(grant.expiryTime).toLocaleDateString()
+      date = new Date(grant.expiryTime * 1000).toLocaleDateString()
     }
 
     // Guard against null grant statuses
     const validGrant = this.validateGrant(tokens)
+
 
     return (
       <React.Fragment>
