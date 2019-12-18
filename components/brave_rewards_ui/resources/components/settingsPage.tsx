@@ -7,7 +7,7 @@ import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
 
 // Components
-import Grant from './grant'
+import Grant from './promotion'
 import AdsBox from './adsBox'
 import ContributeBox from './contributeBox'
 import DonationBox from './donationsBox'
@@ -187,7 +187,7 @@ class SettingsPage extends React.Component<Props, State> {
         }
         <WalletInfoHeader
           onClick={this.onToggleWallet}
-          balance={total.toFixed(1).toString()}
+          balance={utils.convertNumberToFixed(total)}
           id={'mobile-wallet'}
           onlyAnonWallet={onlyAnonWallet}
           converted={`${convertedBalance} USD`}

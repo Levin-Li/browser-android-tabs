@@ -7,7 +7,7 @@ import { combineReducers } from 'redux'
 // Utils
 import rewardsReducer from './rewards_reducer'
 import walletReducer from './wallet_reducer'
-import grantReducer from './grant_reducer'
+import grantReducer from './promotion_reducer'
 import publishersReducer from './publishers_reducer'
 import * as storage from '../storage'
 
