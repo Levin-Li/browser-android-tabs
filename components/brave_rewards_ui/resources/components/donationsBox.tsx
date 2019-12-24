@@ -79,7 +79,7 @@ class DonationBox extends React.Component<Props, {}> {
           faviconUrl = `chrome://favicon/size/48@1x/${item.favIcon}`
         }
 
-        const token = utils.convertProbiToFixed(item.percentage.toString())
+        const token = parseFloat(item.percentage.toString()).toFixed(1)
 
         return {
           profile: {
