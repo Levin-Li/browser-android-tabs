@@ -910,8 +910,19 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                             notification_icon.setImageResource(R.drawable.contribute_icon);
                             hl.setBackgroundResource(R.drawable.notification_header_normal);
 
-                            double value = Double.parseDouble(args[3]);
-                            String valueString = String.format("%.1f", value);
+                            double value = 0;
+                            String valueString = "";
+                            String[] splittedValue = args[3].split("\\.", 0);
+                            // 18 digits is a probi min digits count
+                            if (splittedValue.length != 0 && splittedValue[0].length() >= 18) {
+                                value = BraveRewardsHelper.probiToDouble(args[3]);
+                                valueString = Double.isNaN(value) ?
+                                    ERROR_CONVERT_PROBI : String.format("%.1f", value);
+                            } else {
+                                value = Double.parseDouble(args[3]);
+                                valueString = String.format("%.1f", value);
+                            }
+
                             description = String.format(
                                 root.getResources().getString(R.string.brave_ui_rewards_contribute_description),
                                     valueString, batPointsText);
