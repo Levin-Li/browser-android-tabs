@@ -910,11 +910,11 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
                             notification_icon.setImageResource(R.drawable.contribute_icon);
                             hl.setBackgroundResource(R.drawable.notification_header_normal);
 
-                            double  probiDouble = BraveRewardsHelper.probiToDouble(args[3]);
-                            String probiString = Double.isNaN(probiDouble) ? ERROR_CONVERT_PROBI : String.format("%.1f", probiDouble);
+                            double value = Double.parseDouble(args[3]);
+                            String valueString = String.format("%.1f", value);
                             description = String.format(
                                 root.getResources().getString(R.string.brave_ui_rewards_contribute_description),
-                                    probiString, batPointsText);
+                                    valueString, batPointsText);
                             break;
                         case AUTO_CONTRIBUTE_NOT_ENOUGH_FUNDS:
                             title = "";
