@@ -151,8 +151,6 @@ Säästa akut ja lae lehti kiiremini</string>
 
     <string name="brave_ui_welcome_header_two">Valmistu kogema
 uut internetti.</string>
-    <string name="brave_ui_welcome_desc_two">Nüüd on teil võimalik teenida <ph name="TOKEN">%1$s<ex>token</ex></ph> (mille eest)
-privaatsust austavate reklaamide jälgimine.</string>
     <string name="brave_ui_welcome_button_text_two">LIITU PREEMIATEGA</string>
     <string name="brave_ui_welcome_footer_text_two">LISATEAVE</string>
     <string name="brave_ui_rewards_creating_text">Rahakoti loomine</string>
@@ -325,4 +323,4 @@ armastatud sisuloojate toetamiseks.</string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
-</resources>
+    </resources>

@@ -154,8 +154,7 @@ HTTPS</string>
 
     <string name="brave_ui_welcome_header_two">استعد لتجربة
 الإنترنت الجديد.</string>
-    <string name="brave_ui_welcome_desc_two">يمكنك الآن ربح <ph name="TOKEN">%1$s<ex>token</ex></ph> مقابل
-مشاهدة الإعلانات التي تحترم الخصوصية.</string>
+    <string name="brave_ui_welcome_desc_two">يمكنك الآن ربح <ph name=\"TOKEN\">%1$s<ex>عملة رمزية</ex></ph>s مقابل مشاهدتك لإعلانات تحترم الخصوصية. </string>
     <string name="brave_ui_welcome_button_text_two">الانضمام إلى الجوائز</string>
     <string name="brave_ui_welcome_footer_text_two">معرفة المزيد</string>
     <string name="brave_ui_rewards_creating_text">جار إنشاء محفظة</string>
@@ -331,5 +330,7 @@ HTTPS</string>
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>عملة BAT الرمزية</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>عملة BAT الرمزية</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>عملة BAT الرمزية</ex></ph></string>
+
+    <string name="photo_by">صورة من تصوير <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

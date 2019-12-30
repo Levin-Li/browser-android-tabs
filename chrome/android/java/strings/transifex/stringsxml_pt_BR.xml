@@ -151,7 +151,7 @@ Economize bateria e carregue as páginas web mais rápido</string>
 
     <string name="brave_ui_welcome_header_two">Prepare-se para conhecer
 a nova internet.</string>
-    <string name="brave_ui_welcome_desc_two">Você agora pode ganhar <ph name="TOKEN">%1$s<ex>token</ex></ph> para assistir anúncios que respeitam sua privacidade.</string>
+    <string name="brave_ui_welcome_desc_two">Você pode ganhar <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s por assistir aos anúncios que respeitam a privacidade.</string>
     <string name="brave_ui_welcome_button_text_two">PARTICIPAR DO REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">SAIBA MAIS</string>
     <string name="brave_ui_rewards_creating_text">Criando carteira digital</string>
@@ -325,5 +325,7 @@ contribuindo para seus criadores de conteúdo favoritos.</string>
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Foto de <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

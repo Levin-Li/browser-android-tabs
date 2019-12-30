@@ -3,22 +3,24 @@
     <string name="brave_settings_title">Rregullime mburoje Brave sajti për</string>
     <string name="brave_shields_down">Poshtë</string>
     <string name="brave_shields_up">Sipër</string>
+    <string name="brave_shields_ads_trackers">Reklama &amp; Gjurmues të Bllokuar</string>
     <string name="brave_shields_https_upgrades">Përmirësime HTTPS</string>
     <string name="brave_shields_scripts_blocked">Programthe të Bllokuar</string>
+    <string name="brave_shields_ads_tracking_switch">Bllokoni Reklama &amp; Gjurmues</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Bllokoni Skripte</string>
     <string name="accessibility_toolbar_btn_brave_shields">Aktivizoni/Çaktivizoni Mburoja Brave</string>
-    <string name="accessibility_toolbar_btn_brave_rewards">Administroni Shpërblime Brave</string>
-    <string name="brave_shields_block_3rd_party_cookies_switch">Blloko cookies palësh të treta</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">Aktivizoni/Çaktivizoni Shpërblime Brave</string>
+    <string name="brave_shields_block_3rd_party_cookies_switch">Blloko <em>cookies</em> palësh të treta</string>
 
     <string name="httpse_summary">Sajtet që e mbulojnë këtë akt, i hap duke përdorur HTTPS, në vend se HTTP, kur kjo është e mundur</string>
     <string name="ad_block_title">Bllokim Reklamash</string>
     <string name="ad_block_summary">Pengon ngarkim reklamash</string>
 
-    <string name="fingerprinting_protection_title">Mbrojtje Nga Fingerprinting</string>
-    <string name="fingerprinting_protection_summary">Pengoji shfletuesit të kryejnë fingerprinting</string>
+    <string name="fingerprinting_protection_title">Mbrojtje Nga <em>Fingerprinting</em></string>
+    <string name="fingerprinting_protection_summary">E pengon shfletuesin të kryejë <em>fingerprinting</em></string>
     <string name="brave_shields_fingerprints_blocked">U bllokuan Metoda Fingerprinting-u</string>
-    <string name="brave_shields_block_fingerprints_switch">Mbrojtje Nga Fingerprinting</string>
+    <string name="brave_shields_block_fingerprints_switch">Mbrojtje Nga <em>Fingerprinting</em></string>
 
     <string name="ad_block_regional_title">Bllokim Reklamash Rajonale</string>
     <string name="ad_block_regional_summary">Pengon ngarkimin e reklamave rajonale</string>
@@ -32,10 +34,12 @@
     <string name="sync_settings_add_device_name_label">Jepni një emër opsional për këtë pajisje</string>
     <string name="sync_example_device_name">Pajisje Android</string>
     <string name="enter_code_words_sync">Jepni fjalë kod</string>
-    <string name="sync_device">Njëkohësoni pajisje</string>
-    <string name="sync_device_failure">S\’u rregullua dot njëkohësim</string>
+    <string name="sync_device">Njëkohësoni pajisjen</string>
+    <string name="sync_device_failure">S\’u ujdis dot njëkohësim</string>
     <string name="sync_requires_correct_time">Ora e kompjuterit tuaj, ose zona kohore për të, mund të jetë caktuar gabim. Ju lutemi, kontrolloni rregullimet tuaja për orën.</string>
 
+    <string name="brave_stats_text_ads">U bllokuan
+Reklama &amp; Gjurmues</string>
     <string name="brave_stats_text_https">Përmirësime
 HTTPS-je</string>
     <string name="brave_stats_text_time">Kohë e Kursyes
@@ -52,13 +56,14 @@ Afërsisht</string>
     <string name="brave_shields_first_group_title">Bllokim Monitori</string>
     <string name="brave_shields_second_group_title">Kontrolle Individuale</string>
     <string name="brave_shields">Mburoja</string>
+    <string name="brave_shields_ads_and_trackers">Reklama &amp: Gjurmues</string>
     <string name="brave_shields_fingerprint_methods">Metoda Fingerprinting-u</string>
     <string name="brave_shields_block_phishing_switch">Blloko Karremëzim</string>
 
     <string name="play_video_in_background_title">Luajtje videosh në prapaskenë</string>
     <string name="website_settings_category_play_video_in_background_enabled_summary">E aktivizuar</string>
     <string name="website_settings_category_play_video_in_background_disabled_summary">E çaktivizuar</string>
-    <string name="website_settings_category_play_video_in_background_enabled">Eksperimentale. Bën të mundur luajtje audioje prej videosh në prapaskenë, kur skeda s\’është aktive ose kur ekrani i pajisjes është i fikur. Nëse kjo veçori nuk funksionon, provoni të kaloni te desktopi.</string>
+    <string name="website_settings_category_play_video_in_background_enabled">Eksperimentale. Bën të mundur luajtje audioje prej videosh në prapaskenë, kur skeda s\’është aktive ose kur ekrani i pajisjes është i fikur. Nëse kjo veçori nuk funksionon, provoni të kaloni te mënyra desktop.</string>
     <string name="settings_require_relaunch_notice">Ndryshimet tuaja do të hyjnë në fuqi herës tjetër që do të rinisni Brave-in</string>
     <string name="settings_require_relaunch_now">RINISENI TANI</string>
     <string name="settings_require_relaunch_later">MË VONË</string>
@@ -86,16 +91,16 @@ Afërsisht</string>
     <string name="brave_close_all_private_tabs">Mbylli skedat private</string>
     <string name="brave_new_private_tab">Skedë e re private</string>
     <string name="brave_new_tab_private_header">Kjo është një Skedë Private</string>
-    <string name="brave_new_tab_private_message">Edhe pse sajtet që vizitoni në skeda private nuk ruhen lokalisht, këto nuk ju bëjnë anonim apo të padukshëm për ISP-në tuaj, për punëdhënësin tuaj, apo për sajtet që vizitoni.</string>
+    <string name="brave_new_tab_private_message">Edhe pse sajtet që vizitoni në skeda private nuk ruhen lokalisht, kjo nuk ju bëjnë anonim apo të padukshëm për ISP-në tuaj, për punëdhënësin tuaj, apo për sajtet që vizitoni.</string>
     <string name="update_notification_title">Përditësim Brave-i</string>
     <string name="update_notification_text">Shfletuesi i ri Brave është 22% më i shpejtë</string>
     <string name="prefs_sync">Njëkohësim (beta)</string>
     <string name="brave_ads_existing_user_offer_title">Mbërritën Reklamat Brave!</string>
     <string name="brave_ads_new_user_offer_title">Aktivizo Shpërblime Brave</string>
-    <string name="brave_ads_offer_text">Fitoni Basic Attention Token nga parja reklamash që ruajnë privatësinë, tek Shpërblime Brave.</string>
+    <string name="brave_ads_offer_text">Fitoni <em>Basic Attention</em> Token nga parja reklamash që ruajnë privatësinë, tek Shpërblime Brave.</string>
     <string name="brave_ads_offer_positive">Dua dhe unë!</string>
     <string name="brave_sync_description_page_1_part_1">Brave Sync ju lejon të njëkohësoni privatisht të dhëna faqerojtësish mes Shfletuesve tuaj Brave në pajisje të ndryshme.</string>
-    <string name="brave_sync_description_page_1_part_2">Thjesht skanoni kodin prej zinxhirit tuaj të njëkohësimit që keni krijuar në pajisje tjetër. Ose nisni një zinxhir të ri.</string>
+    <string name="brave_sync_description_page_1_part_2">Thjesht skanoni kodin prej zinxhirit tuaj të njëkohësimit që keni krijuar në pajisje tjetër. Ose nisni një zinxhir të ri njëkohësimi.</string>
     <string name="brave_sync_scan_chain_code">Skanoni ose jepni kod njëkohësimi</string>
     <string name="brave_sync_start_new_chain">Nisni një zinxhir të ri njëkohësimi</string>
     <string name="brave_sync_qrcode_message_v2">Duke përdorur një pajisje ekzistuese të njëkohësuar, hapni Rregullime Brave-i dhe kaloni te Rregullime > Njëkohësim. Zgjidhni \"Shtoni Pajisje\" dhe skanoni kodin QR të shfaqur në ekran.</string>
@@ -104,7 +109,7 @@ Afërsisht</string>
     <string name="brave_sync_btn_laptop">Shtoni një Kompjuter</string>
     <string name="brave_sync_scan_sync_code">Skanoni këtë kod njëkohësimi</string>
     <string name="brave_sync_add_mobile_device_text_part_1">Duke përdorur një telefon apo tablet të dytë, kaloni te Rregullime Brave-i > Njëkohësim > Skanim.</string>
-    <string name="brave_sync_add_mobile_device_text_part_2">Te pajisja juaj celulare, kaloni te Brave Sync te paneli Rregullime dhe klikoni mbi butonin \"Skano Kod Sync-u\". Përdorni kamerën tuaj që të skanoni Kodin QR më poshtë.</string>
+    <string name="brave_sync_add_mobile_device_text_part_2">Te pajisja juaj celulare, kaloni te Brave Sync, te paneli Rregullime, dhe klikoni butonin \"Skano Kod Njëkohësimi\". Përdorni kamerën tuaj për të skanuar Kodin QR më poshtë.</string>
     <string name="brave_sync_btn_done">U bë</string>
     <string name="brave_sync_tabs_text">Skeda</string>
     <string name="brave_sync_history_text">Historik</string>
@@ -118,15 +123,15 @@ Afërsisht</string>
     <string name="brave_sync_remove_device_text">Hiqe këtë pajisje</string>
     <string name="brave_sync_code_words_title">Çiftoje</string>
     <string name="brave_sync_add_laptop_text_title">Jepni kodin e njëkohësimit të zinxhirit</string>
-    <string name="brave_sync_add_laptop_text_part_1">Në kompjuterin tuaj, kaloni te Rregullime Brave-i > Njëkohësime. Zgjidhni \"Jepni një Kod Njëkohësimi Zinxhiri\".</string>
+    <string name="brave_sync_add_laptop_text_part_1">Në kompjuterin tuaj, kaloni te Rregullime Brave-i > Njëkohësime. Zgjidhni \"Jepni një Kod Zinxhiri Njëkohësimi\".</string>
     <string name="brave_sync_add_laptop_text_part_2">Jepni fjalët e kodit më sipër, përfshi hapësira.</string>
-    <string name="brave_sync_delete_device">Jeni i sigurt se doni të fshihet pajisja \'<ph name="DEVICE_NAME">%1$s</ph>\'?</string>
+    <string name="brave_sync_delete_device">Jeni i sigurt se doni të fshihet pajisja \'<ph name=\"DEVICE_NAME\">%1$s</ph>\'?</string>
     <string name="brave_sync_delete_sent">Kërkesa për fshirje u dërgua. Pajisja do të hiqet së shpejti.</string>
     <string name="brave_sync_loading_data_title">Po ngarkohen të dhëna…</string>
     <string name="brave_sync_time_out_message">Diç shkoi ters, duket sikur kërkesës tuaj i mbaroi koha.</string>
     <string name="brave_sync_use_camera_text">Do të përdor kamerën time…</string>
     <string name="brave_sync_confirm_code_words_text">Ripohojeni</string>
-    <string name="brave_sync_word_count_text">Numër fjalësh: <ph name="WORD_COUNT">%1$d</ph></string>
+    <string name="brave_sync_word_count_text">Numër fjalësh: <ph name=\"WORD_COUNT\">%1$d</ph></string>
     <string name="brave_sync_word_count_error">Numër  fjalësh i pasaktë</string>
     <string name="brave_sync_qr_code">Kod QR</string>
     <string name="brave_sync_code_words">Fjalë Kodi</string>
@@ -146,25 +151,31 @@ Kurseni baterinë dhe ngarkojini faqet web më shpejt</string>
 
     <string name="brave_ui_welcome_header_two">Bëhuni gati të shijoni
 Internetin e ardhshëm.</string>
-    <string name="brave_ui_welcome_desc_two">Mund të fitoni <ph name="TOKEN">%1$s<ex>token</ex></ph> duke parë
-reklama që respektojnë privatësinë.</string>
+    <string name="brave_ui_welcome_desc_two">Tani mund të fitoni <ph name="TOKEN">%1$s<ex>token</ex></ph>s nga shikim
+reklamash që respektojnë privatësinë.</string>
     <string name="brave_ui_welcome_button_text_two">MERRNI PJESË TE SHPËRBLIME</string>
     <string name="brave_ui_welcome_footer_text_two">MËSONI MË TEPËR</string>
     <string name="brave_ui_rewards_creating_text">Krijim portofoli</string>
     <string name="brave_ui_your_wallet">Portofoli juaj</string>
+    <string name="brave_ui_your_balance">Bilanci juaj</string>
     <string name="brave_ui_bat_text">BAT</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Pikë BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph> USD</string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Shtoni Fonde</string>
     <string name="brave_ui_settings">Rregullime</string>
     <string name="brave_ui_rewards_summary">PËRMBLEDHJE SHPËRBLIMESH</string>
     <string name="brave_ui_site_banner_welcome">Mirë se vini!</string>
-    <string name="brave_ui_rewards_banner_text1">Mund ta përkrahni këtë sajt duke dërguar një bakshish. Është një mënyrë për t\’i falënderuar për krijim lënde të mirë. Krijuesve të verifikuar të lëndës u paguhen bakshishet gjatë javës së parë të çdo muaji kalendarik.</string>
-    <string name="brave_ui_rewards_banner_text2">Nëse dëshironi, mund të planifikoni bakshishe të përmuajshëm, në përkrahje të vazhdueshme të këtij sajti.</string>
+    <string name="brave_ui_rewards_banner_text1">Mund ta përkrahni këtë sajt duke dërguar një bakshish. Është një mënyrë për t\’i falënderuar për krijim lënde të fuqishme. Krijuesve të verifikuar të lëndës u paguhen bakshishet gjatë javës së parë të çdo muaji kalendarik.</string>
+    <string name="brave_ui_rewards_banner_text2">Nëse dëshironi, mund të planifikoni bakshishe të përmuajshëm, si përkrahje në vazhdimësi të këtij sajti.</string>
     <string name="brave_ui_donation_amount">Sasi bakshishi</string>
     <string name="brave_ui_wallet_balance">gjendje portofoli:</string>
     <string name="brave_ui_make_monthly">Bëje të përmuajshëm</string>
     <string name="brave_ui_send_tip">dërgo bakshishin tim</string>
     <string name="brave_ui_do_monthly">caktoni bakshish të përmuajshëm</string>
-    <string name="brave_ui_site_banner_notice_text">SHËNIM: Ky krijues s\’është regjistruar ende për të marrë kontribute nga përdorues të Brave-it. Do të provojmë ta japim kontributin derisa të verifikohen, ose derisa të kenë kaluar 90 ditë.</string>
+    <string name="brave_ui_not_enough_tokens"><ph name="TOKEN">%1$s<ex>token</ex></ph>s të pamjaftueshëm</string>
+    <string name="brave_ui_site_banner_notice_text">SHËNIM: Ky krijues s\’është regjistruar ende për të marrë kontribute nga përdorues të Brave-it. Do të provojmë ta japim kontributin deri sa të verifikohet, ose deri sa të kenë kaluar 90 ditë.</string>
     <string name="brave_ui_please">ju lutemi</string>
     <string name="brave_ui_add_funds">shtoni fonde</string>
     <string name="brave_ui_thank_you">Faleminderit!</string>
@@ -181,7 +192,7 @@ reklama që respektojnë privatësinë.</string>
     <string name="brave_ui_month_oct">TETOR</string>
     <string name="brave_ui_month_nov">NËNTOR</string>
     <string name="brave_ui_month_dec">DHJETOR</string>
-    <string name="brave_ui_month_year"><ph name="MONTH">%1$s<ex>DHJETOR</ex></ph> <ph name="YEAR">%2$s<ex>2018</ex></ph></string>
+    <string name="brave_ui_month_year"><ph name=\"MONTH\">%1$s<ex>DHJETOR</ex></ph> <ph name=\"YEAR\">%2$s<ex>2018</ex></ph></string>
     <string name="brave_ui_rewards_contribute_attention">Kujdes</string>
     <string name="brave_ui_include_in_auto">Përfshije në Vetëkontribut</string>
     <string name="brave_ui_donate_now">Dërgoni një bakshish…</string>
@@ -189,14 +200,22 @@ reklama që respektojnë privatësinë.</string>
 muaj…</string>
     <string name="brave_ui_earnings_ads">Fitim nga Reklama</string>
     <string name="brave_ui_rewards_contribute">Vetëkontribut</string>
-    <string name="brave_ui_one_time_donation">Bakshishe të Një here</string>
+    <string name="brave_ui_rewards_contribute_description">Keni kontribuar <ph name="BAT_VALUE">%1$s<ex>50</ex></ph> <ph name="BAT_TEXT">%2$s<ex>BAT</ex></ph>.</string>
+    <string name="brave_ui_one_time_donation">Bakshishe Një here</string>
     <string name="brave_ui_recurring_donation">Bakshishe të Përmuajshëm</string>
     <string name="brave_ui_verified_publisher">Botues Brave i Verifikuar</string>
     <string name="brave_ui_not_verified_publisher">Ende i paverifikuar</string>
     <string name="brave_ui_not_verified_publisher_description">Ky krijues s\’është regjistruar ende për të marrë kontribute nga përdorues të Brave-it.
-Çfarëdo bakshishi që dërgoni do të mbetet në portofolin tuaj derisa të verifikohen.</string>
+Çfarëdo bakshishi që dërgoni do të mbetet në portofolin tuaj derisa të verifikohet.</string>
     <string name="brave_ui_on_youtube">në YouTube</string>
     <string name="brave_ui_on_twitch">në Twitch</string>
+    <string name="brave_ui_new_grant">Ka të gatshëm një grant <ph name="TOKEN">%1$s<ex>token</ex></ph> falas.</string>
+    <string name="brave_ui_new_token_grant">Grant Token-i Falas</string>
+    <string name="brave_ui_new_point_grant">Grant Pikësh Falas</string>
+    <string name="brave_ui_claim">Pretendojeni</string>
+    <string name="brave_ui_reserved_amount_text">Keni caktuar <ph name="BAT_VALUE">%1$s<ex>50</ex></ph> <ph name="BAT_TEXT">%2$s<ex>BAT</ex></ph> për krijues që s’janë
+regjistruar ende për të marrë kontribute. Shfletuesi juaj do të provojë të japë
+kontributet deri sa të bëjnë verifikim, ose deri sa të kenë kaluar 90 ditë.</string>
     <string name="brave_ui_notification_desc_no_funds">Pagesa juaj e planifikuar e përmuajshme për Vetëkontribut dhe bakshishe të përmuajshëm s\’u plotësua dot, për shkak fondesh të pamjaftueshme. Do të riprovojmë pas 30 ditësh.</string>
     <string name="brave_ui_notification_desc_tip_error">Pati një problem me përpunimin e bakshishit tuaj, ju lutemi, riprovoni.</string>
     <string name="brave_ui_notification_desc_contr_error">Pati një problem me përpunimin e kontributit tuaj.</string>
@@ -204,7 +223,7 @@ muaj…</string>
     <string name="brave_rewards_local_server_not_responding">Shërbyesi i Shpërblimeve Brave nuk po përgjigjet. Do ta ndreqim sa më shpejt të jetë e mundur.</string>
     <string name="brave_ui_grants">Grante</string>
     <string name="brave_ui_details">Hollësi</string>
-    <string name="brave_ui_expires_on">skadon më <ph name="DATE">%1$s<ex>4/14/2019</ex></ph></string>
+    <string name="brave_ui_expires_on">skadon më <ph name=\"DATE\">%1$s<ex>4/14/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Fonde të Pamjaftueshëm</string>
     <string name="brave_ui_insufficient_funds_desc">Llogaria jua Shpërblime Brave po pret për një depozitim.</string>
     <string name="brave_ui_backup_wallet_msg">Kopjeruaje Portofolin</string>
@@ -223,29 +242,32 @@ përkrahje të krijuesve të lëndës që doni.</string>
     <string name="bottom_toolbar_enable">Aktivizo panel të poshtëm</string>
     <string name="bottom_toolbar_disable">Çaktivizo panel të poshtëm</string>
     <string name="search_or_url">Kërkim ose URL</string>
-    <string name="accessibility_toolbar_btn_bookmark">Krijoni një shenjë referimi</string>
-    <string name="brave_ui_donate_monthly">Jepini bakshish këtij uebsajti çdo muaj</string>
+    <string name="accessibility_toolbar_btn_bookmark">Krijoni një faqerojtës</string>
+    <string name="brave_ui_donate_monthly">Jepni çdo muaj bakshish për  këtë sajt</string>
 
     <string name="brave_rewards_not_available">Na ndjeni, duket se Shpërblimet Brave s’janë të gatshme në pajisjen tuaj</string>
 
     <string name="prefs_closing_all_tabs_closes_brave_title">Mbyllja e krejt skedave mbyll Brave-in</string>
-    <string name="prefs_section_display">Shfaqni</string>
+    <string name="prefs_section_display">Shfaqje</string>
     <string name="prefs_section_controls">Kontrolle</string>
-    <string name="prefs_appearance">Pamja</string>
-    <string name="hide_brave_rewards_icon_title">Fshihni Ikonën e Brave Rewards</string>
-    <string name="hide_brave_rewards_icon_description">Fsheh Ikonën e Brave Rewards kur Brave Rewards nuk është i aktivizuar</string>
+    <string name="prefs_appearance">Dukje</string>
+    <string name="prefs_new_tab_page">Faqe e Re Skedë</string>
+    <string name="show_background_images">Shfaq Figura Sfond</string>
+    <string name="show_sponsored_images">Shfaq Figura të Sponsorizuara</string>
+    <string name="hide_brave_rewards_icon_title">Fshihe Ikonën e Shpërblimeve Brave</string>
+    <string name="hide_brave_rewards_icon_description">Fsheh Ikonën e Shpërblimeve Brave, kur Shpërblimet Brave s’janë aktivizuar</string>
     <string name="show_ads_when_brave_is_not_in_use">Shfaq Reklama kur Brave s’është në përdorim</string>
-    <string name="reset_brave_rewards_option">Rivendosni Brave Rewards</string>
-    <string name="reset_brave_rewards_option_description">Kjo do të fshijë portofolin tuaj Brave dhe do të rivendosë të gjitha të dhënat tuaja të Brave Rewards</string>
-    <string name="reset_brave_rewards_error_title">Gabim i rivendosjes</string>
-    <string name="reset_brave_rewards_error_description">Pati një gabim në rivendosjen e Brave Rewards. Ju lutemi të rilëshoni Brave dhe të provoni përsëri</string>
+    <string name="reset_brave_rewards_option">Riktheji Shpërblimet Brave te parazgjedhjet</string>
+    <string name="reset_brave_rewards_option_description">Kjo do të fshijë portofolin tuaj Brave dhe zerojë krejt të dhënat tuaja për Shpërblime Brave</string>
+    <string name="reset_brave_rewards_error_title">Gabim Zerimi</string>
+    <string name="reset_brave_rewards_error_description">Pati një gabim gjatë rikthimit të Shpërblimeve Brave te parazgjedhjet. Ju lutemi, riniseni Brave-in dhe riprovoni</string>
 
-    <string name="brave_sync_add_laptop_text_part_2_new">Te kompjuteri i synuar, kaloni te Brave Sync, te rregullimet dhe klikoni butonin \"Lam një Kod Sync-u\".\nJepni vargun e fjalëve të kodit sync të shfaqur më poshtë.</string>
+    <string name="brave_sync_add_laptop_text_part_2_new">Te kompjuteri i synuar, kaloni te Brave Sync, te rregullimet dhe klikoni butonin \"Kam një Kod Njëkohësimi\".\nJepni vargun e fjalëve të kodit të njëkohësimit të shfaqur më poshtë.</string>
 
     <string name="brave_sync_official">Brave Sync</string>
     <string name="prefs_sync_official">Sync</string>
 
-    <string name="brave_sync_code_warning">Trajtojeni këtë kod si një fjalëkalim. Nëse dikush e shite në dorë, ai mund të lexojë dhe modifikojë të dhënat tuaja të njëkohësuara.</string>
+    <string name="brave_sync_code_warning">Trajtojeni këtë kod si një fjalëkalim. Nëse dikush e shtie në dorë, ai mund të lexojë dhe modifikojë të dhënat tuaja të njëkohësuara.</string>
 
     <string name="notification_category_group_brave_ads">Reklama Brave</string>
     <string name="brave_ads_you_earned">Keni fituar</string>
@@ -266,11 +288,14 @@ përkrahje të krijuesve të lëndës që doni.</string>
 
     <string name="block">Bllokoje</string>
     <string name="brave_shields_onboarding_title">Mburoja Brave</string>
+    <string name="brave_shields_onboarding_text">reklama &amp; gjurmues që cenojnë privatësinë, që kështu të mund të shfletoni pa u ndjekur nëpër web.</string>
+
+    <string name="earn_tokens">Fitoni <ph name="TOKEN">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Shpërblime Brave</string>
     <string name="brave_rewards_onboarding_text">për parje reklamash që respektojnë privatësinë. Përdorini për të përkrahur sajtet dhe krijuesit tuaj të parapëlqyer.</string>
     <string name="brave_rewards_onboarding_text2">për parje reklamash që respektojnë privatësinë.</string>
 
-    <string name="terms_text">Duke aktivizuar shpërblimet, pajtoheni me</string>
+    <string name="terms_text">Duke aktivizuar Shpërblimet, pajtoheni me</string>
     <string name="terms_of_service">Kushte Shërbimi</string>
 
     <string name="start_browsing">Filloni të shfletoni</string>
@@ -291,11 +316,16 @@ përkrahje të krijuesve të lëndës që doni.</string>
     
     <string name="clear_download_title">Historik shkarkimesh</string>
 
-    <string name="settings_exit">Dalje nga Rregullimet</string>
+    <string name="settings_exit">Dalje nga rregullimet</string>
 
-    <string name="brave_license_text">Licencën e Brave-it</string>
+    <string name="brave_license_text">Licencë e Brave-it</string>
+    <string name="token">token</string>
+    <string name="point">pikë</string>
+
     <string name="one_tip_option">1 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Foto nga <ph name="PHOTO_BY">%1$s</ph></string>
 
 </resources>

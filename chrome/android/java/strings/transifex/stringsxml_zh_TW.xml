@@ -151,8 +151,8 @@
 
     <string name="brave_ui_welcome_header_two">準備體驗
 新一代網際網路。</string>
-    <string name="brave_ui_welcome_desc_two">您現在可以看尊重
-隱私的廣告來賺 <ph name="TOKEN">%1$s<ex>token</ex></ph>。</string>
+    <string name="brave_ui_welcome_desc_two">現在觀看尊重隱私廣告
+即可贏取 <ph name=\"TOKEN\">%1$s<ex>Token 獎勵</ex></ph>。</string>
     <string name="brave_ui_welcome_button_text_two">參加獎勵計畫</string>
     <string name="brave_ui_welcome_footer_text_two">深入瞭解</string>
     <string name="brave_ui_rewards_creating_text">正在建立錢包</string>
@@ -327,5 +327,7 @@
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">攝影：<ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

@@ -150,7 +150,9 @@ Kímélje az akkumulátort és töltsön be weboldalakat gyorsabban</string>
 
     <string name="brave_ui_welcome_header_two">Készüljön fel
 a következő internet megtapasztalására.</string>
-    <string name="brave_ui_welcome_desc_two">Mostantól <ph name="TOKEN">%1$s<ex>token</ex></ph> jutalmat kaphatsz adatvédelmet tiszteletben tartó reklámok megnézésével.</string>
+    <string name="brave_ui_welcome_desc_two">Mostantól <ph name=\"TOKEN\">%1$s<ex>tokent</ex></ph>s kereshetsz adatbiztonságot tiszteletben tartó hirdetések megtekintésével.
+
+</string>
     <string name="brave_ui_welcome_button_text_two">CSATLAKOZZON A REWARDSHOZ</string>
     <string name="brave_ui_welcome_footer_text_two">TOVÁBBI INFORMÁCIÓ</string>
     <string name="brave_ui_rewards_creating_text">Pénztárca létrehozása</string>
@@ -323,5 +325,7 @@ tartalomkészítők támogatására.</string>
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by"><ph name=\"PHOTO_BY\">%1$s</ph> fényképe</string>
 
 </resources>

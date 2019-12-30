@@ -151,7 +151,7 @@ Prihranite baterijo in hitreje naložite spletne strani.</string>
 
     <string name="brave_ui_welcome_header_two">Pripravite se na
 novo dobo interneta.</string>
-    <string name="brave_ui_welcome_desc_two">Zdaj lahko zaslužite <ph name="TOKEN">%1$s<ex>token</ex></ph> za
+    <string name="brave_ui_welcome_desc_two">Zdaj lahko zaslužite <ph name=\"TOKEN\">%1$s<ex>žeton</ex></ph>ov za
 ogled oglasov, ki spoštujejo zasebnost.</string>
     <string name="brave_ui_welcome_button_text_two">PRIDRUŽI SE MOŽNOSTI NAGRAD</string>
     <string name="brave_ui_welcome_footer_text_two">VEČ</string>
@@ -253,6 +253,9 @@ ustvarjalcem vsebin, ki so vam všeč.</string>
     <string name="prefs_section_display">Prikaz</string>
     <string name="prefs_section_controls">Kontrolniki</string>
     <string name="prefs_appearance">Videz</string>
+    <string name="prefs_new_tab_page">Nov zavihek</string>
+    <string name="show_background_images">Pokaži slike ozadja</string>
+    <string name="show_sponsored_images">Pokaži sponzorske slike</string>
     <string name="hide_brave_rewards_icon_title">Skrij ikono Nagrade Brave</string>
     <string name="hide_brave_rewards_icon_description">Skrije ikono Nagrade Brave, ko Nagrade Brave niso omogočene.</string>
     <string name="show_ads_when_brave_is_not_in_use">Pokaži oglase, ko Brave ni v uporabi</string>
@@ -324,5 +327,7 @@ ustvarjalcem vsebin, ki so vam všeč.</string>
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Avtor_ica fotografije <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

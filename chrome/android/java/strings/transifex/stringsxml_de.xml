@@ -3,10 +3,10 @@
     <string name="brave_settings_title">Brave-Schutz Einstellungen für</string>
     <string name="brave_shields_down">Aus</string>
     <string name="brave_shields_up">An</string>
-    <string name="brave_shields_ads_trackers">Werbeanzeigen &amp; Tracker blockiert</string>
+    <string name="brave_shields_ads_trackers">Anzeigen &amp; Tracker blockiert</string>
     <string name="brave_shields_https_upgrades">HTTPS-Aufwertungen</string>
     <string name="brave_shields_scripts_blocked">Skripte geblockt</string>
-    <string name="brave_shields_ads_tracking_switch">Blockieren Sie Werbeanzeigen &amp; Tracking</string>
+    <string name="brave_shields_ads_tracking_switch">Anzeigen &amp; Tracking blockieren</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">Skripte blocken</string>
     <string name="accessibility_toolbar_btn_brave_shields">Brave-Schutz aktivieren/deaktivieren</string>
@@ -38,7 +38,7 @@
     <string name="sync_device_failure">Synchronisierung konnte nicht eingerichtet werden</string>
     <string name="sync_requires_correct_time">Die Uhr Ihres Computers zeigt evtl. die falsche Zeit an oder ist auf die falsche Zeitzone eingestellt. Überprüfen Sie Ihre Einstellungen für die Uhr.</string>
 
-    <string name="brave_stats_text_ads">Werbeanzeigen &amp; Tracker blockiert</string>
+    <string name="brave_stats_text_ads">Anzeigen &amp; Tracker blockiert</string>
     <string name="brave_stats_text_https">HTTPS-
 Aufwertungen</string>
     <string name="brave_stats_text_time">Zeit
@@ -55,7 +55,7 @@ gespart</string>
     <string name="brave_shields_first_group_title">Übersicht</string>
     <string name="brave_shields_second_group_title">Einzeleinstellungen</string>
     <string name="brave_shields">Schutz</string>
-    <string name="brave_shields_ads_and_trackers">Werbeanzeigen &amp; Tracker</string>
+    <string name="brave_shields_ads_and_trackers">Anzeigen &amp; Tracker</string>
     <string name="brave_shields_fingerprint_methods">Fingerprint-Methoden</string>
     <string name="brave_shields_block_phishing_switch">Phishing blocken</string>
 
@@ -143,14 +143,15 @@ Standardbrowser eingerichtet.</string>
     <string name="brave_default_browser_go_to_settings">Wie wir sehen, haben Sie bereits einen Standardbrowser eingerichtet.
 Sie können den Standardbrowser in Ihren Anwendungseinstellungen ändern.</string>
     <string name="brave_default_browser_notification_body">Sparen Sie Akkuleistung und laden Sie Webseiten schneller. Machen Sie Brave zu Ihrem Standardbrowser. Tippen Sie im Brave-Menü auf „Als Standardbrowser festlegen“.</string>
-    <string name="brave_set_default_browser">Als Standardbrowser einrichten</string>
+    <string name="brave_set_default_browser">Brave als Standardbrowser</string>
     <string name="brave_set_default_browser_dialog_text">Wählen Sie in der Liste Brave aus und tippen Sie auf „Immer“.</string>
     <string name="brave_default_browser_existing_notification_body">Machen Sie Brave zu Ihrem Standard-Webbrowser
 Sparen Sie Akku und laden Sie Webseiten schneller</string>
 
     <string name="brave_ui_welcome_header_two">Erleben Sie die
 Zukunft des Internets.</string>
-    <string name="brave_ui_welcome_desc_two">Sie können jetzt <ph name="TOKEN">%1$s<ex>token</ex></ph> verdienen, indem Sie Werbung ansehen, welche den Schutz Ihrer Daten wahrt.</string>
+    <string name="brave_ui_welcome_desc_two">Jetzt können Sie <ph name=\"TOKEN\">%1$s<ex>Gutschein</ex></ph>e für
+das Ansehen von Werbung, die den Datenschutz respektiert, verdienen.</string>
     <string name="brave_ui_welcome_button_text_two">MACHEN SIE MIT BEI REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">MEHR ERFAHREN</string>
     <string name="brave_ui_rewards_creating_text">Erstelle Wallet</string>
@@ -212,7 +213,7 @@ in diesem Monat …</string>
     <string name="brave_ui_new_grant">Ein kostenloser Zuschuss von <ph name=\"TOKEN\">%1$s<ex>Token</ex></ph> ist verfügbar.</string>
     <string name="brave_ui_new_token_grant">Kostenlose Token-Zuwendung</string>
     <string name="brave_ui_new_point_grant">Kostenloser Punkte-Zuschuss</string>
-    <string name="brave_ui_claim">Einforderung</string>
+    <string name="brave_ui_claim">Öffnen</string>
     <string name="brave_ui_reserved_amount_text">Sie haben Urhebern, die sich noch nicht für den Erhalt von Zuwendungen angemeldet haben, <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> zugewiesen. Ihr Browser wird weiterhin versuchen, die Zuwendung vorzunehmen, bis sie diese verifizieren oder 90 Tage vergangen sind.</string>
     <string name="brave_ui_notification_desc_no_funds">Ihre geplante monatliche Zahlung für die automatischen Spenden konnte nicht durchgeführt werden, da Ihr Guthaben dafür nicht ausreicht. Wir werden es in 30 Tagen noch einmal versuchen.</string>
     <string name="brave_ui_notification_desc_tip_error">Bei der Verarbeitung Ihrer Spende ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.</string>
@@ -273,7 +274,7 @@ gleichzeitig Ihre Lieblings-Content Creator.</string>
     <string name="brave_default_browser_title">Brave ist blitzschnell</string>
     <string name="brave_default_browser_body">Machen Sie Brave zu Ihrem Standardbrowser!</string>
     <string name="brave_make_default_text">Als Standard festlegen</string>
-    <string name="brave_ui_ads_earnings">aus Werbeanzeigen eingenommen</string>
+    <string name="brave_ui_ads_earnings">durch Werbung erhalten</string>
     <!-- Onboarding strings -->
 
     <string name="skip">Überspringen</string>
@@ -286,12 +287,12 @@ gleichzeitig Ihre Lieblings-Content Creator.</string>
 
     <string name="block">Blockieren</string>
     <string name="brave_shields_onboarding_title">Brave Schutz</string>
-    <string name="brave_shields_onboarding_text">Werbeanzeigen &amp; Tracker, damit Sie im Internet surfen können, ohne dabei verfolgt zu werden.</string>
+    <string name="brave_shields_onboarding_text">Anzeigen &amp; Tracker, damit Sie im Internet surfen können, ohne dabei verfolgt zu werden.</string>
 
     <string name="earn_tokens">Verdienen Sie <ph name=\"TOKEN\">%1$s<ex>Token</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Brave-Rewards</string>
-    <string name="brave_rewards_onboarding_text">für das Anzeigen von Werbeanzeigen, die den Schutz Ihrer Daten respektiert. Verwenden Sie sie, um Ihre Lieblingsseiten und -autoren zu unterstützen.</string>
-    <string name="brave_rewards_onboarding_text2">für das Anzeigen von Werbeanzeigen, die den Schutz Ihrer Daten respektiert.</string>
+    <string name="brave_rewards_onboarding_text">durch das Ansehen von Werbung, die keinen Zugriff auf Ihre Daten hat. Sie können diese an Websites und Content-Creator spenden.</string>
+    <string name="brave_rewards_onboarding_text2">durch das Ansehen von Werbung, die keinen Zugriff auf Ihre Daten hat.</string>
 
     <string name="terms_text">Indem Sie die Belohnungen aktivieren, erklären Sie Ihre Zustimmung zu</string>
     <string name="terms_of_service">Allgemeine Geschäftsbedingungen</string>
@@ -300,7 +301,7 @@ gleichzeitig Ihre Lieblings-Content Creator.</string>
     <string name="i_didnt_see">Ich habe keine Werbeanzeige gesehen</string>
 
     <string name="brave_ads_onboarding_title">Brave zeigt Ihre erste Anzeige an in</string>
-    <string name="brave_ads_onboarding_text">Um Werbeanzeigen von Brave-Rewards zu sehen, stellen Sie sicher, dass Brave Ihnen Benachrichtigungen anzeigen darf.</string>
+    <string name="brave_ads_onboarding_text">Um Werbung von Brave-Rewards zu sehen, stellen Sie sicher, dass Brave Ihnen Benachrichtigungen anzeigen darf.</string>
 
     <string name="this_is_your_first_ad">Dies ist Ihre erste Brave-Werbeanzeige. Tippen Sie hier, um mehr zu erfahren.</string>
 
@@ -323,5 +324,7 @@ gleichzeitig Ihre Lieblings-Content Creator.</string>
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Foto von <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

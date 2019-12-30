@@ -1,3 +1,14 @@
 <resources>
 
+    <string name="brave_settings_title">साठी ब्रेव्हची साइट शिल्ड सेटिंग</string>
+    <string name="brave_shields_down">खाली</string>
+    <string name="brave_shields_up">वर</string>
+    <string name="brave_shields_ads_trackers">जाहिराती आणि ट्रॅकर्स अवरोधित</string>
+    <string name="brave_shields_https_upgrades">HTTPS अपग्रेड</string>
+    <string name="brave_shields_scripts_blocked">स्क्रिप्ट अवरोधित</string>
+    <string name="brave_shields_ads_tracking_switch">जाहिराती आणि ट्रॅकिंग अवरोधित करा</string>
+    <string name="brave_shields_https_everywhere_switch">सर्वत्र HTTPS</string>
+    <string name="brave_shields_blocks_scripts_switch">स्क्रिप्ट्स अवरोधित करा</string>
+    <string name="accessibility_toolbar_btn_brave_shields">ब्रेव्ह शिल्ड्स सक्षम / अक्षम करा</string>
+    <string name="accessibility_toolbar_btn_brave_rewards">ब्रेव्ह पुरस्कार व्यवस्थापित करा </string>
     </resources>

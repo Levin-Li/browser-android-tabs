@@ -150,8 +150,6 @@
 
     <string name="brave_ui_welcome_header_two">পরের প্রজন্মের ইন্টারনেট
 অভিজ্ঞতা করতে প্রস্তুত থাকুন।</string>
-    <string name="brave_ui_welcome_desc_two">আপনি এখন গোপনীয়তার-মর্যাদা দেওয়া বিজ্ঞাপনগুলি দেখার জন্য
-<ph name="TOKEN">%1$s<ex>token</ex></ph> উপার্জন করতে পারবেন।</string>
     <string name="brave_ui_welcome_button_text_two">পুরস্কারগুলিতে যোগদান করুন</string>
     <string name="brave_ui_welcome_footer_text_two">আরও জানুন</string>
     <string name="brave_ui_rewards_creating_text">ওয়ালেট তৈরি করছে</string>
@@ -324,4 +322,4 @@
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
-</resources>
+    </resources>

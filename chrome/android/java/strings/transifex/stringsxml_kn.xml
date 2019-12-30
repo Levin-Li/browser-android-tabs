@@ -151,8 +151,6 @@
 
     <string name="brave_ui_welcome_header_two">ಮುಂದಿನ ಇಂಟರ್ನೆಟ್
 ಅನುಭವಿಸಲು ಸಿದ್ಧರಾಗಿ.</string>
-    <string name="brave_ui_welcome_desc_two">ನೀವು ಇದೀಗ ಗೌಪ್ಯತೆ-ಗೌರವಿಸುವ ಜಾಹೀರಾತುಗಳನ್ನು ವೀಕ್ಷಿಸಿದ್ದಕ್ಕಾಗಿ %1$sಗಳನ್ನು
-ಗಳಿಸಬಹುದು.</string>
     <string name="brave_ui_welcome_button_text_two">ರಿವಾರ್ಡ್‌ಗಳಿಗೆ ಸೇರಿಕೊಳ್ಳಿ</string>
     <string name="brave_ui_welcome_footer_text_two">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
     <string name="brave_ui_rewards_creating_text">ವ್ಯಾಲೆಟ್ ರಚಿಸಲಾಗುತ್ತಿದೆ</string>
@@ -325,4 +323,4 @@
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
-</resources>
+    </resources>

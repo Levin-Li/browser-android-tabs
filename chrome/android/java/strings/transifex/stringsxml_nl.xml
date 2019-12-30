@@ -151,7 +151,7 @@ Verleng de gebruiksduur van de batterij en laad webpagina\'s sneller</string>
 
     <string name="brave_ui_welcome_header_two">Bereid je voor op
 het \'nieuwe internet\'.</string>
-    <string name="brave_ui_welcome_desc_two">Je kan nu <ph name="TOKEN">%1$s<ex>token</ex></ph> verdienen door het kijken van privacy-respecterende ads.</string>
+    <string name="brave_ui_welcome_desc_two">U kunt nu <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s verdienen voor het bekijken van advertenties die de privacy respecteren.</string>
     <string name="brave_ui_welcome_button_text_two">LID WORDEN VAN REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">MEER INFORMATIE</string>
     <string name="brave_ui_rewards_creating_text">Wallet maken</string>
@@ -324,5 +324,7 @@ anderen meegenieten door de inhoudmakers waar jij fan van bent te ondersteunen.<
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Foto door <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>
