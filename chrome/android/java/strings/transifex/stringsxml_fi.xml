@@ -151,8 +151,7 @@ Säästä akkua ja lataa verkkosivut nopeammin</string>
 
     <string name="brave_ui_welcome_header_two">Valmistaudu kokemaan
 seuraava Internet.</string>
-    <string name="brave_ui_welcome_desc_two">Voit nyt ansaita %1$s
-katsomalla yksityisyyttä kunnioittavia mainoksia.</string>
+    <string name="brave_ui_welcome_desc_two">Nyt voit ansaita <ph name=\"TOKEN\">%1$s<ex>polettia</ex></ph>, jos katsot yksityisyyttä kunnioittavia mainoksia.</string>
     <string name="brave_ui_welcome_button_text_two">LIITY REWARDSIIN</string>
     <string name="brave_ui_welcome_footer_text_two">LUE LISÄÄ</string>
     <string name="brave_ui_rewards_creating_text">Luodaan lompakkoa</string>
@@ -325,5 +324,7 @@ rakastamillesi sisällöntuottajille.</string>
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Kuva: <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

@@ -151,8 +151,7 @@
 
     <string name="brave_ui_welcome_header_two">अगला इंटरनेट अनुभव
 करने के लिए तैयार रहें.</string>
-    <string name="brave_ui_welcome_desc_two">अब आप गोपनीयता-सम्बंधित विज्ञापन 
-देखने के लिए <ph name="TOKEN">%1$s<ex>token</ex></ph> अर्जित कर सकते हैं।</string>
+    <string name="brave_ui_welcome_desc_two">अब आप गोपनीयता सम्बंधित विज्ञापन देखकर <ph name=\"TOKEN\">%1$s<ex>टोकन</ex></ph> अर्जित कर सकते हैं।</string>
     <string name="brave_ui_welcome_button_text_two">रिवार्ड्स से जुड़ें</string>
     <string name="brave_ui_welcome_footer_text_two">अधिक जानें</string>
     <string name="brave_ui_rewards_creating_text">वॉलेट बनाना</string>
@@ -329,5 +328,7 @@
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by"><ph name=\"PHOTO_BY\">%1$s </ph> द्वारा फ़ोटो</string>
 
 </resources>

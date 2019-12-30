@@ -3,8 +3,10 @@
     <string name="brave_settings_title">Configuració d'escuts web de Brave per a</string>
     <string name="brave_shields_down">Avall</string>
     <string name="brave_shields_up">Amunt</string>
+    <string name="brave_shields_ads_trackers">Anuncis i sistemes de seguiment bloquejats</string>
     <string name="brave_shields_https_upgrades">Actualitzacions del HTTPS</string>
     <string name="brave_shields_scripts_blocked">Scripts blocats</string>
+    <string name="brave_shields_ads_tracking_switch">Anuncis i sistemes de seguiment bloquejats</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Arreu</string>
     <string name="brave_shields_blocks_scripts_switch">Bloca scripts</string>
     <string name="accessibility_toolbar_btn_brave_shields">Activa/desactiva escuts Brave</string>
@@ -34,6 +36,8 @@
     <string name="enter_code_words_sync">Introduïu les paraules del codi</string>
     <string name="sync_device">Sincronitza el dispositiu</string>
     <string name="sync_device_failure">No s'ha pogut configurar la sincronització</string>
+    <string name="brave_stats_text_ads">Anuncis i sistemes de seguiment
+Bloquejat</string>
     <string name="brave_stats_text_https">Actualitzacions
 del HTTPS</string>
     <string name="brave_stats_text_time">Est. Temps
@@ -50,6 +54,7 @@ Desat</string>
     <string name="brave_shields_first_group_title">Monitor de bloqueig</string>
     <string name="brave_shields_second_group_title">Controls individuals</string>
     <string name="brave_shields">Escuts</string>
+    <string name="brave_shields_ads_and_trackers">Anuncis i sistemes de seguiment</string>
     <string name="brave_shields_fingerprint_methods">Mètodes d\'empremta digital</string>
     <string name="brave_shields_block_phishing_switch">Bloca el phishing</string>
 
@@ -148,10 +153,16 @@ l\'Internet del futur.</string>
     <string name="brave_ui_welcome_footer_text_two">MÉS INFORMACIÓ</string>
     <string name="brave_ui_rewards_creating_text">S\'està creant una cartera</string>
     <string name="brave_ui_your_wallet">La teva cartera</string>
+    <string name="brave_ui_your_balance">El teu saldo</string>
     <string name="brave_ui_bat_text">BAT</string>
+    <string name="brave_ui_bap_text">BAP</string>
+    <string name="brave_ui_bat_points_text">Punts BAT</string>
+    <string name="brave_ui_usd"><ph name=\"VALUE\">%1$s<ex>0.0</ex></ph></string>
+    <string name="brave_ui_usd_text">USD</string>
     <string name="brave_rewards_local_panel_add_funds">Afegeix fons</string>
     <string name="brave_ui_settings">Configuració</string>
     <string name="brave_ui_rewards_summary">RESUM DE REWARDS</string>
+    <string name="brave_ui_site_banner_welcome">Benvinguts!</string>
     <string name="brave_ui_rewards_banner_text1">Pots col·laborar amb aquest lloc enviant una propina. És una manera d\'agrair la creació de contingut fantàstic. Els creadors de contingut verificat cobren les seves propines durant la primera setmana de cada mes natural.</string>
     <string name="brave_ui_rewards_banner_text2">Si vols, pots programar propines mensuals per col·laborar amb aquest lloc de manera continuada.</string>
     <string name="brave_ui_donation_amount">Quantitat de la propina</string>
@@ -159,6 +170,7 @@ l\'Internet del futur.</string>
     <string name="brave_ui_make_monthly">Fes que sigui mensual</string>
     <string name="brave_ui_send_tip">envia la meva propina</string>
     <string name="brave_ui_do_monthly">envia una propina mensual</string>
+    <string name="brave_ui_not_enough_tokens">no suficients <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_ui_site_banner_notice_text">NOTA: Aquest creador encara no s\'ha registrat per rebre contribucions d\'usuaris de Brave. Continuarem intentant contribuir fins que ho verifiquin o fins que passin 90 dies.</string>
     <string name="brave_ui_please">si us plau</string>
     <string name="brave_ui_add_funds">afegeix fons</string>
@@ -183,8 +195,10 @@ l\'Internet del futur.</string>
     <string name="brave_ui_no_activity">Encara no hi ha cap activitat
 aquest mes...</string>
     <string name="brave_ui_token_grant_claimed">Concessions de tokens reclamades</string>
+    <string name="brave_ui_point_grant_claimed">Punts concedits reclamats</string>
     <string name="brave_ui_earnings_ads">Guanys per anuncis</string>
     <string name="brave_ui_rewards_contribute">Contribució automàtica</string>
+    <string name="brave_ui_rewards_contribute_description">Has contribuït <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>.</string>
     <string name="brave_ui_one_time_donation">Propines puntuals</string>
     <string name="brave_ui_recurring_donation">Propines mensuals</string>
     <string name="brave_ui_verified_publisher">Editor verificat de Brave</string>
@@ -193,14 +207,20 @@ aquest mes...</string>
         Les propines que enviïs es mantindran a la teva cartera fins que es verifiquin.</string>
     <string name="brave_ui_on_youtube">a YouTube</string>
     <string name="brave_ui_on_twitch">a Twitch</string>
+    <string name="brave_ui_new_grant">Un cessió gratuïta de <ph name=\"TOKEN\">%1$s<ex>token</ex></ph> està disponible.</string>
     <string name="brave_ui_new_token_grant">Concessió de token gratuïta</string>
+    <string name="brave_ui_new_point_grant">Punts concedits gratuïts</string>
     <string name="brave_ui_claim">Reclama</string>
+    <string name="brave_ui_reserved_amount_text">Se t\'ha designat <ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph> per creadors que no
+s\'hagin registrat per rebre contribucions. El teu navegador seguirà intentant contribuir
+fins que ho verifiquin o fins que hagin passat 90 dies.</string>
     <string name="brave_ui_notification_desc_no_funds">No s\'ha pogut realitzar el teu pagament mensual programat de les autocontribucions i les recompenses mensuals perquè no hi ha prou fons. Ho tornarem a provar d\'aquí a 30 dies.</string>
     <string name="brave_ui_notification_desc_tip_error">S\'ha produït un problema en processar la teva propina, torna-ho a provar.</string>
     <string name="brave_ui_notification_desc_contr_error">S\'ha produït un problema en processar la teva contribució.</string>
     <string name="brave_rewards_local_uh_oh">Vaja!</string>
     <string name="brave_rewards_local_server_not_responding">El servidor de Rewards Brave no respon. Ho arreglarem tan aviat com es pugui.</string>
     <string name="brave_ui_grants">Concessions</string>
+    <string name="brave_ui_details">Detalls</string>
     <string name="brave_ui_expires_on">caduca el <ph name=\"DATE\">%1$s<ex>14/4/2019</ex></ph></string>
     <string name="brave_ui_insufficient_funds_msg">Fons insuficients</string>
     <string name="brave_ui_insufficient_funds_desc">El teu compte de Brave Rewards està esperant un dipòsit.</string>
@@ -261,10 +281,14 @@ als creadors de contingut que t\'agraden.</string>
 
     <string name="block">Bloqueja</string>
     <string name="brave_shields_onboarding_title">Escuts de Brave</string>
+    <string name="brave_shields_onboarding_text">anuncis i sistemes de seguiment que atempten contra la privadesa, així que pots navegar sense que et segueixin pel web.</string>
+
+    <string name="earn_tokens">Guanya <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
     <string name="brave_rewards_onboarding_text">per veure els anuncis que respecten la privacitat. Utilitza\'ls per donar suport als teus llocs i creadors preferits.</string>
     <string name="brave_rewards_onboarding_text2">per veure els anuncis que respecten la privacitat.</string>
 
+    <string name="terms_text">En activar les Recompenses, acceptes</string>
     <string name="terms_of_service">Condicions del servei</string>
 
     <string name="start_browsing">Comença a navegar</string>
@@ -286,5 +310,13 @@ als creadors de contingut que t\'agraden.</string>
     <string name="clear_download_title">Descarregar historial</string>
 
     <string name="settings_exit">Sortir de la configuració</string>
+
+    <string name="brave_license_text">Llicència Brave</string>
+    <string name="token">token</string>
+    <string name="point">punt</string>
+
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     </resources>

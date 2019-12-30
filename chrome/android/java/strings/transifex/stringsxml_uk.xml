@@ -150,8 +150,7 @@
 
     <string name="brave_ui_welcome_header_two">Починайте користуватися
 Інтернетом на новому рівні!</string>
-    <string name="brave_ui_welcome_desc_two">Тепер ви можете заробити <ph name="TOKEN">%1$s<ex>token</ex></ph>
-за перегляд реклами, яка має правила конфіденційності.</string>
+    <string name="brave_ui_welcome_desc_two">Тепер ви можете заробити <ph name=\"TOKEN\">%1$s<ex> токен</ex> </ph> ів за перегляд реклами, що поважає приватність.</string>
     <string name="brave_ui_welcome_button_text_two">ПРИЄДНАТИСЯ ДО ПРОГРАМИ «НАГОРОДИ»</string>
     <string name="brave_ui_welcome_footer_text_two">ДІЗНАТИСЯ БІЛЬШЕ</string>
     <string name="brave_ui_rewards_creating_text">Створення гаманця</string>
@@ -328,5 +327,7 @@
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Фото від: <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

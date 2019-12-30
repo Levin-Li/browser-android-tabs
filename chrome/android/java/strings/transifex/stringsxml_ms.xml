@@ -151,8 +151,7 @@ Jimat bateri dan muatkan laman web dengan lebih cepat</string>
 
     <string name="brave_ui_welcome_header_two">Bersedia untuk mengalami
 Internet seterusnya.</string>
-    <string name="brave_ui_welcome_desc_two">Anda kini boleh memperoleh <ph name="TOKEN">%1$s<ex>token</ex></ph> dengan
-menonton iklan yang menghormati privasi.</string>
+    <string name="brave_ui_welcome_desc_two">Anda kini boleh memperoleh <ph name=\"TOKEN\">%1$s<ex>token</ex></ph> dengan menonton iklan yang menghormati privasi.</string>
     <string name="brave_ui_welcome_button_text_two">SERTAI GANJARAN</string>
     <string name="brave_ui_welcome_footer_text_two">KETAHUI LEBIH LANJUT</string>
     <string name="brave_ui_rewards_creating_text">Mencipta dompet</string>
@@ -325,5 +324,7 @@ pencipta kandungan yang anda suka.</string>
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Gambar oleh <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

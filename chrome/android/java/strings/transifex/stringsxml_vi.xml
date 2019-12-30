@@ -150,7 +150,8 @@ Tiết kiệm pin và tải các trang web nhanh hơn</string>
 
     <string name="brave_ui_welcome_header_two">Hãy sẵn sàng trải nghiệm
 thế giới Internet mới.</string>
-    <string name="brave_ui_welcome_desc_two">Bạn giờ đây có thể kiếm <ph name="TOKEN">%1$s<ex>token</ex></ph> khi xem quảng cáo tôn trọng quyền riêng tư.</string>
+    <string name="brave_ui_welcome_desc_two">Giờ đây bạn có thể kiếm được <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s khi
+xem quảng cáo tôn trọng quyền riêng tư.</string>
     <string name="brave_ui_welcome_button_text_two">THAM GIA PHẦN THƯỞNG</string>
     <string name="brave_ui_welcome_footer_text_two">TÌM HIỂU THÊM</string>
     <string name="brave_ui_rewards_creating_text">Tạo ví</string>
@@ -323,5 +324,7 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Ảnh của <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

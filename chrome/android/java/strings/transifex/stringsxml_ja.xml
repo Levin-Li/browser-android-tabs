@@ -3,10 +3,11 @@
     <string name="brave_settings_title">Brave Shieldのサイト別設定</string>
     <string name="brave_shields_down">無効</string>
     <string name="brave_shields_up">有効</string>
-    <string name="brave_shields_ads_trackers">広告&amp; トラッカーをブロック</string>
+    <string name="brave_shields_ads_trackers">ブロック済みの
+広告とトラッカー</string>
     <string name="brave_shields_https_upgrades">HTTPS アップグレード</string>
     <string name="brave_shields_scripts_blocked">スクリプトをブロック</string>
-    <string name="brave_shields_ads_tracking_switch">広告 &amp; トラッキングをブロック</string>
+    <string name="brave_shields_ads_tracking_switch">広告とトラッカーをブロック</string>
     <string name="brave_shields_https_everywhere_switch">HTTPS Everywhere</string>
     <string name="brave_shields_blocks_scripts_switch">スクリプトをブロック</string>
     <string name="accessibility_toolbar_btn_brave_shields">Brave Shieldを有効化/無効化</string>
@@ -38,8 +39,8 @@
     <string name="sync_device_failure">同期をセットアップできませでした</string>
     <string name="sync_requires_correct_time">お使いの端末の時計が誤った時間、または誤ったタイムゾーンに設定されている可能性があります。時計の設定をご確認ください。</string>
 
-    <string name="brave_stats_text_ads">広告 &amp; トラッカー
-をブロック</string>
+    <string name="brave_stats_text_ads">ブロック済みの
+広告とトラッカー</string>
     <string name="brave_stats_text_https">HTTPS
 アップグレード</string>
     <string name="brave_stats_text_time">節約された
@@ -56,7 +57,7 @@
     <string name="brave_shields_first_group_title">監視をブロック</string>
     <string name="brave_shields_second_group_title">個別の制御</string>
     <string name="brave_shields">Shields (保護機能)</string>
-    <string name="brave_shields_ads_and_trackers">広告 &amp; トラッカー</string>
+    <string name="brave_shields_ads_and_trackers">広告とトラッカー</string>
     <string name="brave_shields_fingerprint_methods">フィンガープリント</string>
     <string name="brave_shields_block_phishing_switch">フィッシングをブロック</string>
 
@@ -151,13 +152,13 @@
 
     <string name="brave_ui_welcome_header_two">次世代インターネットを
 体験しましょう。</string>
-    <string name="brave_ui_welcome_desc_two">プライバシーを尊重する広告を視聴して
-<ph name="TOKEN">%1$s<ex>token</ex></ph>を獲得することができます。</string>
+    <string name="brave_ui_welcome_desc_two">プライバシーに配慮した広告を見ることで
+<ph name=\"TOKEN\">%1$s<ex>ポイント</ex></ph>を獲得できるようになりました。</string>
     <string name="brave_ui_welcome_button_text_two">Rewardsに参加</string>
     <string name="brave_ui_welcome_footer_text_two">詳細</string>
     <string name="brave_ui_rewards_creating_text">ウォレットを作成</string>
     <string name="brave_ui_your_wallet">ウォレット</string>
-    <string name="brave_ui_your_balance">あなたの収支</string>
+    <string name="brave_ui_your_balance">残高</string>
     <string name="brave_ui_bat_text">BAT</string>
     <string name="brave_ui_bap_text">BAP</string>
     <string name="brave_ui_bat_points_text">BATポイント</string>
@@ -174,7 +175,7 @@
     <string name="brave_ui_make_monthly">毎月定期支払いチップを設定</string>
     <string name="brave_ui_send_tip">チップを送信</string>
     <string name="brave_ui_do_monthly">毎月定期支払いチップを設定</string>
-    <string name="brave_ui_not_enough_tokens"><ph name=\"TOKEN\">%1$s<ex>トークン</ex></ph>が不足</string>
+    <string name="brave_ui_not_enough_tokens"><ph name=\"TOKEN\">%1$s<ex>ポイント</ex></ph>が不足</string>
     <string name="brave_ui_site_banner_notice_text">注: このクリエイターは、まだBraveユーザーからの支援を受諾する手続きを行っていません。クリエイターが確認するまで、または90日間が経過するまで、支援の送信を継続します。</string>
     <string name="brave_ui_please">お願いします</string>
     <string name="brave_ui_add_funds">資金を追加</string>
@@ -194,15 +195,15 @@
     <string name="brave_ui_month_dec">12月</string>
     <string name="brave_ui_month_year"><ph name=\"MONTH\">%1$s<ex>12月</ex></ph> <ph name=\"YEAR\">%2$s<ex>2018年</ex></ph></string>
     <string name="brave_ui_rewards_contribute_attention">アテンション</string>
-    <string name="brave_ui_include_in_auto">自動支援に含める</string>
+    <string name="brave_ui_include_in_auto">自動支援の対象にする</string>
     <string name="brave_ui_donate_now">チップを送信...</string>
     <string name="brave_ui_no_activity">今月はまだアクティビティが
 ありません...</string>
     <string name="brave_ui_token_grant_claimed">トークン付与を請求しました</string>
-    <string name="brave_ui_point_grant_claimed">ポイント付与を請求済</string>
+    <string name="brave_ui_point_grant_claimed">受け取り済みのポイント</string>
     <string name="brave_ui_earnings_ads">広告収入</string>
     <string name="brave_ui_rewards_contribute">自動支援</string>
-    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>を寄付しました。</string>
+    <string name="brave_ui_rewards_contribute_description"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph> <ph name=\"BAT_TEXT\">%2$s<ex>BAP</ex></ph>を支援しました。</string>
     <string name="brave_ui_one_time_donation">チップ</string>
     <string name="brave_ui_recurring_donation">毎月定期支払いチップ</string>
     <string name="brave_ui_verified_publisher">Brave認証済みパブリッシャー</string>
@@ -210,13 +211,13 @@
     <string name="brave_ui_not_verified_publisher_description">このクリエイターは、まだBraveユーザーからの支援を受諾する手続きを行っていません。クリエイターの認証確認が終了するまで、送信されたチップはウォレット内に維持されます。</string>
     <string name="brave_ui_on_youtube">YouTube</string>
     <string name="brave_ui_on_twitch">Twitch</string>
-    <string name="brave_ui_new_grant">無料で <ph name=\"TOKEN\">%1$s <ex>トークン </ex> </ph>を受け取れます。</string>
+    <string name="brave_ui_new_grant">無料で <ph name=\"TOKEN\">%1$s <ex>ポイント </ex> </ph>を受け取れます。</string>
     <string name="brave_ui_new_token_grant">無料トークン付与</string>
-    <string name="brave_ui_new_point_grant">無料ポイントの付与</string>
+    <string name="brave_ui_new_point_grant">無料のポイント付与</string>
     <string name="brave_ui_claim">請求</string>
-    <string name="brave_ui_reserved_amount_text"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAT</ex></ph>を
-まだ登録して寄付を受け取っていないクリエイター向けに割り当てました。
-確認されるまで、あるいは90日間が過ぎるまでブラウザーは寄付を継続します。</string>
+    <string name="brave_ui_reserved_amount_text"><ph name=\"BAT_VALUE\">%1$s<ex>50</ex></ph>  <ph name=\"BAT_TEXT\">%2$s<ex>BAP</ex></ph>を
+まだ支援の受け取り設定が完了していないクリエイター向けに送信しました。
+設定が完了するか、あるいは90日間が経過するまであなたのブラウザーは送信を試みます。</string>
     <string name="brave_ui_notification_desc_no_funds">資金が不十分なため、予定されていたサイトへの自動支援と設定されている毎月支払いチップの支払いを完了できませんでした。30日後に再試行します。</string>
     <string name="brave_ui_notification_desc_tip_error">チップの処理中にエラーが発生しました。もう一度お試しください。</string>
     <string name="brave_ui_notification_desc_contr_error">支援の処理中にエラーが発生しました。</string>
@@ -252,6 +253,9 @@
     <string name="prefs_section_display">表示</string>
     <string name="prefs_section_controls">コントロール</string>
     <string name="prefs_appearance">見た目</string>
+    <string name="prefs_new_tab_page">新しいタブページ</string>
+    <string name="show_background_images">背景画像を表示</string>
+    <string name="show_sponsored_images">スポンサード画像を表示</string>
     <string name="hide_brave_rewards_icon_title">Brave Rewardsのアイコンを隠す</string>
     <string name="hide_brave_rewards_icon_description">Brave Rewardsが有効でない場合にBrave Rewardsのアイコンを隠す</string>
     <string name="show_ads_when_brave_is_not_in_use">Braveが使われていない時にも広告を表示する</string>
@@ -285,15 +289,15 @@
     <string name="select_your_default_search_engine">デフォルトの検索エンジンを選択してください</string>
 
     <string name="block">ブロック</string>
-    <string name="brave_shields_onboarding_title">ブレイブシールド</string>
-    <string name="brave_shields_onboarding_text">プライバシーを侵害する広告 &amp; トラッカーにウェブで追跡されることなく閲覧できます。</string>
+    <string name="brave_shields_onboarding_title">Brave Shields</string>
+    <string name="brave_shields_onboarding_text">プライバシーを侵害する広告やトラッカーに追跡されることなくウェブ閲覧できます。</string>
 
-    <string name="earn_tokens"><ph name=\"TOKEN\">%1$s <ex>トークン</ex> </ph>を獲得</string>
+    <string name="earn_tokens"><ph name=\"TOKEN\">%1$s <ex>ポイント</ex> </ph>獲得</string>
     <string name="brave_rewards_onboarding_title">Brave Rewards</string>
-    <string name="brave_rewards_onboarding_text">プライバシーを尊重する広告を見るために。お気に入りのサイトやクリエイターをサポートするためにそれらを使用してください。</string>
-    <string name="brave_rewards_onboarding_text2">プライバシーを尊重する広告を見るために。</string>
+    <string name="brave_rewards_onboarding_text">プライバシーを尊重する広告を見てポイントを獲得し、お気に入りのサイトやクリエイターを支援することが可能です。</string>
+    <string name="brave_rewards_onboarding_text2">プライバシーを尊重する広告を見てポイントを獲得。</string>
 
-    <string name="terms_text">リワードを有効にすることで、次に同意します</string>
+    <string name="terms_text">リワードを有効にすると、以下に同意したと見なされます。</string>
     <string name="terms_of_service">利用規約</string>
 
     <string name="start_browsing">ブラウジングを開始</string>
@@ -317,11 +321,13 @@
     <string name="settings_exit">設定終了</string>
 
     <string name="brave_license_text">Braveライセンス</string>
-    <string name="token">トークン</string>
+    <string name="token">ポイント</string>
     <string name="point">ポイント</string>
 
-    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s <ex>BAT </ex> </ph></string>
-    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s <ex>BAT </ex> </ph></string>
-    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s <ex>BAT </ex> </ph></string>
+    <string name="one_tip_option">1 <ph name=\"TIP\">%1$s <ex>BAP </ex> </ph></string>
+    <string name="five_tip_option">5 <ph name=\"TIP\">%1$s <ex>BAP </ex> </ph></string>
+    <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s <ex>BAP </ex> </ph></string>
+
+    <string name="photo_by"><ph name=\"PHOTO_BY\">%1$s</ph>による写真</string>
 
 </resources>

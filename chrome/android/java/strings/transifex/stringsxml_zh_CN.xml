@@ -151,8 +151,6 @@
 
     <string name="brave_ui_welcome_header_two">做好准备，体验
 下一代因特网。</string>
-    <string name="brave_ui_welcome_desc_two">现在观看尊重隐私权的广告可以赚取 <ph name="TOKEN">%1$s<ex>token</ex></ph>
-。</string>
     <string name="brave_ui_welcome_button_text_two">加入奖励</string>
     <string name="brave_ui_welcome_footer_text_two">详细了解</string>
     <string name="brave_ui_rewards_creating_text">创建钱包</string>
@@ -323,4 +321,4 @@
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
-</resources>
+    </resources>

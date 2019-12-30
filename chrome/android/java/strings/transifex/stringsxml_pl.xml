@@ -3,7 +3,7 @@
     <string name="brave_settings_title">Ustawienia tarczy Brave dla strony</string>
     <string name="brave_shields_down">Wyłączone</string>
     <string name="brave_shields_up">Włączone</string>
-    <string name="brave_shields_ads_trackers">Reklamy i trackery zablokowane</string>
+    <string name="brave_shields_ads_trackers">Zablokowane reklamy i skrypty śledzące</string>
     <string name="brave_shields_https_upgrades">Aktualizacje HTTPS</string>
     <string name="brave_shields_scripts_blocked">Zablokowane skrypty</string>
     <string name="brave_shields_ads_tracking_switch">Zablokuj reklamy i śledzenie</string>
@@ -17,10 +17,10 @@
     <string name="ad_block_title">Blokowanie reklam</string>
     <string name="ad_block_summary">Zapobiega ładowaniu reklam</string>
 
-    <string name="fingerprinting_protection_title">Ochrona przed zabieraniem odcisków palców</string>
-    <string name="fingerprinting_protection_summary">Uniemożliwia przeglądarce zbieranie odcisków palców</string>
-    <string name="brave_shields_fingerprints_blocked">Zablokowane metody zbierania odcisków palców</string>
-    <string name="brave_shields_block_fingerprints_switch">Ochrona przed zabieraniem odcisków palców</string>
+    <string name="fingerprinting_protection_title">Ochrona przed rozpoznawaniem urządzenia</string>
+    <string name="fingerprinting_protection_summary">Uniemożliwiaj rozpoznawanie urządzenia</string>
+    <string name="brave_shields_fingerprints_blocked">Zablokowane metody rozpoznawania urządzenia</string>
+    <string name="brave_shields_block_fingerprints_switch">Ochrona przed rozpoznawaniem urządzenia</string>
 
     <string name="ad_block_regional_title">Blokada reklam regionalnych</string>
     <string name="ad_block_regional_summary">Zapobiega wyświetlaniu się lokalnych reklam</string>
@@ -38,8 +38,7 @@
     <string name="sync_device_failure">Nie można skonfigurować synchronizacji</string>
     <string name="sync_requires_correct_time">Zegar komputera może być ustawiony na nieprawidłową godzinę lub strefę czasową. Sprawdź ustawienia zegara</string>
 
-    <string name="brave_stats_text_ads">Reklamy i trackery
-zablokowane</string>
+    <string name="brave_stats_text_ads">Zablokowane reklamy i skrypty śledzące</string>
     <string name="brave_stats_text_https">Aktualizacje
 HTTPS</string>
     <string name="brave_stats_text_time">Szacowany
@@ -56,8 +55,8 @@ zaoszczędzony czas</string>
     <string name="brave_shields_first_group_title">Zablokowane elementy</string>
     <string name="brave_shields_second_group_title">Kontrolery indywidualne</string>
     <string name="brave_shields">Tarcze</string>
-    <string name="brave_shields_ads_and_trackers">Reklamy i trackery</string>
-    <string name="brave_shields_fingerprint_methods">Metody odcisków palców</string>
+    <string name="brave_shields_ads_and_trackers">Reklamy i skrypty śledzące</string>
+    <string name="brave_shields_fingerprint_methods">Metody rozpoznawania urządzenia</string>
     <string name="brave_shields_block_phishing_switch">Zablokuj phishing</string>
 
     <string name="play_video_in_background_title">Odtwarzanie wideo w tle</string>
@@ -151,7 +150,7 @@ Oszczędzaj baterię dzięki szybszemu ładowaniu stron</string>
 
     <string name="brave_ui_welcome_header_two">Przygotuj się na
 nowe oblicze Internetu.</string>
-    <string name="brave_ui_welcome_desc_two">Teraz możesz zyskać <ph name="TOKEN">%1$s<ex>token</ex></ph> za oglądanie reklam szanujących prywatność.</string>
+    <string name="brave_ui_welcome_desc_two">Teraz możesz zarobić <ph name=\"TOKEN\">%1$s<ex>tokenów</ex></ph> za oglądanie reklam z poszanowaniem prywatności.</string>
     <string name="brave_ui_welcome_button_text_two">DOŁĄCZ DO NAGRÓD</string>
     <string name="brave_ui_welcome_footer_text_two">DOWIEDZ SIĘ WIĘCEJ</string>
     <string name="brave_ui_rewards_creating_text">Tworzenie portfela</string>
@@ -252,8 +251,11 @@ twórcom treści, które lubisz.</string>
     <string name="prefs_section_display">Wyświetlanie</string>
     <string name="prefs_section_controls">Elementy kontrolne</string>
     <string name="prefs_appearance">Wygląd</string>
+    <string name="prefs_new_tab_page">Nowa karta</string>
+    <string name="show_background_images">Wyświetl obrazy tła</string>
+    <string name="show_sponsored_images">Wyświetl sponsorowane obrazy</string>
     <string name="hide_brave_rewards_icon_title">Ukryj ikonę nagród Brave</string>
-    <string name="hide_brave_rewards_icon_description">Ukrywa ikonę nagród Brave, kiedy nie są one włączone.</string>
+    <string name="hide_brave_rewards_icon_description">Ukryj ikonę nagród Brave, kiedy nie są włączone.</string>
     <string name="show_ads_when_brave_is_not_in_use">Pokaż reklamy, gdy program Brave nie jest w użyciu</string>
     <string name="reset_brave_rewards_option">Zresetuj nagrody Brave</string>
     <string name="reset_brave_rewards_option_description">Spowoduje to usunięcie portfela Brave i zresetowanie wszystkich Twoich danych o nagrodach Brave.</string>
@@ -286,7 +288,7 @@ twórcom treści, które lubisz.</string>
 
     <string name="block">Zablokuj</string>
     <string name="brave_shields_onboarding_title">Tarcze Brave</string>
-    <string name="brave_shields_onboarding_text">reklamy naruszające prywatność i trackery, aby móc przeglądać, nie narażając się na śledzenie w sieci.</string>
+    <string name="brave_shields_onboarding_text">reklamy naruszające prywatność i skrypty śledzące, aby móc przeglądać, nie narażając się na śledzenie w sieci.</string>
 
     <string name="earn_tokens">Zyskaj <ph name=\"TOKEN\">%1$s<ex>tokeny</ex></ph></string>
     <string name="brave_rewards_onboarding_title">Nagrody Brave</string>
@@ -323,5 +325,7 @@ twórcom treści, które lubisz.</string>
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Zdjęcie autorstwa<ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

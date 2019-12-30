@@ -60,7 +60,7 @@
     <string name="brave_shields_fingerprint_methods">Методы определения отпечатка</string>
     <string name="brave_shields_block_phishing_switch">Блокировать фишинг</string>
 
-    <string name="play_video_in_background_title">Воспроизведение видео в фоне</string>
+    <string name="play_video_in_background_title">Фоновое воспроизведение видео</string>
     <string name="website_settings_category_play_video_in_background_enabled_summary">Включено</string>
     <string name="website_settings_category_play_video_in_background_disabled_summary">Отключено</string>
     <string name="website_settings_category_play_video_in_background_enabled">Тестовая функция. Включает воспроизведение звука из видео в фоновом режиме, если вкладка не активна или экран устройства выключен. Попробуйте переключиться в режим рабочего стола, если эта функция не работает.</string>
@@ -151,8 +151,7 @@
 
     <string name="brave_ui_welcome_header_two">Новые способы
 получать токены.</string>
-    <string name="brave_ui_welcome_desc_two">Теперь вы можете заработать <ph name="TOKEN">%1$s<ex>token</ex></ph> за
-просмотр рекламы, которая уважает вашу конфиденциальность.</string>
+    <string name="brave_ui_welcome_desc_two">Теперь вы можете зарабатывать <ph name=\"TOKEN\">%1$s<ex>токен</ex></ph>ы за просмотр рекламы, уважительно относящейся к вашей конфиденциальности.</string>
     <string name="brave_ui_welcome_button_text_two">ВСТУПИТЬ В ПРОГРАММУ BRAVE REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">ПОДРОБНЕЕ</string>
     <string name="brave_ui_rewards_creating_text">Создание кошелька</string>
@@ -250,10 +249,10 @@
     <string name="brave_rewards_not_available">К сожалению, похоже, что награды Brave недоступны на вашем устройстве</string>
 
     <string name="prefs_closing_all_tabs_closes_brave_title">Закрытие всех вкладок закрывает Brave </string>
-    <string name="prefs_section_display">Отобразить</string>
+    <string name="prefs_section_display">Отображение</string>
     <string name="prefs_section_controls">Управление</string>
     <string name="prefs_appearance">Внешний вид</string>
-    <string name="prefs_new_tab_page">Страница новой вкладки</string>
+    <string name="prefs_new_tab_page">Новая вкладка</string>
     <string name="show_background_images">Показывать фоновые изображения</string>
     <string name="show_sponsored_images">Показывать спонсированные изображения</string>
     <string name="hide_brave_rewards_icon_title">Скрыть иконку  Brave Rewards</string>
@@ -267,7 +266,7 @@
     <string name="brave_sync_add_laptop_text_part_2_new">На своем целевом компьютере перейдите к Brave Sync в настройках и нажмите кнопку «У меня есть код синхронизации».\nВведите отображаемые ниже кодовые слова цепочки синхронизации.</string>
 
     <string name="brave_sync_official">Синхронизация Brave</string>
-    <string name="prefs_sync_official">Синхронизировать</string>
+    <string name="prefs_sync_official">Синхронизация</string>
 
     <string name="brave_sync_code_warning">Рассматривайте этот код как пароль. Если кто-либо получит его, он или она могут сможет просматривать и изменять ваши синхронизированные данные.</string>
 
@@ -327,5 +326,7 @@
     <string name="one_tip_option">1 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
+
+    <string name="photo_by">Фото <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
 </resources>

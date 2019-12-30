@@ -151,8 +151,6 @@ Ahorra batería y carga páginas web más rápido</string>
 
     <string name="brave_ui_welcome_header_two">Prepárate para disfrutar
 de la nueva Internet.</string>
-    <string name="brave_ui_welcome_desc_two">Ahora puedes ganar <ph name="TOKEN">%1$s<ex>token</ex></ph> por
-mirar anuncios que respetan la privacidad.</string>
     <string name="brave_ui_welcome_button_text_two">QUIERO UNIRME</string>
     <string name="brave_ui_welcome_footer_text_two">MÁS INFORMACIÓN</string>
     <string name="brave_ui_rewards_creating_text">Creando billetera</string>
@@ -325,4 +323,4 @@ apoyar a los creadores de contenido que más te gustan.</string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
-</resources>
+    </resources>
