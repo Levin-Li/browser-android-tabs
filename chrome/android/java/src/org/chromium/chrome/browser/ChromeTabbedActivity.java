@@ -608,7 +608,8 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
             mTabModelObserver = new TabModelSelectorTabModelObserver(mTabModelSelectorImpl) {
                 @Override
                 public void didSelectTab(Tab tab, @TabSelectionType int type, int lastId) {
-                    if (getActivityTab().equals(tab)) {
+                    final Tab currentTab = getActivityTab();
+                    if (currentTab != null && currentTab.equals(tab)) {
                         onNotifyFrontTabUrlChanged(tab, tab.getUrl());
                     }
 
@@ -1763,7 +1764,8 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                 if ((null != app) && (null != app.getShieldsConfig())) {
                     app.getShieldsConfig().setTabModelSelectorTabObserver(mTabModelSelectorTabObserver);
                 }
-                if (getActivityTab() == tab) {
+                final Tab currentTab = getActivityTab();
+                if (currentTab != null && currentTab == tab) {
                     try {
                         URL urlCheck = new URL(url);
                         setBraveShieldsColor(tab.isIncognito(), urlCheck.getHost());
@@ -1776,7 +1778,8 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
 
             @Override
             public void onPageLoadFinished(final Tab tab, String url) {
-                if (getActivityTab() == tab) {
+                final Tab currentTab = getActivityTab();
+                if (currentTab != null && currentTab == tab) {
                     try {
                         URL urlCheck = new URL(url);
                         setBraveShieldsColor(tab.isIncognito(), urlCheck.getHost());
@@ -1788,7 +1791,8 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
 
             @Override
             public void onDidFinishNavigation(Tab tab, NavigationHandle navigation) {
-                if (getActivityTab().equals(tab)) {
+                final Tab currentTab = getActivityTab();
+                if (currentTab != null && currentTab.equals(tab)) {
                     onNotifyFrontTabUrlChanged(tab, tab.getUrl());
                 }
 
@@ -2687,8 +2691,9 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
         // Find if tab exists
         if (tabRewardsIndex != TabModel.INVALID_TAB_INDEX){
             Tab tab = tabModel.getTabAt(tabRewardsIndex);
+            final Tab currentTab = getActivityTab();
             // Moving tab forward
-            if (!getActivityTab().equals(tab)){
+            if (currentTab != null && !currentTab.equals(tab)) {
                 tabModel.moveTab(tab.getId(), tabModel.getCount());
                 tabModel.setIndex(
                         TabModelUtils.getTabIndexById(tabModel, tab.getId()),
