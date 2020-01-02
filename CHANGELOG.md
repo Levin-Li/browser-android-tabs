@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.6.2](https://github.com/brave/browser-android-tabs/releases/tag/v1.6.2)
+ 
+  - Fixed missing translations for all locales. ([#2404](https://github.com/brave/browser-android-tabs/issues/2404))
+
+## [1.6.1](https://github.com/brave/browser-android-tabs/releases/tag/v1.6.1)
+
+ - Implemented Brave Ads support for new regions. ([#2377](https://github.com/brave/browser-android-tabs/issues/2377))
+ - Upgrade to Chromium 79.0.3945.93. ([#2379](https://github.com/brave/browser-android-tabs/issues/2379))
+
 ## [1.6.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.6.0)
  
  - Added images to new tab page. ([#2176](https://github.com/brave/browser-android-tabs/issues/2176))
@@ -33,7 +42,7 @@
  - Fixed incorrect color being used for balance under Brave Rewards. ([#1151](https://github.com/brave/browser-android-tabs/issues/1151))
  - Upgraded to Chromium 78.0.3904.90. ([#2221](https://github.com/brave/browser-android-tabs/issues/2221))
 
- ## [1.4.3](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.3)
+## [1.4.3](https://github.com/brave/browser-android-tabs/releases/tag/v1.4.3)
 
  - Fixed webview crash upon visiting certain sites. ([#2166](https://github.com/brave/browser-android-tabs/issues/2166))
  - Increased max number of Brave Ads from 12 to 20 to match desktop. ([#2068](https://github.com/brave/browser-android-tabs/issues/2068))
