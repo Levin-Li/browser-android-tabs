@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.6.3](https://github.com/brave/browser-android-tabs/releases/tag/v1.6.3)
+
+ - Fixed certain cases where multiple auto contributions were occurring. ([#2432](https://github.com/brave/browser-android-tabs/issues/2432))
+ - Fixed certain cases where tips were not going through. ([#2420](https://github.com/brave/browser-android-tabs/issues/2420))
+ - Fixed certain unverified channels from showing up as verified. ([#2374](https://github.com/brave/browser-android-tabs/issues/2374))
+
 ## [1.6.2](https://github.com/brave/browser-android-tabs/releases/tag/v1.6.2)
  
   - Fixed missing translations for all locales. ([#2404](https://github.com/brave/browser-android-tabs/issues/2404))
