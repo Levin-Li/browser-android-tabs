@@ -448,6 +448,10 @@ jint BookmarkBridge::GetChildCount(JNIEnv* env,
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
   DCHECK(IsLoaded());
   const BookmarkNode* node = GetNodeByID(id, type);
+  if (!node) {
+    NOTREACHED();
+    return jint{0};
+  }
   return jint{node->children().size()};
 }
 
