@@ -27,6 +27,7 @@ import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.BraveRewardsSiteBannerActivity;
+import org.chromium.components.url_formatter.UrlFormatter;
 
 import static java.util.Locale.getDefault;
 import java.text.DateFormat;
@@ -137,6 +138,8 @@ public class BraveRewardsDonationSentActivity extends Activity implements BraveR
         }
 
         mPublisher_name_ = mBraveRewardsNativeWorker.GetPublisherName(currentTabId_);
+        String fixedUrl = UrlFormatter.fixupUrl(mPublisher_name_);
+        mPublisher_name_ = UrlFormatter.formatUrlForSecurityDisplayOmitScheme(fixedUrl);
         mAmount_ = IntentUtils.safeGetIntExtra (intent, BraveRewardsSiteBannerActivity.TIP_AMOUNT_EXTRA, 0);
         mMonthly_tip_ = IntentUtils.safeGetBooleanExtra (intent, BraveRewardsSiteBannerActivity.TIP_MONTHLY_EXTRA, false);
 

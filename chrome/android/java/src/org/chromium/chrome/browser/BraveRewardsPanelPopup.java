@@ -65,6 +65,7 @@ import org.chromium.chrome.browser.tabmodel.TabLaunchType;
 import org.chromium.chrome.browser.tabmodel.TabModelSelectorImpl;
 import org.chromium.chrome.browser.util.PackageUtils;
 import org.chromium.chrome.R;
+import org.chromium.components.url_formatter.UrlFormatter;
 import org.chromium.content_public.browser.LoadUrlParams;
 import org.chromium.base.ContextUtils;
 
@@ -1193,6 +1194,8 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         ll.setBackgroundColor(Color.WHITE);
 
         String pubName = thisObject.mBraveRewardsNativeWorker.GetPublisherName(currentTabId);
+        String fixedUrl = UrlFormatter.fixupUrl(pubName);
+        pubName = UrlFormatter.formatUrlForSecurityDisplayOmitScheme(fixedUrl);
         String pubId = thisObject.mBraveRewardsNativeWorker.GetPublisherId(currentTabId);
         String pubSuffix = "";
         if (pubId.startsWith(YOUTUBE_TYPE)) {
