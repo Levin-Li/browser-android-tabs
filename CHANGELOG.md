@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.7.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.7.0)
+ 
+ - Fixed non-ASCII domain name being displayed incorrectly on panel and tipping banner. ([#2289](https://github.com/brave/browser-android-tabs/issues/2289))
+ - Upgraded to Chromium 79.0.3945.116. ([#2431](https://github.com/brave/browser-android-tabs/issues/2431))
+
 ## [1.6.3](https://github.com/brave/browser-android-tabs/releases/tag/v1.6.3)
 
  - Fixed certain cases where multiple auto contributions were occurring. ([#2432](https://github.com/brave/browser-android-tabs/issues/2432))
@@ -13,7 +18,7 @@
 ## [1.6.1](https://github.com/brave/browser-android-tabs/releases/tag/v1.6.1)
 
  - Implemented Brave Ads support for new regions. ([#2377](https://github.com/brave/browser-android-tabs/issues/2377))
- - Upgrade to Chromium 79.0.3945.93. ([#2379](https://github.com/brave/browser-android-tabs/issues/2379))
+ - Upgraded to Chromium 79.0.3945.93. ([#2379](https://github.com/brave/browser-android-tabs/issues/2379))
 
 ## [1.6.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.6.0)
  
