@@ -135,8 +135,10 @@ public class BraveRewardsSiteBannerActivity extends Activity implements BraveRew
         mBraveRewardsNativeWorker.AddObserver(this);
 
         String publisherName = mBraveRewardsNativeWorker.GetPublisherName(currentTabId_);
-        String fixedUrl = UrlFormatter.fixupUrl(publisherName);
-        publisherName = UrlFormatter.formatUrlForSecurityDisplayOmitScheme(fixedUrl);
+        // TODO(samartnik): needs further investigation as it decapitalizes letters
+        // and adds URL symbols
+        // String fixedUrl = UrlFormatter.fixupUrl(publisherName);
+        // publisherName = UrlFormatter.formatUrlForSecurityDisplayOmitScheme(fixedUrl);
         TextView publisher = (TextView)findViewById(R.id.publisher_name);
         publisher.setText(publisherName);
 

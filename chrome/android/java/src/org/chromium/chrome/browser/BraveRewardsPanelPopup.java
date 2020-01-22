@@ -1194,8 +1194,10 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         ll.setBackgroundColor(Color.WHITE);
 
         String pubName = thisObject.mBraveRewardsNativeWorker.GetPublisherName(currentTabId);
-        String fixedUrl = UrlFormatter.fixupUrl(pubName);
-        pubName = UrlFormatter.formatUrlForSecurityDisplayOmitScheme(fixedUrl);
+        // TODO(samartnik): needs further investigation as it decapitalizes letters
+        // and adds URL symbols
+        // String fixedUrl = UrlFormatter.fixupUrl(pubName);
+        // pubName = UrlFormatter.formatUrlForSecurityDisplayOmitScheme(fixedUrl);
         String pubId = thisObject.mBraveRewardsNativeWorker.GetPublisherId(currentTabId);
         String pubSuffix = "";
         if (pubId.startsWith(YOUTUBE_TYPE)) {
