@@ -138,8 +138,10 @@ public class BraveRewardsDonationSentActivity extends Activity implements BraveR
         }
 
         mPublisher_name_ = mBraveRewardsNativeWorker.GetPublisherName(currentTabId_);
-        String fixedUrl = UrlFormatter.fixupUrl(mPublisher_name_);
-        mPublisher_name_ = UrlFormatter.formatUrlForSecurityDisplayOmitScheme(fixedUrl);
+        // TODO(samartnik): needs further investigation as it decapitalizes letters
+        // and adds URL symbols
+        // String fixedUrl = UrlFormatter.fixupUrl(mPublisher_name_);
+        // mPublisher_name_ = UrlFormatter.formatUrlForSecurityDisplayOmitScheme(fixedUrl);
         mAmount_ = IntentUtils.safeGetIntExtra (intent, BraveRewardsSiteBannerActivity.TIP_AMOUNT_EXTRA, 0);
         mMonthly_tip_ = IntentUtils.safeGetBooleanExtra (intent, BraveRewardsSiteBannerActivity.TIP_MONTHLY_EXTRA, false);
 
