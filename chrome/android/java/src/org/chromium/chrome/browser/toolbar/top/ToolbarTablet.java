@@ -71,6 +71,7 @@ import org.chromium.ui.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 
 /**
  * The Toolbar object for Tablet screens.
@@ -224,10 +225,10 @@ public class ToolbarTablet extends ToolbarLayout
     public void onNativeLibraryReady() {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         if (ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) &&
-            !PrefServiceBridge.getInstance().isSafetynetCheckFailed() &&
+            !WebsitePreferenceBridge.isSafetynetCheckFailed() &&
                 !sharedPreferences.getBoolean(PREF_HIDE_BRAVE_ICON, false)) {
             if (mRewardsLayout != null && mShieldsLayout != null) {
-                mShieldsLayout.setBackgroundColor(ColorUtils.getDefaultThemeColor(getResources(), isIncognito()));
+                mShieldsLayout.setBackgroundColor(ChromeColors.getDefaultThemeColor(getResources(), isIncognito()));
                 mShieldsLayoutIsColorBackground = true;
                 mRewardsLayout.setVisibility(View.VISIBLE);
             }
@@ -477,8 +478,6 @@ public class ToolbarTablet extends ToolbarLayout
             description = resources.getString(R.string.menu_bookmark);
         } else if (v == mSaveOfflineButton) {
             description = resources.getString(R.string.menu_download);
-        } else if (itemId == R.id.share_page_id) {
-            description = resources.getString(R.string.menu_share_page);
         } else if (v == mHomeButton) {
             description = resources.getString(R.string.accessibility_toolbar_btn_home);
         } else if (v == mBraveShieldsButton) {
@@ -532,7 +531,7 @@ public class ToolbarTablet extends ToolbarLayout
         mLocationBar.getBackground().setColorFilter(textBoxColor, PorterDuff.Mode.SRC_IN);
         mShieldsLayout.getBackground().setColorFilter(textBoxColor, PorterDuff.Mode.SRC_IN);
         if (mShieldsLayoutIsColorBackground) {
-            mShieldsLayout.setBackgroundColor(ColorUtils.getDefaultThemeColor(getResources(), isIncognito()));
+            mShieldsLayout.setBackgroundColor(ChromeColors.getDefaultThemeColor(getResources(), isIncognito()));
         }
         mRewardsLayout.getBackground().setColorFilter(textBoxColor, PorterDuff.Mode.SRC_IN);
 
@@ -542,7 +541,7 @@ public class ToolbarTablet extends ToolbarLayout
     @Override
     public void OnWalletInitialized(int error_code) {
         if (error_code == BraveRewardsNativeWorker.SAFETYNET_ATTESTATION_FAILED) {
-            PrefServiceBridge.getInstance().setSafetynetCheckFailed(true);
+            WebsitePreferenceBridge.setSafetynetCheckFailed(true);
             if (mRewardsLayout != null && mShieldsLayout != null) {
                 mRewardsLayout.setVisibility(View.GONE);
                 mShieldsLayout.setBackgroundDrawable(
@@ -586,7 +585,7 @@ public class ToolbarTablet extends ToolbarLayout
     public void OnPublisherInfo(int tabId) {}
 
     @Override
-    public void OnGetCurrentBalanceReport(String[] report) {}
+    public void OnGetCurrentBalanceReport(double[] report) {}
 
     @Override
     public void OnNotificationAdded(String id, int type, long timestamp,
@@ -741,14 +740,14 @@ public class ToolbarTablet extends ToolbarLayout
                 mRewardsLayout.setVisibility(View.GONE);
                 mShieldsLayout.setBackgroundDrawable(
                     ApiCompatibilityUtils.getDrawable(getContext().getResources(), R.drawable.modern_toolbar_background_grey_end_segment));
-                final int textBoxColor = ColorUtils.getTextBoxColorForToolbarBackground(
-                    getResources(), false, 0, isIncognito());
+                final int textBoxColor = ToolbarColors.getTextBoxColorForToolbarBackgroundInNonNativePage(
+                    getResources(), 0, isIncognito());
                 mShieldsLayout.getBackground().setColorFilter(textBoxColor, PorterDuff.Mode.SRC_IN);
                 mShieldsLayoutIsColorBackground = false;
             }
         } else if (isNativeLibraryReady() &&
                 ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) &&
-                !PrefServiceBridge.getInstance().isSafetynetCheckFailed() &&
+                !WebsitePreferenceBridge.isSafetynetCheckFailed() &&
                 !sharedPreferences.getBoolean(PREF_HIDE_BRAVE_ICON, false)) {
             if (mRewardsLayout != null) {
                 mRewardsLayout.setVisibility(View.VISIBLE);

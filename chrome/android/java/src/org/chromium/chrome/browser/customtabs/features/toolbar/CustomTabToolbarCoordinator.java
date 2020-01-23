@@ -43,6 +43,8 @@ import dagger.Lazy;
 
 import android.view.View.OnClickListener;
 import java.net.URL;
+import org.chromium.chrome.browser.tab.TabImpl;
+import org.chromium.chrome.R;
 
 /**
  * Works with the toolbar in a Custom Tab. Encapsulates interactions with Chrome's toolbar-related
@@ -181,7 +183,7 @@ public class CustomTabToolbarCoordinator {
                         && mFullscreenManager.get().getPersistentFullscreenMode()) {
                     return;
                 }
-                Tab currentTab = mTabProvider.getTab();
+                TabImpl currentTab = (TabImpl)mTabProvider.getTab();
                 if (currentTab != null) {
                     try {
                         URL url = new URL(currentTab.getUrl());

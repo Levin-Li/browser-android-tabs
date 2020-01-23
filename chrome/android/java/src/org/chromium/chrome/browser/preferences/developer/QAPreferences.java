@@ -27,13 +27,15 @@ import org.chromium.chrome.browser.BraveRewardsNativeWorker;
 import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
 import org.chromium.chrome.browser.ConfigAPIs;
-import org.chromium.chrome.browser.preferences.ChromeSwitchPreference;
-import org.chromium.chrome.browser.preferences.PreferenceUtils;
+import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
+import org.chromium.chrome.browser.settings.SettingsUtils;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.RestartWorker;
 import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 
 import org.chromium.base.Log;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
+
 /**
  * Settings fragment containing preferences for QA team.
  */
@@ -55,7 +57,7 @@ public class QAPreferences extends BravePreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        PreferenceUtils.addPreferencesFromResource(this, R.xml.qa_preferences);
+        SettingsUtils.addPreferencesFromResource(this, R.xml.qa_preferences);
 
         mIsStagingServer =
                 (ChromeSwitchPreference) findPreference(PREF_USE_REWARDS_STAGING_SERVER);
@@ -87,7 +89,7 @@ public class QAPreferences extends BravePreferenceFragment
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (PREF_USE_REWARDS_STAGING_SERVER.equals(preference.getKey())) {
-            PrefServiceBridge.getInstance().setUseRewardsStagingServer((boolean) newValue);
+            WebsitePreferenceBridge.setUseRewardsStagingServer((boolean) newValue);
             BraveRewardsNativeWorker.getInstance().ResetTheWholeState();
             mMaximizeAdsNumber.setEnabled((boolean) newValue);
             enableMaximumAdsNumber(((boolean) newValue) && mMaximizeAdsNumber.isChecked());
@@ -161,7 +163,7 @@ public class QAPreferences extends BravePreferenceFragment
     public void OnPublisherInfo(int tabId) {}
 
     @Override
-    public void OnGetCurrentBalanceReport(String[] report) {}
+    public void OnGetCurrentBalanceReport(double[] report) {}
 
     @Override
     public void OnNotificationAdded(String id, int type, long timestamp,
@@ -204,7 +206,7 @@ public class QAPreferences extends BravePreferenceFragment
             sharedPreferencesEditor.putBoolean(BraveRewardsPanelPopup.PREF_GRANTS_NOTIFICATION_RECEIVED, false);
             sharedPreferencesEditor.putBoolean(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_TURNED_ON, false);
             sharedPreferencesEditor.apply();
-            PrefServiceBridge.getInstance().setSafetynetCheckFailed(false);
+            WebsitePreferenceBridge.setSafetynetCheckFailed(false);
             RestartWorker.AskForRelaunch(getActivity());
         } else {
             RestartWorker.AskForRelaunchCustom(getActivity());

@@ -185,15 +185,6 @@ public class WebsitePreferenceBridge {
         return managedExceptions;
     }
 
-    public List<ContentSettingException> getContentSettingsExceptionsIncognito(
-            int contentSettingsType) {
-        List<ContentSettingException> exceptions =
-                PrefServiceBridge.getInstance().getContentSettingsExceptionsIncognito(
-                        contentSettingsType);
-
-        return exceptions;
-    }
-
     public void fetchLocalStorageInfo(Callback<HashMap> callback, boolean fetchImportant) {
         WebsitePreferenceBridgeJni.get().fetchLocalStorageInfo(callback, fetchImportant);
     }
@@ -387,13 +378,13 @@ public class WebsitePreferenceBridge {
                 WebsitePreferenceBridgeJni.get().setSoundEnabled(allow);
                 break;
             case ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW:
-                PrefServiceBridgeJni.get().setDesktopViewEnabled(allow);
+                WebsitePreferenceBridgeJni.get().setDesktopViewEnabled(allow);
                 break;
             case ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND:
-                PrefServiceBridgeJni.get().setPlayVideoInBackgroundEnabled(allow);
+                WebsitePreferenceBridgeJni.get().setPlayVideoInBackgroundEnabled(allow);
                 break;
             case ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER:
-                PrefServiceBridgeJni.get().setPlayYTVideoInBrowserEnabled(allow);
+                WebsitePreferenceBridgeJni.get().setPlayYTVideoInBrowserEnabled(allow);
                 break;
             default:
                 assert false;
@@ -433,11 +424,11 @@ public class WebsitePreferenceBridge {
             case ContentSettingsType.SOUND:
                 return WebsitePreferenceBridgeJni.get().getSoundEnabled();
             case ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW:
-                return PrefServiceBridgeJni.get().getDesktopViewEnabled();
+                return WebsitePreferenceBridgeJni.get().getDesktopViewEnabled();
             case ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND:
-                return PrefServiceBridgeJni.get().getPlayVideoInBackgroundEnabled();
+                return WebsitePreferenceBridgeJni.get().getPlayVideoInBackgroundEnabled();
             case ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER:
-                return PrefServiceBridgeJni.get().getPlayYTVideoInBrowserEnabled();
+                return WebsitePreferenceBridgeJni.get().getPlayYTVideoInBrowserEnabled();
             default:
                 assert false;
                 return false;
@@ -557,12 +548,149 @@ public class WebsitePreferenceBridge {
     /**
      * @param whether SafetyNet check failed.
      */
-    public void setSafetynetCheckFailed(boolean value) {
-        PrefServiceBridgeJni.get().setSafetynetCheckFailed(value);
+    public static void setSafetynetCheckFailed(boolean value) {
+        WebsitePreferenceBridgeJni.get().setSafetynetCheckFailed(value);
     }
 
-    public boolean isSafetynetCheckFailed() {
-        return PrefServiceBridgeJni.get().getSafetynetCheckFailed();
+    public static boolean isSafetynetCheckFailed() {
+        return WebsitePreferenceBridgeJni.get().getSafetynetCheckFailed();
+    }
+
+    /**
+     * Returns all the currently saved exceptions for a given content settings type,
+     * from incognito profile.
+     * @param contentSettingsType The type to fetch exceptions for.
+     */
+    public static List<ContentSettingException> getContentSettingsExceptionsIncognito(int contentSettingsType) {
+        List<ContentSettingException> list = new ArrayList<ContentSettingException>();
+        WebsitePreferenceBridgeJni.get().getContentSettingsExceptionsIncognito(contentSettingsType, list);
+        return list;
+    }
+
+    
+    /**
+     * @param whether AdBlock should be enabled.
+     */
+    public static void setAdBlockEnabled(boolean enabled) {
+        WebsitePreferenceBridgeJni.get().setAdBlockEnabled(enabled);
+    }
+
+    /**
+     * @param whether HTTPSE should be enabled.
+     */
+    public static void setHTTPSEEnabled(boolean enabled) {
+        WebsitePreferenceBridgeJni.get().setHTTPSEEnabled(enabled);
+    }
+
+    /**
+     * @param whether Fingerprinting Protection should be enabled.
+     */
+    public static void setFingerprintingProtectionEnabled(boolean enabled) {
+        WebsitePreferenceBridgeJni.get().setFingerprintingProtectionEnabled(enabled);
+    }
+
+    /**
+     * @param whether AdBlock should be enabled.
+     */
+    public static void setAdBlockRegionalEnabled(boolean enabled) {
+        WebsitePreferenceBridgeJni.get().setAdBlockRegionalEnabled(enabled);
+    }
+
+    /**
+     * @return true if Desktop View is enabled.
+     * The default is false.
+     */
+    public static boolean desktopViewEnabled() {
+        return WebsitePreferenceBridgeJni.get().getDesktopViewEnabled();
+    }
+
+    /**
+     * @return Whether Desktop View is managed by policy.
+     */
+    public static boolean desktopViewManaged() {
+        return isContentSettingManaged(ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW);
+    }
+
+    /**
+     * Enable or disable Desktop View .
+     */
+    public static void setDesktopViewEnabled(boolean enabled) {
+        WebsitePreferenceBridgeJni.get().setDesktopViewEnabled(enabled);
+    }
+
+    /**
+     * @return true if 'Play video in background' is enabled.
+     * The default is false.
+     */
+    public static boolean playVideoInBackgroundEnabled() {
+        return WebsitePreferenceBridgeJni.get().getPlayVideoInBackgroundEnabled();
+    }
+
+    /**
+     * @return Whether 'Play video in background' is managed by policy.
+     */
+    public static boolean playVideoInBackgroundManaged() {
+        return isContentSettingManaged(ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND);
+    }
+
+    /**
+     * Enable or disable 'Play video in background' option
+     */
+    public static void setPlayVideoInBackgroundEnabled(boolean enabled) {
+        WebsitePreferenceBridgeJni.get().setPlayVideoInBackgroundEnabled(enabled);
+    }
+
+    /**
+     * @return true if 'Play YouTube video in browser' is enabled.
+     * The default is true.
+     */
+    public static boolean playYTVideoInBrowserEnabled() {
+        return WebsitePreferenceBridgeJni.get().getPlayYTVideoInBrowserEnabled();
+    }
+
+    /**
+     * @return Whether 'Play YouTube video in browser' is managed by policy.
+     */
+    public static boolean playYTVideoInBrowserManaged() {
+        return isContentSettingManaged(ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER);
+    }
+
+    /**
+     * Enable or disable 'Play YouTube video in browser' option
+     */
+    public static void setPlayYTVideoInBrowserEnabled(boolean enabled) {
+        WebsitePreferenceBridgeJni.get().setPlayYTVideoInBrowserEnabled(enabled);
+    }
+
+    /**
+     * @param whether should use staging server for Rewards.
+     */
+    public static void setUseRewardsStagingServer(boolean value) {
+        WebsitePreferenceBridgeJni.get().setUseRewardsStagingServer(value);
+    }
+
+    public static boolean useRewardsStagingServer() {
+        return WebsitePreferenceBridgeJni.get().getUseRewardsStagingServer();
+    }
+
+    public static void setContentSettingForPatternIncognito(int contentSettingType, String pattern, int setting) {
+        WebsitePreferenceBridgeJni.get().setContentSettingForPatternIncognito(contentSettingType, pattern, setting);
+    }
+
+    public static boolean isFingerprintingProtectionEnabled() {
+        return WebsitePreferenceBridgeJni.get().getFingerprintingProtectionEnabled();
+    }
+
+    public static boolean isHTTPSEEnabled() {
+        return WebsitePreferenceBridgeJni.get().getHTTPSEEnabled();
+    }
+
+    public static boolean isAdBlockEnabled() {
+        return WebsitePreferenceBridgeJni.get().getAdBlockEnabled();
+    }
+
+    public static boolean isAdBlockRegionalEnabled() {
+        return WebsitePreferenceBridgeJni.get().getAdBlockRegionalEnabled();
     }
 
     @VisibleForTesting
@@ -661,5 +789,25 @@ public class WebsitePreferenceBridge {
         void setQuietNotificationsUiEnabled(Profile profile, boolean enabled);
         void setSafetynetCheckFailed(boolean value);
         boolean getSafetynetCheckFailed();
+        void setAdBlockEnabled(boolean enabled);
+        void setHTTPSEEnabled(boolean enabled);
+        void setFingerprintingProtectionEnabled(boolean enabled);
+        void setAdBlockRegionalEnabled(boolean enabled);
+        boolean getDesktopViewEnabled();
+        void setDesktopViewEnabled(boolean enabled);
+        void getContentSettingsExceptionsIncognito(
+            int contentSettingsType, List<ContentSettingException> list);
+        void setContentSettingForPatternIncognito(
+                int contentSettingType, String pattern, int setting);
+        boolean getPlayVideoInBackgroundEnabled();
+        void setPlayVideoInBackgroundEnabled(boolean enabled);
+        boolean getPlayYTVideoInBrowserEnabled();
+        void setPlayYTVideoInBrowserEnabled(boolean enabled);
+        void setUseRewardsStagingServer(boolean value);
+        boolean getUseRewardsStagingServer();
+        boolean getFingerprintingProtectionEnabled();
+        boolean getHTTPSEEnabled();
+        boolean getAdBlockEnabled();
+        boolean getAdBlockRegionalEnabled();
     }
 }

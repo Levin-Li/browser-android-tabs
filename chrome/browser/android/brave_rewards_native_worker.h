@@ -172,7 +172,8 @@ public:
         uint64_t tabId) override;
 
     void OnGetCurrentBalanceReport(brave_rewards::RewardsService* rewards_service,
-        const brave_rewards::BalanceReport& balance_report) override;
+        const int32_t result,
+        const brave_rewards::BalanceReport& balance_report);
 
     void OnNotificationAdded(
       brave_rewards::RewardsNotificationService* rewards_notification_service,

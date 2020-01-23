@@ -129,7 +129,7 @@ class WebContentSettingsClient {
   virtual void DeniedScript() { }
 
   // Controls whether Fingerprinting is allowed for this frame.
-  virtual bool AllowFingerprinting();
+  virtual bool AllowFingerprinting() {return true;}
 
   // Notifies the client that the frame denied fingerprinting because it was disabled.
   virtual void DeniedFingerprinting() { }

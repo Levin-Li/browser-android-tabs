@@ -12,8 +12,10 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 import org.chromium.chrome.browser.preferences.ClosingTabsManager;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.settings.SettingsUtils;
 
 public class ClosingTabsPreferences extends BravePreferenceFragment {
     private static final String PREF_CLOSING_TABS_SWITCH = "closing_tabs_switch";
@@ -28,7 +30,7 @@ public class ClosingTabsPreferences extends BravePreferenceFragment {
         mClosingTabsManager = ClosingTabsManager.getInstance();
 
         getActivity().setTitle(R.string.prefs_closing_all_tabs_closes_brave_title);
-        PreferenceUtils.addPreferencesFromResource(this, R.xml.closing_tabs_preferences);
+        SettingsUtils.addPreferencesFromResource(this, R.xml.closing_tabs_preferences);
 
         mClosingTabsSwitch = (ChromeSwitchPreference) findPreference(PREF_CLOSING_TABS_SWITCH);
 

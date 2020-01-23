@@ -72,7 +72,7 @@ public class BottomToolbarAnimationCoordinator extends EmptyOverviewModeObserver
         animators.add(ObjectAnimator.ofFloat(
                 mBrowsingModeCoordinator.getHomeButton(), View.ALPHA, targetAlpha));
         animators.add(ObjectAnimator.ofFloat(
-                mBrowsingModeCoordinator.getShareButton(), View.ALPHA, targetAlpha));
+                mBrowsingModeCoordinator.getBookmarksButton(), View.ALPHA, targetAlpha));
         animators.add(ObjectAnimator.ofFloat(
                 mBrowsingModeCoordinator.getTabSwitcherButtonView(), View.ALPHA, targetAlpha));
 

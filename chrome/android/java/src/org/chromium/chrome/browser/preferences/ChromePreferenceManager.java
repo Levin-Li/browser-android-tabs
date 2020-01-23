@@ -181,7 +181,7 @@ public class ChromePreferenceManager {
      */
     public boolean isNewTabPageButtonEnabled() {
         return true;
-        // return mSharedPreferences.getBoolean(NTP_BUTTON_ENABLED_KEY, false);
+        // return mManager.readBoolean(NTP_BUTTON_ENABLED_KEY, false);
     }
   
     /**
@@ -189,15 +189,15 @@ public class ChromePreferenceManager {
      * @return True if the bottom toolbar is enabled.
      */
     public boolean isBottomToolbarEnabled() {
-        if (mSharedPreferences.getBoolean(BRAVE_BOTTOM_TOOLBAR_SET_KEY, false)) {
-            return mSharedPreferences.getBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, true);
+        if (mManager.readBoolean(BRAVE_BOTTOM_TOOLBAR_SET_KEY, false)) {
+            return mManager.readBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, true);
         } else {
-            writeBoolean(BRAVE_BOTTOM_TOOLBAR_SET_KEY, true);
+            mManager.writeBoolean(BRAVE_BOTTOM_TOOLBAR_SET_KEY, true);
             boolean enable = true;
             if (isSmallScreen()) {
                 enable = false;
             }
-            writeBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, enable);
+            mManager.writeBoolean(BOTTOM_TOOLBAR_ENABLED_KEY, enable);
 
             return enable;
         }
@@ -278,6 +278,6 @@ public class ChromePreferenceManager {
      * @return True if we can use custom tabs.
      */
     public boolean useCustomTabs() {
-        return mSharedPreferences.getBoolean(USE_CUSTOM_TABS, true);
+        return mManager.readBoolean(USE_CUSTOM_TABS, true);
     }
 }

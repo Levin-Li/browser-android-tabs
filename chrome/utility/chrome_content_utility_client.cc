@@ -15,6 +15,8 @@
 #include "chrome/utility/services.h"
 #include "services/service_manager/sandbox/switches.h"
 
+#include "content/public/utility/utility_thread.h"
+
 #if BUILDFLAG(ENABLE_PRINT_PREVIEW) && defined(OS_WIN)
 #include "chrome/utility/printing_handler.h"
 #endif

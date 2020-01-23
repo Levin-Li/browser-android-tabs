@@ -10,11 +10,12 @@ import org.chromium.chrome.browser.tab.Tab;
 
 import java.net.URL;
 import java.net.MalformedURLException;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 
 public class DisableVideoPauseOnBackground {
     private static String TAG = "PLAYBG";
     public static void Execute(Tab tab) {
-        final boolean videoInBackgroundEnabled = PrefServiceBridge.getInstance().playVideoInBackgroundEnabled();
+        final boolean videoInBackgroundEnabled = WebsitePreferenceBridge.playVideoInBackgroundEnabled();
         if (videoInBackgroundEnabled && NeedToDisable(tab)) {
           tab.getWebContents().evaluateJavaScript(SCRIPT, null);
         }

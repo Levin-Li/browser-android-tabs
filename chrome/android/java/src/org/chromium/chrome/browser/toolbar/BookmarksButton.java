@@ -19,7 +19,7 @@ import org.chromium.chrome.browser.ThemeColorProvider;
 import org.chromium.chrome.browser.ThemeColorProvider.ThemeColorObserver;
 import org.chromium.chrome.browser.ThemeColorProvider.TintObserver;
 import org.chromium.chrome.browser.toolbar.top.ToolbarLayout;
-import org.chromium.chrome.browser.util.FeatureUtilities;
+import org.chromium.chrome.browser.flags.FeatureUtilities;
 import org.chromium.ui.widget.ChromeImageButton;
 
 /**
@@ -29,9 +29,6 @@ public class BookmarksButton extends ChromeImageButton implements ThemeColorObse
     /** A provider that notifies components when the theme color changes.*/
     private ThemeColorProvider mThemeColorProvider;
     private ColorStateList mCurrentTint;
-
-    /** The bookmark button text label. */
-    private TextView mLabel;
 
     /** The wrapper View that contains the bookmark button and the label. */
     private View mWrapper;
@@ -47,15 +44,6 @@ public class BookmarksButton extends ChromeImageButton implements ThemeColorObse
             mThemeColorProvider.removeTintObserver(this);
             mThemeColorProvider = null;
         }
-    }
-
-    /**
-     * @param wrapper The wrapping View of this button.
-     */
-    public void setWrapperView(ViewGroup wrapper) {
-        mWrapper = wrapper;
-        mLabel = mWrapper.findViewById(R.id.bookmark_button_label);
-        if (FeatureUtilities.isLabeledBottomToolbarEnabled()) mLabel.setVisibility(View.VISIBLE);
     }
 
     @Override
@@ -81,7 +69,6 @@ public class BookmarksButton extends ChromeImageButton implements ThemeColorObse
     public void onTintChanged(ColorStateList tint, boolean useLight) {
         mCurrentTint = tint;
         ApiCompatibilityUtils.setImageTintList(this, tint);
-        if (mLabel != null) mLabel.setTextColor(tint);
     }
 
     public void updateBookmarkButton(boolean isBookmarked, boolean editingAllowed) {

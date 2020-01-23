@@ -309,12 +309,13 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                             String value = text.getText().toString().replaceFirst(" ", "\n");
                             text.setText(value);
                         }*/
-                    } else {
+                    }/* else {
+                        // TODO(samartnik): find out if we need it
                         convertView = mInflater.inflate(R.layout.menu_item, parent, false);
                         holder.text = (TextView) convertView.findViewById(R.id.menu_item_text);
                         holder.image = (AppMenuItemIcon) convertView.findViewById(R.id.menu_item_icon);
                         convertView.setTag(holder);
-                    }
+                    }*/
                     convertView.setTag(R.id.menu_item_enter_anim_id,
                             buildStandardItemEnterAnimator(convertView, position));
 
@@ -326,7 +327,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                     }
                 }
 
-                if (null != holder.text && null != holder.image) {
+                if (null != holder.text/* && null != holder.image*/) {
                     setupStandardMenuItemViewHolder(holder, convertView, item);
                 }
                 break;
@@ -672,10 +673,10 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
     private void setupStandardMenuItemViewHolder(StandardMenuItemViewHolder holder,
             View convertView, final MenuItem item) {
         // Set up the icon.
-        Drawable icon = item.getIcon();
-        holder.image.setImageDrawable(icon);
-        holder.image.setVisibility(icon == null ? View.GONE : View.VISIBLE);
-        holder.image.setChecked(item.isChecked());
+        // Drawable icon = item.getIcon();
+        // holder.image.setImageDrawable(icon);
+        // holder.image.setVisibility(icon == null ? View.GONE : View.VISIBLE);
+        // holder.image.setChecked(item.isChecked());
         holder.text.setText(item.getTitle());
         holder.text.setContentDescription(item.getTitleCondensed());
 
@@ -769,7 +770,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
 
     static class StandardMenuItemViewHolder {
         public TextView text;
-        public AppMenuItemIcon image;
+        // public AppMenuItemIcon image;
     }
 
     static class CustomMenuItemViewHolder extends StandardMenuItemViewHolder {

@@ -51,6 +51,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
+
 /**
  * Logic related to the URL overriding/intercepting functionality.
  * This feature allows Chrome to convert certain navigations to Android Intents allowing
@@ -794,7 +796,7 @@ public class ExternalNavigationHandler {
 
         if (shouldStayInWebapp(params)) return OverrideUrlLoadingResult.NO_OVERRIDE;
 
-        if (PrefServiceBridge.getInstance().playYTVideoInBrowserEnabled()) {
+        if (WebsitePreferenceBridge.playYTVideoInBrowserEnabled()) {
             // Force to open YouTube urls in Brave
             String intentPackageName = targetIntent.getPackage();
             if (intentPackageName != null && intentPackageName.equals(YT_PACKAGE_NAME)) {
@@ -815,7 +817,7 @@ public class ExternalNavigationHandler {
             return handleUnresolvableIntent(params, targetIntent, browserFallbackUrl);
         }
 
-        if (PrefServiceBridge.getInstance().playYTVideoInBrowserEnabled()) {
+        if (WebsitePreferenceBridge.playYTVideoInBrowserEnabled()) {
             // Force to open YouTube urls in Brave, override app chooser
             if (ContainsYT(resolvingInfos)) {
               if (DEBUG) Log.i(TAG, "NO_OVERRIDE: YouTube URL for YouTube app (2)");

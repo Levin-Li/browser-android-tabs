@@ -29,6 +29,8 @@ import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tabmodel.TabModelUtils;
 import org.chromium.chrome.browser.util.LocaleUtil;
+import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
+import org.chromium.chrome.browser.settings.SettingsUtils;
 
 /**
  * Fragment to keep track of all the display related preferences.
@@ -49,7 +51,7 @@ public class BackgroundImagesPreferences extends BravePreferenceFragment
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getActivity().setTitle(R.string.prefs_new_tab_page);
-        PreferenceUtils.addPreferencesFromResource(this, R.xml.background_images_preferences);
+        SettingsUtils.addPreferencesFromResource(this, R.xml.background_images_preferences);
         if (!LocaleUtil.isSponsoredRegions()) {
             removePreferenceIfPresent(PREF_SHOW_SPONSORED_IMAGES);
         }

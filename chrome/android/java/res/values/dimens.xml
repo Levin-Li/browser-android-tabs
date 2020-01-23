@@ -724,4 +724,12 @@
     <dimen name="onboarding_counter_layout_height">350dp</dimen>
     <dimen name="onboarding_counter_height">250dp</dimen>
 
+    <!-- The amount to fade the edges of the menu to indicate more content is available
+         via scrolling. -->
+    <dimen name="menu_vertical_fade_distance">15dp</dimen>
+    <dimen name="menu_negative_vertical_offset_not_top_anchored">44dp</dimen>
+
+    <!-- Menu button dragging related dimensions -->
+    <dimen name="auto_scroll_full_velocity">500dp</dimen>
+
 </resources>

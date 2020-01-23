@@ -39,7 +39,7 @@ import org.chromium.chrome.browser.flags.FeatureUtilities;
 import org.chromium.chrome.browser.init.InstallationSourceInformer;
 import org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
-import org.chromium.chrome.browser.preferences.privacy.PrivacyPreferencesManager;
+import org.chromium.chrome.browser.settings.privacy.PrivacyPreferencesManager;
 import org.chromium.chrome.browser.services.GoogleServicesManager;
 import org.chromium.chrome.browser.util.PackageUtils;
 import org.chromium.chrome.browser.webapps.ActivityAssigner;
@@ -63,6 +63,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import org.chromium.base.PathUtils;
+
+import org.chromium.chrome.browser.preferences.Pref;
 
 /**
  * Application level delegate that handles start up tasks.
@@ -132,7 +134,7 @@ public class ChromeBrowserInitializer {
       new UpdateADBlockAsyncTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
       // Set Chromium BlockThirdPartyCookies pref to false, because it will be
       // hidden and completely managed by Brave shields settings
-      PrefServiceBridge.getInstance().setBlockThirdPartyCookiesEnabled(false);
+      PrefServiceBridge.getInstance().setBoolean(Pref.BLOCK_THIRD_PARTY_COOKIES, false);
       Log.i(TAG, "Started AdBlock async tasks");
     }
 
@@ -238,7 +240,7 @@ public class ChromeBrowserInitializer {
                         ThreadUtils.postOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                PrefServiceBridge.getInstance().setSearchSuggestEnabled(false);
+                                PrefServiceBridge.getInstance().setBoolean(Pref.SEARCH_SUGGEST_ENABLED, false);
                             }
                         });
                     }

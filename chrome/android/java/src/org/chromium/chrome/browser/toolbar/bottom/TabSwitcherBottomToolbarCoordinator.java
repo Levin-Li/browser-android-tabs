@@ -104,15 +104,14 @@ public class TabSwitcherBottomToolbarCoordinator implements View.OnLongClickList
         mMenuButton.setAppMenuButtonHelper(menuButtonHelper);
 
         // Set long click event
-        mNewTabButtonWrapper = root.findViewById(R.id.new_tab_button_wrapper);
-        if (mNewTabButtonWrapper != null) {
-            mNewTabButtonWrapper.setOnLongClickListener(this);
+        if (mNewTabButton != null) {
+            mNewTabButton.setOnLongClickListener(this);
         }
     }
 
     @Override
     public boolean onLongClick(View v) {
-        if (v == mNewTabButtonWrapper) {
+        if (v == mNewTabButton) {
             TabUtil.showTabPopupMenu(context, v);
         }
 

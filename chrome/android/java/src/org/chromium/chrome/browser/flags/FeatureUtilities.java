@@ -35,6 +35,7 @@ import org.chromium.ui.base.DeviceFormFactor;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import org.chromium.chrome.browser.preferences.ChromePreferenceManager;
 
 /**
  * A utility {@code class} meant to help determine whether or not certain features are supported by

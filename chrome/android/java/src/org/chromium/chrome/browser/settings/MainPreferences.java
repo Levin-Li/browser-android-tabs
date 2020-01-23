@@ -53,6 +53,8 @@ import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 
 import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.preferences.ClosingTabsManager;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 
 /**
  * The main settings screen, shown when the user first opens Settings.
@@ -243,7 +245,7 @@ public class MainPreferences extends BravePreferenceFragment
             Preference preference = getPreferenceScreen().getPreference(index);
             mAllPreferences.put(preference.getKey(), preference);
         }
-        mSignInPreference = (SignInPreference) mAllPreferences.get(PREF_SIGN_IN);
+        // mSignInPreference = (SignInPreference) mAllPreferences.get(PREF_SIGN_IN);
     }
 
     private void setManagedPreferenceDelegateForPreference(String key) {
@@ -285,7 +287,7 @@ public class MainPreferences extends BravePreferenceFragment
         // dataReduction.setSummary(DataReductionPreferenceFragment.generateSummary(getResources()));
 
         if (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) ||
-            PrefServiceBridge.getInstance().isSafetynetCheckFailed()) {
+                WebsitePreferenceBridge.isSafetynetCheckFailed()) {
             removePreferenceIfPresent(PREF_BRAVE_REWARDS);
         }
     }

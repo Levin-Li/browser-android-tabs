@@ -89,7 +89,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
     private ViewGroup mBraveStatsView;
 
     private NewTabPageManager mManager;
-    private Tab mTab;
+    private TabImpl mTab;
     private SnapScrollHelper mSnapScrollHelper;
     private UiConfig mUiConfig;
     private ViewResizer mRecyclerViewResizer;
@@ -168,7 +168,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
             boolean searchProviderHasLogo, boolean searchProviderIsGoogle, int scrollPosition,
             long constructedTimeNs) {
         TraceEvent.begin(TAG + ".initialize()");
-        mTab = tab;
+        mTab = (TabImpl)tab;
         mManager = manager;
         mUiConfig = new UiConfig(this);
 

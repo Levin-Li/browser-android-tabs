@@ -37,6 +37,7 @@ import java.net.URL;
 import javax.inject.Inject;
 
 import dagger.Lazy;
+import org.chromium.chrome.browser.tab.TabImpl;
 
 /**
  * Creates {@link Tab}, {@link TabModelSelector}, and {@link ChromeTabCreator}s in the context of a
@@ -91,7 +92,7 @@ public class CustomTabActivityTabFactory {
                         mActivity.setBraveShieldsBlackAndWhite();
                     }
                 }
-                tab.clearBraveShieldsCount();
+                ((TabImpl)tab).clearBraveShieldsCount();
             }
 
             @Override

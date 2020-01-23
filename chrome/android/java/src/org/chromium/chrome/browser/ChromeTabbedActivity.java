@@ -179,6 +179,8 @@ import java.util.Locale;
 import java.util.ArrayList;
 import java.net.URL;
 
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
+
 /**
  * This is the main activity for ChromeMobile when not running in document mode.  All the tabs
  * are accessible via a chrome specific tab switching UI.
@@ -762,7 +764,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                         && getFullscreenManager().getPersistentFullscreenMode()) {
                     return;
                 }
-                Tab currentTab = getActivityTab();
+                TabImpl currentTab = (TabImpl)getActivityTab();
                 if (currentTab != null) {
                     try {
                         URL url = new URL(currentTab.getUrl());
@@ -1773,7 +1775,7 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                         setBraveShieldsBlackAndWhite();
                     }
                 }
-                tab.clearBraveShieldsCount();
+                ((TabImpl)tab).clearBraveShieldsCount();
             }
 
             @Override
@@ -1806,9 +1808,9 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
             @Override
             public void onBraveShieldsCountUpdate(String url, int adsAndTrackers, int httpsUpgrades,
                     int scriptsBlocked, int fingerprintsBlocked) {
-                List<Tab> tabsList = new ArrayList<>();
+                List<TabImpl> tabsList = new ArrayList<>();
                 for (int i = 0; i < getCurrentTabModel().getCount(); i++) {
-                    Tab tab = getCurrentTabModel().getTabAt(i);
+                    TabImpl tab = (TabImpl)getCurrentTabModel().getTabAt(i);
                     if (null != tab) {
                         String tabUrl = tab.getUrl();
                         if (tabUrl.equals(url)) {
@@ -1820,8 +1822,8 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                     return;
                 }
 
-                Tab tabToUpdate = null;
-                for (Tab currentTab : tabsList) {
+                TabImpl tabToUpdate = null;
+                for (TabImpl currentTab : tabsList) {
                     if (null == tabToUpdate) {
                         tabToUpdate = currentTab;
                         continue;
@@ -1855,11 +1857,11 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
 
             @Override
             public void onPreLoadUrl(Tab tab, LoadUrlParams params) {
-               if (false == tab.isDesktopModeOverridenByTab()) {
-                   final boolean desktopViewFromSettings = PrefServiceBridge.getInstance().desktopViewEnabled();
+               if (false == ((TabImpl)tab).isDesktopModeOverridenByTab()) {
+                   final boolean desktopViewFromSettings = WebsitePreferenceBridge.desktopViewEnabled();
                     //if required UA is already set, do nothing
-                    if (desktopViewFromSettings != tab.getUseDesktopUserAgent()) {
-                        tab.setUseDesktopUserAgent(desktopViewFromSettings, false);
+                    if (desktopViewFromSettings != ((TabImpl)tab).getUseDesktopUserAgent()) {
+                        ((TabImpl)tab).setUseDesktopUserAgent(desktopViewFromSettings, false);
                     }
                 }
             }

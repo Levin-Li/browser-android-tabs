@@ -22,10 +22,10 @@ import org.chromium.base.annotations.CalledByNative;
 import org.chromium.base.annotations.JNINamespace;
 import org.chromium.chrome.browser.ContentSettingsType;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
-import org.chromium.chrome.browser.preferences.website.WebsitePreferenceBridge;
-import org.chromium.chrome.browser.preferences.website.ContentSetting;
-import org.chromium.chrome.browser.preferences.website.ContentSettingValues;
-import org.chromium.chrome.browser.preferences.website.ContentSettingException;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
+import org.chromium.chrome.browser.settings.website.ContentSetting;
+import org.chromium.chrome.browser.settings.website.ContentSettingValues;
+import org.chromium.chrome.browser.settings.website.ContentSettingException;
 import org.chromium.chrome.browser.tabmodel.TabModelSelectorTabObserver;
 
 @JNINamespace("net::blockers")
@@ -287,12 +287,12 @@ public class ShieldsConfig {
         }
 
         if (incognitoTab) {
-            PrefServiceBridge.getInstance().setContentSettingForPatternIncognito(
-                      ContentSettingsType.CONTENT_SETTINGS_TYPE_JAVASCRIPT, host,
+            WebsitePreferenceBridge.setContentSettingForPatternIncognito(
+                      ContentSettingsType.JAVASCRIPT, host,
                       setting);
         } else {
-            PrefServiceBridge.getInstance().setContentSettingForPattern(
-                      ContentSettingsType.CONTENT_SETTINGS_TYPE_JAVASCRIPT, host,
+            WebsitePreferenceBridge.setContentSettingForPattern(
+                      ContentSettingsType.JAVASCRIPT, host,
                       setting);
         }
 
@@ -412,8 +412,8 @@ public class ShieldsConfig {
         host = CutWwwPrefix(host);
         WebsitePreferenceBridge wpb = new WebsitePreferenceBridge();
         List<ContentSettingException> exceptions = (incognitoTab)?
-            wpb.getContentSettingsExceptionsIncognito(ContentSettingsType.CONTENT_SETTINGS_TYPE_JAVASCRIPT):
-            wpb.getContentSettingsExceptions(ContentSettingsType.CONTENT_SETTINGS_TYPE_JAVASCRIPT);
+            wpb.getContentSettingsExceptionsIncognito(ContentSettingsType.JAVASCRIPT):
+            wpb.getContentSettingsExceptions(ContentSettingsType.JAVASCRIPT);
 
         for (ContentSettingException exception : exceptions) {
             String pattern = exception.getPattern();
@@ -435,7 +435,7 @@ public class ShieldsConfig {
           return isJavaScriptEnabled(false, host);
         }
 
-        if (!PrefServiceBridge.getInstance().isCategoryEnabled(ContentSettingsType.CONTENT_SETTINGS_TYPE_JAVASCRIPT)) {
+        if (!WebsitePreferenceBridge.isCategoryEnabled(ContentSettingsType.JAVASCRIPT)) {
             return false;
         }
 

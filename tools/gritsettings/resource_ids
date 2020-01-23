@@ -564,17 +564,17 @@
     "structures": [19210],
   },
   "ui/webui/resources/webui_resources.grd": {
-    "includes": [19270],
-    "structures": [19430],
+    "includes": [27880],
+    "structures": [28880],
   },
   "weblayer/weblayer_resources.grd": {
-    "includes": [20050],
+    "includes": [28700],
   },
 
   # This file is generated during the build.
   "<(SHARED_INTERMEDIATE_DIR)/devtools/devtools_resources.grd": {
     "META": {"sizes": {"includes": [500],}},
-    "includes": [20060],
+    "includes": [28880],
   },
 
   # END "everything else" section.

@@ -94,9 +94,6 @@ class ContentSettingsAgentImpl
   bool AllowMutationEvents(bool default_value) override;
   void DidNotAllowPlugins() override;
   void DidNotAllowScript() override;
-  void DeniedScript() override;
-  void DeniedFingerprinting() override;
-  bool AllowFingerprinting() override;
   bool AllowRunningInsecureContent(bool allowed_per_settings,
                                    const blink::WebURL& url) override;
   bool AllowPopupsAndRedirects(bool default_value) override;

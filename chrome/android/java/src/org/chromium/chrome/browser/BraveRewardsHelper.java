@@ -45,6 +45,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.math.BigInteger;
 import java.util.Calendar;
+import org.chromium.chrome.browser.tab.TabImpl;
 
 
 public class BraveRewardsHelper implements LargeIconBridge.LargeIconCallback{
@@ -73,7 +74,7 @@ public class BraveRewardsHelper implements LargeIconBridge.LargeIconCallback{
 
     public BraveRewardsHelper () {
         if (mLargeIconBridge == null) {
-            mLargeIconBridge = new LargeIconBridge(currentActiveTab().getProfile());
+            mLargeIconBridge = new LargeIconBridge(((TabImpl)currentActiveTab()).getProfile());
         }
     }
 
