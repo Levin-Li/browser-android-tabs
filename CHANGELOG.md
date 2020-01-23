@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.3](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.3)
+
+ #### Note: Android version is being changed to align with Desktop versioning scheme
+ - Fixed rewards panel from showing special characters in certain publisher names. ([#2467](https://github.com/brave/browser-android-tabs/issues/2467))
+ - Upgraded to Chromium 79.0.3945.136. ([#2466](https://github.com/brave/browser-android-tabs/issues/2466))
+
 ## [1.7.0](https://github.com/brave/browser-android-tabs/releases/tag/v1.7.0)
  
  - Fixed non-ASCII domain name being displayed incorrectly on panel and tipping banner. ([#2289](https://github.com/brave/browser-android-tabs/issues/2289))
