@@ -10,14 +10,15 @@ import android.widget.ListView;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
-import org.chromium.chrome.browser.preferences.PreferenceUtils;
-import org.chromium.chrome.browser.preferences.website.SiteSettingsCategory;
-import org.chromium.chrome.browser.preferences.website.SingleCategoryPreferences;
-import org.chromium.chrome.browser.preferences.website.ContentSettingsResources;
-import org.chromium.chrome.browser.preferences.website.ContentSettingValues;
+import org.chromium.chrome.browser.settings.SettingsUtils;
+import org.chromium.chrome.browser.settings.website.SiteSettingsCategory;
+import org.chromium.chrome.browser.settings.website.SingleCategoryPreferences;
+import org.chromium.chrome.browser.settings.website.ContentSettingsResources;
+import org.chromium.chrome.browser.settings.website.ContentSettingValues;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 
 /**
  * The main Controls screen, which shows all the 'Background video playback' option.
@@ -31,7 +32,7 @@ public class ControlsPreferences extends BravePreferenceFragment
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getActivity().setTitle(R.string.prefs_section_controls);
-        PreferenceUtils.addPreferencesFromResource(this, R.xml.controls_preferences);
+        SettingsUtils.addPreferencesFromResource(this, R.xml.controls_preferences);
 
         updatePreferenceStates();
     }
@@ -55,16 +56,16 @@ public class ControlsPreferences extends BravePreferenceFragment
         Preference p = findPreference(SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND);
             int contentType = SiteSettingsCategory.contentSettingsType(SiteSettingsCategory.Type.PLAY_VIDEO_IN_BACKGROUND);
             boolean requiresTriStateSetting =
-                    prefServiceBridge.requiresTriStateContentSetting(contentType);
+                    WebsitePreferenceBridge.requiresTriStateContentSetting(contentType);
 
             boolean checked = false;
             @ContentSettingValues
             int setting = ContentSettingValues.DEFAULT;
 
             if (requiresTriStateSetting) {
-                setting = prefServiceBridge.getContentSetting(contentType);
+                setting = WebsitePreferenceBridge.getContentSetting(contentType);
             } else {
-                checked = prefServiceBridge.isCategoryEnabled(contentType);
+                checked = WebsitePreferenceBridge.isCategoryEnabled(contentType);
             }
 
             p.setTitle(ContentSettingsResources.getTitle(contentType));
@@ -73,7 +74,7 @@ public class ControlsPreferences extends BravePreferenceFragment
             p.setSummary( checked ? ContentSettingsResources.getPlayVideoInBackgroundEnabledSummary() : ContentSettingsResources.getPlayVideoInBackgroundDisabledSummary());
 
             if (p.isEnabled()) {
-                p.setIcon(PreferenceUtils.getTintedIcon(
+                p.setIcon(SettingsUtils.getTintedIcon(
                         getActivity(), ContentSettingsResources.getIcon(contentType)));
             } else {
                 p.setIcon(ContentSettingsResources.getDisabledIcon(contentType, getResources()));

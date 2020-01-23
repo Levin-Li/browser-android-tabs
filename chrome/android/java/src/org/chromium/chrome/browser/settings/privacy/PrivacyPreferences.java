@@ -29,6 +29,9 @@ import org.chromium.ui.text.NoUnderlineClickableSpan;
 import org.chromium.ui.text.SpanApplier;
 
 import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
+import android.content.SharedPreferences;
+import org.chromium.base.ContextUtils;
 
 /**
  * Fragment to keep track of the all the privacy related preferences.
@@ -122,19 +125,19 @@ public class PrivacyPreferences
         } else if (PREF_NETWORK_PREDICTIONS.equals(key)) {
             PrivacyPreferencesManager.getInstance().setNetworkPredictionEnabled((boolean) newValue);
         } else if (PREF_AD_BLOCK.equals(key)) {
-            PrefServiceBridge.getInstance().setAdBlockEnabled((boolean) newValue);
+            WebsitePreferenceBridge.setAdBlockEnabled((boolean) newValue);
         } else if (PREF_HTTPSE.equals(key)) {
-            PrefServiceBridge.getInstance().setHTTPSEEnabled((boolean) newValue);
+            WebsitePreferenceBridge.setHTTPSEEnabled((boolean) newValue);
         } else if (PREF_FINGERPRINTING_PROTECTION.equals(key)) {
-            PrefServiceBridge.getInstance().setFingerprintingProtectionEnabled((boolean) newValue);
+            WebsitePreferenceBridge.setFingerprintingProtectionEnabled((boolean) newValue);
         } else if (PREF_AD_BLOCK_REGIONAL.equals(key)) {
-            PrefServiceBridge.getInstance().setAdBlockRegionalEnabled((boolean) newValue);
+            WebsitePreferenceBridge.setAdBlockRegionalEnabled((boolean) newValue);
         } else if (PREF_CLOSE_TABS_ON_EXIT.equals(key)) {
             SharedPreferences.Editor sharedPreferencesEditor = ContextUtils.getAppSharedPreferences().edit();
             sharedPreferencesEditor.putBoolean(PREF_CLOSE_TABS_ON_EXIT, (boolean)newValue);
             sharedPreferencesEditor.apply();
         } else if (PREF_SEARCH_SUGGESTIONS.equals(key)) {
-            PrefServiceBridge.getInstance().setSearchSuggestEnabled((boolean) newValue);
+            PrefServiceBridge.getInstance().setBoolean(Pref.SEARCH_SUGGEST_ENABLED, (boolean) newValue);
         }
 
         return true;
@@ -205,7 +208,7 @@ public class PrivacyPreferences
                 return PrivacyPreferencesManager.getInstance().isNetworkPredictionManaged();
             }
             if (PREF_SEARCH_SUGGESTIONS.equals(key)) {
-                return PrefServiceBridge.getInstance().isSearchSuggestManaged();
+                return PrefServiceBridge.getInstance().isManagedPreference(Pref.SEARCH_SUGGEST_ENABLED);
             }
             return false;
         };

@@ -1245,7 +1245,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
     }
 
     @Override
-    public void OnGetCurrentBalanceReport(String[] report) {
+    public void OnGetCurrentBalanceReport(double[] report) {
         boolean no_activity = true;
         for (int i = 0; i < report.length; i++) {
           TextView tvTitle = null;
@@ -1254,7 +1254,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
           String text = "";
           String textUSD = "";
 
-          double  probiDouble = BraveRewardsHelper.probiToDouble(report[i]);
+          double  probiDouble = report[i];
           boolean hideControls = (probiDouble == 0);
           String value = Double.isNaN(probiDouble) ? ERROR_CONVERT_PROBI : String.format("%.1f", probiDouble);
 
@@ -1315,7 +1315,7 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
             tv.setText(toInsert);
             tvUSD.setText(textUSD);
           }
-          if (!report[i].equals("0")) {
+          if (report[i] != 0) {
             no_activity = false;
           }
         }

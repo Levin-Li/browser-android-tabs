@@ -2,6 +2,8 @@ package org.chromium.chrome.browser.preferences;
 
 import android.os.Bundle;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.settings.SearchEnginePreference;
+import org.chromium.chrome.browser.settings.SearchEngineAdapter;
 
 /**
 * A preference fragment for selecting a default private search engine.

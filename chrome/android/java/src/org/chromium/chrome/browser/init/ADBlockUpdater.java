@@ -12,12 +12,13 @@ import org.chromium.base.ContextUtils;
 import org.chromium.base.Log;
 import org.chromium.chrome.browser.ChromeApplication;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
-import org.chromium.chrome.browser.preferences.privacy.PrivacyPreferencesManager;
+import org.chromium.chrome.browser.settings.privacy.PrivacyPreferencesManager;
 
 import java.util.concurrent.Semaphore;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 
 public class ADBlockUpdater {
     private static final String TAG = "ADBLOCK";
@@ -98,7 +99,7 @@ public class ADBlockUpdater {
                             PrefServiceBridge.getInstance().setAdBlockRegionalEnabled(false);
                         } else {*/
                             PrivacyPreferencesManager.getInstance().setRegionalAdBlock(enableRegionalAdBlock, true);
-                            PrefServiceBridge.getInstance().setAdBlockRegionalEnabled(enableRegionalAdBlock);
+                            WebsitePreferenceBridge.setAdBlockRegionalEnabled(enableRegionalAdBlock);
                         //}
                     }
                 });

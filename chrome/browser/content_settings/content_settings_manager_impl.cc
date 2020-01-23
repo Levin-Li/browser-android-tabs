@@ -20,6 +20,8 @@
 #include "extensions/browser/guest_view/web_view/web_view_renderer_state.h"
 #endif
 
+#include "chrome/browser/net/blockers/shields_config.h"
+
 namespace chrome {
 namespace {
 

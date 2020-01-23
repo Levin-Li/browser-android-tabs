@@ -286,9 +286,6 @@ class TabSpecificContentSettings
   void OnContentBlocked(ContentSettingsType type);
   void OnContentAllowed(ContentSettingsType type);
 
-  void OnContentDeniedScript(const std::string& original_url);
-  void OnContentDeniedFingerprinting(const std::string& original_url);
-
   // These methods are invoked on the UI thread forwarded from the
   // ContentSettingsManagerImpl.
   void OnDomStorageAccessed(const GURL& url,
@@ -356,8 +353,6 @@ class TabSpecificContentSettings
       content::WebContents* web_contents);
 
   // content::WebContentsObserver overrides.
-  bool OnMessageReceived(const IPC::Message& message,
-                         content::RenderFrameHost* render_frame_host) override;
   void RenderFrameForInterstitialPageCreated(
       content::RenderFrameHost* render_frame_host) override;
   void DidStartNavigation(

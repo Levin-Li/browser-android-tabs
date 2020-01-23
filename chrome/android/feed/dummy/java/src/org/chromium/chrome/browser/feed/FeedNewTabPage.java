@@ -4,7 +4,7 @@
 
 package org.chromium.chrome.browser.feed;
 
-import org.chromium.base.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 import org.chromium.chrome.browser.ActivityTabProvider;
 import org.chromium.chrome.browser.ChromeActivity;
 import org.chromium.chrome.browser.lifecycle.ActivityLifecycleDispatcher;

@@ -120,4 +120,10 @@
     <item type="id" name="item_animator" />
     <item type="id" name="highlight_color" />
     <item type="id" name="context_menu_delegate" />
+
+    <!-- App menu item custom tags -->
+    <item type="id" name="menu_item_enter_anim_id" />
+    <item type="id" name="menu_item_background_drawable_position" />
+    <item type="id" name="menu_item_view_type" />
+
 </resources>

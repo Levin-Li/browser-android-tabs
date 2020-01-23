@@ -24,6 +24,9 @@ import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.RestartWorker;
 import org.chromium.chrome.browser.util.AccessibilityUtil;
 import org.chromium.ui.base.DeviceFormFactor;
+import org.chromium.chrome.browser.settings.SettingsUtils;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
+import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 
 /**
  * Fragment to keep track of all the display related preferences.
@@ -38,9 +41,9 @@ public class AppearancePreferences extends BravePreferenceFragment
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getActivity().setTitle(R.string.prefs_appearance);
-        PreferenceUtils.addPreferencesFromResource(this, R.xml.appearance_preferences);
+        SettingsUtils.addPreferencesFromResource(this, R.xml.appearance_preferences);
         if (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) 
-              || PrefServiceBridge.getInstance().isSafetynetCheckFailed()) {
+              || WebsitePreferenceBridge.isSafetynetCheckFailed()) {
             removePreferenceIfPresent(PREF_HIDE_BRAVE_ICON);
         }
         boolean isTablet = DeviceFormFactor.isNonMultiDisplayContextOnTablet(ContextUtils.getApplicationContext());
@@ -117,7 +120,7 @@ public class AppearancePreferences extends BravePreferenceFragment
     public void OnPublisherInfo(int tabId) {}
 
     @Override
-    public void OnGetCurrentBalanceReport(String[] report) {}
+    public void OnGetCurrentBalanceReport(double[] report) {}
 
     @Override
     public void OnNotificationAdded(String id, int type, long timestamp,

@@ -27,7 +27,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import org.chromium.chrome.browser.night_mode.NightModeUtils;
-import org.chromium.chrome.browser.util.FeatureUtilities;
+import org.chromium.chrome.browser.flags.FeatureUtilities;
 
 /**
  * A radio button group Preference used for Themes. Currently, it has 3 options: System default,

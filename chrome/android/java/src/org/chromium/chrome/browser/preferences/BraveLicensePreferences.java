@@ -9,11 +9,12 @@ import android.os.Bundle;
 import org.chromium.base.Log;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
-import org.chromium.chrome.browser.preferences.TextMessagePreference;
+import org.chromium.chrome.browser.settings.TextMessagePreference;
 import org.chromium.chrome.R;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Scanner;
+import org.chromium.chrome.browser.settings.SettingsUtils;
 
 /**
  * Fragment to display Brave license information.
@@ -26,7 +27,7 @@ public class BraveLicensePreferences extends BravePreferenceFragment {
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String s) {
-        PreferenceUtils.addPreferencesFromResource(this, R.xml.brave_license_preferences);
+        SettingsUtils.addPreferencesFromResource(this, R.xml.brave_license_preferences);
         getActivity().setTitle(R.string.brave_license_text);
         TextMessagePreference licenseText = (TextMessagePreference) findPreference(PREF_BRAVE_LICENSE_TEXT);
         try {

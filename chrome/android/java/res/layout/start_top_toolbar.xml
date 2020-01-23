@@ -33,7 +33,7 @@
         android:paddingEnd="8dp"
         android:scaleType="centerInside"
         android:adjustViewBounds="true"
-        app:srcCompat="@drawable/google_logo"
+        app:srcCompat="@drawable/infobar_chrome"
         android:visibility="gone"
         android:contentDescription="@null"/>
 

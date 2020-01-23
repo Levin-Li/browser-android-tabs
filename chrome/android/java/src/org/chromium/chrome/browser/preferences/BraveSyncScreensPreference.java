@@ -101,11 +101,14 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import org.chromium.chrome.browser.settings.SettingsActivity;
+import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
+
 /**
  * Settings fragment that allows to control Sync functionality.
  */
 public class BraveSyncScreensPreference extends BravePreferenceFragment
-      implements View.OnClickListener, Preferences.OnBackPressedListener,
+      implements View.OnClickListener, SettingsActivity.OnBackPressedListener,
                  CompoundButton.OnCheckedChangeListener, BarcodeTracker.BarcodeGraphicTrackerCallback{
 
   private static final String TAG = "SYNC";

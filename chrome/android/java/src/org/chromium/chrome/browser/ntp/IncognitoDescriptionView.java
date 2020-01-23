@@ -65,16 +65,16 @@ public class IncognitoDescriptionView extends LinearLayout {
         mWidthDp = getContext().getResources().getConfiguration().screenWidthDp;
         mHeightDp = getContext().getResources().getConfiguration().screenHeightDp;
 
-        populateBulletpoints(R.id.new_tab_incognito_features, R.string.new_tab_otr_not_saved);
-        populateBulletpoints(R.id.new_tab_incognito_warning, R.string.new_tab_otr_visible);
+        // populateBulletpoints(R.id.new_tab_incognito_features, R.string.new_tab_otr_not_saved);
+        // populateBulletpoints(R.id.new_tab_incognito_warning, R.string.new_tab_otr_visible);
 
-        mContainer = findViewById(R.id.new_tab_incognito_container);
-        mHeader = findViewById(R.id.new_tab_incognito_title);
-        mSubtitle = findViewById(R.id.new_tab_incognito_subtitle);
-        mLearnMore = findViewById(R.id.learn_more);
-        mParagraphs = new TextView[] {mSubtitle, findViewById(R.id.new_tab_incognito_features),
-                findViewById(R.id.new_tab_incognito_warning), mLearnMore};
-        mBulletpointsContainer = findViewById(R.id.new_tab_incognito_bulletpoints_container);
+        // mContainer = findViewById(R.id.new_tab_incognito_container);
+        // mHeader = findViewById(R.id.new_tab_incognito_title);
+        // mSubtitle = findViewById(R.id.new_tab_incognito_subtitle);
+        // mLearnMore = findViewById(R.id.learn_more);
+        // mParagraphs = new TextView[] {mSubtitle, findViewById(R.id.new_tab_incognito_features),
+        //         findViewById(R.id.new_tab_incognito_warning), mLearnMore};
+        // mBulletpointsContainer = findViewById(R.id.new_tab_incognito_bulletpoints_container);
 
         adjustView();
     }

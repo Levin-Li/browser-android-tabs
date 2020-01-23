@@ -15,7 +15,7 @@ import android.os.Process;
 
 import org.chromium.base.Callback;
 import org.chromium.base.Log;
-import org.chromium.base.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 import org.chromium.net.NetworkChangeNotifier;
 
 import java.util.ArrayList;

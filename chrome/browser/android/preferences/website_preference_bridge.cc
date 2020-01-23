@@ -55,6 +55,8 @@
 #include "url/url_constants.h"
 #include "url/url_util.h"
 
+#include "components/prefs/pref_service.h"
+
 using base::android::AttachCurrentThread;
 using base::android::ConvertJavaStringToUTF8;
 using base::android::ConvertUTF8ToJavaString;
@@ -1292,6 +1294,144 @@ static void JNI_WebsitePreferenceBridge_SetQuietNotificationsUiEnabled(
     QuietNotificationPermissionUiState::DisableQuietUiInPrefs(
         ProfileAndroid::FromProfileAndroid(jprofile));
   }
+}
+
+namespace {
+
+PrefService* GetPrefService() {
+  return ProfileManager::GetActiveUserProfile()
+      ->GetOriginalProfile()
+      ->GetPrefs();
+}
+
+}  // namespace
+
+static void JNI_WebsitePreferenceBridge_GetContentSettingsExceptionsIncognito(JNIEnv* env,
+                                         int content_settings_type,
+                                         const JavaParamRef<jobject>& list) {
+  Profile *profile = GetOriginalProfile()->GetOffTheRecordProfile();
+
+  HostContentSettingsMap* host_content_settings_map =
+      HostContentSettingsMapFactory::GetForProfile(profile);
+  ContentSettingsForOneType entries;
+  host_content_settings_map->GetSettingsForOneType(
+      static_cast<ContentSettingsType>(content_settings_type), "", &entries);
+  for (size_t i = 0; i < entries.size(); ++i) {
+    Java_WebsitePreferenceBridge_addContentSettingExceptionToList(
+        env, list, content_settings_type,
+        ConvertUTF8ToJavaString(env, entries[i].primary_pattern.ToString()),
+        entries[i].GetContentSetting(),
+        ConvertUTF8ToJavaString(env, entries[i].source));
+  }
+}
+
+static void JNI_WebsitePreferenceBridge_SetFingerprintingProtectionEnabled(JNIEnv* env,
+                                   jboolean enabled) {
+  GetPrefService()->SetBoolean(prefs::kFingerprintingProtectionEnabled, enabled);
+}
+
+static jboolean JNI_WebsitePreferenceBridge_GetFingerprintingProtectionEnabled(JNIEnv* env) {
+  return GetPrefService()->GetBoolean(prefs::kFingerprintingProtectionEnabled);
+}
+
+static void JNI_WebsitePreferenceBridge_SetHTTPSEEnabled(JNIEnv* env,
+                                   jboolean enabled) {
+   GetPrefService()->SetBoolean(prefs::kHTTPSEEnabled, enabled);
+}
+
+static jboolean JNI_WebsitePreferenceBridge_GetHTTPSEEnabled(JNIEnv* env) {
+  return GetPrefService()->GetBoolean(prefs::kHTTPSEEnabled);
+}
+
+static void JNI_WebsitePreferenceBridge_SetAdBlockEnabled(JNIEnv* env,
+                                   jboolean enabled) {
+   GetPrefService()->SetBoolean(prefs::kAdBlockEnabled, enabled);
+}
+
+static jboolean JNI_WebsitePreferenceBridge_GetAdBlockEnabled(JNIEnv* env) {
+  return GetPrefService()->GetBoolean(prefs::kAdBlockEnabled);
+}
+
+static void JNI_WebsitePreferenceBridge_SetAdBlockRegionalEnabled(JNIEnv* env,
+                                   jboolean enabled) {
+   GetPrefService()->SetBoolean(prefs::kAdBlockRegionalEnabled, enabled);
+}
+
+static jboolean JNI_WebsitePreferenceBridge_GetAdBlockRegionalEnabled(JNIEnv* env) {
+  return GetPrefService()->GetBoolean(prefs::kAdBlockRegionalEnabled);
+}
+
+static jboolean JNI_WebsitePreferenceBridge_GetDesktopViewEnabled(JNIEnv* env) {
+  return GetBooleanForContentSetting(ContentSettingsType::CONTENT_SETTINGS_TYPE_DESKTOP_VIEW);
+}
+
+static void JNI_WebsitePreferenceBridge_SetDesktopViewEnabled(JNIEnv* env,
+                                     jboolean allow) {
+  HostContentSettingsMap* host_content_settings_map =
+      HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
+  host_content_settings_map->SetDefaultContentSetting(
+      ContentSettingsType::CONTENT_SETTINGS_TYPE_DESKTOP_VIEW,
+      allow ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
+}
+
+static void JNI_WebsitePreferenceBridge_SetContentSettingForPatternIncognito(JNIEnv* env,
+                                        int content_settings_type,
+                                        const JavaParamRef<jstring>& pattern,
+                                        int setting) {
+  Profile *profile = GetOriginalProfile()->GetOffTheRecordProfile();
+
+  HostContentSettingsMap* host_content_settings_map =
+    HostContentSettingsMapFactory::GetForProfile(profile);
+
+  host_content_settings_map->SetContentSettingCustomScope(
+      ContentSettingsPattern::FromString(ConvertJavaStringToUTF8(env, pattern)),
+      ContentSettingsPattern::Wildcard(),
+      static_cast<ContentSettingsType>(content_settings_type), std::string(),
+      static_cast<ContentSetting>(setting));
+}
+
+static jboolean JNI_WebsitePreferenceBridge_GetPlayVideoInBackgroundEnabled(JNIEnv* env) {
+  return GetBooleanForContentSetting(ContentSettingsType::CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND);
+}
+
+static void JNI_WebsitePreferenceBridge_SetPlayVideoInBackgroundEnabled(JNIEnv* env,
+                                     jboolean allow) {
+  HostContentSettingsMap* host_content_settings_map =
+      HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
+  host_content_settings_map->SetDefaultContentSetting(
+      ContentSettingsType::CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND,
+      allow ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
+}
+
+static jboolean JNI_WebsitePreferenceBridge_GetPlayYTVideoInBrowserEnabled(JNIEnv* env) {
+  return GetBooleanForContentSetting(ContentSettingsType::CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER);
+}
+
+static void JNI_WebsitePreferenceBridge_SetPlayYTVideoInBrowserEnabled(JNIEnv* env,
+                                     jboolean allow) {
+  HostContentSettingsMap* host_content_settings_map =
+      HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
+  host_content_settings_map->SetDefaultContentSetting(
+      ContentSettingsType::CONTENT_SETTINGS_TYPE_PLAY_YT_VIDEO_IN_BROWSER,
+      allow ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
+}
+
+static void JNI_WebsitePreferenceBridge_SetSafetynetCheckFailed(JNIEnv* env,
+                                   jboolean value) {
+  GetPrefService()->SetBoolean(prefs::kSafetynetCheckFailed, value);
+}
+
+static jboolean JNI_WebsitePreferenceBridge_GetSafetynetCheckFailed(JNIEnv* env) {
+  return GetPrefService()->GetBoolean(prefs::kSafetynetCheckFailed);
+}
+
+static void JNI_WebsitePreferenceBridge_SetUseRewardsStagingServer(JNIEnv* env,
+                                   jboolean value) {
+  GetPrefService()->SetBoolean(prefs::kUseRewardsStagingServer, value);
+}
+
+static jboolean JNI_WebsitePreferenceBridge_GetUseRewardsStagingServer(JNIEnv* env) {
+  return GetPrefService()->GetBoolean(prefs::kUseRewardsStagingServer);
 }
 
 // static

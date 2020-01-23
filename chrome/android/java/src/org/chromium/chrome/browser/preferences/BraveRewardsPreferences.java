@@ -27,9 +27,12 @@ import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.BraveRewardsPanelPopup;
 import org.chromium.chrome.browser.accessibility.FontSizePrefs;
 import org.chromium.chrome.browser.accessibility.FontSizePrefs.FontSizePrefsObserver;
-import org.chromium.chrome.browser.preferences.website.SingleCategoryPreferences;
+import org.chromium.chrome.browser.settings.website.SingleCategoryPreferences;
 import org.chromium.chrome.browser.RestartWorker;
 import org.chromium.chrome.browser.util.AccessibilityUtil;
+import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
+import org.chromium.chrome.browser.settings.SettingsUtils;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 
 /**
  * Fragment to keep track of all Brave Rewards related preferences.
@@ -48,7 +51,7 @@ public class BraveRewardsPreferences extends BravePreferenceFragment
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getActivity().setTitle(R.string.brave_ui_brave_rewards);
-        PreferenceUtils.addPreferencesFromResource(this, R.xml.brave_rewards_preferences);
+        SettingsUtils.addPreferencesFromResource(this, R.xml.brave_rewards_preferences);
     }
 
     @Override
@@ -132,7 +135,7 @@ public class BraveRewardsPreferences extends BravePreferenceFragment
     public void OnPublisherInfo(int tabId) {}
 
     @Override
-    public void OnGetCurrentBalanceReport(String[] report) {}
+    public void OnGetCurrentBalanceReport(double[] report) {}
 
     @Override
     public void OnNotificationAdded(String id, int type, long timestamp,
@@ -178,7 +181,7 @@ public class BraveRewardsPreferences extends BravePreferenceFragment
             sharedPreferencesEditor.putBoolean(BraveRewardsPanelPopup.PREF_GRANTS_NOTIFICATION_RECEIVED, false);
             sharedPreferencesEditor.putBoolean(BraveRewardsPanelPopup.PREF_WAS_BRAVE_REWARDS_TURNED_ON, false);
             sharedPreferencesEditor.apply();
-            PrefServiceBridge.getInstance().setSafetynetCheckFailed(false);
+            WebsitePreferenceBridge.setSafetynetCheckFailed(false);
             RestartWorker.AskForRelaunch(getActivity());
         } else {
             RestartWorker.AskForRelaunchCustom(getActivity());
