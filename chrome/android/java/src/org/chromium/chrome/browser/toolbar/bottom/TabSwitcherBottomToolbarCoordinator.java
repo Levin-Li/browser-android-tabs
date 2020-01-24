@@ -22,6 +22,9 @@ import org.chromium.chrome.browser.util.AccessibilityUtil;
 import org.chromium.ui.modelutil.PropertyModelChangeProcessor;
 import org.chromium.chrome.browser.util.TabUtil;
 
+import android.content.Context;
+import org.chromium.base.ContextUtils;
+
 /**
  * The coordinator for the tab switcher mode bottom toolbar. This class handles all interactions
  * that the tab switcher bottom toolbar has with the outside world.
