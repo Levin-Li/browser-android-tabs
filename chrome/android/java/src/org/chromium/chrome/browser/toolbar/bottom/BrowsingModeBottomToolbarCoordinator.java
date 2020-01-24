@@ -54,6 +54,9 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
     /** The home button that lives in the bottom toolbar. */
     private final HomeButton mHomeButton;
 
+    /** The share button that lives in the bottom toolbar. */
+    private final ShareButton mShareButton;
+
     /** The bookmarks button that lives in the bottom toolbar. */
     private final BookmarksButton mBookmarksButton;
 
@@ -298,6 +301,13 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
      */
     void setVisible(boolean visible) {
         mModel.set(BrowsingModeBottomToolbarModel.IS_VISIBLE, visible);
+    }
+
+    /**
+     * @return The browsing mode bottom toolbar's share button.
+     */
+    ShareButton getShareButton() {
+        return mShareButton;
     }
 
     /**
