@@ -20,13 +20,14 @@ import java.lang.annotation.RetentionPolicy;
  */
 public class BottomToolbarVariationManager {
     @StringDef({Variations.NONE, Variations.HOME_SEARCH_TAB_SWITCHER, Variations.HOME_SEARCH_SHARE,
-            Variations.NEW_TAB_SEARCH_SHARE})
+            Variations.NEW_TAB_SEARCH_SHARE, Variations.BRAVE})
     @Retention(RetentionPolicy.SOURCE)
     public @interface Variations {
         String NONE = "";
         String HOME_SEARCH_TAB_SWITCHER = "HomeSearchTabSwitcher";
         String HOME_SEARCH_SHARE = "HomeSearchShare";
         String NEW_TAB_SEARCH_SHARE = "NewTabSearchShare";
+        String BRAVE = "Brave"; // Home(New tab)|Bookmarks|Search|Tab switcher|Menu
     }
 
     private static String sVariation;
@@ -42,7 +43,7 @@ public class BottomToolbarVariationManager {
         }
         sVariation = FeatureUtilities.getBottomToolbarVariation();
         if (sVariation.equals(Variations.NONE)) {
-            return Variations.HOME_SEARCH_TAB_SWITCHER;
+            return Variations.BRAVE;
         }
         return sVariation;
     }
@@ -53,6 +54,7 @@ public class BottomToolbarVariationManager {
      */
     public static boolean isShareButtonOnBottom() {
         return FeatureUtilities.isBottomToolbarEnabled()
+                && !getVariation().equals(Variations.BRAVE)
                 && !getVariation().equals(Variations.HOME_SEARCH_TAB_SWITCHER);
     }
 
@@ -70,9 +72,8 @@ public class BottomToolbarVariationManager {
      *         in portrait mode in the current variation.
      */
     public static boolean isMenuButtonOnBottom() {
-        // If we don't have variations that put menu on bottom in the future,
-        // then this method can be removed.
-        return false;
+        return FeatureUtilities.isBottomToolbarEnabled()
+                && getVariation().equals(Variations.BRAVE);
     }
 
     /**
@@ -80,7 +81,8 @@ public class BottomToolbarVariationManager {
      *         in the current variation.
      */
     public static boolean shouldBottomToolbarBeVisibleInOverviewMode() {
-        return (getVariation().equals(Variations.NEW_TAB_SEARCH_SHARE)
+        return ((getVariation().equals(Variations.BRAVE)
+                || getVariation().equals(Variations.NEW_TAB_SEARCH_SHARE))
                        && !FeatureUtilities.isStartSurfaceEnabled())
                 || ((!FeatureUtilities.isGridTabSwitcherEnabled()
                             || !IncognitoUtils.isIncognitoModeEnabled())
@@ -102,7 +104,16 @@ public class BottomToolbarVariationManager {
      */
     public static boolean isTabSwitcherOnBottom() {
         return FeatureUtilities.isBottomToolbarEnabled()
-                && getVariation().equals(Variations.HOME_SEARCH_TAB_SWITCHER);
+                && (getVariation().equals(Variations.BRAVE)
+                || getVariation().equals(Variations.HOME_SEARCH_TAB_SWITCHER));
+    }
+
+    /**
+     * @return Whether or not bookmark button should be visible on the bottom toolbar.
+     */
+    public static boolean isBookmarkButtonOnBottom() {
+        return FeatureUtilities.isBottomToolbarEnabled()
+                && getVariation().equals(Variations.BRAVE);
     }
 
     /**

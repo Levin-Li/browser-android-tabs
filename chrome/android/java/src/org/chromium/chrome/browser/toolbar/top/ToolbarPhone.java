@@ -422,7 +422,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
             setLayoutTransition(null);
 
             if (getMenuButtonWrapper() != null) {
-                getMenuButtonWrapper().setVisibility(View.VISIBLE);
+                getMenuButtonWrapper().setVisibility(isMenuOnBottom() ? GONE : VISIBLE);
             }
 
             inflateTabSwitchingResources();
@@ -1469,7 +1469,8 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
         // Draw the menu button if necessary.
         final ImageButton menuButton = getMenuButton();
         if (menuButton != null && !isShowingAppMenuUpdateBadge()
-                && mTabSwitcherAnimationMenuDrawable != null && mUrlExpansionPercent != 1f) {
+                && mTabSwitcherAnimationMenuDrawable != null && mUrlExpansionPercent != 1f
+                && !isMenuOnBottom()) {
             mTabSwitcherAnimationMenuDrawable.setBounds(menuButton.getPaddingLeft(),
                     menuButton.getPaddingTop(),
                     menuButton.getWidth() - menuButton.getPaddingRight(),
@@ -2072,8 +2073,8 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
             mToggleTabStackButton.setVisibility(isGone ? GONE : VISIBLE);
         }
 
-        if (getMenuButton() != null) {
-            getMenuButton().setVisibility(inTabSwitcherMode ? GONE : VISIBLE);
+        if (getMenuButtonWrapper() != null) {
+            getMenuButtonWrapper().setVisibility(inTabSwitcherMode || isMenuOnBottom() ? GONE : VISIBLE);
         }
 
         triggerUrlFocusAnimation(inTabSwitcherMode && !urlHasFocus());
@@ -2355,7 +2356,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
                 MathUtils.flipSignIf(URL_FOCUS_TOOLBAR_BUTTONS_TRANSLATION_X_DP, isRtl) * density;
 
         final View menuButtonWrapper = getMenuButtonWrapper();
-        if (menuButtonWrapper != null) {
+        if (menuButtonWrapper != null && !isMenuOnBottom()) {
             animator = ObjectAnimator.ofFloat(
                     menuButtonWrapper, TRANSLATION_X, toolbarButtonTranslationX);
             animator.setDuration(URL_FOCUS_TOOLBAR_BUTTONS_DURATION_MS);
@@ -2420,7 +2421,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
         animators.add(animator);
 
         final View menuButtonWrapper = getMenuButtonWrapper();
-        if (menuButtonWrapper != null) {
+        if (menuButtonWrapper != null && !isMenuOnBottom()) {
             animator = ObjectAnimator.ofFloat(menuButtonWrapper, TRANSLATION_X, 0);
             animator.setDuration(URL_FOCUS_TOOLBAR_BUTTONS_DURATION_MS);
             animator.setStartDelay(URL_CLEAR_FOCUS_MENU_DELAY_MS);
@@ -2797,6 +2798,14 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
         return mIsBottomToolbarVisible && BottomToolbarVariationManager.isTabSwitcherOnBottom();
     }
 
+    /**
+     * @return Whether menu is shown on the bottom toolbar.
+     *         Return false when bottom toolbar is not visible.
+     */
+    private boolean isMenuOnBottom() {
+        return mIsBottomToolbarVisible && BottomToolbarVariationManager.isMenuButtonOnBottom();
+    }
+
     private void updateVisualsForLocationBarState() {
         // These are used to skip setting state unnecessarily while in the tab switcher.
         boolean inOrEnteringStaticTab =
@@ -2894,7 +2903,7 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
 
         if (getMenuButtonWrapper() != null) {
             setMenuButtonHighlightDrawable();
-            if (!mIsBottomToolbarVisible) getMenuButtonWrapper().setVisibility(View.VISIBLE);
+            getMenuButtonWrapper().setVisibility(isMenuOnBottom() ? GONE : VISIBLE);
         }
 
         DrawableCompat.setTint(mLocationBarBackground,
@@ -3194,6 +3203,9 @@ public class ToolbarPhone extends ToolbarLayout implements Invalidator.Client, O
         mIsBottomToolbarVisible = isVisible;
 
         mToggleTabStackButton.setVisibility(isTabSwitcherOnBottom() ? GONE : VISIBLE);
+        if (getMenuButtonWrapper() != null) {
+            getMenuButtonWrapper().setVisibility(isMenuOnBottom() ? GONE : VISIBLE);
+        }
         updateButtonVisibility();
         mToolbarButtonsContainer.requestLayout();
     }
