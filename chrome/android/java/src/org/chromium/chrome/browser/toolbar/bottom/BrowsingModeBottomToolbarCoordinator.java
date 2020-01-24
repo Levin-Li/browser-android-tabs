@@ -139,7 +139,8 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
         mTabSwitcherButtonCoordinator = new TabSwitcherButtonCoordinator(mTabSwitcherButtonView);
 
         mTabSwitcherButtonView.setOnLongClickListener(tabSwitcherLongClickListener);
-        if (BottomToolbarVariationManager.isNewTabButtonOnBottom()) {
+        if (BottomToolbarVariationManager.isNewTabButtonOnBottom()
+                && !BottomToolbarVariationManager.isBraveVariation()) {
             mNewTabButton.setVisibility(View.VISIBLE);
         }
         if (BottomToolbarVariationManager.isHomeButtonOnBottom()) {
@@ -349,6 +350,13 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
      */
     HomeButton getHomeButton() {
         return mHomeButton;
+    }
+
+    /**
+     * @return The browsing mode bottom toolbar's new tab button.
+     */
+    BottomToolbarNewTabButton getNewTabButton() {
+        return mNewTabButton;
     }
 
     /**

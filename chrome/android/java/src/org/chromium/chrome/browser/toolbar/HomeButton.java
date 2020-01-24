@@ -181,7 +181,7 @@ public class HomeButton extends ChromeImageButton
             // view, or from one tab to another tab.
             isEnabled = !isTabNTP(tab);
         }
-        updateButtonEnabledState(isEnabled);
+        updateButtonEnabledState(isHomepageEnabled ? isEnabled : true);
     }
 
     private void updateButtonEnabledState(boolean isEnabled) {
