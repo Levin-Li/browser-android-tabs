@@ -277,6 +277,10 @@ public class TabSwitcherModeTTPhone extends OptimizedFrameLayout
                 || (FeatureUtilities.isBottomToolbarEnabled()
                         && !BottomToolbarVariationManager.isNewTabButtonOnBottom());
         setNewTabButtonVisibility(mShouldShowNewTabButton);
+        boolean shouldShowMenuButton = !isVisible
+                || (FeatureUtilities.isBottomToolbarEnabled()
+                        && !BottomToolbarVariationManager.isMenuButtonOnBottom());
+        setMenuButtonVisibility(shouldShowMenuButton);
         // show tab switcher button on the top in landscape mode.
         if (BottomToolbarVariationManager.isTabSwitcherOnBottom() && !shouldShowIncognitoToggle()) {
             mToggleTabStackButton.setVisibility(isVisible ? GONE : VISIBLE);

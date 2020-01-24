@@ -292,7 +292,7 @@ public class FeatureUtilities {
     public static String getBottomToolbarVariation() {
         return SharedPreferencesManager.getInstance().readString(
                 ChromePreferenceKeys.VARIATION_CACHED_BOTTOM_TOOLBAR,
-                BottomToolbarVariationManager.Variations.NONE);
+                BottomToolbarVariationManager.Variations.BRAVE);
     }
 
     /**

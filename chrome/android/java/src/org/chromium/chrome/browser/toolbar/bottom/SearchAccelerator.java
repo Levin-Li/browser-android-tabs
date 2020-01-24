@@ -27,7 +27,7 @@ import org.chromium.ui.widget.ChromeImageButton;
 class SearchAccelerator extends ChromeImageButton
         implements ThemeColorObserver, TintObserver, IncognitoStateObserver {
     /** The gray pill background behind the search icon. */
-    private final Drawable mBackground;
+    // private final Drawable mBackground;
 
     /** The {@link Resources} used to compute the background color. */
     private final Resources mResources;
@@ -43,9 +43,9 @@ class SearchAccelerator extends ChromeImageButton
 
         mResources = context.getResources();
 
-        mBackground = ApiCompatibilityUtils.getDrawable(mResources, R.drawable.ntp_search_box);
-        mBackground.mutate();
-        setBackground(mBackground);
+        // mBackground = ApiCompatibilityUtils.getDrawable(mResources, R.drawable.ntp_search_box);
+        // mBackground.mutate();
+        // setBackground(mBackground);
     }
 
     void setThemeColorProvider(ThemeColorProvider themeColorProvider) {
@@ -91,10 +91,10 @@ class SearchAccelerator extends ChromeImageButton
     private void updateBackground() {
         if (mThemeColorProvider == null || mIncognitoStateProvider == null) return;
 
-        mBackground.setColorFilter(ToolbarColors.getTextBoxColorForToolbarBackgroundInNonNativePage(
-                                           mResources, mThemeColorProvider.getThemeColor(),
-                                           mIncognitoStateProvider.isIncognitoSelected()
-                                                   && mThemeColorProvider.useLight()),
-                PorterDuff.Mode.SRC_IN);
+        // mBackground.setColorFilter(ToolbarColors.getTextBoxColorForToolbarBackgroundInNonNativePage(
+        //                                    mResources, mThemeColorProvider.getThemeColor(),
+        //                                    mIncognitoStateProvider.isIncognitoSelected()
+        //                                            && mThemeColorProvider.useLight()),
+        //         PorterDuff.Mode.SRC_IN);
     }
 }

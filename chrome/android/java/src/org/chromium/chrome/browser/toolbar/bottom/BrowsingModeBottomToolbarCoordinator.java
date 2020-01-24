@@ -42,6 +42,8 @@ import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
 
 import org.chromium.ui.widget.Toast;
 
+import org.chromium.chrome.browser.toolbar.MenuButton;
+
 /**
  * The coordinator for the browsing mode bottom toolbar. This class has two primary components,
  * an Android view that handles user actions and a composited texture that draws when the controls
@@ -87,6 +89,9 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
     /** The activity tab provider that used for making the IPH. */
     private final ActivityTabProvider mTabProvider;
 
+    /** The menu button that lives in the browsing mode bottom toolbar. */
+    private final MenuButton mMenuButton;
+
     final Context context = ContextUtils.getApplicationContext();
 
     /**
@@ -122,6 +127,8 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
 
         mBookmarksButton = mToolbarRoot.findViewById(R.id.bookmark_this_page_id);
 
+        mMenuButton = mToolbarRoot.findViewById(R.id.menu_button_wrapper);
+
         mSearchAccelerator = mToolbarRoot.findViewById(R.id.search_accelerator);
         mSearchAccelerator.setOnClickListener(searchAcceleratorListener);
         setupIPH(FeatureConstants.CHROME_DUET_SEARCH_FEATURE, mSearchAccelerator,
@@ -150,6 +157,9 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
             mShareButtonListenerSupplier = shareButtonListenerSupplier;
             mShareButton.setActivityTabProvider(mTabProvider);
             mShareButtonListenerSupplier.addObserver(mShareButtonListenerSupplierCallback);
+        }
+        if (BottomToolbarVariationManager.isBookmarkButtonOnBottom()) {
+            mBookmarksButton.setVisibility(View.VISIBLE);
         }
     }
 
@@ -256,7 +266,7 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
         // overview mode. We need to pass the OverviewModeBehavior to the buttons so they are
         // disabled based on the overview state.
         if (ReturnToChromeExperimentsUtil.shouldShowStartSurfaceAsTheHomePage()) {
-            // mShareButton.setOverviewModeBehavior(overviewModeBehavior);
+            mShareButton.setOverviewModeBehavior(overviewModeBehavior);
             mTabSwitcherButtonCoordinator.setOverviewModeBehavior(overviewModeBehavior);
             mHomeButton.setOverviewModeBehavior(overviewModeBehavior);
         }
@@ -265,6 +275,9 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
             mBookmarksButton.setThemeColorProvider(themeColorProvider);
             mBookmarksButton.setOnClickListener(bookmarkClickListener);
         }
+
+        mMenuButton.setAppMenuButtonHelper(menuButtonHelper);
+        mMenuButton.setThemeColorProvider(themeColorProvider);
     }
 
     @Override
@@ -347,9 +360,11 @@ public class BrowsingModeBottomToolbarCoordinator implements View.OnLongClickLis
         }
         mMediator.destroy();
         mHomeButton.destroy();
-        //mShareButton.destroy();
+        mShareButton.destroy();
         mSearchAccelerator.destroy();
         mTabSwitcherButtonCoordinator.destroy();
+        mMenuButton.destroy();
+        mBookmarksButton.destroy();
     }
 
     /**
