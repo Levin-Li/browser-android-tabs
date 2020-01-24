@@ -37,9 +37,9 @@ public class HomepagePreferences extends BravePreferenceFragment {
         ChromeSwitchPreference homepageSwitch =
                 (ChromeSwitchPreference) findPreference(PREF_HOMEPAGE_SWITCH);
 
-        if (FeatureUtilities.isBottomToolbarEnabled()) {
+        /*if (FeatureUtilities.isBottomToolbarEnabled()) {
             homepageSwitch.setVisible(false);
-        } else {
+        } else */{
             boolean isHomepageEnabled = mHomepageManager.getPrefHomepageEnabled();
             homepageSwitch.setChecked(isHomepageEnabled);
             homepageSwitch.setOnPreferenceChangeListener((preference, newValue) -> {

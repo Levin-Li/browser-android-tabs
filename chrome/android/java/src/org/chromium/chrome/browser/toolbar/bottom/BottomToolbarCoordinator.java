@@ -109,26 +109,46 @@ class BottomToolbarCoordinator {
             mOverviewModeObserver = new EmptyOverviewModeObserver() {
                 @Override
                 public void onOverviewModeStartedShowing(boolean showToolbar) {
-                    mBrowsingModeCoordinator.getSearchAccelerator().setEnabled(false);
+                    mBrowsingModeCoordinator.getSearchAccelerator().setVisibility(View.GONE);
                     if (BottomToolbarVariationManager.isShareButtonOnBottom()) {
-                        mBrowsingModeCoordinator.getShareButton().setEnabled(false);
+                        mBrowsingModeCoordinator.getShareButton().setVisibility(View.GONE);
                     }
                     if (BottomToolbarVariationManager.isHomeButtonOnBottom()) {
-                        mBrowsingModeCoordinator.getHomeButton().setEnabled(false);
+                        mBrowsingModeCoordinator.getHomeButton().setVisibility(View.GONE);
+                    }
+                    if (BottomToolbarVariationManager.isBookmarkButtonOnBottom()) {
+                        mBrowsingModeCoordinator.getBookmarksButton().setVisibility(View.GONE);
+                    }
+                    if (BottomToolbarVariationManager.isTabSwitcherOnBottom()) {
+                        mBrowsingModeCoordinator.getTabSwitcherButtonView().setVisibility(View.GONE);
+                    }
+                    if (BottomToolbarVariationManager.isNewTabButtonOnBottom()) {
+                        mBrowsingModeCoordinator.getNewTabButton().setVisibility(View.VISIBLE);
                     }
                 }
 
                 @Override
                 public void onOverviewModeStartedHiding(
                         boolean showToolbar, boolean delayAnimation) {
-                    mBrowsingModeCoordinator.getSearchAccelerator().setEnabled(true);
+                    mBrowsingModeCoordinator.getSearchAccelerator().setVisibility(View.VISIBLE);
                     if (BottomToolbarVariationManager.isShareButtonOnBottom()) {
+                        mBrowsingModeCoordinator.getShareButton().setVisibility(View.VISIBLE);
                         mBrowsingModeCoordinator.getShareButton().updateButtonEnabledState(
                                 mTabProvider.get());
                     }
                     if (BottomToolbarVariationManager.isHomeButtonOnBottom()) {
+                        mBrowsingModeCoordinator.getHomeButton().setVisibility(View.VISIBLE);
                         mBrowsingModeCoordinator.getHomeButton().updateButtonEnabledState(
                                 mTabProvider.get());
+                    }
+                    if (BottomToolbarVariationManager.isBookmarkButtonOnBottom()) {
+                        mBrowsingModeCoordinator.getBookmarksButton().setVisibility(View.VISIBLE);
+                    }
+                    if (BottomToolbarVariationManager.isTabSwitcherOnBottom()) {
+                        mBrowsingModeCoordinator.getTabSwitcherButtonView().setVisibility(View.VISIBLE);
+                    }
+                    if (BottomToolbarVariationManager.isNewTabButtonOnBottom()) {
+                        mBrowsingModeCoordinator.getNewTabButton().setVisibility(View.GONE);
                     }
                 }
             };

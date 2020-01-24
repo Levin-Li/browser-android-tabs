@@ -64,7 +64,8 @@ public class BottomToolbarVariationManager {
      */
     public static boolean isNewTabButtonOnBottom() {
         return FeatureUtilities.isBottomToolbarEnabled()
-                && getVariation().equals(Variations.NEW_TAB_SEARCH_SHARE);
+                && (getVariation().equals(Variations.NEW_TAB_SEARCH_SHARE)
+                || getVariation().equals(Variations.BRAVE));
     }
 
     /**
@@ -114,6 +115,10 @@ public class BottomToolbarVariationManager {
     public static boolean isBookmarkButtonOnBottom() {
         return FeatureUtilities.isBottomToolbarEnabled()
                 && getVariation().equals(Variations.BRAVE);
+    }
+
+    public static boolean isBraveVariation() {
+        return getVariation().equals(Variations.BRAVE);
     }
 
     /**
