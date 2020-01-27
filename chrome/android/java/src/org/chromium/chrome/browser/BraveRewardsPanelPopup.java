@@ -846,6 +846,25 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         return valid;
     }
 
+    private void ShowClaimOkButtonIfProcessingNotification() {
+        if (currentNotificationId.isEmpty()){
+            return;
+        }
+
+        Button btClaimOk = (Button)root.findViewById(R.id.br_claim_button);
+        View claim_progress = root.findViewById(R.id.progress_br_claim_button);
+
+        mClaimInProcess = (mBraveRewardsNativeWorker != null)?
+                mBraveRewardsNativeWorker.IsGrantClaimInProcess() : true;
+        if (mClaimInProcess){
+            btClaimOk.setVisibility(View.GONE);
+            claim_progress.setVisibility(View.VISIBLE);
+        }
+        else {
+            claim_progress.setVisibility(View.GONE);
+            btClaimOk.setVisibility(View.VISIBLE);
+        }
+    }
 
     private void ShowNotification(String id, int type, long timestamp,
             String[] args) {
@@ -873,19 +892,9 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         String title = "";
         String description = "";
         Button btClaimOk = (Button)root.findViewById(R.id.br_claim_button);
-        View claim_progress = root.findViewById(R.id.progress_br_claim_button);
 
-        //hide 'Claim' button if Grant claim is in process
-        mClaimInProcess = mBraveRewardsNativeWorker.IsGrantClaimInProcess();
-        if (mClaimInProcess){
-            btClaimOk.setVisibility(View.GONE);
-            claim_progress.setVisibility(View.VISIBLE);
-        }
-        else {
-            claim_progress.setVisibility(View.GONE);
-            btClaimOk.setVisibility(View.VISIBLE);
-        }
-
+        //hide or show 'Claim/OK' button if Grant claim is (not) in process
+        ShowClaimOkButtonIfProcessingNotification();
 
         TextView notificationClose = (TextView)root.findViewById(R.id.br_notification_close);
         notificationClose.setVisibility(View.VISIBLE);
@@ -1476,5 +1485,15 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
             mTip_amount_spinner_auto_select = true; //spinner selection was changed programmatically
             mTip_amount_spinner.setSelection(RequestedPosition);
         }
+    }
+
+    /**
+        The problem here: a processed notification is deleted before
+        'OnGrantFinish' is called. 'ShowNotification' draws a new notification
+        without 'Claim/OK' button. 'OnGrantFinish' draws the button.
+    */
+    @Override
+    public void OnGrantFinish(int result){
+        ShowClaimOkButtonIfProcessingNotification();
     }
 }

@@ -541,6 +541,9 @@ public class BraveRewardsNativeWorker {
     @CalledByNative
     public void OnGrantFinish(int result) {
         grantClaimInProcess = false;
+        for(BraveRewardsObserver observer : observers_) {
+            observer.OnGrantFinish(result);
+        }
     }
 
     @CalledByNative
