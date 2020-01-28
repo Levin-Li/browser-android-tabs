@@ -2,7 +2,7 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- PlayVideoInBackground -->
-    <org.chromium.chrome.browser.preferences.website.SiteSettingsPreference
-         android:fragment="org.chromium.chrome.browser.preferences.website.SingleCategoryPreferences"
+    <org.chromium.chrome.browser.settings.website.SiteSettingsPreference
+         android:fragment="org.chromium.chrome.browser.settings.website.SingleCategoryPreferences"
          android:key="play_video_in_background" />
 </PreferenceScreen>
