@@ -36,10 +36,10 @@ public class IncognitoDescriptionView extends LinearLayout {
 
     private LinearLayout mContainer;
     private TextView mHeader;
-    private TextView mSubtitle;
-    private LinearLayout mBulletpointsContainer;
-    private TextView mLearnMore;
-    private TextView[] mParagraphs;
+    // private TextView mSubtitle;
+    // private LinearLayout mBulletpointsContainer;
+    // private TextView mLearnMore;
+    // private TextView[] mParagraphs;
 
     private static final int BULLETPOINTS_HORIZONTAL_SPACING_DP = 40;
     private static final int CONTENT_WIDTH_DP = 600;
@@ -55,7 +55,7 @@ public class IncognitoDescriptionView extends LinearLayout {
      * @param listener The given listener.
      */
     public void setLearnMoreOnclickListener(OnClickListener listener) {
-        mLearnMore.setOnClickListener(listener);
+        // mLearnMore.setOnClickListener(listener);
     }
 
     @Override
@@ -68,8 +68,8 @@ public class IncognitoDescriptionView extends LinearLayout {
         // populateBulletpoints(R.id.new_tab_incognito_features, R.string.new_tab_otr_not_saved);
         // populateBulletpoints(R.id.new_tab_incognito_warning, R.string.new_tab_otr_visible);
 
-        // mContainer = findViewById(R.id.new_tab_incognito_container);
-        // mHeader = findViewById(R.id.new_tab_incognito_title);
+        mContainer = findViewById(R.id.new_tab_incognito_container);
+        mHeader = findViewById(R.id.new_tab_incognito_title);
         // mSubtitle = findViewById(R.id.new_tab_incognito_subtitle);
         // mLearnMore = findViewById(R.id.learn_more);
         // mParagraphs = new TextView[] {mSubtitle, findViewById(R.id.new_tab_incognito_features),
@@ -157,17 +157,17 @@ public class IncognitoDescriptionView extends LinearLayout {
             bulletpointsArrangedHorizontally = false;
 
             // The subtitle is sized automatically, but not wider than CONTENT_WIDTH_DP.
-            mSubtitle.setLayoutParams(
-                    new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
-                            LinearLayout.LayoutParams.WRAP_CONTENT));
-            mSubtitle.setMaxWidth(dpToPx(getContext(), CONTENT_WIDTH_DP));
+            // mSubtitle.setLayoutParams(
+            //         new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,
+            //                 LinearLayout.LayoutParams.WRAP_CONTENT));
+            // mSubtitle.setMaxWidth(dpToPx(getContext(), CONTENT_WIDTH_DP));
 
             // The bulletpoints container takes the same width as subtitle. Since the width can
             // not be directly measured at this stage, we must calculate it manually.
-            mBulletpointsContainer.setLayoutParams(new LinearLayout.LayoutParams(
-                    dpToPx(getContext(),
-                            Math.min(CONTENT_WIDTH_DP, mWidthDp - 2 * paddingHorizontalDp)),
-                    LinearLayout.LayoutParams.WRAP_CONTENT));
+            // mBulletpointsContainer.setLayoutParams(new LinearLayout.LayoutParams(
+            //         dpToPx(getContext(),
+            //                 Math.min(CONTENT_WIDTH_DP, mWidthDp - 2 * paddingHorizontalDp)),
+            //         LinearLayout.LayoutParams.WRAP_CONTENT));
         } else {
             // Large padding.
             paddingHorizontalDp = 0; // Should not be necessary on a screen this large.
@@ -180,18 +180,18 @@ public class IncognitoDescriptionView extends LinearLayout {
             bulletpointsArrangedHorizontally = true;
 
             int contentWidthPx = dpToPx(getContext(), CONTENT_WIDTH_DP);
-            mSubtitle.setLayoutParams(new LinearLayout.LayoutParams(
-                    contentWidthPx, LinearLayout.LayoutParams.WRAP_CONTENT));
-            mBulletpointsContainer.setLayoutParams(new LinearLayout.LayoutParams(
-                    contentWidthPx, LinearLayout.LayoutParams.WRAP_CONTENT));
+            // mSubtitle.setLayoutParams(new LinearLayout.LayoutParams(
+            //         contentWidthPx, LinearLayout.LayoutParams.WRAP_CONTENT));
+            // mBulletpointsContainer.setLayoutParams(new LinearLayout.LayoutParams(
+            //         contentWidthPx, LinearLayout.LayoutParams.WRAP_CONTENT));
         }
 
         // Apply the bulletpoints orientation.
-        if (bulletpointsArrangedHorizontally) {
-            mBulletpointsContainer.setOrientation(LinearLayout.HORIZONTAL);
-        } else {
-            mBulletpointsContainer.setOrientation(LinearLayout.VERTICAL);
-        }
+        // if (bulletpointsArrangedHorizontally) {
+        //     mBulletpointsContainer.setOrientation(LinearLayout.HORIZONTAL);
+        // } else {
+        //     mBulletpointsContainer.setOrientation(LinearLayout.VERTICAL);
+        // }
 
         // Set up paddings and margins.
         int paddingTop;
@@ -200,23 +200,23 @@ public class IncognitoDescriptionView extends LinearLayout {
         mContainer.setPadding(dpToPx(getContext(), paddingHorizontalDp), paddingTop,
                 dpToPx(getContext(), paddingHorizontalDp), paddingBottom);
 
-        int spacingPx =
-                (int) Math.ceil(mParagraphs[0].getTextSize() * (mHeightDp <= 600 ? 1 : 1.5));
+        // int spacingPx =
+        //         (int) Math.ceil(mParagraphs[0].getTextSize() * (mHeightDp <= 600 ? 1 : 1.5));
 
-        for (TextView paragraph : mParagraphs) {
-            // If bulletpoints are arranged horizontally, there should be space between them.
-            int rightMarginPx = (bulletpointsArrangedHorizontally
-                                        && paragraph == mBulletpointsContainer.getChildAt(0))
-                    ? dpToPx(getContext(), BULLETPOINTS_HORIZONTAL_SPACING_DP)
-                    : 0;
+        // for (TextView paragraph : mParagraphs) {
+        //     // If bulletpoints are arranged horizontally, there should be space between them.
+        //     int rightMarginPx =/* (bulletpointsArrangedHorizontally
+        //                                 && paragraph == mBulletpointsContainer.getChildAt(0))
+        //             ? dpToPx(getContext(), BULLETPOINTS_HORIZONTAL_SPACING_DP)
+        //             :*/ 0;
 
-            ((LinearLayout.LayoutParams) paragraph.getLayoutParams())
-                    .setMargins(0, spacingPx, rightMarginPx, 0);
-            paragraph.setLayoutParams(paragraph.getLayoutParams()); // Apply the new layout.
-        }
+        //     ((LinearLayout.LayoutParams) paragraph.getLayoutParams())
+        //             .setMargins(0, spacingPx, rightMarginPx, 0);
+        //     paragraph.setLayoutParams(paragraph.getLayoutParams()); // Apply the new layout.
+        // }
 
-        ((LinearLayout.LayoutParams) mHeader.getLayoutParams()).setMargins(0, spacingPx, 0, 0);
-        mHeader.setLayoutParams(mHeader.getLayoutParams()); // Apply the new layout.
+        // ((LinearLayout.LayoutParams) mHeader.getLayoutParams()).setMargins(0, spacingPx, 0, 0);
+        // mHeader.setLayoutParams(mHeader.getLayoutParams()); // Apply the new layout.
     }
 
     /** Adjust the Incognito icon. */
@@ -238,31 +238,31 @@ public class IncognitoDescriptionView extends LinearLayout {
 
     /** Adjust the "Learn More" link. */
     private void adjustLearnMore() {
-        final String subtitleText =
-                getContext().getResources().getString(R.string.new_tab_otr_subtitle);
+        // final String subtitleText =
+        //         getContext().getResources().getString(R.string.new_tab_otr_subtitle);
         boolean learnMoreInSubtitle = mWidthDp > WIDE_LAYOUT_THRESHOLD_DP;
 
-        mLearnMore.setVisibility(learnMoreInSubtitle ? View.GONE : View.VISIBLE);
+        // mLearnMore.setVisibility(learnMoreInSubtitle ? View.GONE : View.VISIBLE);
 
         if (!learnMoreInSubtitle) {
             // Revert to the original text.
-            mSubtitle.setText(subtitleText);
-            mSubtitle.setMovementMethod(null);
+            // mSubtitle.setText(subtitleText);
+            // mSubtitle.setMovementMethod(null);
             return;
         }
 
         // Concatenate the original text with a clickable "Learn more" link.
-        StringBuilder concatenatedText = new StringBuilder();
-        concatenatedText.append(subtitleText);
-        concatenatedText.append(" ");
-        concatenatedText.append(getContext().getResources().getString(R.string.learn_more));
-        SpannableString textWithLearnMoreLink = new SpannableString(concatenatedText.toString());
+        // StringBuilder concatenatedText = new StringBuilder();
+        // concatenatedText.append(subtitleText);
+        // concatenatedText.append(" ");
+        // concatenatedText.append(getContext().getResources().getString(R.string.learn_more));
+        // SpannableString textWithLearnMoreLink = new SpannableString(concatenatedText.toString());
 
-        NoUnderlineClickableSpan span = new NoUnderlineClickableSpan(
-                getResources(), R.color.modern_blue_300, (view) -> mLearnMore.callOnClick());
-        textWithLearnMoreLink.setSpan(
-                span, subtitleText.length() + 1, textWithLearnMoreLink.length(), 0 /* flags */);
-        mSubtitle.setText(textWithLearnMoreLink);
-        mSubtitle.setMovementMethod(LinkMovementMethod.getInstance());
+        // NoUnderlineClickableSpan span = new NoUnderlineClickableSpan(
+        //         getResources(), R.color.modern_blue_300, (view) -> mLearnMore.callOnClick());
+        // textWithLearnMoreLink.setSpan(
+        //         span, subtitleText.length() + 1, textWithLearnMoreLink.length(), 0 /* flags */);
+        // mSubtitle.setText(textWithLearnMoreLink);
+        // mSubtitle.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }
