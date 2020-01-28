@@ -329,6 +329,9 @@ content creators you love.</string>
     <string name="ten_tip_option">10 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Photo by <ph name="PHOTO_BY">%1$s</ph></string>
+
+    <string name="notification_category_brave_ads_background">Brave Ads sent when browser is in the background</string>
+
     <string name="brave_ui_tips_processed_notification">Your monthly tips have been processed!</string>
     <string name="brave_ui_contribution_tips">Contributions &amp; Tips</string>
     <string name="brave_ui_brave_ads_launch_msg">Now you can earn by viewing ads.</string>
