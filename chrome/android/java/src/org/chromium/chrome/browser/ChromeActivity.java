@@ -2479,9 +2479,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             tracker.notifyEvent(EventConstants.TRANSLATE_MENU_BUTTON_CLICKED);
             TranslateBridge.translateTabWhenReady(getActivityTab());
         } else if (id==R.id.share_page_id || id == R.id.share_menu_id) {
-            // TODO(samartnik): it was removed in chromium, need to find out what to do with it
-            // onShareMenuItemSelected(false,
-            //         getCurrentTabModel().isIncognito());
+            mShareDelegateSupplier.get().share(currentTab, false);
         } else if (id == R.id.print_id) {
             PrintingController printingController = PrintingControllerImpl.getInstance();
             if (printingController != null && !printingController.isBusy()

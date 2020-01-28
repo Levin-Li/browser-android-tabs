@@ -46,12 +46,6 @@ import org.chromium.ui.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-// TODO(samartnik): find out how to resolve this
-// import org.chromium.chrome.browser.ChromeFeatureList;
-// import org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService;
-// import org.chromium.chrome.browser.preferences.PrefServiceBridge;
-// import org.chromium.chrome.R;
-
 /**
  * Shows a popup of menuitems anchored to a host view. When a item is selected we call
  * AppMenuHandlerImpl.AppMenuDelegate.onOptionsItemSelected with the appropriate MenuItem.
@@ -238,16 +232,6 @@ class AppMenu implements OnItemClickListener, OnKeyListener, AppMenuAdapter.OnCl
         List<MenuItem> menuItems = new ArrayList<MenuItem>();
         for (int i = 0; i < numItems; ++i) {
             MenuItem item = mMenu.getItem(i);
-            // TODO(samartnik): find out how to resolve this
-            // if (item.getItemId() == R.id.brave_rewards_id &&
-            //     (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) ||
-            //     PrefServiceBridge.getInstance().isSafetynetCheckFailed())) {
-            //     continue;
-            // }
-            // if (item.getItemId() == R.id.brave_set_default_browser &&
-            //     BraveSetDefaultBrowserNotificationService.isBraveSetAsDefaultBrowser(context)) {
-            //     item.setVisible(false);
-            // }
             if (item.isVisible()) {
                 menuItems.add(item);
             }

@@ -56,6 +56,10 @@ import org.chromium.webapk.lib.client.WebApkValidator;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.chromium.chrome.browser.ChromeFeatureList;
+import org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
+
 /**
  * Base implementation of {@link AppMenuPropertiesDelegate} that handles hiding and showing menu
  * items based on activity state.
@@ -321,6 +325,15 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
             if (item.getItemId() == R.id.close_all_incognito_tabs_menu_id) {
                 item.setVisible(isIncognito);
                 item.setEnabled(hasIncognitoTabs);
+            }
+            if (item.getItemId() == R.id.brave_rewards_id &&
+                    (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS) ||
+                    WebsitePreferenceBridge.isSafetynetCheckFailed())) {
+                item.setVisible(false);
+            }
+            if (item.getItemId() == R.id.brave_set_default_browser &&
+                    BraveSetDefaultBrowserNotificationService.isBraveSetAsDefaultBrowser(mContext)) {
+                item.setVisible(false);
             }
         }
 
