@@ -50,8 +50,8 @@
         android:fragment="org.chromium.chrome.browser.settings.website.SingleCategoryPreferences"
         android:key="ads" /> -->
    <!-- DesktopView -->
-   <org.chromium.chrome.browser.preferences.website.SiteSettingsPreference
-        android:fragment="org.chromium.chrome.browser.preferences.website.SingleCategoryPreferences"
+   <org.chromium.chrome.browser.settings.website.SiteSettingsPreference
+        android:fragment="org.chromium.chrome.browser.settings.website.SingleCategoryPreferences"
         android:key="desktop_view" />
     <!-- Background sync -->
     <!-- <org.chromium.chrome.browser.settings.website.SiteSettingsPreference
@@ -70,8 +70,8 @@
         android:fragment="org.chromium.chrome.browser.settings.website.SingleCategoryPreferences"
         android:key="sound" />
     <!-- PlayYouTubeVideoInBrowser -->
-    <org.chromium.chrome.browser.preferences.website.SiteSettingsPreference
-        android:fragment="org.chromium.chrome.browser.preferences.website.SingleCategoryPreferences"
+    <org.chromium.chrome.browser.settings.website.SiteSettingsPreference
+        android:fragment="org.chromium.chrome.browser.settings.website.SingleCategoryPreferences"
         android:key="play_yt_video_in_browser" />
     <!-- Storage -->
     <!-- TODO(finnur): Move this over to the new Usage screen, once it exists. -->

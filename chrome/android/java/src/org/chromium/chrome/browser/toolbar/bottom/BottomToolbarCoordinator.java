@@ -114,13 +114,13 @@ class BottomToolbarCoordinator {
                         mBrowsingModeCoordinator.getShareButton().setVisibility(View.GONE);
                     }
                     if (BottomToolbarVariationManager.isHomeButtonOnBottom()) {
-                        mBrowsingModeCoordinator.getHomeButton().setVisibility(View.GONE);
+                        mBrowsingModeCoordinator.getHomeButton().setVisibility(View.INVISIBLE);
                     }
                     if (BottomToolbarVariationManager.isBookmarkButtonOnBottom()) {
-                        mBrowsingModeCoordinator.getBookmarksButton().setVisibility(View.GONE);
+                        mBrowsingModeCoordinator.getBookmarksButton().setVisibility(View.INVISIBLE);
                     }
                     if (BottomToolbarVariationManager.isTabSwitcherOnBottom()) {
-                        mBrowsingModeCoordinator.getTabSwitcherButtonView().setVisibility(View.GONE);
+                        mBrowsingModeCoordinator.getTabSwitcherButtonView().setVisibility(View.INVISIBLE);
                     }
                     if (BottomToolbarVariationManager.isNewTabButtonOnBottom()) {
                         mBrowsingModeCoordinator.getNewTabButton().setVisibility(View.VISIBLE);
