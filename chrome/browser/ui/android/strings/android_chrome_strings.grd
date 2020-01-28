@@ -4904,6 +4904,9 @@ content creators you love.
       <message name="IDS_BRAVE_UI_PENDING_CONTRIBUTION_TITLE" desc="Notification title for pending contribution type">
         Pending Contribution
       </message>
+      <message name="IDS_NOTIFICATION_CATEGORY_BRAVE_ADS_BACKGROUND" desc="Label for Brave Ads in background.">
+        Brave Ads sent when browser is in the background
+      </message>
     </messages>
   </release>
 </grit>

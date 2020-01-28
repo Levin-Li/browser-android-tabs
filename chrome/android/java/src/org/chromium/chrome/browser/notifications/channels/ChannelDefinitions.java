@@ -45,7 +45,7 @@ public class ChannelDefinitions {
      * set of channels returned by {@link #getStartupChannelIds()} or {@link #getLegacyChannelIds()}
      * changes.
      */
-    static final int CHANNELS_VERSION = 2;
+    static final int CHANNELS_VERSION = 3;
 
     /**
      * To define a new channel, add the channel ID to this StringDef and add a new entry to
@@ -54,7 +54,8 @@ public class ChannelDefinitions {
      * and add the ID to the LEGACY_CHANNELS_ID array below. See the README in this directory for
      * more detailed instructions.
      */
-    @StringDef({ChannelId.BRAVE, ChannelId.BRAVE_ADS, ChannelId.BROWSER,
+    @StringDef({ChannelId.BRAVE, ChannelId.BRAVE_ADS,
+            ChannelId.BRAVE_ADS_BACKGROUND, ChannelId.BROWSER,
             ChannelId.DOWNLOADS, ChannelId.INCOGNITO, ChannelId.MEDIA,
             ChannelId.SCREEN_CAPTURE, ChannelId.CONTENT_SUGGESTIONS, ChannelId.WEBAPP_ACTIONS,
             ChannelId.SITES, ChannelId.SHARING, ChannelId.UPDATES, ChannelId.COMPLETED_DOWNLOADS,
@@ -64,6 +65,7 @@ public class ChannelDefinitions {
     public @interface ChannelId {
         String BRAVE = "com.brave.browser";
         String BRAVE_ADS = "com.brave.browser.ads";
+        String BRAVE_ADS_BACKGROUND = "com.brave.browser.ads.background";
         String BROWSER = "browser";
         String DOWNLOADS = "downloads";
         String INCOGNITO = "incognito";
@@ -118,6 +120,12 @@ public class ChannelDefinitions {
                     new PredefinedChannel(ChannelId.BRAVE_ADS, R.string.notification_category_brave_ads,
                     NotificationManager.IMPORTANCE_HIGH, ChannelGroupId.BRAVE_ADS));
             startup.add(ChannelId.BRAVE_ADS);
+
+            map.put(ChannelId.BRAVE_ADS_BACKGROUND,
+                    new PredefinedChannel(ChannelId.BRAVE_ADS_BACKGROUND,
+                    R.string.notification_category_brave_ads_background,
+                    NotificationManager.IMPORTANCE_LOW, ChannelGroupId.BRAVE_ADS));
+            startup.add(ChannelId.BRAVE_ADS_BACKGROUND);
 
             map.put(ChannelId.BROWSER,
                     new PredefinedChannel(ChannelId.BROWSER, R.string.notification_category_browser,
