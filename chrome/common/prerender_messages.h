@@ -64,4 +64,21 @@ IPC_MESSAGE_ROUTED2(PrerenderMsg_SetIsPrerendering,
                     prerender::PrerenderMode,
                     std::string /* histogram_prefix */)
 
+// Sent by the renderer process to check whether fingerprinting is
+// granted by content settings.
+IPC_SYNC_MESSAGE_CONTROL2_1(PrerenderHostMsg_AllowFingerprinting,
+                            int /* render_frame_id */,
+                            std::string /* origin_host */,
+                            bool /* allowed */)
+
+// Tells the browser that script in the current page was blocked due to the
+// content settings and Brave Shields.
+IPC_MESSAGE_ROUTED1(PrerenderHostMsg_DeniedScript,
+                   std::string /* origin_url */)
+
+// Tells the browser that fingerprinting in the current page was blocked due to the
+// content settings and Brave Shields.
+IPC_MESSAGE_ROUTED1(PrerenderHostMsg_DeniedFingerprinting,
+                    std::string /* origin_url */)
+
 #endif  // CHROME_COMMON_PRERENDER_MESSAGES_H_

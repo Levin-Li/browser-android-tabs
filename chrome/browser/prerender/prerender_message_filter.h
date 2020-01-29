@@ -69,6 +69,12 @@ class PrerenderMessageFilter : public content::BrowserMessageFilter {
 
   void OnChannelClosingInUIThread();
 
+  void OnContentAllowFingerprinting(int render_frame_id,
+                                    const std::string& original_host,
+                                    IPC::Message* message);
+  void OnContentDeniedFingerprinting(const std::string& original_url);
+  void OnContentDeniedScript(const std::string& original_url);
+
   PrerenderManager* prerender_manager_;
 
   const int render_process_id_;
@@ -77,6 +83,8 @@ class PrerenderMessageFilter : public content::BrowserMessageFilter {
 
   std::unique_ptr<KeyedServiceShutdownNotifier::Subscription>
       shutdown_notifier_;
+
+  Profile* profile_;
 
   DISALLOW_COPY_AND_ASSIGN(PrerenderMessageFilter);
 };

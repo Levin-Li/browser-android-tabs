@@ -111,6 +111,10 @@ class ContentSettingsAgentImpl
     return allow_running_insecure_content_;
   }
 
+  bool AllowFingerprinting() override;
+  void DeniedScript() override;
+  void DeniedFingerprinting() override;
+
  protected:
   // Allow this to be overridden by tests.
   virtual void BindContentSettingsManager(

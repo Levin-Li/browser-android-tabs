@@ -52,6 +52,8 @@
 #include "extensions/renderer/renderer_extension_registry.h"
 #endif
 
+#include "chrome/common/prerender_messages.h"
+
 using blink::WebDocument;
 using blink::WebFrame;
 using blink::WebLocalFrame;
@@ -651,4 +653,39 @@ bool ContentSettingsAgentImpl::AllowStorageAccess(
       frame->GetDocument().SiteForCookies(),
       frame->GetDocument().TopFrameOrigin(), &result);
   return result;
+}
+
+bool ContentSettingsAgentImpl::AllowFingerprinting() {
+  WebFrame* frame = render_frame()->GetWebFrame();
+  if (!frame) {
+    return true;
+  }
+
+  bool result = true;
+  Send(new PrerenderHostMsg_AllowFingerprinting(
+      routing_id(),
+      GURL(frame->Top()->ToWebLocalFrame()->GetDocument().Url()).host(),
+      &result));
+
+  return result;
+}
+
+void ContentSettingsAgentImpl::DeniedScript() {
+  WebFrame* frame = render_frame()->GetWebFrame();
+  if (!frame) {
+    return;
+  }
+
+  Send(new PrerenderHostMsg_DeniedScript(routing_id(),
+          GURL(frame->Top()->ToWebLocalFrame()->GetDocument().Url()).spec()));
+}
+
+void ContentSettingsAgentImpl::DeniedFingerprinting() {
+  WebFrame* frame = render_frame()->GetWebFrame();
+  if (!frame) {
+    return;
+  }
+
+  Send(new PrerenderHostMsg_DeniedFingerprinting(routing_id(),
+          GURL(frame->Top()->ToWebLocalFrame()->GetDocument().Url()).spec()));
 }
