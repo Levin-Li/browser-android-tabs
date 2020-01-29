@@ -1523,7 +1523,7 @@ Servernachricht: <ph name="SERVER_MSG" /></translation>
 
     Beschreibung:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave-Apps</translation>
+<translation id="300669147395456190">Brave-Apps</translation>
 <translation id="3150927491400159470">Vollständiges Aktualisieren (Hard Reload)</translation>
 <translation id="315116470104423982">Mobilfunk</translation>
 <translation id="3151539355209957474">Startzeit</translation>
@@ -1607,7 +1607,7 @@ Servernachricht: <ph name="SERVER_MSG" /></translation>
 <translation id="3280243678470289153">In Brave bleiben</translation>
 <translation id="3281892622610078515">Dateien und Programme, die unter Quarantäne gestellt werden:</translation>
 <translation id="3282210178675490297">Tab wird mit <ph name="APP_NAME" /> geteilt</translation>
-<translation id="3282568296779691940">In Brave anmelden</translation>
+<translation id="82609232232243542">In Brave anmelden</translation>
 <translation id="3285322247471302225">Neuer &amp;Tab</translation>
 <translation id="328571385944182268">Passwörter speichern?</translation>
 <translation id="3288047731229977326">Erweiterungen im Entwicklermodus können auf Ihrem Computer Schaden anrichten. Wenn Sie kein Entwickler sind, sollten Sie diese Erweiterungen im Entwicklermodus deaktivieren, um sicher zu sein.</translation>
@@ -2438,7 +2438,7 @@ Möchten Sie <ph name="CONTROL_PANEL_APPLET_NAME" /> starten?</translation>
 <translation id="4469477701382819144">Auf Websites blockiert, die aufdringliche oder irreführende Werbung anzeigen</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> kann Dateien in "<ph name="FOLDERNAME" />" bearbeiten</translation>
 <translation id="4470957202018033307">Einstellungen für externe Speichergeräte</translation>
-<translation id="447252321002412580">Helfen, die Funktionen und die Leistung von Brave zu verbessern</translation>
+<translation id="918192811481327695">Helfen, die Funktionen und die Leistung von Brave zu verbessern</translation>
 <translation id="4474155171896946103">Alle Tabs als Lesezeichen speichern...</translation>
 <translation id="4474461121892222090">Die Aktivierung der mobilen Daten kann bis zu 15 Minuten dauern.</translation>
 <translation id="4475552974751346499">In Downloads suchen</translation>
@@ -4051,7 +4051,7 @@ Möchten Sie <ph name="CONTROL_PANEL_APPLET_NAME" /> starten?</translation>
 <translation id="6841186874966388268">Fehler</translation>
 <translation id="6843423766595476978">"Ok Google" ist eingerichtet</translation>
 <translation id="6845038076637626672">Maximiert öffnen</translation>
-<translation id="6845325883481699275">Zur Verbesserung der Sicherheit von Brave beitragen</translation>
+<translation id="4991384657077828949">Zur Verbesserung der Sicherheit von Brave beitragen</translation>
 <translation id="6848388270925200958">Zurzeit können einige Ihrer Karten nur auf diesem Gerät verwendet werden</translation>
 <translation id="6850286078059909152">Schriftfarbe</translation>
 <translation id="6851497530878285708">App aktiviert</translation>
@@ -4542,7 +4542,7 @@ Möchten Sie <ph name="CONTROL_PANEL_APPLET_NAME" /> starten?</translation>
 <translation id="756445078718366910">Browserfenster öffnen</translation>
 <translation id="7564847347806291057">Prozess beenden</translation>
 <translation id="7566118625369982896">Play-App-Links verwalten</translation>
-<translation id="756809126120519699">Gelöschte Brave-Daten</translation>
+<translation id="7814200940910057384">Gelöschte Brave-Daten</translation>
 <translation id="7568790562536448087">Aktualisierung läuft</translation>
 <translation id="7569983096843329377">Schwarz</translation>
 <translation id="7571643774869182231">Nicht genug Speicherplatz, um Update auszuführen</translation>
@@ -4662,7 +4662,7 @@ Möchten Sie <ph name="CONTROL_PANEL_APPLET_NAME" /> starten?</translation>
 <translation id="7737456446569756884">Dieses Gerät erhält automatische Software- und Sicherheitsupdates bis <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Standard</translation>
 <translation id="7744047395460924128">Druckverlauf anzeigen</translation>
-<translation id="7746457520633464754">Brave sendet die URLs einiger von Ihnen besuchter Seiten, bestimmte Systeminformationen und einige Seiteninhalte an Google, um gefährliche Apps und Websites zu erkennen</translation>
+<translation id="3712897541513849705">Brave sendet die URLs einiger von Ihnen besuchter Seiten, bestimmte Systeminformationen und einige Seiteninhalte an Google, um gefährliche Apps und Websites zu erkennen</translation>
 <translation id="7750228210027921155">Bild-in-Bild</translation>
 <translation id="7751260505918304024">Alle anzeigen</translation>
 <translation id="7754704193130578113">Vor dem Download von Dateien nach dem Speicherort fragen</translation>

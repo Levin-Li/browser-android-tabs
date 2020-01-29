@@ -1525,7 +1525,7 @@ Para administrar la configuración de esta cuenta, instala la app de Family Lin
 
     Descripción:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Aplicaciones de Brave</translation>
+<translation id="300669147395456190">Aplicaciones de Brave</translation>
 <translation id="3150927491400159470">Volver a cargar de manera forzada</translation>
 <translation id="315116470104423982">Datos móviles</translation>
 <translation id="3151539355209957474">Hora de inicio</translation>
@@ -1609,7 +1609,7 @@ Para administrar la configuración de esta cuenta, instala la app de Family Lin
 <translation id="3280243678470289153">Seguir en Brave</translation>
 <translation id="3281892622610078515">Archivos y programas que se guardarán en cuarentena:</translation>
 <translation id="3282210178675490297">Se está compartiendo una pestaña con <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Acceder a Brave</translation>
+<translation id="82609232232243542">Acceder a Brave</translation>
 <translation id="3285322247471302225">Nueva pes&amp;taña en</translation>
 <translation id="328571385944182268">¿Quieres guardar tus contraseñas?</translation>
 <translation id="3288047731229977326">Las extensiones que se ejecutan en modo de programador pueden dañar tu computadora. Si no eres programador, debes inhabilitar las extensiones que se ejecutan en modo de programador para mantenerte protegido.</translation>
@@ -2440,7 +2440,7 @@ Para administrar la configuración de esta cuenta, instala la app de Family Lin
 <translation id="4469477701382819144">Bloqueados en sitios que muestran anuncios intrusivos o engañosos</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> puede editar archivos en <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Preferencias de almacenamiento externo</translation>
-<translation id="447252321002412580">Ayudar a mejorar las funciones y el rendimiento de Brave</translation>
+<translation id="918192811481327695">Ayudar a mejorar las funciones y el rendimiento de Brave</translation>
 <translation id="4474155171896946103">Agregar a favoritos todas las pestañas...</translation>
 <translation id="4474461121892222090">La activación de los datos móviles puede tardar hasta 15 minutos en completarse.</translation>
 <translation id="4475552974751346499">Buscar descargas</translation>
@@ -4055,7 +4055,7 @@ Para administrar la configuración de esta cuenta, instala la app de Family Lin
 <translation id="6841186874966388268">Errores</translation>
 <translation id="6843423766595476978">Ok Google ya está configurado</translation>
 <translation id="6845038076637626672">Abrir de forma maximizada</translation>
-<translation id="6845325883481699275">Ayudar a mejorar la seguridad de Brave</translation>
+<translation id="4991384657077828949">Ayudar a mejorar la seguridad de Brave</translation>
 <translation id="6848388270925200958">En este momento, tienes algunas tarjetas que solo se pueden usar en este dispositivo</translation>
 <translation id="6850286078059909152">Color del texto</translation>
 <translation id="6851497530878285708">App habilitada</translation>
@@ -4546,7 +4546,7 @@ Para administrar la configuración de esta cuenta, instala la app de Family Lin
 <translation id="756445078718366910">Abrir la ventana del navegador</translation>
 <translation id="7564847347806291057">Finalizar proceso</translation>
 <translation id="7566118625369982896">Administrar vínculos a apps en Play</translation>
-<translation id="756809126120519699">Datos de Brave borrados</translation>
+<translation id="7814200940910057384">Datos de Brave borrados</translation>
 <translation id="7568790562536448087">Actualizando</translation>
 <translation id="7569983096843329377">Negro</translation>
 <translation id="7571643774869182231">No hay suficiente espacio para la actualización</translation>
@@ -4666,7 +4666,7 @@ Para administrar la configuración de esta cuenta, instala la app de Family Lin
 <translation id="7737456446569756884">Este dispositivo recibirá actualizaciones automáticas de software y seguridad hasta <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Estándar</translation>
 <translation id="7744047395460924128">Ver tu historial de impresión</translation>
-<translation id="7746457520633464754">Para detectar apps y sitios peligrosos, Brave envía a Google URL de algunas páginas que visitas, información limitada sobre el sistema y contenido de algunas páginas</translation>
+<translation id="3712897541513849705">Para detectar apps y sitios peligrosos, Brave envía a Google URL de algunas páginas que visitas, información limitada sobre el sistema y contenido de algunas páginas</translation>
 <translation id="7750228210027921155">Pantalla en pantalla</translation>
 <translation id="7751260505918304024">Mostrar todo</translation>
 <translation id="7754704193130578113">Preguntar ubicación antes de descargar</translation>

@@ -1527,7 +1527,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 
     Descrizione:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Applicazioni Brave</translation>
+<translation id="300669147395456190">Applicazioni Brave</translation>
 <translation id="3150927491400159470">Ricaricamento manuale</translation>
 <translation id="315116470104423982">Dati mobili</translation>
 <translation id="3151539355209957474">Ora di inizio</translation>
@@ -1611,7 +1611,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="3280243678470289153">Rimani in Brave</translation>
 <translation id="3281892622610078515">File e programmi che saranno messi in quarantena:</translation>
 <translation id="3282210178675490297">Condivisione di una scheda con <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Accedi a Brave</translation>
+<translation id="82609232232243542">Accedi a Brave</translation>
 <translation id="3285322247471302225">Nuova &amp;scheda</translation>
 <translation id="328571385944182268">Vuoi salvare le password?</translation>
 <translation id="3288047731229977326">Le estensioni in esecuzione in modalità sviluppatore potrebbero danneggiare il computer. Se non sei uno sviluppatore, dovresti disattivare queste estensioni per la tua sicurezza.</translation>
@@ -2442,7 +2442,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="4469477701382819144">Bloccati sui siti che mostrano annunci invasivi o fuorvianti</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> può modificare i file nella cartella <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Preferenze dello spazio di archiviazione esterno</translation>
-<translation id="447252321002412580">Contribuisci a migliorare le funzionalità e le prestazioni di Brave</translation>
+<translation id="918192811481327695">Contribuisci a migliorare le funzionalità e le prestazioni di Brave</translation>
 <translation id="4474155171896946103">Aggiungi tutte le schede ai Preferiti...</translation>
 <translation id="4474461121892222090">Potrebbero essere necessari fino a 15 minuti per completare l'attivazione dei dati mobili.</translation>
 <translation id="4475552974751346499">Cerca tra i file scaricati</translation>
@@ -4057,7 +4057,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="6841186874966388268">Errori</translation>
 <translation id="6843423766595476978">Ok Google impostato</translation>
 <translation id="6845038076637626672">Apri ingrandita</translation>
-<translation id="6845325883481699275">Contribuisci a migliorare la sicurezza di Brave</translation>
+<translation id="4991384657077828949">Contribuisci a migliorare la sicurezza di Brave</translation>
 <translation id="6848388270925200958">Al momento hai delle carte che possono essere utilizzate solo da questo dispositivo.</translation>
 <translation id="6850286078059909152">Colore testo</translation>
 <translation id="6851497530878285708">App attivata</translation>
@@ -4548,7 +4548,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="756445078718366910">Apri finestra del browser</translation>
 <translation id="7564847347806291057">Termina processo</translation>
 <translation id="7566118625369982896">Gestisci i link dell'app Play</translation>
-<translation id="756809126120519699">Dati di Brave cancellati</translation>
+<translation id="7814200940910057384">Dati di Brave cancellati</translation>
 <translation id="7568790562536448087">Aggiornamento</translation>
 <translation id="7569983096843329377">Nero</translation>
 <translation id="7571643774869182231">Spazio di archiviazione insufficiente per eseguire l'aggiornamento</translation>
@@ -4668,7 +4668,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="7737456446569756884">Questo dispositivo riceverà automaticamente aggiornamenti software e di sicurezza fino a <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Standard</translation>
 <translation id="7744047395460924128">Visualizzazione della cronologia di stampa</translation>
-<translation id="7746457520633464754">Per rilevare app e siti pericolosi, Brave invia a Google gli URL di alcune pagine che visiti, informazioni limitate sul sistema e i contenuti di alcune pagine</translation>
+<translation id="3712897541513849705">Per rilevare app e siti pericolosi, Brave invia a Google gli URL di alcune pagine che visiti, informazioni limitate sul sistema e i contenuti di alcune pagine</translation>
 <translation id="7750228210027921155">Picture in picture</translation>
 <translation id="7751260505918304024">Mostra tutto</translation>
 <translation id="7754704193130578113">Chiedi dove salvare il file prima di scaricarlo</translation>

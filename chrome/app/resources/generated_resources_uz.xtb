@@ -1526,7 +1526,7 @@ Oʻz qurilmangizda Family Link ilovasini oʻrnatib, bu hisob sozlamalarini boshq
 
     Tavsif:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave ilovalari</translation>
+<translation id="300669147395456190">Brave ilovalari</translation>
 <translation id="3150927491400159470">Apparatni qayta yuklash</translation>
 <translation id="315116470104423982">Mobil internet</translation>
 <translation id="3151539355209957474">Boshlangan vaqti</translation>
@@ -1610,7 +1610,7 @@ Oʻz qurilmangizda Family Link ilovasini oʻrnatib, bu hisob sozlamalarini boshq
 <translation id="3280243678470289153">Brave brauzerida qolish</translation>
 <translation id="3281892622610078515">Izolyatsiya qilinadigan fayllar va dasturlar:</translation>
 <translation id="3282210178675490297">Varaq <ph name="APP_NAME" /> ilovasiga ulashilmoqda</translation>
-<translation id="3282568296779691940">Brave hisobiga kirish</translation>
+<translation id="82609232232243542">Brave hisobiga kirish</translation>
 <translation id="3285322247471302225">Yangi &amp;ichki oyna</translation>
 <translation id="328571385944182268">Parollaringiz saqlansinmi?</translation>
 <translation id="3288047731229977326">Dasturchi rejimida ishga tushirilgan kengaytmalar kompyuteringizga ziyon yetkazishi mumkin. Agar dasturchi bo‘lmasangiz xavfsizlik maqsadlarida ularni o‘chirib qo‘yishingiz kerak.</translation>
@@ -2441,7 +2441,7 @@ Oʻz qurilmangizda Family Link ilovasini oʻrnatib, bu hisob sozlamalarini boshq
 <translation id="4469477701382819144">Saytlarda chiquvchi yoqimsiz yoki befoyda reklama bloklandi</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> sayti <ph name="FOLDERNAME" /> jildidagi fayllarni tahrirlay oladi</translation>
 <translation id="4470957202018033307">Tashqi xotira parametrlari</translation>
-<translation id="447252321002412580">Brave funksiyalari va unumdorligini yaxshilashga yordam bering</translation>
+<translation id="918192811481327695">Brave funksiyalari va unumdorligini yaxshilashga yordam bering</translation>
 <translation id="4474155171896946103">Barcha ichki oynalarni xatcho‘plarga qo‘shish...</translation>
 <translation id="4474461121892222090">Mobil internetni yoqish 15 daqiqa vaqt olishi mumkin.</translation>
 <translation id="4475552974751346499">Yuklamalardan qidirish</translation>
@@ -4056,7 +4056,7 @@ Ochiq eksponenta (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bit):
 <translation id="6841186874966388268">Xatoliklar</translation>
 <translation id="6843423766595476978">“Ok Google” sozlandi</translation>
 <translation id="6845038076637626672">Yoyib ochish</translation>
-<translation id="6845325883481699275">Brave xavfsizligini yaxshilashga yordam bering</translation>
+<translation id="4991384657077828949">Brave xavfsizligini yaxshilashga yordam bering</translation>
 <translation id="6848388270925200958">Hozir bu qurilmada kartalardan faqat bir nechtasini ishlatish mumkin</translation>
 <translation id="6850286078059909152">Matn rangi</translation>
 <translation id="6851497530878285708">Bu ilova yoqilgan</translation>
@@ -4547,7 +4547,7 @@ Ochiq eksponenta (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bit):
 <translation id="756445078718366910">Brauzer oynasini ochish</translation>
 <translation id="7564847347806291057">Jarayonni yakunlash</translation>
 <translation id="7566118625369982896">Google Play ilovalaridagi havolalarni boshqarish</translation>
-<translation id="756809126120519699">Brave ma’lumotlari tozalandi</translation>
+<translation id="7814200940910057384">Brave ma’lumotlari tozalandi</translation>
 <translation id="7568790562536448087">Yangilanish</translation>
 <translation id="7569983096843329377">Qora</translation>
 <translation id="7571643774869182231">Yangilanish uchun joy yetarli emas</translation>
@@ -4667,7 +4667,7 @@ Ochiq eksponenta (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bit):
 <translation id="7737456446569756884">Bu qurilmadagi dasturlar va xavfsizlik sozlamalari <ph name="MONTH_AND_YEAR" /> sanasigacha avtomatik yangilanadi.</translation>
 <translation id="7740996059027112821">Standart</translation>
 <translation id="7744047395460924128">Chop etishlar tarixini koʻrish</translation>
-<translation id="7746457520633464754">Xavfli ilova saytlarni aniqlashda Brave siz tashrif buyuradigan saytlarning URL manzillari, tizim axboroti va ayrim sahifalardagi kontentlarni Google serverlariga yuboradi</translation>
+<translation id="3712897541513849705">Xavfli ilova saytlarni aniqlashda Brave siz tashrif buyuradigan saytlarning URL manzillari, tizim axboroti va ayrim sahifalardagi kontentlarni Google serverlariga yuboradi</translation>
 <translation id="7750228210027921155">Tasvir ustida tasvir</translation>
 <translation id="7751260505918304024">Hammasi</translation>
 <translation id="7754704193130578113">Har bir faylni yuklashdan oldin qayerga saqlash so‘ralsin</translation>

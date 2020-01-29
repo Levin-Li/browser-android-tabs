@@ -1524,7 +1524,7 @@
 
     תיאור:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">‏אפליקציות Brave</translation>
+<translation id="300669147395456190">‏אפליקציות Brave</translation>
 <translation id="3150927491400159470">טעינה מחדש קשיחה</translation>
 <translation id="315116470104423982">נתוני נייד</translation>
 <translation id="3151539355209957474">שעת התחלה</translation>
@@ -1608,7 +1608,7 @@
 <translation id="3280243678470289153">‏להישאר ב-Brave</translation>
 <translation id="3281892622610078515">קבצים ותוכנות שיש להעביר להסגר:</translation>
 <translation id="3282210178675490297">המערכת משתפת כרטיסייה עם האפליקציה <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">‏כניסה ל-Brave</translation>
+<translation id="82609232232243542">‏כניסה ל-Brave</translation>
 <translation id="3285322247471302225">כרטיסייה &amp;חדשה</translation>
 <translation id="328571385944182268">לשמור את הסיסמאות?</translation>
 <translation id="3288047731229977326">תוספים הרצים במצב מפתח יכולים להזיק למחשב שלך. אם אינך מפתח, עליך להשבית את התוספים הרצים במצב מפתח כדי לשמור על ביטחונך.</translation>
@@ -2439,7 +2439,7 @@
 <translation id="4469477701382819144">חסומות באתרים שמוצגות בהם מודעות מפריעות או מטעות</translation>
 <translation id="4469762931504673593">ל-<ph name="ORIGIN" /> יש הרשאה לערוך קבצים בתיקייה <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">העדפות אחסון חיצוני</translation>
-<translation id="447252321002412580">‏עזרה בשיפור התכונות והביצועים של Brave</translation>
+<translation id="918192811481327695">‏עזרה בשיפור התכונות והביצועים של Brave</translation>
 <translation id="4474155171896946103">צור סימניה לכל הכרטיסיות...</translation>
 <translation id="4474461121892222090">הפעלת חבילת הגלישה עשויה לארוך עד 15 דקות.</translation>
 <translation id="4475552974751346499">חפש בהורדות</translation>
@@ -4052,7 +4052,7 @@
 <translation id="6841186874966388268">שגיאות</translation>
 <translation id="6843423766595476978">‏התכונה Ok Google מוכנה</translation>
 <translation id="6845038076637626672">פתח בגודל מרבי</translation>
-<translation id="6845325883481699275">‏עזרה בשיפור האבטחה של Brave</translation>
+<translation id="4991384657077828949">‏עזרה בשיפור האבטחה של Brave</translation>
 <translation id="6848388270925200958">נכון לעכשיו, יש לך כרטיסים שאפשר להשתמש בהם רק במכשיר הזה.</translation>
 <translation id="6850286078059909152">צבע טקסט</translation>
 <translation id="6851497530878285708">האפליקציה הופעלה</translation>
@@ -4543,7 +4543,7 @@
 <translation id="756445078718366910">פתח חלון דפדפן</translation>
 <translation id="7564847347806291057">סיים תהליך</translation>
 <translation id="7566118625369982896">‏ניהול קישורים של אפליקציות מ-Play</translation>
-<translation id="756809126120519699">‏נתוני Brave נוקו</translation>
+<translation id="7814200940910057384">‏נתוני Brave נוקו</translation>
 <translation id="7568790562536448087">מעדכן</translation>
 <translation id="7569983096843329377">שחור</translation>
 <translation id="7571643774869182231">אין מספיק שטח אחסון לעדכון</translation>
@@ -4663,7 +4663,7 @@
 <translation id="7737456446569756884">המכשיר יקבל עדכוני תוכנה ואבטחה אוטומטיים עד <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">רגילה</translation>
 <translation id="7744047395460924128">הצגת היסטוריית ההדפסות שלך</translation>
-<translation id="7746457520633464754">‏כדי לזהות אפליקציות ואתרים מסוכנים, Brave שולח אל Google כתובות URL של חלק מהדפים שאליהם נכנסת, מידע מוגבל לגבי המערכת וחלק מתוכן הדפים</translation>
+<translation id="3712897541513849705">‏כדי לזהות אפליקציות ואתרים מסוכנים, Brave שולח אל Google כתובות URL של חלק מהדפים שאליהם נכנסת, מידע מוגבל לגבי המערכת וחלק מתוכן הדפים</translation>
 <translation id="7750228210027921155">תמונה בתוך תמונה</translation>
 <translation id="7751260505918304024">הצג הכל</translation>
 <translation id="7754704193130578113">שאל היכן לשמור כל קובץ לפני הורדתו</translation>

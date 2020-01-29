@@ -1528,7 +1528,7 @@ Ha kezelni szeretné a fiók beállításait, telepítse eszközére a Family Li
 
     Leírás:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave-alkalmazások</translation>
+<translation id="300669147395456190">Brave-alkalmazások</translation>
 <translation id="3150927491400159470">Teljes újratöltés</translation>
 <translation id="315116470104423982">Mobiladatok</translation>
 <translation id="3151539355209957474">Kezdés ideje</translation>
@@ -1612,7 +1612,7 @@ Ha kezelni szeretné a fiók beállításait, telepítse eszközére a Family Li
 <translation id="3280243678470289153">A Brave használatának folytatása</translation>
 <translation id="3281892622610078515">Karanténba helyezendő fájlok és programok:</translation>
 <translation id="3282210178675490297">Lap megosztása a következővel: <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Bejelentkezés a Brave-ba</translation>
+<translation id="82609232232243542">Bejelentkezés a Brave-ba</translation>
 <translation id="3285322247471302225">Új lap</translation>
 <translation id="328571385944182268">Szeretné menteni a jelszavait?</translation>
 <translation id="3288047731229977326">A fejlesztői módban futó bővítmények kárt okozhatnak számítógépén. Ha Ön nem fejlesztő, akkor a biztonság kedvéért kapcsolja ki a fejlesztői módban futó bővítményeket.</translation>
@@ -2442,7 +2442,7 @@ Elindítja a következőt: <ph name="CONTROL_PANEL_APPLET_NAME" />?</translation
 <translation id="4469477701382819144">Letiltva a tolakodó vagy félrevezető hirdetéseket megjelenítő webhelyeken</translation>
 <translation id="4469762931504673593">A(z) <ph name="ORIGIN" /> szerkesztheti a(z) <ph name="FOLDERNAME" /> mappában lévő fájlokat</translation>
 <translation id="4470957202018033307">Külső tárhely beállításai</translation>
-<translation id="447252321002412580">Segítség a Brave funkcióinak és teljesítményének javítása érdekében</translation>
+<translation id="918192811481327695">Segítség a Brave funkcióinak és teljesítményének javítása érdekében</translation>
 <translation id="4474155171896946103">Összes lap hozzáadása a könyvjelzőkhöz...</translation>
 <translation id="4474461121892222090">A mobiladatok aktiválása akár 15 percet is igénybe vehet.</translation>
 <translation id="4475552974751346499">Letöltések keresése</translation>
@@ -4059,7 +4059,7 @@ Győződjön meg arról, hogy nem ad ki bizalmas adatokat.</translation>
 <translation id="6841186874966388268">Hibák</translation>
 <translation id="6843423766595476978">Az Ok Google használatra kész</translation>
 <translation id="6845038076637626672">Megnyitás teljes méretben</translation>
-<translation id="6845325883481699275">Segítség a Brave biztonságának továbberősítésében</translation>
+<translation id="4991384657077828949">Segítség a Brave biztonságának továbberősítésében</translation>
 <translation id="6848388270925200958">Jelenleg van néhány olyan kártyája, amely csak ezen az eszközön használható</translation>
 <translation id="6850286078059909152">Szöveg színe</translation>
 <translation id="6851497530878285708">Alkalmazás engedélyezve</translation>
@@ -4550,7 +4550,7 @@ Győződjön meg arról, hogy nem ad ki bizalmas adatokat.</translation>
 <translation id="756445078718366910">Böngészőablak megnyitása</translation>
 <translation id="7564847347806291057">Folyamat leállítása</translation>
 <translation id="7566118625369982896">Play-alkalmazáslinkek kezelése</translation>
-<translation id="756809126120519699">Brave-adatok törölve</translation>
+<translation id="7814200940910057384">Brave-adatok törölve</translation>
 <translation id="7568790562536448087"> frissítése</translation>
 <translation id="7569983096843329377">Fekete</translation>
 <translation id="7571643774869182231">A frissítés telepítéséhez nincs elegendő tárhely</translation>
@@ -4670,7 +4670,7 @@ Győződjön meg arról, hogy nem ad ki bizalmas adatokat.</translation>
 <translation id="7737456446569756884">Ez az eszköz a következő dátumig kapja meg automatikusan a szoftver- és biztonsági frissítéseket: <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Szokásos</translation>
 <translation id="7744047395460924128">Nyomtatási előzmények megtekintése</translation>
-<translation id="7746457520633464754">A veszélyes alkalmazások és webhelyek észlelésének érdekében a Brave az egyes felkeresett oldalak URL-jét, valamint korlátozott rendszer-információkat és bizonyos oldaltartalmakat továbbít a Google-nak.</translation>
+<translation id="3712897541513849705">A veszélyes alkalmazások és webhelyek észlelésének érdekében a Brave az egyes felkeresett oldalak URL-jét, valamint korlátozott rendszer-információkat és bizonyos oldaltartalmakat továbbít a Google-nak.</translation>
 <translation id="7750228210027921155">Kép a képben</translation>
 <translation id="7751260505918304024">Összes megjelenítése</translation>
 <translation id="7754704193130578113">A letöltés előtt kérdezze meg, hová mentse az adott fájlokat</translation>

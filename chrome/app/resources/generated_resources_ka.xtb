@@ -1527,7 +1527,7 @@
 
     აღწერილობა:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave-ის პროგრამები</translation>
+<translation id="300669147395456190">Brave-ის პროგრამები</translation>
 <translation id="3150927491400159470">მყარი ხელახლა ჩატვირთვა</translation>
 <translation id="315116470104423982">მობილური მონაცემები</translation>
 <translation id="3151539355209957474">დაწყების დრო</translation>
@@ -1611,7 +1611,7 @@
 <translation id="3280243678470289153">Brave-ში დარჩენა</translation>
 <translation id="3281892622610078515">კარანტინში მოსათავსებელი ფაილები და პროგრამები:</translation>
 <translation id="3282210178675490297">მიმდინარეობს ჩანართის გაზიარება <ph name="APP_NAME" />-თან</translation>
-<translation id="3282568296779691940">შესვლა Brave-ში</translation>
+<translation id="82609232232243542">შესვლა Brave-ში</translation>
 <translation id="3285322247471302225">ახალი ჩ&amp;ანართი</translation>
 <translation id="328571385944182268">გსურთ თქვენი პაროლების შენახვა?</translation>
 <translation id="3288047731229977326">დეველოპერის რეჟიმში გაშვებულმა გაფართოებებმა შეიძლება დააზიანოს თქვენი კომპიუტერი. თუ თქვენ არ ხართ დეველოპერი, უსაფრთხოების შენარჩუნებისათვის თქვენ უნდა გამორთოთ დეველოპერულ რეჟიმში გაშვებული გაფართოებები.</translation>
@@ -2442,7 +2442,7 @@
 <translation id="4469477701382819144">დაბლოკვა იმ საიტებზე, რომლებიც აჩვენებს მომაბეზრებელ ან შეცდომაში შემყვა რეკლამას</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" />-ს შეუძლია „<ph name="FOLDERNAME" />“-ში ფაილების რედაქტირება</translation>
 <translation id="4470957202018033307">გარე მეხსიერების პარამეტრები</translation>
-<translation id="447252321002412580">შეუწყვეთ ხელი Brave-ის ფუნქციებისა და წარმადობის გაუმჯობესებას</translation>
+<translation id="918192811481327695">შეუწყვეთ ხელი Brave-ის ფუნქციებისა და წარმადობის გაუმჯობესებას</translation>
 <translation id="4474155171896946103">ყველა ჩანართის სანიშნეებში დამატება…</translation>
 <translation id="4474461121892222090">მობილური ინტერნეტის გააქტიურებას შეიძლება დასჭირდეს 15 წუთამდე დრო.</translation>
 <translation id="4475552974751346499">ჩამოტვირთვების ძიება</translation>
@@ -4057,7 +4057,7 @@
 <translation id="6841186874966388268">შეცდომები</translation>
 <translation id="6843423766595476978">Ok Google მზად არის</translation>
 <translation id="6845038076637626672">გახსენით მაქსიმალური</translation>
-<translation id="6845325883481699275">Brave-ის უსაფრთხოების გაუმჯობესების ხელშეწყობა</translation>
+<translation id="4991384657077828949">Brave-ის უსაფრთხოების გაუმჯობესების ხელშეწყობა</translation>
 <translation id="6848388270925200958">ამჟამად თქვენ გაქვთ რამდენიმე ბარათი, რომელთა გამოყენებაც შეგიძლიათ მხოლოდ ამ მოწყობილობაზე</translation>
 <translation id="6850286078059909152">ტექსტის ფერი</translation>
 <translation id="6851497530878285708">აპი ჩართულია</translation>
@@ -4548,7 +4548,7 @@
 <translation id="756445078718366910">გახსენით ბრაუზერის ფანჯარა</translation>
 <translation id="7564847347806291057">პროცესის დასასრული</translation>
 <translation id="7566118625369982896">Google Play აპების ბმულების მართვა</translation>
-<translation id="756809126120519699">Brave მონაცემები გასუფთავდა</translation>
+<translation id="7814200940910057384">Brave მონაცემები გასუფთავდა</translation>
 <translation id="7568790562536448087">განახლება</translation>
 <translation id="7569983096843329377">შავი</translation>
 <translation id="7571643774869182231">განახლებისთვის მეხსიერება არასაკმარისია</translation>
@@ -4668,7 +4668,7 @@
 <translation id="7737456446569756884">პროგრამული უზრუნველყოფისა და უსაფრთხოების განახლებებს ეს მოწყობილობა მიიღებს <ph name="MONTH_AND_YEAR" />-მდე.</translation>
 <translation id="7740996059027112821">სტანდარტული</translation>
 <translation id="7744047395460924128">თქვენი ბეჭდვის ისტორიის ნახვა</translation>
-<translation id="7746457520633464754">სახიფათო აპებისა და საიტების აღმოსაჩენად Brave უგზავნის Google-ს თქვენ მიერ მონახულებული ზოგიერთი გვერდის URL-ებს, სისტემის შეზღუდულ ინფორმაციასა და გვერდების გარკვეულ კონტენტს</translation>
+<translation id="3712897541513849705">სახიფათო აპებისა და საიტების აღმოსაჩენად Brave უგზავნის Google-ს თქვენ მიერ მონახულებული ზოგიერთი გვერდის URL-ებს, სისტემის შეზღუდულ ინფორმაციასა და გვერდების გარკვეულ კონტენტს</translation>
 <translation id="7750228210027921155">გამოსახულება გამოსახულებაში</translation>
 <translation id="7751260505918304024">ყველას ჩვენება</translation>
 <translation id="7754704193130578113">მკითხე, სად შეინახოს თითოეული ფაილი ჩამოტვირთვამდე</translation>

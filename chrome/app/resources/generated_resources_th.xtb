@@ -1528,7 +1528,7 @@
 
     คำอธิบาย:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">แอป Brave</translation>
+<translation id="300669147395456190">แอป Brave</translation>
 <translation id="3150927491400159470">โหลดซ้ำแบบดึงข้อมูลใหม่ทั้งหมด</translation>
 <translation id="315116470104423982">เน็ตมือถือ</translation>
 <translation id="3151539355209957474">เวลาเริ่มต้น</translation>
@@ -1612,7 +1612,7 @@
 <translation id="3280243678470289153">อยู่ภายใน Brave</translation>
 <translation id="3281892622610078515">ไฟล์และโปรแกรมที่จะกักบริเวณ</translation>
 <translation id="3282210178675490297">กำลังแชร์แท็บกับ <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">ลงชื่อเข้าใช้ Brave</translation>
+<translation id="82609232232243542">ลงชื่อเข้าใช้ Brave</translation>
 <translation id="3285322247471302225">แ&amp;ท็บใหม่</translation>
 <translation id="328571385944182268">บันทึกรหัสผ่านไหม</translation>
 <translation id="3288047731229977326">ส่วนขยายที่ทำงานอยู่ในโหมดนักพัฒนาซอฟต์แวร์อาจเป็นอันตรายต่อคอมพิวเตอร์ของคุณ หากคุณไม่ใช่นักพัฒนาซอฟต์แวร์ คุณควรปิดส่วนขยายที่ทำงานอยู่ในโหมดนักพัฒนาซอฟต์แวร์เพื่อรักษาความปลอดภัย</translation>
@@ -2443,7 +2443,7 @@
 <translation id="4469477701382819144">บล็อกในเว็บไซต์ที่แสดงโฆษณาที่แทรกหรือทำให้เข้าใจผิด</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> แก้ไขไฟล์ใน <ph name="FOLDERNAME" /> ได้</translation>
 <translation id="4470957202018033307">ค่ากำหนดพื้นที่เก็บข้อมูลภายนอก</translation>
-<translation id="447252321002412580">ช่วยปรับปรุงฟีเจอร์และประสิทธิภาพของ Brave</translation>
+<translation id="918192811481327695">ช่วยปรับปรุงฟีเจอร์และประสิทธิภาพของ Brave</translation>
 <translation id="4474155171896946103">บุ๊กมาร์กแท็บทั้งหมด...</translation>
 <translation id="4474461121892222090">การเปิดใช้งานอินเทอร์เน็ตมือถือให้เสร็จสมบูรณ์อาจใช้เวลาสูงสุด 15 นาที</translation>
 <translation id="4475552974751346499">ค้นสิ่งที่ดาวน์โหลดไว้</translation>
@@ -4058,7 +4058,7 @@
 <translation id="6841186874966388268">ข้อผิดพลาด</translation>
 <translation id="6843423766595476978">Ok Google พร้อมใช้งานแล้ว</translation>
 <translation id="6845038076637626672">เปิดแบบเต็มหน้าจอ</translation>
-<translation id="6845325883481699275">ช่วยปรับปรุงความปลอดภัยของ Brave</translation>
+<translation id="4991384657077828949">ช่วยปรับปรุงความปลอดภัยของ Brave</translation>
 <translation id="6848388270925200958">ขณะนี้คุณมีบัตรบางใบที่ใช้ได้ในอุปกรณ์นี้เท่านั้น</translation>
 <translation id="6850286078059909152">สีข้อความ</translation>
 <translation id="6851497530878285708">เปิดใช้แอปแล้ว</translation>
@@ -4549,7 +4549,7 @@
 <translation id="756445078718366910">เปิดหน้าต่างเบราว์เซอร์</translation>
 <translation id="7564847347806291057">สิ้นสุดกระบวนการ</translation>
 <translation id="7566118625369982896">จัดการลิงก์ของแอป Play</translation>
-<translation id="756809126120519699">ล้างข้อมูล Brave แล้ว</translation>
+<translation id="7814200940910057384">ล้างข้อมูล Brave แล้ว</translation>
 <translation id="7568790562536448087">การอัปเดต</translation>
 <translation id="7569983096843329377">สีดำ</translation>
 <translation id="7571643774869182231">มีพื้นที่เก็บข้อมูลไม่เพียงพอสำหรับอัปเดต</translation>
@@ -4669,7 +4669,7 @@
 <translation id="7737456446569756884">อุปกรณ์นี้จะได้รับการอัปเดตซอฟต์แวร์และการรักษาความปลอดภัยอัตโนมัติจนถึง<ph name="MONTH_AND_YEAR" /></translation>
 <translation id="7740996059027112821">มาตรฐาน</translation>
 <translation id="7744047395460924128">ดูประวัติการพิมพ์</translation>
-<translation id="7746457520633464754">ในการตรวจหาแอปและเว็บไซต์ที่เป็นอันตราย Brave จะส่ง URL ของหน้าบางหน้าที่คุณเข้าชม ข้อมูลระบบที่จำกัด และเนื้อหาบางส่วนของหน้าไปให้ Google</translation>
+<translation id="3712897541513849705">ในการตรวจหาแอปและเว็บไซต์ที่เป็นอันตราย Brave จะส่ง URL ของหน้าบางหน้าที่คุณเข้าชม ข้อมูลระบบที่จำกัด และเนื้อหาบางส่วนของหน้าไปให้ Google</translation>
 <translation id="7750228210027921155">การแสดงภาพซ้อนภาพ</translation>
 <translation id="7751260505918304024">แสดงทั้งหมด</translation>
 <translation id="7754704193130578113">สอบถามที่เก็บไฟล์ก่อนดาวน์โหลด</translation>

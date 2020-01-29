@@ -1528,7 +1528,7 @@ Jei nenorite, dabar atsijunkite, kad šios paskyros pakeitimai būtų matomi ši
 
     Aprašas:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">„Brave“ programos</translation>
+<translation id="300669147395456190">„Brave“ programos</translation>
 <translation id="3150927491400159470">Priverstinis įkėlimas iš naujo</translation>
 <translation id="315116470104423982">Duomenys mobiliesiems</translation>
 <translation id="3151539355209957474">Pradžios laikas</translation>
@@ -1612,7 +1612,7 @@ Jei nenorite, dabar atsijunkite, kad šios paskyros pakeitimai būtų matomi ši
 <translation id="3280243678470289153">Toliau naršyti „Brave“</translation>
 <translation id="3281892622610078515">Failas ir programos, kurie bus izoliuoti:</translation>
 <translation id="3282210178675490297">Bendrinamas skirtukas su „<ph name="APP_NAME" />“</translation>
-<translation id="3282568296779691940">Prisijungti prie „Brave“</translation>
+<translation id="82609232232243542">Prisijungti prie „Brave“</translation>
 <translation id="3285322247471302225">Naujas &amp;skirtukas</translation>
 <translation id="328571385944182268">Išsaugoti slaptažodžius?</translation>
 <translation id="3288047731229977326">Kūrėjo režimu veikiantys plėtiniai gali padaryti žalos kompiuteryje. Jei nesate kūrėjai, turėtumėte išjungti šių plėtinių veikimą kūrėjo režimu, kad išliktumėte saugūs.</translation>
@@ -2443,7 +2443,7 @@ Ar norite paleisti „<ph name="CONTROL_PANEL_APPLET_NAME" />“?</translation>
 <translation id="4469477701382819144">Blokuojama svetainėse, kuriose rodomi nepageidaujami arba klaidinantys skelbimai</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> gali redaguoti aplanko „<ph name="FOLDERNAME" />“ failus</translation>
 <translation id="4470957202018033307">Išorinės saugyklos nuostatos</translation>
-<translation id="447252321002412580">Padėti tobulinti „Brave“ funkcijas ir našumą</translation>
+<translation id="918192811481327695">Padėti tobulinti „Brave“ funkcijas ir našumą</translation>
 <translation id="4474155171896946103">Pažymėti visus skirtukus...</translation>
 <translation id="4474461121892222090">Mobiliojo ryšio duomenų aktyvinimas gali užtrukti iki 15 min.</translation>
 <translation id="4475552974751346499">Ieškoti tarp atsisiustų elementų</translation>
@@ -4059,7 +4059,7 @@ Ar norite paleisti „<ph name="CONTROL_PANEL_APPLET_NAME" />“?</translation>
 <translation id="6841186874966388268">Klaidos</translation>
 <translation id="6843423766595476978">„Ok Google“ visiškai nustatyta</translation>
 <translation id="6845038076637626672">Atidaryti padidintą</translation>
-<translation id="6845325883481699275">Padėkite tobulinti „Brave“ saugą</translation>
+<translation id="4991384657077828949">Padėkite tobulinti „Brave“ saugą</translation>
 <translation id="6848388270925200958">Šiuo metu turite kelias korteles, kurias galima naudoti tik šiuo įrenginiu</translation>
 <translation id="6850286078059909152">Teksto spalva</translation>
 <translation id="6851497530878285708">Programa įgalinta</translation>
@@ -4550,7 +4550,7 @@ Ar norite paleisti „<ph name="CONTROL_PANEL_APPLET_NAME" />“?</translation>
 <translation id="756445078718366910">Atidaryti naršyklės langą</translation>
 <translation id="7564847347806291057">Baigti procesą</translation>
 <translation id="7566118625369982896">„Play“ programų nuorodų tvarkymas</translation>
-<translation id="756809126120519699">Išvalyti „Brave“ duomenys</translation>
+<translation id="7814200940910057384">Išvalyti „Brave“ duomenys</translation>
 <translation id="7568790562536448087">Atnaujinama</translation>
 <translation id="7569983096843329377">Juoda</translation>
 <translation id="7571643774869182231">Saugykloje nepakanka vietos, kad būtų galima atnaujinti</translation>
@@ -4670,7 +4670,7 @@ Ar norite paleisti „<ph name="CONTROL_PANEL_APPLET_NAME" />“?</translation>
 <translation id="7737456446569756884">Šiam įrenginiui bus teikiami automatiniai programinės įrangos ir saugos naujiniai iki <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Standartinis</translation>
 <translation id="7744047395460924128">Žr. spausdinimo istoriją</translation>
-<translation id="7746457520633464754">Tam, kad būtų aptiktos pavojingos programos ir svetainės, „Brave“ siunčia „Google“ kai kurių puslapių, kuriuose lankotės, URL, ribotą sistemos informaciją ir kai kurių puslapių turinį</translation>
+<translation id="3712897541513849705">Tam, kad būtų aptiktos pavojingos programos ir svetainės, „Brave“ siunčia „Google“ kai kurių puslapių, kuriuose lankotės, URL, ribotą sistemos informaciją ir kai kurių puslapių turinį</translation>
 <translation id="7750228210027921155">Vaizdas vaizde</translation>
 <translation id="7751260505918304024">Rodyti visas</translation>
 <translation id="7754704193130578113">Prieš atsiunčiant failą klausti, kur jį išsaugoti</translation>

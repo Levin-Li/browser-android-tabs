@@ -1526,7 +1526,7 @@
 
     說明：
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave 應用程式</translation>
+<translation id="300669147395456190">Brave 應用程式</translation>
 <translation id="3150927491400159470">強制重新載入</translation>
 <translation id="315116470104423982">流動數據</translation>
 <translation id="3151539355209957474">開始時間</translation>
@@ -1610,7 +1610,7 @@
 <translation id="3280243678470289153">繼續使用 Brave</translation>
 <translation id="3281892622610078515">要隔離的檔案和程式：</translation>
 <translation id="3282210178675490297">正在與 <ph name="APP_NAME" /> 共用此標籤</translation>
-<translation id="3282568296779691940">登入 Brave</translation>
+<translation id="82609232232243542">登入 Brave</translation>
 <translation id="3285322247471302225">新分頁(&amp;T)</translation>
 <translation id="328571385944182268">要儲存密碼嗎？</translation>
 <translation id="3288047731229977326">在開發人員模式中執行擴充功能可能會損害您的電腦。如果您不是開發人員，最好在開發人員模式中停用這些擴充功能，以策安全。</translation>
@@ -2441,7 +2441,7 @@
 <translation id="4469477701382819144">封鎖顯示滋擾性或誤導廣告網站上的廣告</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> 可編輯「<ph name="FOLDERNAME" />」中的檔案</translation>
 <translation id="4470957202018033307">外部儲存空間偏好設定</translation>
-<translation id="447252321002412580">協助改善 Brave 的功能和效能</translation>
+<translation id="918192811481327695">協助改善 Brave 的功能和效能</translation>
 <translation id="4474155171896946103">將所有分頁加入書籤…</translation>
 <translation id="4474461121892222090">系統可能需時 15 分鐘才能完成流動數據啟用程序。</translation>
 <translation id="4475552974751346499">搜尋下載內容</translation>
@@ -4056,7 +4056,7 @@
 <translation id="6841186874966388268">錯誤</translation>
 <translation id="6843423766595476978">「Ok Google」已設定完成</translation>
 <translation id="6845038076637626672">最大化開啟</translation>
-<translation id="6845325883481699275">協助提高 Brave 安全性</translation>
+<translation id="4991384657077828949">協助提高 Brave 安全性</translation>
 <translation id="6848388270925200958">目前您有部分付款卡只可在此裝置上使用</translation>
 <translation id="6850286078059909152">文字顏色</translation>
 <translation id="6851497530878285708">已啟用應用程式</translation>
@@ -4547,7 +4547,7 @@
 <translation id="756445078718366910">開啟瀏覽器視窗</translation>
 <translation id="7564847347806291057">結束處理程序</translation>
 <translation id="7566118625369982896">管理 Play 應用程式連結</translation>
-<translation id="756809126120519699">已清除 Brave 資料</translation>
+<translation id="7814200940910057384">已清除 Brave 資料</translation>
 <translation id="7568790562536448087">正在更新</translation>
 <translation id="7569983096843329377">黑色</translation>
 <translation id="7571643774869182231">儲存空間不足，因此無法更新</translation>
@@ -4667,7 +4667,7 @@
 <translation id="7737456446569756884">此裝置會在 <ph name="MONTH_AND_YEAR" />前自動進行軟件和安全性更新。</translation>
 <translation id="7740996059027112821">標準</translation>
 <translation id="7744047395460924128">查看您的列印記錄</translation>
-<translation id="7746457520633464754">為了偵測危險的應用程式和網站，Brave 會將您瀏覽的部分網頁網址、有限的系統資料以及部分網頁內容傳送給 Google</translation>
+<translation id="3712897541513849705">為了偵測危險的應用程式和網站，Brave 會將您瀏覽的部分網頁網址、有限的系統資料以及部分網頁內容傳送給 Google</translation>
 <translation id="7750228210027921155">畫中畫</translation>
 <translation id="7751260505918304024">全部顯示</translation>
 <translation id="7754704193130578113">下載每個檔案前先詢問儲存位置</translation>

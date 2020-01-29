@@ -1528,7 +1528,7 @@
 
     Апісанне:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Праграмы Brave</translation>
+<translation id="300669147395456190">Праграмы Brave</translation>
 <translation id="3150927491400159470">Халодная перазагрузка</translation>
 <translation id="315116470104423982">Мабільная перадача даных</translation>
 <translation id="3151539355209957474">Час пачатку</translation>
@@ -1612,7 +1612,7 @@
 <translation id="3280243678470289153">Застацца ў браўзеры Brave</translation>
 <translation id="3281892622610078515">Файлы і праграмы для адпраўкі ў каранцін:</translation>
 <translation id="3282210178675490297">Укладка абагульваецца з <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Увайсці ў Brave</translation>
+<translation id="82609232232243542">Увайсці ў Brave</translation>
 <translation id="3285322247471302225">Новая &amp;ўкладка</translation>
 <translation id="328571385944182268">Захоўваць паролі?</translation>
 <translation id="3288047731229977326">Пашырэнні, якія працуюць у рэжыме распрацоўшчыка, могуць пашкодзіць камп'ютар. Калі вы не распрацоўшчык, вам у мэтах бяспекі трэба забараніць гэтым пашырэнням працаваць у рэжыме распрацоўшчыка.</translation>
@@ -2443,7 +2443,7 @@
 <translation id="4469477701382819144">Рэкламныя аб'явы блакіруюцца на сайтах, якія паказваюць назойлівую і падманлівую рэкламу</translation>
 <translation id="4469762931504673593">Сайт <ph name="ORIGIN" /> можа змяняць файлы ў папцы <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Параметры знешняга сховішча</translation>
-<translation id="447252321002412580">Дапамажыце палепшыць функцыі і прадукцыйнасць Brave</translation>
+<translation id="918192811481327695">Дапамажыце палепшыць функцыі і прадукцыйнасць Brave</translation>
 <translation id="4474155171896946103">Дадаць у закладкі ўсе ўкладкі...</translation>
 <translation id="4474461121892222090">Актывацыя мабільнай перадачы даных можа заняць да 15 хвілін.</translation>
 <translation id="4475552974751346499">Пошук спамповак</translation>
@@ -4058,7 +4058,7 @@
 <translation id="6841186874966388268">Памылкі</translation>
 <translation id="6843423766595476978">"Ok Google" наладжаны</translation>
 <translation id="6845038076637626672">Адкрыць у разгорнутым выглядзе</translation>
-<translation id="6845325883481699275">Дапамагаць павысіць бяспеку Brave</translation>
+<translation id="4991384657077828949">Дапамагаць павысіць бяспеку Brave</translation>
 <translation id="6848388270925200958">Зараз у вас ёсць карткі, якія могуць выкарыстоўвацца толькі на гэтай прыладзе</translation>
 <translation id="6850286078059909152">Колер тэксту</translation>
 <translation id="6851497530878285708">Праграма ўключана</translation>
@@ -4549,7 +4549,7 @@
 <translation id="756445078718366910">Адкрыць акно браўзера</translation>
 <translation id="7564847347806291057">Завяршыць працэс</translation>
 <translation id="7566118625369982896">Кіраванне спасылкамі праграмы Play</translation>
-<translation id="756809126120519699">Даныя Brave выдалены</translation>
+<translation id="7814200940910057384">Даныя Brave выдалены</translation>
 <translation id="7568790562536448087">Ідзе абнаўленне</translation>
 <translation id="7569983096843329377">Чорны</translation>
 <translation id="7571643774869182231">Недастаткова памяці для абнаўлення</translation>
@@ -4669,7 +4669,7 @@
 <translation id="7737456446569756884">Гэта прылада будзе ўсталёўваць аўтаматычныя абнаўленні праграмнага забеспячэння і сістэмы бяспекі да <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Стандартны</translation>
 <translation id="7744047395460924128">Праглядзець вашу гісторыю друку</translation>
-<translation id="7746457520633464754">Каб выявіць небяспечныя праграмы і сайты, Brave адпраўляе URL-адрасы некаторых наведаных вамі старонак, пэўную сістэмную інфармацыю і змесціва старонак у Google</translation>
+<translation id="3712897541513849705">Каб выявіць небяспечныя праграмы і сайты, Brave адпраўляе URL-адрасы некаторых наведаных вамі старонак, пэўную сістэмную інфармацыю і змесціва старонак у Google</translation>
 <translation id="7750228210027921155">Відарыс у відарысе</translation>
 <translation id="7751260505918304024">Паказаць усе</translation>
 <translation id="7754704193130578113">Прапаноўваць перад спампоўваннем выбраць месца для захавання файла</translation>

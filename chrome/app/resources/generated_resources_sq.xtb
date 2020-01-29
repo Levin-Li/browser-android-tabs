@@ -1525,7 +1525,7 @@ Cilësimet e kësaj llogarie mund t'i menaxhosh duke instaluar aplikacionin Fami
 
     Përshkrimi:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Aplikacionet e Brave</translation>
+<translation id="300669147395456190">Aplikacionet e Brave</translation>
 <translation id="3150927491400159470">Ringarkim i detyruar</translation>
 <translation id="315116470104423982">Të dhëna celulare</translation>
 <translation id="3151539355209957474">Koha e nisjes</translation>
@@ -1609,7 +1609,7 @@ Cilësimet e kësaj llogarie mund t'i menaxhosh duke instaluar aplikacionin Fami
 <translation id="3280243678470289153">Qëndro në Brave</translation>
 <translation id="3281892622610078515">Skedarët dhe programet për t'u vendosur në karantinë:</translation>
 <translation id="3282210178675490297">Po ndan një skedë në <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Identifikohu në Brave</translation>
+<translation id="82609232232243542">Identifikohu në Brave</translation>
 <translation id="3285322247471302225">&amp;Skedë e re</translation>
 <translation id="328571385944182268">Ruaj fjalëkalimet e tua</translation>
 <translation id="3288047731229977326">Shtesat që ekzekutohen në modalitetin e zhvilluesit mund ta dëmtojnë kompjuterin tënd. Nëse nuk je zhvillues, duhet t'i çaktivizosh këto shtesa që ekzekutohen në modalitetin "si zhvillues" për të qenë i sigurt.</translation>
@@ -2440,7 +2440,7 @@ Cilësimet e kësaj llogarie mund t'i menaxhosh duke instaluar aplikacionin Fami
 <translation id="4469477701382819144">Bllokuar në sajtet që shfaqin reklama ndërhyrëse ose mashtruese</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> mund t'i modifikojë skedarët në <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Preferencat e hapësirës së jashtme ruajtëse</translation>
-<translation id="447252321002412580">Ndihmo në përmirësimin e funksioneve dhe cilësisë së funksionimit të Brave</translation>
+<translation id="918192811481327695">Ndihmo në përmirësimin e funksioneve dhe cilësisë së funksionimit të Brave</translation>
 <translation id="4474155171896946103">Regjistroji të gjithë skedat në faqeshënues...</translation>
 <translation id="4474461121892222090">Mund të duhen deri në 15 minuta që të përfundojë aktivizimi i të dhënave celulare.</translation>
 <translation id="4475552974751346499">Kërko për shkarkimet</translation>
@@ -4055,7 +4055,7 @@ Cilësimet e kësaj llogarie mund t'i menaxhosh duke instaluar aplikacionin Fami
 <translation id="6841186874966388268">Gabimet</translation>
 <translation id="6843423766595476978">"Ok Google" është plotësisht gati</translation>
 <translation id="6845038076637626672">Hape të zmadhuar</translation>
-<translation id="6845325883481699275">Ndihmo në përmirësimin e sigurisë së Brave</translation>
+<translation id="4991384657077828949">Ndihmo në përmirësimin e sigurisë së Brave</translation>
 <translation id="6848388270925200958">Në këtë moment, ke disa karta që mund të përdoren vetëm në këtë pajisje</translation>
 <translation id="6850286078059909152">Ngjyra e tekstit</translation>
 <translation id="6851497530878285708">Aplikacioni u aktivizua</translation>
@@ -4546,7 +4546,7 @@ Cilësimet e kësaj llogarie mund t'i menaxhosh duke instaluar aplikacionin Fami
 <translation id="756445078718366910">Hap dritaren e shfletuesit</translation>
 <translation id="7564847347806291057">Përfundo procesin</translation>
 <translation id="7566118625369982896">Menaxho lidhjet për aplikacionet në Play</translation>
-<translation id="756809126120519699">Të dhënat e Brave u pastruan</translation>
+<translation id="7814200940910057384">Të dhënat e Brave u pastruan</translation>
 <translation id="7568790562536448087">Po përditësohet</translation>
 <translation id="7569983096843329377">E zezë</translation>
 <translation id="7571643774869182231">Nuk ka hapësirë ruajtëse të mjaftueshme për përditësimin</translation>
@@ -4666,7 +4666,7 @@ Cilësimet e kësaj llogarie mund t'i menaxhosh duke instaluar aplikacionin Fami
 <translation id="7737456446569756884">Kjo pajisje do të marrë përditësime automatike të softuerëve dhe të sigurisë deri në <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Standard</translation>
 <translation id="7744047395460924128">Shiko historikun tënd të printimit</translation>
-<translation id="7746457520633464754">Për të zbuluar aplikacionet dhe sajtet e rrezikshme, Brave dërgon URL-të e disa faqeve që viziton, informacione të kufizuara të sistemit dhe disa përmbajtje faqesh te Google</translation>
+<translation id="3712897541513849705">Për të zbuluar aplikacionet dhe sajtet e rrezikshme, Brave dërgon URL-të e disa faqeve që viziton, informacione të kufizuara të sistemit dhe disa përmbajtje faqesh te Google</translation>
 <translation id="7750228210027921155">Figurë brenda figurës</translation>
 <translation id="7751260505918304024">Shfaq të gjitha</translation>
 <translation id="7754704193130578113">Pyet se ku do ta ruash çdo skedar para shkarkimit</translation>

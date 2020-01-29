@@ -1528,7 +1528,7 @@ Du kan administrere indstillingerne for denne konto ved at installere Family Lin
 
     Beskrivelse:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave-apps</translation>
+<translation id="300669147395456190">Brave-apps</translation>
 <translation id="3150927491400159470">Genindlæs fuldstændig</translation>
 <translation id="315116470104423982">Mobildata</translation>
 <translation id="3151539355209957474">Starttidspunkt</translation>
@@ -1612,7 +1612,7 @@ Du kan administrere indstillingerne for denne konto ved at installere Family Lin
 <translation id="3280243678470289153">Bliv i Brave</translation>
 <translation id="3281892622610078515">Filer og programmer, der skal i karantæne:</translation>
 <translation id="3282210178675490297">Deler en fane med <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Log ind i Brave</translation>
+<translation id="82609232232243542">Log ind i Brave</translation>
 <translation id="3285322247471302225">Ny &amp;fane</translation>
 <translation id="328571385944182268">Vil du gemme dine adgangskoder?</translation>
 <translation id="3288047731229977326">Udvidelser, der kører i udviklertilstand, kan skade din computer. Hvis du ikke er udvikler, skal du deaktivere udvidelserne, der kører i udviklertilstand, af hensyn til sikkerheden.</translation>
@@ -2443,7 +2443,7 @@ Vil du starte <ph name="CONTROL_PANEL_APPLET_NAME" />?</translation>
 <translation id="4469477701382819144">Blokeret på websites, der viser påtrængende eller vildledende annoncer</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> kan redigere filer i <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Præferencer for ekstern lagerplads</translation>
-<translation id="447252321002412580">Vær med til at forbedre Braves funktioner og ydeevne</translation>
+<translation id="918192811481327695">Vær med til at forbedre Braves funktioner og ydeevne</translation>
 <translation id="4474155171896946103">Tilføj alle faner som bogmærker...</translation>
 <translation id="4474461121892222090">Det kan tage op til 15 minutter, før mobildata er aktiveret.</translation>
 <translation id="4475552974751346499">Søg i downloads</translation>
@@ -4059,7 +4059,7 @@ slettes permanent, når den administrerede bruger fjernes. Besøgte websites og 
 <translation id="6841186874966388268">Fejl</translation>
 <translation id="6843423766595476978">Ok Google er konfigureret</translation>
 <translation id="6845038076637626672">Åbn maksimeret</translation>
-<translation id="6845325883481699275">Hjælp med at forbedre sikkerheden i Brave</translation>
+<translation id="4991384657077828949">Hjælp med at forbedre sikkerheden i Brave</translation>
 <translation id="6848388270925200958">Lige nu har du kort, som kun kan bruges på denne enhed.</translation>
 <translation id="6850286078059909152">Tekstfarve</translation>
 <translation id="6851497530878285708">Appen er aktiveret</translation>
@@ -4550,7 +4550,7 @@ slettes permanent, når den administrerede bruger fjernes. Besøgte websites og 
 <translation id="756445078718366910">Åbn browservindue</translation>
 <translation id="7564847347806291057">Afslut proces</translation>
 <translation id="7566118625369982896">Administrer applinks til Play</translation>
-<translation id="756809126120519699">Brave-dataene blev ryddet</translation>
+<translation id="7814200940910057384">Brave-dataene blev ryddet</translation>
 <translation id="7568790562536448087">Opdatering</translation>
 <translation id="7569983096843329377">Sort</translation>
 <translation id="7571643774869182231">Der er ikke nok lagerplads til opdateringen</translation>
@@ -4670,7 +4670,7 @@ slettes permanent, når den administrerede bruger fjernes. Besøgte websites og 
 <translation id="7737456446569756884">Denne enhed får automatiske software- og sikkerhedsopdateringer indtil <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Standard</translation>
 <translation id="7744047395460924128">Se din udskrivningshistorik</translation>
-<translation id="7746457520633464754">Brave sender webadresser på nogle sider, du besøger, begrænsede systemoplysninger og noget sideindhold til Google med henblik på at registrere farlige apps og websites.</translation>
+<translation id="3712897541513849705">Brave sender webadresser på nogle sider, du besøger, begrænsede systemoplysninger og noget sideindhold til Google med henblik på at registrere farlige apps og websites.</translation>
 <translation id="7750228210027921155">Integreret billede</translation>
 <translation id="7751260505918304024">Vis alle</translation>
 <translation id="7754704193130578113">Spørg, hvor hver enkelt fil skal gemmes, inden download begynder</translation>

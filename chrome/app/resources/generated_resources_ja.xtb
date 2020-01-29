@@ -1528,7 +1528,7 @@
 
     説明:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave アプリ</translation>
+<translation id="300669147395456190">Brave アプリ</translation>
 <translation id="3150927491400159470">ハード再読み込み</translation>
 <translation id="315116470104423982">モバイル データ</translation>
 <translation id="3151539355209957474">開始時間</translation>
@@ -1612,7 +1612,7 @@
 <translation id="3280243678470289153">Brave に留まる</translation>
 <translation id="3281892622610078515">隔離対象のファイルとプログラム:</translation>
 <translation id="3282210178675490297">タブを <ph name="APP_NAME" /> と共有します</translation>
-<translation id="3282568296779691940">Brave にログイン</translation>
+<translation id="82609232232243542">Brave にログイン</translation>
 <translation id="3285322247471302225">新しいタブ(&amp;T)</translation>
 <translation id="328571385944182268">パスワードを保存しますか？</translation>
 <translation id="3288047731229977326">デベロッパー モードで実行される拡張機能はパソコンにダメージを与える恐れがあります。デベロッパーでない場合は、安全のため、デベロッパー モードで実行されているこれらの拡張機能を無効にしてください。</translation>
@@ -2443,7 +2443,7 @@
 <translation id="4469477701382819144">煩わしい広告や誤解を招く広告が表示されるサイトでブロック中</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> は「<ph name="FOLDERNAME" />」のファイルを編集できます</translation>
 <translation id="4470957202018033307">外部ストレージの設定</translation>
-<translation id="447252321002412580">Brave の機能と動作の改善に協力する</translation>
+<translation id="918192811481327695">Brave の機能と動作の改善に協力する</translation>
 <translation id="4474155171896946103">すべてのタブをブックマークに追加...</translation>
 <translation id="4474461121892222090">モバイルデータの有効化が完了するまでには最大 15 分かかります。</translation>
 <translation id="4475552974751346499">ダウンロード検索</translation>
@@ -4058,7 +4058,7 @@
 <translation id="6841186874966388268">エラー</translation>
 <translation id="6843423766595476978">OK Google の設定が完了しました</translation>
 <translation id="6845038076637626672">最大化して開く</translation>
-<translation id="6845325883481699275">Brave のセキュリティ改善に協力する</translation>
+<translation id="4991384657077828949">Brave のセキュリティ改善に協力する</translation>
 <translation id="6848388270925200958">現在、このデバイスでのみ使用できるカードがいくつかあります</translation>
 <translation id="6850286078059909152">テキストの色</translation>
 <translation id="6851497530878285708">アプリは有効です</translation>
@@ -4549,7 +4549,7 @@
 <translation id="756445078718366910">ブラウザ ウィンドウを開く</translation>
 <translation id="7564847347806291057">プロセスを終了</translation>
 <translation id="7566118625369982896">Play アプリのリンクを管理する</translation>
-<translation id="756809126120519699">Brave データの消去完了</translation>
+<translation id="7814200940910057384">Brave データの消去完了</translation>
 <translation id="7568790562536448087">更新中:</translation>
 <translation id="7569983096843329377">黒</translation>
 <translation id="7571643774869182231">更新に必要な空き容量がありません</translation>
@@ -4669,7 +4669,7 @@
 <translation id="7737456446569756884">このデバイスでは、<ph name="MONTH_AND_YEAR" />までソフトウェアとセキュリティが自動更新されます。</translation>
 <translation id="7740996059027112821">標準</translation>
 <translation id="7744047395460924128">印刷履歴の表示</translation>
-<translation id="7746457520633464754">危険なアプリやサイトを検出するために、アクセスした一部のページの URL と限定的なシステム情報、一部のページ コンテンツが Brave から Google に送信されます</translation>
+<translation id="3712897541513849705">危険なアプリやサイトを検出するために、アクセスした一部のページの URL と限定的なシステム情報、一部のページ コンテンツが Brave から Google に送信されます</translation>
 <translation id="7750228210027921155">ピクチャー イン ピクチャー</translation>
 <translation id="7751260505918304024">すべて表示</translation>
 <translation id="7754704193130578113">ダウンロード前に各ファイルの保存場所を確認する</translation>

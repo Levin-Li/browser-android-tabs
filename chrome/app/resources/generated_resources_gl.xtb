@@ -1527,7 +1527,7 @@ Instala a aplicación Family Link no teu dispositivo e poderás xestionar a conf
 
     Descrición:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Aplicacións de Brave</translation>
+<translation id="300669147395456190">Aplicacións de Brave</translation>
 <translation id="3150927491400159470">Volver cargar de maneira forzada</translation>
 <translation id="315116470104423982">Datos móbiles</translation>
 <translation id="3151539355209957474">Hora de inicio</translation>
@@ -1611,7 +1611,7 @@ Instala a aplicación Family Link no teu dispositivo e poderás xestionar a conf
 <translation id="3280243678470289153">Permanecer en Brave</translation>
 <translation id="3281892622610078515">Ficheiros e programas para poñer en corentena:</translation>
 <translation id="3282210178675490297">Compartindo unha pestana coa aplicación <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Iniciar sesión en Brave</translation>
+<translation id="82609232232243542">Iniciar sesión en Brave</translation>
 <translation id="3285322247471302225">Nova &amp;pestana</translation>
 <translation id="328571385944182268">Queres gardar os teus contrasinais?</translation>
 <translation id="3288047731229977326">As extensións que se executan no modo de programador poden danar o ordenador. Se non es programador, deberás desactivar estas extensións que se executan no modo de programador para permanecer seguro.</translation>
@@ -2442,7 +2442,7 @@ Instala a aplicación Family Link no teu dispositivo e poderás xestionar a conf
 <translation id="4469477701382819144">Bloqueados en sitios que mostran anuncios intrusivos ou enganosos</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> pode editar os ficheiros de <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Preferencias para o almacenamento externo</translation>
-<translation id="447252321002412580">Axudar a mellorar o rendemento e as funcións de Brave</translation>
+<translation id="918192811481327695">Axudar a mellorar o rendemento e as funcións de Brave</translation>
 <translation id="4474155171896946103">Engadir todas as pestanas a marcadores...</translation>
 <translation id="4474461121892222090">A activación dos datos móbiles pode tardar 15 minutos en completarse.</translation>
 <translation id="4475552974751346499">Buscar descargas</translation>
@@ -4057,7 +4057,7 @@ Instala a aplicación Family Link no teu dispositivo e poderás xestionar a conf
 <translation id="6841186874966388268">Erros</translation>
 <translation id="6843423766595476978">Ok Google está listo</translation>
 <translation id="6845038076637626672">Abrir a aplicación maximizada</translation>
-<translation id="6845325883481699275">Axudar a mellorar a seguranza de Brave</translation>
+<translation id="4991384657077828949">Axudar a mellorar a seguranza de Brave</translation>
 <translation id="6848388270925200958">Neste momento, tes algunhas tarxetas que só se poden utilizar neste dispositivo</translation>
 <translation id="6850286078059909152">Cor do texto</translation>
 <translation id="6851497530878285708">Aplicación activada</translation>
@@ -4548,7 +4548,7 @@ Instala a aplicación Family Link no teu dispositivo e poderás xestionar a conf
 <translation id="756445078718366910">Abrir ventá do navegador</translation>
 <translation id="7564847347806291057">Finalizar proceso</translation>
 <translation id="7566118625369982896">Xestionar ligazóns da aplicación Play</translation>
-<translation id="756809126120519699">Borráronse os datos de Brave</translation>
+<translation id="7814200940910057384">Borráronse os datos de Brave</translation>
 <translation id="7568790562536448087">Actualizando</translation>
 <translation id="7569983096843329377">Negro</translation>
 <translation id="7571643774869182231">Non hai almacenamento suficiente para realizar a actualización</translation>
@@ -4668,7 +4668,7 @@ Instala a aplicación Family Link no teu dispositivo e poderás xestionar a conf
 <translation id="7737456446569756884">Este dispositivo recibirá actualizacións de software e de seguranza automáticas ata <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Estándar</translation>
 <translation id="7744047395460924128">Ver o teu historial de impresión</translation>
-<translation id="7746457520633464754">Para detectar aplicacións e sitios perigosos, Brave envíalle a Google os URL dalgunhas das páxinas que visitas, parte da información do sistema e parte do contido das páxinas</translation>
+<translation id="3712897541513849705">Para detectar aplicacións e sitios perigosos, Brave envíalle a Google os URL dalgunhas das páxinas que visitas, parte da información do sistema e parte do contido das páxinas</translation>
 <translation id="7750228210027921155">Pantalla superposta</translation>
 <translation id="7751260505918304024">Mostrar todo</translation>
 <translation id="7754704193130578113">Preguntar onde gardar cada ficheiro antes de descargalo</translation>

@@ -1524,7 +1524,7 @@
 
     Опис:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave апликације</translation>
+<translation id="300669147395456190">Brave апликације</translation>
 <translation id="3150927491400159470">Поново учитај са сервера</translation>
 <translation id="315116470104423982">Мобилни подаци</translation>
 <translation id="3151539355209957474">Време почетка</translation>
@@ -1608,7 +1608,7 @@
 <translation id="3280243678470289153">Остани у Brave-у</translation>
 <translation id="3281892622610078515">Датотеке и програми који треба да се ставе у карантин:</translation>
 <translation id="3282210178675490297">Картица се дели са апликацијом <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Пријављивање у Brave</translation>
+<translation id="82609232232243542">Пријављивање у Brave</translation>
 <translation id="3285322247471302225">Нова &amp;картица</translation>
 <translation id="328571385944182268">Желите ли да сачувате лозинке?</translation>
 <translation id="3288047731229977326">Додаци покренути у режиму програмера могу да нашкоде рачунару. Ако нисте програмер, требало би да онемогућите ове додатке покренуте у режиму програмера да бисте се заштитили.</translation>
@@ -2439,7 +2439,7 @@
 <translation id="4469477701382819144">Блокирано на сајтовима који приказују огласе који ометају активности или обмањујуће огласе</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> може да мења датотеке у директоријуму <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Подешавања спољне меморије</translation>
-<translation id="447252321002412580">Помозите нам да побољшамо Brave-ове функције и учинак</translation>
+<translation id="918192811481327695">Помозите нам да побољшамо Brave-ове функције и учинак</translation>
 <translation id="4474155171896946103">Обележи све картице...</translation>
 <translation id="4474461121892222090">Довршавање активације мобилних података може да потраје до 15 минута.</translation>
 <translation id="4475552974751346499">Претражите преузимања</translation>
@@ -4054,7 +4054,7 @@
 <translation id="6841186874966388268">Грешке</translation>
 <translation id="6843423766595476978">Опција Ок Google је спремна</translation>
 <translation id="6845038076637626672">Отвори увећано</translation>
-<translation id="6845325883481699275">Помозите нам да побољшамо Brave безбедност</translation>
+<translation id="4991384657077828949">Помозите нам да побољшамо Brave безбедност</translation>
 <translation id="6848388270925200958">Тренутно имате неке картице које могу да се користе само на овом уређају</translation>
 <translation id="6850286078059909152">Боја текста</translation>
 <translation id="6851497530878285708">Апликација је омогућена</translation>
@@ -4545,7 +4545,7 @@
 <translation id="756445078718366910">Отвори прозор прегледача</translation>
 <translation id="7564847347806291057">Заврши процес</translation>
 <translation id="7566118625369982896">Управљајте линковима апликације Play</translation>
-<translation id="756809126120519699">Brave подаци су обрисани</translation>
+<translation id="7814200940910057384">Brave подаци су обрисани</translation>
 <translation id="7568790562536448087">Ажурирање</translation>
 <translation id="7569983096843329377">Црна</translation>
 <translation id="7571643774869182231">Нема довољно меморијског простора за ажурирање</translation>
@@ -4665,7 +4665,7 @@
 <translation id="7737456446569756884">Овај уређај ће добијати аутоматска ажурирања софтвера и безбедносна ажурирања до <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Стандардно</translation>
 <translation id="7744047395460924128">Погледајте историју штампања</translation>
-<translation id="7746457520633464754">Да би откривао опасне апликације и сајтове, Brave шаље Google-у URL-ове неких страница које посећујете, ограничене информације о систему и одређени садржај страница</translation>
+<translation id="3712897541513849705">Да би откривао опасне апликације и сајтове, Brave шаље Google-у URL-ове неких страница које посећујете, ограничене информације о систему и одређени садржај страница</translation>
 <translation id="7750228210027921155">Слика у слици</translation>
 <translation id="7751260505918304024">Прикажи све</translation>
 <translation id="7754704193130578113">Питај где треба сачувати сваку датотеку пре преузимања</translation>

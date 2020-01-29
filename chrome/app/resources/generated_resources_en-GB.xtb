@@ -1528,7 +1528,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 
     Description:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave Apps</translation>
+<translation id="300669147395456190">Brave Apps</translation>
 <translation id="3150927491400159470">Hard Reload</translation>
 <translation id="315116470104423982">Mobile data</translation>
 <translation id="3151539355209957474">Start Time</translation>
@@ -1612,7 +1612,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="3280243678470289153">Stay in Brave</translation>
 <translation id="3281892622610078515">Files and programs to be quarantined:</translation>
 <translation id="3282210178675490297">Sharing a tab to <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Sign in to Brave</translation>
+<translation id="82609232232243542">Sign in to Brave</translation>
 <translation id="3285322247471302225">New &amp;Tab</translation>
 <translation id="328571385944182268">Save your passwords?</translation>
 <translation id="3288047731229977326">Extensions running in developer mode can harm your computer. If you're not a developer, you should disable these extensions running in developer mode to stay safe.</translation>
@@ -2443,7 +2443,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="4469477701382819144">Blocked on sites that show intrusive or misleading ads</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> can edit files in <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">External storage preferences</translation>
-<translation id="447252321002412580">Help improve Brave's features and performance</translation>
+<translation id="918192811481327695">Help improve Brave's features and performance</translation>
 <translation id="4474155171896946103">Bookmark all tabs...</translation>
 <translation id="4474461121892222090">It might take up to 15 minutes to complete mobile data activation.</translation>
 <translation id="4475552974751346499">Search downloads</translation>
@@ -4058,7 +4058,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="6841186874966388268">Errors</translation>
 <translation id="6843423766595476978">"Ok Google" is ready</translation>
 <translation id="6845038076637626672">Open Maximised</translation>
-<translation id="6845325883481699275">Help improve Brave security</translation>
+<translation id="4991384657077828949">Help improve Brave security</translation>
 <translation id="6848388270925200958">At the moment, you have some cards that can only be used on this device</translation>
 <translation id="6850286078059909152">Text colour</translation>
 <translation id="6851497530878285708">App Enabled</translation>
@@ -4549,7 +4549,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="756445078718366910">Open Browser Window</translation>
 <translation id="7564847347806291057">End process</translation>
 <translation id="7566118625369982896">Manage Play app links</translation>
-<translation id="756809126120519699">Cleared Brave data</translation>
+<translation id="7814200940910057384">Cleared Brave data</translation>
 <translation id="7568790562536448087">Updating</translation>
 <translation id="7569983096843329377">Black</translation>
 <translation id="7571643774869182231">Not enough storage for update</translation>
@@ -4669,7 +4669,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="7737456446569756884">This device will get automatic software and security updates until <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Standard</translation>
 <translation id="7744047395460924128">See your printing history</translation>
-<translation id="7746457520633464754">To detect dangerous apps and sites, Brave sends URLs of some pages that you visit, limited system information and some page content to Google</translation>
+<translation id="3712897541513849705">To detect dangerous apps and sites, Brave sends URLs of some pages that you visit, limited system information and some page content to Google</translation>
 <translation id="7750228210027921155">Picture-in-picture</translation>
 <translation id="7751260505918304024">Show all</translation>
 <translation id="7754704193130578113">Ask where to save each file before downloading</translation>

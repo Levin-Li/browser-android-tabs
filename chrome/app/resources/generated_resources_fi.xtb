@@ -1528,7 +1528,7 @@ Voit ylläpitää tilin asetuksia asentamalla laitteellesi Family Link ‑sovell
 
     Kuvaus:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave-sovellukset</translation>
+<translation id="300669147395456190">Brave-sovellukset</translation>
 <translation id="3150927491400159470">Pakotettu päivitys</translation>
 <translation id="315116470104423982">Mobiilitiedonsiirto</translation>
 <translation id="3151539355209957474">Aloitusaika</translation>
@@ -1612,7 +1612,7 @@ Voit ylläpitää tilin asetuksia asentamalla laitteellesi Family Link ‑sovell
 <translation id="3280243678470289153">Pysy Bravessa</translation>
 <translation id="3281892622610078515">Karanteeniin siirrettävät tiedostot ja ohjelmat:</translation>
 <translation id="3282210178675490297">Välilehti jaetaan: <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Kirjaudu Braveen</translation>
+<translation id="82609232232243542">Kirjaudu Braveen</translation>
 <translation id="3285322247471302225">Uusi välileh&amp;ti</translation>
 <translation id="328571385944182268">Tallennetaanko salasanat?</translation>
 <translation id="3288047731229977326">Kehittäjätilassa olevat laajennukset voivat vahingoittaa tietokonettasi. Jos et ole kehittäjä, poista kehittäjätilassa olevat laajennukset käytöstä varmuuden vuoksi.</translation>
@@ -2440,7 +2440,7 @@ Voit ylläpitää tilin asetuksia asentamalla laitteellesi Family Link ‑sovell
 <translation id="4469477701382819144">Estetty häiritseviä tai harhaanjohtavia mainoksia näyttävillä sivustoilla</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> saa muokata kansion <ph name="FOLDERNAME" /> tiedostoja</translation>
 <translation id="4470957202018033307">Ulkoisen tallennustilan asetukset</translation>
-<translation id="447252321002412580">Auta parantamaan Braven ominaisuuksia ja suorituskykyä</translation>
+<translation id="918192811481327695">Auta parantamaan Braven ominaisuuksia ja suorituskykyä</translation>
 <translation id="4474155171896946103">Lisää kaikki välilehdet kirjanmerkkeihin...</translation>
 <translation id="4474461121892222090">Mobiilidatan aktivointi kestää enintään 15 minuuttia.</translation>
 <translation id="4475552974751346499">Haku latauksista</translation>
@@ -4057,7 +4057,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="6841186874966388268">Virheet</translation>
 <translation id="6843423766595476978">Ok Google on valmiina</translation>
 <translation id="6845038076637626672">Avaa suuressa koossa</translation>
-<translation id="6845325883481699275">Auta parantamaan Braven suojausta</translation>
+<translation id="4991384657077828949">Auta parantamaan Braven suojausta</translation>
 <translation id="6848388270925200958">Joitakin korttejasi voi juuri nyt käyttää vain tällä laitteella</translation>
 <translation id="6850286078059909152">Tekstin väri</translation>
 <translation id="6851497530878285708">Sovellus käytössä</translation>
@@ -4548,7 +4548,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="756445078718366910">Avaa selainikkuna</translation>
 <translation id="7564847347806291057">Lopeta prosessi</translation>
 <translation id="7566118625369982896">Hallinnoi Play-sovelluksen linkkejä</translation>
-<translation id="756809126120519699">Brave-tiedot tyhjennetty</translation>
+<translation id="7814200940910057384">Brave-tiedot tyhjennetty</translation>
 <translation id="7568790562536448087">Päivitetään</translation>
 <translation id="7569983096843329377">Musta</translation>
 <translation id="7571643774869182231">Tallennustila ei riitä päivitykseen.</translation>
@@ -4668,7 +4668,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="7737456446569756884">Tämä laite saa automaattisia ohjelmisto- ja tietoturvapäivityksiä <ph name="MONTH_AND_YEAR" /> saakka.</translation>
 <translation id="7740996059027112821">Vakio</translation>
 <translation id="7744047395460924128">Näytä tulostushistoria</translation>
-<translation id="7746457520633464754">Vaarallisia sovelluksia ja sivustoja löytääkseen Brave lähettää joidenkin avattujen sivujen URL-osoitteita, rajallisia järjestelmätietoja ja osia sivujen sisällöstä Googlelle</translation>
+<translation id="3712897541513849705">Vaarallisia sovelluksia ja sivustoja löytääkseen Brave lähettää joidenkin avattujen sivujen URL-osoitteita, rajallisia järjestelmätietoja ja osia sivujen sisällöstä Googlelle</translation>
 <translation id="7750228210027921155">Kuva kuvassa</translation>
 <translation id="7751260505918304024">Näytä kaikki</translation>
 <translation id="7754704193130578113">Kysy, minne kukin tiedosto tallennetaan ennen lataamista</translation>

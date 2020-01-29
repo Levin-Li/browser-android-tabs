@@ -1526,7 +1526,7 @@
 
     Описание:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Приложения Brave</translation>
+<translation id="300669147395456190">Приложения Brave</translation>
 <translation id="3150927491400159470">Жесткая перезагрузка</translation>
 <translation id="315116470104423982">Мобильное подключение</translation>
 <translation id="3151539355209957474">Время начала</translation>
@@ -1610,7 +1610,7 @@
 <translation id="3280243678470289153">Продолжить в Brave</translation>
 <translation id="3281892622610078515">Файлы и программы, которые будут отправлены в карантин:</translation>
 <translation id="3282210178675490297">Отправка вкладки в приложение <ph name="APP_NAME" />…</translation>
-<translation id="3282568296779691940">Войти в Brave</translation>
+<translation id="82609232232243542">Войти в Brave</translation>
 <translation id="3285322247471302225">Новая вкладка</translation>
 <translation id="328571385944182268">Сохранить пароли?</translation>
 <translation id="3288047731229977326">Расширения, запущенные в режиме разработчика, могут причинить вред вашему компьютеру. Если вы не являетесь разработчиком, их следует отключить, чтобы обеспечить безопасность данных.</translation>
@@ -2441,7 +2441,7 @@
 <translation id="4469477701382819144">Объявления заблокированы на сайтах, которые показывают навязчивую или вводящую в заблуждение рекламу.</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> может изменять файлы в папке "<ph name="FOLDERNAME" />".</translation>
 <translation id="4470957202018033307">Настройки внешних накопителей</translation>
-<translation id="447252321002412580">Помогать повышать производительность Brave и улучшать функции</translation>
+<translation id="918192811481327695">Помогать повышать производительность Brave и улучшать функции</translation>
 <translation id="4474155171896946103">Добавить все вкладки в закладки…</translation>
 <translation id="4474461121892222090">Активация мобильного Интернета может занять до 15 минут.</translation>
 <translation id="4475552974751346499">Искать в скачанных файлах</translation>
@@ -4056,7 +4056,7 @@
 <translation id="6841186874966388268">Ошибки</translation>
 <translation id="6843423766595476978">Команда "Окей, Google" настроена</translation>
 <translation id="6845038076637626672">Развернуть</translation>
-<translation id="6845325883481699275">Помочь Brave стать ещё безопаснее</translation>
+<translation id="4991384657077828949">Помочь Brave стать ещё безопаснее</translation>
 <translation id="6848388270925200958">Сейчас некоторые из ваших карт можно использовать только на этом устройстве</translation>
 <translation id="6850286078059909152">Цвет текста</translation>
 <translation id="6851497530878285708">Приложение включено</translation>
@@ -4547,7 +4547,7 @@
 <translation id="756445078718366910">Открыть окно браузера</translation>
 <translation id="7564847347806291057">Завершить процесс</translation>
 <translation id="7566118625369982896">Управление ссылками на приложение в Google Play</translation>
-<translation id="756809126120519699">Данные Brave удалены</translation>
+<translation id="7814200940910057384">Данные Brave удалены</translation>
 <translation id="7568790562536448087">Обновление</translation>
 <translation id="7569983096843329377">Черный</translation>
 <translation id="7571643774869182231">Недостаточно места для обновления.</translation>
@@ -4667,7 +4667,7 @@
 <translation id="7737456446569756884">Устройство будет получать автоматические обновления ПО и системы безопасности до этого времени: <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Стандартный</translation>
 <translation id="7744047395460924128">Просмотр истории печати</translation>
-<translation id="7746457520633464754">Для обнаружения опасных приложений и сайтов Brave отправляет в Google URL некоторых страниц, которые вы открываете, контент на них, а также определенные сведения о системе</translation>
+<translation id="3712897541513849705">Для обнаружения опасных приложений и сайтов Brave отправляет в Google URL некоторых страниц, которые вы открываете, контент на них, а также определенные сведения о системе</translation>
 <translation id="7750228210027921155">Картинка в картинке</translation>
 <translation id="7751260505918304024">Показать все</translation>
 <translation id="7754704193130578113">Всегда указывать место для скачивания</translation>

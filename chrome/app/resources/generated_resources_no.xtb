@@ -1525,7 +1525,7 @@ Du kan administrere innstillingene for denne kontoen ved å installere Family Li
 
     Beskrivelse:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave-apper</translation>
+<translation id="300669147395456190">Brave-apper</translation>
 <translation id="3150927491400159470">Hard innlasting på nytt</translation>
 <translation id="315116470104423982">Mobildata</translation>
 <translation id="3151539355209957474">Starttid</translation>
@@ -1609,7 +1609,7 @@ Du kan administrere innstillingene for denne kontoen ved å installere Family Li
 <translation id="3280243678470289153">Bli værende i Brave</translation>
 <translation id="3281892622610078515">Filer og programmer som blir satt i karantene:</translation>
 <translation id="3282210178675490297">Deler en fane med <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Logg på Brave</translation>
+<translation id="82609232232243542">Logg på Brave</translation>
 <translation id="3285322247471302225">Ny &amp;fane</translation>
 <translation id="328571385944182268">Vil du lagre passordene dine?</translation>
 <translation id="3288047731229977326">Utvidelser som kjører i utviklermodus kan skade datamaskinen din. Hvis du ikke er utvikler, bør du deaktivere disse utvidelsene som kjører i utviklermodus, for å være på den sikre siden.</translation>
@@ -2438,7 +2438,7 @@ Du kan administrere innstillingene for denne kontoen ved å installere Family Li
 <translation id="4469477701382819144">Blokkert på nettsteder som viser forstyrrende eller villedende annonser</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> kan redigere filer i <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Innstillinger for ekstern lagring</translation>
-<translation id="447252321002412580">Hjelp til med å forbedre funksjonene og ytelsen til Brave</translation>
+<translation id="918192811481327695">Hjelp til med å forbedre funksjonene og ytelsen til Brave</translation>
 <translation id="4474155171896946103">Bokmerk alle fanene</translation>
 <translation id="4474461121892222090">Det kan ta opptil 15 minutter å fullføre aktiveringen av mobildata.</translation>
 <translation id="4475552974751346499">Søk i nedlastinger</translation>
@@ -4053,7 +4053,7 @@ Du kan administrere innstillingene for denne kontoen ved å installere Family Li
 <translation id="6841186874966388268">Feil</translation>
 <translation id="6843423766595476978">Ok Google er konfigurert</translation>
 <translation id="6845038076637626672">Maksimer ved åpning</translation>
-<translation id="6845325883481699275">Bidra til å gjøre Brave sikrere</translation>
+<translation id="4991384657077828949">Bidra til å gjøre Brave sikrere</translation>
 <translation id="6848388270925200958">Akkurat nå har du noen kort som bare kan brukes på denne enheten</translation>
 <translation id="6850286078059909152">Tekstfarge</translation>
 <translation id="6851497530878285708">Appen er slått på</translation>
@@ -4544,7 +4544,7 @@ Du kan administrere innstillingene for denne kontoen ved å installere Family Li
 <translation id="756445078718366910">Åpne nettleservindu</translation>
 <translation id="7564847347806291057">Avslutt prosessen</translation>
 <translation id="7566118625369982896">Administrer Play-applinker</translation>
-<translation id="756809126120519699">Brave-dataene er slettet</translation>
+<translation id="7814200940910057384">Brave-dataene er slettet</translation>
 <translation id="7568790562536448087">Oppdaterer</translation>
 <translation id="7569983096843329377">Svart</translation>
 <translation id="7571643774869182231">For lite lagringsplass til å oppdatere</translation>
@@ -4664,7 +4664,7 @@ Du kan administrere innstillingene for denne kontoen ved å installere Family Li
 <translation id="7737456446569756884">Denne enheten får automatiske programvare- og sikkerhetsoppdateringer frem til <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Standard</translation>
 <translation id="7744047395460924128">Se utskriftsloggen</translation>
-<translation id="7746457520633464754">For å oppdage farlige apper og nettsteder sender Brave nettadressene til noen av sidene du besøker, begrenset systeminformasjon og noe sideinnhold til Google.</translation>
+<translation id="3712897541513849705">For å oppdage farlige apper og nettsteder sender Brave nettadressene til noen av sidene du besøker, begrenset systeminformasjon og noe sideinnhold til Google.</translation>
 <translation id="7750228210027921155">Bilde i bilde</translation>
 <translation id="7751260505918304024">Vis alle</translation>
 <translation id="7754704193130578113">Spør før nedlasting hvor hver fil skal lagres</translation>

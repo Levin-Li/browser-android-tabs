@@ -1523,7 +1523,7 @@
 
     Тайлбар:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave Аппликейшнууд</translation>
+<translation id="300669147395456190">Brave Аппликейшнууд</translation>
 <translation id="3150927491400159470">Хатуу дискийг дахин ачаалах</translation>
 <translation id="315116470104423982">Гар утасны дата</translation>
 <translation id="3151539355209957474">Эхлэх цаг</translation>
@@ -1607,7 +1607,7 @@
 <translation id="3280243678470289153">Brave-д үлдэх</translation>
 <translation id="3281892622610078515">Тусгаарлах файл болон программ:</translation>
 <translation id="3282210178675490297">Табыг <ph name="APP_NAME" />-тай хуваалцаж байна</translation>
-<translation id="3282568296779691940">Brave руу нэвтрэх</translation>
+<translation id="82609232232243542">Brave руу нэвтрэх</translation>
 <translation id="3285322247471302225">Шинэ &amp;Цонх</translation>
 <translation id="328571385944182268">Таны нууц үгийг хадгалах уу?</translation>
 <translation id="3288047731229977326">Хөгжүүлэгч горим дээр ачаалж буй өргөтгөл нь таны компьютерийг гэмтээж болзошгүй байна. Хэрэв та хөгжүүлэгч биш бол аюулгүй байдлаа хангах үүднээс хөгжүүлэгч горим дээр ачаалж буй өргөтгөлийг идэвхгүй болгоно уу.</translation>
@@ -2437,7 +2437,7 @@
 <translation id="4469477701382819144">Төвөгтэй эсвэл хуурамч зар харуулдаг сайтууд дээр блоклосон</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> нь <ph name="FOLDERNAME" />-н файлыг засах боломжтой</translation>
 <translation id="4470957202018033307">Гадаад санах ойн сонголт</translation>
-<translation id="447252321002412580">Brave-н онцлог болон гүйцэтгэлийг сайжруулахад туслах</translation>
+<translation id="918192811481327695">Brave-н онцлог болон гүйцэтгэлийг сайжруулахад туслах</translation>
 <translation id="4474155171896946103">Бүх цонхнуудыг хадгалж жагсаах ...</translation>
 <translation id="4474461121892222090">Таны мобайл датаг идэвхжүүлэхэд 15 хүртэл минут шаардагдаж болно.</translation>
 <translation id="4475552974751346499">Татаж авсан файлуудыг хайх</translation>
@@ -4052,7 +4052,7 @@
 <translation id="6841186874966388268">Алдаа</translation>
 <translation id="6843423766595476978">Ok Google бэлэн боллоо</translation>
 <translation id="6845038076637626672">Томоор нээ</translation>
-<translation id="6845325883481699275">Brave-н аюулгүй байдлыг сайжруулахад туслах</translation>
+<translation id="4991384657077828949">Brave-н аюулгүй байдлыг сайжруулахад туслах</translation>
 <translation id="6848388270925200958">Танд одоогоор зөвхөн энэ төхөөрөмж дээр ашиглах боломжтой зарим карт байна.</translation>
 <translation id="6850286078059909152">Текстийн өнгө</translation>
 <translation id="6851497530878285708">Аппыг идэвхжүүлсэн</translation>
@@ -4543,7 +4543,7 @@
 <translation id="756445078718366910">Хөтөч цонхыг нээх</translation>
 <translation id="7564847347806291057">Процессийг дуусга</translation>
 <translation id="7566118625369982896">Play аппын холбоосыг удирдах</translation>
-<translation id="756809126120519699">Brave-н өгөгдлийг устгасан</translation>
+<translation id="7814200940910057384">Brave-н өгөгдлийг устгасан</translation>
 <translation id="7568790562536448087">Шинэчилж байна</translation>
 <translation id="7569983096843329377">Хар</translation>
 <translation id="7571643774869182231">Шинэчлэхэд хангалттай багтаамж алга</translation>
@@ -4663,7 +4663,7 @@
 <translation id="7737456446569756884">Энэ төхөөрөмж нь <ph name="MONTH_AND_YEAR" /> хүртэл програм хангамж болон аюулгүй байдлын автомат шинэчлэлтийг авах болно.</translation>
 <translation id="7740996059027112821">Стандарт</translation>
 <translation id="7744047395460924128">Хэвлэлтийн түүхээ харах</translation>
-<translation id="7746457520633464754">Brave аюултай апп болон сайт илрүүлэхийн тулд таны зочилдог зарим хуудасны URL, хязгаарлагдмал системийн мэдээлэл болон зарим хуудасны контентыг Google-д илгээдэг</translation>
+<translation id="3712897541513849705">Brave аюултай апп болон сайт илрүүлэхийн тулд таны зочилдог зарим хуудасны URL, хязгаарлагдмал системийн мэдээлэл болон зарим хуудасны контентыг Google-д илгээдэг</translation>
 <translation id="7750228210027921155">Дэлгэцэн доторх дэлгэц</translation>
 <translation id="7751260505918304024">Бүгдийг үзүүлэх</translation>
 <translation id="7754704193130578113">Татахаасаа өмнө файл нэг бүрийг хаана хадгалахыг асуу</translation>

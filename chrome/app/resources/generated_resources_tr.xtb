@@ -1528,7 +1528,7 @@ Sunucunun mesajı: <ph name="SERVER_MSG" /></translation>
 
     Açıklama:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave Uygulamaları</translation>
+<translation id="300669147395456190">Brave Uygulamaları</translation>
 <translation id="3150927491400159470">Tam Yeniden Yükle</translation>
 <translation id="315116470104423982">Mobil veriler</translation>
 <translation id="3151539355209957474">Başlangıç Zamanı</translation>
@@ -1612,7 +1612,7 @@ Sunucunun mesajı: <ph name="SERVER_MSG" /></translation>
 <translation id="3280243678470289153">Brave'da Kal</translation>
 <translation id="3281892622610078515">Karantinaya alınacak dosyalar ve programlar:</translation>
 <translation id="3282210178675490297"><ph name="APP_NAME" /> ile bir sekme paylaşılıyor</translation>
-<translation id="3282568296779691940">Brave'da oturum aç</translation>
+<translation id="82609232232243542">Brave'da oturum aç</translation>
 <translation id="3285322247471302225">Yeni &amp;Sekme</translation>
 <translation id="328571385944182268">Şifreleriniz kaydedilsin mi?</translation>
 <translation id="3288047731229977326">Geliştirici modunda çalışan uzantılar bilgisayarınıza zarar verebilir. Geliştirici değilseniz, geliştirici modundayken güvende olmak için bu uzantıların çalışmasını devre dışı bırakmanız gerekir.</translation>
@@ -2443,7 +2443,7 @@ Sunucunun mesajı: <ph name="SERVER_MSG" /></translation>
 <translation id="4469477701382819144">Araya giren veya yanıltıcı reklamlar gösteren sitelerde engellendi</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> sitesi <ph name="FOLDERNAME" /> klasöründeki dosyaları düzenleyebilir</translation>
 <translation id="4470957202018033307">Harici depolama tercihleri</translation>
-<translation id="447252321002412580">Brave'un özelliklerini ve performansını iyileştirmeye yardımcı olun</translation>
+<translation id="918192811481327695">Brave'un özelliklerini ve performansını iyileştirmeye yardımcı olun</translation>
 <translation id="4474155171896946103">Tüm sekmelere yer işareti koy...</translation>
 <translation id="4474461121892222090">Mobil veriyi etkinleştirme işleminin tamamlanması 15 dakika kadar sürebilir.</translation>
 <translation id="4475552974751346499">İndirilenlerde ara</translation>
@@ -4059,7 +4059,7 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="6841186874966388268">Hatalar</translation>
 <translation id="6843423766595476978">Ok Google hazır</translation>
 <translation id="6845038076637626672">Ekranı Kaplayacak Şekilde Aç</translation>
-<translation id="6845325883481699275">Brave güvenliğini iyileştirmeye yardımcı olun</translation>
+<translation id="4991384657077828949">Brave güvenliğini iyileştirmeye yardımcı olun</translation>
 <translation id="6848388270925200958">Şu anda, yalnızca bu cihazda kullanılabilen kartlarınız var</translation>
 <translation id="6850286078059909152">Metin rengi</translation>
 <translation id="6851497530878285708">Uygulama Etkinleştirildi</translation>
@@ -4550,7 +4550,7 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="756445078718366910">Tarayıcı Penceresini Aç</translation>
 <translation id="7564847347806291057">İşlemi bitir</translation>
 <translation id="7566118625369982896">Play uygulama bağlantılarını yönet</translation>
-<translation id="756809126120519699">Brave verileri temizlendi</translation>
+<translation id="7814200940910057384">Brave verileri temizlendi</translation>
 <translation id="7568790562536448087">Güncelleniyor</translation>
 <translation id="7569983096843329377">Siyah</translation>
 <translation id="7571643774869182231">Depolama alanı güncelleme için yeterli değil</translation>
@@ -4670,7 +4670,7 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="7737456446569756884">Bu cihaz, <ph name="MONTH_AND_YEAR" /> tarihine kadar otomatik yazılım ve güvenlik güncellemelerini alacak.</translation>
 <translation id="7740996059027112821">Standart</translation>
 <translation id="7744047395460924128">Yazdırma geçmişinizi görme</translation>
-<translation id="7746457520633464754">Brave, tehlikeli uygulamaları ve siteleri algılamak için Google'a ziyaret ettiğiniz bazı sitelerin URL'lerini, sınırlı sistem bilgisini ve bazı sayfa içeriklerini gönderir.</translation>
+<translation id="3712897541513849705">Brave, tehlikeli uygulamaları ve siteleri algılamak için Google'a ziyaret ettiğiniz bazı sitelerin URL'lerini, sınırlı sistem bilgisini ve bazı sayfa içeriklerini gönderir.</translation>
 <translation id="7750228210027921155">Pencere içinde pencere</translation>
 <translation id="7751260505918304024">Tümünü göster</translation>
 <translation id="7754704193130578113">İndirmeden önce her dosyanın nereye kaydedileceğini sor</translation>

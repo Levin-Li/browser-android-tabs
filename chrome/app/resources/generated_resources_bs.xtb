@@ -1528,7 +1528,7 @@ Postavkama ovog računa možete upravljati instaliranjem aplikacije Family Link 
 
     Opis:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave aplikacije</translation>
+<translation id="300669147395456190">Brave aplikacije</translation>
 <translation id="3150927491400159470">Ponovno učitavanje bez keš memorije</translation>
 <translation id="315116470104423982">Mobilni podaci</translation>
 <translation id="3151539355209957474">Vrijeme početka</translation>
@@ -1612,7 +1612,7 @@ Postavkama ovog računa možete upravljati instaliranjem aplikacije Family Link 
 <translation id="3280243678470289153">Ostani u Braveu</translation>
 <translation id="3281892622610078515">Fajlovi i programi za karantin:</translation>
 <translation id="3282210178675490297">Dijeljenje kartice s aplikacijom <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Prijava na Brave</translation>
+<translation id="82609232232243542">Prijava na Brave</translation>
 <translation id="3285322247471302225">Nova kartica</translation>
 <translation id="328571385944182268">Sačuvati vaše lozinke?</translation>
 <translation id="3288047731229977326">Ekstenzije u načinu rada za programere mogu nanijeti štetu vašem računaru. Ako niste programer, radi sigurnosti onemogućite rad ovih ekstenzija u načinu rada za programere.</translation>
@@ -2443,7 +2443,7 @@ Postavkama ovog računa možete upravljati instaliranjem aplikacije Family Link 
 <translation id="4469477701382819144">Blokirano na web lokacijama koje prikazuju ometajuće ili obmanjujuće oglase</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> može uređivati fajlove u folderu <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Postavke vanjske pohrane</translation>
-<translation id="447252321002412580">Pomozite nam da poboljšamo funkcije i performanse Bravea</translation>
+<translation id="918192811481327695">Pomozite nam da poboljšamo funkcije i performanse Bravea</translation>
 <translation id="4474155171896946103">Označi sve kartice...</translation>
 <translation id="4474461121892222090">Aktiviranje prijenosa podataka na mobilnoj mreži može potrajati do 15 minuta.</translation>
 <translation id="4475552974751346499">Pretraži preuzimanja</translation>
@@ -4058,7 +4058,7 @@ Postavkama ovog računa možete upravljati instaliranjem aplikacije Family Link 
 <translation id="6841186874966388268">Greške</translation>
 <translation id="6843423766595476978">Ok Google spreman je za upotrebu</translation>
 <translation id="6845038076637626672">Maksimalno otvaranje</translation>
-<translation id="6845325883481699275">Pomognite poboljšati sigurnost na Braveu</translation>
+<translation id="4991384657077828949">Pomognite poboljšati sigurnost na Braveu</translation>
 <translation id="6848388270925200958">Trenutno imate nekoliko kartica koje se mogu koristiti samo na ovom uređaju</translation>
 <translation id="6850286078059909152">Boja teksta</translation>
 <translation id="6851497530878285708">Aplikacija je omogućena</translation>
@@ -4549,7 +4549,7 @@ Postavkama ovog računa možete upravljati instaliranjem aplikacije Family Link 
 <translation id="756445078718366910">Otvori prozor preglednika</translation>
 <translation id="7564847347806291057">Zaustavi proces</translation>
 <translation id="7566118625369982896">Upravljanje linkovima za Play aplikacije</translation>
-<translation id="756809126120519699">Braveovi podaci su obrisani</translation>
+<translation id="7814200940910057384">Braveovi podaci su obrisani</translation>
 <translation id="7568790562536448087">Ažuriranje</translation>
 <translation id="7569983096843329377">Crna</translation>
 <translation id="7571643774869182231">Za ažuriranje nema dovoljno prostora za pohranu</translation>
@@ -4669,7 +4669,7 @@ Postavkama ovog računa možete upravljati instaliranjem aplikacije Family Link 
 <translation id="7737456446569756884">Ovaj uređaj će primati automatska sigurnosna ažuriranja i ažuriranja softvera do <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Standardno</translation>
 <translation id="7744047395460924128">Prikaz historije štampanja</translation>
-<translation id="7746457520633464754">Radi otkrivanja opasnih aplikacija i web-lokacija Brave šalje Googleu URL-ove nekih stranica koje posjećujete, ograničene podatke o sustavu i dio sadržaja web-stranica</translation>
+<translation id="3712897541513849705">Radi otkrivanja opasnih aplikacija i web-lokacija Brave šalje Googleu URL-ove nekih stranica koje posjećujete, ograničene podatke o sustavu i dio sadržaja web-stranica</translation>
 <translation id="7750228210027921155">Slika u slici</translation>
 <translation id="7751260505918304024">Prikaži sve</translation>
 <translation id="7754704193130578113">Pitaj gdje spremiti svaku datoteku prije preuzimanja</translation>

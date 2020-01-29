@@ -1524,7 +1524,7 @@
 
     توضیح:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">‏برنامه‌های Brave</translation>
+<translation id="300669147395456190">‏برنامه‌های Brave</translation>
 <translation id="3150927491400159470">تازه سازی سخت</translation>
 <translation id="315116470104423982">داده‌های تلفن همراه</translation>
 <translation id="3151539355209957474">زمان شروع</translation>
@@ -1608,7 +1608,7 @@
 <translation id="3280243678470289153">‏ماندن در Brave</translation>
 <translation id="3281892622610078515">فایل‌ها و برنامه‌هایی که قرنطینه می‌شود:</translation>
 <translation id="3282210178675490297">درحال هم‌رسانی برگه با <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">‏ورود به Brave</translation>
+<translation id="82609232232243542">‏ورود به Brave</translation>
 <translation id="3285322247471302225">&amp;برگه جدید</translation>
 <translation id="328571385944182268">گذرواژه ذخیره شود؟</translation>
 <translation id="3288047731229977326">افزونه‌هایی که در حالت برنامه‌نوبس اجرا می‌شوند می‌توانند به رایانه شما آسیب برسانند. اگر برنامه‌نویس نیستید، باید این برنامه‌های افزودنی را که در حالت برنامه‌نویس اجرا می‌شوند غیرفعال کنید تا ایمن بمانید.</translation>
@@ -2439,7 +2439,7 @@
 <translation id="4469477701382819144">در سایت‌هایی که آگهی‌های مزاحم یا گمراه‌کننده نشان می‌دهند مسدود شود</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> می‌تواند فایل‌های <ph name="FOLDERNAME" /> را ویرایش کند</translation>
 <translation id="4470957202018033307">تنظیمات برگزیده فضای ذخیره‌سازی خارجی</translation>
-<translation id="447252321002412580">‏کمک به بهبود ویژگی‌ها و عملکرد Brave</translation>
+<translation id="918192811481327695">‏کمک به بهبود ویژگی‌ها و عملکرد Brave</translation>
 <translation id="4474155171896946103">نشانک‌گذاری همه برگه‌ها...</translation>
 <translation id="4474461121892222090">تکمیل فعال‌سازی داده تلفن همراه ممکن است حداکثر ۱۵ دقیقه طول بکشد.</translation>
 <translation id="4475552974751346499">جستجوی فایل‌های بارگیری‌شده</translation>
@@ -4052,7 +4052,7 @@
 <translation id="6841186874966388268">خطاها</translation>
 <translation id="6843423766595476978">‏Ok Google کاملاً آماده است</translation>
 <translation id="6845038076637626672">باز کردن در حداکثر اندازه</translation>
-<translation id="6845325883481699275">‏کمک به بهبود امنیت Brave</translation>
+<translation id="4991384657077828949">‏کمک به بهبود امنیت Brave</translation>
 <translation id="6848388270925200958">درحال‌حاضر، کارت‌هایی دارید که فقط در این دستگاه قابل استفاده‌اند</translation>
 <translation id="6850286078059909152">رنگ نوشتار</translation>
 <translation id="6851497530878285708">برنامه فعال شد</translation>
@@ -4543,7 +4543,7 @@
 <translation id="756445078718366910">باز کردن پنجرهٔ مرورگر</translation>
 <translation id="7564847347806291057">پایان دادن به فرایند</translation>
 <translation id="7566118625369982896">‏مدیریت پیوندهای برنامه Play</translation>
-<translation id="756809126120519699">‏داده‌های Brave پاک شد</translation>
+<translation id="7814200940910057384">‏داده‌های Brave پاک شد</translation>
 <translation id="7568790562536448087">در حال به‌روزرسانی</translation>
 <translation id="7569983096843329377">سیاه</translation>
 <translation id="7571643774869182231">فضای ذخیره‌سازی برای به‌روزرسانی کافی نیست</translation>
@@ -4663,7 +4663,7 @@
 <translation id="7737456446569756884">این دستگاه به‌روزرسانی‌های نرم‌افزار و امنیتی خودکار را تا <ph name="MONTH_AND_YEAR" /> دریافت می‌کند.</translation>
 <translation id="7740996059027112821">استاندارد</translation>
 <translation id="7744047395460924128">مشاهده سابقه چاپ کردن</translation>
-<translation id="7746457520633464754">‏برای حذف برنامه‌ها و سایت‌های خطرناک، Brave نشانی‌های وب برخی از صفحه‌هایی را که بازدید می‌کنید، اطلاعات سیستم محدود و برخی از محتوای صفحه را به Google می‌فرستد.</translation>
+<translation id="3712897541513849705">‏برای حذف برنامه‌ها و سایت‌های خطرناک، Brave نشانی‌های وب برخی از صفحه‌هایی را که بازدید می‌کنید، اطلاعات سیستم محدود و برخی از محتوای صفحه را به Google می‌فرستد.</translation>
 <translation id="7750228210027921155">تصویردرتصویر</translation>
 <translation id="7751260505918304024">نمایش همه</translation>
 <translation id="7754704193130578113">قبل از بارگیری هر فایل، درباره مکان ذخیره سؤال شود</translation>

@@ -1527,7 +1527,7 @@ Ak chcete spravovať nastavenia tohto účtu, nainštalujte si do zariadenia apl
 
     Popis:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Aplikácie Brave</translation>
+<translation id="300669147395456190">Aplikácie Brave</translation>
 <translation id="3150927491400159470">Vynútiť opätovné načítanie</translation>
 <translation id="315116470104423982">Mobilné dátové prenosy</translation>
 <translation id="3151539355209957474">Čas začiatku</translation>
@@ -1611,7 +1611,7 @@ Ak chcete spravovať nastavenia tohto účtu, nainštalujte si do zariadenia apl
 <translation id="3280243678470289153">Zostať v Brave</translation>
 <translation id="3281892622610078515">Súbory a programy, ktoré sa pridajú do karantény:</translation>
 <translation id="3282210178675490297">Zdieľa sa karta v aplikácii <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Prihlásenie do prehliadača Brave</translation>
+<translation id="82609232232243542">Prihlásenie do prehliadača Brave</translation>
 <translation id="3285322247471302225">Nová &amp;karta</translation>
 <translation id="328571385944182268">Chcete ukladať heslá?</translation>
 <translation id="3288047731229977326">Rozšírenia spustené v režime pre vývojárov môžu poškodiť váš počítač. Ak nie ste vývojár, mali by ste v záujme bezpečnosti rozšírenia spustené v režime vývojára zakázať.</translation>
@@ -2442,7 +2442,7 @@ Ak chcete spravovať nastavenia tohto účtu, nainštalujte si do zariadenia apl
 <translation id="4469477701382819144">Blokované na weboch, ktoré zobrazujú obťažujúce alebo zavádzajúce reklamy</translation>
 <translation id="4469762931504673593">Web <ph name="ORIGIN" /> môže upravovať súbory v priečinku <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Predvoľby externých úložísk</translation>
-<translation id="447252321002412580">Pomáhať s vylepšovaním funkcií a výkonu Brave</translation>
+<translation id="918192811481327695">Pomáhať s vylepšovaním funkcií a výkonu Brave</translation>
 <translation id="4474155171896946103">Všetky karty uložiť ako záložky...</translation>
 <translation id="4474461121892222090">Dokončenie aktivácie mobilných dát môže trvať až 15 minút.</translation>
 <translation id="4475552974751346499">Hľadať stiahnuté súbory</translation>
@@ -4057,7 +4057,7 @@ Ak chcete spravovať nastavenia tohto účtu, nainštalujte si do zariadenia apl
 <translation id="6841186874966388268">Chyby</translation>
 <translation id="6843423766595476978">Výraz „Ok Google“ je nastavený</translation>
 <translation id="6845038076637626672">Otvoriť maximalizované</translation>
-<translation id="6845325883481699275">Pomoc so zlepšením zabezpečenia Brave</translation>
+<translation id="4991384657077828949">Pomoc so zlepšením zabezpečenia Brave</translation>
 <translation id="6848388270925200958">Momentálne máte niekoľko kariet, ktoré je možné použiť iba v tomto zariadení</translation>
 <translation id="6850286078059909152">Farba textu</translation>
 <translation id="6851497530878285708">Aplikácia je povolená</translation>
@@ -4548,7 +4548,7 @@ Ak chcete spravovať nastavenia tohto účtu, nainštalujte si do zariadenia apl
 <translation id="756445078718366910">Otvoriť okno prehliadača</translation>
 <translation id="7564847347806291057">Ukončiť proces</translation>
 <translation id="7566118625369982896">Správa skratiek aplikácie Play</translation>
-<translation id="756809126120519699">Údaje Brave boli vymazané</translation>
+<translation id="7814200940910057384">Údaje Brave boli vymazané</translation>
 <translation id="7568790562536448087">Prebieha aktualizácia</translation>
 <translation id="7569983096843329377">Čierna</translation>
 <translation id="7571643774869182231">V úložisku nie je dostatok miesta na aktualizáciu</translation>
@@ -4668,7 +4668,7 @@ Ak chcete spravovať nastavenia tohto účtu, nainštalujte si do zariadenia apl
 <translation id="7737456446569756884">Toto zariadenie bude do <ph name="MONTH_AND_YEAR" /> dostávať automatické aktualizácie softvéru a zabezpečenia.</translation>
 <translation id="7740996059027112821">Štandardne</translation>
 <translation id="7744047395460924128">Zobraziť históriu tlače</translation>
-<translation id="7746457520633464754">Brave odosiela Googlu webové adresy niektorých navštívených stránok, obmedzené informácie o systéme a obsah niektorých stránok na účely rozpoznávania nebezpečných aplikácií a webov.</translation>
+<translation id="3712897541513849705">Brave odosiela Googlu webové adresy niektorých navštívených stránok, obmedzené informácie o systéme a obsah niektorých stránok na účely rozpoznávania nebezpečných aplikácií a webov.</translation>
 <translation id="7750228210027921155">Obraz v obraze</translation>
 <translation id="7751260505918304024">Zobraziť všetky</translation>
 <translation id="7754704193130578113">Pred každým sťahovaním sa spýtať, kam uložiť súbor</translation>

@@ -1528,7 +1528,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 
     Mô tả:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Ứng dụng Brave</translation>
+<translation id="300669147395456190">Ứng dụng Brave</translation>
 <translation id="3150927491400159470">Tải lại cứng</translation>
 <translation id="315116470104423982">Dữ liệu di động</translation>
 <translation id="3151539355209957474">Thời gian khởi động</translation>
@@ -1612,7 +1612,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="3280243678470289153">Tiếp tục điều hướng trong Brave</translation>
 <translation id="3281892622610078515">Các tệp và chương trình cần cách ly:</translation>
 <translation id="3282210178675490297">Đang chia sẻ một tab với <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Đăng nhập vào Brave</translation>
+<translation id="82609232232243542">Đăng nhập vào Brave</translation>
 <translation id="3285322247471302225">&amp;Tab Mới</translation>
 <translation id="328571385944182268">Lưu mật khẩu của bạn?</translation>
 <translation id="3288047731229977326">Tiện ích chạy ở chế độ nhà phát triển có thể gây hại cho máy tính của bạn. Nếu bạn không phải là nhà phát triển, bạn nên vô hiệu hóa các tiện ích này chạy trong chế độ nhà phát triển để giữ an toàn.</translation>
@@ -2443,7 +2443,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="4469477701382819144">Đã chặn trên những trang web hiển thị quảng cáo xâm nhập hoặc quảng cáo gây hiểu nhầm</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> có thể chỉnh sửa tệp trong <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Tùy chọn bộ nhớ bên ngoài</translation>
-<translation id="447252321002412580">Giúp cải thiện hiệu suất và các tính năng của Brave</translation>
+<translation id="918192811481327695">Giúp cải thiện hiệu suất và các tính năng của Brave</translation>
 <translation id="4474155171896946103">Đánh dấu tất cả các tab...</translation>
 <translation id="4474461121892222090">Có thể mất tối đa 15 phút để hoàn tất quá trình kích hoạt dữ liệu di động.</translation>
 <translation id="4475552974751346499">Tìm kiếm trong các tệp đã tải xuống</translation>
@@ -4058,7 +4058,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="6841186874966388268">Lỗi</translation>
 <translation id="6843423766595476978">Đã thiết lập xong Ok Google</translation>
 <translation id="6845038076637626672">Mở ở dạng phóng to</translation>
-<translation id="6845325883481699275">Giúp cải thiện khả năng bảo mật của Brave</translation>
+<translation id="4991384657077828949">Giúp cải thiện khả năng bảo mật của Brave</translation>
 <translation id="6848388270925200958">Bạn hiện có một số thẻ chỉ dùng được trên thiết bị này</translation>
 <translation id="6850286078059909152">Màu văn bản</translation>
 <translation id="6851497530878285708">Đã bật ứng dụng</translation>
@@ -4549,7 +4549,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="756445078718366910">Mở Cửa sổ Trình duyệt</translation>
 <translation id="7564847347806291057">Kết thúc quá trình</translation>
 <translation id="7566118625369982896">Quản lý các liên kết ứng dụng Play</translation>
-<translation id="756809126120519699">Đã xóa dữ liệu Brave</translation>
+<translation id="7814200940910057384">Đã xóa dữ liệu Brave</translation>
 <translation id="7568790562536448087">Đang cập nhật</translation>
 <translation id="7569983096843329377">Đen</translation>
 <translation id="7571643774869182231">Không đủ bộ nhớ để cập nhật</translation>
@@ -4669,7 +4669,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="7737456446569756884">Thiết bị này sẽ tự động nhận được các bản cập nhật bảo mật và phần mềm cho đến <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Chuẩn</translation>
 <translation id="7744047395460924128">Xem lịch sử in của bạn</translation>
-<translation id="7746457520633464754">Để phát hiện các ứng dụng và trang web nguy hiểm, Brave sẽ gửi URL của một số trang mà bạn truy cập, thông tin hệ thống giới hạn và một số nội dung trang cho Google</translation>
+<translation id="3712897541513849705">Để phát hiện các ứng dụng và trang web nguy hiểm, Brave sẽ gửi URL của một số trang mà bạn truy cập, thông tin hệ thống giới hạn và một số nội dung trang cho Google</translation>
 <translation id="7750228210027921155">Hình trong hình</translation>
 <translation id="7751260505918304024">Hiển thị tất cả</translation>
 <translation id="7754704193130578113">Hỏi vị trí lưu từng tệp trước khi tải xuống</translation>

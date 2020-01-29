@@ -1526,7 +1526,7 @@
 
     ລາຍລະອຽດ:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">ແອັບ Brave</translation>
+<translation id="300669147395456190">ແອັບ Brave</translation>
 <translation id="3150927491400159470">ການໂຫຼດຄືນໃໝ່ຍາກ</translation>
 <translation id="315116470104423982">ຂໍ້​ມູນ​ມື​ຖື</translation>
 <translation id="3151539355209957474">ເວລາເລີ່ມຕົ້ນ</translation>
@@ -1610,7 +1610,7 @@
 <translation id="3280243678470289153">ສືບຕໍ່ຢູ່ໃນ Brave</translation>
 <translation id="3281892622610078515">ໄຟລ໌ ແລະ ໂປຣແກຣມທີ່ຈະຖືກກັກໄວ້:</translation>
 <translation id="3282210178675490297">ກຳລັງແບ່ງປັນແຖບກັບo <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">ລົງຊື່ເຂົ້າ​ໃຊ້ Brave</translation>
+<translation id="82609232232243542">ລົງຊື່ເຂົ້າ​ໃຊ້ Brave</translation>
 <translation id="3285322247471302225">ແຖບໃໝ່</translation>
 <translation id="328571385944182268">ບັນທຶກລະຫັດຜ່ານຂອງທ່ານໄວ້ບໍ?</translation>
 <translation id="3288047731229977326">ສ່ວນຂະຫຍາຍທີ່ແລ່ນຢູ່ໃນໂໝດຜູ້ພັດທະນາສາມາດເຮັດໃຫ້ຄອມພິວເຕີຂອງທ່ານເສຍຫາຍໄດ້. ຖ້າທ່ານບໍ່ແມ່ນຜູ້ພັດທະນາ, ທ່ານຄວນຈະປິດໃຊ້ງານສ່ວນຂະຫຍາຍເຫຼົ່ານີ້ທີ່ແລ່ນຢູ່ໃນໂໝດຜູ້ພັດທະນາ ເືພ່ອໃຫ້ປອດໄພ.</translation>
@@ -2441,7 +2441,7 @@
 <translation id="4469477701382819144">ບລັອກໃນເວັບໄຊທີ່ສະແດງໂຄສະນາທີ່ລົບກວນ ຫຼື ຫຼອກລວງ</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> ສາມາດແກ້ໄຂໄຟລ໌ໃນ <ph name="FOLDERNAME" /> ໄດ້</translation>
 <translation id="4470957202018033307">ການຕັ້ງຄ່າບ່ອນຈັດເກັບຂໍ້ມູນພາຍນອກ</translation>
-<translation id="447252321002412580">ຊ່ວຍປັບປຸງຄຸນສົມບັດ ແລະ ປະສິດທິພາບຂອງ Brave</translation>
+<translation id="918192811481327695">ຊ່ວຍປັບປຸງຄຸນສົມບັດ ແລະ ປະສິດທິພາບຂອງ Brave</translation>
 <translation id="4474155171896946103">ໃສ່ບຸກມາກຄ໌ທຸກແຖບ...</translation>
 <translation id="4474461121892222090">ມັນອາດຈະໃຊ້ເວລາເຖິງ 15 ນາທີໃນການເຮັດສຳເລັດການເປີດນຳໃຊ້ອິນເຕີເນັດມືຖື.</translation>
 <translation id="4475552974751346499">ຄົ້ນ​ຫາການດາວ​ໂຫຼດ​</translation>
@@ -4056,7 +4056,7 @@
 <translation id="6841186874966388268">ຂໍ້​ຜິດ​ພາດ</translation>
 <translation id="6843423766595476978">ຕັ້ງຄ່າ Ok Google ຮຽບຮ້ອຍແລ້ວ</translation>
 <translation id="6845038076637626672">ເປີດ​ທີ່ໄດ້ຂະຫຍາຍແລ້ວ</translation>
-<translation id="6845325883481699275">ຊ່ວຍປັບປຸງຄວາມປອດໄພຂອງ Brave</translation>
+<translation id="4991384657077828949">ຊ່ວຍປັບປຸງຄວາມປອດໄພຂອງ Brave</translation>
 <translation id="6848388270925200958">ຕອນນີ້, ທ່ານມີບັດຈຳນວນໜຶ່ງທີ່ສາມາດໃຊ້ໄດ້ຢູ່ໃນອຸປະກອນນີ້ເທົ່ານັ້ນ.</translation>
 <translation id="6850286078059909152">ສີຂໍ້ຄວາມ</translation>
 <translation id="6851497530878285708">ເປີດນຳໃຊ້ແອັບແລ້ວ</translation>
@@ -4547,7 +4547,7 @@
 <translation id="756445078718366910">ເປີດໜ້າ​ຕ່າງບຣາວ​ເຊີ</translation>
 <translation id="7564847347806291057">ສິ້ນສຸດຂະບວນການ</translation>
 <translation id="7566118625369982896">ຈັດການລິ້ງແອັບ Play</translation>
-<translation id="756809126120519699">ລຶບລ້າງຂໍ້ມູນ Brave ແລ້ວ</translation>
+<translation id="7814200940910057384">ລຶບລ້າງຂໍ້ມູນ Brave ແລ້ວ</translation>
 <translation id="7568790562536448087">ການອັບເດດ</translation>
 <translation id="7569983096843329377">ສີ​ດໍາ</translation>
 <translation id="7571643774869182231">ບໍ່ມີພື້ນທີ່ເກັບຂໍ້ມູນພຽງພໍສຳລັບການອັບເດດ</translation>
@@ -4667,7 +4667,7 @@
 <translation id="7737456446569756884">ອຸປະກອນນີ້ຈະໄດ້ຮັບການອັບເດດຊອບແວ ແລະ ຄວາມປອດໄພໂດຍອັດຕະໂນມັດຈົນຮອດ <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">ມາດ​ຕະ​ຖານ</translation>
 <translation id="7744047395460924128">ເບິ່ງປະຫວັດການພິມຂອງທ່ານ</translation>
-<translation id="7746457520633464754">ເພື່ອກວດຫາແອັບ ແລະ ເວັບໄຊອັນຕະລາຍ, Brave ສົ່ງ URL ຂອງບາງໜ້າເວັບທີ່ທ່ານເຂົ້າເບິ່ງ, ຂໍ້ມູນລະບົບແບບຈຳກັດ ແລະ ບາງເນື້ອຫາໜ້າເວັບໄປໃຫ້ Google</translation>
+<translation id="3712897541513849705">ເພື່ອກວດຫາແອັບ ແລະ ເວັບໄຊອັນຕະລາຍ, Brave ສົ່ງ URL ຂອງບາງໜ້າເວັບທີ່ທ່ານເຂົ້າເບິ່ງ, ຂໍ້ມູນລະບົບແບບຈຳກັດ ແລະ ບາງເນື້ອຫາໜ້າເວັບໄປໃຫ້ Google</translation>
 <translation id="7750228210027921155">ສະແດງຜົນຊ້ອນກັນ</translation>
 <translation id="7751260505918304024">ສະ​ແດງ​ທັງ​ຫມົດ</translation>
 <translation id="7754704193130578113">ຖາມບ່ອນທີ່ຈະບັນທຶກແຕ່ລະໄຟລ໌ກ່ອນການດາວໂຫຼດ</translation>

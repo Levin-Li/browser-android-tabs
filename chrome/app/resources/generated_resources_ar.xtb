@@ -1527,7 +1527,7 @@
 
     الوصف:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">‏تطبيقات Brave</translation>
+<translation id="300669147395456190">‏تطبيقات Brave</translation>
 <translation id="3150927491400159470">إعادة تحميل بشكل كامل</translation>
 <translation id="315116470104423982">بيانات الجوال</translation>
 <translation id="3151539355209957474">وقت البدء</translation>
@@ -1611,7 +1611,7 @@
 <translation id="3280243678470289153">‏الاستمرار في استخدام Brave</translation>
 <translation id="3281892622610078515">الملفات والبرامج التي تم وضعها في وحدة العزل:</translation>
 <translation id="3282210178675490297">مشاركة علامة تبويب مع <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">‏تسجيل الدخول إلى Brave</translation>
+<translation id="82609232232243542">‏تسجيل الدخول إلى Brave</translation>
 <translation id="3285322247471302225">&amp;علامة تبويب جديدة</translation>
 <translation id="328571385944182268">هل تريد حفظ كلمات المرور؟</translation>
 <translation id="3288047731229977326">يمكن أن تؤدي الإضافات التي تعمل في وضع مطور البرامج إلى إلحاق الضرر بجهاز الكمبيوتر. إذا لم تكن مطور برامج، فيجب إيقاف هذه الإضافات التي تعمل في وضع مطور البرامج للبقاء في أمان.</translation>
@@ -2439,7 +2439,7 @@
 <translation id="4469477701382819144">تم حظر الإعلانات على المواقع الإلكترونية التي تعرض إعلانات مضلِّلة أو غير مرغوب فيها</translation>
 <translation id="4469762931504673593">بإمكان <ph name="ORIGIN" /> تعديل الملفات في <ph name="FOLDERNAME" />.</translation>
 <translation id="4470957202018033307">الإعدادات المفضلة لمساحة التخزين الخارجية</translation>
-<translation id="447252321002412580">‏المساعدة في تحسين ميزات Brave وأدائه</translation>
+<translation id="918192811481327695">‏المساعدة في تحسين ميزات Brave وأدائه</translation>
 <translation id="4474155171896946103">وضع إشارات على كل علامات التبويب...</translation>
 <translation id="4474461121892222090">قد يستغرق إكمال عملية تفعيل بيانات الجوّال مدة تصل إلى 15 دقيقة.</translation>
 <translation id="4475552974751346499">البحث في التنزيلات</translation>
@@ -4053,7 +4053,7 @@
 <translation id="6841186874966388268">أخطاء</translation>
 <translation id="6843423766595476978">‏Ok Google جاهز تمامًا</translation>
 <translation id="6845038076637626672">فتح في وضع التكبير</translation>
-<translation id="6845325883481699275">‏المساعدة في تحسين أمان Brave</translation>
+<translation id="4991384657077828949">‏المساعدة في تحسين أمان Brave</translation>
 <translation id="6848388270925200958">تمتلك الآن بعض البطاقات التي يمكن استخدامها فقط على هذا الجهاز</translation>
 <translation id="6850286078059909152">لون النص</translation>
 <translation id="6851497530878285708">تم تفعيل التطبيق</translation>
@@ -4544,7 +4544,7 @@
 <translation id="756445078718366910">فتح نافذة المتصفح</translation>
 <translation id="7564847347806291057">إنهاء العملية</translation>
 <translation id="7566118625369982896">‏إدارة روابط تطبيق Play</translation>
-<translation id="756809126120519699">‏بيانات Brave التي تم محوها</translation>
+<translation id="7814200940910057384">‏بيانات Brave التي تم محوها</translation>
 <translation id="7568790562536448087">تحديث</translation>
 <translation id="7569983096843329377">أسود</translation>
 <translation id="7571643774869182231">لا تتوفر مساحة تخزين كافية لإجراء التحديث</translation>
@@ -4664,7 +4664,7 @@
 <translation id="7737456446569756884">سيتلقى هذا الجهاز تحديثات تلقائية للبرامج والأمان حتى <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">قياسي</translation>
 <translation id="7744047395460924128">الاطّلاع على سجلّ الطباعة</translation>
-<translation id="7746457520633464754">‏لرصد التطبيقات ومواقع الويب الضارة، يُرسل Brave عناوين URL لبعض الصفحات التي زرتها ومعلومات محدودة للنظام وبعض أنواع محتوى الصفحات إلى Google.</translation>
+<translation id="3712897541513849705">‏لرصد التطبيقات ومواقع الويب الضارة، يُرسل Brave عناوين URL لبعض الصفحات التي زرتها ومعلومات محدودة للنظام وبعض أنواع محتوى الصفحات إلى Google.</translation>
 <translation id="7750228210027921155">نافذة ضمن النافذة</translation>
 <translation id="7751260505918304024">عرض الكل</translation>
 <translation id="7754704193130578113">السؤال عن مكان حفظ الملفّات قبل التحميل</translation>

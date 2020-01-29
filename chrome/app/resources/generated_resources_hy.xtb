@@ -1529,7 +1529,7 @@
 
     Նկարագրություն՝
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave-ի հավելվածներ</translation>
+<translation id="300669147395456190">Brave-ի հավելվածներ</translation>
 <translation id="3150927491400159470">Նոր բեռնում սերվերից</translation>
 <translation id="315116470104423982">Բջջային կապի տվյալներ</translation>
 <translation id="3151539355209957474">Մեկնարկի ժամը</translation>
@@ -1613,7 +1613,7 @@
 <translation id="3280243678470289153">Շարունակել Brave-ում</translation>
 <translation id="3281892622610078515">Հետևյալ ֆայլերն ու ծրագրերը կմեկուսացվեն՝</translation>
 <translation id="3282210178675490297">Ներդիրն ուղարկվում է <ph name="APP_NAME" /> հավելվածին</translation>
-<translation id="3282568296779691940">Մուտք գործել Brave</translation>
+<translation id="82609232232243542">Մուտք գործել Brave</translation>
 <translation id="3285322247471302225">Նոր &amp;ներդիր</translation>
 <translation id="328571385944182268">Պահե՞լ ձեր գաղտնաբառերը</translation>
 <translation id="3288047731229977326">Մշակողի ռեժիմում գործարկվող ընդլայնումները կարող են վնասել ձեր համակարգիչը: Եթե դուք մշակող չեք, ձեր ապահովության համար խորհուրդ ենք տալիս անջատել այդ ընդլայնումները:</translation>
@@ -2444,7 +2444,7 @@
 <translation id="4469477701382819144">Արգելափակված է այն կայքերում, որոնք հոգնեցնող կամ մոլորեցնող գովազդ են ցուցադրում</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> կայքը կարող է փոփոխել <ph name="FOLDERNAME" /> պանակի ֆայլերը</translation>
 <translation id="4470957202018033307">Արտաքին հիշողության կարգավորումներ</translation>
-<translation id="447252321002412580">Օգնել ավել լավը դարձնել Brave-ի գործառույթներն ու աշխատանքը</translation>
+<translation id="918192811481327695">Օգնել ավել լավը դարձնել Brave-ի գործառույթներն ու աշխատանքը</translation>
 <translation id="4474155171896946103">Էջանշել բոլոր ներդիրները…</translation>
 <translation id="4474461121892222090">Բջջային ինտերնետն ակտիվացնելու համար կարող է պահանջվել մինչև 15 րոպե։</translation>
 <translation id="4475552974751346499">Որոնել ներբեռնումները</translation>
@@ -4062,7 +4062,7 @@
 <translation id="6841186874966388268">Սխալներ</translation>
 <translation id="6843423766595476978">«Ok Google»-ը կարգավորված է</translation>
 <translation id="6845038076637626672">Բացել առավելացված</translation>
-<translation id="6845325883481699275">Օգնել ավելի անվտանգ դարձնել Brave-ը</translation>
+<translation id="4991384657077828949">Օգնել ավելի անվտանգ դարձնել Brave-ը</translation>
 <translation id="6848388270925200958">Տվյալ պահին ձեր քարտերից որոշները կարող են օգտագործվել միայն այս սարքում</translation>
 <translation id="6850286078059909152">Տեքստի գույնը</translation>
 <translation id="6851497530878285708">Հավելվածը միացված է</translation>
@@ -4553,7 +4553,7 @@
 <translation id="756445078718366910">Բացել դիտարկիչի պատուհան</translation>
 <translation id="7564847347806291057">Ավարտել գործընթացը</translation>
 <translation id="7566118625369982896">Կառավարել Google Play հավելվածի հղումները</translation>
-<translation id="756809126120519699">Brave-ի տվյալները ջնջվեցին</translation>
+<translation id="7814200940910057384">Brave-ի տվյալները ջնջվեցին</translation>
 <translation id="7568790562536448087">Թարմացում</translation>
 <translation id="7569983096843329377">Սև</translation>
 <translation id="7571643774869182231">Թարմացման համար հիշողությունը բավարար չէ</translation>
@@ -4673,7 +4673,7 @@
 <translation id="7737456446569756884">Մինչև <ph name="MONTH_AND_YEAR" /> սարքը կստանա ծրագրային և անվտանգության կարգավորումների ավտոմատ թարմացումներ:</translation>
 <translation id="7740996059027112821">Ստանդարտ</translation>
 <translation id="7744047395460924128">Տեսնել ձեր տպումների պատմությունը</translation>
-<translation id="7746457520633464754">Վտանգավոր կայքերն ու հավելվածները հայտնաբերելու համար Brave-ը Google-ին է ուղարկում ձեր այցելած որոշ էջերի URL-ներն ու դրանց բովանդակությունը և որոշակի տեղեկություններ համակարգի մասին։</translation>
+<translation id="3712897541513849705">Վտանգավոր կայքերն ու հավելվածները հայտնաբերելու համար Brave-ը Google-ին է ուղարկում ձեր այցելած որոշ էջերի URL-ներն ու դրանց բովանդակությունը և որոշակի տեղեկություններ համակարգի մասին։</translation>
 <translation id="7750228210027921155">Նկար նկարի մեջ</translation>
 <translation id="7751260505918304024">Ցույց տալ բոլորը</translation>
 <translation id="7754704193130578113">Յուրաքանչյուր ֆայլ ներբեռնելուց առաջ հարցնել որտեղ պահել</translation>
