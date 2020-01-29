@@ -32,6 +32,7 @@ import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
 import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 import android.content.SharedPreferences;
 import org.chromium.base.ContextUtils;
+import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 
 /**
  * Fragment to keep track of the all the privacy related preferences.
@@ -52,7 +53,7 @@ public class PrivacyPreferences
 
     private ManagedPreferenceDelegate mManagedPreferenceDelegate;
 
-    private ChromeBaseCheckBoxPreference mSearchSuggestions;
+    private ChromeSwitchPreference mSearchSuggestions;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -109,7 +110,7 @@ public class PrivacyPreferences
         closeTabsOnExitPref.setOnPreferenceChangeListener(this);
         closeTabsOnExitPref.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
-        mSearchSuggestions = (ChromeBaseCheckBoxPreference) findPreference(PREF_SEARCH_SUGGESTIONS);
+        mSearchSuggestions = (ChromeSwitchPreference) findPreference(PREF_SEARCH_SUGGESTIONS);
         mSearchSuggestions.setOnPreferenceChangeListener(this);
         mSearchSuggestions.setManagedPreferenceDelegate(mManagedPreferenceDelegate);
 
