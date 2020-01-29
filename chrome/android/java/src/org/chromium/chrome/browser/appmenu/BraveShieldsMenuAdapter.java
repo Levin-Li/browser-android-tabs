@@ -41,7 +41,6 @@ import org.chromium.chrome.browser.ChromeApplication;
 //import org.chromium.chrome.browser.MixPanelWorker;
 import org.chromium.ui.base.LocalizationUtils;
 import org.chromium.ui.interpolators.BakedBezierInterpolator;
-import org.chromium.chrome.browser.init.ShieldsConfig;
 
 import java.util.List;
 import java.lang.NumberFormatException;

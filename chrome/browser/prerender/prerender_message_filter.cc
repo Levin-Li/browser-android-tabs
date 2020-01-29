@@ -19,6 +19,8 @@
 #include "content/public/browser/browser_task_traits.h"
 #include "content/public/browser/child_process_security_policy.h"
 
+#include "chrome/browser/net/blockers/shields_config.h"
+
 using content::BrowserThread;
 
 namespace prerender {
@@ -56,7 +58,8 @@ PrerenderMessageFilter::PrerenderMessageFilter(int render_process_id,
           PrerenderManagerFactory::GetForBrowserContext(profile)),
       render_process_id_(render_process_id),
       prerender_link_manager_(
-          PrerenderLinkManagerFactory::GetForProfile(profile)) {
+          PrerenderLinkManagerFactory::GetForProfile(profile)),
+      profile_(profile) {
   shutdown_notifier_ =
       PrerenderMessageFilterShutdownNotifierFactory::GetInstance()
           ->Get(profile)
@@ -82,6 +85,12 @@ bool PrerenderMessageFilter::OnMessageReceived(const IPC::Message& message) {
     IPC_MESSAGE_HANDLER(
         PrerenderHostMsg_AbandonLinkRelPrerender, OnAbandonPrerender)
     IPC_MESSAGE_HANDLER(PrerenderHostMsg_PrefetchFinished, OnPrefetchFinished)
+    IPC_MESSAGE_HANDLER_DELAY_REPLY(PrerenderHostMsg_AllowFingerprinting,
+                        OnContentAllowFingerprinting)
+    IPC_MESSAGE_HANDLER(PrerenderHostMsg_DeniedScript,
+                        OnContentDeniedScript)
+    IPC_MESSAGE_HANDLER(PrerenderHostMsg_DeniedFingerprinting,
+                        OnContentDeniedFingerprinting)
     IPC_MESSAGE_UNHANDLED(handled = false)
   IPC_END_MESSAGE_MAP()
 
@@ -172,6 +181,55 @@ void PrerenderMessageFilter::OnChannelClosingInUIThread() {
   if (!prerender_link_manager_)
     return;
   prerender_link_manager_->OnChannelClosing(render_process_id_);
+}
+
+void PrerenderMessageFilter::OnContentAllowFingerprinting(int render_frame_id,
+        const std::string& original_host,
+        IPC::Message* reply_msg) {
+
+    bool allowed = true;
+    net::blockers::ShieldsConfig* shieldsConfig =
+      net::blockers::ShieldsConfig::getShieldsConfig();
+    if (nullptr != shieldsConfig) {
+      const bool incognitoTab = (profile_ != nullptr &&
+        profile_->GetProfileType() == Profile::INCOGNITO_PROFILE) ? true : false;
+      std::string hostConfig = shieldsConfig->getHostSettings(incognitoTab, original_host);
+      // The fingerprinting flag is on position 10
+      if (hostConfig.length() >= 11) {
+        bool isGlobalBlockEnabled = true;
+        if ('0' == hostConfig[0]) {
+            isGlobalBlockEnabled = false;
+        }
+        if (isGlobalBlockEnabled && '1' == hostConfig[10]) {
+            allowed = false;
+        }
+      } else {
+        // TODO(samartnik): get global value
+        allowed = true;
+      }
+    }
+    PrerenderHostMsg_AllowFingerprinting::WriteReplyParams(reply_msg, allowed);
+    Send(reply_msg);
+}
+
+void PrerenderMessageFilter::OnContentDeniedScript(const std::string& original_url) {
+    net::blockers::ShieldsConfig* shieldsConfig =
+      net::blockers::ShieldsConfig::getShieldsConfig();
+    if (nullptr != shieldsConfig) {
+      // Send info that 1 script was blocked
+      shieldsConfig->setBlockedCountInfo(original_url,0, 0, 0, 1, 0);
+    }
+    return;
+}
+
+void PrerenderMessageFilter::OnContentDeniedFingerprinting(const std::string& original_url) {
+    net::blockers::ShieldsConfig* shieldsConfig =
+      net::blockers::ShieldsConfig::getShieldsConfig();
+    if (nullptr != shieldsConfig) {
+      // Send info that 1 fingerprinting was blocked
+      shieldsConfig->setBlockedCountInfo(original_url, 0, 0, 0, 0, 1);
+    }
+    return;
 }
 
 }  // namespace prerender

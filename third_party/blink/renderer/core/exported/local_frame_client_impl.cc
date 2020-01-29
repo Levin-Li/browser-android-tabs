@@ -302,18 +302,15 @@ bool LocalFrameClientImpl::HasWebView() const {
   return web_frame_->ViewImpl();
 }
 
-void LocalFrameClientImpl::DeniedScript()
-{
+void LocalFrameClientImpl::DeniedScript() {
   GetContentSettingsClient()->DeniedScript();
 }
 
-bool LocalFrameClientImpl::AllowFingerprinting()
-{
+bool LocalFrameClientImpl::AllowFingerprinting() {
   return GetContentSettingsClient()->AllowFingerprinting();
 }
 
-void LocalFrameClientImpl::DeniedFingerprinting()
-{
+void LocalFrameClientImpl::DeniedFingerprinting() {
   GetContentSettingsClient()->DeniedFingerprinting();
 }
 
