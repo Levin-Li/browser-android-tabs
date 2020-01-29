@@ -5,7 +5,7 @@
 <translation id="1010200102790553230">Last inn siden senere</translation>
 <translation id="1015730422737071372">Oppgi flere detaljer</translation>
 <translation id="1021110881106174305">Godkjente kort</translation>
-<translation id="1021753677514347426">Dette problemet oppstår på grunn av et sertifikat du eller noen andre har installert på enheten. Det er kjent at sertifikatet brukes til nettverksavlytting og -overvåking, og Chromium stoler ikke på det. Selv om det finnes legitime bruksområder for overvåking, f.eks. på skole- eller bedriftsnettverk, vil Chromium sørge for at du er klar over at det foregår, selv om du ikke kan stoppe det. Overvåking kan skje i alle nettlesere og applikasjoner som bruker nettet.</translation>
+<translation id="1021753677514347426">Dette problemet oppstår på grunn av et sertifikat du eller noen andre har installert på enheten. Det er kjent at sertifikatet brukes til nettverksavlytting og -overvåking, og Brave stoler ikke på det. Selv om det finnes legitime bruksområder for overvåking, f.eks. på skole- eller bedriftsnettverk, vil Brave sørge for at du er klar over at det foregår, selv om du ikke kan stoppe det. Overvåking kan skje i alle nettlesere og applikasjoner som bruker nettet.</translation>
 <translation id="1032854598605920125">Rotér med klokken</translation>
 <translation id="1036348656032585052">Slå av</translation>
 <translation id="1038842779957582377">ukjent navn</translation>
@@ -22,9 +22,9 @@
 <translation id="1088860948719068836">Legg til navnet på kortet</translation>
 <translation id="1089439967362294234">Endre passord</translation>
 <translation id="1096545575934602868">Dette feltet skal ikke ha mer enn <ph name="MAX_ITEMS_LIMIT" /> oppføringer. Oppføringer utover dette blir forkastet.</translation>
-<translation id="109743633954054152">Administrer passord i Chrome-innstillingene</translation>
+<translation id="109743633954054152">Administrer passord i Brave-innstillingene</translation>
 <translation id="1103523840287552314">Oversett alltid <ph name="LANGUAGE" /></translation>
-<translation id="1107591249535594099">Hvis det er merket av for dette alternativet, lagrer Chrome en kopi av kortet ditt på denne enheten, slik at det går raskere å fylle ut skjemaer.</translation>
+<translation id="1107591249535594099">Hvis det er merket av for dette alternativet, lagrer Brave en kopi av kortet ditt på denne enheten, slik at det går raskere å fylle ut skjemaer.</translation>
 <translation id="1110994991967754504">Velg tillatelse for <ph name="PERMISSION_NAME" /></translation>
 <translation id="1113869188872983271">&amp;Angre omorganiseringen</translation>
 <translation id="1125573121925420732">Det kan hende du ser mange advarsler mens nettstedene oppdaterer sikkerheten sin. Dette forbedres snart.</translation>
@@ -68,8 +68,8 @@
 <translation id="1264126396475825575">Programstopprapport fra <ph name="CRASH_TIME" /> (ignorert eller ikke lastet opp ennå)</translation>
 <translation id="1270502636509132238">Hentemåte</translation>
 <translation id="1285320974508926690">Oversett aldri dette nettstedet</translation>
-<translation id="1285400217480592994">Gjennomsøk innholdet i filene du laster ned eller opp i Chrome.</translation>
-<translation id="1292701964462482250">«Det er programvare på datamaskinen din som hindrer Chrome i å koble trygt til Internett» (bare på Windows-datamaskiner)</translation>
+<translation id="1285400217480592994">Gjennomsøk innholdet i filene du laster ned eller opp i Brave.</translation>
+<translation id="1292701964462482250">«Det er programvare på datamaskinen din som hindrer Brave i å koble trygt til Internett» (bare på Windows-datamaskiner)</translation>
 <translation id="1294154142200295408">Variasjoner i kommandolinjen</translation>
 <translation id="129553762522093515">Nylig lukket</translation>
 <translation id="1298536327547837046">Gjennomsøking etter skadelig programvare</translation>
@@ -160,9 +160,9 @@
 <translation id="1652415888492971589">JIS B8</translation>
 <translation id="1656489000284462475">Henting</translation>
 <translation id="1662550410081243962">Lagre og fyll ut betalingsmåter</translation>
-<translation id="1663943134801823270">Kortene og adressene er fra Chrome. Du kan administrere dem i <ph name="BEGIN_LINK" />Innstillinger<ph name="END_LINK" />.</translation>
+<translation id="1663943134801823270">Kortene og adressene er fra Brave. Du kan administrere dem i <ph name="BEGIN_LINK" />Innstillinger<ph name="END_LINK" />.</translation>
 <translation id="1671391448414634642">Fra nå av oversettes sider på <ph name="SOURCE_LANGUAGE" /> til <ph name="TARGET_LANGUAGE" />.</translation>
-<translation id="1676269943528358898"><ph name="SITE" /> bruker vanligvis kryptering for å beskytte informasjonen din. Da Chrome prøvde å koble til <ph name="SITE" /> denne gangen, sendte nettstedet tilbake uvanlig og feil legitimasjon. Dette kan skje hvis en angriper prøver å utgi seg for å være <ph name="SITE" />, eller hvis en Wi-Fi-påloggingsskjerm har avbrutt tilkoblingen. Informasjonen din er likevel sikker fordi Chrome stoppet tilkoblingen før det ble utvekslet noen data.</translation>
+<translation id="1676269943528358898"><ph name="SITE" /> bruker vanligvis kryptering for å beskytte informasjonen din. Da Brave prøvde å koble til <ph name="SITE" /> denne gangen, sendte nettstedet tilbake uvanlig og feil legitimasjon. Dette kan skje hvis en angriper prøver å utgi seg for å være <ph name="SITE" />, eller hvis en Wi-Fi-påloggingsskjerm har avbrutt tilkoblingen. Informasjonen din er likevel sikker fordi Brave stoppet tilkoblingen før det ble utvekslet noen data.</translation>
 <translation id="168841957122794586">Tjenersertifikatet inneholder en svak kryptografisk nøkkel.</translation>
 <translation id="1697532407822776718">Da er alt klart!</translation>
 <translation id="1703835215927279855">Letter</translation>
@@ -210,21 +210,21 @@
 <translation id="1914326953223720820">Utpakkingstjeneste</translation>
 <translation id="1915697529809968049">Vil du bruke Touch ID i stedet for CVC?</translation>
 <translation id="1916770123977586577">Last inn denne siden på nytt for å ta i bruk de oppdaterte innstillingene dine på dette nettstedet.</translation>
-<translation id="1917876262703816781">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Chrome anbefaler at du endrer passordet ditt på <ph name="ORIGIN" /> nå.</translation>
+<translation id="1917876262703816781">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Brave anbefaler at du endrer passordet ditt på <ph name="ORIGIN" /> nå.</translation>
 <translation id="1919345977826869612">Annonser</translation>
 <translation id="1919367280705858090">Få hjelp med spesifikke feilmeldinger</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Ingen}=1{1 nettsted}other{# nettsteder}}</translation>
 <translation id="1927235823738766038">Godkjente kreditt- og debetkort</translation>
 <translation id="194030505837763158">Gå til <ph name="LINK" /></translation>
-<translation id="1945968466830820669">Du kan miste tilgangen til organisasjonskontoen din eller bli utsatt for identitetstyveri. Chromium anbefaler at du endrer passordet ditt nå.</translation>
+<translation id="1945968466830820669">Du kan miste tilgangen til organisasjonskontoen din eller bli utsatt for identitetstyveri. Brave anbefaler at du endrer passordet ditt nå.</translation>
 <translation id="1947454675006758438">Stift oppe til høyre</translation>
 <translation id="1948773908305951926">Godkjente forhåndsbetalte kort</translation>
 <translation id="1962204205936693436"><ph name="DOMAIN" />-bokmerker</translation>
 <translation id="1973335181906896915">Serialiseringsfeil</translation>
 <translation id="1974060860693918893">Avanserte</translation>
-<translation id="1974883374937189061">Bidra til å gjøre sikkerheten i Chrome bedre ved å sende <ph name="BEGIN_WHITEPAPER_LINK" />nettadressene til noen av sidene du besøker, begrenset systeminformasjon og noe sideinnhold<ph name="END_WHITEPAPER_LINK" /> til Google. <ph name="PRIVACY_PAGE_LINK" /></translation>
+<translation id="1974883374937189061">Bidra til å gjøre sikkerheten i Brave bedre ved å sende <ph name="BEGIN_WHITEPAPER_LINK" />nettadressene til noen av sidene du besøker, begrenset systeminformasjon og noe sideinnhold<ph name="END_WHITEPAPER_LINK" /> til Google. <ph name="PRIVACY_PAGE_LINK" /></translation>
 <translation id="1978555033938440688">Fastvareversjon</translation>
-<translation id="1981206234434200693">Tøm nettlesingsloggen i Chrome</translation>
+<translation id="1981206234434200693">Tøm nettlesingsloggen i Brave</translation>
 <translation id="1992331125980284532">JIS B3</translation>
 <translation id="2001146170449793414">{COUNT,plural, =1{og 1 til}other{og # til}}</translation>
 <translation id="2003709556000175978">Tilbakestill passordet ditt nå</translation>
@@ -280,7 +280,7 @@
 <translation id="225207911366869382">Denne verdien er foreldet for denne innstillingen.</translation>
 <translation id="2258928405015593961">Oppgi en fremtidig utløpsdato, og prøv på nytt</translation>
 <translation id="2262243747453050782">HTTP-feil</translation>
-<translation id="2263079731045660823">Oppdater autofyll av kredittkortinformasjon i Chrome-innstillingene</translation>
+<translation id="2263079731045660823">Oppdater autofyll av kredittkortinformasjon i Brave-innstillingene</translation>
 <translation id="2267047181501709434">Bekrefter identiteten din …</translation>
 <translation id="2270484714375784793">Telefonnummer</translation>
 <translation id="2277103315734023688">Spol fremover</translation>
@@ -312,11 +312,11 @@
 <translation id="2392959068659972793">Vis innstillinger uten verdi</translation>
 <translation id="239429038616798445">Denne leveringsmetoden er ikke tilgjengelig. Prøv en annen metode.</translation>
 <translation id="2396249848217231973">&amp;Angre slettingen</translation>
-<translation id="2409589295040002961">Administratoren kan endre nettleseroppsettet eksternt. Aktiviteten på denne enheten kan også administreres utenfor Chrome. <ph name="BEGIN_LINK" />Finn ut mer<ph name="END_LINK" /></translation>
+<translation id="2409589295040002961">Administratoren kan endre nettleseroppsettet eksternt. Aktiviteten på denne enheten kan også administreres utenfor Brave. <ph name="BEGIN_LINK" />Finn ut mer<ph name="END_LINK" /></translation>
 <translation id="2410754574180102685">Government-Legal</translation>
 <translation id="2413528052993050574">Denne tjeneren kunne ikke bevise at den er <ph name="DOMAIN" />. Tjenerens sikkerhetssertifikat kan være trukket tilbake. Dette kan være forårsaket av en feilkonfigurering eller en angriper som avskjærer tilkoblingen din.</translation>
 <translation id="2438874542388153331">Fire hull høyre</translation>
-<translation id="245044156129055925">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Chromium anbefaler deg å bytte passord nå.</translation>
+<translation id="245044156129055925">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler deg å bytte passord nå.</translation>
 <translation id="2463193859425327265">Endre startsiden</translation>
 <translation id="2463739503403862330">Fyll ut</translation>
 <translation id="2465402087343596252">Architecture-E</translation>
@@ -330,7 +330,7 @@
 <translation id="2491120439723279231">Tjenerens sertifikat inneholder feil.</translation>
 <translation id="2493640343870896922">Letter-Plus</translation>
 <translation id="2495083838625180221">JSON Parser</translation>
-<translation id="2495093607237746763">Hvis det er merket av for dette alternativet, lagrer Chromium en kopi av kortet ditt på denne enheten, slik at det går raskere å fylle ut skjemaer.</translation>
+<translation id="2495093607237746763">Hvis det er merket av for dette alternativet, lagrer Brave en kopi av kortet ditt på denne enheten, slik at det går raskere å fylle ut skjemaer.</translation>
 <translation id="2498091847651709837">Skann nytt kort</translation>
 <translation id="2501278716633472235">Gå tilbake</translation>
 <translation id="2503184589641749290">Godkjente debetkort og forhåndsbetalte kort</translation>
@@ -427,7 +427,7 @@ brukere av denne nettleseren.</translation>
 <translation id="2948083400971632585">På innstillingssiden kan du deaktivere eventuelle proxy-tjenere for tilkoblinger.</translation>
 <translation id="295526156371527179">Advarsel: Denne regelen ble ikke sammenslått som en regelspesifisert ordliste fordi den ikke er en ordliste.</translation>
 <translation id="2955913368246107853">Lukk søkefelt</translation>
-<translation id="2969319727213777354">Klokken må være riktig stilt før du kan opprette sikre tilkoblinger. Grunnen til dette er at sertifikatene nettsteder identifiserer seg med, bare er gyldige i visse tidsperioder. Ettersom klokken på enheten din er feil, kan ikke Google Chrome bekrefte disse sertifikatene.</translation>
+<translation id="2969319727213777354">Klokken må være riktig stilt før du kan opprette sikre tilkoblinger. Grunnen til dette er at sertifikatene nettsteder identifiserer seg med, bare er gyldige i visse tidsperioder. Ettersom klokken på enheten din er feil, kan ikke Brave bekrefte disse sertifikatene.</translation>
 <translation id="2972581237482394796">Gjø&amp;r om</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" />, for øyeblikket valgt. <ph name="ROW_CONTENT" /></translation>
 <translation id="2982481275546140226">Slett data</translation>
@@ -515,7 +515,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3422472998109090673"><ph name="HOST_NAME" /> er ikke tilgjengelig for øyeblikket.</translation>
 <translation id="3427092606871434483">Tillat (standard)</translation>
 <translation id="3427342743765426898">&amp;Endre likevel</translation>
-<translation id="342781501876943858">Chromium anbefaler at du tilbakestiller passordet ditt hvis du også har brukt det på andre nettsteder.</translation>
+<translation id="342781501876943858">Brave anbefaler at du tilbakestiller passordet ditt hvis du også har brukt det på andre nettsteder.</translation>
 <translation id="3428151540071562330">Én eller flere av URI-ene for DnsOverHttpsTemplates-tjenermaler er ugyldige og blir ikke brukt.</translation>
 <translation id="3431636764301398940">Lagre dette kortet på denne enheten</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
@@ -528,7 +528,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3467763166455606212">Kortinnhaverens navn er obligatorisk</translation>
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX" /> – for øyeblikket åpen. Trykk på Tab og deretter Enter for å bytte til den åpne fanen</translation>
 <translation id="3479552764303398839">Ikke nå</translation>
-<translation id="3484560055331845446">Du kan miste tilgangen til Google-kontoen din. Chrome anbefaler at du endrer passordet ditt nå. Du blir bedt om å logge på.</translation>
+<translation id="3484560055331845446">Du kan miste tilgangen til Google-kontoen din. Brave anbefaler at du endrer passordet ditt nå. Du blir bedt om å logge på.</translation>
 <translation id="3495081129428749620">Finn på siden
     <ph name="PAGE_TITLE" /></translation>
 <translation id="3512163584740124171">Denne regelen ignoreres fordi en annen regel i den samme regelgruppen har høyere prioritet.</translation>
@@ -540,7 +540,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3566021033012934673">Tilkoblingen din er ikke privat</translation>
 <translation id="3574305903863751447"><ph name="CITY" />, <ph name="STATE" />, <ph name="COUNTRY" /></translation>
 <translation id="3576616784287504635">På en innebygd side på <ph name="SITE" /> står det</translation>
-<translation id="3581089476000296252">Chrome gir deg beskjed når denne siden er klar. &lt;a&gt;Avbryt&lt;/a&gt;</translation>
+<translation id="3581089476000296252">Brave gir deg beskjed når denne siden er klar. &lt;a&gt;Avbryt&lt;/a&gt;</translation>
 <translation id="358285529439630156">Kredittkort og forhåndsbetalte kort godtas.</translation>
 <translation id="3582930987043644930">Legg til navn</translation>
 <translation id="3583757800736429874">&amp;Flytt likevel</translation>
@@ -585,7 +585,7 @@ brukere av denne nettleseren.</translation>
 <translation id="372429172604983730">Apper som kan forårsake denne feilen, omfatter programvare for antivirus, brannmur og nettfiltrering eller proxy-tjenester.</translation>
 <translation id="373042150751172459">B4 (konvolutt)</translation>
 <translation id="3736520371357197498">Hvis du forstår sikkerhetsrisikoen, kan du <ph name="BEGIN_LINK" />gå til det usikre nettstedet<ph name="END_LINK" /> før de farlige programmene er fjernet.</translation>
-<translation id="3744899669254331632">Du kan ikke gå til <ph name="SITE" /> akkurat nå, fordi nettstedet sendte kryptert legitimasjon som Chromium ikke kan behandle. Nettverksfeil og -angrep er vanligvis forbigående, så siden kommer sikkert til å virke senere.</translation>
+<translation id="3744899669254331632">Du kan ikke gå til <ph name="SITE" /> akkurat nå, fordi nettstedet sendte kryptert legitimasjon som Brave ikke kan behandle. Nettverksfeil og -angrep er vanligvis forbigående, så siden kommer sikkert til å virke senere.</translation>
 <translation id="3745099705178523657">Etter at du har bekreftet, deles kortopplysningene fra Google-kontoen din med dette nettstedet.</translation>
 <translation id="3748148204939282805">Angripere på <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> kan lure deg til å gjøre farlige ting, deriblant å installere programvare eller oppgi personopplysninger (for eksempel passord, telefonnumre og kredittkortinformasjon). <ph name="BEGIN_LEARN_MORE_LINK" />Finn ut mer<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="375403751935624634">Oversettelsen mislyktes på grunn av en tjenerfeil.</translation>
@@ -606,7 +606,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3828924085048779000">Tom passordfrase er ikke tillatt.</translation>
 <translation id="3831915413245941253"><ph name="ENROLLMENT_DOMAIN" /> har installert utvidelser for tilleggsfunksjoner. Utvidelsene har tilgang til noen av dataene dine.</translation>
 <translation id="3832522519263485449">Flere hull venstre</translation>
-<translation id="3838154488026099170">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Chromium anbefaler at du går til <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> og <ph name="WEBSITE_3" />, samt andre nettsteder der du bruker dette passordet, og bytter det nå.</translation>
+<translation id="3838154488026099170">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du går til <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> og <ph name="WEBSITE_3" />, samt andre nettsteder der du bruker dette passordet, og bytter det nå.</translation>
 <translation id="385051799172605136">Tilbake</translation>
 <translation id="3858027520442213535">Oppdater dato og klokkeslett</translation>
 <translation id="3884278016824448484">Motstridende enhetsidentifikator</translation>
@@ -630,7 +630,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3964661563329879394">{COUNT,plural, =0{Ingen}=1{Fra 1 nettsted }other{Fra # nettsteder }}</translation>
 <translation id="397105322502079400">Beregner …</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME" /> er blokkert</translation>
-<translation id="3987405730340719549">Chrome har funnet ut at dette nettstedet kan være falskt eller prøve å svindle deg.
+<translation id="3987405730340719549">Brave har funnet ut at dette nettstedet kan være falskt eller prøve å svindle deg.
 
     Hvis du mener at dette er en feil, kan du gå til https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="3987940399970879459">Under 1 MB</translation>
@@ -644,7 +644,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4072486802667267160">Det oppsto en feil under behandlingen av bestillingen din. Prøv på nytt.</translation>
 <translation id="4075732493274867456">Klienten og tjeneren støtter ingen felles SSL-protokollversjon eller -chifferserie.</translation>
 <translation id="4075941231477579656">Touch ID</translation>
-<translation id="4077092919748553596">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Chrome anbefaler at du går til <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> og <ph name="WEBSITE_3" />, samt andre nettsteder der du bruker dette passordet, og bytter det nå.</translation>
+<translation id="4077092919748553596">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du går til <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> og <ph name="WEBSITE_3" />, samt andre nettsteder der du bruker dette passordet, og bytter det nå.</translation>
 <translation id="4079302484614802869">Konfigurasjonen av proxytjeneren er angitt til å bruke en nettadresse med .pac-skript, ikke statiske proxytjenere.</translation>
 <translation id="4082393374666368382">Innstillinger – Administrasjon</translation>
 <translation id="4098354747657067197">Villedende nettsted i sikte</translation>
@@ -684,11 +684,11 @@ brukere av denne nettleseren.</translation>
     &lt;/ol&gt;
     &lt;h4&gt;Trinn 2: Åpne siden i inkognitomodus (bare på datamaskiner)&lt;/h4&gt;
     &lt;p&gt;Åpne siden du besøkte, i et inkognitovindu.&lt;/p&gt;
-    &lt;p&gt;Hvis siden åpnes, har du en Chrome-utvidelse som ikke fungerer som den skal. For å fikse feilen, slå av utvidelsen.&lt;/p&gt;
+    &lt;p&gt;Hvis siden åpnes, har du en Brave-utvidelse som ikke fungerer som den skal. For å fikse feilen, slå av utvidelsen.&lt;/p&gt;
     &lt;h4&gt;Trinn 3: Oppdater operativsystemet&lt;/h4&gt;
     &lt;p&gt;Sørg for at enheten din er oppdatert.&lt;/p&gt;
     &lt;h4&gt;Trinn 4: Slå av antivirusprogramvaren midlertidig&lt;/h4&gt;
-    &lt;p&gt;Du ser denne feilmeldingen hvis du har antivirusprogramvare som tilbyr «HTTPS-beskyttelse» eller «HTTPS-skanning», noe som gjør at sikkerhetsfunksjonene i Chrome ikke fungerer.&lt;/p&gt;
+    &lt;p&gt;Du ser denne feilmeldingen hvis du har antivirusprogramvare som tilbyr «HTTPS-beskyttelse» eller «HTTPS-skanning», noe som gjør at sikkerhetsfunksjonene i Brave ikke fungerer.&lt;/p&gt;
     &lt;p&gt;For å fikse dette problemet, slå av antivirusprogramvaren. Hvis siden fungerer når du har slått av programvaren, bør du slå den av når du bruker sikre nettsteder.&lt;/p&gt;
     &lt;p&gt;Husk å slå på antivirusprogramvaren igjen når du er ferdig.&lt;/p&gt;
     &lt;h4&gt;Trinn 5: Få mer hjelp&lt;/h4&gt;
@@ -706,7 +706,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4277028893293644418">Tilbakestill passordet</translation>
 <translation id="4279811152705618813"><ph name="DEVICE_TYPE" /> administreres av <ph name="ENROLLMENT_DOMAIN" /></translation>
 <translation id="428639260510061158">{NUM_CARDS,plural, =1{Dette kortet er lagret i Google-kontoen din}other{Disse kortene er lagret i Google-kontoen din}}</translation>
-<translation id="428847186335018806">Gjennomsøk filer du laster ned eller opp i Chrome.</translation>
+<translation id="428847186335018806">Gjennomsøk filer du laster ned eller opp i Brave.</translation>
 <translation id="42981349822642051">Vis</translation>
 <translation id="4300675098767811073">Flere hull høyre</translation>
 <translation id="4302965934281694568">Chou3 (konvolutt)</translation>
@@ -718,14 +718,14 @@ brukere av denne nettleseren.</translation>
 <translation id="4325863107915753736">Artikkelen ble ikke funnet</translation>
 <translation id="4326324639298822553">Kontrollér utløpsdatoen, og prøv igjen</translation>
 <translation id="4331708818696583467">Ikke sikker</translation>
-<translation id="4340982228985273705">Denne datamaskinen er ikke registrert som administrert av en bedrift, så regelen kan bare automatisk installere utvidelser som finnes på Chrome Nettmarked. Nettadressen for Chrome Nettmarked-oppdateringen er «<ph name="CWS_UPDATE_URL" />».</translation>
+<translation id="4340982228985273705">Denne datamaskinen er ikke registrert som administrert av en bedrift, så regelen kan bare automatisk installere utvidelser som finnes på Brave Nettmarked. Nettadressen for Brave Nettmarked-oppdateringen er «<ph name="CWS_UPDATE_URL" />».</translation>
 <translation id="4346197816712207223">Godkjente kredittkort</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
-<translation id="4349531505348777662">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Chrome anbefaler at du går til <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> og andre nettsteder der du bruker dette passordet, og endrer det nå.</translation>
+<translation id="4349531505348777662">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du går til <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> og andre nettsteder der du bruker dette passordet, og endrer det nå.</translation>
 <translation id="4356973930735388585">Angripere på dette nettstedet kan prøve å installere farlige programmer på datamaskinen din. Disse kan stjele eller slette informasjonen din (for eksempel bilder, passord, e-post og kredittkortinformasjon).</translation>
 <translation id="4358059973562876591">Malene du har angitt, kan ikke tas i bruk på grunn av en feil med DnsOverHttpsMode-regelen.</translation>
 <translation id="4358461427845829800">Administrer betalingsmåter…</translation>
-<translation id="4359160567981085931">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Chrome kan hjelpe deg. For å bytte passord og varsle Google om at kontoen din kanskje er i fare, klikk på Beskytt konto.</translation>
+<translation id="4359160567981085931">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave kan hjelpe deg. For å bytte passord og varsle Google om at kontoen din kanskje er i fare, klikk på Beskytt konto.</translation>
 <translation id="4367563149485757821">Number-12 (konvolutt)</translation>
 <translation id="437058704415269440">Kontosaldo</translation>
 <translation id="4372516964750095882">Fanfold-Us</translation>
@@ -735,7 +735,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4406896451731180161">søkeresultater</translation>
 <translation id="4408413947728134509">Informasjonskapsler <ph name="NUM_COOKIES" /></translation>
 <translation id="4415426530740016218">Henteadresse</translation>
-<translation id="4424024547088906515">Denne tjeneren kunne ikke bevise at den er <ph name="DOMAIN" />. Sikkerhetssertifikatet til tjeneren er ikke klarert av Chrome. Dette kan være forårsaket av en feilkonfigurering eller en angriper som avskjærer tilkoblingen din.</translation>
+<translation id="4424024547088906515">Denne tjeneren kunne ikke bevise at den er <ph name="DOMAIN" />. Sikkerhetssertifikatet til tjeneren er ikke klarert av Brave. Dette kan være forårsaket av en feilkonfigurering eller en angriper som avskjærer tilkoblingen din.</translation>
 <translation id="443121186588148776">Seriell port</translation>
 <translation id="4432688616882109544">Enten godtok ikke <ph name="HOST_NAME" /> påloggingssertifikatet ditt, eller så ble det ikke oppgitt.</translation>
 <translation id="4434045419905280838">Forgrunnsvinduer/viderekoblinger</translation>
@@ -746,7 +746,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4477350412780666475">Neste spor</translation>
 <translation id="4482953324121162758">Dette nettstedet oversettes ikke.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="4492519888999857993">Som standard er disse funksjonene avslått. De kommer ikke til å være tilgjengelige i fremtidige versjoner av Chrome.</translation>
+<translation id="4492519888999857993">Som standard er disse funksjonene avslått. De kommer ikke til å være tilgjengelige i fremtidige versjoner av Brave.</translation>
 <translation id="4493480324863638523">Ugyldig nettadresse. Dette må være en nettadresse på standardformat, f.eks. http://example.com eller https://example.com.</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
 <translation id="4506176782989081258">Valideringsfeil: <ph name="VALIDATION_ERROR" /></translation>
@@ -754,7 +754,7 @@ brukere av denne nettleseren.</translation>
 <translation id="450710068430902550">Deling med administratoren</translation>
 <translation id="4508814173490746936">Kunne ikke bruke Touch ID</translation>
 <translation id="4510487217173779431">Chou4 (konvolutt)</translation>
-<translation id="4515275063822566619">Kortene og adressene er fra Chrome og Google-kontoen din (<ph name="ACCOUNT_EMAIL" />). Du kan administrere dem i <ph name="BEGIN_LINK" />Innstillinger<ph name="END_LINK" />.</translation>
+<translation id="4515275063822566619">Kortene og adressene er fra Brave og Google-kontoen din (<ph name="ACCOUNT_EMAIL" />). Du kan administrere dem i <ph name="BEGIN_LINK" />Innstillinger<ph name="END_LINK" />.</translation>
 <translation id="4517607026994743406">Comm-10 (konvolutt)</translation>
 <translation id="4522570452068850558">Detaljer</translation>
 <translation id="4524138615196389145">Bekreft kortene dine raskere ved å bruke WebAuthn fra nå av</translation>
@@ -766,7 +766,7 @@ brukere av denne nettleseren.</translation>
 <translation id="457875822857220463">Levering</translation>
 <translation id="4579056131138995126">Personlig (konvolutt)</translation>
 <translation id="4582204425268416675">Fjern kortet</translation>
-<translation id="4587425331216688090">Vil du fjerne adressen fra Chrome?</translation>
+<translation id="4587425331216688090">Vil du fjerne adressen fra Brave?</translation>
 <translation id="4592951414987517459">Tilkoblingen til <ph name="DOMAIN" /> er kryptert med en moderne chifferserie.</translation>
 <translation id="4594403342090139922">&amp;Angre slettingen</translation>
 <translation id="4597348597567598915">Størrelse 8</translation>
@@ -788,7 +788,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4726672564094551039">Last inn retningslinjer på nytt</translation>
 <translation id="4728558894243024398">Plattform</translation>
 <translation id="4731967714531604179">Prc2 (konvolutt)</translation>
-<translation id="4736825316280949806">Start Chromium på nytt</translation>
+<translation id="4736825316280949806">Start Brave på nytt</translation>
 <translation id="473775607612524610">Oppdater</translation>
 <translation id="4738601419177586157">Søkeforslag for <ph name="TEXT" /></translation>
 <translation id="4742407542027196863">Administrer passord…</translation>
@@ -806,7 +806,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4800132727771399293">Kontrollér utløpsdatoen og CVC-koden, og prøv igjen.</translation>
 <translation id="480334179571489655">Feil i opprinnelsesregel</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
-<translation id="4807049035289105102">Du kan ikke gå til <ph name="SITE" /> akkurat nå, fordi nettstedet sendte kryptert legitimasjon som Google Chrome ikke kan behandle. Nettverksfeil og -angrep er vanligvis forbigående, så siden kommer sikkert til å virke senere.</translation>
+<translation id="4807049035289105102">Du kan ikke gå til <ph name="SITE" /> akkurat nå, fordi nettstedet sendte kryptert legitimasjon som Brave ikke kan behandle. Nettverksfeil og -angrep er vanligvis forbigående, så siden kommer sikkert til å virke senere.</translation>
 <translation id="4813512666221746211">Nettverksfeil</translation>
 <translation id="4816492930507672669">Tilpass til siden</translation>
 <translation id="4850886885716139402">Visning</translation>
@@ -839,7 +839,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4989542687859782284">Utilgjengelig</translation>
 <translation id="4989809363548539747">Dette programtillegget støttes ikke</translation>
 <translation id="4995216769782533993">Bekreft sikkerhetskoden for å dele kortopplysningene dine med dette nettstedet</translation>
-<translation id="5002932099480077015">Hvis du slår på dette alternativet, lagrer Chrome en kopi av kortet ditt på denne enheten, slik at det blir raskere å fylle ut skjemaer i fremtiden.</translation>
+<translation id="5002932099480077015">Hvis du slår på dette alternativet, lagrer Brave en kopi av kortet ditt på denne enheten, slik at det blir raskere å fylle ut skjemaer i fremtiden.</translation>
 <translation id="5015510746216210676">Maskinnavn:</translation>
 <translation id="5017554619425969104">Teksten du kopierte</translation>
 <translation id="5018422839182700155">Kan ikke åpne denne siden</translation>
@@ -862,14 +862,14 @@ brukere av denne nettleseren.</translation>
 <translation id="5087580092889165836">Legg til et kort</translation>
 <translation id="5089810972385038852">Fylke/delstat</translation>
 <translation id="5093232627742069661">Z-fals</translation>
-<translation id="5094747076828555589">Denne tjeneren kunne ikke bevise at den er <ph name="DOMAIN" />. Sikkerhetssertifikatet til tjeneren er ikke klarert av Chromium. Dette kan være forårsaket av en feilkonfigurering eller en angriper som avskjærer tilkoblingen din.</translation>
+<translation id="5094747076828555589">Denne tjeneren kunne ikke bevise at den er <ph name="DOMAIN" />. Sikkerhetssertifikatet til tjeneren er ikke klarert av Brave. Dette kan være forårsaket av en feilkonfigurering eller en angriper som avskjærer tilkoblingen din.</translation>
 <translation id="5095208057601539847">Provins</translation>
 <translation id="5097099694988056070">Enhetsstatistikk, som prosessor- og minnebruk</translation>
 <translation id="5097501891273180634">A2</translation>
 <translation id="5112422516732747637">A5</translation>
 <translation id="5115216390227830982">European-Edp</translation>
 <translation id="5115563688576182185">(64-bit)</translation>
-<translation id="5121469660360593280">Del data om sikkerhetshendelser som er rapportert av Chrome Enterprise User Protect, med administratoren din. Dette kan omfatte nettadressene til sider du besøker, filnavn, metadata og brukernavnet du bruker når du logger på enheten din og Chrome.</translation>
+<translation id="5121469660360593280">Del data om sikkerhetshendelser som er rapportert av Brave Enterprise User Protect, med administratoren din. Dette kan omfatte nettadressene til sider du besøker, filnavn, metadata og brukernavnet du bruker når du logger på enheten din og Brave.</translation>
 <translation id="5125394840236832993">B-Plus</translation>
 <translation id="5126510351761255129">Bekreft kortet ditt</translation>
 <translation id="5135404736266831032">Adminstrer adresser…</translation>
@@ -880,8 +880,8 @@ brukere av denne nettleseren.</translation>
 <translation id="5158275234811857234">Omslag</translation>
 <translation id="5159010409087891077">Åpne siden i et nytt inkognitovindu (⇧ + ⌘ + N)</translation>
 <translation id="516920405563544094">Skriv inn verifiseringskoden for <ph name="CREDIT_CARD" />. Etter at du har bekreftet, deles kortopplysningene fra Google-kontoen din med dette nettstedet.</translation>
-<translation id="5169827969064885044">Du kan miste tilgangen til organisasjonskontoen din eller bli utsatt for identitetstyveri. Chrome anbefaler at du endrer passordet ditt nå.</translation>
-<translation id="5170017743895942767">Chrome Enterprise User Protect</translation>
+<translation id="5169827969064885044">Du kan miste tilgangen til organisasjonskontoen din eller bli utsatt for identitetstyveri. Brave anbefaler at du endrer passordet ditt nå.</translation>
+<translation id="5170017743895942767">Brave Enterprise User Protect</translation>
 <translation id="5171045022955879922">Søk, eller skriv inn en nettadresse</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">Datamaskin</translation>
@@ -912,7 +912,7 @@ brukere av denne nettleseren.</translation>
 <translation id="5287240709317226393">Vis informasjonskapsler</translation>
 <translation id="5287456746628258573">Dette nettstedet bruker en utdatert sikkerhetskonfigurasjon, som betyr at informasjonen din (for eksempel passord eller kredittkortnumre) kan bli avslørt når den sendes til dette nettstedet.</translation>
 <translation id="5288108484102287882">Det har oppstått advarsler under validering av regelverdier</translation>
-<translation id="5295292838686006428">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Chrome anbefaler at du sjekker de lagrede passordene dine nå.</translation>
+<translation id="5295292838686006428">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Brave anbefaler at du sjekker de lagrede passordene dine nå.</translation>
 <translation id="5299298092464848405">Feil under analysen av enhetsinnstillingene</translation>
 <translation id="5300589172476337783">Vis</translation>
 <translation id="5308380583665731573">Koble til</translation>
@@ -962,7 +962,7 @@ brukere av denne nettleseren.</translation>
 <translation id="5540224163453853">Den forespurte artikkelen ble ikke funnet.</translation>
 <translation id="5541546772353173584">Legg til e-post</translation>
 <translation id="5545756402275714221">Artikler for deg</translation>
-<translation id="5552137475244467770">Chrome sjekker passordene dine regelmessig mot lister som er lagt ut på nett. Når dette gjøres, er passordene og brukernavnene dine kryptert. Det betyr at ingen kan lese dem, ikke engang Google.</translation>
+<translation id="5552137475244467770">Brave sjekker passordene dine regelmessig mot lister som er lagt ut på nett. Når dette gjøres, er passordene og brukernavnene dine kryptert. Det betyr at ingen kan lese dem, ikke engang Google.</translation>
 <translation id="5556459405103347317">Last inn på nytt</translation>
 <translation id="5560088892362098740">Utløpsdato</translation>
 <translation id="5565735124758917034">Aktiv</translation>
@@ -975,7 +975,7 @@ brukere av denne nettleseren.</translation>
 <translation id="560412284261940334">Administrering støttes ikke</translation>
 <translation id="5605670050355397069">Ledger</translation>
 <translation id="5607240918979444548">Architecture-C</translation>
-<translation id="5608165884683734521">Dette nettstedet kan være falskt eller prøve å svindle deg. Chrome anbefaler at du forlater det nå.</translation>
+<translation id="5608165884683734521">Dette nettstedet kan være falskt eller prøve å svindle deg. Brave anbefaler at du forlater det nå.</translation>
 <translation id="5610142619324316209">Sjekk tilkoblingen</translation>
 <translation id="5610807607761827392">Du kan administrere kort og adresser i <ph name="BEGIN_LINK" />Innstillinger<ph name="END_LINK" />.</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME" /> viderekoblet deg for mange ganger.</translation>
@@ -999,10 +999,10 @@ brukere av denne nettleseren.</translation>
 <translation id="5719499550583120431">Forhåndsbetalte kort godtas.</translation>
 <translation id="5720705177508910913">Gjeldende bruker</translation>
 <translation id="5728056243719941842">C5 (konvolutt)</translation>
-<translation id="5730040223043577876">Chrome anbefaler at du tilbakestiller passordet ditt hvis du også har brukt det på andre nettsteder.</translation>
+<translation id="5730040223043577876">Brave anbefaler at du tilbakestiller passordet ditt hvis du også har brukt det på andre nettsteder.</translation>
 <translation id="5737183892635480227">{NUM_CARDS,plural, =1{Lagre kort i Google-kontoen din}other{Lagre kort i Google-kontoen din}}</translation>
 <translation id="5763042198335101085">Angi en gyldig e-postadresse</translation>
-<translation id="5763703224595565476">Administratoren har slått på Chrome Enterprise User Protect i nettleseren din. Chrome Enterprise User Protect har tilgang til noen av dataene dine.</translation>
+<translation id="5763703224595565476">Administratoren har slått på Brave Enterprise User Protect i nettleseren din. Brave Enterprise User Protect har tilgang til noen av dataene dine.</translation>
 <translation id="5765072501007116331">For å se leveringsmetoder og -krav, velg en adresse</translation>
 <translation id="5778550464785688721">Full kontroll av MIDI-enheter</translation>
 <translation id="5781136890105823427">Et eksperiment er slått på</translation>
@@ -1012,7 +1012,7 @@ brukere av denne nettleseren.</translation>
 <translation id="5785756445106461925">Denne siden inneholder i tillegg andre ressurser som ikke er sikre. Disse ressursene er synlige for andre mens de sendes frem og tilbake, og eventuelle angripere kan modifisere dem for å endre på utseendet til siden.</translation>
 <translation id="5786044859038896871">Vil du fylle ut kortinformasjonen?</translation>
 <translation id="5798290721819630480">Vil du forkaste endringene?</translation>
-<translation id="5798683403665926540">Endre startsiden i Chrome-innstillingene</translation>
+<translation id="5798683403665926540">Endre startsiden i Brave-innstillingene</translation>
 <translation id="5803412860119678065">Vil du fylle ut informasjonen knyttet til <ph name="CARD_DETAIL" />?</translation>
 <translation id="5804241973901381774">Tillatelser</translation>
 <translation id="5810442152076338065">Tilkoblingen til <ph name="DOMAIN" /> er kryptert med en foreldet chifferserie.</translation>
@@ -1092,7 +1092,7 @@ brukere av denne nettleseren.</translation>
 <translation id="6165508094623778733">Finn ut mer</translation>
 <translation id="6177128806592000436">Tilkoblingen til dette nettstedet er ikke sikker</translation>
 <translation id="6203231073485539293">Kontrollér Internett-tilkoblingen</translation>
-<translation id="6218753634732582820">Vil du fjerne adressen fra Chromium?</translation>
+<translation id="6218753634732582820">Vil du fjerne adressen fra Brave?</translation>
 <translation id="622039917539443112">Parallellfals</translation>
 <translation id="6221345481584921695">Google Safe Browsing oppdaget nylig <ph name="BEGIN_LINK" />skadelig programvare<ph name="END_LINK" /> på <ph name="SITE" />. Nettsteder som vanligvis er trygge, kan noen ganger være infisert med skadelig programvare. Det skadelige innholdet kommer fra <ph name="SUBRESOURCE_HOST" />, som er en kjent distributør av skadelig programvare.</translation>
 <translation id="6234122620015464377">Beskjær etter hvert dokument</translation>
@@ -1107,7 +1107,7 @@ brukere av denne nettleseren.</translation>
 <translation id="6266934640124581640">Lys blågrønn</translation>
 <translation id="6276112860590028508">Sider fra leselisten din vises her</translation>
 <translation id="627746635834430766">For å betale raskere neste gang, lagre kortet ditt og faktureringsadressen i Google-kontoen din.</translation>
-<translation id="6279516281132775660">Chrome <ph name="BEGIN_EMPHASIS" />lagrer ikke<ph name="END_EMPHASIS" />
+<translation id="6279516281132775660">Brave <ph name="BEGIN_EMPHASIS" />lagrer ikke<ph name="END_EMPHASIS" />
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />nettleserloggen din
           <ph name="LIST_ITEM" />informasjonskapsler og nettstedsdata
@@ -1117,7 +1117,7 @@ brukere av denne nettleseren.</translation>
 <translation id="6282194474023008486">Postnummer</translation>
 <translation id="6290238015253830360">De foreslåtte artiklene dine vises her</translation>
 <translation id="6293309776179964942">JIS B5</translation>
-<translation id="6302269476990306341">Stopper Google-assistenten i Chrome</translation>
+<translation id="6302269476990306341">Stopper Google-assistenten i Brave</translation>
 <translation id="6305205051461490394"><ph name="URL" /> er ikke tilgjengelig.</translation>
 <translation id="6321917430147971392">Kontrollér DNS-innstillingene dine</translation>
 <translation id="6322182122604171028">Kunne ikke bruke Windows Hello</translation>
@@ -1141,9 +1141,9 @@ brukere av denne nettleseren.</translation>
 <translation id="6401136357288658127">Denne regelen er avviklet. Du bør bruke den nye regelen <ph name="NEW_POLICY" /> i stedet.</translation>
 <translation id="6404511346730675251">Rediger bokmerket</translation>
 <translation id="6406765186087300643">C0 (konvolutt)</translation>
-<translation id="6409754798200046165">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Chrome anbefaler deg å bytte passord nå.</translation>
+<translation id="6409754798200046165">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler deg å bytte passord nå.</translation>
 <translation id="6410264514553301377">Skriv inn utløpsdatoen og verifiseringskoden for <ph name="CREDIT_CARD" /></translation>
-<translation id="6415778972515849510">Chromium kan hjelpe deg med å beskytte Google-kontoen din og endre passordet ditt.</translation>
+<translation id="6415778972515849510">Brave kan hjelpe deg med å beskytte Google-kontoen din og endre passordet ditt.</translation>
 <translation id="6423385022588644828">Bekreft kortene dine raskere ved å bruke Touch ID fra nå av</translation>
 <translation id="6427730057873428458">Vindusfals</translation>
 <translation id="6433490469411711332">Endre kontaktinformasjonen</translation>
@@ -1162,7 +1162,7 @@ brukere av denne nettleseren.</translation>
 <translation id="6489534406876378309">Start opplastingen av krasj</translation>
 <translation id="6499038740797743453">Vil du tilbakestille passordet?</translation>
 <translation id="6507833130742554667">Kreditt- og debetkort godtas.</translation>
-<translation id="6508722015517270189">Start Chrome på nytt</translation>
+<translation id="6508722015517270189">Start Brave på nytt</translation>
 <translation id="6517596291481585650">Advarsel: Denne regelen ble ikke sammenslått som en regelspesifisert liste fordi den ikke er en liste.</translation>
 <translation id="6518133107902771759">Bekreft</translation>
 <translation id="6521745193039995384">Ikke aktiv</translation>
@@ -1196,9 +1196,9 @@ brukere av denne nettleseren.</translation>
 <translation id="6657585470893396449">Passord</translation>
 <translation id="6665553082534466207">Tre hull høyre</translation>
 <translation id="6670613747977017428">Tilbake til trygg grunn.</translation>
-<translation id="6671697161687535275">Vil du fjerne forslaget fra Chromium?</translation>
+<translation id="6671697161687535275">Vil du fjerne forslaget fra Brave?</translation>
 <translation id="6685834062052613830">Logg av og fullfør konfigurasjonen</translation>
-<translation id="6689271823431384964">Chrome tilbyr å lagre kort i Google-kontoen din fordi du er logget på. Du kan endre dette i innstillingene. Kortinnehaverens navn kommer fra kontoen din.</translation>
+<translation id="6689271823431384964">Brave tilbyr å lagre kort i Google-kontoen din fordi du er logget på. Du kan endre dette i innstillingene. Kortinnehaverens navn kommer fra kontoen din.</translation>
 <translation id="6704582573942289642">Er dette riktig nettsted?</translation>
 <translation id="6710213216561001401">Forrige</translation>
 <translation id="6710594484020273272">&lt;Skriv inn en søketerm&gt;</translation>
@@ -1245,7 +1245,7 @@ brukere av denne nettleseren.</translation>
 <translation id="6970216967273061347">Område</translation>
 <translation id="6973656660372572881">Både statiske proxytjenere og en .pac-skriptnettadresse er angitt.</translation>
 <translation id="6973932557599545801">Beklager, jeg kan ikke hjelpe deg. Fortsett på egen hånd.</translation>
-<translation id="6975012522936652259">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Chromium anbefaler at du går til <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> og andre nettsteder der du bruker dette passordet, og endrer det nå.</translation>
+<translation id="6975012522936652259">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du går til <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> og andre nettsteder der du bruker dette passordet, og endrer det nå.</translation>
 <translation id="6979158407327259162">Google Disk</translation>
 <translation id="6979440798594660689">Kutt lyden (standard)</translation>
 <translation id="6989763994942163495">Vis avanserte innstillinger</translation>
@@ -1315,11 +1315,11 @@ brukere av denne nettleseren.</translation>
 <translation id="733923710415886693">Tjenerens sertifikat er ikke vist i henhold til regelen for sertifikatåpenhet.</translation>
 <translation id="734600844861828519">11x15</translation>
 <translation id="7346048084945669753">Er tilknyttet:</translation>
-<translation id="73479065977517481"><ph name="ENROLLMENT_DOMAIN" /> har slått på Chrome Enterprise User Protect i nettleseren. Chrome Enterprise User Protect har tilgang til noen av dataene dine.</translation>
+<translation id="73479065977517481"><ph name="ENROLLMENT_DOMAIN" /> har slått på Brave Enterprise User Protect i nettleseren. Brave Enterprise User Protect har tilgang til noen av dataene dine.</translation>
 <translation id="7349430561505560861">A4-Extra</translation>
 <translation id="7353601530677266744">Kommandolinje </translation>
 <translation id="7372973238305370288">søkeresultat</translation>
-<translation id="7374733840632556089">Dette problemet oppstår på grunn av et sertifikat du eller noen andre har installert på enheten. Det er kjent at sertifikatet brukes til nettverksavlytting og -overvåking, og Chrome stoler ikke på det. Selv om det finnes legitime bruksområder for overvåking, f.eks. på skole- eller bedriftsnettverk, vil Chrome sørge for at du er klar over at det foregår, selv om du ikke kan stoppe det. Overvåking kan skje i alle nettlesere og applikasjoner som bruker nettet.</translation>
+<translation id="7374733840632556089">Dette problemet oppstår på grunn av et sertifikat du eller noen andre har installert på enheten. Det er kjent at sertifikatet brukes til nettverksavlytting og -overvåking, og Brave stoler ikke på det. Selv om det finnes legitime bruksområder for overvåking, f.eks. på skole- eller bedriftsnettverk, vil Brave sørge for at du er klar over at det foregår, selv om du ikke kan stoppe det. Overvåking kan skje i alle nettlesere og applikasjoner som bruker nettet.</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE" /> – <ph name="FULL_DATE" /></translation>
 <translation id="7378594059915113390">Mediekontroller</translation>
 <translation id="7378627244592794276">Nei takk</translation>
@@ -1335,7 +1335,7 @@ brukere av denne nettleseren.</translation>
       &lt;li&gt;Velg &lt;strong&gt;Deaktivert&lt;/strong&gt; under &lt;strong&gt;Oppstartstype&lt;/strong&gt;.
       &lt;li&gt;Klikk på &lt;strong&gt;Stopp&lt;/strong&gt; under &lt;strong&gt;Tjenestestatus&lt;/strong&gt;.
       &lt;li&gt;Klikk på &lt;strong&gt;Bruk&lt;/strong&gt; og deretter på &lt;strong&gt;OK&lt;/strong&gt;.
-      &lt;li&gt;Gå til &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;brukerstøtten for Chrome&lt;/a&gt; for å finne ut hvordan du fjerner programvaren fra datamaskinen permanent.
+      &lt;li&gt;Gå til &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;brukerstøtten for Brave&lt;/a&gt; for å finne ut hvordan du fjerner programvaren fra datamaskinen permanent.
       &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7416351320495623771">Administrer passord…</translation>
@@ -1351,7 +1351,7 @@ brukere av denne nettleseren.</translation>
 <translation id="7473891865547856676">Nei takk</translation>
 <translation id="7481312909269577407">Frem</translation>
 <translation id="7485870689360869515">Ingen data ble funnet.</translation>
-<translation id="7495290002932347110">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Chrome anbefaler at du sjekker de lagrede passordene dine og endrer passordet på <ph name="ORIGIN" /> nå.</translation>
+<translation id="7495290002932347110">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Brave anbefaler at du sjekker de lagrede passordene dine og endrer passordet på <ph name="ORIGIN" /> nå.</translation>
 <translation id="7498234416455752244">Fortsett å endre</translation>
 <translation id="7508255263130623398">Den returnerte enhets-ID-en for regelen er tom eller samsvarer ikke med den faktiske enhets-ID-en</translation>
 <translation id="7508870219247277067">Avokadogrønn</translation>
@@ -1368,12 +1368,12 @@ brukere av denne nettleseren.</translation>
 <translation id="7542995811387359312">Automatisk utfylling av kredittkort er deaktivert fordi dette skjemaet ikke bruker en sikker tilkobling.</translation>
 <translation id="7548892272833184391">Fiks tilkoblingsfeil</translation>
 <translation id="7549584377607005141">Denne nettsiden krever data som du har skrevet inn tidligere for å vises korrekt. Du kan sende inn dataene på nytt, men hvis du gjør det, gjentas eventuelle handlinger denne siden utførte.</translation>
-<translation id="7550637293666041147">Brukernavnet ditt på enheten og i Chrome</translation>
+<translation id="7550637293666041147">Brukernavnet ditt på enheten og i Brave</translation>
 <translation id="7552846755917812628">Prøv følgende tips:</translation>
 <translation id="7554791636758816595">Ny fane</translation>
-<translation id="7564049878696755256">Du kan miste tilgangen til <ph name="ORG_NAME" />-kontoen din eller bli utsatt for identitetstyveri. Chrome anbefaler at du endrer passordet ditt nå.</translation>
+<translation id="7564049878696755256">Du kan miste tilgangen til <ph name="ORG_NAME" />-kontoen din eller bli utsatt for identitetstyveri. Brave anbefaler at du endrer passordet ditt nå.</translation>
 <translation id="7567204685887185387">Denne tjeneren kunne ikke bevise at den er <ph name="DOMAIN" />. Tjenerens sikkerhetssertifikat kan ha blitt utstedt på uredelig vis. Dette kan være forårsaket av en feilkonfigurering eller en angriper som avskjærer tilkoblingen din.</translation>
-<translation id="7569952961197462199">Vil du fjerne kredittkortet fra Chrome?</translation>
+<translation id="7569952961197462199">Vil du fjerne kredittkortet fra Brave?</translation>
 <translation id="7569983096843329377">Svart</translation>
 <translation id="7578104083680115302">Når du lagrer kort med Google, kan du bruke dem til å betale raskt på nettsteder og i apper – uansett hvilken enhet du bruker.</translation>
 <translation id="7592362899630581445">Tjenerens sertifikat bryter navnereglene.</translation>
@@ -1384,7 +1384,7 @@ brukere av denne nettleseren.</translation>
 <translation id="7613889955535752492">Utløpsdato: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">Du har allerede data som er kryptert med en annen versjon av Google-kontopassordet ditt. Skriv det inn nedenfor.</translation>
 <translation id="7633909222644580952">Ytelsesdata og programstopprapporter</translation>
-<translation id="7637571805876720304">Vil du fjerne kredittkortet fra Chromium?</translation>
+<translation id="7637571805876720304">Vil du fjerne kredittkortet fra Brave?</translation>
 <translation id="7638605456503525968">Serielle porter</translation>
 <translation id="7639968568612851608">Mørk grå</translation>
 <translation id="7653957176542370971">Arket for betalingsbehandling er lukket</translation>
@@ -1424,9 +1424,9 @@ brukere av denne nettleseren.</translation>
 <translation id="7802523362929240268">Nettstedet er legitimt</translation>
 <translation id="780301667611848630">Nei takk</translation>
 <translation id="7805768142964895445">Status</translation>
-<translation id="7806344367022510803">Endre innstillingene for søkemotor i Chrome</translation>
+<translation id="7806344367022510803">Endre innstillingene for søkemotor i Brave</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">Vil du fjerne skjemaforslaget fra Chrome?</translation>
+<translation id="7813600968533626083">Vil du fjerne skjemaforslaget fra Brave?</translation>
 <translation id="7815407501681723534">Fant <ph name="NUMBER_OF_RESULTS" /> <ph name="SEARCH_RESULTS" /> for «<ph name="SEARCH_STRING" />»</translation>
 <translation id="782886543891417279">Det kan hende at Wi-Fi-nettverket du bruker (<ph name="WIFI_NAME" />), krever at du besøker en påloggingsside.</translation>
 <translation id="7836231406687464395">Postfix (konvolutt)</translation>
@@ -1471,7 +1471,7 @@ brukere av denne nettleseren.</translation>
 <translation id="8042918947222776840">Velg hentemåte</translation>
 <translation id="8057711352706143257">«<ph name="SOFTWARE_NAME" />» er ikke riktig konfigurert. Avinstallering av «<ph name="SOFTWARE_NAME" />» løser vanligvis problemet. <ph name="FURTHER_EXPLANATION" /></translation>
 <translation id="8066955247577885446">Beklager, noe gikk galt.</translation>
-<translation id="8067872629359326442">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Chromium kan hjelpe deg. For å bytte passord og varsle Google om at kontoen din kanskje er i fare, klikk på Beskytt konto.</translation>
+<translation id="8067872629359326442">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave kan hjelpe deg. For å bytte passord og varsle Google om at kontoen din kanskje er i fare, klikk på Beskytt konto.</translation>
 <translation id="8074253406171541171">10x13 (konvolutt)</translation>
 <translation id="8078141288243656252">Kan ikke legge til annoteringer når dokumentet er rotert</translation>
 <translation id="8079031581361219619">Vil du laste inn nettstedet på nytt?</translation>
@@ -1488,13 +1488,13 @@ brukere av denne nettleseren.</translation>
 <translation id="8105368624971345109">Slå av</translation>
 <translation id="8118489163946903409">Betalingsmåte</translation>
 <translation id="8127301229239896662">«<ph name="SOFTWARE_NAME" />» er ikke riktig installert på datamaskinen eller på nettverket. Be IT-administratoren din om å løse problemet.</translation>
-<translation id="8128526133099929547">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Chrome anbefaler at du går til <ph name="WEBSITE_1" />, samt andre nettsteder der du bruker dette passordet, og bytter det nå.</translation>
+<translation id="8128526133099929547">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du går til <ph name="WEBSITE_1" />, samt andre nettsteder der du bruker dette passordet, og bytter det nå.</translation>
 <translation id="8131740175452115882">Bekreft</translation>
 <translation id="8149426793427495338">Datamaskinen din gikk inn i hvilemodus.</translation>
 <translation id="8150722005171944719">Kunne ikke lese filen på <ph name="URL" /> Den kan ha blitt fjernet eller flyttet. Det kan også være filtillatelser som forhindrer tilgang.</translation>
 <translation id="8157295877370077682">Forlat nettstedet</translation>
 <translation id="8163866351304776260">Fire hull venstre</translation>
-<translation id="8175796834047840627">Chrome tilbyr å lagre kort i Google-kontoen din fordi du er logget på. Du kan endre dette i innstillingene.</translation>
+<translation id="8175796834047840627">Brave tilbyr å lagre kort i Google-kontoen din fordi du er logget på. Du kan endre dette i innstillingene.</translation>
 <translation id="8184538546369750125">Bruk global standardinnstilling (Tillat)</translation>
 <translation id="8194797478851900357">&amp;Angre flyttingen</translation>
 <translation id="8197543752516192074">Oversett siden</translation>
@@ -1506,7 +1506,7 @@ brukere av denne nettleseren.</translation>
 <translation id="8218327578424803826">Tilordnet posisjon:</translation>
 <translation id="8220146938470311105">C7/C6 (konvolutt)</translation>
 <translation id="8220639454292072926">Bedriftsrapportering</translation>
-<translation id="8221250263817408492">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Chromium anbefaler at du går til <ph name="WEBSITE_1" />, samt andre nettsteder der du bruker dette passordet, og bytter det nå.</translation>
+<translation id="8221250263817408492">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du går til <ph name="WEBSITE_1" />, samt andre nettsteder der du bruker dette passordet, og bytter det nå.</translation>
 <translation id="8225771182978767009">Personen som konfigurerte denne datamaskinen, har valgt å blokkere dette nettstedet.</translation>
 <translation id="822964464349305906"><ph name="TYPE_1" />, <ph name="TYPE_2" /></translation>
 <translation id="8238581221633243064">Åpne siden i et nytt inkognitovindu</translation>
@@ -1531,7 +1531,7 @@ brukere av denne nettleseren.</translation>
 <translation id="830498451218851433">Halvfals</translation>
 <translation id="8307358339886459768">Small-Photo</translation>
 <translation id="8308427013383895095">Oversettelsen mislyktes på grunn av et problem med nettverksforbindelsen.</translation>
-<translation id="831207732689920588">Denne siden er mistenkelig (merket av Chrome).</translation>
+<translation id="831207732689920588">Denne siden er mistenkelig (merket av Brave).</translation>
 <translation id="8332188693563227489">Forsøket på å koble til <ph name="HOST_NAME" /> ble avvist</translation>
 <translation id="833262891116910667">Fremhev</translation>
 <translation id="8340095855084055290"><ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
@@ -1558,19 +1558,19 @@ Mer informasjon:
 <translation id="8466379296835108687">{COUNT,plural, =1{1 kredittkort}other{# kredittkort}}</translation>
 <translation id="8473863474539038330">Adresser med mer</translation>
 <translation id="8479754468255770962">Stift nede til venstre</translation>
-<translation id="8483780878231876732">For å bruke kredittkort du har lagret i Google-kontoen din, logg på Chrome</translation>
+<translation id="8483780878231876732">For å bruke kredittkort du har lagret i Google-kontoen din, logg på Brave</translation>
 <translation id="8488350697529856933">Gjelder for</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME" /> brukte for lang tid på å svare.</translation>
-<translation id="8503559462189395349">Chrome-passord</translation>
+<translation id="8503559462189395349">Brave-passord</translation>
 <translation id="8503813439785031346">Brukernavn</translation>
 <translation id="8508648098325802031">Søkeikon</translation>
-<translation id="8522552481199248698">Chrome kan hjelpe deg med å beskytte Google-kontoen din og endre passordet ditt.</translation>
+<translation id="8522552481199248698">Brave kan hjelpe deg med å beskytte Google-kontoen din og endre passordet ditt.</translation>
 <translation id="8542014550340843547">Tre stifter bunn</translation>
 <translation id="8543181531796978784">Du kan <ph name="BEGIN_ERROR_LINK" />rapportere et påvisningsproblem<ph name="END_ERROR_LINK" /> eller, hvis du forstår sikkerhetsrisikoen, <ph name="BEGIN_LINK" />gå til dette usikre nettstedet<ph name="END_LINK" />.</translation>
 <translation id="8553075262323480129">Oversettelsen mislyktes fordi sidens språk ikke kunne fastslås.</translation>
 <translation id="8557066899867184262">CVC-koden finner du på baksiden av kortet.</translation>
 <translation id="8559762987265718583">En privat tilkobling til <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> kunne ikke etableres fordi datoen og klokkeslettet (<ph name="DATE_AND_TIME" />) er feil på enheten.</translation>
-<translation id="8564985650692024650">Chromium anbefaler at du tilbakestiller passordet ditt for <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> hvis du også har brukt det på andre nettsteder.</translation>
+<translation id="8564985650692024650">Brave anbefaler at du tilbakestiller passordet ditt for <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> hvis du også har brukt det på andre nettsteder.</translation>
 <translation id="8571890674111243710">Oversett siden til <ph name="LANGUAGE" /></translation>
 <translation id="8574899947864779331">Bruk Touch ID til å bekrefte kort raskere</translation>
 <translation id="858637041960032120">Legg til telefonnummer</translation>
@@ -1592,7 +1592,7 @@ Mer informasjon:
 <translation id="8725066075913043281">Prøv igjen</translation>
 <translation id="8728672262656704056">Du er nå i inkognitomodus</translation>
 <translation id="8730621377337864115">Ferdig</translation>
-<translation id="8738058698779197622">Klokken din må være riktig stilt for at du skal kunne opprette en sikker forbindelse. Sertifikatene som nettsteder bruker til å identifisere seg med, er nemlig bare gyldige i en viss tid. Siden enhetens klokke er feil, kan ikke Chromium kontrollere disse sertifikatene.</translation>
+<translation id="8738058698779197622">Klokken din må være riktig stilt for at du skal kunne opprette en sikker forbindelse. Sertifikatene som nettsteder bruker til å identifisere seg med, er nemlig bare gyldige i en viss tid. Siden enhetens klokke er feil, kan ikke Brave kontrollere disse sertifikatene.</translation>
 <translation id="8740359287975076522">&lt;abbr id="dnsDefinition"&gt;DNS-adressen&lt;/abbr&gt; til <ph name="HOST_NAME" /> ble ikke funnet. Problemet diagnostiseres.</translation>
 <translation id="874846938927089722">Godkjente kredittkort og forhåndsbetalte kort</translation>
 <translation id="874918643257405732">Bokmerk denne fanen</translation>
@@ -1602,7 +1602,7 @@ Mer informasjon:
 <translation id="8763927697961133303">USB-enhet</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;Slett likevel</translation>
-<translation id="8792621596287649091">Du kan miste tilgangen til <ph name="ORG_NAME" />-kontoen din eller bli utsatt for identitetstyveri. Chromium anbefaler at du endrer passordet ditt nå.</translation>
+<translation id="8792621596287649091">Du kan miste tilgangen til <ph name="ORG_NAME" />-kontoen din eller bli utsatt for identitetstyveri. Brave anbefaler at du endrer passordet ditt nå.</translation>
 <translation id="8800988563907321413">Forslagene dine om ting like ved vises her</translation>
 <translation id="8805819170075074995">Listeoppføringen «<ph name="LANGUAGE_ID" />»: Oppføringen er ignorert fordi den også er inkludert i regelen SpellcheckLanguage.</translation>
 <translation id="8807160976559152894">Beskjær etter hver side</translation>
@@ -1611,7 +1611,7 @@ Mer informasjon:
 <translation id="884264119367021077">Leveringsadresse</translation>
 <translation id="884923133447025588">Finner ingen tilbakekallingsmekanisme.</translation>
 <translation id="885730110891505394">Deling med Google</translation>
-<translation id="8858065207712248076">Chrome anbefaler at du tilbakestiller passordet ditt for <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> hvis du også har brukt det på andre nettsteder.</translation>
+<translation id="8858065207712248076">Brave anbefaler at du tilbakestiller passordet ditt for <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> hvis du også har brukt det på andre nettsteder.</translation>
 <translation id="8866481888320382733">Analysefeil i angivelsen av enhetrsinnstillinger</translation>
 <translation id="8866928039507595380">Fals</translation>
 <translation id="886872106311861689">B3</translation>
@@ -1660,12 +1660,12 @@ Mer informasjon:
 <translation id="9065203028668620118">Endre</translation>
 <translation id="9065745800631924235"><ph name="TEXT" />-søk fra loggen</translation>
 <translation id="9069693763241529744">Blokkert av en utvidelse</translation>
-<translation id="9076630408993835509">Denne nettleseren administreres ikke av et selskap eller en annen organisasjon. Aktiviteten på denne enheten kan administreres utenfor Chrome. <ph name="BEGIN_LINK" />Finn ut mer<ph name="END_LINK" /></translation>
+<translation id="9076630408993835509">Denne nettleseren administreres ikke av et selskap eller en annen organisasjon. Aktiviteten på denne enheten kan administreres utenfor Brave. <ph name="BEGIN_LINK" />Finn ut mer<ph name="END_LINK" /></translation>
 <translation id="9078964945751709336">Mer informasjon er nødvendig</translation>
 <translation id="9080712759204168376">Bestillingssammendrag</translation>
 <translation id="9089260154716455634">Regler for bruk utenom arbeidstiden:</translation>
 <translation id="9095388113577226029">Flere språk</translation>
-<translation id="9103872766612412690"><ph name="SITE" /> bruker vanligvis kryptering for å beskytte informasjonen din. Da Chromium prøvde å koble til <ph name="SITE" /> denne gangen, sendte nettstedet tilbake uvanlig og feil legitimasjon. Dette kan skje hvis en angriper prøver å utgi seg for å være <ph name="SITE" />, eller hvis en Wi-Fi-påloggingsskjerm har avbrutt tilkoblingen. Informasjonen din er likevel sikker fordi Chromium stoppet tilkoblingen før det ble utvekslet noen data.</translation>
+<translation id="9103872766612412690"><ph name="SITE" /> bruker vanligvis kryptering for å beskytte informasjonen din. Da Brave prøvde å koble til <ph name="SITE" /> denne gangen, sendte nettstedet tilbake uvanlig og feil legitimasjon. Dette kan skje hvis en angriper prøver å utgi seg for å være <ph name="SITE" />, eller hvis en Wi-Fi-påloggingsskjerm har avbrutt tilkoblingen. Informasjonen din er likevel sikker fordi Brave stoppet tilkoblingen før det ble utvekslet noen data.</translation>
 <translation id="9106062320799175032">Legg til faktureringsadresse</translation>
 <translation id="9114524666733003316">Bekrefter kortet …</translation>
 <translation id="9128870381267983090">Koble til nettverk</translation>
@@ -1687,12 +1687,12 @@ Mer informasjon:
 <translation id="9191834167571392248">Hull nede til venstre</translation>
 <translation id="9205078245616868884">Dataene dine er kryptert med passordfrasen din for synkronisering. Skriv den inn for å starte synkroniseringen.</translation>
 <translation id="9207861905230894330">Kunne ikke legge til artikkelen.</translation>
-<translation id="9215416866750762878">Et program hindrer Chrome i å koble trygt til dette nettstedet.</translation>
+<translation id="9215416866750762878">Et program hindrer Brave i å koble trygt til dette nettstedet.</translation>
 <translation id="9219103736887031265">Bilder</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">SLETT INNHOLDET I SKJEMAET</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="936602727769022409">Du kan miste tilgangen til Google-kontoen din. Chromium anbefaler at du endrer passordet ditt nå. Du blir bedt om å logge på.</translation>
+<translation id="936602727769022409">Du kan miste tilgangen til Google-kontoen din. Brave anbefaler at du endrer passordet ditt nå. Du blir bedt om å logge på.</translation>
 <translation id="939736085109172342">Ny mappe</translation>
 <translation id="945855313015696284">Gå gjennom informasjonen nedenfor, og slett eventuelle ugyldige kort</translation>
 <translation id="950736567201356821">Tre hull topp</translation>
@@ -1717,5 +1717,5 @@ Mer informasjon:
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1</translation>
 <translation id="997986563973421916">Fra Google Pay</translation>
-<translation id="998893882640184078">Åpne et nytt inkognitovindu i Chrome</translation>
+<translation id="998893882640184078">Åpne et nytt inkognitovindu i Brave</translation>
 </translationbundle>

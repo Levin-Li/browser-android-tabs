@@ -56,7 +56,7 @@
 <translation id="1067291318998134776">Linux (Бэта)</translation>
 <translation id="1067922213147265141">Google-н бусад үйлчилгээ</translation>
 <translation id="1070066693520972135">WEP</translation>
-<translation id="1070377999570795893">Taны компьютерын өөр нэг програм өргөтгөл нэмсэн бөгөөд энэ нь Chrome-н ажиллах зарчмыг өөрчилж магад.
+<translation id="1070377999570795893">Taны компьютерын өөр нэг програм өргөтгөл нэмсэн бөгөөд энэ нь Brave-н ажиллах зарчмыг өөрчилж магад.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1070705170564860382">Өөр хөтчид <ph name="COUNTDOWN_SECONDS" /> секундийн дараа нээнэ</translation>
@@ -65,7 +65,7 @@
 <translation id="1076698951459398590">Загварыг идэвхжүүлэх</translation>
 <translation id="1076818208934827215">Microsoft Internet Explorer</translation>
 <translation id="1079766198702302550">Камерын оролтыг үргэлж хориглож байх</translation>
-<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> нь таны Chrome-н тохиргоог өгөгдмөл хэлбэрт тохируулахыг хүсэж байна. Энэхүү тохиргоо нь таны үндсэн нүүр хуудас, шинэ цонх болон хайлтын системийн тохиргоог өөрчлөх бөгөөд таны өргөтгөлийн идэвхгүй болгож бүх цонхыг unpin хиих болно. Энэхүү тохиргоо нь күүки, мэдээлэл болон бусад сайтын мэдээлэл зэрэг түр болон хадгалагдсан бүх мэдээллийг арилгах болно.</translation>
+<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> нь таны Brave-н тохиргоог өгөгдмөл хэлбэрт тохируулахыг хүсэж байна. Энэхүү тохиргоо нь таны үндсэн нүүр хуудас, шинэ цонх болон хайлтын системийн тохиргоог өөрчлөх бөгөөд таны өргөтгөлийн идэвхгүй болгож бүх цонхыг unpin хиих болно. Энэхүү тохиргоо нь күүки, мэдээлэл болон бусад сайтын мэдээлэл зэрэг түр болон хадгалагдсан бүх мэдээллийг арилгах болно.</translation>
 <translation id="1084824384139382525">Линкийн хаягийг хуулах</translation>
 <translation id="1085697365578766383">Виртуал машиныг эхлүүлэхэд алдаа гарлаа. Дахин оролдоно уу.</translation>
 <translation id="1089439967362294234">Нууц үг солих</translation>
@@ -81,7 +81,7 @@
 <translation id="1112420131909513020">Дэвсгэр чихтэй хуудас bluetooth-г ашиглаж байна</translation>
 <translation id="1114102982691049955"><ph name="PRINTER_MANUFACTURER" /> <ph name="PRINTER_MODEL" /> (USB)</translation>
 <translation id="1114202307280046356">Талст</translation>
-<translation id="1114335938027186412">Таны компьютер Chrome OS-ийн аюулгүй байдлын чухал функц хэрэгжүүлдэг Итгэмжлэгдсэн Платформ Модуль (ИПМ) агуулж байна. Дэлгэрэнгүй мэдээллийг Chromebook Тусламжийн төвөөс авна уу. Үүнд: https://support.google.com/chromebook/?p=tpm</translation>
+<translation id="1114335938027186412">Таны компьютер Chrome OS-ийн аюулгүй байдлын чухал функц хэрэгжүүлдэг Итгэмжлэгдсэн Платформ Модуль (ИПМ) агуулж байна. Дэлгэрэнгүй мэдээллийг Bravebook Тусламжийн төвөөс авна уу. Үүнд: https://support.google.com/chromebook/?p=tpm</translation>
 <translation id="1116639326869298217">Таны таниулбарыг бататгаж чадсангүй</translation>
 <translation id="1116694919640316211">Тухай</translation>
 <translation id="1116779635164066733">Энэ тохиргоог "<ph name="NAME" />" өргөтгөлөөр идэвхжүүлсэн болно.</translation>
@@ -107,7 +107,7 @@
 <translation id="1145532888383813076">Төхөөрөмж, апп болон вэбээ хайна уу.</translation>
 <translation id="1145593918056169051">Хэвлэгч зогсчихлоо</translation>
 <translation id="1146678959555564648">VR-г оруулна уу</translation>
-<translation id="114721135501989771">Chrome-д Google smarts авах</translation>
+<translation id="114721135501989771">Brave-д Google smarts авах</translation>
 <translation id="1147991416141538220">Хандалт хүсэхийн тулд энэ төхөөрөмжийн администратортай холбоо барина уу.</translation>
 <translation id="1149401351239820326">Хугацаа дуусах сар</translation>
 <translation id="1150565364351027703">Нарны шил</translation>
@@ -155,7 +155,7 @@
 <translation id="1202596434010270079">Киоск апп шинэчлэгдлээ. USB дискээ салгана уу.</translation>
 <translation id="120368089816228251">Хөгжмийн нот</translation>
 <translation id="1205489148908752564">Найдвартай хэрэглэгчийн жагсаалтыг уншиж, өөрчлөх</translation>
-<translation id="1206407435587370571">Chromebook-ээ судална уу</translation>
+<translation id="1206407435587370571">Bravebook-ээ судална уу</translation>
 <translation id="1209796539517632982">Автомат нэрийн серверүүд</translation>
 <translation id="1211364473545090084">Хайлтын түүхээ хадгалалгүйгээр нууцлалтай цонхоор вэб ашиглах</translation>
 <translation id="1211769675100312947">Товчлолыг та сонгосон болно</translation>
@@ -235,7 +235,7 @@
 <translation id="1316495628809031177">Синк хийхийг түр зогсоосон</translation>
 <translation id="1317637799698924700">Таны холбогч станц USB C-Төрлийн тохирох горимд ажиллана.</translation>
 <translation id="1322046419516468189"><ph name="SAVED_PASSWORDS_STORE" />-д хадгалсан нууц үгнүүдийг харах болон удирдах</translation>
-<translation id="1326317727527857210">Бусад төхөөрөмжөөс чихтэй хуудсаа авахын тулд Chrome-д нэвтэрнэ үү.</translation>
+<translation id="1326317727527857210">Бусад төхөөрөмжөөс чихтэй хуудсаа авахын тулд Brave-д нэвтэрнэ үү.</translation>
 <translation id="1327074568633507428">Google Cloud Print дээрх принтер</translation>
 <translation id="1327272175893960498">Kerberos тасалбар</translation>
 <translation id="1327495825214193325">ADB алдаа засахыг идэвхжүүлэхийн тулд энэ <ph name="DEVICE_TYPE" />-г дахин эхлүүлэх шаардлагатай. Үүнийг идэвхгүй болгоход үйлдвэрийн тохиргоонд шинэчлэх шаардлагатай.</translation>
@@ -253,7 +253,7 @@
 <translation id="1347256498747320987">Шинэчлэлтүүд болон аппуудыг суулгах. Үргэлжлүүлснээр та энэ төхөөрөмж нь Google, таны оператор компани, таны төхөөрөмжийн үйлдвэрлэгчээс шинэчлэлтүүд болон аппуудыг мөн адил автоматаар татаж, суулгаж (мобайл дата ашиглаж болзошгүй) болохыг зөвшөөрч байна. Эдгээр аппын зарим нь аппын худалдан авалтыг санал болгож болзошгүй. <ph name="BEGIN_LINK1" />Нэмэлт мэдээлэл авах<ph name="END_LINK1" /></translation>
 <translation id="1347975661240122359">Батерейны түвшин <ph name="BATTERY_LEVEL" />% болох үед шинэчлэлтийг эхлүүлнэ.</translation>
 <translation id="1353686479385938207"><ph name="PROVIDER_NAME" />: <ph name="NETWORK_NAME" /></translation>
-<translation id="1353980523955420967">PPD-г олж чадсангүй. Chromebook-ээ онлайн эсэхийг шалгаад дахин оролдоно уу.</translation>
+<translation id="1353980523955420967">PPD-г олж чадсангүй. Bravebook-ээ онлайн эсэхийг шалгаад дахин оролдоно уу.</translation>
 <translation id="1355466263109342573"><ph name="PLUGIN_NAME" />-г блоклосон</translation>
 <translation id="1358741672408003399">Үг, үсэг болон дүрмийн алдаа</translation>
 <translation id="1359923111303110318">Таны төхөөрөмжийн түгжээг Ухаалаг түгжээгээр тайлах боломжтой. Түгжээг тайлахын тулд Enter дээр дарна уу.</translation>
@@ -340,7 +340,7 @@
 <translation id="1476607407192946488">&amp;Хэлний Тохиргоо</translation>
 <translation id="1478340334823509079">Дэлгэрэнгүй мэдээлэл: <ph name="FILE_NAME" /></translation>
 <translation id="1478607704480248626">Суулгалтыг идэвхжүүлээгүй байна</translation>
-<translation id="1481206932476131736">Нэвтэрсэн бүртгэлүүдээ удирдах. Chrome болон Google Play-н вэб сайт, апп болон өргөтгөл нь зөвшөөрлөөс хамаарч, таны хэрэглээг өөрчлөхийн тулд эдгээр бүртгэлийг ашиглаж болзошгүй.</translation>
+<translation id="1481206932476131736">Нэвтэрсэн бүртгэлүүдээ удирдах. Brave болон Google Play-н вэб сайт, апп болон өргөтгөл нь зөвшөөрлөөс хамаарч, таны хэрэглээг өөрчлөхийн тулд эдгээр бүртгэлийг ашиглаж болзошгүй.</translation>
 <translation id="1482626744466814421">Энэ табыг тэмдэглэх...</translation>
 <translation id="1483493594462132177">Илгээх</translation>
 <translation id="1484979925941077974">Сайт Bluetooth-г ашиглаж байна</translation>
@@ -412,7 +412,7 @@
 <translation id="1581962803218266616">Хайгч дотор харуулах</translation>
 <translation id="1582955169539260415">[<ph name="FINGERPRINT_NAME" />]-г устгах</translation>
 <translation id="1584990664401018068">Таны ашиглаж байгаа Wi-Fi сүлжээ (<ph name="NETWORK_ID" />) таниулах үйлдэл шаардаж байж магадгүй.</translation>
-<translation id="1585717515139318619">Таны компьютерын өөр нэг програм загвар нэмсэн бөгөөд энэ нь Chrome-н ажиллах зарчмыг өөрчилж болзошгүй.
+<translation id="1585717515139318619">Таны компьютерын өөр нэг програм загвар нэмсэн бөгөөд энэ нь Brave-н ажиллах зарчмыг өөрчилж болзошгүй.
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1587275751631642843">&amp;JavaScript системийн удирдлагын мессеж</translation>
 <translation id="1587907146729660231">Асаах товчийг хуруугаараа товшино уу</translation>
@@ -541,7 +541,7 @@
 <translation id="1757301747492736405">Устгалт хүлээгдэж байна</translation>
 <translation id="175772926354468439">Загварыг идэвхжүүлэх</translation>
 <translation id="1758018619400202187">EAP-TLS</translation>
-<translation id="17584710573359123">Chrome Вэб Дэлгүүрт харах</translation>
+<translation id="17584710573359123">Brave Вэб Дэлгүүрт харах</translation>
 <translation id="176193854664720708">Асаах товчид хурууны хээ мэдрэгч байна. Үүнд дурын хуруугаар зөөлөн хүрнэ үү.</translation>
 <translation id="1763046204212875858">Програмын богино холбоосыг үүсгэ</translation>
 <translation id="1763108912552529023">Хайлтаа үргэлжлүүлэн хий</translation>
@@ -594,7 +594,7 @@
 <translation id="1818913467757368489">Логын байршуулалтыг хийж байна .</translation>
 <translation id="1819721979226826163">Аппын мэдэгдэл &gt; Google Play үйлчилгээг товшино уу.</translation>
 <translation id="1820028137326691631">Админы өгсөн нууц үгийг оруулах</translation>
-<translation id="1822140782238030981">Chrome-н хэрэглэгч үү? Нэвтэрнэ үү</translation>
+<translation id="1822140782238030981">Brave-н хэрэглэгч үү? Нэвтэрнэ үү</translation>
 <translation id="1826516787628120939">Шалгаж байна</translation>
 <translation id="1828378091493947763">Энэ залгаасыг энэ төхөөрөмжид дэмжээгүй</translation>
 <translation id="1828901632669367785">Системийн цонхыг ашиглан хэвлэх ...</translation>
@@ -654,7 +654,7 @@
 <translation id="1900305421498694955">Google Play-н аппууд нь гадаад хадгалалтын төхөөрөмж дээр файл уншиж, бичихийн тулд файлын системийн бүрэн хандалтыг шаардаж болзошгүй. Энэ төхөөрөмж дээр үүсгэсэн файл болон фолдерыг гадаад драйв ашигладаг хүн бүр харах боломжтой. <ph name="LINK_BEGIN" />Нэмэлт мэдээлэл авах<ph name="LINK_END" /></translation>
 <translation id="1901303067676059328">Бүгдийг сонго &amp;</translation>
 <translation id="1902576642799138955">Хүчинтэй хугацаа</translation>
-<translation id="1905375423839394163">Chromebook төхөөрөмжийн нэр</translation>
+<translation id="1905375423839394163">Bravebook төхөөрөмжийн нэр</translation>
 <translation id="1905710495812624430">Оролдлогын тоо дээд хэмжээнээс хэтэрсэн.</translation>
 <translation id="1906828677882361942">Ямар ч сайтад цуваа портод хандахыг үл зөвшөөрөх</translation>
 <translation id="1909880997794698664">Та энэ төхөөрөмжийг байнгын киоск горимд хадгалахыг хүсч байна уу?</translation>
@@ -739,7 +739,7 @@
 <translation id="204497730941176055">Майкрософт гэрчилгээний загварын нэр</translation>
 <translation id="2045117674524495717">Товчлуурын шууд холбоосын туслагч</translation>
 <translation id="2045969484888636535">Үүсмэл мэдээллийг үргэ</translation>
-<translation id="204622017488417136">Таны төхөөрөмж Chrome-ийн өмнөх суулгасан хувилбар руу буцаагдана. Бүх хэрэглэгчийн данс болон суурин өгөгдлүүд устгагдах бөгөөд энэ үйлдлийг буцаах боломжгүй.</translation>
+<translation id="204622017488417136">Таны төхөөрөмж Brave-ийн өмнөх суулгасан хувилбар руу буцаагдана. Бүх хэрэглэгчийн данс болон суурин өгөгдлүүд устгагдах бөгөөд энэ үйлдлийг буцаах боломжгүй.</translation>
 <translation id="2046702855113914483">Рамен</translation>
 <translation id="2048182445208425546">Сүлжээнийхээ ачааллагдсан мэдээлэл рүү нэвтэр</translation>
 <translation id="2048653237708779538">Үйлдэл боломжгүй байна</translation>
@@ -749,7 +749,7 @@
 <translation id="205560151218727633">Google туслахын лого</translation>
 <translation id="2058456167109518507">Төхөөрөмж илэрсэн</translation>
 <translation id="2059913712424898428">Цагийн бүс</translation>
-<translation id="2065405795449409761">Chrome-г туршилтын автомат програм хангамжаар удирдаж байна.</translation>
+<translation id="2065405795449409761">Brave-г туршилтын автомат програм хангамжаар удирдаж байна.</translation>
 <translation id="2071393345806050157">Суурин бүртгэлийн файл алга байна.</translation>
 <translation id="2075474481720804517"><ph name="BATTERY_PERCENTAGE" />% батерей</translation>
 <translation id="2075959085554270910">Танд tap-to-click болон чирэлтийг товшихыг идэвхжүүлэх/идэвхгүй болгохыг зөвшөөрдөг</translation>
@@ -761,13 +761,13 @@
 <translation id="2079545284768500474">Буцаах</translation>
 <translation id="2080070583977670716">Нэмэлт тохиргоо</translation>
 <translation id="2087822576218954668">Хэвлэх: <ph name="PRINT_NAME" /></translation>
-<translation id="2089566709556890888">Google Chrome-р аюулгүй хайгаарай</translation>
+<translation id="2089566709556890888">Brave-р аюулгүй хайгаарай</translation>
 <translation id="2089795179672254991">Сайт түр санах ойд хуулсан текст, зургийг харах хүсэлтэй үед асуух (санал болгосон)</translation>
 <translation id="2090165459409185032">бүртгэлныхаа мэдээллийг сэргээхийн тулд: google.com/accounts/recovery руу орно уу</translation>
 <translation id="2090876986345970080">Системийн аюулгүй байдлын тохиргоо</translation>
 <translation id="2091887806945687916">Дуу</translation>
 <translation id="2096715839409389970">Гуравдагч талын күүкиг устгах</translation>
-<translation id="2097372108957554726">Та шинэ төхөөрөмжүүдийг бүртгүүлэхийн тулд Chrome руу нэвтрэх хэрэгтэй</translation>
+<translation id="2097372108957554726">Та шинэ төхөөрөмжүүдийг бүртгүүлэхийн тулд Brave руу нэвтрэх хэрэгтэй</translation>
 <translation id="2099172618127234427">Та sshd daemon-г тохируулах мөн USB төхөөрөмжийг бүүт хийдэг тохиргоог идэвхжүүлэх Chrome OS-н алдаа засах тохиргоог идэвхжүүлж байна.</translation>
 <translation id="2099686503067610784">"<ph name="CERTIFICATE_NAME" />" серверийн сертификатыг устгах уу?</translation>
 <translation id="2100273922101894616">Автоматаар нэвтэх</translation>
@@ -816,7 +816,7 @@
 <translation id="2155772377859296191"><ph name="WIDTH" /> x <ph name="HEIGHT" /> юм шиг харагдаж байна</translation>
 <translation id="2156283799932971644">Та Google-д зарим системийн мэлээлэл болон хуудасны агуулгыг илгээснээр Аюулгүй Хайлтыг сайжруулахад туслах боломжтой.</translation>
 <translation id="2156294658807918600">Үйлчилгээний ажилтан: <ph name="SCRIPT_URL" /></translation>
-<translation id="2157474325782140681">Нэмэлт онцлогийг авахын тулд энэ Chromebook-тэй ажиллахад зориулсан Dell холбогч станцыг ашиглана уу.</translation>
+<translation id="2157474325782140681">Нэмэлт онцлогийг авахын тулд энэ Bravebook-тэй ажиллахад зориулсан Dell холбогч станцыг ашиглана уу.</translation>
 <translation id="215753907730220065">Дэлгэц дүүрэн харах горимоос гарах</translation>
 <translation id="2157875535253991059">Энэ хуудас нь одоо дэлгэц дүүрэн харагдаж байна.</translation>
 <translation id="216169395504480358">Wi-Fi нэмэх...</translation>
@@ -836,7 +836,7 @@
 <translation id="2178614541317717477">CA Compromise</translation>
 <translation id="218070003709087997">Хэдэн хувь хэвлэхийг тоогоор заана уу (1-ээс 999 хүртэл).</translation>
 <translation id="2182058453334755893">Түр санах ой руу хуулсан</translation>
-<translation id="2184515124301515068">Сайтуудад дуу тоглуулах боломжтой үеийг сонгох зөвшөөрлийг Chrome-д олгох (санал болгосон)</translation>
+<translation id="2184515124301515068">Сайтуудад дуу тоглуулах боломжтой үеийг сонгох зөвшөөрлийг Brave-д олгох (санал болгосон)</translation>
 <translation id="2187895286714876935">Серверийн Гэрчилгээг Импортлох үеийн алдаа</translation>
 <translation id="2187906491731510095">Өргөтгөлийг шинэчилсэн</translation>
 <translation id="2188881192257509750"><ph name="APPLICATION" />-г нээх</translation>
@@ -849,9 +849,9 @@
 <translation id="2195331105963583686">Та энэ <ph name="DEVICE_TYPE" />-г ийм хугацааны дараа ашиглах боломжтой хэвээр байх боловч энэ нь програм хангамж болон аюулгүй байдлын автомат шинэчлэлтийг авах боломжгүй байна.</translation>
 <translation id="2195729137168608510">И-мэйл хамгаалалт</translation>
 <translation id="2199298570273670671">Алдаа</translation>
-<translation id="2199719347983604670">Chrome синкийн өгөгдөл</translation>
+<translation id="2199719347983604670">Brave синкийн өгөгдөл</translation>
 <translation id="2200094388063410062">Имэйл</translation>
-<translation id="2200356397587687044">Chrome-д үргэлжлүүлэхийн тулд зөвшөөрөл шаардлагатай</translation>
+<translation id="2200356397587687044">Brave-д үргэлжлүүлэхийн тулд зөвшөөрөл шаардлагатай</translation>
 <translation id="220138918934036434">Товчийг нуу</translation>
 <translation id="2202898655984161076">Принтерийн жагсаалтыг гаргахад асуудал үүслээ. Таны зарим принтер <ph name="CLOUD_PRINT_NAME" /> руу амжилттай бүртгэгдэж чадаагүй байж болох юм.</translation>
 <translation id="2203682048752833055"><ph name="BEGIN_LINK" />Хаягийн талбарт<ph name="END_LINK" /> ашигласан хайлтын хэрэгсэл</translation>
@@ -864,7 +864,7 @@
 <translation id="2214893006758804920">{LINE_COUNT,plural, =1{&lt;1 мөрийг харуулаагүй&gt;}other{&lt;<ph name="NUMBER_OF_LINES" /> мөрийг харуулаагүй&gt;}}</translation>
 <translation id="2215727959747642672">Файл засах</translation>
 <translation id="2218019600945559112">Хулгана, мэдрэгч самбар</translation>
-<translation id="2218320521449013367">Chrome хортой програм хангамжийг устгах явцад алдаа гарлаа</translation>
+<translation id="2218320521449013367">Brave хортой програм хангамжийг устгах явцад алдаа гарлаа</translation>
 <translation id="2218515861914035131">Текст хэлбэрээр хуулан буулгах</translation>
 <translation id="221872881068107022">Урвуу гүйлгэх</translation>
 <translation id="2220409419896228519">Дуртай Google Аппууддаа хавчуурга нэмэх</translation>
@@ -1122,7 +1122,7 @@
 <translation id="2571655996835834626">Таны вэб сайтын күүки, JavaScript, залгаас, геолокаци, микрофон, камер зэрэг онцлогийн хандалтыг хянадаг тохиргоог өөрчилдөг.</translation>
 <translation id="2572032849266859634"><ph name="VOLUME_NAME" /> руу зөвхөн унших горимоор нэвтрэх зөвшөөрлийг олгосон байна.</translation>
 <translation id="2575247648642144396">Өргөтгөл нь тухайн хуудсанд ажиллахад тэмдэглэгээ харагдана. Энэхүү тэмдэглэгээн дээр дарж эсвэл <ph name="EXTENSION_SHORTCUT" /> дээр дарснаар өргөлтгөлийг ашиглах боломжтой.</translation>
-<translation id="257779572837908839">Уулзалтад зориулсан Chromebox-р тохируулах</translation>
+<translation id="257779572837908839">Уулзалтад зориулсан Bravebox-р тохируулах</translation>
 <translation id="2580889980133367162"><ph name="HOST" />-ийг хэд хэдэн файл татаж авахыг үргэлж зөвшөөрөх</translation>
 <translation id="2580924999637585241">Нийт: <ph name="NUMBER_OF_SHEETS" /> <ph name="SHEETS_LABEL" /></translation>
 <translation id="258095186877893873">Урт</translation>
@@ -1153,7 +1153,7 @@
 <translation id="26224892172169984">Ямар ч сайтад мэдээлэл дамжуулахыг бүү зөвшөөр</translation>
 <translation id="2624142942574147739">Энэ хуудас нь таны камер болон микрофон руу нэвтэрч байна.</translation>
 <translation id="2626799779920242286">Та дараа дахин оролдоно уу.</translation>
-<translation id="2628770867680720336">ADB алдаа засахыг идэвхжүүлэхийн тулд энэ Chromebook-г үйлдвэрийн тохиргоонд шинэчлэх шаардлагатай. <ph name="BEGIN_LINK_LEARN_MORE" />Нэмэлт мэдээлэл авах<ph name="END_LINK_LEARN_MORE" /></translation>
+<translation id="2628770867680720336">ADB алдаа засахыг идэвхжүүлэхийн тулд энэ Bravebook-г үйлдвэрийн тохиргоонд шинэчлэх шаардлагатай. <ph name="BEGIN_LINK_LEARN_MORE" />Нэмэлт мэдээлэл авах<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="2629227353894235473">Андройд аппыг хөгжүүлэх</translation>
 <translation id="2630681426381349926">Эхлэхэд утасгүй интернетэд холбогдох</translation>
 <translation id="2631120081682787498">Та энэ чихтэй хуудсыг хаахдаа итгэлтэй байна уу?</translation>
@@ -1163,7 +1163,7 @@
 <translation id="2633764681656412085">FIDO</translation>
 <translation id="2635094637295383009">Twitter</translation>
 <translation id="2635276683026132559">Нэвтэрч байна</translation>
-<translation id="2636625531157955190">Chrome нь зураг руу нэвтэрч чадахгүй байна.</translation>
+<translation id="2636625531157955190">Brave нь зураг руу нэвтэрч чадахгүй байна.</translation>
 <translation id="2637400434494156704">ПИН буруу байна. Танд нэг оролдлого үлдлээ.</translation>
 <translation id="2638087589890736295">Синкийг эхлүүлэхийн тулд нэвтрэх үг оруулах шаардлагатай</translation>
 <translation id="264083724974021997">Утсандаа холбогдох - харилцах цонх</translation>
@@ -1179,9 +1179,9 @@
 <translation id="2654166010170466751">Сайтад төлбөр хариуцагчийг суулгахыг зөвшөөрөх</translation>
 <translation id="2659381484350128933"><ph name="FOOTNOTE_POINTER" />Төхөөрөмжөөс хамаарч онцлогууд өөр байна</translation>
 <translation id="2660779039299703961">Үйл явдал</translation>
-<translation id="266079277508604648">Хэвлэгчийг холбох боломжгүй байна. Хэвлэгчийг асаасан болон таны Chromebook-д Wi-Fi эсвэл USB-р холбогдсон эсэхийг шалгана уу.</translation>
+<translation id="266079277508604648">Хэвлэгчийг холбох боломжгүй байна. Хэвлэгчийг асаасан болон таны Bravebook-д Wi-Fi эсвэл USB-р холбогдсон эсэхийг шалгана уу.</translation>
 <translation id="2661714428027871023">Lite горимоор хөтчийг илүү хурдан ашиглаж, бага дата зарцуулаарай. Нэмэлт мэдээлэл авахын тулд товшино уу.</translation>
-<translation id="2662876636500006917">Chrome вэб дэлгүүр</translation>
+<translation id="2662876636500006917">Brave вэб дэлгүүр</translation>
 <translation id="2663302507110284145">Хэл</translation>
 <translation id="2665394472441560184">Шинэ үг нэмэх</translation>
 <translation id="2665647207431876759">Хугацаа дууссан</translation>
@@ -1189,7 +1189,7 @@
 <translation id="2665919335226618153">Гэнэтийн асуудал! Форматлах үед алдаа гарлаа.</translation>
 <translation id="2666990579225592931">Зочны цонхийг нээх</translation>
 <translation id="2667463864537187133">Алдаа шалгахыг удирдах</translation>
-<translation id="2670102641511624474"><ph name="APP_NAME" /> Chrome-н чихтэй хуудсыг хуваалцаж байна.</translation>
+<translation id="2670102641511624474"><ph name="APP_NAME" /> Brave-н чихтэй хуудсыг хуваалцаж байна.</translation>
 <translation id="2670429602441959756">Энэ хуудас VR-д дэмжээгүй онцлог агуулсан байна. Гарч байна...</translation>
 <translation id="2671451824761031126">Таны хавчуурга, тохиргоо бэлэн боллоо</translation>
 <translation id="2672142220933875349">crx файл алдаатай байна, задлаж чадсангүй.</translation>
@@ -1210,7 +1210,7 @@
 <translation id="2695749433451188613">Интернэт Хэвлэх Протокол (HTTPS)</translation>
 <translation id="2699911226086014512">ПИН-г тохируулж чадсангүй. Алдааны код <ph name="RETRIES" />.</translation>
 <translation id="2701737434167469065">Нэвтрэх, <ph name="EMAIL" /></translation>
-<translation id="270358213449696159">Google Chrome үйлдлийн системийн нөхцөлийн агуулга</translation>
+<translation id="270358213449696159">Brave үйлдлийн системийн нөхцөлийн агуулга</translation>
 <translation id="2704184184447774363">Майкрософтын бичиг баримтын цохолт</translation>
 <translation id="270516211545221798">Мэдрэгч самбарын хурд</translation>
 <translation id="2705736684557713153">Дэлгэцийн доод хэсэгт очоод Шуурхай модем болгогчийг (хэрэв харагдаж байвал) асаана уу. Хэрэв харагдахгүй байвал та амжилттай тохируулсан байна.</translation>
@@ -1221,7 +1221,7 @@
 <translation id="2712173769900027643">Зөвшөөрөл авах</translation>
 <translation id="2713444072780614174">Цагаан</translation>
 <translation id="2714393097308983682">Google Play Store</translation>
-<translation id="2715751256863167692">Энэ сайжруулалт таны Chromebook-г шинэчилж хэрэглэгчийн одоогийн өгөгдлийг устгадаг.</translation>
+<translation id="2715751256863167692">Энэ сайжруулалт таны Bravebook-г шинэчилж хэрэглэгчийн одоогийн өгөгдлийг устгадаг.</translation>
 <translation id="2716986496990888774">Энэ тохиргоог эцэг эх удирддаг.</translation>
 <translation id="2718395828230677721">Шөнийн гэрэл</translation>
 <translation id="2718998670920917754">Анти-вирусын програм вирус илрүүллээ.</translation>
@@ -1343,7 +1343,7 @@
 <translation id="287286579981869940"><ph name="PROVIDER_NAME" />... нэмэх</translation>
 <translation id="2872961005593481000">Унтраах</translation>
 <translation id="2874939134665556319">Өмнөх бичлэг</translation>
-<translation id="2875698561019555027">(Chrome алдааны хуудас)</translation>
+<translation id="2875698561019555027">(Brave алдааны хуудас)</translation>
 <translation id="2876336351874743617">Хуруу 2</translation>
 <translation id="2876369937070532032">Таны аюулгүй байдал эрсдэлд орох үед таны зочилдог зарим хуудсын URL-г Google-д илгээдэг</translation>
 <translation id="2878782256107578644">Скан хийж байна, одоо нээх үү?</translation>
@@ -1482,7 +1482,7 @@
 <translation id="3082780749197361769">Энэ нь цонх нь таны камер эсвэл микрофоныг хэрэглэж байна.</translation>
 <translation id="3083193146044397360">Таны нууцлалыг хамгаалахын тулд түр блоклосон</translation>
 <translation id="3084548735795614657">Суулгахаар хадгалах</translation>
-<translation id="3084771660770137092">Chrome-ын санах ой дууссанаас гадна вэб хуудасны үйл ажиллагаа зарим шалтгааны улмаас зогссон байна. Үргэлжлүүлэхийн тулд дахин ачаалж эсвэл өөр хуудас руу очно уу.</translation>
+<translation id="3084771660770137092">Brave-ын санах ой дууссанаас гадна вэб хуудасны үйл ажиллагаа зарим шалтгааны улмаас зогссон байна. Үргэлжлүүлэхийн тулд дахин ачаалж эсвэл өөр хуудас руу очно уу.</translation>
 <translation id="3085412380278336437">Сайт таны камерыг ашиглах боломжтой</translation>
 <translation id="3085752524577180175">SOCKS Хост</translation>
 <translation id="3088052000289932193">Сайт MIDI-г ашиглаж байна</translation>
@@ -1523,7 +1523,7 @@
 
     Тайлбар:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Chrome Аппликейшнууд</translation>
+<translation id="3149510190863420837">Brave Аппликейшнууд</translation>
 <translation id="3150927491400159470">Хатуу дискийг дахин ачаалах</translation>
 <translation id="315116470104423982">Гар утасны дата</translation>
 <translation id="3151539355209957474">Эхлэх цаг</translation>
@@ -1532,7 +1532,7 @@
 <translation id="3154351730702813399">Төхөөрөмжийн админ таны хайлтын үйл ажиллагааг хянаж байж магадгүй.</translation>
 <translation id="3154429428035006212">Нэг сараас илүү хугацаанд оффлайн байх</translation>
 <translation id="3154736273843608862">Таны эцэг эхийн <ph name="IDS_SHORT_PRODUCT_NAME" /> дээр тохируулсан хязгаарлалтын хугацаа дууссан байна.</translation>
-<translation id="3156531245809797194">Chrome-г ашиглахын тулд нэвтэрнэ үү</translation>
+<translation id="3156531245809797194">Brave-г ашиглахын тулд нэвтэрнэ үү</translation>
 <translation id="3157931365184549694">Дахин сэргээх</translation>
 <translation id="3158033540161634471">Хурууны хээгээ тохируулах</translation>
 <translation id="3159493096109238499">Цайвар бор (Бэйж)</translation>
@@ -1561,7 +1561,7 @@
 <translation id="3208703785962634733">Баталгаажуулаагүй</translation>
 <translation id="32101887417650595">Хэвлэгчид холбогдох боломжгүй байна</translation>
 <translation id="321084946921799184">Шар ба цагаан</translation>
-<translation id="321356136776075234">Төхөөрөмжийн БН (жишээ нь БН=Chromebooks,DC=example,DC=com)</translation>
+<translation id="321356136776075234">Төхөөрөмжийн БН (жишээ нь БН=Bravebooks,DC=example,DC=com)</translation>
 <translation id="3217843140356091325">Товчлол үүсгэх үү?</translation>
 <translation id="321799795901478485">Зип архивлагч</translation>
 <translation id="321834671654278338">Linuх устгагч</translation>
@@ -1604,10 +1604,10 @@
 <translation id="3278001907972365362">Та Google Бүртгэлээ шалгах шаардлагатай байна</translation>
 <translation id="3279230909244266691">Энэ үйл явцад хэдэн минут шаардлагатай. Виртуал машиныг эхлүүлж байна.</translation>
 <translation id="3280237271814976245">... гэх хадгалах</translation>
-<translation id="3280243678470289153">Chrome-д үлдэх</translation>
+<translation id="3280243678470289153">Brave-д үлдэх</translation>
 <translation id="3281892622610078515">Тусгаарлах файл болон программ:</translation>
 <translation id="3282210178675490297">Табыг <ph name="APP_NAME" />-тай хуваалцаж байна</translation>
-<translation id="3282568296779691940">Chrome руу нэвтрэх</translation>
+<translation id="3282568296779691940">Brave руу нэвтрэх</translation>
 <translation id="3285322247471302225">Шинэ &amp;Цонх</translation>
 <translation id="328571385944182268">Таны нууц үгийг хадгалах уу?</translation>
 <translation id="3288047731229977326">Хөгжүүлэгч горим дээр ачаалж буй өргөтгөл нь таны компьютерийг гэмтээж болзошгүй байна. Хэрэв та хөгжүүлэгч биш бол аюулгүй байдлаа хангах үүднээс хөгжүүлэгч горим дээр ачаалж буй өргөтгөлийг идэвхгүй болгоно уу.</translation>
@@ -1785,7 +1785,7 @@
 <translation id="354602065659584722">Аюултай програмыг устгасан</translation>
 <translation id="3547954654003013442">Прокси тохиргоо</translation>
 <translation id="3548162552723420559">Дэлгэцийн өнгийг хүрээлэн буй орчинд тааруулахын тулд тохируулдаг</translation>
-<translation id="3550915441744863158">Chrome автоматиор шинэчилдэг тул та хамгийн сүүлийн үеийн хувилбарыг үргэлж хэрэглэнэ</translation>
+<translation id="3550915441744863158">Brave автоматиор шинэчилдэг тул та хамгийн сүүлийн үеийн хувилбарыг үргэлж хэрэглэнэ</translation>
 <translation id="3551320343578183772">Цонхыг хаах</translation>
 <translation id="3552780134252864554">Гарах үед цэвэрлэнэ</translation>
 <translation id="3555812735919707620">Өргөтгөл арилгах</translation>
@@ -1845,7 +1845,7 @@
 <translation id="3624567683873126087">Төхөөрөмжийн түгжээг тайлж Google Туслахдаа нэвтрэх</translation>
 <translation id="3625258641415618104">Дэлгэцийн зураг авах тохиргоог идэвхгүй болгосон</translation>
 <translation id="3625481642044239431">Буруу файл сонгосон байна. Дахин оролдоно уу.</translation>
-<translation id="3626296069957678981">Энэ Chromebook-г цэнэглэхийн тулд тохирох Dell батарейг ашиглана уу.</translation>
+<translation id="3626296069957678981">Энэ Bravebook-г цэнэглэхийн тулд тохирох Dell батарейг ашиглана уу.</translation>
 <translation id="3627320433825461852">1 минут хүрэхгүй хугацаа үлдлээ</translation>
 <translation id="3627588569887975815">Incognito цонхонд холбоосыг нээх</translation>
 <translation id="3627671146180677314">Netscape сертификатыг сунгах цаг</translation>
@@ -1877,7 +1877,7 @@
 <translation id="3660234220361471169">Найдваргүй</translation>
 <translation id="3661172646479098821">Одоогоор зөвхөн Android төхөөрөмжүүдийг дэмждэг.</translation>
 <translation id="3664511988987167893">Өргөтгөлийн дүрс тэмдэг</translation>
-<translation id="3665589677786828986">Chrome таны тохиргоонд өөр програмтай холбоотойгоор алдаа гарсныг илрүүлсэн тул тохиргоог үндсэн хэлбэрээр дахин тохируулна уу.</translation>
+<translation id="3665589677786828986">Brave таны тохиргоонд өөр програмтай холбоотойгоор алдаа гарсныг илрүүлсэн тул тохиргоог үндсэн хэлбэрээр дахин тохируулна уу.</translation>
 <translation id="3668570675727296296">Хэлний тохиргоо</translation>
 <translation id="366867565525278777">Хадгалах сангийн багтаамж хүрэлцээгүй тул суулгаж чадсангүй. Хамгийн багадаа <ph name="INSTALL_SIZE" /> сул зайтай байх шаардлагатай. Сул зай гаргахын тулд төхөөрөмжийн хадгалах сангаас файл устгана уу.</translation>
 <translation id="3668801437375206837">Bluetooth-н асуудлыг тогтооход Google-н ажилчид санал хүсэлтийн мэдэгдлээрээ Bluetooth-н нэмэлт логийг оруулах боломжтой. Энэ сонголтыг сонгоход таны мэдэгдэлд одоогийн харилцан үйлдлээс btsnoop болон HCI лог, PII-г аль болох ихийг хасахын тулд ариутгал хийхийг оруулна. Эдгээр лог руу Listnr-д хандахыг Chrome OS бүтээгдэхүүний бүлгийн менежерүүдэд хязгаарлана. Логуудийг 90 хоногийн дараа цэвэрлэх болно.</translation>
@@ -1966,7 +1966,7 @@
 <translation id="3771294271822695279">Видео файлууд</translation>
 <translation id="3775432569830822555">SSL серверийн сертификат</translation>
 <translation id="3775705724665058594">Төхөөрөмжүүддээ илгээх</translation>
-<translation id="3776796446459804932">Энэ өргөтгөл нь Chrome Web Store-ын бодлогыг зөрчиж байна.</translation>
+<translation id="3776796446459804932">Энэ өргөтгөл нь Brave Web Store-ын бодлогыг зөрчиж байна.</translation>
 <translation id="3777483481409781352">Үүрэн холбооны төхөөрөмжийг идэвхжүүлж чадсангүй</translation>
 <translation id="3777806571986431400">Өргөтгөлийг идэвхжүүлсэн.</translation>
 <translation id="3778152852029592020">Татаж авах ажиллагаа цуцлагдсан байна.</translation>
@@ -1999,8 +1999,8 @@
 <translation id="3810973564298564668">удирдах</translation>
 <translation id="381202950560906753">Өөрийг нэмэх</translation>
 <translation id="3812525830114410218">Муу сертификат</translation>
-<translation id="3813296892522778813">Хэрэв та хайж байгаа зүйлээ олохгүй байвал <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome тусламж<ph name="END_LINK_CHROMIUM" /> хэсэгт очно уу</translation>
-<translation id="3816118180265633665">Chrome-н өнгө</translation>
+<translation id="3813296892522778813">Хэрэв та хайж байгаа зүйлээ олохгүй байвал <ph name="BEGIN_LINK_CHROMIUM" />Brave тусламж<ph name="END_LINK_CHROMIUM" /> хэсэгт очно уу</translation>
+<translation id="3816118180265633665">Brave-н өнгө</translation>
 <translation id="3817524650114746564">Компьютерынхоо прокси тохиргоог нээнэ үү</translation>
 <translation id="3817579325494460411">Олгоогүй</translation>
 <translation id="3819257035322786455">Нөөцлөлт</translation>
@@ -2038,7 +2038,7 @@
 <translation id="3857807444929313943">Дээшлүүлээд дахин хүрэх</translation>
 <translation id="3860104611854310167"><ph name="PROFILE_NAME" />: Синкийг түр зогссон</translation>
 <translation id="3862693525629180217">Built-in мэдрэгчээр баталгаажуулах</translation>
-<translation id="3862788408946266506">"Kiosk_only" тодорхойлогч файлын шинжтэй аппыг Chrome-н үйлдлийн системийн киоск горимд суулгах шаардлагатай</translation>
+<translation id="3862788408946266506">"Kiosk_only" тодорхойлогч файлын шинжтэй аппыг Brave-н үйлдлийн системийн киоск горимд суулгах шаардлагатай</translation>
 <translation id="3865414814144988605">Нягтрал</translation>
 <translation id="3866249974567520381">Тодорхойлолт</translation>
 <translation id="3867944738977021751">Гэрчилгээний талбарууд</translation>
@@ -2057,7 +2057,7 @@
 <translation id="3888550877729210209"><ph name="LOCK_SCREEN_APP_NAME" />-р тэмдэглэл бичиж байна</translation>
 <translation id="3892414795099177503">Нээлттэй VPN / L2TP-г нэмэх...</translation>
 <translation id="3893536212201235195">Хандалт хийх тохиргоог унших, өөрчлөх</translation>
-<translation id="3893630138897523026">ChromeVox (ярьдаг санал хүсэлт)</translation>
+<translation id="3893630138897523026">BraveVox (ярьдаг санал хүсэлт)</translation>
 <translation id="3893764153531140319"><ph name="DOWNLOADED_SIZE" />/<ph name="DOWNLOAD_SIZE" /></translation>
 <translation id="3894123633473837029">Туслахын саяхны түүхийг Sherlog-р оруулна уу. Үүнд таны биеийн байцаалт, байршил болон дебаг хийх мэдээллийг агуулж болно. <ph name="BEGIN_LINK" />Нэмэлт мэдээлэл авах<ph name="END_LINK" /></translation>
 <translation id="3894427358181296146">Хавтас нэмэх</translation>
@@ -2079,7 +2079,7 @@
 <translation id="3918972485393593704">Google-д дэлгэрэнгүйг мэдээллэх</translation>
 <translation id="3919145445993746351">Өргөтгөлөө бүх компьютер дээрээ авахын тулд синкийг асаана уу</translation>
 <translation id="3920504717067627103">Гэрчилгээний бодлого</translation>
-<translation id="392089482157167418">ChromeVox-ыг идэвхжүүлнэ (ярьсан санал хүсэлт)</translation>
+<translation id="392089482157167418">BraveVox-ыг идэвхжүүлнэ (ярьсан санал хүсэлт)</translation>
 <translation id="3923676227229836009">Энэ хуудас нь файлыг харах зөвшөөрөлтэй</translation>
 <translation id="3924145049010392604">Мета</translation>
 <translation id="3925573269917483990">Камер:</translation>
@@ -2161,7 +2161,7 @@
 <translation id="4023146161712577481">Төхөөрөмжийн тохиргоог тодорхойлж байна.</translation>
 <translation id="4025039777635956441">Сонгосон сайтын дууг хаах</translation>
 <translation id="4027804175521224372">(<ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK" />-Та үүнийг орхисон байна)</translation>
-<translation id="4027951648498485763">Chrome-с гарах хүртэл таны анивчих тохиргоог хэвээр үлдээх болно.</translation>
+<translation id="4027951648498485763">Brave-с гарах хүртэл таны анивчих тохиргоог хэвээр үлдээх болно.</translation>
 <translation id="4031179711345676612">Микрофоныг зөвшөөрсөн</translation>
 <translation id="4031527940632463547">Мэдрэгчийг хориглосон</translation>
 <translation id="4033471457476425443">Шинэ фолдер нэмэх</translation>
@@ -2170,7 +2170,7 @@
 <translation id="4036778507053569103">Серверээс татсан удирдамж хүчингүй байна.</translation>
 <translation id="4037084878352560732">Морь</translation>
 <translation id="4037889604535939429">Хүн засах</translation>
-<translation id="4042264909745389898">Google Chrome үйлдлийн системийн нөхцөл</translation>
+<translation id="4042264909745389898">Brave үйлдлийн системийн нөхцөл</translation>
 <translation id="4042863763121826131">{NUM_PAGES,plural, =1{Хуудаснаас гарах}other{Хуудаснуудаас гарах}}</translation>
 <translation id="4044612648082411741">Сертификатынхаа нууц үгийг оруулна уу</translation>
 <translation id="404493185430269859">Анхдагч хайлтын хөдөлгүүр</translation>
@@ -2329,7 +2329,7 @@
 <translation id="4287502004382794929">Энэ төхөөрөмжийг бүртгүүлэх хангалттай програмын лиценз танд байхгүй байна. Худалдааны хэсэгт хандан худалдаж авна уу. Хэрэв та алдаа гарсны үндсэн дээр энэ мессежийг хүлээн авсан гэж бодож байгаа бол тусламжийн хэсэгт хандана уу.</translation>
 <translation id="4289540628985791613">Тойм</translation>
 <translation id="4295072614469448764">Апп таны терминалд боломжтой боллоо. Түүнчлэн, таны Эхлүүлэгчид дүрс тэмдэг харагдаж болзошгүй.</translation>
-<translation id="4295979599050707005">Chrome болон Google Play-н вэб сайт, апп болон өргөтгөл дээр таны <ph name="USER_EMAIL" /> бүртгэлийг ашиглах боломжтой болохыг баталгаажуулахын тулд дахин нэвтэрнэ үү. Мөн та энэ бүртгэлийг устгаж болно. <ph name="LINK_BEGIN" />Нэмэлт мэдээлэл авах<ph name="LINK_END" /></translation>
+<translation id="4295979599050707005">Brave болон Google Play-н вэб сайт, апп болон өргөтгөл дээр таны <ph name="USER_EMAIL" /> бүртгэлийг ашиглах боломжтой болохыг баталгаажуулахын тулд дахин нэвтэрнэ үү. Мөн та энэ бүртгэлийг устгаж болно. <ph name="LINK_BEGIN" />Нэмэлт мэдээлэл авах<ph name="LINK_END" /></translation>
 <translation id="4296575653627536209">Хяналттай хэрэглэгч нэмэх</translation>
 <translation id="4297219207642690536">Дахин эхлүүлэх болон шинэчлэх</translation>
 <translation id="4301671483919369635">Энэ хуудас нь файлыг засах зөвшөөрөлтэй</translation>
@@ -2437,7 +2437,7 @@
 <translation id="4469477701382819144">Төвөгтэй эсвэл хуурамч зар харуулдаг сайтууд дээр блоклосон</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> нь <ph name="FOLDERNAME" />-н файлыг засах боломжтой</translation>
 <translation id="4470957202018033307">Гадаад санах ойн сонголт</translation>
-<translation id="447252321002412580">Chrome-н онцлог болон гүйцэтгэлийг сайжруулахад туслах</translation>
+<translation id="447252321002412580">Brave-н онцлог болон гүйцэтгэлийг сайжруулахад туслах</translation>
 <translation id="4474155171896946103">Бүх цонхнуудыг хадгалж жагсаах ...</translation>
 <translation id="4474461121892222090">Таны мобайл датаг идэвхжүүлэхэд 15 хүртэл минут шаардагдаж болно.</translation>
 <translation id="4475552974751346499">Татаж авсан файлуудыг хайх</translation>
@@ -2448,7 +2448,7 @@
 <translation id="4479424953165245642">Kiosk аппуудыг удирдах</translation>
 <translation id="4479639480957787382">Ethernet</translation>
 <translation id="4479877282574735775">Виртуал машиныг тохируулж байна. Үүнд хэдэн хором шаардлагатай.</translation>
-<translation id="4480590691557335796">Chrome таны компьютероос хортой програм хангамжийг олж устгах боломжтой</translation>
+<translation id="4480590691557335796">Brave таны компьютероос хортой програм хангамжийг олж устгах боломжтой</translation>
 <translation id="4481530544597605423">Хослоогүй төхөөрөмж</translation>
 <translation id="4495419450179050807">Энэ хуудсан дээр бүү үзүүл</translation>
 <translation id="4500114933761911433"><ph name="PLUGIN_NAME" /> гэмтсэн байна</translation>
@@ -2485,7 +2485,7 @@
 <translation id="4544174279960331769">Өгөгдмөл цэнхэр аватар</translation>
 <translation id="4545028762441890696">Дахин идэвхжүүлэхийн тулд шинэ зөвшөөрлийг зөвшөөрнө үү:</translation>
 <translation id="4545759655004063573">Холбогдох зөвшөөрөл дутуу байаа тул хадгалах боломжгүй байна. Та өөр хэсэгт хадгална уу.</translation>
-<translation id="4546308221697447294">Google Chrome-р хурдан хайгаарай</translation>
+<translation id="4546308221697447294">Brave-р хурдан хайгаарай</translation>
 <translation id="4547659257713117923">Бусад төхөөрөмжөөс ирсэн цонх байхгүй байна</translation>
 <translation id="4547672827276975204">Автоматаар тохируулах</translation>
 <translation id="4549791035683739768">Таны аюулгүй байдлын түлхүүр дээр хадгалсан хурууны хээ байхгүй байна</translation>
@@ -2549,7 +2549,7 @@
 <translation id="4635398712689569051"><ph name="PAGE_NAME" /> Зочин хэрэглэгч ашиглах боломжгүй байна.</translation>
 <translation id="4637083375689622795">Нэмэлт үйлдлүүд, <ph name="EMAIL" /></translation>
 <translation id="4638930039313743000">ADB алдаа засахыг идэвхжүүлэх</translation>
-<translation id="4641539339823703554">Chrome-оос системийн цагийг тохируулах боломжгүй байсан. Доор байгаа цагийг шалгаад шаардлагатай бол зөв болгоно уу.</translation>
+<translation id="4641539339823703554">Brave-оос системийн цагийг тохируулах боломжгүй байсан. Доор байгаа цагийг шалгаад шаардлагатай бол зөв болгоно уу.</translation>
 <translation id="4643612240819915418">&amp; Шинэ цонхонд видеог нээх</translation>
 <translation id="4645676300727003670">&amp;Хадгал</translation>
 <translation id="4647090755847581616">Цонхыг хаах</translation>
@@ -2589,7 +2589,7 @@
 <translation id="4699172675775169585">Кэшлсэн дүрс ба файл</translation>
 <translation id="4699357559218762027">(автоматаар эхлүүлсэн)</translation>
 <translation id="470074695271471509">Дуусгахын тулд гарах уу?</translation>
-<translation id="4707302005824653064">Chrome.com дээр хэрэглээ болон түүхийг менежер (<ph name="CUSTODIAN_EMAIL" />) хянаж болно.</translation>
+<translation id="4707302005824653064">Brave.com дээр хэрэглээ болон түүхийг менежер (<ph name="CUSTODIAN_EMAIL" />) хянаж болно.</translation>
 <translation id="4707579418881001319">L2TP/IPsec + хэрэглэгчийн гэрчилгээ</translation>
 <translation id="4708794300267213770">Унтаад сэрэх үед дэлгэцийн түгжээг харуулах</translation>
 <translation id="4708849949179781599"><ph name="PRODUCT_NAME" />-аас гарах</translation>
@@ -2616,7 +2616,7 @@
 <translation id="4743260470722568160"><ph name="BEGIN_LINK" />Аппыг шинэчилж сурна уу<ph name="END_LINK" /></translation>
 <translation id="4744981231093950366">{NUM_TABS,plural, =1{Сайтын дууг нээх}other{Сайтуудын дууг нээх}}</translation>
 <translation id="4746351372139058112">Зурвасууд</translation>
-<translation id="4748762018725435655">Chrome вэб дэлгүүрээс өргөтгөл шаардах</translation>
+<translation id="4748762018725435655">Brave вэб дэлгүүрээс өргөтгөл шаардах</translation>
 <translation id="4750394297954878236">Санал зөвлөмж</translation>
 <translation id="475088594373173692">Анхны хэрэглэгч</translation>
 <translation id="4751476147751820511">Хөдөлгөөн эсвэл гэрэл мэдрэгч</translation>
@@ -2628,7 +2628,7 @@
 <translation id="4762718786438001384">Төхөөрөмжийн дискний багтаамж маш бага байна</translation>
 <translation id="4763408175235639573">Таныг энэ хуудсыг харахад дараах күүкийг тохируулсан</translation>
 <translation id="4763830802490665879">Олон сайтуудаас ирсэн үүсмэл мэдээлэл нь гарах үед цэвэрлэгдэнэ.</translation>
-<translation id="4765582662863429759">Андройд Мессежийг таны утаснаас таны Chromebook-д мессеж илгээхийг зөвшөөрдөг</translation>
+<translation id="4765582662863429759">Андройд Мессежийг таны утаснаас таны Bravebook-д мессеж илгээхийг зөвшөөрдөг</translation>
 <translation id="4768332406694066911">Танд эдгээр байгууллагаас таныг тодорхойлох сертификат байна</translation>
 <translation id="4774824109040330448">Утасныхаа тохирох баталгаажуулалтын аппаар хурдан хариу үйлдлийн кодыг скан хийх.</translation>
 <translation id="4776917500594043016"><ph name="USER_EMAIL_ADDRESS" />-ийн нууц үг</translation>
@@ -2664,8 +2664,8 @@
 <translation id="4829768588131278040">ПИН тохируулах</translation>
 <translation id="4830502475412647084">Үйлдлийн системийн шинэчлэлтийг суулгаж байна</translation>
 <translation id="4830573902900904548">Таны <ph name="DEVICE_TYPE" /> нь <ph name="NETWORK_NAME" />-ыг ашиглан интернэтэд холбогдох боломжгүй байна. Өөр сүлжээ сонгоно уу. <ph name="LEARN_MORE_LINK_START" />Дэлгэрэнгүй үзэх<ph name="LEARN_MORE_LINK_END" /></translation>
-<translation id="4833236810053292670">Chromebook дээр шинэ зүйл юу байгааг харах</translation>
-<translation id="4835385943915508971">Chrome хүсэлт тавьсан нөөцөд хандах эрхгүй.</translation>
+<translation id="4833236810053292670">Bravebook дээр шинэ зүйл юу байгааг харах</translation>
+<translation id="4835385943915508971">Brave хүсэлт тавьсан нөөцөд хандах эрхгүй.</translation>
 <translation id="4836504898754963407">Хурууны хээг удирдах</translation>
 <translation id="4837926214103741331">Та энэ төхөөрөмжийг ашиглах эрхгүй байна. Нэвтрэх зөвшөөрөл авахын тулд төхөөрөмжийн эзэмшигчтэй холбогдоно уу.</translation>
 <translation id="4837952862063191349">Суурин өгөгдлийн түгжээг тайлж сэргээхийн тулд хуучин <ph name="DEVICE_TYPE" /> нууц үгээ оруулна уу.</translation>
@@ -2693,7 +2693,7 @@
 <translation id="48704129375571883">Нэмэлт онцлог нэмэх</translation>
 <translation id="4870758487381879312">Тохируулгын мэдээллийг авахын тулд админы өгсөн нууц үгийг оруулна уу</translation>
 <translation id="4870903493621965035">Холбосон төхөөрөмж алга</translation>
-<translation id="4871308555310586478">Chrome Web Store-оос биш</translation>
+<translation id="4871308555310586478">Brave Web Store-оос биш</translation>
 <translation id="4871322859485617074">ПИН хүчингүй тэмдэгт агуулж байна</translation>
 <translation id="4871370605780490696">Хадгалагдсан холбоос нэмэх</translation>
 <translation id="4871719318659334896">Бүлгийг хаах</translation>
@@ -2848,7 +2848,7 @@
 <translation id="5086874064903147617">Өгөгдмөл нүүр хуудсыг идэвхжүүлэх үү?</translation>
 <translation id="5087249366037322692">Гуравдагч талаас нэмсэн</translation>
 <translation id="5087580092889165836">Карт нэмэх</translation>
-<translation id="5087926280563932024">Таны бүртгэлийг баталгаажуулж чадсангүй. Дахин оролдох эсвэл Chromebook-г дахин эхлүүлнэ үү.</translation>
+<translation id="5087926280563932024">Таны бүртгэлийг баталгаажуулж чадсангүй. Дахин оролдох эсвэл Bravebook-г дахин эхлүүлнэ үү.</translation>
 <translation id="5088172560898466307">Серверийн хостын нэр</translation>
 <translation id="5088534251099454936">PKCS #1 SHA-512 With RSA Encryption</translation>
 <translation id="5094721898978802975">Хамтарч буй суурин апп-уудтай харилцах</translation>
@@ -3000,7 +3000,7 @@
 <translation id="5315738755890845852">Илүү хээтэй хаалт: <ph name="ERROR_LINE" /></translation>
 <translation id="5315873049536339193">Таниулбар</translation>
 <translation id="5317780077021120954">Хадгалах</translation>
-<translation id="5319359161174645648">Google нь Chrome-г санал болгож байна</translation>
+<translation id="5319359161174645648">Google нь Brave-г санал болгож байна</translation>
 <translation id="532247166573571973">Энэ серверт холбогдох боломжгүй байна. Дараа дахин оролдоно уу.</translation>
 <translation id="5324780743567488672">Таны байршлын мэдээллийг ашиглан цагийн бүсийг автоматаар тохируулах</translation>
 <translation id="5327248766486351172">Нэр</translation>
@@ -3020,7 +3020,7 @@
 <translation id="5341980496415249280">Багцалж байгаа тул хүлээнэ үү...</translation>
 <translation id="5342091991439452114">ПИН хамгийн багадаа <ph name="MINIMUM" /> оронтой байх ёстой</translation>
 <translation id="5352033265844765294">Цагаар тамгалах</translation>
-<translation id="5353252989841766347">Нууц үгийг Chrome-с экспортлох</translation>
+<translation id="5353252989841766347">Нууц үгийг Brave-с экспортлох</translation>
 <translation id="5355099869024327351">Туслахад танд мэдэгдэл харуулахыг зөвшөөрөх</translation>
 <translation id="5355926466126177564">"<ph name="EXTENSION_NAME" />" өргөтгөл нь Omnibox-с хайлт хийхэд, хуудсын харуулж буй илэрцийг өөрчилсөн.</translation>
 <translation id="5360150013186312835">Хэрэгслийн мөрд харуулах</translation>
@@ -3094,7 +3094,7 @@
 <translation id="5457599981699367932">Зочны хувиар хайлт хийх</translation>
 <translation id="5457991019809708398">Асаалттай, роуминггүй</translation>
 <translation id="5458998536542739734">Түгжигдсэн дэлгэцийн тэмдэглэл</translation>
-<translation id="546322474339998983">Chrome хөтөч болон <ph name="DEVICE_TYPE" /> эхлүүлэгч дээр хэрэглэгддэг</translation>
+<translation id="546322474339998983">Brave хөтөч болон <ph name="DEVICE_TYPE" /> эхлүүлэгч дээр хэрэглэгддэг</translation>
 <translation id="5463231940765244860">Оруулах</translation>
 <translation id="5463275305984126951"><ph name="LOCATION" />-ын индекс</translation>
 <translation id="5463856536939868464">Нууцлагдсан хадгалагдсан хуудсуудыг агуулж буй цэс</translation>
@@ -3175,7 +3175,7 @@
 <translation id="5567989639534621706">Аппликейшний кэшүүд</translation>
 <translation id="5568069709869097550">Нэвтрэх боломжгүй</translation>
 <translation id="5568144734023334204">Андройдын сан</translation>
-<translation id="5572851009514199876">Chrome-г эхлүүлж, нэвтэрснээр Chrome таныг энэ сайтад хандах эрхтэй эсэхийг шалгах болно.</translation>
+<translation id="5572851009514199876">Brave-г эхлүүлж, нэвтэрснээр Brave таныг энэ сайтад хандах эрхтэй эсэхийг шалгах болно.</translation>
 <translation id="5575473780076478375">Нууцлалтай өргөтгөл: <ph name="EXTENSION_NAME" /></translation>
 <translation id="5575528586625653441">Демо бүртгэлийн хүсэлтэд алдаа гарлаа.</translation>
 <translation id="557722062034137776">Төхөөрөмжийг дахин ачаалах тохиолдолд энэхүү үйлдэл нь таны Google хаяг эсвэл түүнд тохируулсан аливаа өгөгдөлд ямар нэгэн хэлбэрээр үл нөлөөлөх боловч дотоод орчинд хадгалсан таны бүх файл устах болно.</translation>
@@ -3225,14 +3225,14 @@
 <translation id="5624120631404540903">Нууц үгийг удирдах</translation>
 <translation id="5626134646977739690">Нэр:</translation>
 <translation id="5627086634964711283">Энэ нь мөн таныг Home товчин дээр дарах үед гарч ирдэг хуудсыг хянаж байдаг.</translation>
-<translation id="5627676517703583263">Chrome-р ухаалаг хайгаарай</translation>
+<translation id="5627676517703583263">Brave-р ухаалаг хайгаарай</translation>
 <translation id="562935524653278697">Таны админ хавчуурга, түүх, нууц үг болон бусад тохиргоог синк хийхийг цуцалсан.</translation>
 <translation id="5632566673632479864">Таны <ph name="EMAIL" /> бүртгэл цаашид үндсэн бүртгэлээр зөвшөөрөгдөхөө больсон байна. Энэ бүртгэлийг <ph name="DOMAIN" />-с удирддаг тул таны хавчуурга, түүх, нууц үг болон бусад тохиргоог энэ төхөөрөмжөөс устгах болно.</translation>
 <translation id="5632592977009207922">Татаж байна, <ph name="PERCENT_REMAINING" />% үлдсэн</translation>
 <translation id="563535393368633106">Хандалт хийхээс өмнө асуух (зөвлөж байна)</translation>
 <translation id="5636996382092289526"><ph name="NETWORK_ID" />-ыг ашиглахын тулд та эхлээд <ph name="LINK_START" /> сүлжээний нэвтрэх хуудас <ph name="LINK_END" />  руу орох хэрэгтэй бөгөөд  энэ нь хэдхэн секундын дотор автоматаар нээгдэнэ. Хэрвээ энэ ажиллахгүй байвал сүлжээг ашиглах боломжгүй.</translation>
 <translation id="5637476008227280525">Мобайл датаг идэвхжүүлэх</translation>
-<translation id="5638309510554459422"><ph name="BEGIN_LINK" />Chrome Вэб Дэлгүүрээс<ph name="END_LINK" /> өргөтгөл, загвар олох</translation>
+<translation id="5638309510554459422"><ph name="BEGIN_LINK" />Brave Вэб Дэлгүүрээс<ph name="END_LINK" /> өргөтгөл, загвар олох</translation>
 <translation id="5639549361331209298">Энэ хуудсыг дахин ачаална уу. Түр хүлээн нэмэлт сонголтуудыг харна уу.</translation>
 <translation id="5640133431808313291">Аюулгүй байдлын түлхүүрийг удирдах</translation>
 <translation id="5642508497713047">CRL гарын үсэг зурагч</translation>
@@ -3243,7 +3243,7 @@
 <translation id="5649053991847567735">Автоматаар татаж  авах файл</translation>
 <translation id="5653154844073528838">Танд хадгалсан <ph name="PRINTER_COUNT" /> хэвлэгч байна.</translation>
 <translation id="5656845498778518563">Google-д санал хүсэлт илгээх</translation>
-<translation id="5657667036353380798">Энэ өргөтгөлийг татахын тулд Chrome-н <ph name="MINIMUM_CHROME_VERSION" /> хувилбар болон дараагийн хувилбаруудыг суулгасан байх шаардлагтай.</translation>
+<translation id="5657667036353380798">Энэ өргөтгөлийг татахын тулд Brave-н <ph name="MINIMUM_CHROME_VERSION" /> хувилбар болон дараагийн хувилбаруудыг суулгасан байх шаардлагтай.</translation>
 <translation id="5658415415603568799">Таны аюулгүй байдлыг сайжруулахын тулд Smart Lock 20 цагийн дараа таныг нууц үгээ оруулахыг шаардах болно.</translation>
 <translation id="5659593005791499971">И-мэйл хаяг</translation>
 <translation id="5659833766619490117">Энэ хуудсыг орчуулж чадсангүй</translation>
@@ -3279,7 +3279,7 @@
 <translation id="5704875434923668958">Дараахад синк хийж байна</translation>
 <translation id="5707185214361380026">:-ээс өргөтгөлийг ачаалах ажиллагаа амжилтгүй боллоо.</translation>
 <translation id="5708171344853220004">Майкрософтын үндсэн нэр</translation>
-<translation id="5709557627224531708">Chrome-г өгөгдмөл хөтчөөрөө тохируулна уу</translation>
+<translation id="5709557627224531708">Brave-г өгөгдмөл хөтчөөрөө тохируулна уу</translation>
 <translation id="5711983031544731014">Түгжээг тайлах боломжгүй байна. Нууц үгээ оруулна уу.</translation>
 <translation id="5713723565110096165">ПИН буруу байна. Үлдсэн дахин оролдлого: <ph name="RETRIES" />.</translation>
 <translation id="5715711091495208045">Нэмэлт өргөтгөлийн зуучлагч: <ph name="PLUGIN_NAME" /></translation>
@@ -3320,7 +3320,7 @@
 <translation id="5774295353725270860">Файлууд аппликейшнийг нээх</translation>
 <translation id="5774515636230743468">Тодорхой харуулах:</translation>
 <translation id="577624874850706961">Үүссэн мэдээллийг хайх</translation>
-<translation id="5777468213129569553">Chrome-г нээх</translation>
+<translation id="5777468213129569553">Brave-г нээх</translation>
 <translation id="5778747455497889540">Таны компьютерт оноосон, санамсаргүй үүсгэсэн аюулгүй байдлын модулийн нууц үгийг доороос харна уу:</translation>
 <translation id="5780011244986845107">Таны сонгосон фолдерт эмзэг файл агуулсан байна. Та "<ph name="APP_NAME" />"-д энэ фолдерыг унших хандалтыг бүрмөсөн өгөхдөө итгэлтэй байна уу?</translation>
 <translation id="5780973441651030252">Боловсруулалтын тэргүүлэх чиглэл</translation>
@@ -3329,13 +3329,13 @@
 <translation id="5782227691023083829">Орчуулж байна...</translation>
 <translation id="5783602409389152506">төхөөрөмжийг хайх үед...</translation>
 <translation id="57838592816432529">Дууг хаах</translation>
-<translation id="5785583009707899920">Chrome Файл хэрэгсэл</translation>
+<translation id="5785583009707899920">Brave Файл хэрэгсэл</translation>
 <translation id="5787146423283493983">Гол хэлэлцээр</translation>
 <translation id="5788367137662787332">Уучлаарай, <ph name="DEVICE_LABEL" /> төхөөрөмжийн ядаж нэг хуваалтыг засаж чадсангүй.</translation>
 <translation id="5792728279623964091">Асаах товчийг товшино уу</translation>
 <translation id="5793339252089865437">Хэрэв та шинэчлэлтийг мобайл сүлжээгээрээ татвал нэмэлт төлбөр гарч болзошгүй.</translation>
 <translation id="5794414402486823030">Систем харагчтай үргэлж хамт нээх</translation>
-<translation id="5794786537412027208">Бүх Chrome Apps-аас гарах</translation>
+<translation id="5794786537412027208">Бүх Brave Apps-аас гарах</translation>
 <translation id="5797070761912323120">Google таны түүхийг Хайлт, зар болон Google-н бусад үйлчилгээг хувийн болгох зорилгоор ашиглаж болзошгүй</translation>
 <translation id="579915268381781820">Таны аюулгүй байдлын түлхүүрийг устгалаа.</translation>
 <translation id="5799508265798272974">Linux-н виртуал машин: <ph name="LINUX_VM_NAME" /></translation>
@@ -3427,13 +3427,13 @@
 <translation id="5916664084637901428">Асаах</translation>
 <translation id="59174027418879706">Идэвхжсэн</translation>
 <translation id="5920543303088087579">Энэ сүлжээний холболтыг таны админ цуцалсан байна</translation>
-<translation id="5920835625712313205">Chrome үйлдлийн системийн зураг бичигч</translation>
+<translation id="5920835625712313205">Brave үйлдлийн системийн зураг бичигч</translation>
 <translation id="5924047253200400718">Тусламж авах<ph name="SCANNING_STATUS" /></translation>
 <translation id="5924527146239595929">Шинэ зураг авах эсвэл одоо байгаа зураг болон дүрс тэмдгийг сонгоно уу.
     <ph name="LINE_BREAK" />
-    Энэ зураг Chromebook-н нэвтрэх дэлгэц болон түгжигдсэн дэлгэцэд харагдах болно.</translation>
+    Энэ зураг Bravebook-н нэвтрэх дэлгэц болон түгжигдсэн дэлгэцэд харагдах болно.</translation>
 <translation id="5925147183566400388">Certification Practice Statement Pointer</translation>
-<translation id="592880897588170157">PDF файлыг автоматаар Chrome-д нээхийн оронд татна уу</translation>
+<translation id="592880897588170157">PDF файлыг автоматаар Brave-д нээхийн оронд татна уу</translation>
 <translation id="5931146425219109062">Өөрийн ордог вэб сайтууд дээрх бүх мэдээллийг уншуулж, өөрчлөх</translation>
 <translation id="5932124097031739492">Linux-г амжилттай дэвшүүллээ.</translation>
 <translation id="5932224571077948991">Сайт төвөгтэй эсвэл хуурамч зар харуулдаг</translation>
@@ -3495,7 +3495,7 @@
 <translation id="6017514345406065928">Ногоон</translation>
 <translation id="6020431688553761150">Танд энэ нөөцөд хандах зөвшөөрлийг сервер өгөөгүй.</translation>
 <translation id="6022526133015258832">Дэлгэц дүүрэн нээх</translation>
-<translation id="6022659036123304283">Chrome-г хүссэнээрээ тохируулаарай</translation>
+<translation id="6022659036123304283">Brave-г хүссэнээрээ тохируулаарай</translation>
 <translation id="6022705094403139349">Аюулгүй байдлын түлхүүрээ хослуулахад бэлэн үү?</translation>
 <translation id="6023643151125006053"><ph name="SAML_DOMAIN" /> админ энэ төхөөрөмжийг (SN: <ph name="SERIAL_NUMBER" />) түгжсэн байна.</translation>
 <translation id="6025215716629925253">Stack Trace</translation>
@@ -3512,9 +3512,9 @@
 <translation id="6041155700700864984">Бүтэн дэлгэцээс гарах</translation>
 <translation id="604124094241169006">Автомат</translation>
 <translation id="6042308850641462728">Илүү их</translation>
-<translation id="6043317578411397101"><ph name="APP_NAME" /> нь Chrome-н чихтэй хуудсыг <ph name="TAB_NAME" />-тай хуваалцаж байна.</translation>
+<translation id="6043317578411397101"><ph name="APP_NAME" /> нь Brave-н чихтэй хуудсыг <ph name="TAB_NAME" />-тай хуваалцаж байна.</translation>
 <translation id="604388835206766544">Тохируулгын задаргаа амжилтгүй боллоо</translation>
-<translation id="6044805581023976844"><ph name="APP_NAME" /> нь Chrome-н чихтэй хуудас болон дууг <ph name="TAB_NAME" />-тай хуваалцаж байна.</translation>
+<translation id="6044805581023976844"><ph name="APP_NAME" /> нь Brave-н чихтэй хуудас болон дууг <ph name="TAB_NAME" />-тай хуваалцаж байна.</translation>
 <translation id="6049004884579590341">Бүтэн дэлгэцээс гарах бол |<ph name="ACCELERATOR" />|-г удаан дарна уу</translation>
 <translation id="6049065490165456785">Дотоод камераар авсан фото зураг</translation>
 <translation id="6051354611314852653">Өө! Системээс энэ төхөөрөмжийн API нэвтрэх эрхийг өгч чадсангүй.</translation>
@@ -3579,7 +3579,7 @@
 <translation id="6124650939968185064">Дараах өргөтгөлүүд нь энэ өргөтгөлөөс хамаардаг:</translation>
 <translation id="6124698108608891449">Энэ сайтад илүү зөвшөөрөл шаардлагатай.</translation>
 <translation id="6125479973208104919">Харамсалтай нь та бүртгэлээ <ph name="DEVICE_TYPE" />-д дахин нэмэх шаардлагатай болно.</translation>
-<translation id="6129691635767514872">Сонгосон датаг Chrome болон синк хийсэн төхөөрөмжүүдээс устгасан. Таны Google Бүртгэл <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> дээр Google-н бусад үйлчилгээнээс хайлт, ашиглалт зэрэг хөтчийн түүхийн өөр хэлбэртэй байж болзошгүй.</translation>
+<translation id="6129691635767514872">Сонгосон датаг Brave болон синк хийсэн төхөөрөмжүүдээс устгасан. Таны Google Бүртгэл <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> дээр Google-н бусад үйлчилгээнээс хайлт, ашиглалт зэрэг хөтчийн түүхийн өөр хэлбэртэй байж болзошгүй.</translation>
 <translation id="6129938384427316298">Нэтскейп гэрчилгээний тайлбар</translation>
 <translation id="6129953537138746214">Space</translation>
 <translation id="6136114942382973861">Татаж авсан файл хадгалах эсвэл нээх хэсгийг хаах</translation>
@@ -3587,7 +3587,7 @@
 <translation id="6138680304137685902">X9.62 ECDSA SHA-384-тэй гарын үсэг</translation>
 <translation id="6141988275892716286">Таталтыг баталгаажуулах</translation>
 <translation id="6143186082490678276">Тусламж авах</translation>
-<translation id="6144938890088808325">Chromebook-г сайжруулахад тусална уу</translation>
+<translation id="6144938890088808325">Bravebook-г сайжруулахад тусална уу</translation>
 <translation id="614611931938947795">Энэ файл нь үүлэн скан хийхэд хэт том бөгөөд түүнийг нээхийг хориглосон байна.</translation>
 <translation id="6147020289383635445">Хэвлэхээс өмнө урьдчилан харах ажиллагаа амжилтгүй болсон .</translation>
 <translation id="6148576794665275391">Одоо нээх</translation>
@@ -3607,7 +3607,7 @@
 <translation id="6163522313638838258">Бүгдийг өргөтгөх...</translation>
 <translation id="6164005077879661055">Хэрэв энэ хяналттай хэрэглэгчийг устгавал түүнтэй холбоотой бүх файлууд болон суурин өгөгдлүүд бүрмөсөн устах болно. Энэ хяналттай хэрэглэгчийн орж байсан вэб сайтууд болон тохиргоонуудыг <ph name="MANAGEMENT_URL" /> дэх менежер харах боломжтой байна.</translation>
 <translation id="6165508094623778733">Нэмэлт мэдээлэл авах</translation>
-<translation id="6166185671393271715">Нууц үгийг Chrome-д импортлох</translation>
+<translation id="6166185671393271715">Нууц үгийг Brave-д импортлох</translation>
 <translation id="6169040057125497443">Микрофоноо шалгана уу.</translation>
 <translation id="6169666352732958425">Дэлгэцийг дамжуулах боломжгүй байна.</translation>
 <translation id="6170470584681422115">Сэндвич</translation>
@@ -3703,7 +3703,7 @@
 <translation id="6308493641021088955">Нэвтрэх үйлчилгээ үзүүлэгч: <ph name="EXTENSION_NAME" /></translation>
 <translation id="6308937455967653460">Холбоосыг ... хэлбэрээр хадгалах</translation>
 <translation id="6309510305002439352">Микрофоныг унтраасан байна.</translation>
-<translation id="6311220991371174222">Таны профайлыг нээх явцад алдаа гарсан тул Chrome-г эхлүүлэх боломжгүй байна. Chrome-г дахин эхлүүлээд үзнэ үү.</translation>
+<translation id="6311220991371174222">Таны профайлыг нээх явцад алдаа гарсан тул Brave-г эхлүүлэх боломжгүй байна. Brave-г дахин эхлүүлээд үзнэ үү.</translation>
 <translation id="6312403991423642364">Сүлжээний алдаа мэдэгдэхгүй байна</translation>
 <translation id="6313641880021325787">VR-С ГАРАХ</translation>
 <translation id="6314819609899340042">Та <ph name="IDS_SHORT_PRODUCT_NAME" /> төхөөрөмжинд алдаа засах тохиргоог амжилттай тохируулсан байна.</translation>
@@ -3714,15 +3714,15 @@
 <translation id="6317608858038767920">Захиалгат нэрийн сервер <ph name="INPUT_INDEX" /></translation>
 <translation id="6318407754858604988">Таталтыг эхлүүлсэн</translation>
 <translation id="6318944945640833942">Хэвлэгчийг илрүүлж чадсангүй. Хэвлэгчийн хаягийг дахин оруулна уу.</translation>
-<translation id="6322653941595359182">Chromebook-с мессеж илгээх, хүлээн авах</translation>
+<translation id="6322653941595359182">Bravebook-с мессеж илгээх, хүлээн авах</translation>
 <translation id="6324916366299863871">Товчлолыг засах</translation>
 <translation id="6325191661371220117">Автоматаар эхлэх тохиргоог идэвхгүй болгох</translation>
-<translation id="6326175484149238433">Chrome-оос устга</translation>
+<translation id="6326175484149238433">Brave-оос устга</translation>
 <translation id="6326855256003666642">Сэрүүн байх үеийн тоолуур</translation>
 <translation id="6327785803543103246">Вэб прокси автоматаар илрүүлэх</translation>
 <translation id="6333064448949140209">Файлыг дебаг хийхээр Google-д илгээж байна</translation>
 <translation id="6339668969738228384"><ph name="USER_EMAIL_ADDRESS" />-д шинэ профайл үүсгэх</translation>
-<translation id="6340017061976355871">Серверт холбогдож чадсангүй. Сүлжээний холболтоо шалгаад дахин оролдоно уу. Асуудал үргэлжилсээр байвал Chromebook-г дахин эхлүүлнэ үү.</translation>
+<translation id="6340017061976355871">Серверт холбогдож чадсангүй. Сүлжээний холболтоо шалгаад дахин оролдоно уу. Асуудал үргэлжилсээр байвал Bravebook-г дахин эхлүүлнэ үү.</translation>
 <translation id="6340071272923955280">Интернэт Хэвлэх Протокол (IPPS)</translation>
 <translation id="6340526405444716530">Хувийн тохиргоо</translation>
 <translation id="6341850831632289108">Таны байршлыг илрүүлэх</translation>
@@ -3777,7 +3777,7 @@
 <translation id="6418511932144861495">Чухал шинэчлэлтийг суулгах</translation>
 <translation id="6419546358665792306">Багцлаагүй өргөтгөлийг ачааллах</translation>
 <translation id="642469772702851743">Энэ төхөөрөмжийг (SN: <ph name="SERIAL_NUMBER" />) эзэмшигч нь түгжсэн байна.</translation>
-<translation id="6426200009596957090">ChromeVox-н тохиргоог нээх</translation>
+<translation id="6426200009596957090">BraveVox-н тохиргоог нээх</translation>
 <translation id="6428450836711225518">Утасны дугаараа баталгаажуулах</translation>
 <translation id="6429384232893414837">Шинэчлэлтийн алдаа</translation>
 <translation id="6430814529589430811">Base64-шифрлэлттэй ASCII, дан гэрчилгээ</translation>
@@ -3834,7 +3834,7 @@
 <translation id="6508248480704296122"><ph name="NAME_PH" />-тай холбоотой</translation>
 <translation id="6508261954199872201">Аппликейшн: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Медиа лиценз</translation>
-<translation id="6513247462497316522">Хэрэв та өөр сүлжээнд холбогдоогүй байгаа тохиолдолд Google Chrome нь таны гар утасны дата эрхийг ашиглах болно.</translation>
+<translation id="6513247462497316522">Хэрэв та өөр сүлжээнд холбогдоогүй байгаа тохиолдолд Brave нь таны гар утасны дата эрхийг ашиглах болно.</translation>
 <translation id="6514010653036109809">Боломжтой төхөөрөмж:</translation>
 <translation id="6514565641373682518">Энэ хуудас нь таны хулганын курсорыг идэвхгүй болгосон байна.</translation>
 <translation id="6518014396551869914">Зургийг хуулах</translation>
@@ -3847,7 +3847,7 @@
 <translation id="6527303717912515753">Хуваалцах</translation>
 <translation id="6528189551082329571">Ийм төрлийн холбоосуудыг холбоотой программд үргэлж нээх</translation>
 <translation id="6528513914570774834">Энэ төхөөрөмжийн бусад хэрэглэгчдэд энэ сүлжээг ашиглах зөвшөөрөл олгох</translation>
-<translation id="652948702951888897">Chrome-н түүх</translation>
+<translation id="652948702951888897">Brave-н түүх</translation>
 <translation id="6530186581263215931">Эдгээр тохиргоог таны админ идэвхжүүлсэн байна</translation>
 <translation id="6531282281159901044">Аюултай файлыг хадгалах</translation>
 <translation id="6532101170117367231">Google Драйвд хадгалах</translation>
@@ -3923,7 +3923,7 @@
 <translation id="665061930738760572">Шинэ цонхонд нээх &amp;</translation>
 <translation id="6651237644330755633">Вэб хуудсыг тодорхойлохдоо энэ сертификатыг итгэмжилнэ үү</translation>
 <translation id="6651823585377804376">Татан авалт нь хортой код агуулж байна.</translation>
-<translation id="665355505818177700">Chrome <ph name="MS_AD_NAME" /> интеграцийг зөвхөн x86_64 платформд дэмждэг. ARM эсвэл x86 платформ дээр суурилсан Chromebook энэ функцийг дэмждэггүй.</translation>
+<translation id="665355505818177700">Brave <ph name="MS_AD_NAME" /> интеграцийг зөвхөн x86_64 платформд дэмждэг. ARM эсвэл x86 платформ дээр суурилсан Bravebook энэ функцийг дэмждэггүй.</translation>
 <translation id="6655190889273724601">Хөгжүүлэгч горим</translation>
 <translation id="6655458902729017087">Дансуудыг нуу</translation>
 <translation id="6657585470893396449">Нууц үг</translation>
@@ -3952,7 +3952,7 @@
 <translation id="6697492270171225480">Хуудас олдоогүй үед төстэй хуудсын зөвлөмжийг харуулах</translation>
 <translation id="6697690052557311665">Хуваалцахын тулд Файлс аппын фолдерын баруун талыг товшоод, дараа нь "Linux-тэй хуваалцах" гэснийг сонгоно уу.</translation>
 <translation id="6698810901424468597"><ph name="WEBSITE_1" /> болон <ph name="WEBSITE_2" /> дахь мэдээллээ уших, өөрчлөх</translation>
-<translation id="6699883973579689168">Та одоо Google бүртгэлүүдээ нэг дор удирдах боломжтой. Таны Chrome болон Google Play-н Вэб сайт, апп болон өргөтгөлд олгосон хандалт ба зөвшөөрлийг одоо таны нэвтэрсэн бүх бүртгэлд хэрэгжүүлж болзошгүй. <ph name="LINK_BEGIN" />Нэмэлт мэдээлэл авах<ph name="LINK_END" /></translation>
+<translation id="6699883973579689168">Та одоо Google бүртгэлүүдээ нэг дор удирдах боломжтой. Таны Brave болон Google Play-н Вэб сайт, апп болон өргөтгөлд олгосон хандалт ба зөвшөөрлийг одоо таны нэвтэрсэн бүх бүртгэлд хэрэгжүүлж болзошгүй. <ph name="LINK_BEGIN" />Нэмэлт мэдээлэл авах<ph name="LINK_END" /></translation>
 <translation id="6700480081846086223">Каст хийх <ph name="HOST_NAME" /></translation>
 <translation id="6701535245008341853">Хувийн мэдээллийг олж авч чадсангүй.</translation>
 <translation id="6702639462873609204">&amp;Засах ...</translation>
@@ -4031,7 +4031,7 @@
 <translation id="6817174620439930047">Сайт MIDI төхөөрөмжид хандахын тулд системийн тусгай мессежийг ашиглахыг хүссэн тохиолдолд асуух (санал болгосон)</translation>
 <translation id="6818198425579322765">Хуудсыг орчуулах хэл</translation>
 <translation id="682123305478866682">Компьютерийг дамжуулах</translation>
-<translation id="6823506025919456619">Та төхөөрөмжүүдээ харахын тулд Chrome руу нэвтрэх хэрэгтэй</translation>
+<translation id="6823506025919456619">Та төхөөрөмжүүдээ харахын тулд Brave руу нэвтрэх хэрэгтэй</translation>
 <translation id="6824564591481349393">Хуулах &amp; И-мэйл хаяг</translation>
 <translation id="6824584962142919697">&amp;Элементүүдийг шалгах</translation>
 <translation id="6825184156888454064">Нэрээр эрэмбэлэх</translation>
@@ -4052,7 +4052,7 @@
 <translation id="6841186874966388268">Алдаа</translation>
 <translation id="6843423766595476978">Ok Google бэлэн боллоо</translation>
 <translation id="6845038076637626672">Томоор нээ</translation>
-<translation id="6845325883481699275">Chrome-н аюулгүй байдлыг сайжруулахад туслах</translation>
+<translation id="6845325883481699275">Brave-н аюулгүй байдлыг сайжруулахад туслах</translation>
 <translation id="6848388270925200958">Танд одоогоор зөвхөн энэ төхөөрөмж дээр ашиглах боломжтой зарим карт байна.</translation>
 <translation id="6850286078059909152">Текстийн өнгө</translation>
 <translation id="6851497530878285708">Аппыг идэвхжүүлсэн</translation>
@@ -4157,7 +4157,7 @@
 <translation id="7000206553895739324"><ph name="PRINTER_NAME" /> холбогдсон, гэхдээ тохируулга хийх шаардлагатай</translation>
 <translation id="7000347579424117903">Ctrl, Alt эсвэл Хайлтыг оруулах</translation>
 <translation id="7001036685275644873">Linux аппууд болон файлуудыг нөөцөлж байна</translation>
-<translation id="7002055706763150362">Chromebook-д зориулсан Smart Lock-ийг тохируулахын тулд Google та мөн гэдгийг батлах хэрэгтэй. Эхлэхийн тулд нууц үгээ бичнэ үү.</translation>
+<translation id="7002055706763150362">Bravebook-д зориулсан Smart Lock-ийг тохируулахын тулд Google та мөн гэдгийг батлах хэрэгтэй. Эхлэхийн тулд нууц үгээ бичнэ үү.</translation>
 <translation id="7003339318920871147">Вэб өгөгдлийн сан</translation>
 <translation id="7003723821785740825">Төхөөрөмжийнхөө түгжээг илүү хурдан тайлах арга тохируулах</translation>
 <translation id="7003844668372540529"><ph name="VENDOR_NAME" />-ын тодорхойгүй бүтээгдэхүүн <ph name="PRODUCT_ID" /></translation>
@@ -4216,7 +4216,7 @@
 <translation id="708060913198414444">Аудио хаягийг хуулах</translation>
 <translation id="7081952801286122383">Та нууцлалын горимд байна</translation>
 <translation id="708278670402572152">Шалгалтыг идэвхжүүлэхийн тулд салгах</translation>
-<translation id="7085389578340536476">Chrome-д аудио бичихийг зөвшөөрөх үү?</translation>
+<translation id="7085389578340536476">Brave-д аудио бичихийг зөвшөөрөх үү?</translation>
 <translation id="7088434364990739311">Шинэчлэлтийг шалгах ажиллагааг эхлүүлж чадсангүй (алдааны код <ph name="ERROR" /> ).</translation>
 <translation id="7088561041432335295">Зип архивлагч - ZIP файлыг нээж Файлс аппад багцалдаг.</translation>
 <translation id="7088674813905715446">Энэ нь төхөөрөмжийг админаас тодорхой нөхцөлгүй байдалд оруулсан байна. Үүнийг идэвхжүүлэхийн тулд админаас төхөөрөмжийг хүлээгдэж буй нөхцөл байдалд оруулах хэрэгтэй.</translation>
@@ -4311,7 +4311,7 @@
 <translation id="722055596168483966">Google-н үйлчилгээг хувийн болгох</translation>
 <translation id="7221855153210829124">Мэдэгдэл харуулах</translation>
 <translation id="7221869452894271364">Энэ хуудсыг дахин ачаалла</translation>
-<translation id="7222204278952406003">Chrome таны өгөгдмөл хөтөч боллоо</translation>
+<translation id="7222204278952406003">Brave таны өгөгдмөл хөтөч боллоо</translation>
 <translation id="7222232353993864120">И-мэйл хаяг</translation>
 <translation id="7225179976675429563">Сүлжээний төрөл алга байна</translation>
 <translation id="7227028316978186866"><ph name="DEVICE_NAME" /> (Нийлүүлэгч: <ph name="VENDOR_ID" />, Бүтээгдэхүүн: <ph name="PRODUCT_ID" />)</translation>
@@ -4355,7 +4355,7 @@
 <translation id="727441411541283857"><ph name="PERCENTAGE" />% - <ph name="TIME" /> дүүрэх хүртэл</translation>
 <translation id="727952162645687754">Татаж авч байх үед гарах алдаа</translation>
 <translation id="7279701417129455881">Cookie-г блоклох эсэхийг удирдах ...</translation>
-<translation id="7280041992884344566">Chrome хортой програм хангамжийг хайх явцад алдаа гарлаа</translation>
+<translation id="7280041992884344566">Brave хортой програм хангамжийг хайх явцад алдаа гарлаа</translation>
 <translation id="7280649757394340890">Текстийг яриа болгох дуу хоолойны тохиргоо</translation>
 <translation id="7280877790564589615">Зөвшөөрөл хүссэн</translation>
 <translation id="7282992757463864530">Мэдээллийн самбар</translation>
@@ -4373,7 +4373,7 @@
 <translation id="729761647156315797">Хэл, гараа сонгоно уу</translation>
 <translation id="7297726121602187087">Бараан ногоон</translation>
 <translation id="7299337219131431707">Зочин хөтөчийг идэвхжүүлэх</translation>
-<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{Энэ апп Chrome-г хэвийн ажиллахад саад болж байж болзошгүй.}other{Эдгээр апп Chrome-г хэвийн ажиллахад саад болж байж болзошгүй.}}</translation>
+<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{Энэ апп Brave-г хэвийн ажиллахад саад болж байж болзошгүй.}other{Эдгээр апп Brave-г хэвийн ажиллахад саад болж байж болзошгүй.}}</translation>
 <translation id="7303281435234579599">Уучлаарай, демо горимыг тохируулах явцад алдаа гарлаа.</translation>
 <translation id="7303900363563182677">Энэ сайтыг түр санах ойд хуулсан текст, зураг харахыг хориглосон</translation>
 <translation id="7305123176580523628">USB хэвлэгч холбогдсон байна</translation>
@@ -4424,7 +4424,7 @@
 <translation id="7375053625150546623">EAP</translation>
 <translation id="7376553024552204454">Хулганы курсорыг хөдлөх явцад нь тодруулна уу</translation>
 <translation id="7377451353532943397">Мэдрэгчийн хандалтыг үргэлжлүүлэн хориглох</translation>
-<translation id="73786666777299047">Chrome Вэб Дэлгүүр нээх</translation>
+<translation id="73786666777299047">Brave Вэб Дэлгүүр нээх</translation>
 <translation id="7378812711085314936">Дата холболт авах</translation>
 <translation id="7378962964415201590">Шинэ утас хослуулах</translation>
 <translation id="7380768571499464492"><ph name="PRINTER_NAME" />-г шинэчилсэн</translation>
@@ -4543,7 +4543,7 @@
 <translation id="756445078718366910">Хөтөч цонхыг нээх</translation>
 <translation id="7564847347806291057">Процессийг дуусга</translation>
 <translation id="7566118625369982896">Play аппын холбоосыг удирдах</translation>
-<translation id="756809126120519699">Chrome-н өгөгдлийг устгасан</translation>
+<translation id="756809126120519699">Brave-н өгөгдлийг устгасан</translation>
 <translation id="7568790562536448087">Шинэчилж байна</translation>
 <translation id="7569983096843329377">Хар</translation>
 <translation id="7571643774869182231">Шинэчлэхэд хангалттай багтаамж алга</translation>
@@ -4556,7 +4556,7 @@
 <translation id="7582582252461552277">Энэ сүлжээг сонгох</translation>
 <translation id="7583948862126372804">Тоо</translation>
 <translation id="7584578941316704630">Нээхийн өмнө скан хийх үү?</translation>
-<translation id="7586498138629385861">Chrome-г хэрэглээний програмыг нээсэн байгаа тохиолдолд Chrome нь ачаалласан хэвээр байна.</translation>
+<translation id="7586498138629385861">Brave-г хэрэглээний програмыг нээсэн байгаа тохиолдолд Brave нь ачаалласан хэвээр байна.</translation>
 <translation id="7589461650300748890">Харж байгаа биз. Болгоомжтой байгаарай.</translation>
 <translation id="7593653750169415785">Та хэд хэдэн удаа мэдэгдлээс татгалзсан тул автоматаар хориглосон</translation>
 <translation id="7595453277607160340">Андройд аппыг ашиглах болон <ph name="DEVICE_TYPE" />-н хэвийн ажиллагааг үргэлжлүүлэхийн тулд дахин нэвтрээд шинэчилнэ үү.</translation>
@@ -4615,7 +4615,7 @@
 <translation id="767127784612208024">Шинэчлэлтийг баталгаажуулахын тулд хүрнэ үү</translation>
 <translation id="7672520070349703697"><ph name="PAGE_TITLE" />-н <ph name="HUNG_IFRAME_URL" />.</translation>
 <translation id="7676867886086876795">Диктафоныг текстийн дурын талбарт зөвшөөрөхийн тулд дуу хоолойгоо Google-д илгээнэ үү.</translation>
-<translation id="7678280409648629969">Таныг Нууцлалын горимоос гарсны дараа нэвтрэх өгөгдлийг Chrome-д хадгална. Ингэснээр та энэ вэб сайтад дараагийн удаа зочлохдоо Хүрэх ID-г ашиглах боломжтой болно.</translation>
+<translation id="7678280409648629969">Таныг Нууцлалын горимоос гарсны дараа нэвтрэх өгөгдлийг Brave-д хадгална. Ингэснээр та энэ вэб сайтад дараагийн удаа зочлохдоо Хүрэх ID-г ашиглах боломжтой болно.</translation>
 <translation id="7681095912841365527">Сайт bluetooth-г ашиглах боломжтой</translation>
 <translation id="7683373461016844951">Үргэлжлүүлэхийн тулд OK сонголтыг товшоод <ph name="DOMAIN" /> имэйл хаягаараа шинэ профайл үүсгэхийн тулд Хүн нэмэх гэсэн сонголтыг дарна уу.</translation>
 <translation id="7684212569183643648">Таны админ суулгасан</translation>
@@ -4663,7 +4663,7 @@
 <translation id="7737456446569756884">Энэ төхөөрөмж нь <ph name="MONTH_AND_YEAR" /> хүртэл програм хангамж болон аюулгүй байдлын автомат шинэчлэлтийг авах болно.</translation>
 <translation id="7740996059027112821">Стандарт</translation>
 <translation id="7744047395460924128">Хэвлэлтийн түүхээ харах</translation>
-<translation id="7746457520633464754">Chrome аюултай апп болон сайт илрүүлэхийн тулд таны зочилдог зарим хуудасны URL, хязгаарлагдмал системийн мэдээлэл болон зарим хуудасны контентыг Google-д илгээдэг</translation>
+<translation id="7746457520633464754">Brave аюултай апп болон сайт илрүүлэхийн тулд таны зочилдог зарим хуудасны URL, хязгаарлагдмал системийн мэдээлэл болон зарим хуудасны контентыг Google-д илгээдэг</translation>
 <translation id="7750228210027921155">Дэлгэцэн доторх дэлгэц</translation>
 <translation id="7751260505918304024">Бүгдийг үзүүлэх</translation>
 <translation id="7754704193130578113">Татахаасаа өмнө файл нэг бүрийг хаана хадгалахыг асуу</translation>
@@ -4681,7 +4681,7 @@
 <translation id="7771452384635174008">Төлөвлөлт</translation>
 <translation id="7772032839648071052">Нэвтрэх үгүүдийг баталгаажуул</translation>
 <translation id="7772127298218883077"><ph name="PRODUCT_NAME" />-ийн тухай</translation>
-<translation id="7772773261844472235">Chromebook-н төлөвөө шалгах</translation>
+<translation id="7772773261844472235">Bravebook-н төлөвөө шалгах</translation>
 <translation id="7773726648746946405">Ажиллах талбарын хадгалалтын сан</translation>
 <translation id="7774365994322694683">Шувуу</translation>
 <translation id="7776701556330691704">Дуу хоолой олдсонгүй</translation>
@@ -4696,7 +4696,7 @@
 <translation id="7786207843293321886">Зочныг гаргах</translation>
 <translation id="7786889348652477777">Аппыг дахин ачаалла</translation>
 <translation id="7787308148023287649">Өөр дэлгэцэд харуулах</translation>
-<translation id="7788298548579301890">Таны компьютерийн өөр нэг програм Chrome-н ажиллах зарчмыг өөрчилж болох апп нэмсэн байна.
+<translation id="7788298548579301890">Таны компьютерийн өөр нэг програм Brave-н ажиллах зарчмыг өөрчилж болох апп нэмсэн байна.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="7788444488075094252">Хэлнүүд ба оролт</translation>
@@ -4720,7 +4720,7 @@
 <translation id="7817361223956157679">Дэлгэцэн дээрх гар Linux апп дээр хараахан ажиллахгүй байна</translation>
 <translation id="7818135753970109980">Шинэ загвар нэмэгдсэн ( <ph name="EXTENSION_NAME" /> )</translation>
 <translation id="7819857487979277519">PSK (WPA эсвэл RSN)</translation>
-<translation id="7819992334107904369">Chrome синк</translation>
+<translation id="7819992334107904369">Brave синк</translation>
 <translation id="782057141565633384">Видео хаягийг хуулах</translation>
 <translation id="7824864914877854148">Алдааны улмаас нөөцлөлтийг дуусгаж чадсангүй</translation>
 <translation id="782590969421016895">Одоогийн хуудсуудыг ашигла</translation>
@@ -4728,7 +4728,7 @@
 <translation id="7826346148677309647">Та төхөөрөмждөө Play Store-с илүү их аппыг олох боломжтой.</translation>
 <translation id="7826790948326204519"><ph name="BEGIN_H3" />Алдаа засах онцлог<ph name="END_H3" />
     <ph name="BR" />
-    Та төхөөрөмждөө захиалгат кодыг суулгах болон шалгахын тулд Chrome үйлдлийн системийн төхөөрөмждөө алдаа засах онцлогийг идэвхжүүлэх боломжтой.  Ингэснээр та дараахыг хийх боломжтой:<ph name="BR" />
+    Та төхөөрөмждөө захиалгат кодыг суулгах болон шалгахын тулд Brave үйлдлийн системийн төхөөрөмждөө алдаа засах онцлогийг идэвхжүүлэх боломжтой.  Ингэснээр та дараахыг хийх боломжтой:<ph name="BR" />
     <ph name="BEGIN_LIST" />
       <ph name="LIST_ITEM" />Rootfs баталгаажуулалтыг устгаснаар та үйлдлийн системийн файлыг өөрчилж болно
       <ph name="LIST_ITEM" />Төхөөрөмжид стандарт шалгалтын түлхүүр ашиглан SSH хандалтыг идэвхжүүлснээр <ph name="BEGIN_CODE" />'cros flash'<ph name="END_CODE" /> зэрэг хэрэгслийг төхөөрөмжид хандахад ашиглаж болно
@@ -4736,7 +4736,7 @@
       <ph name="LIST_ITEM" />Хөгжүүлэгч болон системийн үндсэн нэвтрэлтийн нууц үгийг захиалгат утгад тохируулснаар та төхөөрөмжид гар аргаар SSH болно
     <ph name="END_LIST" />
     <ph name="BR" />
-    Идэвхжүүлснээр байгууллагын удирддаг төхөөрөмжийг үйлдвэрийн тохиргоонд нь буцааж оруулах эсвэл өгөгдлийг нь арчсан ч гэсэн алдаа засах ихэнх онцлог идэвхтэй хэвээр байх болно.  Алдаа засах онцлогийг бүхэлд нь идэвхгүй болгохын тулд Chrome үйлдлийн системийн сэргээх үйл явцыг (https://support.google.com/chromebook/answer/1080595)-д дуусгана уу.
+    Идэвхжүүлснээр байгууллагын удирддаг төхөөрөмжийг үйлдвэрийн тохиргоонд нь буцааж оруулах эсвэл өгөгдлийг нь арчсан ч гэсэн алдаа засах ихэнх онцлог идэвхтэй хэвээр байх болно.  Алдаа засах онцлогийг бүхэлд нь идэвхгүй болгохын тулд Brave үйлдлийн системийн сэргээх үйл явцыг (https://support.google.com/chromebook/answer/1080595)-д дуусгана уу.
     <ph name="BR" />
     <ph name="BR" />
     Алдаа засах онцлогийн талаар нэмэлт мэдээлэл авахын тулд дараахыг харна уу:<ph name="BR" />
@@ -4756,7 +4756,7 @@
 <translation id="7837776265184002579">Таны нүүр хуудсыг <ph name="URL" /> болгож өөрчилсөн.</translation>
 <translation id="7839051173341654115">Өгөгдлийг харах/хадгалах</translation>
 <translation id="7839192898639727867">Certificate Subject Key ID</translation>
-<translation id="7842692330619197998">Хэрэв та шинэ бүртгэл үүсгэх шаардлагатай бол g.co/ChromeEnterpriseAccount хаягаар зочилно уу.</translation>
+<translation id="7842692330619197998">Хэрэв та шинэ бүртгэл үүсгэх шаардлагатай бол g.co/BraveEnterpriseAccount хаягаар зочилно уу.</translation>
 <translation id="7844553762889824470">Сонсохыг хүссэн зүйлээ тодруулаад дараа нь Search + S-г дарна уу. Мөн та Search түлхүүр дээр удаан дарах эсвэл профайл зургийнхаа ойролцоо байрлах Ярихаар Сонгох дүрс тэмдэгт дээр товшиж сонголт хийх боломжтой.</translation>
 <translation id="7844992432319478437">Шинэчлэх ялгаа</translation>
 <translation id="7846634333498149051">Гар</translation>
@@ -4777,7 +4777,7 @@
 <translation id="786957569166715433"><ph name="DEVICE_NAME" /> - Холбосон</translation>
 <translation id="7870730066603611552">Синк хийх сонголтын тохируулгыг хянах</translation>
 <translation id="7870790288828963061">Шинэ хувилбар бүхий ямар ч Киоск апп олдсонгүй. Шинэчлэх ямар ч зүйл алга. USB дискээ салгана уу.</translation>
-<translation id="7874257161694977650">Chrome-н арын дэвсгэр</translation>
+<translation id="7874257161694977650">Brave-н арын дэвсгэр</translation>
 <translation id="7877451762676714207">Тодорхойгүй серверийн алдаа. Серверийн администратор тойгоо холбогдох эсвэл дахин оролдоод үзээрэй.</translation>
 <translation id="7877680364634660272">Аялал</translation>
 <translation id="7878562273885520351">Таны нууц үгийг хулгайлсан байна</translation>
@@ -4882,7 +4882,7 @@
 <translation id="8008356846765065031">Интернэт салсан байна. Интернетийн холболтоо шалгана уу.</translation>
 <translation id="8009225694047762179">Нууц үгийг удирдах</translation>
 <translation id="8012647001091218357">Бид таны эцэг, эхтэй холбоо тогтоох боломжгүй байна. Та дахин хандаж үзнэ үү.</translation>
-<translation id="8013993649590906847">Хэрэв зурагт хэрэгтэй тайлбар байхгүй бол Chrome танд тайлбар өгөхөөр оролдох болно. Тайлбар үүсгэхийн тулд зургийг Google-д илгээнэ.</translation>
+<translation id="8013993649590906847">Хэрэв зурагт хэрэгтэй тайлбар байхгүй бол Brave танд тайлбар өгөхөөр оролдох болно. Тайлбар үүсгэхийн тулд зургийг Google-д илгээнэ.</translation>
 <translation id="8014154204619229810">Шинэчлэгч ажиллаж байна. Хэдэн хормын дараа дахин ачаалаад, шалгана уу.</translation>
 <translation id="8014206674403687691"><ph name="IDS_SHORT_PRODUCT_NAME" /> өмнөх хэвэнд оруулах боломжгүй байна. Powerwash сонголтыг та дахин сонгож үзнэ үү.</translation>
 <translation id="8015163965024115122">Таны эцэг эхийн <ph name="IDS_SHORT_PRODUCT_NAME" /> эсвэл <ph name="IDS_SHORT_PRODUCT_NAME" /> апп дээр тохируулсан хязгаарлалтын хугацаа дууссан байна.</translation>
@@ -4890,7 +4890,7 @@
 <translation id="8017679124341497925">Товчлолыг зассан</translation>
 <translation id="8018313076035239964">Вэбсайтын ашиглах боломжтой мэдээлэл болон танд харуулах агуулгыг удирдах</translation>
 <translation id="8023801379949507775">Өргөтгөлийг одоо шинэчил</translation>
-<translation id="8024483450737722621">Таны Google Play-с татсан апп-г энэ Chromebook-с устгах болно.
+<translation id="8024483450737722621">Таны Google Play-с татсан апп-г энэ Bravebook-с устгах болно.
       <ph name="LINE_BREAKS1" />
       Таны авсан кино, ТВ шоу, хөгжим, ном зэрэг агуулга, эсвэл бусад аппын худалдан авалтыг устгаж болзошгүй.
       <ph name="LINE_BREAKS2" />
@@ -4962,7 +4962,7 @@
 <translation id="8116972784401310538">Хадгалагдсан хуудсын менежер</translation>
 <translation id="8117620576188476503">Статусын хэсгээр холболт, шинэчлэлт болон тохиргоог удирдана уу. Энд гараар очихын тулд Alt + Shift + S-г дарна уу.</translation>
 <translation id="8118076340394175570">Танай байгууллагад энэ төхөөрөмжийг шинэчлэх шаардлагатай байна</translation>
-<translation id="8118362518458010043">Chrome-с идэвхгүй болгосон. Энэ өргөтгөл аюултай байж болзошгүй.</translation>
+<translation id="8118362518458010043">Brave-с идэвхгүй болгосон. Энэ өргөтгөл аюултай байж болзошгүй.</translation>
 <translation id="8118488170956489476">Танай байгууллага таны <ph name="BEGIN_LINK" />хөтчийг удирддаг<ph name="END_LINK" /></translation>
 <translation id="8118860139461251237">Татаж авсан файлуудаа удирдана уу</translation>
 <translation id="8123590694679414600">Өгөгөдлийг таны синкийн нэвтрэх үгтэй <ph name="TIME" />-д шифрлэсэн байна. Үүнд Google Pay-н төлбөрийн хэрэгслүүд болон хаягуудыг агуулдаггүй.</translation>
@@ -5187,7 +5187,7 @@
 <translation id="8455026683977728932">ADB зурагт тайлбарыг идэвхжүүлж чадсангүй</translation>
 <translation id="845702320058262034">Холбогдож чадсангүй. Утасныхаа Bluetooth-г асаасан эсэхээ шалгана уу.</translation>
 <translation id="8457451314607652708">Хавчуургыг татаж авчрах</translation>
-<translation id="8460336040822756677">Хэрэв та <ph name="DEVICE_TYPE" />-д зориулсан Smart Lock-г унтраавал Chrome төхөөрөмжийнхөө түгжээг утсаараа тайлах боломжгүй болно. Та нууц үг оруулах шаардлагатай болно.</translation>
+<translation id="8460336040822756677">Хэрэв та <ph name="DEVICE_TYPE" />-д зориулсан Smart Lock-г унтраавал Brave төхөөрөмжийнхөө түгжээг утсаараа тайлах боломжгүй болно. Та нууц үг оруулах шаардлагатай болно.</translation>
 <translation id="8461329675984532579">Нүүр хуудас бэлтгэх нэр</translation>
 <translation id="84613761564611563">Сүлжээг тохируулах UI-н хүсэлт гаргасан тул түр хүлээнэ үү...</translation>
 <translation id="8461914792118322307">Прокси</translation>
@@ -5204,7 +5204,7 @@
 <translation id="8470513973197838199"><ph name="ORIGIN" />-н хадгалсан нууц үг</translation>
 <translation id="8472623782143987204">Техник хангамж дээр тулгуурласан</translation>
 <translation id="8473863474539038330">Хаяг болон бусад</translation>
-<translation id="8475313423285172237">Таны компьютер дээрх програм өргөтгөл нэмсэн байна. Энэ нь Chrome-ийн ажиллагаанд нөлөөлж болох юм.</translation>
+<translation id="8475313423285172237">Таны компьютер дээрх програм өргөтгөл нэмсэн байна. Энэ нь Brave-ийн ажиллагаанд нөлөөлж болох юм.</translation>
 <translation id="8477241577829954800">Хүчингүй болсон байна</translation>
 <translation id="8477384620836102176">&amp;Ерөнхий</translation>
 <translation id="8480082892550707549">Та өмнө нь энэ сайтаас таталт хийж байсан ч энэ сайт түр хугацаанд аюултай болсон байна (хакердсан). Энэ файлыг дараа татна уу.</translation>
@@ -5217,7 +5217,7 @@
 <translation id="8496717697661868878">Энэ нэмэлт өргөтгөлийг ажиллуул</translation>
 <translation id="8497219075884839166">Windows хэрэгсэл</translation>
 <translation id="8498214519255567734">Дэлгэцээ бүдэг гэрэлтэй үед харах эсвэл уншихад илүү хялбар болгоно</translation>
-<translation id="8498395510292172881">Chrome-д үргэлжлүүлэн унших</translation>
+<translation id="8498395510292172881">Brave-д үргэлжлүүлэн унших</translation>
 <translation id="8500234928660943538">PUK буруу байна. Үлдсэн дахин оролдлого: <ph name="RETRIES" />.</translation>
 <translation id="8502536196501630039">Та Google Play-н аппуудыг ашиглахын тулд эхлээд аппуудаа сэргээх шаардлагатай. Зарим өгөгдлөө алдаж болзошгүй.</translation>
 <translation id="8503813439785031346">Хэрэглэгчийн нэр</translation>
@@ -5264,7 +5264,7 @@
 <translation id="8565650234829130278">Програмын хувилбарыг бууруулах оролдлого хийсэн.</translation>
 <translation id="8569682776816196752">Ямар ч зорилтот газар олдсонгүй.</translation>
 <translation id="8571213806525832805">Сүүлийн 4 долоо хоног</translation>
-<translation id="8573403125070227391">Энэ зар нь таны төхөөрөмжид хэт их эх сурвалжийг ашигладаг тул Chrome үүнийг устгасан.</translation>
+<translation id="8573403125070227391">Энэ зар нь таны төхөөрөмжид хэт их эх сурвалжийг ашигладаг тул Brave үүнийг устгасан.</translation>
 <translation id="8574990355410201600">Дууг <ph name="HOST" /> дээр ямагт зөвшөөрөх</translation>
 <translation id="8575286410928791436">Гарахаар болвол <ph name="KEY_EQUIVALENT" /> дээр дарна уу</translation>
 <translation id="8578639784464423491">99 үсэгнээс хэтэрч болохгүй</translation>
@@ -5282,7 +5282,7 @@
 <translation id="8597845839771543242">Өмчийн хэлбэр нь:</translation>
 <translation id="8598453409908276158">Хамгаалалтгүй залгаасыг блоклосон</translation>
 <translation id="8601206103050338563">TLS WWW Хэрэглэгч баталгаажуулалт</translation>
-<translation id="8602851771975208551">Таны компьютерт өөр нэг програм нэмэгдсэн бөгөөд энэ нь Chrome-ийн ажиллах зарчмыг өөрчилж болох юм.</translation>
+<translation id="8602851771975208551">Таны компьютерт өөр нэг програм нэмэгдсэн бөгөөд энэ нь Brave-ийн ажиллах зарчмыг өөрчилж болох юм.</translation>
 <translation id="8605428685123651449">SQLite санах ой</translation>
 <translation id="8606726445206553943">MIDI төхөөрөмжүүдээ ашигла</translation>
 <translation id="8608618451198398104">Kerberos тасалбар нэмэх</translation>
@@ -5294,7 +5294,7 @@
 <translation id="8620436878122366504">Таны эцэг эх одоогоор үүнийг зөвшөөрөөгүй байна</translation>
 <translation id="8620617069779373398">Роумингийн төлөв</translation>
 <translation id="8620765578342452535">Сүлжээний холболтыг тохируулах</translation>
-<translation id="8621866727807194849">Таны компьютер дээр аюултай программ хангамж байна. Chrome үүнийг устгаж, таны тохиргоог сэргээж, өргөтгөлүүдийг идэвхгүй болгож байна. Ингэснээр таны хөтчийн ажиллагааг дахин хэвийн болгоно.</translation>
+<translation id="8621866727807194849">Таны компьютер дээр аюултай программ хангамж байна. Brave үүнийг устгаж, таны тохиргоог сэргээж, өргөтгөлүүдийг идэвхгүй болгож байна. Ингэснээр таны хөтчийн ажиллагааг дахин хэвийн болгоно.</translation>
 <translation id="8621979332865976405">Дэлгэцийг бүхлээр нь хуваалцах</translation>
 <translation id="862542460444371744">&amp; Өргөтгөлүүд</translation>
 <translation id="862727964348362408">Түр саатуулсан</translation>
@@ -5304,7 +5304,7 @@
 <translation id="8631032106121706562">Petals</translation>
 <translation id="863109444997383731">Танд мэдэгдэл харуулах эсэхийг асуухыг сайтуудад хориглоно. Хэрэв сайт мэдэгдлийн хүсэлт тавивал хаяг оруулах хэсэгт хориглосон заалт харагдана.</translation>
 <translation id="8635628933471165173">Дахин ачаалж байна...</translation>
-<translation id="8637542770513281060">Таны компьютерт Chrome-н үйлдлийн системийн аюулгүй байдлын чухал онцлогийг хэрэгжүүлэхэд ашигладаг аюулгүй байдлын модуль байна. Дэлгэрэнгүй үзэхийн тулд Chromebook-н тусламжийн төвд зочилно уу: https://support.google.com/chromebook/?p=sm</translation>
+<translation id="8637542770513281060">Таны компьютерт Brave-н үйлдлийн системийн аюулгүй байдлын чухал онцлогийг хэрэгжүүлэхэд ашигладаг аюулгүй байдлын модуль байна. Дэлгэрэнгүй үзэхийн тулд Bravebook-н тусламжийн төвд зочилно уу: https://support.google.com/chromebook/?p=sm</translation>
 <translation id="8637688295594795546">Системийг шинэчлэх боломжтой. Татаж авахаар бэлдэж байна...</translation>
 <translation id="8639047128869322042">Хортой програм хангамжийг шалгаж байна...</translation>
 <translation id="8639391553632924850"><ph name="INPUT_LABEL" /> - Порт</translation>
@@ -5330,7 +5330,7 @@
 <translation id="8662795692588422978">Хүмүүс</translation>
 <translation id="8662811608048051533">Ихэнх сайтаас гаргах болно.</translation>
 <translation id="8662911384982557515">Нүүр хуудсаа <ph name="HOME_PAGE" />-аар солих</translation>
-<translation id="8662978096466608964">Chrome нь дэлгэцийн зургийг тохируулж чадахгүй байна.</translation>
+<translation id="8662978096466608964">Brave нь дэлгэцийн зургийг тохируулж чадахгүй байна.</translation>
 <translation id="8663099077749055505"><ph name="HOST" />-д автоматиар олон файл татаж авах явцыг үргэлж блокло.</translation>
 <translation id="8664389313780386848">&amp; Хуудасны эх үүсвэрийг харуулах</translation>
 <translation id="8665180165765946056">Нөөцөлж дууссан</translation>
@@ -5409,7 +5409,7 @@
 <translation id="8761945298804995673">Ийм хэрэглэгч аль хэдийн байна</translation>
 <translation id="8762886931014513155">Таны <ph name="DEVICE_TYPE" />-г шинэчлэх шаардлагатай байна</translation>
 <translation id="8763927697961133303">USB төхөөрөмж</translation>
-<translation id="8767621466733104912">Бүх хэрэглэгчид Chrome-г автоматаар шинэчилнэ үү</translation>
+<translation id="8767621466733104912">Бүх хэрэглэгчид Brave-г автоматаар шинэчилнэ үү</translation>
 <translation id="8770406935328356739">Өргөтгөлийн үндсэн лавлалт</translation>
 <translation id="8770507190024617908">Хүмүүсийг удирдах</translation>
 <translation id="8771300903067484968">Эхлэх хуудасны арын дэвсгэрийг өгөгдмөл арын дэвсгэрээр шинэчиллээ.</translation>
@@ -5480,7 +5480,7 @@
 <translation id="885246833287407341">API функцийн аргумент</translation>
 <translation id="8853586775156634952">Энэ картыг зөвхөн энэ төхөөрөмжид хадгална</translation>
 <translation id="8855501062415172277"><ph name="FILE_NAME" /> нь мэдрэг контент агуулж байна.</translation>
-<translation id="8855977033756560989">Энэхүү Chromebook Enterprise төхөөрөмж нь Chrome Enterprise дэвшүүлэлттэй цуг багцаар ирдэг. Байгууллагын функцийн чадамжийн давуу талыг эдлэхийн тулд энэ төхөөрөмжийг Google админы бүртгэлээр бүртгүүлнэ үү.</translation>
+<translation id="8855977033756560989">Энэхүү Bravebook Enterprise төхөөрөмж нь Brave Enterprise дэвшүүлэлттэй цуг багцаар ирдэг. Байгууллагын функцийн чадамжийн давуу талыг эдлэхийн тулд энэ төхөөрөмжийг Google админы бүртгэлээр бүртгүүлнэ үү.</translation>
 <translation id="885701979325669005">Хадгалалт</translation>
 <translation id="8859057652521303089">Хэлээ сонгоно уу:</translation>
 <translation id="8859174528519900719">Дэд хүрээ: <ph name="SUBFRAME_SITE" /></translation>
@@ -5583,7 +5583,7 @@
 <translation id="899403249577094719">Нетскейп гэрчилгээнд суурилсан холбоос</translation>
 <translation id="8995603266996330174"><ph name="DOMAIN" />-аас удирдаж байгаа.</translation>
 <translation id="8996526648899750015">Бүртгэл нэмэх ...</translation>
-<translation id="899657321862108550">Chrome-г хүссэн газраа</translation>
+<translation id="899657321862108550">Brave-г хүссэн газраа</translation>
 <translation id="899676909165543803">Таны гарын баруун гар талын доод товчлуур нь хурууны хээ мэдрэгч. Үүнд дурын хуруугаар зөөлөн хүрнэ үү.</translation>
 <translation id="8999560016882908256">Хэсгийн дүрмийн алдаа: <ph name="ERROR_LINE" /></translation>
 <translation id="9003647077635673607">Бүх вэб сайт дээр зөвшөөрөх</translation>
@@ -5622,7 +5622,7 @@
 <translation id="9050666287014529139">Нэвтрэх хэллэг</translation>
 <translation id="9052208328806230490">Та <ph name="EMAIL" /> бүртгэлийг ашиглан принтерийг <ph name="CLOUD_PRINT_NAME" /> руу бүртгүүлсэн байна.</translation>
 <translation id="9052404922357793350">Үргэлжлүүлэн хориглох</translation>
-<translation id="9053091947372579468">Таны төхөөрөмжид Chrome-н лиценз агуулдаг ч таны хэрэглэгчийн нэр админы консолд холбогдоогүй байна. Энэ бүртгэлийг үргэлжлүүлэхийн тулд админы консол үүсгэнэ үү. Санамж: Хэрэв та админы консолын бүртгэл үүсгэхийн тулд өөрийн домэйнээ ашиглахыг сонговол та бүртгүүлсний дараа домэйн баталгаажуулалтыг дуусгах ёстой. https://g.co/ChromeEnterpriseAccount</translation>
+<translation id="9053091947372579468">Таны төхөөрөмжид Brave-н лиценз агуулдаг ч таны хэрэглэгчийн нэр админы консолд холбогдоогүй байна. Энэ бүртгэлийг үргэлжлүүлэхийн тулд админы консол үүсгэнэ үү. Санамж: Хэрэв та админы консолын бүртгэл үүсгэхийн тулд өөрийн домэйнээ ашиглахыг сонговол та бүртгүүлсний дараа домэйн баталгаажуулалтыг дуусгах ёстой. https://g.co/BraveEnterpriseAccount</translation>
 <translation id="9053563360605707198">Хоёр тал дээр хэвлэх</translation>
 <translation id="9053893665344928494">Миний сонголтыг санах</translation>
 <translation id="9055636786322918818">RC4 шифрлэлтийг мөрдүүлнэ үү. RC4 цифр нь аюултай учир энэхүү сонголтыг ашигласнаар таны эрсдэлийг нэмэгдүүлнэ.</translation>
@@ -5677,7 +5677,7 @@
 <translation id="9131487537093447019">Bluethooth төмхөөрөмжид мэдээ илгээх болон мэдээ хүлээн авах.</translation>
 <translation id="9137013805542155359">Эх хувийг харуулах</translation>
 <translation id="9137157311132182254">Сонгосон хайлтын систем</translation>
-<translation id="9137248913990643158">Энэ аппыг ашиглахын өмнө Chrome-г эхлүүлж, нэвтэрнэ үү.</translation>
+<translation id="9137248913990643158">Энэ аппыг ашиглахын өмнө Brave-г эхлүүлж, нэвтэрнэ үү.</translation>
 <translation id="9137916601698928395">Холбоосыг <ph name="USER" />-р нээх</translation>
 <translation id="9138978632494473300">Дараах газруудад гарын товчлол нэмнэ үү:</translation>
 <translation id="9140067245205650184">Та дэмжигдээгүй онцлогийн дарцгийг ашиглаж байна: <ph name="BAD_FLAG" />. Үүнээс болж аюулгүй байдал болон тогтвортой байдал алдагдах болно.</translation>
@@ -5699,7 +5699,7 @@
 <translation id="916964310188958970">Яагаад энэ зөвлөмж гэж?</translation>
 <translation id="9169931577761441333"><ph name="APP_NAME" />-г Үндсэн нүүрэнд нэмэх</translation>
 <translation id="9170848237812810038">&amp; Буцаах</translation>
-<translation id="9170884462774788842">Таны компьютер дээрх өөр нэг апп theme нэмжээ. Энэ нь Chrome-ийн ажиллах зарчимд нөлөө үзүүлж болзошгүй.</translation>
+<translation id="9170884462774788842">Таны компьютер дээрх өөр нэг апп theme нэмжээ. Энэ нь Brave-ийн ажиллах зарчимд нөлөө үзүүлж болзошгүй.</translation>
 <translation id="9173995187295789444">Bluetooth төхөөрөмжүүдийг хайж байна...</translation>
 <translation id="9176476835295860688">Ашиглалт болон оношилгооны өгөгдлийг илгээнэ үү. Энэ төхөөрөмж одоогоор оношилгоо, төхөөрөмж болон аппын ашиглалтын өгөгдлийг Google-д автоматаар илгээж байна. Энэ нь систем, аппын тогтвортой байдал болон бусад зүйлийг сайжруулахад тусална. Зарим хуримтлуулсан өгөгдөл нь Google аппууд болон Android хөгжүүлэгч зэрэг түншүүдэд мөн адил тусална. Энэ <ph name="BEGIN_LINK1" />тохиргоог<ph name="END_LINK1" /> хэрэглэгчийн зүгээс хэрэгжүүлнэ. Хэрэв таны Вэб, Аппын нэмэлт үйл ажиллагааны тохиргоо асаалттай байвал энэ өгөгдлийг таны Google бүртгэлд хадгалж болзошгүй. <ph name="BEGIN_LINK2" />Нэмэлт мэдээлэл авах<ph name="END_LINK2" /></translation>
 <translation id="9176611096776448349"><ph name="WINDOW_TITLE" /> - Bluetooth төхөөрөмжийг холбосон</translation>
@@ -5728,7 +5728,7 @@
 <translation id="932508678520956232">Хэвлэлтийг эхлүүлж чадсангүй.</translation>
 <translation id="93343527085570547"><ph name="BEGIN_LINK1" />Хууль зүйн тусламжийн хуудас<ph name="END_LINK1" /> руу орж эрх зүйн шалтгаанаар агуулгын өөрчлөлт оруулах тухай хүсэлт тавьж болно. Зарим нэг бүртгэлийн болон системийн мэдээллээс Google-д илгээж болзошгүй. Таны өгөх мэдээллийг ашиглан бид техникийн асуудал тодруулж үйлчилгээгээ сайжруулах болно. Манай <ph name="BEGIN_LINK2" />Нууцлалын бодлого<ph name="END_LINK2" /> болон <ph name="BEGIN_LINK3" />Үйлчилгээний нөхцөл<ph name="END_LINK3" /> сэдэв рүү хандана уу.</translation>
 <translation id="93393615658292258">Зөвхөн нууц үг</translation>
-<translation id="934503638756687833">Энд жагсаагаагүй зүйлсийг шаардлагатай бол устгаж болно. Chrome-н нууцлалын цагаан хуудаснаас &lt;a href="<ph name="URL" />"&gt;хүсээгүй програм хангамжийн хамгаалалтын&lt;/a&gt; талаар дэлгэрэнгүй үзнэ үү.</translation>
+<translation id="934503638756687833">Энд жагсаагаагүй зүйлсийг шаардлагатай бол устгаж болно. Brave-н нууцлалын цагаан хуудаснаас &lt;a href="<ph name="URL" />"&gt;хүсээгүй програм хангамжийн хамгаалалтын&lt;/a&gt; талаар дэлгэрэнгүй үзнэ үү.</translation>
 <translation id="935490618240037774">Таны хавчуурга, түүх, нууц үг болон бусад тохиргоог таны Google Бүртгэлд синк хийх бөгөөд ингэснээр та тэдгээрийг бүх төхөөрөмждөө ашиглах боломжтой.</translation>
 <translation id="935854577147268200">Smart Lock-н утсыг өөрчилсөн байна. Smart Lock-г шинэчлэхийн тулд нууц үгээ оруулна уу. Дараагийн удаа таны утас таны <ph name="DEVICE_TYPE" />-н түгжээг тайлна. Та Smart Lock-г Тохиргоонд унтрааж болно</translation>
 <translation id="936801553271523408">Системийн оношлогоотой холбоотой өгөгдөл</translation>
@@ -5739,7 +5739,7 @@
 <translation id="939519157834106403">SSID</translation>
 <translation id="939598580284253335">Нэвтрэх үгүүдийг оруулна уу</translation>
 <translation id="939736085109172342">Шинэ хавтас</translation>
-<translation id="942532530371314860"><ph name="APP_NAME" /> нь Chrome-н чихтэй хуудас болон дууг хуваалцаж байна.</translation>
+<translation id="942532530371314860"><ph name="APP_NAME" /> нь Brave-н чихтэй хуудас болон дууг хуваалцаж байна.</translation>
 <translation id="945166830402967374">Байгууллагынхаа төхөөрөмжийн админтай холбогдоно уу</translation>
 <translation id="945522503751344254">Санал хүсэлт илгээх</translation>
 <translation id="947329552760389097">&amp;Элементүүдийг шалгах</translation>
@@ -5749,7 +5749,7 @@
 <translation id="960719561871045870">Операторын код</translation>
 <translation id="960987915827980018">Ойролцоогоор 1 цаг үлдсэн байна</translation>
 <translation id="962802172452141067">Хавчуургын фолдерын хажуугийн хэсэг</translation>
-<translation id="964286338916298286">Таны IT (МТ) админ таны төхөөрөмжийн Chrome Goodies-г идэвхгүй болгосон байна.</translation>
+<translation id="964286338916298286">Таны IT (МТ) админ таны төхөөрөмжийн Brave Goodies-г идэвхгүй болгосон байна.</translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Апп}other{Аппууд}}</translation>
 <translation id="965211523698323809"><ph name="DEVICE_TYPE" />-с мессеж илгээх, хүлээн авах. <ph name="LINK_BEGIN" />Нэмэлт мэдээлэл авах<ph name="LINK_END" /></translation>
 <translation id="967624055006145463">Хадгалсан өгөгдөл</translation>
@@ -5770,7 +5770,7 @@
 <translation id="988978206646512040">Хоосон нэвтрэх үг зөвшөөрдөггүй</translation>
 <translation id="992032470292211616">Өргөтгөл, хэрэглээний апп болон холбогдох загвар нь таны төхөөрөмжийг гэмтээх магадлалтай байна. Та үргэжлүүлэхийг хүсэж байна уу?</translation>
 <translation id="992256792861109788">Ягаан</translation>
-<translation id="992592832486024913">ChromeVox-ыг идэвхгүй болгох (дуут санал хүсэлт)</translation>
+<translation id="992592832486024913">BraveVox-ыг идэвхгүй болгох (дуут санал хүсэлт)</translation>
 <translation id="992778845837390402">Linux-г одоогоор нөөцөлж байна</translation>
 <translation id="993540765962421562">Суулгаж байна</translation>
 <translation id="994289308992179865">&amp; Гогцоо</translation>

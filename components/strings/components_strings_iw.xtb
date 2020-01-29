@@ -5,7 +5,7 @@
 <translation id="1010200102790553230">לטעינת הדף מאוחר יותר</translation>
 <translation id="1015730422737071372">ספק פרטים נוספים</translation>
 <translation id="1021110881106174305">כרטיסים מאושרים</translation>
-<translation id="1021753677514347426">‏הבעיה הזו מתרחשת בגלל אישור שהותקן במכשיר על ידך או על ידי מישהו אחר. האישור הזה מוכר כאישור שמשמש לצורך מעקב אחרי רשתות ויירוט נתונים מרשתות, והוא לא נחשב כמהימן על ידי Chromium. במקרים מסוימים מתבצע מעקב מסיבות לגיטימיות, כמו במוסדות חינוך או ברשתות של חברות, אך Chromium רוצה לוודא שהמעקב מתבצע בידיעתך גם אם אין לך אפשרות לעצור אותו. המעקב עשוי להתבצע בכל דפדפן או אפליקציה שניגשים לאינטרנט.</translation>
+<translation id="1021753677514347426">‏הבעיה הזו מתרחשת בגלל אישור שהותקן במכשיר על ידך או על ידי מישהו אחר. האישור הזה מוכר כאישור שמשמש לצורך מעקב אחרי רשתות ויירוט נתונים מרשתות, והוא לא נחשב כמהימן על ידי Brave. במקרים מסוימים מתבצע מעקב מסיבות לגיטימיות, כמו במוסדות חינוך או ברשתות של חברות, אך Brave רוצה לוודא שהמעקב מתבצע בידיעתך גם אם אין לך אפשרות לעצור אותו. המעקב עשוי להתבצע בכל דפדפן או אפליקציה שניגשים לאינטרנט.</translation>
 <translation id="1032854598605920125">סובב בכיוון השעון</translation>
 <translation id="1036348656032585052">כבה</translation>
 <translation id="1038842779957582377">שם לא ידוע</translation>
@@ -22,9 +22,9 @@
 <translation id="1088860948719068836">הוספת השם שמופיע בכרטיס</translation>
 <translation id="1089439967362294234">שינוי סיסמה</translation>
 <translation id="1096545575934602868">השדה הזה יכול לכלול עד <ph name="MAX_ITEMS_LIMIT" /> רשומות. כל הרשומות הנוספות יימחקו.</translation>
-<translation id="109743633954054152">‏ניהול סיסמאות בהגדרות Chrome</translation>
+<translation id="109743633954054152">‏ניהול סיסמאות בהגדרות Brave</translation>
 <translation id="1103523840287552314">ברצוני לקבל תרגום מ<ph name="LANGUAGE" /> תמיד</translation>
-<translation id="1107591249535594099">‏אם האפשרות הזו מסומנת, Chrome ישמור עותק של הכרטיס במכשיר הזה כדי למלא טפסים במהירות רבה יותר.</translation>
+<translation id="1107591249535594099">‏אם האפשרות הזו מסומנת, Brave ישמור עותק של הכרטיס במכשיר הזה כדי למלא טפסים במהירות רבה יותר.</translation>
 <translation id="1110994991967754504">צריך לבחור את ההרשאה של <ph name="PERMISSION_NAME" /></translation>
 <translation id="1113869188872983271">&amp;ביטול של שינוי סדר</translation>
 <translation id="1125573121925420732">לפעמים מופיעות אזהרות בזמן שאתרים מעדכנים את האבטחה שלהם. זה אמור להיפסק בקרוב.</translation>
@@ -68,8 +68,8 @@
 <translation id="1264126396475825575">דוח הקריסה תועד ב-<ph name="CRASH_TIME" /> (עדיין לא העלית אותו או בחרת להתעלם ממנו)</translation>
 <translation id="1270502636509132238">שיטת איסוף</translation>
 <translation id="1285320974508926690">איני רוצה לקבל תרגום של אתר זה</translation>
-<translation id="1285400217480592994">‏סריקת התוכן של הקבצים שהורדת או העלית ב-Chrome.</translation>
-<translation id="1292701964462482250">‏"יש תוכנה במחשב שלך שמונעת מ-Chrome להתחבר באופן מאובטח אל האינטרנט" (מחשבי Windows בלבד)</translation>
+<translation id="1285400217480592994">‏סריקת התוכן של הקבצים שהורדת או העלית ב-Brave.</translation>
+<translation id="1292701964462482250">‏"יש תוכנה במחשב שלך שמונעת מ-Brave להתחבר באופן מאובטח אל האינטרנט" (מחשבי Windows בלבד)</translation>
 <translation id="1294154142200295408">וריאציות של שורת פקודה</translation>
 <translation id="129553762522093515">נסגרו לאחרונה</translation>
 <translation id="1298536327547837046">סריקה לאיתור תוכנות זדוניות</translation>
@@ -160,9 +160,9 @@
 <translation id="1652415888492971589">JIS B8</translation>
 <translation id="1656489000284462475">איסוף</translation>
 <translation id="1662550410081243962">שמירה ומילוי של אמצעי תשלום</translation>
-<translation id="1663943134801823270">‏הכרטיסים והכתובות נלקחים מ-Chrome. אפשר לנהל אותם ב<ph name="BEGIN_LINK" />הגדרות<ph name="END_LINK" />.</translation>
+<translation id="1663943134801823270">‏הכרטיסים והכתובות נלקחים מ-Brave. אפשר לנהל אותם ב<ph name="BEGIN_LINK" />הגדרות<ph name="END_LINK" />.</translation>
 <translation id="1671391448414634642">דפים ב<ph name="SOURCE_LANGUAGE" /> יתורגמו מעכשיו ל<ph name="TARGET_LANGUAGE" />.</translation>
-<translation id="1676269943528358898">‏האתר <ph name="SITE" /> משתמש בדרך כלל בהצפנה כדי להגן על המידע שלך. כאשר Google Chrome ניסה הפעם להתחבר ל-<ph name="SITE" />, האתר שלח חזרה אישורים חריגים ושגויים. ייתכן שתוקף מנסה להתחזות לאתר <ph name="SITE" />, או שמסך כניסה ל-Wi-Fi הפריע לחיבור. המידע שלך עדיין מאובטח מכיוון ש-Google Chrome הפסיק את החיבור לפני חילופי הנתונים.</translation>
+<translation id="1676269943528358898">‏האתר <ph name="SITE" /> משתמש בדרך כלל בהצפנה כדי להגן על המידע שלך. כאשר Brave ניסה הפעם להתחבר ל-<ph name="SITE" />, האתר שלח חזרה אישורים חריגים ושגויים. ייתכן שתוקף מנסה להתחזות לאתר <ph name="SITE" />, או שמסך כניסה ל-Wi-Fi הפריע לחיבור. המידע שלך עדיין מאובטח מכיוון ש-Brave הפסיק את החיבור לפני חילופי הנתונים.</translation>
 <translation id="168841957122794586">אישור השרת מכיל מפתח הצפנה חלש.</translation>
 <translation id="1697532407822776718">הכל מוכן!</translation>
 <translation id="1703835215927279855">Letter</translation>
@@ -210,21 +210,21 @@
 <translation id="1914326953223720820">שירות לפתיחת קבצים דחוסים</translation>
 <translation id="1915697529809968049">‏האם להשתמש ב-Touch ID במקום ב-CVC?</translation>
 <translation id="1916770123977586577">כדי להחיל על האתר את ההגדרות המעודכנות, טען מחדש את הדף</translation>
-<translation id="1917876262703816781">הסיסמה שלך נחשפה בעקבות פרצת אבטחת מידע באתר או באפליקציה כלשהם. מומלץ לבדוק עכשיו את הסיסמאות השמורות שלך ולשנות את הסיסמה באתר <ph name="ORIGIN" />.</translation>
+<translation id="1917876262703816781">‏הסיסמה שלך נחשפה בעקבות פרצת אבטחת מידע באתר או באפליקציה. ההמלצה של Brave היא לשנות עכשיו את הסיסמה באתר <ph name="ORIGIN" />.</translation>
 <translation id="1919345977826869612">מודעות</translation>
 <translation id="1919367280705858090">עזרה לגבי הודעות שגיאה ספציפיות</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{ללא}=1{אתר אחד}two{שני אתרים}many{# אתרים}other{# אתרים}}</translation>
 <translation id="1927235823738766038">כרטיסי אשראי וחיוב שהסוחר מקבל</translation>
 <translation id="194030505837763158">עבור ל-<ph name="LINK" /></translation>
-<translation id="1945968466830820669">‏ייתכן שלא יתאפשר לך לגשת לחשבון הארגוני, והזהות שלך עלולה להיגנב. לגלישה בטוחה ב-Chromium, מומלץ לשנות את הסיסמה עכשיו.</translation>
+<translation id="1945968466830820669">‏ייתכן שלא יתאפשר לך לגשת לחשבון הארגוני, והזהות שלך עלולה להיגנב. לגלישה בטוחה ב-Brave, מומלץ לשנות את הסיסמה עכשיו.</translation>
 <translation id="1947454675006758438">סיכת הידוק בפינה הימנית העליונה</translation>
 <translation id="1948773908305951926">כרטיסים משולמים מראש שהסוחר מקבל</translation>
 <translation id="1962204205936693436">סימניות של <ph name="DOMAIN" /></translation>
 <translation id="1973335181906896915">שגיאה בעריכה בסידרה</translation>
 <translation id="1974060860693918893">מתקדם</translation>
-<translation id="1974883374937189061">‏אפשר לעזור לנו לשפר את האבטחה של Chrome על-ידי שליחת <ph name="BEGIN_WHITEPAPER_LINK" />כתובות URL של חלק מהדפים שאליהם נכנסת, מידע מוגבל על המערכת וחלק מתכני הדפים<ph name="END_WHITEPAPER_LINK" /> אל Google. <ph name="PRIVACY_PAGE_LINK" /></translation>
+<translation id="1974883374937189061">‏אפשר לעזור לנו לשפר את האבטחה של Brave על-ידי שליחת <ph name="BEGIN_WHITEPAPER_LINK" />כתובות URL של חלק מהדפים שאליהם נכנסת, מידע מוגבל על המערכת וחלק מתכני הדפים<ph name="END_WHITEPAPER_LINK" /> אל Google. <ph name="PRIVACY_PAGE_LINK" /></translation>
 <translation id="1978555033938440688">גרסת קושחה</translation>
-<translation id="1981206234434200693">‏ניקוי נתוני היסטוריית הגלישה של Chrome</translation>
+<translation id="1981206234434200693">‏ניקוי נתוני היסטוריית הגלישה של Brave</translation>
 <translation id="1992331125980284532">JIS B3</translation>
 <translation id="2001146170449793414">{COUNT,plural, =1{ואפליקציה אחת נוספת}two{ושתי אפליקציות נוספות}many{ו-# אפליקציות נוספות}other{ו-# אפליקציות נוספות}}</translation>
 <translation id="2003709556000175978">צריך לאפס את הסיסמה עכשיו</translation>
@@ -280,7 +280,7 @@
 <translation id="225207911366869382">ערך זה הוצא משימוש עבור מדיניות זו.</translation>
 <translation id="2258928405015593961">צריך להזין תאריך תפוגה עתידי ולנסות שוב</translation>
 <translation id="2262243747453050782">‏שגיאת HTTP</translation>
-<translation id="2263079731045660823">‏עדכון המילוי האוטומטי של פרטי כרטיס אשראי בהגדרות Chrome</translation>
+<translation id="2263079731045660823">‏עדכון המילוי האוטומטי של פרטי כרטיס אשראי בהגדרות Brave</translation>
 <translation id="2267047181501709434">מתבצע אימות של הזהות שלך...</translation>
 <translation id="2270484714375784793">מספר טלפון</translation>
 <translation id="2277103315734023688">הרצה קדימה</translation>
@@ -312,11 +312,11 @@
 <translation id="2392959068659972793">הצגת מדיניות ללא ערך מוגדר</translation>
 <translation id="239429038616798445">שיטת המשלוח הזו לא זמינה. עליך לבחור שיטה אחרת.</translation>
 <translation id="2396249848217231973">&amp;ביטול מחיקה</translation>
-<translation id="2409589295040002961">‏מנהל המערכת יכול לשנות את הגדרת הדפדפן שלך מרחוק. בנוסף, ניתן לנהל את הפעילות במכשיר הזה מחוץ ל-Chrome. <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" /></translation>
+<translation id="2409589295040002961">‏מנהל המערכת יכול לשנות את הגדרת הדפדפן שלך מרחוק. בנוסף, ניתן לנהל את הפעילות במכשיר הזה מחוץ ל-Brave. <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" /></translation>
 <translation id="2410754574180102685">Government-Legal</translation>
 <translation id="2413528052993050574">השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. ייתכן שאישור האבטחה שלו בוטל. הסיבה לכך עשויה להיות הגדרה שגויה או תוקף המיירט את החיבור שלך.</translation>
 <translation id="2438874542388153331">4 ניקובים בצד ימין</translation>
-<translation id="245044156129055925">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Chromium היא לשנות את הסיסמה עכשיו.</translation>
+<translation id="245044156129055925">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לשנות את הסיסמה עכשיו.</translation>
 <translation id="2463193859425327265">שינוי דף הבית</translation>
 <translation id="2463739503403862330">מלא</translation>
 <translation id="2465402087343596252">Architecture-E</translation>
@@ -330,7 +330,7 @@
 <translation id="2491120439723279231">אישור השרת מכיל שגיאות.</translation>
 <translation id="2493640343870896922">Letter-Plus</translation>
 <translation id="2495083838625180221">‏מנתח JSON</translation>
-<translation id="2495093607237746763">‏אם האפשרות תסומן, Chromium ישמור עותק של הכרטיס במכשיר הזה כדי למלא טפסים במהירות רבה יותר.</translation>
+<translation id="2495093607237746763">‏אם האפשרות תסומן, Brave ישמור עותק של הכרטיס במכשיר הזה כדי למלא טפסים במהירות רבה יותר.</translation>
 <translation id="2498091847651709837">סריקת כרטיס חדש</translation>
 <translation id="2501278716633472235">חזרה</translation>
 <translation id="2503184589641749290">כרטיסי חיוב וכרטיסים משולמים מראש שהסוחר מקבל</translation>
@@ -425,11 +425,11 @@
 <translation id="2948083400971632585">‏ניתן להשבית כל שרת proxy המוגדר לחיבור מדף ההגדרות.</translation>
 <translation id="295526156371527179">אזהרה: המדיניות הזו לא עברה מיזוג כמילון בהתאם למדיניות, מאחר שהיא אינה מילון.</translation>
 <translation id="2955913368246107853">סגור את חלונית החיפוש</translation>
-<translation id="2969319727213777354">‏כדי ליצור חיבור מאובטח, השעון צריך להיות מוגדר כהלכה. הסיבה לכך היא שהאישורים שבאמצעותם אתרים מזהים את עצמם תקפים רק למשך פרקי זמן מסוימים. מאחר שהשעון במכשיר שלך שגוי, Google Chrome לא יכול לאמת את האישורים האלה.</translation>
+<translation id="2969319727213777354">‏כדי ליצור חיבור מאובטח, השעון צריך להיות מוגדר כהלכה. הסיבה לכך היא שהאישורים שבאמצעותם אתרים מזהים את עצמם תקפים רק למשך פרקי זמן מסוימים. מאחר שהשעון במכשיר שלך שגוי, Brave לא יכול לאמת את האישורים האלה.</translation>
 <translation id="2972581237482394796">&amp;בצע שנית</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" />, בחירה נוכחית. <ph name="ROW_CONTENT" /></translation>
 <translation id="2982481275546140226">ניקוי נתונים</translation>
-<translation id="2985306909656435243">‏אם האפשרות תופעל, Chromium יאחסן עותק של הכרטיס שלך במכשיר הזה למילוי מהיר יותר של טפסים.</translation>
+<translation id="2985306909656435243">‏אם האפשרות תופעל, Brave יאחסן עותק של הכרטיס שלך במכשיר הזה למילוי מהיר יותר של טפסים.</translation>
 <translation id="2985398929374701810">עליך להזין כתובת חוקית</translation>
 <translation id="2986368408720340940">שיטת האיסוף הזו אינה זמינה. עליך לבחור שיטה אחרת.</translation>
 <translation id="2987034854559945715">אין תכונות תואמות</translation>
@@ -513,7 +513,7 @@
 <translation id="3422472998109090673">לא ניתן לגשת כרגע אל <ph name="HOST_NAME" />.</translation>
 <translation id="3427092606871434483">התר (ברירת מחדל)</translation>
 <translation id="3427342743765426898">&amp;ביצוע מחדש של עריכה</translation>
-<translation id="342781501876943858">‏אם הזנת את הסיסמה שלך באתרים אחרים, ההמלצה של Chromium היא לאפס אותה.</translation>
+<translation id="342781501876943858">‏אם הזנת את הסיסמה שלך באתרים אחרים, ההמלצה של Brave היא לאפס אותה.</translation>
 <translation id="3428151540071562330">‏אחד או יותר ממזהי ה-URI של תבנית השרת DnsOverHttpsTemplates אינם חוקיים ולא ייעשה בהם שימוש.</translation>
 <translation id="3431636764301398940">שמור כרטיס זה במכשיר הנוכחי</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
@@ -526,7 +526,7 @@
 <translation id="3467763166455606212">עליך לציין את שם בעל הכרטיס</translation>
 <translation id="3468054117417088249">‏<ph name="TAB_SWITCH_SUFFIX" />, פתוחה כרגע, יש להקיש על Tab ולאחר מכן על Enter כדי לעבור לכרטיסייה הפתוחה</translation>
 <translation id="3479552764303398839">לא עכשיו</translation>
-<translation id="3484560055331845446">‏ייתכן שמישהו אחר ישלול את הגישה שלך לחשבון Google. לגלישה בטוחה ב-Chrome, מומלץ לשנות את הסיסמה עכשיו.</translation>
+<translation id="3484560055331845446">‏ייתכן שמישהו אחר ישלול את הגישה שלך לחשבון Google. לגלישה בטוחה ב-Brave, מומלץ לשנות את הסיסמה עכשיו.</translation>
 <translation id="3495081129428749620">חיפוש בדף
 <ph name="PAGE_TITLE" /></translation>
 <translation id="3512163584740124171">המערכת מתעלמת מהמדיניות הזו כי יש מדיניות אחרת מאותה קבוצה של הגדרות מדיניות שקיבלה עדיפות גבוהה יותר.</translation>
@@ -538,7 +538,7 @@
 <translation id="3566021033012934673">החיבור שלך אינו פרטי</translation>
 <translation id="3574305903863751447"><ph name="CITY" />, <ph name="STATE" /> <ph name="COUNTRY" /></translation>
 <translation id="3576616784287504635">דף מוטמע באתר <ph name="SITE" /> אומר</translation>
-<translation id="3581089476000296252">‏כשהדף יהיה מוכן, מערכת Chrome תודיע לך על כך. &lt;a&gt;ביטול&lt;/a&gt;</translation>
+<translation id="3581089476000296252">‏כשהדף יהיה מוכן, מערכת Brave תודיע לך על כך. &lt;a&gt;ביטול&lt;/a&gt;</translation>
 <translation id="358285529439630156">אפשר לשלם באמצעות כרטיסי אשראי וכרטיסים משולמים מראש.</translation>
 <translation id="3582930987043644930">הוסף שם</translation>
 <translation id="3583757800736429874">&amp;ביצוע מחדש של העברה</translation>
@@ -583,7 +583,7 @@
 <translation id="372429172604983730">‏יישומים שיכולים לגרום לשגיאה הזו כוללים תוכנות אנטי-וירוס, חומות אש ותוכנות proxy או סינון אינטרנט.</translation>
 <translation id="373042150751172459">B4 (Envelope)‎</translation>
 <translation id="3736520371357197498">אם אתה מבין את הסיכונים בנוגע לאבטחה שלך, תוכל <ph name="BEGIN_LINK" />להיכנס לאתר לא בטוח זה<ph name="END_LINK" /> לפני הסרת התכניות המסוכנות.</translation>
-<translation id="3744899669254331632">‏אינך יכול לבקר כרגע ב-<ph name="SITE" /> מפני שהאתר שלח פרטי כניסה מעורבלים ש-Chromium אינו יכול לעבד. שגיאות רשת והתקפות הן בדרך כלל זמניות, לכן סביר להניח שדף זה יפעל כהלכה בהמשך.</translation>
+<translation id="3744899669254331632">‏אינך יכול לבקר כרגע ב-<ph name="SITE" /> מפני שהאתר שלח פרטי כניסה מעורבלים ש-Brave אינו יכול לעבד. שגיאות רשת והתקפות הן בדרך כלל זמניות, לכן סביר להניח שדף זה יפעל כהלכה בהמשך.</translation>
 <translation id="3745099705178523657">‏אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Google.</translation>
 <translation id="3748148204939282805">תוקפים באתר <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> עלולים להונות אותך כדי לגרום לך לבצע פעולות מסוכנות, כמו התקנת תוכנה או חשיפת מידע אישי (לדוגמה, סיסמאות, מספרי טלפון או כרטיסי אשראי). <ph name="BEGIN_LEARN_MORE_LINK" />מידע נוסף<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="375403751935624634">התרגום נכשל עקב שגיאת שרת.</translation>
@@ -604,7 +604,7 @@
 <translation id="3828924085048779000">אין אפשרות להשתמש במשפט-סיסמה ריק.</translation>
 <translation id="3831915413245941253">הותקנו תוספים מהדומיין <ph name="ENROLLMENT_DOMAIN" /> כדי להשתמש בפונקציות נוספות. לתוספים יש גישה לחלק מהנתונים שלך.</translation>
 <translation id="3832522519263485449">ניקובים מרובים בצד שמאל</translation>
-<translation id="3838154488026099170">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Chromium היא לעבור אל <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" />, <ph name="WEBSITE_3" /> ואתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
+<translation id="3838154488026099170">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לעבור אל <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" />, <ph name="WEBSITE_3" /> ואתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
 <translation id="385051799172605136">חזרה</translation>
 <translation id="3858027520442213535">עדכן את התאריך והשעה</translation>
 <translation id="3884278016824448484">מזהה מכשיר מתנגש</translation>
@@ -628,7 +628,7 @@
 <translation id="3964661563329879394">{COUNT,plural, =0{ללא}=1{מאתר אחד }two{משני אתרים }many{מ-# אתרים }other{מ-# אתרים }}</translation>
 <translation id="397105322502079400">מחשב...</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME" /> חסום</translation>
-<translation id="3987405730340719549">‏לפי אמצעי האבטחה של Chrome, האתר הזה עשוי להיות מזויף או אתר שנועד להונאה.
+<translation id="3987405730340719549">‏לפי אמצעי האבטחה של Brave, האתר הזה עשוי להיות מזויף או אתר שנועד להונאה.
 
     אם לדעתך זו טעות, יש לעבור אל https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="3987940399970879459">‏פחות מ-‎1 MB</translation>
@@ -642,7 +642,7 @@
 <translation id="4072486802667267160">התרחשה שגיאה במהלך עיבוד התשלום שלך. נסה שוב.</translation>
 <translation id="4075732493274867456">‏הלקוח והשרת אינם תומכים בגרסה נפוצה של פרוטוקול SSL או בחבילת צפנים.</translation>
 <translation id="4075941231477579656">Touch ID</translation>
-<translation id="4077092919748553596">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Chrome היא לעבור אל <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" />, <ph name="WEBSITE_3" /> ואתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
+<translation id="4077092919748553596">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לעבור אל <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" />, <ph name="WEBSITE_3" /> ואתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
 <translation id="4079302484614802869">‏תצורת ה-Proxy מוגדרת להשתמש בכתובת אתר של סקריפט מסוג ‎.Pac ולא בשרתי Proxy קבועים.</translation>
 <translation id="4082393374666368382">הגדרות - ניהול</translation>
 <translation id="4098354747657067197">זהירות, אתר מטעה</translation>
@@ -682,11 +682,11 @@
     &lt;/ol&gt;
     &lt;h4&gt;שלב שני: פתיחת הדף במצב גלישה בסתר (מחשבים בלבד)&lt;/h4&gt;
     &lt;p&gt;פותחים את הדף שאליו רוצים להיכנס בחלון גלישה בסתר.&lt;/p&gt;
-    &lt;p&gt;אם הדף נפתח, יש בעיה בתוסף של Chrome. כדי לפתור את השגיאה צריך להשבית את התוסף.&lt;/p&gt;
+    &lt;p&gt;אם הדף נפתח, יש בעיה בתוסף של Brave. כדי לפתור את השגיאה צריך להשבית את התוסף.&lt;/p&gt;
     &lt;h4&gt;שלב שלישי: עדכון מערכת ההפעלה&lt;/h4&gt;
     &lt;p&gt;מוודאים שמערכת ההפעלה במכשיר מעודכנת.&lt;/p&gt;
     &lt;h4&gt;שלב רביעי: השבתה זמנית של האנטי-וירוס&lt;/h4&gt;
-    &lt;p&gt;השגיאה זו תוצג אם במחשב מותקנת תוכנת אנטי-וירוס שמספקת "הגנת HTTPS" או "סריקת HTTPS". תוכנת האנטי-וירוס מונעת מ-Chrome לספק אבטחה.&lt;/p&gt;
+    &lt;p&gt;השגיאה זו תוצג אם במחשב מותקנת תוכנת אנטי-וירוס שמספקת "הגנת HTTPS" או "סריקת HTTPS". תוכנת האנטי-וירוס מונעת מ-Brave לספק אבטחה.&lt;/p&gt;
     &lt;p&gt;כדי לפתור את הבעיה, יש לכבות את תוכנת האנטי-וירוס. אם הדף פועל לאחר כיבוי התוכנה, יש לכבות אותה בזמן השימוש באתרים מאובטחים.&lt;/p&gt;
     &lt;p&gt;חשוב להפעיל שוב את האנטי-וירוס בסיום.&lt;/p&gt;
     &lt;h4&gt;שלב חמישי: סיוע נוסף&lt;/h4&gt;
@@ -704,7 +704,7 @@
 <translation id="4277028893293644418">איפוס סיסמה</translation>
 <translation id="4279811152705618813">ה-<ph name="DEVICE_TYPE" /> מנוהל על-ידי <ph name="ENROLLMENT_DOMAIN" /></translation>
 <translation id="428639260510061158">{NUM_CARDS,plural, =1{‏הכרטיס הזה נשמר בחשבון Google שלך}two{‏הכרטיסים האלה נשמרו בחשבון Google שלך}many{‏הכרטיסים האלה נשמרו בחשבון Google שלך}other{‏הכרטיסים האלה נשמרו בחשבון Google שלך}}</translation>
-<translation id="428847186335018806">‏סריקת קבצים שהורדת או העלית ב-Chrome.</translation>
+<translation id="428847186335018806">‏סריקת קבצים שהורדת או העלית ב-Brave.</translation>
 <translation id="42981349822642051">הרחבה</translation>
 <translation id="4300675098767811073">ניקובים מרובים בצד ימין</translation>
 <translation id="4302965934281694568">Chou3 (Envelope)‎</translation>
@@ -716,14 +716,14 @@
 <translation id="4325863107915753736">לא ניתן היה למצוא את הפריט</translation>
 <translation id="4326324639298822553">בדוק את תאריך התפוגה ונסה שוב</translation>
 <translation id="4331708818696583467">לא מאובטח</translation>
-<translation id="4340982228985273705">‏המחשב לא זוהה כמכשיר המנוהל על ידי הארגון, כך שלפי המדיניות מותר להתקין אוטומטית רק תוספים מחנות האינטרנט של Chrome. כתובת האתר לעדכונים מחנות האינטרנט של Chrome היא "<ph name="CWS_UPDATE_URL" />".</translation>
+<translation id="4340982228985273705">‏המחשב לא זוהה כמכשיר המנוהל על ידי הארגון, כך שלפי המדיניות מותר להתקין אוטומטית רק תוספים מחנות האינטרנט של Brave. כתובת האתר לעדכונים מחנות האינטרנט של Brave היא "<ph name="CWS_UPDATE_URL" />".</translation>
 <translation id="4346197816712207223">כרטיסי אשראי שהסוחר מקבל</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
-<translation id="4349531505348777662">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Chrome היא לעבור אל <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש, ולשנות את הסיסמה עכשיו.</translation>
+<translation id="4349531505348777662">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לעבור אל <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש, ולשנות את הסיסמה עכשיו.</translation>
 <translation id="4356973930735388585">תוקפים באתר הזה עשויים לנסות להתקין במחשב שלך תוכניות מסוכנות שגונבות או מוחקות מידע שלך (לדוגמה: תמונות, סיסמאות, הודעות ופרטי כרטיסי אשראי).</translation>
 <translation id="4358059973562876591">‏לא ניתן להחיל את התבניות שבחרת עקב שגיאה במדיניות DnsOverHttpsMode.</translation>
 <translation id="4358461427845829800">ניהול אמצעי תשלום...</translation>
-<translation id="4359160567981085931">‏הזנת כרגע את הסיסמה שלך באתר מטעה. אפשר לפתור את הבעיה בעזרת Chrome. כדי לשנות את הסיסמה ולהודיע ל-Google שייתכן כי החשבון בסיכון, יש ללחוץ על 'הגנה על החשבון'.</translation>
+<translation id="4359160567981085931">‏הזנת כרגע את הסיסמה שלך באתר מטעה. אפשר לפתור את הבעיה בעזרת Brave. כדי לשנות את הסיסמה ולהודיע ל-Google שייתכן כי החשבון בסיכון, יש ללחוץ על 'הגנה על החשבון'.</translation>
 <translation id="4367563149485757821">Number-12 (Envelope)‎</translation>
 <translation id="437058704415269440">יתרה בחשבון</translation>
 <translation id="4372516964750095882">Fanfold-Us</translation>
@@ -733,7 +733,7 @@
 <translation id="4406896451731180161">תוצאות חיפוש</translation>
 <translation id="4408413947728134509">‏קובצי Cookie <ph name="NUM_COOKIES" /></translation>
 <translation id="4415426530740016218">כתובת איסוף</translation>
-<translation id="4424024547088906515">‏השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. אישור האבטחה שלו לא נחשב כמהימן על ידי Chrome. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
+<translation id="4424024547088906515">‏השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. אישור האבטחה שלו לא נחשב כמהימן על ידי Brave. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
 <translation id="443121186588148776">יציאה טורית</translation>
 <translation id="4432688616882109544"><ph name="HOST_NAME" /> לא אישר את אישור ההתחברות שלך, או שלא סופק אישור התחברות.</translation>
 <translation id="4434045419905280838">חלונות קופצים והפניות אוטומטיות</translation>
@@ -744,7 +744,7 @@
 <translation id="4477350412780666475">הטראק הבא</translation>
 <translation id="4482953324121162758">האתר הזה לא יתורגם.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="4492519888999857993">‏התכונות האלה מושבתות כברירת מחדל. הן לא יהיו זמינות בגרסאות עתידיות של Chrome.</translation>
+<translation id="4492519888999857993">‏התכונות האלה מושבתות כברירת מחדל. הן לא יהיו זמינות בגרסאות עתידיות של Brave.</translation>
 <translation id="4493480324863638523">‏כתובת URL לא חוקית. הסכימה של כתובת ה-URL צריכה להיות רגילה, כלומר: http://example.com או https://example.com.</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
 <translation id="4506176782989081258">שגיאת אימות: <ph name="VALIDATION_ERROR" /></translation>
@@ -752,7 +752,7 @@
 <translation id="450710068430902550">שיתוף עם מנהל מערכת</translation>
 <translation id="4508814173490746936">‏לא ניתן להשתמש ב-Touch ID</translation>
 <translation id="4510487217173779431">Chou4 (Envelope)‎</translation>
-<translation id="4515275063822566619">‏הכרטיסים והכתובות לקוחים מ-Chrome ומחשבון Google שלך (<ph name="ACCOUNT_EMAIL" />). אפשר לנהל אותם ב<ph name="BEGIN_LINK" />הגדרות<ph name="END_LINK" />.</translation>
+<translation id="4515275063822566619">‏הכרטיסים והכתובות לקוחים מ-Brave ומחשבון Google שלך (<ph name="ACCOUNT_EMAIL" />). אפשר לנהל אותם ב<ph name="BEGIN_LINK" />הגדרות<ph name="END_LINK" />.</translation>
 <translation id="4517607026994743406">Comm-10 (Envelope)‎</translation>
 <translation id="4522570452068850558">פרטים</translation>
 <translation id="4524138615196389145">‏כדי לאשר את הכרטיסים שלך מהר יותר, אפשר להשתמש ב-WebAuthn מעכשיו והלאה</translation>
@@ -764,7 +764,7 @@
 <translation id="457875822857220463">משלוח</translation>
 <translation id="4579056131138995126">Personal (Envelope)‎</translation>
 <translation id="4582204425268416675">הסרת הכרטיס</translation>
-<translation id="4587425331216688090">‏האם להסיר את הכתובת מ-Chrome?</translation>
+<translation id="4587425331216688090">‏האם להסיר את הכתובת מ-Brave?</translation>
 <translation id="4592951414987517459">החיבור שלך אל <ph name="DOMAIN" /> מוצפן באמצעות חבילת צופן מתקדמת.</translation>
 <translation id="4594403342090139922">&amp;ביטול מחיקה</translation>
 <translation id="4597348597567598915">גודל 8</translation>
@@ -786,7 +786,7 @@
 <translation id="4726672564094551039">טען מדיניות מחדש</translation>
 <translation id="4728558894243024398">פלטפורמה</translation>
 <translation id="4731967714531604179">Prc2 (Envelope)‎</translation>
-<translation id="4736825316280949806">‏אתחול ה-Chromium</translation>
+<translation id="4736825316280949806">‏אתחול ה-Brave</translation>
 <translation id="473775607612524610">עדכן</translation>
 <translation id="4738601419177586157"><ph name="TEXT" /> – הצעת חיפוש</translation>
 <translation id="4742407542027196863">ניהול סיסמאות…</translation>
@@ -808,7 +808,7 @@ Del</translation>
 <translation id="4800132727771399293">‏בדוק את תאריך התפוגה ואת ה-CVC ונסה שוב</translation>
 <translation id="480334179571489655">שגיאת מדיניות מקור</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
-<translation id="4807049035289105102">‏לא ניתן לבקר כעת באתר <ph name="SITE" /> מכיוון שהאתר שלח אישורים משובשים ש-Google Chrome אינו יכול לעבד. שגיאות רשת ותקיפות מתרחשות בדרך כלל לזמן מוגבל, כך שסביר להניח שהדף הזה יפעל מאוחר יותר.</translation>
+<translation id="4807049035289105102">‏לא ניתן לבקר כעת באתר <ph name="SITE" /> מכיוון שהאתר שלח אישורים משובשים ש-Brave אינו יכול לעבד. שגיאות רשת ותקיפות מתרחשות בדרך כלל לזמן מוגבל, כך שסביר להניח שהדף הזה יפעל מאוחר יותר.</translation>
 <translation id="4813512666221746211">שגיאת רשת</translation>
 <translation id="4816492930507672669">התאמה לדף</translation>
 <translation id="4850886885716139402">הצגה</translation>
@@ -841,7 +841,7 @@ Del</translation>
 <translation id="4989542687859782284">לא זמין</translation>
 <translation id="4989809363548539747">הפלאגין הזה אינו נתמך</translation>
 <translation id="4995216769782533993">יש לאמת את קוד האבטחה כדי לשתף פרטי כרטיס עם האתר הזה</translation>
-<translation id="5002932099480077015">‏אם האפשרות הזו תופעל, Chrome יאחסן עותק של הכרטיס שלך במכשיר הזה למילוי מהיר יותר של טפסים.</translation>
+<translation id="5002932099480077015">‏אם האפשרות הזו תופעל, Brave יאחסן עותק של הכרטיס שלך במכשיר הזה למילוי מהיר יותר של טפסים.</translation>
 <translation id="5015510746216210676">שם המחשב:</translation>
 <translation id="5017554619425969104">טקסט שהעתקת</translation>
 <translation id="5018422839182700155">לא ניתן לפתוח את הדף</translation>
@@ -864,14 +864,14 @@ Del</translation>
 <translation id="5087580092889165836">הוסף כרטיס</translation>
 <translation id="5089810972385038852">מדינה</translation>
 <translation id="5093232627742069661">‏קיפול Z</translation>
-<translation id="5094747076828555589">‏השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. אישור האבטחה שלו לא נחשב כמהימן על ידי Chromium. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
+<translation id="5094747076828555589">‏השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. אישור האבטחה שלו לא נחשב כמהימן על ידי Brave. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
 <translation id="5095208057601539847">פרובינציה</translation>
 <translation id="5097099694988056070">‏נתונים סטטיסטיים של המכשיר, כמו ניצול יחידת העיבוד המרכזית (CPU)/זיכרון RAM</translation>
 <translation id="5097501891273180634">A2</translation>
 <translation id="5112422516732747637">A5</translation>
 <translation id="5115216390227830982">European-Edp</translation>
 <translation id="5115563688576182185">(64 סיביות)</translation>
-<translation id="5121469660360593280">‏שיתוף נתונים לגבי אירועי אבטחה שסומנו על ידי Chrome Enterprise User Protect עם מנהל המערכת. נתונים אלה עשויים לכלול כתובות URL של דפים שבהם ביקרת, שמות קבצים או מטא-נתונים, ואת שם המשתמש שלך לכניסה אל המכשיר ואל Chrome.</translation>
+<translation id="5121469660360593280">‏שיתוף נתונים לגבי אירועי אבטחה שסומנו על ידי Brave Enterprise User Protect עם מנהל המערכת. נתונים אלה עשויים לכלול כתובות URL של דפים שבהם ביקרת, שמות קבצים או מטא-נתונים, ואת שם המשתמש שלך לכניסה אל המכשיר ואל Brave.</translation>
 <translation id="5125394840236832993">B-Plus</translation>
 <translation id="5126510351761255129">אימות הכרטיס</translation>
 <translation id="5135404736266831032">ניהול כתובות...</translation>
@@ -882,8 +882,8 @@ Del</translation>
 <translation id="5158275234811857234">שער</translation>
 <translation id="5159010409087891077">‏פתח את הדף בחלון חדש של גלישה בסתר (‎⇧⌘N)</translation>
 <translation id="516920405563544094">‏יש להזין את קוד האימות של <ph name="CREDIT_CARD" />. אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Google.</translation>
-<translation id="5169827969064885044">‏ייתכן שלא יתאפשר לך לגשת לחשבון הארגוני, והזהות שלך עלולה להיגנב. לגלישה בטוחה ב-Chrome, מומלץ לשנות את הסיסמה עכשיו.</translation>
-<translation id="5170017743895942767">Chrome Enterprise User Protect</translation>
+<translation id="5169827969064885044">‏ייתכן שלא יתאפשר לך לגשת לחשבון הארגוני, והזהות שלך עלולה להיגנב. לגלישה בטוחה ב-Brave, מומלץ לשנות את הסיסמה עכשיו.</translation>
+<translation id="5170017743895942767">Brave Enterprise User Protect</translation>
 <translation id="5171045022955879922">טקסט או כתובת אתר לחיפוש</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">מכונה</translation>
@@ -914,7 +914,7 @@ Del</translation>
 <translation id="5287240709317226393">‏הצגת קובצי Cookie</translation>
 <translation id="5287456746628258573">האתר הזה משתמש בהגדרת אבטחה מיושנת, שעלולה לחשוף את המידע שלך (למשל, סיסמאות או מספרים של כרטיס אשראי) כשהוא נשלח לאתר זה.</translation>
 <translation id="5288108484102287882">בעקבות אימות ערכי המדיניות הופיעו אזהרות</translation>
-<translation id="5295292838686006428">הסיסמה שלך נחשפה בעקבות פרצת אבטחת מידע באתר או באפליקציה כלשהם. מומלץ לבדוק עכשיו את הסיסמאות השמורות שלך.</translation>
+<translation id="5295292838686006428">‏הסיסמה שלך נחשפה בעקבות פרצת אבטחת מידע באתר או באפליקציה. ההמלצה של Brave היא לבדוק עכשיו את הסיסמאות השמורות שלך.</translation>
 <translation id="5299298092464848405">שגיאה בניתוח המדיניות</translation>
 <translation id="5300589172476337783">הצגה</translation>
 <translation id="5308380583665731573">התחברות</translation>
@@ -965,7 +965,7 @@ Del</translation>
 <translation id="5540224163453853">לא ניתן היה למצוא את הפריט המבוקש.</translation>
 <translation id="5541546772353173584">הוספת כתובת אימייל</translation>
 <translation id="5545756402275714221">מאמרים שעשויים לעניין אותך</translation>
-<translation id="5552137475244467770">‏מערכת Chrome בודקת מדי פעם את הסיסמאות שלך ומשווה אותן לרשימות שהתפרסמו באינטרנט. כשהפעולה הזו מבוצעת, הסיסמאות ושמות המשתמש מוצפנים, כך שאיש לא יוכל לקרוא אותם, כולל Google.</translation>
+<translation id="5552137475244467770">‏מערכת Brave בודקת מדי פעם את הסיסמאות שלך ומשווה אותן לרשימות שהתפרסמו באינטרנט. כשהפעולה הזו מבוצעת, הסיסמאות ושמות המשתמש מוצפנים, כך שאיש לא יוכל לקרוא אותם, כולל Google.</translation>
 <translation id="5556459405103347317">ניסיון טעינה נוסף</translation>
 <translation id="5560088892362098740">תאריך תפוגה</translation>
 <translation id="5565735124758917034">פעיל</translation>
@@ -978,7 +978,7 @@ Del</translation>
 <translation id="560412284261940334">ניהול אינו נתמך</translation>
 <translation id="5605670050355397069">Ledger</translation>
 <translation id="5607240918979444548">Architecture-C</translation>
-<translation id="5608165884683734521">‏האתר הזה עשוי להיות מזויף או לשמש להונאה ההמלצה של Chrome היא לצאת ממנו עכשיו.</translation>
+<translation id="5608165884683734521">‏האתר הזה עשוי להיות מזויף או לשמש להונאה ההמלצה של Brave היא לצאת ממנו עכשיו.</translation>
 <translation id="5610142619324316209">לבדוק את החיבור</translation>
 <translation id="5610807607761827392">ב<ph name="BEGIN_LINK" />הגדרות<ph name="END_LINK" /> תוכל לנהל את האפשרויות של כרטיסים וכתובות.</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME" /> הפנה אותך מחדש פעמים רבות מדי.</translation>
@@ -1002,10 +1002,10 @@ Del</translation>
 <translation id="5719499550583120431">אפשר לשלם באמצעות כרטיסים משולמים מראש.</translation>
 <translation id="5720705177508910913">משתמש נוכחי:</translation>
 <translation id="5728056243719941842">C5 (Envelope)‎</translation>
-<translation id="5730040223043577876">‏אם הזנת את הסיסמה שלך באתרים אחרים, ההמלצה של Chrome היא לאפס אותה.</translation>
+<translation id="5730040223043577876">‏אם הזנת את הסיסמה שלך באתרים אחרים, ההמלצה של Brave היא לאפס אותה.</translation>
 <translation id="5737183892635480227">{NUM_CARDS,plural, =1{‏שמירת הכרטיס בחשבון Google}two{‏שמירת הכרטיסים בחשבון Google}many{‏שמירת הכרטיסים בחשבון Google}other{‏שמירת הכרטיסים בחשבון Google}}</translation>
 <translation id="5763042198335101085">עליך להזין כתובת אימייל חוקית</translation>
-<translation id="5763703224595565476">‏מנהל המערכת הפעיל את Chrome Enterprise User Protect בדפדפן. ל-Chrome Enterprise User Protect יש גישה לחלק מהנתונים שלך.</translation>
+<translation id="5763703224595565476">‏מנהל המערכת הפעיל את Brave Enterprise User Protect בדפדפן. ל-Brave Enterprise User Protect יש גישה לחלק מהנתונים שלך.</translation>
 <translation id="5765072501007116331">עליך לבחור כתובת כדי לראות שיטות מסירה ודרישות</translation>
 <translation id="5778550464785688721">‏שליטה מלאה במכשירי MIDI</translation>
 <translation id="5781136890105823427">הניסוי מופעל</translation>
@@ -1015,7 +1015,7 @@ Del</translation>
 <translation id="5785756445106461925">כמו כן, דף זה כולל משאבים נוספים שאינם מאובטחים. גורמים אחרים עלולים לראות את המשאבים האלה במהלך העברתם, ותוקף עלול לשנות אותם באופן שישנה את מראה הדף.</translation>
 <translation id="5786044859038896871">האם ברצונך למלא את פרטי הכרטיס שלך?</translation>
 <translation id="5798290721819630480">לבטל את השינויים?</translation>
-<translation id="5798683403665926540">‏שינוי דף הבית בהגדרות Chrome</translation>
+<translation id="5798683403665926540">‏שינוי דף הבית בהגדרות Brave</translation>
 <translation id="5803412860119678065">האם ברצונך למלא את פרטי הכרטיס <ph name="CARD_DETAIL" />?</translation>
 <translation id="5804241973901381774">הרשאות</translation>
 <translation id="5810442152076338065">החיבור שלך אל <ph name="DOMAIN" /> מוצפן באמצעות חבילת צופן מיושנת.</translation>
@@ -1095,7 +1095,7 @@ Del</translation>
 <translation id="6165508094623778733">למידע נוסף</translation>
 <translation id="6177128806592000436">החיבור שלך לאתר הזה לא מאובטח</translation>
 <translation id="6203231073485539293">בדוק את חיבור האינטרנט</translation>
-<translation id="6218753634732582820">‏האם להסיר מ-Chromium את הכתובת?</translation>
+<translation id="6218753634732582820">‏האם להסיר מ-Brave את הכתובת?</translation>
 <translation id="622039917539443112">קיפול מקביל</translation>
 <translation id="6221345481584921695">‏לאחרונה, 'גלישה בטוחה של Google' ‏<ph name="BEGIN_LINK" />זיהתה תוכנה זדונית<ph name="END_LINK" /> ב-<ph name="SITE" />. אתרים שבדרך כלל נחשבים לבטוחים נדבקים לעתים בתוכנה זדונית. התוכן הזדוני מגיע מ-<ph name="SUBRESOURCE_HOST" />, מפיץ ידוע של תוכנות זדוניות.</translation>
 <translation id="6234122620015464377">חיתוך אחרי כל מסמך</translation>
@@ -1110,7 +1110,7 @@ Del</translation>
 <translation id="6266934640124581640">כחול-ירקרק בהיר</translation>
 <translation id="6276112860590028508">דפים מרשימת הקריאה שלך מופיעים כאן</translation>
 <translation id="627746635834430766">‏כדי לשלם מהר יותר בפעם הבאה, אפשר לשמור בחשבון Google את פרטי הכרטיס ואת הכתובת לחיוב.</translation>
-<translation id="6279516281132775660">‏Chrome <ph name="BEGIN_EMPHASIS" />לא ישמור<ph name="END_EMPHASIS" /> את הנתונים הבאים:
+<translation id="6279516281132775660">‏Brave <ph name="BEGIN_EMPHASIS" />לא ישמור<ph name="END_EMPHASIS" /> את הנתונים הבאים:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />היסטוריית הגלישה שלך
           <ph name="LIST_ITEM" />קובצי cookie ונתוני אתרים
@@ -1120,7 +1120,7 @@ Del</translation>
 <translation id="6282194474023008486">מיקוד</translation>
 <translation id="6290238015253830360">הצעות של מאמרים עבורך מופיעות כאן</translation>
 <translation id="6293309776179964942">JIS B5</translation>
-<translation id="6302269476990306341">‏Google Assistant ב-Chrome מופסק</translation>
+<translation id="6302269476990306341">‏Google Assistant ב-Brave מופסק</translation>
 <translation id="6305205051461490394">לא ניתן לגשת אל <ph name="URL" />.</translation>
 <translation id="6321917430147971392">‏בדוק את הגדרות ה-DNS</translation>
 <translation id="6322182122604171028">‏לא ניתן היה להשתמש ב-Windows Hello</translation>
@@ -1144,9 +1144,9 @@ Del</translation>
 <translation id="6401136357288658127">המדיניות הזו הוצאה משימוש. במקומה יש להשתמש במדיניות <ph name="NEW_POLICY" />.</translation>
 <translation id="6404511346730675251">ערוך סימניה</translation>
 <translation id="6406765186087300643">C0 (Envelope)‎</translation>
-<translation id="6409754798200046165">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Chrome היא לשנות את הסיסמה עכשיו.</translation>
+<translation id="6409754798200046165">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לשנות את הסיסמה עכשיו.</translation>
 <translation id="6410264514553301377">הזן את תאריך התפוגה ואת קוד האימות של <ph name="CREDIT_CARD" /></translation>
-<translation id="6415778972515849510">‏בעזרת Chromium אפשר להגן על חשבון Google ולשנות את הסיסמה.</translation>
+<translation id="6415778972515849510">‏בעזרת Brave אפשר להגן על חשבון Google ולשנות את הסיסמה.</translation>
 <translation id="6423385022588644828">‏כדי לאשר את הכרטיסים שלך מהר יותר, אפשר להשתמש ב-Touch ID מעכשיו והלאה</translation>
 <translation id="6427730057873428458">כנף בקיפול</translation>
 <translation id="6433490469411711332">עריכת הפרטים ליצירת קשר</translation>
@@ -1165,7 +1165,7 @@ Del</translation>
 <translation id="6489534406876378309">התחל להעלות קריסות</translation>
 <translation id="6499038740797743453">לאפס את הסיסמה?</translation>
 <translation id="6507833130742554667">אפשר לשלם באמצעות כרטיסי אשראי וחיוב.</translation>
-<translation id="6508722015517270189">‏הפעלה מחדש של Chrome</translation>
+<translation id="6508722015517270189">‏הפעלה מחדש של Brave</translation>
 <translation id="6517596291481585650">אזהרה! המדיניות הזו לא עברה מיזוג בהתאם למדיניות, מאחר שהיא אינה רשימה.</translation>
 <translation id="6518133107902771759">אימות</translation>
 <translation id="6521745193039995384">לא פעילה</translation>
@@ -1199,9 +1199,9 @@ Del</translation>
 <translation id="6657585470893396449">סיסמה</translation>
 <translation id="6665553082534466207">3 ניקובים בצד ימין</translation>
 <translation id="6670613747977017428">חזרה לדף הבטוח.</translation>
-<translation id="6671697161687535275">‏האם להסיר מ-Chromium הצעות לטפסים?</translation>
+<translation id="6671697161687535275">‏האם להסיר מ-Brave הצעות לטפסים?</translation>
 <translation id="6685834062052613830">צא והשלם את ההגדרה</translation>
-<translation id="6689271823431384964">‏מאחר שנכנסת לחשבון, Chrome מציע לשמור את הכרטיסים שלך בחשבון Google. אפשר לשנות את ההתנהגות הזאת בהגדרות. שם בעל הכרטיס מגיע מהחשבון שלך.</translation>
+<translation id="6689271823431384964">‏מאחר שנכנסת לחשבון, Brave מציע לשמור את הכרטיסים שלך בחשבון Google. אפשר לשנות את ההתנהגות הזאת בהגדרות. שם בעל הכרטיס מגיע מהחשבון שלך.</translation>
 <translation id="6704582573942289642">האם זה האתר הנכון?</translation>
 <translation id="6710213216561001401">הקודם</translation>
 <translation id="6710594484020273272">&lt;הקלד מונח חיפוש&gt;</translation>
@@ -1248,7 +1248,7 @@ Del</translation>
 <translation id="6970216967273061347">מחוז</translation>
 <translation id="6973656660372572881">‏צוינו שרתי Proxy קבועים וכתובת אתר של הסקריפט מסוג ‎.Pac</translation>
 <translation id="6973932557599545801">לצערי אין לי אפשרות לעזור. עליך להמשיך בעצמך.</translation>
-<translation id="6975012522936652259">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Chromium היא לעבור אל <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש ולשנות אותה עכשיו.</translation>
+<translation id="6975012522936652259">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לעבור אל <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש ולשנות אותה עכשיו.</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6979440798594660689">השתקה (ברירת מחדל)</translation>
 <translation id="6989763994942163495">הצג הגדרות מתקדמות...</translation>
@@ -1319,11 +1319,11 @@ Del</translation>
 <translation id="733923710415886693">אישור השרת לא נחשף דרך 'שקיפות אישורים'.</translation>
 <translation id="734600844861828519">11x15</translation>
 <translation id="7346048084945669753">משויך:</translation>
-<translation id="73479065977517481">‏הדומיין <ph name="ENROLLMENT_DOMAIN" /> הפעיל את Chrome Enterprise User Protect בדפדפן שלך. ל-Chrome Enterprise User Protect יש גישה לחלק מהנתונים שלך.</translation>
+<translation id="73479065977517481">‏הדומיין <ph name="ENROLLMENT_DOMAIN" /> הפעיל את Brave Enterprise User Protect בדפדפן שלך. ל-Brave Enterprise User Protect יש גישה לחלק מהנתונים שלך.</translation>
 <translation id="7349430561505560861">A4-Extra</translation>
 <translation id="7353601530677266744">שורת פקודה </translation>
 <translation id="7372973238305370288">תוצאת חיפוש</translation>
-<translation id="7374733840632556089">‏הבעיה הזו מתרחשת בגלל אישור שהותקן במכשיר על ידך או על ידי מישהו אחר. האישור הזה מוכר כאישור שמשמש לצורך מעקב אחרי רשתות ויירוט נתונים מרשתות, והוא לא נחשב כמהימן על ידי Chrome. במקרים מסוימים מתבצע מעקב מסיבות לגיטימיות, כמו במוסדות חינוך או ברשתות של חברות, אך Chrome רוצה לוודא שהמעקב מתבצע בידיעתך גם אם אין לך אפשרות לעצור אותו. המעקב עשוי להתבצע בכל דפדפן או אפליקציה שניגשים לאינטרנט.</translation>
+<translation id="7374733840632556089">‏הבעיה הזו מתרחשת בגלל אישור שהותקן במכשיר על ידך או על ידי מישהו אחר. האישור הזה מוכר כאישור שמשמש לצורך מעקב אחרי רשתות ויירוט נתונים מרשתות, והוא לא נחשב כמהימן על ידי Brave. במקרים מסוימים מתבצע מעקב מסיבות לגיטימיות, כמו במוסדות חינוך או ברשתות של חברות, אך Brave רוצה לוודא שהמעקב מתבצע בידיעתך גם אם אין לך אפשרות לעצור אותו. המעקב עשוי להתבצע בכל דפדפן או אפליקציה שניגשים לאינטרנט.</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE" /> - <ph name="FULL_DATE" /></translation>
 <translation id="7378594059915113390">פקדי מדיה</translation>
 <translation id="7378627244592794276">לא</translation>
@@ -1339,7 +1339,7 @@ Del</translation>
       &lt;li&gt;בקטע &lt;strong&gt;סוג הפעלה&lt;/strong&gt;, בוחרים &lt;strong&gt;מושבת&lt;/strong&gt;
       &lt;li&gt;בקטע &lt;strong&gt;סטטוס שירות&lt;/strong&gt;, לוחצים על &lt;strong&gt;עצירה&lt;/strong&gt;
       &lt;li&gt;לוחצים על &lt;strong&gt;הפעלה&lt;/strong&gt; ולאחר מכן לוחצים על &lt;strong&gt;אישור&lt;/strong&gt;
-      &lt;li&gt;עוברים אל &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;מרכז העזרה של Chrome&lt;/a&gt; כדי ללמוד כיצד להסיר את התוכנה מהמחשב
+      &lt;li&gt;עוברים אל &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;מרכז העזרה של Brave&lt;/a&gt; כדי ללמוד כיצד להסיר את התוכנה מהמחשב
       &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7416351320495623771">ניהול סיסמאות…</translation>
@@ -1355,7 +1355,7 @@ Del</translation>
 <translation id="7473891865547856676">לא, תודה</translation>
 <translation id="7481312909269577407">קדימה</translation>
 <translation id="7485870689360869515">לא נמצאו נתונים.</translation>
-<translation id="7495290002932347110">הסיסמה שלך נחשפה בעקבות פרצת אבטחת מידע באתר או באפליקציה כלשהם. מומלץ לבדוק עכשיו את הסיסמאות השמורות שלך ולשנות את הסיסמה ב-<ph name="ORIGIN" />.</translation>
+<translation id="7495290002932347110">‏הסיסמה שלך נחשפה בעקבות פרצת אבטחת מידע באתר או באפליקציה. ההמלצה של Brave היא לבדוק עכשיו את הסיסמאות השמורות שלך ולשנות את הסיסמה באתר <ph name="ORIGIN" />.</translation>
 <translation id="7498234416455752244">המשך העריכה</translation>
 <translation id="7508255263130623398">מזהה המכשיר במדיניות שהוחזר ריק או שאינו תואם את מזהה המכשיר הנוכחי</translation>
 <translation id="7508870219247277067">ירוק אבוקדו</translation>
@@ -1372,12 +1372,12 @@ Del</translation>
 <translation id="7542995811387359312">מילוי אוטומטי של פרטי כרטיס אשראי מושבת כיוון שטופס זה אינו משתמש בחיבור מאובטח.</translation>
 <translation id="7548892272833184391">פתרון שגיאות חיבור</translation>
 <translation id="7549584377607005141">דף אינטרנט זה זקוק לנתונים שהזנת קודם לכן כדי שהוא יוצג כראוי. ניתן שוב את הנתונים, אך פעולה זו תגרום לחזרה על כל פעולה שדף זה ביצע בעבר.</translation>
-<translation id="7550637293666041147">‏שם המשתמש במכשיר ושם המשתמש ב-Chrome</translation>
+<translation id="7550637293666041147">‏שם המשתמש במכשיר ושם המשתמש ב-Brave</translation>
 <translation id="7552846755917812628">אולי הטיפים האלו יעזרו לך:</translation>
 <translation id="7554791636758816595">כרטיסייה חדשה</translation>
-<translation id="7564049878696755256">‏הגישה שלך לחשבון <ph name="ORG_NAME" /> עשויה להישלל והזהות שלך עשויה להיגנב. ההמלצה של Chrome היא לשנות את הסיסמה עכשיו.</translation>
+<translation id="7564049878696755256">‏הגישה שלך לחשבון <ph name="ORG_NAME" /> עשויה להישלל והזהות שלך עשויה להיגנב. ההמלצה של Brave היא לשנות את הסיסמה עכשיו.</translation>
 <translation id="7567204685887185387">השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. ייתכן שאישור האבטחה שלו נופק כהונאה. הסיבה לכך עשויה להיות הגדרה שגויה או תוקף המיירט את החיבור שלך.</translation>
-<translation id="7569952961197462199">‏האם להסיר את כרטיס האשראי מ-Chrome?</translation>
+<translation id="7569952961197462199">‏האם להסיר את כרטיס האשראי מ-Brave?</translation>
 <translation id="7569983096843329377">שחור</translation>
 <translation id="7578104083680115302">‏ניתן לשלם במהירות באתרים ובאפליקציות בכל המכשירים באמצעות כרטיסים ששמרת ב-Google.</translation>
 <translation id="7592362899630581445">אישור השרת מפר את אילוצי השמות.</translation>
@@ -1388,7 +1388,7 @@ Del</translation>
 <translation id="7613889955535752492">תפוגה: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">‏יש לך כבר נתונים שהוצפנו באמצעות גירסה אחרת של סיסמת חשבון Google שלך. הזן אותה למטה.</translation>
 <translation id="7633909222644580952">נתוני ביצועים ודוחות קריסה</translation>
-<translation id="7637571805876720304">‏האם להסיר מ-Chromium את כרטיס האשראי?</translation>
+<translation id="7637571805876720304">‏האם להסיר מ-Brave את כרטיס האשראי?</translation>
 <translation id="7638605456503525968">יציאות טוריות</translation>
 <translation id="7639968568612851608">אפור כהה</translation>
 <translation id="7653957176542370971">גיליון פרטי התשלום סגור</translation>
@@ -1428,9 +1428,9 @@ Del</translation>
 <translation id="7802523362929240268">האתר חוקי</translation>
 <translation id="780301667611848630">לא תודה</translation>
 <translation id="7805768142964895445">סטטוס</translation>
-<translation id="7806344367022510803">‏שינוי הגדרות מנוע החיפוש ב-Chrome</translation>
+<translation id="7806344367022510803">‏שינוי הגדרות מנוע החיפוש ב-Brave</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">‏האם להסיר מ-Chrome הצעות בשביל טפסים?</translation>
+<translation id="7813600968533626083">‏האם להסיר מ-Brave הצעות בשביל טפסים?</translation>
 <translation id="7815407501681723534">נמצאו <ph name="NUMBER_OF_RESULTS" /> <ph name="SEARCH_RESULTS" /> בנושא '<ph name="SEARCH_STRING" />'</translation>
 <translation id="782886543891417279">‏ייתכן שתידרש להיכנס לדף ההתחברות של רשת ה-Wi-Fi שבה אתה משתמש (<ph name="WIFI_NAME" />).</translation>
 <translation id="7836231406687464395">Postfix (Envelope)‎</translation>
@@ -1475,7 +1475,7 @@ Del</translation>
 <translation id="8042918947222776840">בחירת שיטת איסוף</translation>
 <translation id="8057711352706143257">יש בעיה בהגדרה של "<ph name="SOFTWARE_NAME" />". בדרך כלל, הסרת ההתקנה של "<ph name="SOFTWARE_NAME" />" פותרת את הבעיה. <ph name="FURTHER_EXPLANATION" /></translation>
 <translation id="8066955247577885446">מצטערים, משהו השתבש.</translation>
-<translation id="8067872629359326442">‏הזנת כרגע את הסיסמה שלך באתר מטעה. אפשר לפתור את הבעיה בעזרת Chromium. כדי לשנות את הסיסמה ולהודיע ל-Google שייתכן כי החשבון בסיכון, יש ללחוץ על 'הגנה על החשבון'.</translation>
+<translation id="8067872629359326442">‏הזנת כרגע את הסיסמה שלך באתר מטעה. אפשר לפתור את הבעיה בעזרת Brave. כדי לשנות את הסיסמה ולהודיע ל-Google שייתכן כי החשבון בסיכון, יש ללחוץ על 'הגנה על החשבון'.</translation>
 <translation id="8074253406171541171">10x13 (Envelope)‎</translation>
 <translation id="8078141288243656252">לא ניתן להוסיף הערה במצב מסובב</translation>
 <translation id="8079031581361219619">לטעון את האתר מחדש?</translation>
@@ -1492,13 +1492,13 @@ Del</translation>
 <translation id="8105368624971345109">כבה</translation>
 <translation id="8118489163946903409">אמצעי תשלום</translation>
 <translation id="8127301229239896662">‏הייתה בעיה בהתקנה של "<ph name="SOFTWARE_NAME" />" במחשב שלך או ברשת. יש לבקש ממנהל ה-IT לפתור את הבעיה.</translation>
-<translation id="8128526133099929547">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Chrome היא לעבור אל <ph name="WEBSITE_1" /> ואל אתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
+<translation id="8128526133099929547">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לעבור אל <ph name="WEBSITE_1" /> ואל אתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
 <translation id="8131740175452115882">אישור</translation>
 <translation id="8149426793427495338">המחשב עבר למצב שינה.</translation>
 <translation id="8150722005171944719">הקובץ הנמצא ב-<ph name="URL" /> לא ניתן לקריאה. ייתכן שהקובץ הוסר או הועבר, או שהרשאות הקובץ מונעות גישה אליו.</translation>
 <translation id="8157295877370077682">יציאה מהאתר</translation>
 <translation id="8163866351304776260">4 ניקובים בצד שמאל</translation>
-<translation id="8175796834047840627">‏Chrome מציע לשמור את הכרטיסים שלך בחשבון Google כי התחברת לחשבון. אפשר לשנות את ההתנהגות הזאת בהגדרות.</translation>
+<translation id="8175796834047840627">‏Brave מציע לשמור את הכרטיסים שלך בחשבון Google כי התחברת לחשבון. אפשר לשנות את ההתנהגות הזאת בהגדרות.</translation>
 <translation id="8184538546369750125">השתמש בברירת המחדל הכללית (אפשר)</translation>
 <translation id="8194797478851900357">&amp;ביטול העברה</translation>
 <translation id="8197543752516192074">תרגום הדף</translation>
@@ -1510,7 +1510,7 @@ Del</translation>
 <translation id="8218327578424803826">מיקום מוקצה:</translation>
 <translation id="8220146938470311105">C7/C6 (Envelope)‎</translation>
 <translation id="8220639454292072926">דיווח ארגוני</translation>
-<translation id="8221250263817408492">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Chromium היא לעבור אל <ph name="WEBSITE_1" /> ואל אתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
+<translation id="8221250263817408492">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לעבור אל <ph name="WEBSITE_1" /> ואל אתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
 <translation id="8225771182978767009">המשתמש שהגדיר את המחשב הזה בחר לחסום את האתר הזה.</translation>
 <translation id="822964464349305906"><ph name="TYPE_1" />, <ph name="TYPE_2" /></translation>
 <translation id="8238581221633243064">פתיחת הדף בכרטיסייה חדשה של גלישה בסתר</translation>
@@ -1535,7 +1535,7 @@ Del</translation>
 <translation id="830498451218851433">קיפול באמצע</translation>
 <translation id="8307358339886459768">Small-Photo</translation>
 <translation id="8308427013383895095">התרגום נכשל עקב בעיה בחיבור הרשת.</translation>
-<translation id="831207732689920588">‏הדף הזה חשוד (סומן על-ידי Chrome).</translation>
+<translation id="831207732689920588">‏הדף הזה חשוד (סומן על-ידי Brave).</translation>
 <translation id="8332188693563227489">אין גישה אל <ph name="HOST_NAME" /></translation>
 <translation id="833262891116910667">הדגשה</translation>
 <translation id="8340095855084055290"><ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
@@ -1562,19 +1562,19 @@ Del</translation>
 <translation id="8466379296835108687">{COUNT,plural, =1{כרטיס אשראי אחד}two{שני כרטיסי אשראי}many{# כרטיסי אשראי}other{# כרטיסי אשראי}}</translation>
 <translation id="8473863474539038330">כתובות ועוד</translation>
 <translation id="8479754468255770962">סיכת הידוק בפינה השמאלית התחתונה</translation>
-<translation id="8483780878231876732">‏כדי להשתמש בכרטיסים מחשבון Google, היכנס אל Chrome</translation>
+<translation id="8483780878231876732">‏כדי להשתמש בכרטיסים מחשבון Google, היכנס אל Brave</translation>
 <translation id="8488350697529856933">חל על</translation>
 <translation id="8498891568109133222">ל-<ph name="HOST_NAME" /> נדרש זמן רב מדי להגיב.</translation>
-<translation id="8503559462189395349">‏סיסמאות Chrome</translation>
+<translation id="8503559462189395349">‏סיסמאות Brave</translation>
 <translation id="8503813439785031346">שם משתמש</translation>
 <translation id="8508648098325802031">סמל החיפוש</translation>
-<translation id="8522552481199248698">‏בעזרת Chrome אפשר להגן על חשבון Google ולשנות את הסיסמה.</translation>
+<translation id="8522552481199248698">‏בעזרת Brave אפשר להגן על חשבון Google ולשנות את הסיסמה.</translation>
 <translation id="8542014550340843547">3 סיכות הידוק בחלק התחתון</translation>
 <translation id="8543181531796978784">באפשרותך <ph name="BEGIN_ERROR_LINK" />לדווח על בעיית זיהוי<ph name="END_ERROR_LINK" /> או, אם אתה מבין את סיכוני האבטחה, <ph name="BEGIN_LINK" />להיכנס לאתר הזה, שאינו מאובטח<ph name="END_LINK" />.</translation>
 <translation id="8553075262323480129">התרגום נכשל כיוון שלא הייתה אפשרות לקבוע את שפת הדף.</translation>
 <translation id="8557066899867184262">קוד האימות נמצא בגב הכרטיס.</translation>
 <translation id="8559762987265718583">לא ניתן ליצור חיבור פרטי אל <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> מפני שהתאריך והשעה (<ph name="DATE_AND_TIME" />) במכשיר שלך שגויים.</translation>
-<translation id="8564985650692024650">‏אם הזנת את הסיסמה של <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> באתרים אחרים, ההמלצה של Chromium היא לאפס אותה.</translation>
+<translation id="8564985650692024650">‏אם הזנת את הסיסמה של <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> באתרים אחרים, ההמלצה של Brave היא לאפס אותה.</translation>
 <translation id="8571890674111243710">מתרגם דף ל<ph name="LANGUAGE" />...</translation>
 <translation id="8574899947864779331">‏שימוש ב-Touch ID כדי לאשר כרטיסים מהר יותר</translation>
 <translation id="858637041960032120">הוסף מספר טלפון
@@ -1597,7 +1597,7 @@ Del</translation>
 <translation id="8725066075913043281">נסה שוב</translation>
 <translation id="8728672262656704056">עברת למצב גלישה בסתר</translation>
 <translation id="8730621377337864115">בוצע</translation>
-<translation id="8738058698779197622">‏כדי ליצור חיבור מאובטח, השעון צריך להיות מוגדר כהלכה. הסיבה לכך היא שהאישורים שבהם אתרים משתמשים כדי לזהות את עצמם תקפים רק למשך פרקי זמן מסוימים. מאחר שהשעון במכשיר שלך שגוי, Chromium לא יכול לאמת את האישורים האלו.</translation>
+<translation id="8738058698779197622">‏כדי ליצור חיבור מאובטח, השעון צריך להיות מוגדר כהלכה. הסיבה לכך היא שהאישורים שבהם אתרים משתמשים כדי לזהות את עצמם תקפים רק למשך פרקי זמן מסוימים. מאחר שהשעון במכשיר שלך שגוי, Brave לא יכול לאמת את האישורים האלו.</translation>
 <translation id="8740359287975076522">‏לא ניתן היה למצוא את &lt;abbr id="dnsDefinition"&gt;כתובת ה-DNS&lt;/abbr&gt; של <ph name="HOST_NAME" />. מאבחן את הבעיה.</translation>
 <translation id="874846938927089722">כרטיסי אשראי וכרטיסים משולמים מראש שהסוחר מקבל</translation>
 <translation id="874918643257405732">הוספת הכרטיסייה לסימניות</translation>
@@ -1607,7 +1607,7 @@ Del</translation>
 <translation id="8763927697961133303">‏התקן USB</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;ביצוע מחדש של מחיקה</translation>
-<translation id="8792621596287649091">‏הגישה שלך לחשבון <ph name="ORG_NAME" /> עשויה להישלל והזהות שלך עשויה להיגנב. ההמלצה של Chromium היא לשנות את הסיסמה עכשיו.</translation>
+<translation id="8792621596287649091">‏הגישה שלך לחשבון <ph name="ORG_NAME" /> עשויה להישלל והזהות שלך עשויה להיגנב. ההמלצה של Brave היא לשנות את הסיסמה עכשיו.</translation>
 <translation id="8800988563907321413">כאן מופיעות הצעות עבורך למקומות קרובים</translation>
 <translation id="8805819170075074995">‏ערך רשימה "<ph name="LANGUAGE_ID" />": המערכת התעלמה מהערך מאחר שהוא כלול גם במדיניות SpellcheckLanguage.</translation>
 <translation id="8807160976559152894">חיתוך אחרי כל עמוד</translation>
@@ -1616,7 +1616,7 @@ Del</translation>
 <translation id="884264119367021077">כתובת למשלוח</translation>
 <translation id="884923133447025588">לא נמצא מנגנון ביטול</translation>
 <translation id="885730110891505394">‏שיתוף עם Google</translation>
-<translation id="8858065207712248076">‏אם הזנת את הסיסמה של <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> באתרים אחרים, ההמלצה של Chrome היא לאפס אותה.</translation>
+<translation id="8858065207712248076">‏אם הזנת את הסיסמה של <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> באתרים אחרים, ההמלצה של Brave היא לאפס אותה.</translation>
 <translation id="8866481888320382733">שגיאה בניתוח הגדרות המדיניות</translation>
 <translation id="8866928039507595380">קיפול</translation>
 <translation id="886872106311861689">B3</translation>
@@ -1665,12 +1665,12 @@ Del</translation>
 <translation id="9065203028668620118">עריכה</translation>
 <translation id="9065745800631924235"><ph name="TEXT" /> – חיפוש מההיסטוריה</translation>
 <translation id="9069693763241529744">נחסמה על-ידי תוסף</translation>
-<translation id="9076630408993835509">‏הדפדפן הזה לא מנוהל על ידי חברה או ארגון אחר. ייתכן שהפעילות במכשיר הזה מנוהלת מחוץ ל-Chrome. <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" /></translation>
+<translation id="9076630408993835509">‏הדפדפן הזה לא מנוהל על ידי חברה או ארגון אחר. ייתכן שהפעילות במכשיר הזה מנוהלת מחוץ ל-Brave. <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" /></translation>
 <translation id="9078964945751709336">נדרש מידע נוסף</translation>
 <translation id="9080712759204168376">סיכום הזמנה</translation>
 <translation id="9089260154716455634">מדיניות לשעות ללא פעילות:</translation>
 <translation id="9095388113577226029">שפות נוספות...</translation>
-<translation id="9103872766612412690">‏האתר <ph name="SITE" /> משתמש בדרך כלל בהצפנה כדי להגן על המידע שלך. כאשר Chromium ניסה הפעם להתחבר ל-<ph name="SITE" />, האתר שלח חזרה אישורים חריגים ושגויים. ייתכן שתוקף מנסה להתחזות לאתר <ph name="SITE" />, או שמסך כניסה ל-Wi-Fi הפריע לחיבור. המידע שלך עדיין מאובטח מכיוון ש-Chromium הפסיק את החיבור לפני חילופי הנתונים.</translation>
+<translation id="9103872766612412690">‏האתר <ph name="SITE" /> משתמש בדרך כלל בהצפנה כדי להגן על המידע שלך. כאשר Brave ניסה הפעם להתחבר ל-<ph name="SITE" />, האתר שלח חזרה אישורים חריגים ושגויים. ייתכן שתוקף מנסה להתחזות לאתר <ph name="SITE" />, או שמסך כניסה ל-Wi-Fi הפריע לחיבור. המידע שלך עדיין מאובטח מכיוון ש-Brave הפסיק את החיבור לפני חילופי הנתונים.</translation>
 <translation id="9106062320799175032">הוספה של כתובת לחיוב</translation>
 <translation id="9114524666733003316">אישור הכרטיס מתבצע...</translation>
 <translation id="9128870381267983090">התחבר לרשת</translation>
@@ -1692,12 +1692,12 @@ Del</translation>
 <translation id="9191834167571392248">ניקוב בפינה השמאלית התחתונה</translation>
 <translation id="9205078245616868884">הנתונים שלך מוצפנים באמצעות ביטוי הסיסמה לסינכרון. הזן אותו כדי להתחיל בסינכרון.</translation>
 <translation id="9207861905230894330">הוספת הפריט נכשלה.</translation>
-<translation id="9215416866750762878">‏יישום כלשהו לא מאפשר ל-Chrome להתחבר באופן מאובטח לאתר זה</translation>
+<translation id="9215416866750762878">‏יישום כלשהו לא מאפשר ל-Brave להתחבר באופן מאובטח לאתר זה</translation>
 <translation id="9219103736887031265">תמונות</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">ניקוי הטופס</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="936602727769022409">‏ייתכן שמישהו אחר ישלול את הגישה שלך לחשבון Google. לגלישה בטוחה ב-Chromium, מומלץ לשנות את הסיסמה עכשיו.</translation>
+<translation id="936602727769022409">‏ייתכן שמישהו אחר ישלול את הגישה שלך לחשבון Google. לגלישה בטוחה ב-Brave, מומלץ לשנות את הסיסמה עכשיו.</translation>
 <translation id="939736085109172342">תיקייה חדשה</translation>
 <translation id="945855313015696284">יש לבדוק את המידע שבהמשך ולמחוק כרטיסים עם שגיאות</translation>
 <translation id="950736567201356821">3 ניקובים בחלק העליון</translation>
@@ -1722,5 +1722,5 @@ Del</translation>
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1</translation>
 <translation id="997986563973421916">‏מ-Google Pay</translation>
-<translation id="998893882640184078">‏פתיחת חלון חדש של גלישה בסתר ב-Chrome</translation>
+<translation id="998893882640184078">‏פתיחת חלון חדש של גלישה בסתר ב-Brave</translation>
 </translationbundle>

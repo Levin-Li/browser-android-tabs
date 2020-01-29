@@ -56,7 +56,7 @@
 <translation id="1067291318998134776">Linux (tilraunaútgáfa)</translation>
 <translation id="1067922213147265141">Önnur Google þjónusta</translation>
 <translation id="1070066693520972135">WEP</translation>
-<translation id="1070377999570795893">Annað forrit í tölvunni þinni bætti við viðbót sem gæti breytt því hvernig Chrome virkar.
+<translation id="1070377999570795893">Annað forrit í tölvunni þinni bætti við viðbót sem gæti breytt því hvernig Brave virkar.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1070705170564860382">Opnast í öðrum vafra eftir <ph name="COUNTDOWN_SECONDS" /> sekúndur</translation>
@@ -65,7 +65,7 @@
 <translation id="1076698951459398590">Virkja þema</translation>
 <translation id="1076818208934827215">Microsoft Internet Explorer</translation>
 <translation id="1079766198702302550">Loka alltaf á myndavélaraðgang</translation>
-<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> vill endurstilla Chrome stillingarnar þínar í upprunaleg gildi. Þetta endurstillir upphafssíðuna, síðu nýrra flipa og leitarvélina, gerir viðbætur óvirkar og fjarlægir alla festa flipa. Þetta hreinsar líka skammtímagögn á borð við fótspor, innihald og vefsvæðagögn.</translation>
+<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> vill endurstilla Brave stillingarnar þínar í upprunaleg gildi. Þetta endurstillir upphafssíðuna, síðu nýrra flipa og leitarvélina, gerir viðbætur óvirkar og fjarlægir alla festa flipa. Þetta hreinsar líka skammtímagögn á borð við fótspor, innihald og vefsvæðagögn.</translation>
 <translation id="1084824384139382525">Afrita slóð t&amp;engils</translation>
 <translation id="1085697365578766383">Villa við að ræsa sýndarvél. Reyndu aftur.</translation>
 <translation id="1089439967362294234">Breyta aðgangsorði</translation>
@@ -81,7 +81,7 @@
 <translation id="1112420131909513020">Bakgrunnsflipi er að nota Bluetooth</translation>
 <translation id="1114102982691049955"><ph name="PRINTER_MANUFACTURER" /> <ph name="PRINTER_MODEL" /> (USB)</translation>
 <translation id="1114202307280046356">Tígull</translation>
-<translation id="1114335938027186412">Tölvan inniheldur TPM-öryggistæki (Trusted Platform Module) sem notað er til að innleiða fjölda mikilvægra öryggiseiginleika í Chrome OS. Farðu í hjálparmiðstöð Chromebook til að fá frekari upplýsingar: https://support.google.com/chromebook/?p=tpm</translation>
+<translation id="1114335938027186412">Tölvan inniheldur TPM-öryggistæki (Trusted Platform Module) sem notað er til að innleiða fjölda mikilvægra öryggiseiginleika í Chrome OS. Farðu í hjálparmiðstöð Bravebook til að fá frekari upplýsingar: https://support.google.com/chromebook/?p=tpm</translation>
 <translation id="1116639326869298217">Ekki var hægt að staðfesta auðkenni þitt</translation>
 <translation id="1116694919640316211">Upplýsingar</translation>
 <translation id="1116779635164066733">Viðbótin „<ph name="NAME" />“ krefst þessarar stillingar.</translation>
@@ -107,7 +107,7 @@
 <translation id="1145532888383813076">Leitaðu í tækinu þínu, forritum og á netinu.</translation>
 <translation id="1145593918056169051">Prentun stöðvaðist</translation>
 <translation id="1146678959555564648">Hefja sýndarveruleika</translation>
-<translation id="114721135501989771">Fá Google snjalltæki í Chrome</translation>
+<translation id="114721135501989771">Fá Google snjalltæki í Brave</translation>
 <translation id="1147991416141538220">Hafðu samband við stjórnanda þessa tækis til að óska eftir aðgangi.</translation>
 <translation id="1149401351239820326">Fyrningarmánuður</translation>
 <translation id="1150565364351027703">Sólgleraugu</translation>
@@ -155,7 +155,7 @@
 <translation id="1202596434010270079">Sjálfsalaforrit var uppfært. Fjarlægðu USB-lykilinn.</translation>
 <translation id="120368089816228251">Nóta</translation>
 <translation id="1205489148908752564">Lesa og breyta notendum á undanþágulista</translation>
-<translation id="1206407435587370571">Kannaðu Chromebook</translation>
+<translation id="1206407435587370571">Kannaðu Bravebook</translation>
 <translation id="1209796539517632982">Sjálfvirkir nafnaþjónar</translation>
 <translation id="1211364473545090084">Vafraðu án þess að vista vafraferilinn með því að nota huliðsglugga</translation>
 <translation id="1211769675100312947">Þú hefur umsjón með flýtileiðum</translation>
@@ -235,7 +235,7 @@
 <translation id="1316495628809031177">Hlé er á samstillingu</translation>
 <translation id="1317637799698924700">Tengd dokka virkar í samhæfisstillingu USB (C-gerð).</translation>
 <translation id="1322046419516468189">Þú getur skoðað og haft umsjón með vistuðum aðgangsorðum á <ph name="SAVED_PASSWORDS_STORE" /></translation>
-<translation id="1326317727527857210">Skráðu þig inn í Chrome til að fá aðgang að flipunum þínum í öllum tækjum.</translation>
+<translation id="1326317727527857210">Skráðu þig inn í Brave til að fá aðgang að flipunum þínum í öllum tækjum.</translation>
 <translation id="1327074568633507428">Prentari í Google skýjaprentun</translation>
 <translation id="1327272175893960498">Kerberos-miðar</translation>
 <translation id="1327495825214193325">Til að kveikja á ADB-villuleit þarf að endurræsa þetta <ph name="DEVICE_TYPE" /> tæki. Ef slökkt er á henni þarf að núllstilla tækið.</translation>
@@ -253,7 +253,7 @@
 <translation id="1347256498747320987">Setja upp uppfærslur og forrit. Með því að halda áfram samþykkirðu að þetta tæki geti einnig sjálfkrafa sótt og sett upp uppfærslur og forrit frá Google, símafyrirtækinu þínu og framleiðanda tækisins, mögulega með því að nota farsímagögn. Einhver þessara forrita kunna að bjóða upp á innkaup í forriti. <ph name="BEGIN_LINK1" />Frekari upplýsingar<ph name="END_LINK1" /></translation>
 <translation id="1347975661240122359">Uppfærsla hefst þegar rafhlaðan nær <ph name="BATTERY_LEVEL" />%.</translation>
 <translation id="1353686479385938207"><ph name="PROVIDER_NAME" />: <ph name="NETWORK_NAME" /></translation>
-<translation id="1353980523955420967">PPD-skráin finnst ekki. Gættu þess að Chromebook tölvan sé nettengd og reyndu aftur.</translation>
+<translation id="1353980523955420967">PPD-skráin finnst ekki. Gættu þess að Bravebook tölvan sé nettengd og reyndu aftur.</translation>
 <translation id="1355466263109342573">Lokað er fyrir <ph name="PLUGIN_NAME" /></translation>
 <translation id="1358741672408003399">Stafsetning og málfræði</translation>
 <translation id="1359923111303110318">Hægt er að taka tækið þitt úr lás með Smart Lock. Ýttu á Enter til að opna.</translation>
@@ -340,7 +340,7 @@
 <translation id="1476607407192946488">Tungumá&amp;lastillingar</translation>
 <translation id="1478340334823509079">Upplýsingar: <ph name="FILE_NAME" /></translation>
 <translation id="1478607704480248626">Uppsetning er ekki leyfð</translation>
-<translation id="1481206932476131736">Stjórnaðu innskráðum reikningum þínum. Vefsvæði, forrit og viðbætur í Chrome og Google Play geta notað þessa reikninga til að sérsníða upplifun þína, eftir því hvaða heimildir eru veittar.</translation>
+<translation id="1481206932476131736">Stjórnaðu innskráðum reikningum þínum. Vefsvæði, forrit og viðbætur í Brave og Google Play geta notað þessa reikninga til að sérsníða upplifun þína, eftir því hvaða heimildir eru veittar.</translation>
 <translation id="1482626744466814421">Setja þennan flipa í bókamerki...</translation>
 <translation id="1483493594462132177">Senda</translation>
 <translation id="1484979925941077974">Vefsvæði er að nota Bluetooth</translation>
@@ -415,7 +415,7 @@
 <translation id="1581962803218266616">Sýna í Finder</translation>
 <translation id="1582955169539260415">eyða [<ph name="FINGERPRINT_NAME" />]</translation>
 <translation id="1584990664401018068">Wi-Fi netið sem þú notar (<ph name="NETWORK_ID" />) kann að fara fram á auðkenningu.</translation>
-<translation id="1585717515139318619">Annað forrit í tölvunni þinni bætti við þema sem gæti breytt því hvernig Chrome virkar.
+<translation id="1585717515139318619">Annað forrit í tölvunni þinni bætti við þema sem gæti breytt því hvernig Brave virkar.
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1587275751631642843">&amp;JavaScript-stjórnborð</translation>
@@ -545,7 +545,7 @@
 <translation id="1757301747492736405">Fjarlæging í bið</translation>
 <translation id="175772926354468439">Virkja þema</translation>
 <translation id="1758018619400202187">EAP-TLS</translation>
-<translation id="17584710573359123">Skoða í vefverslun Chrome</translation>
+<translation id="17584710573359123">Skoða í vefverslun Brave</translation>
 <translation id="176193854664720708">Fingrafaralesarinn er í aflrofanum. Snertu hann létt með hvaða fingri sem er.</translation>
 <translation id="1763046204212875858">Búa til flýtileiðir fyrir forrit</translation>
 <translation id="1763108912552529023">Halda áfram að kanna</translation>
@@ -598,7 +598,7 @@
 <translation id="1818913467757368489">Annálsflutningur í gangi.</translation>
 <translation id="1819721979226826163">Ýttu á Forritatilkynningar &gt; Þjónusta Google Play.</translation>
 <translation id="1820028137326691631">Sláðu inn aðgangsorð frá kerfisstjóra</translation>
-<translation id="1822140782238030981">Ertu nú þegar að nota Chrome? Skráðu þig inn</translation>
+<translation id="1822140782238030981">Ertu nú þegar að nota Brave? Skráðu þig inn</translation>
 <translation id="1826516787628120939">Kannar</translation>
 <translation id="1828378091493947763">Þessi viðbót er ekki studd á þessu tæki</translation>
 <translation id="1828901632669367785">Prenta í gegnum kerfisglugga</translation>
@@ -658,7 +658,7 @@
 <translation id="1900305421498694955">Forrit frá Google Play kunna að gera kröfu um fullan aðgang að skráakerfinu til að geta lesið og skrifað skrár á lausum geymslumiðlum. Allir sem nota lausa drifið geta séð skrár og möppur sem búnar eru til í þessu tæki. <ph name="LINK_BEGIN" />Frekari upplýsingar<ph name="LINK_END" /></translation>
 <translation id="1901303067676059328">Velja &amp;allt</translation>
 <translation id="1902576642799138955">Gildistími</translation>
-<translation id="1905375423839394163">Heiti Chromebook tækis</translation>
+<translation id="1905375423839394163">Heiti Bravebook tækis</translation>
 <translation id="1905710495812624430">Farið var yfir hámarksfjölda tilrauna.</translation>
 <translation id="1906828677882361942">Ekki gefa neinum vefsvæðum aðang að raðtengjum</translation>
 <translation id="1909880997794698664">Ertu viss um að þú viljir hafa þetta tæki í sjálfsalastillingu til frambúðar?</translation>
@@ -743,7 +743,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="204497730941176055">Sniðmátsheiti Microsoft-vottorðs</translation>
 <translation id="2045117674524495717">Flýtilyklahjálp</translation>
 <translation id="2045969484888636535">Halda áfram að útiloka fótspor</translation>
-<translation id="204622017488417136">Tækið verður fært aftur í áður uppsetta útgáfu af Chrome. Allir notendareikningar og staðbundin gögn verða fjarlægð. Ekki er hægt að afturkalla þessa aðgerð.</translation>
+<translation id="204622017488417136">Tækið verður fært aftur í áður uppsetta útgáfu af Brave. Allir notendareikningar og staðbundin gögn verða fjarlægð. Ekki er hægt að afturkalla þessa aðgerð.</translation>
 <translation id="2046702855113914483">Ramen-núðlur</translation>
 <translation id="2048182445208425546">Fá aðgang að netumferð</translation>
 <translation id="2048653237708779538">Aðgerð ekki tiltæk</translation>
@@ -753,7 +753,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="205560151218727633">Merki Google hjálparans</translation>
 <translation id="2058456167109518507">Tæki fannst</translation>
 <translation id="2059913712424898428">Tímabelti</translation>
-<translation id="2065405795449409761">Sjálfvirkur prófunarhugbúnaður er að stýra Chrome.</translation>
+<translation id="2065405795449409761">Sjálfvirkur prófunarhugbúnaður er að stýra Brave.</translation>
 <translation id="2071393345806050157">Engin staðbundin annálsskrá.</translation>
 <translation id="2075474481720804517"><ph name="BATTERY_PERCENTAGE" />% rafhlaða</translation>
 <translation id="2075959085554270910">Gerir þér kleift að kveikja/slökkva á eiginleikunum „ýta til að smella“ og „draga með snertingu“</translation>
@@ -765,13 +765,13 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2079545284768500474">Afturkalla</translation>
 <translation id="2080070583977670716">Fleiri stillingar</translation>
 <translation id="2087822576218954668">Prenta: <ph name="PRINT_NAME" /></translation>
-<translation id="2089566709556890888">Örugg vefskoðun með Google Chrome</translation>
+<translation id="2089566709556890888">Örugg vefskoðun með Brave</translation>
 <translation id="2089795179672254991">Spyrja þegar vefsvæði vill sjá texta og myndir sem þú afritar á klippiborðið (ráðlagt)</translation>
 <translation id="2090165459409185032">Til að endurheimta reikningsupplýsingarnar þínar skaltu fara á: google.com/accounts/recovery</translation>
 <translation id="2090876986345970080">Öryggisstilling kerfis</translation>
 <translation id="2091887806945687916">Hljóð</translation>
 <translation id="2096715839409389970">Hreinsa fótspor þriðju aðila</translation>
-<translation id="2097372108957554726">Þú þarft að skrá þig inn í Chrome til að skrá ný tæki.</translation>
+<translation id="2097372108957554726">Þú þarft að skrá þig inn í Brave til að skrá ný tæki.</translation>
 <translation id="2099172618127234427">Þú ert að gera villuleitareiginleika Chrome OS virka en við það verður sett upp sshd-bakgrunnsforrit og ræsing af USB-drifum gerð virk.</translation>
 <translation id="2099686503067610784">Eyða þjónsvottorðinu „<ph name="CERTIFICATE_NAME" />“?</translation>
 <translation id="2100273922101894616">Sjálfvirk innskráning</translation>
@@ -820,7 +820,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2155772377859296191">Virðist vera <ph name="WIDTH" /> x <ph name="HEIGHT" /></translation>
 <translation id="2156283799932971644">Þú getur hjálpað til við að bæta örugga vefnotkun með því að senda kerfisupplýsingar og efni síðu til Google.</translation>
 <translation id="2156294658807918600">Þjónustuaðili: <ph name="SCRIPT_URL" /></translation>
-<translation id="2157474325782140681">Til að fá viðbótareiginleika skaltu nota Dell-dokku sem er hönnuð fyrir þessa Chromebook tölvu.</translation>
+<translation id="2157474325782140681">Til að fá viðbótareiginleika skaltu nota Dell-dokku sem er hönnuð fyrir þessa Bravebook tölvu.</translation>
 <translation id="215753907730220065">Hætta að nota allan skjáinn</translation>
 <translation id="2157875535253991059">Þessi síða birtist núna á öllum skjánum.</translation>
 <translation id="216169395504480358">Bæta við Wi-Fi...</translation>
@@ -840,7 +840,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2178614541317717477">CA-öryggisbrestur</translation>
 <translation id="218070003709087997">Notaðu tölu til að gefa til kynna fjölda eintaka sem á að prenta (1 upp í 999).</translation>
 <translation id="2182058453334755893">Afritað á klippiborðið</translation>
-<translation id="2184515124301515068">Leyfa Chrome að velja hvenær vefsvæði geta spilað hljóð (ráðlagt)</translation>
+<translation id="2184515124301515068">Leyfa Brave að velja hvenær vefsvæði geta spilað hljóð (ráðlagt)</translation>
 <translation id="2187895286714876935">Villa við innflutning á vottorði þjóns</translation>
 <translation id="2187906491731510095">Viðbætur uppfærðar</translation>
 <translation id="2188881192257509750">Opna <ph name="APPLICATION" /></translation>
@@ -853,9 +853,9 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2195331105963583686">Þú getur notað þetta <ph name="DEVICE_TYPE" /> áfram eftir þann tíma en færð ekki lengur sjálfvirkar hugbúnaðar- og öryggisuppfærslur</translation>
 <translation id="2195729137168608510">Tölvupóstvörn</translation>
 <translation id="2199298570273670671">Villa</translation>
-<translation id="2199719347983604670">Gögn úr Chrome samstillingu</translation>
+<translation id="2199719347983604670">Gögn úr Brave samstillingu</translation>
 <translation id="2200094388063410062">Tölvupóstur</translation>
-<translation id="2200356397587687044">Chrome þarf að fá heimild til að halda áfram</translation>
+<translation id="2200356397587687044">Brave þarf að fá heimild til að halda áfram</translation>
 <translation id="220138918934036434">Hnappur til að fela</translation>
 <translation id="2202898655984161076">Vandamál kom upp við að birta prentara. Sumir prentaranna þinna eru ef til vill ekki skráðir á fullnægjandi hátt hjá <ph name="CLOUD_PRINT_NAME" />.</translation>
 <translation id="2203682048752833055">Leitarvél notuð í <ph name="BEGIN_LINK" />veffangastiku<ph name="END_LINK" /></translation>
@@ -868,7 +868,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2214893006758804920">{LINE_COUNT,plural, =1{&lt;1 lína er ekki sýnd&gt;}one{&lt;<ph name="NUMBER_OF_LINES" /> lína er ekki sýnd&gt;}other{&lt;<ph name="NUMBER_OF_LINES" /> línur eru ekki sýndar&gt;}}</translation>
 <translation id="2215727959747642672">Skráarvinnsla</translation>
 <translation id="2218019600945559112">Mús og snertiflötur</translation>
-<translation id="2218320521449013367">Villa kom upp þegar Chrome fjarlægði skaðlegan hugbúnað</translation>
+<translation id="2218320521449013367">Villa kom upp þegar Brave fjarlægði skaðlegan hugbúnað</translation>
 <translation id="2218515861914035131">Líma sem ósniðinn texta</translation>
 <translation id="221872881068107022">Öfug fletting</translation>
 <translation id="2220409419896228519">Bæta bókamerkjum við eftirlætis Google forritin þín</translation>
@@ -1127,7 +1127,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2571655996835834626">Breyta stillingum sem stjórna aðgangi vefsvæða að eiginleikum eins og fótsporum, JavaScript, viðbótum, landfræðilegri staðsetningu, hljóðnema, myndavél o.s.frv.</translation>
 <translation id="2572032849266859634">Skrifvarinn aðgangur að <ph name="VOLUME_NAME" /> hefur verið veittur.</translation>
 <translation id="2575247648642144396">Þetta tákn verður sýnilegt þegar hægt er að nota viðbótina á síðunni sem er opin. Notaðu viðbótina með því að smella á táknið eða ýta á <ph name="EXTENSION_SHORTCUT" />.</translation>
-<translation id="257779572837908839">Setja upp Chromebox fyrir fundi</translation>
+<translation id="257779572837908839">Setja upp Bravebox fyrir fundi</translation>
 <translation id="2580889980133367162">Leyfa <ph name="HOST" /> alltaf að sækja margar skrár</translation>
 <translation id="2580924999637585241">Samtals: <ph name="NUMBER_OF_SHEETS" /> <ph name="SHEETS_LABEL" /></translation>
 <translation id="258095186877893873">Löng</translation>
@@ -1158,7 +1158,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="26224892172169984">Leyfa engu vefsvæði að vinna úr samskiptareglum</translation>
 <translation id="2624142942574147739">Þessi síða hefur aðgang að myndavélinni þinni og hljóðnema.</translation>
 <translation id="2626799779920242286">Reyndu aftur síðar.</translation>
-<translation id="2628770867680720336">Núllstilla þarf þetta Chromebook tæki til að kveikja á ADB-villuleit. <ph name="BEGIN_LINK_LEARN_MORE" />Frekari upplýsingar<ph name="END_LINK_LEARN_MORE" /></translation>
+<translation id="2628770867680720336">Núllstilla þarf þetta Bravebook tæki til að kveikja á ADB-villuleit. <ph name="BEGIN_LINK_LEARN_MORE" />Frekari upplýsingar<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="2629227353894235473">Þróa Android forrit</translation>
 <translation id="2630681426381349926">Tengstu við Wi-Fi til að byrja</translation>
 <translation id="2631120081682787498">Viltu örugglega loka þessum flipa?</translation>
@@ -1168,7 +1168,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2633764681656412085">FIDO</translation>
 <translation id="2635094637295383009">Twitter</translation>
 <translation id="2635276683026132559">Undirritun</translation>
-<translation id="2636625531157955190">Chrome getur ekki opnað myndina.</translation>
+<translation id="2636625531157955190">Brave getur ekki opnað myndina.</translation>
 <translation id="2637400434494156704">Rangt PIN-númer. Þú átt eina tilraun eftir.</translation>
 <translation id="2638087589890736295">Aðgangsorð er nauðsynlegt til að hefja samstillingu</translation>
 <translation id="264083724974021997">Tengstu við símann þinn – gluggi</translation>
@@ -1184,9 +1184,9 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2654166010170466751">Leyfa vefsvæðum að setja upp greiðslumiðlara</translation>
 <translation id="2659381484350128933"><ph name="FOOTNOTE_POINTER" />Eiginleikar geta verið mismunandi eftir tækjum</translation>
 <translation id="2660779039299703961">Tilvik</translation>
-<translation id="266079277508604648">Ekki tókst að tengjast við prentarann. Gættu þess að kveikt sé á prentaranum og hann sé tengdur við Chromebook um Wi-Fi net eða USB-tengi.</translation>
+<translation id="266079277508604648">Ekki tókst að tengjast við prentarann. Gættu þess að kveikt sé á prentaranum og hann sé tengdur við Bravebook um Wi-Fi net eða USB-tengi.</translation>
 <translation id="2661714428027871023">Vafraðu hraðar og notaðu minna gagnamagn með léttútgáfu. Smelltu til að fá frekari upplýsingar.</translation>
-<translation id="2662876636500006917">Vefverslun Chrome</translation>
+<translation id="2662876636500006917">Vefverslun Brave</translation>
 <translation id="2663302507110284145">Tungumál</translation>
 <translation id="2665394472441560184">Bæta nýju orði við</translation>
 <translation id="2665647207431876759">Útrunnið</translation>
@@ -1194,7 +1194,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2665919335226618153">Obbosí! Villa kom upp við að sníða.</translation>
 <translation id="2666990579225592931">Opna gestaglugga</translation>
 <translation id="2667463864537187133">Stjórna ritvilluleit</translation>
-<translation id="2670102641511624474"><ph name="APP_NAME" /> deilir flipa í Chrome.</translation>
+<translation id="2670102641511624474"><ph name="APP_NAME" /> deilir flipa í Brave.</translation>
 <translation id="2670429602441959756">Þessi síða inniheldur eiginleika sem ekki eru enn studdir í VR. Hættir...</translation>
 <translation id="2671451824761031126">Bókamerki og stillingar eru til reiðu</translation>
 <translation id="2672142220933875349">Skemmd crx-skrá. Mistókst að afpakka.</translation>
@@ -1226,7 +1226,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2712173769900027643">Biðja um leyfi</translation>
 <translation id="2713444072780614174">Hvítur</translation>
 <translation id="2714393097308983682">Google Play Store</translation>
-<translation id="2715751256863167692">Þessi uppfærsla endurstillir Chromebook og fjarlægir núverandi notandagögn.</translation>
+<translation id="2715751256863167692">Þessi uppfærsla endurstillir Bravebook og fjarlægir núverandi notandagögn.</translation>
 <translation id="2716986496990888774">Þessari stillingu er stjórnað af foreldri.</translation>
 <translation id="2718395828230677721">Næturljós</translation>
 <translation id="2718998670920917754">Vírusvarnarforrit fann vírus.</translation>
@@ -1348,7 +1348,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="287286579981869940">Bæta <ph name="PROVIDER_NAME" /> við...</translation>
 <translation id="2872961005593481000">Slökkva</translation>
 <translation id="2874939134665556319">Fyrra lag</translation>
-<translation id="2875698561019555027">(Chrome villusíður)</translation>
+<translation id="2875698561019555027">(Brave villusíður)</translation>
 <translation id="2876336351874743617">Fingur 2</translation>
 <translation id="2876369937070532032">Sendir vefslóð sumra síðna sem þú skoðar til Google, þegar öryggi þitt er í hættu</translation>
 <translation id="2878782256107578644">Skönnun er í gangi. Opna núna?</translation>
@@ -1487,7 +1487,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3082780749197361769">Þessi flipi er að nota myndavélina eða hljóðnemann.</translation>
 <translation id="3083193146044397360">Lokað tímabundið til að vernda öryggi þitt</translation>
 <translation id="3084548735795614657">Slepptu til að setja upp</translation>
-<translation id="3084771660770137092">Annaðhvort kláraðist minni Chrome eða önnur ástæða varð til þess að slökkt var á ferli vefsíðunnar. Til að halda áfram skaltu endurhlaða eða fara á aðra síðu.</translation>
+<translation id="3084771660770137092">Annaðhvort kláraðist minni Brave eða önnur ástæða varð til þess að slökkt var á ferli vefsíðunnar. Til að halda áfram skaltu endurhlaða eða fara á aðra síðu.</translation>
 <translation id="3085412380278336437">Vefsvæði getur notað myndavélina þína</translation>
 <translation id="3085752524577180175">SOCKS-hýsill</translation>
 <translation id="3088052000289932193">Vefsvæði notar MIDI-tæki</translation>
@@ -1528,7 +1528,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 
     Lýsing:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Chrome forrit</translation>
+<translation id="3149510190863420837">Brave forrit</translation>
 <translation id="3150927491400159470">Algjör endurhleðsla</translation>
 <translation id="315116470104423982">Farsímagögn</translation>
 <translation id="3151539355209957474">Upphafstími</translation>
@@ -1537,7 +1537,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3154351730702813399">Stjórnandi tækisins gæti fylgst með vafravirkni þinni.</translation>
 <translation id="3154429428035006212">Ónettengdur í meira en mánuð</translation>
 <translation id="3154736273843608862">Þú hefur náð hámarkinu sem foreldri þitt valdi fyrir <ph name="IDS_SHORT_PRODUCT_NAME" />.</translation>
-<translation id="3156531245809797194">Skráðu þig inn til að nota Chrome</translation>
+<translation id="3156531245809797194">Skráðu þig inn til að nota Brave</translation>
 <translation id="3157931365184549694">Endurheimta</translation>
 <translation id="3158033540161634471">Skráðu fingrafarið þitt</translation>
 <translation id="3159493096109238499">Drapplitaður</translation>
@@ -1566,7 +1566,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3208703785962634733">Óstaðfest</translation>
 <translation id="32101887417650595">Ekki tókst að tengjast við prentara</translation>
 <translation id="321084946921799184">Gulur og hvítur</translation>
-<translation id="321356136776075234">Skipulagseiningar tækis (OU) (til dæmis OU=Chromebook,DC=dæmi,DC=is)</translation>
+<translation id="321356136776075234">Skipulagseiningar tækis (OU) (til dæmis OU=Bravebook,DC=dæmi,DC=is)</translation>
 <translation id="3217843140356091325">Búa til flýtileið?</translation>
 <translation id="321799795901478485">Zip Archiver</translation>
 <translation id="321834671654278338">Linux-fjarlægingarforrit</translation>
@@ -1609,10 +1609,10 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3278001907972365362">Huga þarf að Google reikningnum/reikningunum þínum</translation>
 <translation id="3279230909244266691">Þetta ferli gæti tekið nokkrar mínútur. Ræsir sýndarvél.</translation>
 <translation id="3280237271814976245">Vist&amp;a sem...</translation>
-<translation id="3280243678470289153">Vera áfram í Chrome</translation>
+<translation id="3280243678470289153">Vera áfram í Brave</translation>
 <translation id="3281892622610078515">Skrár og forrit sem á að setja í sóttkví:</translation>
 <translation id="3282210178675490297">Deilir flipa með <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Skráðu þig inn á Chrome</translation>
+<translation id="3282568296779691940">Skráðu þig inn á Brave</translation>
 <translation id="3285322247471302225">Nýr flipi</translation>
 <translation id="328571385944182268">Vista aðgangsorðin þín?</translation>
 <translation id="3288047731229977326">Viðbætur sem keyra í forritarastillingu geta skaðað tölvuna þína. Ef þú ert ekki forritari ættirðu að gera þessar viðbætur sem keyra í forritarastillingu óvirkar til öryggis.</translation>
@@ -1790,7 +1790,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="354602065659584722">Skaðlegur hugbúnaður fjarlægður</translation>
 <translation id="3547954654003013442">Proxy-stillingar</translation>
 <translation id="3548162552723420559">Stillir skjálitinn til að hann henti umhverfinu</translation>
-<translation id="3550915441744863158">Chrome uppfærist sjálfkrafa þannig að þú ert alltaf með nýjustu útgáfuna</translation>
+<translation id="3550915441744863158">Brave uppfærist sjálfkrafa þannig að þú ert alltaf með nýjustu útgáfuna</translation>
 <translation id="3551320343578183772">Loka flipa</translation>
 <translation id="3552780134252864554">Hreinsað við lokun</translation>
 <translation id="3555812735919707620">Fjarlægja viðbót</translation>
@@ -1850,7 +1850,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3624567683873126087">Opnaðu tækið og skráðu þig inn á Google reikning</translation>
 <translation id="3625258641415618104">Skjámyndir óvirkar</translation>
 <translation id="3625481642044239431">Ógild skrá valin. Reyndu aftur.</translation>
-<translation id="3626296069957678981">Til að hlaða þessa Chromebook tölvu skaltu nota samhæfa rafhlöðu frá Dell.</translation>
+<translation id="3626296069957678981">Til að hlaða þessa Bravebook tölvu skaltu nota samhæfa rafhlöðu frá Dell.</translation>
 <translation id="3627320433825461852">Minna en 1 mínúta eftir</translation>
 <translation id="3627588569887975815">Opna ten&amp;gil í huliðsglugga</translation>
 <translation id="3627671146180677314">Endurnýjunartími Netscape-vottorðs</translation>
@@ -1882,7 +1882,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3660234220361471169">Ótraust</translation>
 <translation id="3661172646479098821">Aðeins Android tæki eru studd eins og er.</translation>
 <translation id="3664511988987167893">Tákn viðbótar</translation>
-<translation id="3665589677786828986">Chrome greindi að annað forrit hefur nýlega spillt einhverjum stillingum hjá þér og endurstillti þær því í sjálfgildi.</translation>
+<translation id="3665589677786828986">Brave greindi að annað forrit hefur nýlega spillt einhverjum stillingum hjá þér og endurstillti þær því í sjálfgildi.</translation>
 <translation id="3668570675727296296">Tungumálastillingar</translation>
 <translation id="366867565525278777">Uppsetning mistókst vegna skorts á geymslurými. Að lágmarki þurfa <ph name="INSTALL_SIZE" /> að vera laus. Eyddu skrám úr geymslu tækisins til að losa um pláss.</translation>
 <translation id="3668801437375206837">Til að geta betur greint vandamál tengd Bluetooth geta starfsmenn Google látið viðbótarannála fylgja með ábendingarskýrslum sínum fyrir Bluetooth. Þegar þessi valkostur er valinn mun skýrslan innihalda btsnoop- og HCI-annála úr yfirstandandi lotu þinni þar sem búið er að eyða eins miklu af auðkennisupplýsingum og mögulegt er. Aðgangur að þessum annálum verður takmarkaður við stjórnendur í Chrome OS vöruhópnum í Listnr. Annálar verða hreinsaðir eftir 90 daga.</translation>
@@ -1971,7 +1971,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3771294271822695279">Myndskeiðsskrár</translation>
 <translation id="3775432569830822555">SSL-þjónsvottorð</translation>
 <translation id="3775705724665058594">Senda í tækin þín</translation>
-<translation id="3776796446459804932">Þessi viðbót brýtur gegn stefnu vefverslunar Chrome.</translation>
+<translation id="3776796446459804932">Þessi viðbót brýtur gegn stefnu vefverslunar Brave.</translation>
 <translation id="3777483481409781352">Ekki var hægt að virkja farsíma</translation>
 <translation id="3777806571986431400">Viðbót gerð virk</translation>
 <translation id="3778152852029592020">Hætt var við niðurhalið.</translation>
@@ -2004,8 +2004,8 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3810973564298564668">Stjórna</translation>
 <translation id="381202950560906753">Bæta öðru við</translation>
 <translation id="3812525830114410218">Ógilt vottorð</translation>
-<translation id="3813296892522778813">Opnaðu <ph name="BEGIN_LINK_CHROMIUM" />aðstoð Google Chrome<ph name="END_LINK_CHROMIUM" /> ef þú finnur ekki það sem þú leitar að.</translation>
-<translation id="3816118180265633665">Litirnir í Chrome</translation>
+<translation id="3813296892522778813">Opnaðu <ph name="BEGIN_LINK_CHROMIUM" />aðstoð Brave<ph name="END_LINK_CHROMIUM" /> ef þú finnur ekki það sem þú leitar að.</translation>
+<translation id="3816118180265633665">Litirnir í Brave</translation>
 <translation id="3817524650114746564">Opnaðu stillingar staðgengilsþjóns í tölvunni</translation>
 <translation id="3817579325494460411">Ekki gefið upp</translation>
 <translation id="3819257035322786455">Afrita</translation>
@@ -2062,7 +2062,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3888550877729210209">Glósur með <ph name="LOCK_SCREEN_APP_NAME" /></translation>
 <translation id="3892414795099177503">Bæta við OpenVPN / L2TP...</translation>
 <translation id="3893536212201235195">Lesa og breyta aðgengisstillingum</translation>
-<translation id="3893630138897523026">ChromeVox (raddsvörun)</translation>
+<translation id="3893630138897523026">BraveVox (raddsvörun)</translation>
 <translation id="3893764153531140319"><ph name="DOWNLOADED_SIZE" />/<ph name="DOWNLOAD_SIZE" /></translation>
 <translation id="3894123633473837029">Láta nýlegan feril hjálparans fylgja með Sherlog. Upplýsingar um hver þú ert, staðsetning þín og upplýsingar um villuleit gætu fylgt með. <ph name="BEGIN_LINK" />Frekari upplýsingar<ph name="END_LINK" /></translation>
 <translation id="3894427358181296146">Bæta möppu við</translation>
@@ -2084,7 +2084,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3918972485393593704">Tilkynna upplýsingar til Google</translation>
 <translation id="3919145445993746351">Kveiktu á samstillingu til að fá viðbæturnar þínar í allar tölvurnar þínar</translation>
 <translation id="3920504717067627103">Vottorðastefnur</translation>
-<translation id="392089482157167418">Virkja ChromeVox (raddsvörun)</translation>
+<translation id="392089482157167418">Virkja BraveVox (raddsvörun)</translation>
 <translation id="3923676227229836009">Þessi síða hefur heimild til að skoða skrár</translation>
 <translation id="3924145049010392604">Meta</translation>
 <translation id="3925573269917483990">Myndavél:</translation>
@@ -2167,7 +2167,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4023146161712577481">Ákvarðar stillingar tækis.</translation>
 <translation id="4025039777635956441">Slökkva á hljóði valins svæðis</translation>
 <translation id="4027804175521224372">(Þú ert að missa af allskonar – <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK" />)</translation>
-<translation id="4027951648498485763">Stillingar Flash verða geymdar þar til þú lokar Chrome.</translation>
+<translation id="4027951648498485763">Stillingar Flash verða geymdar þar til þú lokar Brave.</translation>
 <translation id="4031179711345676612">Hljóðnemi er leyfður</translation>
 <translation id="4031527940632463547">Skynjarar læstir</translation>
 <translation id="4033471457476425443">Bæta nýrri möppu við</translation>
@@ -2176,7 +2176,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4036778507053569103">Reglan sem sótt var frá þjóninum er ógild.</translation>
 <translation id="4037084878352560732">Hestur</translation>
 <translation id="4037889604535939429">Breyta aðila</translation>
-<translation id="4042264909745389898">Skilmálar stýrikerfis Google Chrome</translation>
+<translation id="4042264909745389898">Skilmálar stýrikerfis Brave</translation>
 <translation id="4042863763121826131">{NUM_PAGES,plural, =1{Loka síðu}one{Loka síðum}other{Loka síðum}}</translation>
 <translation id="4044612648082411741">Sláðu inn aðgangsorð vottorðs</translation>
 <translation id="404493185430269859">Sjálfgefin leitarvél</translation>
@@ -2335,7 +2335,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4287502004382794929">Þú ert ekki með tilskilin hugbúnaðarleyfi til að skrá þetta tæki. Hafðu samband við söludeild til að kaupa leyfi. Ef þú telur að þessi villuboð ættu ekki að birtast þér skaltu tala við þjónustudeild.</translation>
 <translation id="4289540628985791613">Yfirlit</translation>
 <translation id="4295072614469448764">Forritið er tiltækt í skipanalínu. Einnig gæti verið tákn í ræsiforritinu.</translation>
-<translation id="4295979599050707005">Skráðu þig inn aftur til að staðfesta að nota megi reikninginn <ph name="USER_EMAIL" /> með vefsvæðum, forritum og viðbótum í Chrome og Google Play. Þú getur líka fjarlægt þennan reikning. <ph name="LINK_BEGIN" />Frekari upplýsingar<ph name="LINK_END" /></translation>
+<translation id="4295979599050707005">Skráðu þig inn aftur til að staðfesta að nota megi reikninginn <ph name="USER_EMAIL" /> með vefsvæðum, forritum og viðbótum í Brave og Google Play. Þú getur líka fjarlægt þennan reikning. <ph name="LINK_BEGIN" />Frekari upplýsingar<ph name="LINK_END" /></translation>
 <translation id="4296575653627536209">Bæta stýrðum notanda við</translation>
 <translation id="4297219207642690536">Endurræsa og endurstilla</translation>
 <translation id="4301671483919369635">Þessi síða hefur heimild til að breyta skrám</translation>
@@ -2443,7 +2443,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4469477701382819144">Lokað fyrir á vefsvæðum sem sýna ágengar eða villandi auglýsingar</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> getur breytt skrám í <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Kjörstillingar ytri geymslu</translation>
-<translation id="447252321002412580">Hjálpaðu til við að bæta eiginleika og afköst Chrome</translation>
+<translation id="447252321002412580">Hjálpaðu til við að bæta eiginleika og afköst Brave</translation>
 <translation id="4474155171896946103">Bókamerkja alla flipa...</translation>
 <translation id="4474461121892222090">Það getur tekið allt að 15 mínútur að ljúka virkjun farsímagagna.</translation>
 <translation id="4475552974751346499">Leita í niðurhali</translation>
@@ -2454,7 +2454,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4479424953165245642">Stjórna sjálfsalaforritum</translation>
 <translation id="4479639480957787382">Ethernet</translation>
 <translation id="4479877282574735775">Stillir sýndarvélina. Þetta getur tekið nokkrar mínútur.</translation>
-<translation id="4480590691557335796">Chrome getur leitað að skaðlegum hugbúnaði á tölvunni og fjarlægt hann</translation>
+<translation id="4480590691557335796">Brave getur leitað að skaðlegum hugbúnaði á tölvunni og fjarlægt hann</translation>
 <translation id="4481530544597605423">Aftengd tæki</translation>
 <translation id="4495419450179050807">Ekki sýna á þessari síðu</translation>
 <translation id="4500114933761911433"><ph name="PLUGIN_NAME" /> hrundi</translation>
@@ -2491,7 +2491,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4544174279960331769">Sjálfgefin blá notandamynd</translation>
 <translation id="4545028762441890696">Samþykktu nýju heimildirnar til að virkja þetta á ný:</translation>
 <translation id="4545759655004063573">Ekki eru nægar heimildir til að vista. Vistaðu á öðrum stað.</translation>
-<translation id="4546308221697447294">Hraðvirk vefskoðun með Google Chrome</translation>
+<translation id="4546308221697447294">Hraðvirk vefskoðun með Brave</translation>
 <translation id="4547659257713117923">Engir flipar frá öðrum tækjum</translation>
 <translation id="4547672827276975204">Stilla sjálfkrafa</translation>
 <translation id="4549791035683739768">Engin fingraför eru vistuð í öryggislyklinum þínum</translation>
@@ -2555,7 +2555,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4635398712689569051"><ph name="PAGE_NAME" /> er ekki í boði fyrir gestanotendur.</translation>
 <translation id="4637083375689622795">Fleiri aðgerðir, <ph name="EMAIL" /></translation>
 <translation id="4638930039313743000">Kveikja á ADB-villuleit</translation>
-<translation id="4641539339823703554">Chrome gat ekki stillt kerfistímann. Athugaðu tímann hér fyrir neðan og leiðréttu hann ef þörf krefur.</translation>
+<translation id="4641539339823703554">Brave gat ekki stillt kerfistímann. Athugaðu tímann hér fyrir neðan og leiðréttu hann ef þörf krefur.</translation>
 <translation id="4643612240819915418">&amp;Opna myndskeið í nýjum flipa</translation>
 <translation id="4645676300727003670">Halda</translation>
 <translation id="4647090755847581616">Loka flipa</translation>
@@ -2622,7 +2622,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4743260470722568160"><ph name="BEGIN_LINK" />Kynntu þér hvernig á að uppfæra forrit<ph name="END_LINK" /></translation>
 <translation id="4744981231093950366">{NUM_TABS,plural, =1{Kveikja á hljóði svæðis}one{Kveikja á hljóði svæða}other{Kveikja á hljóði svæða}}</translation>
 <translation id="4746351372139058112">Messages</translation>
-<translation id="4748762018725435655">Krefst viðbótar úr vefverslun Chrome</translation>
+<translation id="4748762018725435655">Krefst viðbótar úr vefverslun Brave</translation>
 <translation id="4750394297954878236">Tillögur</translation>
 <translation id="475088594373173692">Fyrsti notandi</translation>
 <translation id="4751476147751820511">Hreyfi- eða birtuskynjarar</translation>
@@ -2634,7 +2634,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4762718786438001384">Allt of lítið geymslupláss er eftir á tækinu</translation>
 <translation id="4763408175235639573">Eftirfarandi fótspor voru vistuð þegar þú skoðaðir þessa síðu</translation>
 <translation id="4763830802490665879">Fótsporum frá fleiri en einu vefsvæði verður eytt við lokun.</translation>
-<translation id="4765582662863429759">Leyfir Android Messages að áframsenda skilaboð úr símanum þínum í Chromebook tækið þitt</translation>
+<translation id="4765582662863429759">Leyfir Android Messages að áframsenda skilaboð úr símanum þínum í Bravebook tækið þitt</translation>
 <translation id="4768332406694066911">Þú ert með vottorð frá þessum notendaskipunum sem auðkenna þig</translation>
 <translation id="4774824109040330448">Skannaðu QR-kóðann með samhæfu auðkenningarforriti í símanum.</translation>
 <translation id="4776917500594043016">Aðgangsorð fyrir <ph name="USER_EMAIL_ADDRESS" /></translation>
@@ -2670,8 +2670,8 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4829768588131278040">Setja upp PIN-númer</translation>
 <translation id="4830502475412647084">Setur upp stýrikerfisuppfærslu</translation>
 <translation id="4830573902900904548"><ph name="DEVICE_TYPE" /> getur ekki tengst netinu gegnum <ph name="NETWORK_NAME" />. Notaðu annað net. <ph name="LEARN_MORE_LINK_START" />Frekari upplýsingar<ph name="LEARN_MORE_LINK_END" /></translation>
-<translation id="4833236810053292670">Skoða nýjungar í Chromebook</translation>
-<translation id="4835385943915508971">Chrome hefur ekki aðgang að umbeðnu tilfangi.</translation>
+<translation id="4833236810053292670">Skoða nýjungar í Bravebook</translation>
+<translation id="4835385943915508971">Brave hefur ekki aðgang að umbeðnu tilfangi.</translation>
 <translation id="4836504898754963407">Stjórna fingraförum</translation>
 <translation id="4837926214103741331">Þú hefur ekki leyfi til að nota þetta tæki. Hafðu samband við eiganda tækisins til að fá leyfi til að skrá þig inn.</translation>
 <translation id="4837952862063191349">Til að opna og endurheimta staðbundnu gögnin þín skaltu slá inn eldra aðgangsorðið þitt fyrir <ph name="DEVICE_TYPE" />.</translation>
@@ -2699,7 +2699,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="48704129375571883">Bæta við frekari eiginleikum</translation>
 <translation id="4870758487381879312">Sláðu inn aðgangsorð frá kerfisstjóra til að fá stillingaupplýsingar</translation>
 <translation id="4870903493621965035">Engin pöruð tæki</translation>
-<translation id="4871308555310586478">Ekki úr vefverslun Chrome.</translation>
+<translation id="4871308555310586478">Ekki úr vefverslun Brave.</translation>
 <translation id="4871322859485617074">PIN-númerið inniheldur ógilda stafi</translation>
 <translation id="4871370605780490696">Bæta við bókamerki</translation>
 <translation id="4871719318659334896">Loka hópi</translation>
@@ -2854,7 +2854,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5086874064903147617">Endurheimta sjálfgefna heimasíðu?</translation>
 <translation id="5087249366037322692">Bætt við af þriðja aðila</translation>
 <translation id="5087580092889165836">Bæta við korti</translation>
-<translation id="5087926280563932024">Ekki tókst að staðfesta reikninginn. Reyndu aftur eða endurræstu Chromebook.</translation>
+<translation id="5087926280563932024">Ekki tókst að staðfesta reikninginn. Reyndu aftur eða endurræstu Bravebook.</translation>
 <translation id="5088172560898466307">Hýsilheiti þjóns</translation>
 <translation id="5088534251099454936">PKCS #1 SHA-512 með RSA-dulkóðun</translation>
 <translation id="5094721898978802975">Eiga samskipti við sérhönnuð forrit í samstarfi</translation>
@@ -3006,7 +3006,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5315738755890845852">Aukaslaufusvigi: <ph name="ERROR_LINE" /></translation>
 <translation id="5315873049536339193">Auðkenni</translation>
 <translation id="5317780077021120954">Vista</translation>
-<translation id="5319359161174645648">Google mælir með Chrome</translation>
+<translation id="5319359161174645648">Google mælir með Brave</translation>
 <translation id="532247166573571973">Hugsanlega er ekki hægt að ná í þjóninn. Reyndu aftur síðar.</translation>
 <translation id="5324780743567488672">Stilla tímabelti sjálfkrafa eftir staðsetningunni þinni</translation>
 <translation id="5327248766486351172">Heiti</translation>
@@ -3026,7 +3026,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5341980496415249280">Augnablik, pakkar...</translation>
 <translation id="5342091991439452114">PIN-númerið má ekki vera styttra en <ph name="MINIMUM" /> tölustafir</translation>
 <translation id="5352033265844765294">Tímastimplun</translation>
-<translation id="5353252989841766347">Flytja út aðgangsorð úr Chrome</translation>
+<translation id="5353252989841766347">Flytja út aðgangsorð úr Brave</translation>
 <translation id="5355099869024327351">Heimila hjálparanum að sýna þér tilkynningar</translation>
 <translation id="5355926466126177564">Viðbótin „<ph name="EXTENSION_NAME" />“ hefur breytt því hvaða síða birtist þegar þú leitar með veffangastikunni.</translation>
 <translation id="5360150013186312835">Sýna á stiku</translation>
@@ -3100,7 +3100,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5457599981699367932">Vafra sem gestur</translation>
 <translation id="5457991019809708398">Kveikt, ekki í reiki</translation>
 <translation id="5458998536542739734">Glósur á lásskjá</translation>
-<translation id="546322474339998983">Notað af Chrome vafranum og ræsiforriti <ph name="DEVICE_TYPE" /></translation>
+<translation id="546322474339998983">Notað af Brave vafranum og ræsiforriti <ph name="DEVICE_TYPE" /></translation>
 <translation id="5463231940765244860">Slá inn</translation>
 <translation id="5463275305984126951">Yfirlit yfir <ph name="LOCATION" /></translation>
 <translation id="5463856536939868464">Valmynd með földum bókamerkjum</translation>
@@ -3181,7 +3181,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5567989639534621706">Skyndiminni forrita</translation>
 <translation id="5568069709869097550">Innskráning mistókst</translation>
 <translation id="5568144734023334204">Android geymsla</translation>
-<translation id="5572851009514199876">Byrjaðu á að skrá þig inn á Chrome svo Chrome geti athugað hvort þú hafir leyfi til að skoða þetta vefsvæði.</translation>
+<translation id="5572851009514199876">Byrjaðu á að skrá þig inn á Brave svo Brave geti athugað hvort þú hafir leyfi til að skoða þetta vefsvæði.</translation>
 <translation id="5575473780076478375">Huliðsviðbót: <ph name="EXTENSION_NAME" /></translation>
 <translation id="5575528586625653441">Vandamál með skráningarbeiðni fyrir prufustillingu kom upp</translation>
 <translation id="557722062034137776">Endurstilling tækisins hefur engin áhrif á Google reikningana þína eða gögn sem samstillt hafa verið við reikningana. Öllum skrám sem vistaðar hafa verið í tækinu verður hins vegar eytt.</translation>
@@ -3230,14 +3230,14 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5624120631404540903">Stjórna aðgangsorðum</translation>
 <translation id="5626134646977739690">Nafn:</translation>
 <translation id="5627086634964711283">Hún stýrir því einnig hvaða síða birtist þegar þú smellir á heimahnappinn.</translation>
-<translation id="5627676517703583263">Betri vefskoðun með Chrome</translation>
+<translation id="5627676517703583263">Betri vefskoðun með Brave</translation>
 <translation id="562935524653278697">Kerfisstjóri hefur gert samstillingu bókamerkja, ferla, aðgangsorða og annarra stillinga óvirka.</translation>
 <translation id="5632566673632479864">Reikningurinn þinn <ph name="EMAIL" /> er ekki lengur leyfður sem aðalreikningur. Þar sem <ph name="DOMAIN" /> stýrir þessum reikningi verða bókamerkin þín, ferillinn, aðgangsorðin og aðrar stillingar hreinsuð úr tækinu.</translation>
 <translation id="5632592977009207922">Sækir, <ph name="PERCENT_REMAINING" />% eftir</translation>
 <translation id="563535393368633106">Spyrja fyrir notkun (ráðlagt)</translation>
 <translation id="5636996382092289526">Til að nota <ph name="NETWORK_ID" /> þarftu hugsanlega fyrst að <ph name="LINK_START" />fara á innskráningarsíðu netsins<ph name="LINK_END" /> sem opnast sjálfkrafa eftir nokkrar sekúndur. Ef þetta gerist ekki er ekki hægt að nota netið.</translation>
 <translation id="5637476008227280525">Virkjun á farsímagögnum</translation>
-<translation id="5638309510554459422">Þú finnur viðbætur og þemu í <ph name="BEGIN_LINK" />vefverslun Chrome<ph name="END_LINK" /></translation>
+<translation id="5638309510554459422">Þú finnur viðbætur og þemu í <ph name="BEGIN_LINK" />vefverslun Brave<ph name="END_LINK" /></translation>
 <translation id="5639549361331209298">Endurhlaða þessa síðu, haltu inni til að sjá fleiri valkosti</translation>
 <translation id="5640133431808313291">Stjórna öryggislyklum</translation>
 <translation id="5642508497713047">CRL-undirritun</translation>
@@ -3248,7 +3248,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5649053991847567735">Sjálfvirkt niðurhal</translation>
 <translation id="5653154844073528838">Þú ert með <ph name="PRINTER_COUNT" /> vistaða prentara.</translation>
 <translation id="5656845498778518563">Senda ábendingar til Google</translation>
-<translation id="5657667036353380798">Ytri viðbótin krefst útgáfu <ph name="MINIMUM_CHROME_VERSION" /> eða nýrri af Chrome til að hægt sé að setja hana upp.</translation>
+<translation id="5657667036353380798">Ytri viðbótin krefst útgáfu <ph name="MINIMUM_CHROME_VERSION" /> eða nýrri af Brave til að hægt sé að setja hana upp.</translation>
 <translation id="5658415415603568799">Smart Lock mun biðja þig um að færa inn aðgangsorðið þitt eftir 20 klukkustundir til að auka öryggið.</translation>
 <translation id="5659593005791499971">Netfang</translation>
 <translation id="5659833766619490117">Ekki var hægt að þýða þessa síðu</translation>
@@ -3284,7 +3284,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5704875434923668958">Samstillir við</translation>
 <translation id="5707185214361380026">Mistókst að hlaða viðbót frá:</translation>
 <translation id="5708171344853220004">Microsoft-aðalnefni</translation>
-<translation id="5709557627224531708">Stilltu Chrome sem sjálfgefinn vafra</translation>
+<translation id="5709557627224531708">Stilltu Brave sem sjálfgefinn vafra</translation>
 <translation id="5711983031544731014">Ekki tókst að opna. Sláðu inn aðgangsorðið þitt.</translation>
 <translation id="5713723565110096165">Rangt PIN-númer. Tilraunir eftir: <ph name="RETRIES" />.</translation>
 <translation id="5715711091495208045">Miðlari viðbótar: <ph name="PLUGIN_NAME" /></translation>
@@ -3325,7 +3325,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5774295353725270860">Opna skráaforritið</translation>
 <translation id="5774515636230743468">Upplýsingaskrá:</translation>
 <translation id="577624874850706961">Leita að fótsporum</translation>
-<translation id="5777468213129569553">Opna Chrome</translation>
+<translation id="5777468213129569553">Opna Brave</translation>
 <translation id="5778747455497889540">Hér fyrir neðan er aðgangsorð öruggrar einingar sem valið var af handahófi og úthlutað til tölvunnar þinnar:</translation>
 <translation id="5780011244986845107">Mappan sem þú valdir inniheldur viðkvæmar skrár. Ertu viss um að þú viljir veita „<ph name="APP_NAME" />“ varanlegan lesaðgang að þessari möppu?</translation>
 <translation id="5780973441651030252">Forgangur ferla</translation>
@@ -3334,13 +3334,13 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5782227691023083829">Þýðir...</translation>
 <translation id="5783602409389152506">meðan leitað er að tækjum...</translation>
 <translation id="57838592816432529">Þagga</translation>
-<translation id="5785583009707899920">Hjálparforrit Chrome fyrir skrár</translation>
+<translation id="5785583009707899920">Hjálparforrit Brave fyrir skrár</translation>
 <translation id="5787146423283493983">Lykilsamningur</translation>
 <translation id="5788367137662787332">Því miður tókst ekki að tengja að minnsta kosti eina sneið tækisins <ph name="DEVICE_LABEL" />.</translation>
 <translation id="5792728279623964091">Ýttu á aflrofann</translation>
 <translation id="5793339252089865437">Ef þú sækir uppfærsluna í gegnum farsímakerfi gætirðu þurft að greiða fyrir umframnotkun.</translation>
 <translation id="5794414402486823030">Opna alltaf með skoðara kerfis</translation>
-<translation id="5794786537412027208">Loka öllum Chrome forritum</translation>
+<translation id="5794786537412027208">Loka öllum Brave forritum</translation>
 <translation id="5797070761912323120">Google notar hugsanlega ferilinn þinn til að sérsníða leitina, auglýsingar og aðra þjónustu Google</translation>
 <translation id="579915268381781820">Öryggislykillinn var fjarlægður.</translation>
 <translation id="5799508265798272974">Sýndarvél Linux: <ph name="LINUX_VM_NAME" /></translation>
@@ -3437,9 +3437,9 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="5924047253200400718">Fá aðstoð<ph name="SCANNING_STATUS" /></translation>
 <translation id="5924527146239595929">Taktu nýja mynd eða veldu mynd eða tákn sem fyrir er.
     <ph name="LINE_BREAK" />
-    Þessi mynd birtist á innskráningarskjá og lásskjá Chromebook.</translation>
+    Þessi mynd birtist á innskráningarskjá og lásskjá Bravebook.</translation>
 <translation id="5925147183566400388">Vísun í verklagsyfirlýsingu vottunar</translation>
-<translation id="592880897588170157">Sækja PDF-skrár í stað þess að opna þær sjálfkrafa í Chrome</translation>
+<translation id="592880897588170157">Sækja PDF-skrár í stað þess að opna þær sjálfkrafa í Brave</translation>
 <translation id="5931146425219109062">Lesa og breyta öllum gögnum á vefsvæðum sem þú heimsækir</translation>
 <translation id="5932124097031739492">Linux var uppfært.</translation>
 <translation id="5932224571077948991">Vefsvæðið sýnir ágengar eða villandi auglýsingar.</translation>
@@ -3501,7 +3501,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6017514345406065928">Grænn</translation>
 <translation id="6020431688553761150">Þjónninn veitti þér ekki aðgang að þessu efni.</translation>
 <translation id="6022526133015258832">Opna á öllum skjánum</translation>
-<translation id="6022659036123304283">Gerðu Chrome að þínu</translation>
+<translation id="6022659036123304283">Gerðu Brave að þínu</translation>
 <translation id="6022705094403139349">Tilbúin(n) til að para öryggislykilinn þinn?</translation>
 <translation id="6023643151125006053">Kerfisstjóri <ph name="SAML_DOMAIN" /> læsti þessu tæki (raðnúmer: <ph name="SERIAL_NUMBER" />).</translation>
 <translation id="6025215716629925253">Staflarakning</translation>
@@ -3518,9 +3518,9 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6041155700700864984">Hætta að skoða á öllum skjánum</translation>
 <translation id="604124094241169006">Sjálfvirkt</translation>
 <translation id="6042308850641462728">Meira</translation>
-<translation id="6043317578411397101"><ph name="APP_NAME" /> deilir flipa í Chrome með <ph name="TAB_NAME" />.</translation>
+<translation id="6043317578411397101"><ph name="APP_NAME" /> deilir flipa í Brave með <ph name="TAB_NAME" />.</translation>
 <translation id="604388835206766544">Ekki tókst að þátta stillingu</translation>
-<translation id="6044805581023976844"><ph name="APP_NAME" /> deilir flipa og hljóði í Chrome með <ph name="TAB_NAME" />.</translation>
+<translation id="6044805581023976844"><ph name="APP_NAME" /> deilir flipa og hljóði í Brave með <ph name="TAB_NAME" />.</translation>
 <translation id="6049004884579590341">Haltu inni |<ph name="ACCELERATOR" />| til að hætta birtingu á öllum skjánum</translation>
 <translation id="6049065490165456785">Mynd úr innbyggðri myndavél</translation>
 <translation id="6051354611314852653">Úbbs! Kerfinu tókst ekki að heimila forritaskilaaðgang fyrir þetta tæki.</translation>
@@ -3585,7 +3585,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6124650939968185064">Eftirfarandi viðbætur reiða sig á þessa viðbót:</translation>
 <translation id="6124698108608891449">Þetta vefsvæði þarf fleiri heimildir.</translation>
 <translation id="6125479973208104919">Þú mun því miður þurfa að bæta reikningnum þínum aftur við þetta <ph name="DEVICE_TYPE" /> tæki.</translation>
-<translation id="6129691635767514872">Völdu gögnin hafa verið fjarlægð af Chrome og samstilltum tækjum. Google reikningurinn þinn kann að vera með annars konar vefskoðunarferil, svo sem yfir leit og virkni í annarri þjónustu Google, á <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" />.</translation>
+<translation id="6129691635767514872">Völdu gögnin hafa verið fjarlægð af Brave og samstilltum tækjum. Google reikningurinn þinn kann að vera með annars konar vefskoðunarferil, svo sem yfir leit og virkni í annarri þjónustu Google, á <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" />.</translation>
 <translation id="6129938384427316298">Athugasemd Netscape-vottorðs</translation>
 <translation id="6129953537138746214">Bil</translation>
 <translation id="6136114942382973861">Loka niðurhalsstiku</translation>
@@ -3593,7 +3593,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6138680304137685902">X9.62 ECDSA undirskrift með SHA-384</translation>
 <translation id="6141988275892716286">Staðfesta niðurhal</translation>
 <translation id="6143186082490678276">Fá hjálp</translation>
-<translation id="6144938890088808325">Hjálpaðu okkur að bæta Chromebook</translation>
+<translation id="6144938890088808325">Hjálpaðu okkur að bæta Bravebook</translation>
 <translation id="614611931938947795">Þessi skrá er of stór fyrir skönnun í skýi og því var lokað á opnun hennar.</translation>
 <translation id="6147020289383635445">Prentforskoðun mistókst.</translation>
 <translation id="6148576794665275391">Opna núna</translation>
@@ -3613,7 +3613,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6163522313638838258">Stækka allt...</translation>
 <translation id="6164005077879661055">Öllum skrám og staðbundnum gögnum sem tengjast stýrða notandanum verður eytt fyrir fullt og allt þegar stýrði notandinn er fjarlægður. Heimsótt vefsvæði og stillingar þessa stýrða notanda verða hugsanlega áfram sýnileg stjórnandanum á <ph name="MANAGEMENT_URL" />.</translation>
 <translation id="6165508094623778733">Frekari upplýsingar</translation>
-<translation id="6166185671393271715">Flytja inn aðgangsorð í Chrome</translation>
+<translation id="6166185671393271715">Flytja inn aðgangsorð í Brave</translation>
 <translation id="6169040057125497443">Athugaðu hljóðnemann.</translation>
 <translation id="6169666352732958425">Ekki er hægt að senda út skjáborð.</translation>
 <translation id="6170470584681422115">Samloka</translation>
@@ -3709,7 +3709,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6308493641021088955">Innskráning veitt af <ph name="EXTENSION_NAME" /></translation>
 <translation id="6308937455967653460">Vista tengil sem...</translation>
 <translation id="6309510305002439352">Slökkt á hljóðnema</translation>
-<translation id="6311220991371174222">Gat ekki ræst Chrome þar sem eitthvað fór úrskeiðis við að opna prófílinn þinn. Prófaðu að endurræsa Chrome.</translation>
+<translation id="6311220991371174222">Gat ekki ræst Brave þar sem eitthvað fór úrskeiðis við að opna prófílinn þinn. Prófaðu að endurræsa Brave.</translation>
 <translation id="6312403991423642364">Óþekkt netvilla</translation>
 <translation id="6313641880021325787">LOKA SÝNDARVERULEIKA</translation>
 <translation id="6314819609899340042">Þú hefur gert eiginleika villuleitar virka í þessu <ph name="IDS_SHORT_PRODUCT_NAME" /> tæki.</translation>
@@ -3720,15 +3720,15 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6317608858038767920">Sérstilltur nafnaþjónn <ph name="INPUT_INDEX" /></translation>
 <translation id="6318407754858604988">Niðurhal hafið</translation>
 <translation id="6318944945640833942">Ekki tókst að greina prentara. Sláðu veffang prentara inn aftur.</translation>
-<translation id="6322653941595359182">Sendu og taktu á móti textaskilaboðum frá Chromebook tækinu þínu</translation>
+<translation id="6322653941595359182">Sendu og taktu á móti textaskilaboðum frá Bravebook tækinu þínu</translation>
 <translation id="6324916366299863871">Breyta flýtileið</translation>
 <translation id="6325191661371220117">Slökkva á sjálfvirkri ræsingu</translation>
-<translation id="6326175484149238433">Fjarlægja úr Chrome</translation>
+<translation id="6326175484149238433">Fjarlægja úr Brave</translation>
 <translation id="6326855256003666642">Fjöldi sem heldur viðbót virkri</translation>
 <translation id="6327785803543103246">Sjálfvirk uppgötvun vefstaðgengilsþjóna</translation>
 <translation id="6333064448949140209">Skráin verður send til villuleitar hjá Google</translation>
 <translation id="6339668969738228384">Stofna nýjan prófíl fyrir <ph name="USER_EMAIL_ADDRESS" /></translation>
-<translation id="6340017061976355871">Ekki tókst að tengjast þjóninum. Athugaðu nettenginguna og reyndu aftur. Ef vandinn er viðvarandi skaltu endurræsa Chromebook.</translation>
+<translation id="6340017061976355871">Ekki tókst að tengjast þjóninum. Athugaðu nettenginguna og reyndu aftur. Ef vandinn er viðvarandi skaltu endurræsa Bravebook.</translation>
 <translation id="6340071272923955280">Internet Printing Protocol (IPPS)</translation>
 <translation id="6340526405444716530">Sérstillingar</translation>
 <translation id="6341850831632289108">Greina raunstaðsetningu þína</translation>
@@ -3783,7 +3783,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6418511932144861495">Setja upp mikilvæga uppfærslu</translation>
 <translation id="6419546358665792306">Hlaða afpakkaða viðbót</translation>
 <translation id="642469772702851743">Eigandinn læsti þessu tæki (raðnúmer: <ph name="SERIAL_NUMBER" />).</translation>
-<translation id="6426200009596957090">Opna ChromeVox stillingar</translation>
+<translation id="6426200009596957090">Opna BraveVox stillingar</translation>
 <translation id="6428450836711225518">Staðfestu símanúmerið þitt</translation>
 <translation id="6429384232893414837">Villa við uppfærslu</translation>
 <translation id="6430814529589430811">Base64-kóðað ASCII, stakt vottorð</translation>
@@ -3840,7 +3840,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6508248480704296122">Tengist <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Forrit: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Margmiðlunarleyfi</translation>
-<translation id="6513247462497316522">Google Chrome notar farsímagögn ef þú ert ekki með tengingu við annað net.</translation>
+<translation id="6513247462497316522">Brave notar farsímagögn ef þú ert ekki með tengingu við annað net.</translation>
 <translation id="6514010653036109809">Tiltækt tæki:</translation>
 <translation id="6514565641373682518">Þessi síða hefur gert músarbendilinn óvirkan.</translation>
 <translation id="6518014396551869914">Afrita m&amp;ynd</translation>
@@ -3853,7 +3853,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6527303717912515753">Deila</translation>
 <translation id="6528189551082329571">Opna alltaf tengla af þessari tegund í tengda forritinu</translation>
 <translation id="6528513914570774834">Heimila öðrum notendum tækisins að nota þetta netkerfi</translation>
-<translation id="652948702951888897">Chrome ferill</translation>
+<translation id="652948702951888897">Brave ferill</translation>
 <translation id="6530186581263215931">Kerfisstjórinn valdi þessar stillingar</translation>
 <translation id="6531282281159901044">Halda hættulegri skrá</translation>
 <translation id="6532101170117367231">Vista í Google Drive</translation>
@@ -3929,7 +3929,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="665061930738760572">Opna í &amp;nýjum glugga</translation>
 <translation id="6651237644330755633">Treysta þessu vottorði til að auðkenna vefsvæði</translation>
 <translation id="6651823585377804376">Niðurhal inniheldur spilliforrit.</translation>
-<translation id="665355505818177700">Samþætting Chrome <ph name="MS_AD_NAME" /> er aðeins studd í x86_64 kerfum. Chromebook tæki sem eru byggð á ARM- eða x86-kerfi styðja ekki þennan eiginleika.</translation>
+<translation id="665355505818177700">Samþætting Brave <ph name="MS_AD_NAME" /> er aðeins studd í x86_64 kerfum. Bravebook tæki sem eru byggð á ARM- eða x86-kerfi styðja ekki þennan eiginleika.</translation>
 <translation id="6655190889273724601">Forritarastilling</translation>
 <translation id="6655458902729017087">Fela reikninga</translation>
 <translation id="6657585470893396449">Aðgangsorð</translation>
@@ -3958,7 +3958,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6697492270171225480">Birta tillögur að svipuðum síðum þegar síða finnst ekki</translation>
 <translation id="6697690052557311665">Hægrismelltu á möppu í Files forritinu og veldu „Deila með Linux“ til að deila.</translation>
 <translation id="6698810901424468597">Lesa og breyta gögnunum þínum á <ph name="WEBSITE_1" /> og <ph name="WEBSITE_2" /></translation>
-<translation id="6699883973579689168">Nú geturðu haft umsjón með öllum Google reikningunum þínum á einum stað. Aðgangur og heimildir sem þú hefur veitt forritum, vefsvæðum og viðbótum í Chrome og Google Play geta nú gilt á öllum innskráðum reikningum þínum. <ph name="LINK_BEGIN" />Frekari upplýsingar<ph name="LINK_END" /></translation>
+<translation id="6699883973579689168">Nú geturðu haft umsjón með öllum Google reikningunum þínum á einum stað. Aðgangur og heimildir sem þú hefur veitt forritum, vefsvæðum og viðbótum í Brave og Google Play geta nú gilt á öllum innskráðum reikningum þínum. <ph name="LINK_BEGIN" />Frekari upplýsingar<ph name="LINK_END" /></translation>
 <translation id="6700480081846086223">Senda út <ph name="HOST_NAME" /></translation>
 <translation id="6701535245008341853">Ekki var hægt að sækja snið.</translation>
 <translation id="6702639462873609204">Br&amp;eyta...</translation>
@@ -4037,7 +4037,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6817174620439930047">Spyrja þegar vefsvæði vill nota frátekin kerfisskilaboð til að fá aðgang að MIDI-tækjum (ráðlagt)</translation>
 <translation id="6818198425579322765">Tungumál síðu sem þýða á af</translation>
 <translation id="682123305478866682">Senda út skjáborð</translation>
-<translation id="6823506025919456619">Þú þarft að skrá þig inn í Chrome til að sjá tækin þín</translation>
+<translation id="6823506025919456619">Þú þarft að skrá þig inn í Brave til að sjá tækin þín</translation>
 <translation id="6824564591481349393">Afrita n&amp;etfang</translation>
 <translation id="6824584962142919697">&amp;Kanna einingar</translation>
 <translation id="6825184156888454064">Raða eftir heiti</translation>
@@ -4058,7 +4058,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6841186874966388268">Villur</translation>
 <translation id="6843423766595476978">Ok Google er tilbúið</translation>
 <translation id="6845038076637626672">Opna stækkað</translation>
-<translation id="6845325883481699275">Hjálpaðu til við að bæta öryggi Chrome</translation>
+<translation id="6845325883481699275">Hjálpaðu til við að bæta öryggi Brave</translation>
 <translation id="6848388270925200958">Eins og er ertu með einhver kort sem aðeins er hægt að nota í þessu tæki</translation>
 <translation id="6850286078059909152">Textalitur</translation>
 <translation id="6851497530878285708">Forrit virkt</translation>
@@ -4163,7 +4163,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="7000206553895739324">Prentarinn <ph name="PRINTER_NAME" /> er tengdur en hann þarfnast stillingar</translation>
 <translation id="7000347579424117903">Hafðu Ctrl, Alt eða Search með</translation>
 <translation id="7001036685275644873">Afritar Linux-forrit og -skrár</translation>
-<translation id="7002055706763150362">Til að setja upp Smart Lock fyrir Chromebook þarf Google að ganga úr skugga um að þetta sért þú. Sláðu inn aðgangsorðið þitt til að hefjast handa.</translation>
+<translation id="7002055706763150362">Til að setja upp Smart Lock fyrir Bravebook þarf Google að ganga úr skugga um að þetta sért þú. Sláðu inn aðgangsorðið þitt til að hefjast handa.</translation>
 <translation id="7003339318920871147">Vefgagnagrunnar</translation>
 <translation id="7003723821785740825">Setja upp fljótlegri aðferð til að taka tækið úr lás</translation>
 <translation id="7003844668372540529">Óþekkt vara <ph name="PRODUCT_ID" /> frá <ph name="VENDOR_NAME" /></translation>
@@ -4222,7 +4222,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="708060913198414444">A&amp;frita slóð hljóðs</translation>
 <translation id="7081952801286122383">Huliðsstilling er virk</translation>
 <translation id="708278670402572152">Aftengdu net til að leita</translation>
-<translation id="7085389578340536476">Viltu leyfa Chrome að taka upp hljóð?</translation>
+<translation id="7085389578340536476">Viltu leyfa Brave að taka upp hljóð?</translation>
 <translation id="7088434364990739311">Ekki tókst að ræsa leit að uppfærslum (villukóði <ph name="ERROR" />).</translation>
 <translation id="7088561041432335295">Zip Archiver – opnar og pakkar ZIP-skrám í skráaforritinu.</translation>
 <translation id="7088674813905715446">Stjórnandi hefur sett þetta tæki í óúthlutaða stöðu. Til að gera það virkt fyrir skráningu skaltu fá stjórnandann til að breyta stöðu þess í biðstöðu.</translation>
@@ -4317,7 +4317,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="722055596168483966">Sérsníða þjónustu Google</translation>
 <translation id="7221855153210829124">Sýna tilkynningar</translation>
 <translation id="7221869452894271364">Endurhlaða þessa síðu</translation>
-<translation id="7222204278952406003">Chrome er sjálfgefni vafrinn þinn</translation>
+<translation id="7222204278952406003">Brave er sjálfgefni vafrinn þinn</translation>
 <translation id="7222232353993864120">Netfang</translation>
 <translation id="7225179976675429563">Tegund nets vantar</translation>
 <translation id="7227028316978186866"><ph name="DEVICE_NAME" /> (söluaðili: <ph name="VENDOR_ID" />, vara: <ph name="PRODUCT_ID" />)</translation>
@@ -4361,7 +4361,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="727441411541283857"><ph name="PERCENTAGE" />% – <ph name="TIME" /> í fulla hleðslu</translation>
 <translation id="727952162645687754">Niðurhalsvilla</translation>
 <translation id="7279701417129455881">Stjórna útilokun fótspora...</translation>
-<translation id="7280041992884344566">Villa kom upp þegar Chrome leitaði að skaðlegum hugbúnaði</translation>
+<translation id="7280041992884344566">Villa kom upp þegar Brave leitaði að skaðlegum hugbúnaði</translation>
 <translation id="7280649757394340890">Raddstillingar talgervils</translation>
 <translation id="7280877790564589615">Heimildar krafist</translation>
 <translation id="7282992757463864530">Upplýsingastika</translation>
@@ -4379,7 +4379,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="729761647156315797">Veldu tungumál og lyklaborð</translation>
 <translation id="7297726121602187087">Dökkgrænn</translation>
 <translation id="7299337219131431707">Virkja gestastillingu</translation>
-<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{Þetta forrit gæti komið í veg fyrir að Chrome virki rétt.}one{Þessi forrit gætu komið í veg fyrir að Chrome virki rétt.}other{Þessi forrit gætu komið í veg fyrir að Chrome virki rétt.}}</translation>
+<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{Þetta forrit gæti komið í veg fyrir að Brave virki rétt.}one{Þessi forrit gætu komið í veg fyrir að Brave virki rétt.}other{Þessi forrit gætu komið í veg fyrir að Brave virki rétt.}}</translation>
 <translation id="7303281435234579599">Úbbs! Eitthvað fór úrskeiðis þegar prufustillingin var sett upp.</translation>
 <translation id="7303900363563182677">Komið var í veg fyrir að þetta vefsvæði sjái texta og myndir sem þú afritar á klippiborðið</translation>
 <translation id="7305123176580523628">USB-prentari er tengdur</translation>
@@ -4430,7 +4430,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="7375053625150546623">EAP</translation>
 <translation id="7376553024552204454">Auðkenna músarbendilinn þegar hann hreyfist</translation>
 <translation id="7377451353532943397">Halda áfram að loka á aðgang að skynjurum</translation>
-<translation id="73786666777299047">Opna vefverslun Chrome</translation>
+<translation id="73786666777299047">Opna vefverslun Brave</translation>
 <translation id="7378812711085314936">Koma á gagnatengingu</translation>
 <translation id="7378962964415201590">Para nýjan síma</translation>
 <translation id="7380768571499464492">Uppfært <ph name="PRINTER_NAME" /></translation>
@@ -4549,7 +4549,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="756445078718366910">Opna vafraglugga</translation>
 <translation id="7564847347806291057">Stöðva ferli</translation>
 <translation id="7566118625369982896">Umsjón með forritatenglum í Play</translation>
-<translation id="756809126120519699">Chrome gögnum eytt</translation>
+<translation id="756809126120519699">Brave gögnum eytt</translation>
 <translation id="7568790562536448087">Uppfærir</translation>
 <translation id="7569983096843329377">Svartur</translation>
 <translation id="7571643774869182231">Ekki nægt geymslurými fyrir uppfærslu</translation>
@@ -4562,7 +4562,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="7582582252461552277">Kjósa þetta net</translation>
 <translation id="7583948862126372804">Fjöldi</translation>
 <translation id="7584578941316704630">Skanna fyrir opnun?</translation>
-<translation id="7586498138629385861">Chrome verður áfram í gangi á meðan Chrome forrit eru opin.</translation>
+<translation id="7586498138629385861">Brave verður áfram í gangi á meðan Brave forrit eru opin.</translation>
 <translation id="7589461650300748890">Hægan, gæðingur! Gættu þín.</translation>
 <translation id="7593653750169415785">Útilokað sjálfkrafa vegna þess að þú hafnaðir tilkynningum í nokkur skipti</translation>
 <translation id="7595453277607160340">Skráðu þig inn aftur og uppfærðu til að nota Android forrit og tryggja að <ph name="DEVICE_TYPE" /> haldi áfram að virka rétt.</translation>
@@ -4621,7 +4621,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="767127784612208024">Snertu til að staðfesta endurstillingu</translation>
 <translation id="7672520070349703697"><ph name="HUNG_IFRAME_URL" />, á <ph name="PAGE_TITLE" />.</translation>
 <translation id="7676867886086876795">Sendu rödd þína til Google til að bjóða upp á upplestur fyrir hvaða textareit sem er.</translation>
-<translation id="7678280409648629969">Innskráningarupplýsingar verða geymdar í Chrome þegar þú hefur lokað huliðsstillingunni. Það gerir þér kleift að nota snertiauðkenni aftur á þessu vefsvæði.</translation>
+<translation id="7678280409648629969">Innskráningarupplýsingar verða geymdar í Brave þegar þú hefur lokað huliðsstillingunni. Það gerir þér kleift að nota snertiauðkenni aftur á þessu vefsvæði.</translation>
 <translation id="7681095912841365527">Vefsvæði getur notað Bluetooth</translation>
 <translation id="7683373461016844951">Ýttu á Í lagi til að halda áfram og ýttu á Bæta notanda við til að búa til nýjan prófíl fyrir netfangið þitt hjá <ph name="DOMAIN" />.</translation>
 <translation id="7684212569183643648">Kerfisstjórinn þinn setti upp</translation>
@@ -4669,7 +4669,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="7737456446569756884">Þetta tæki fær sjálfvirkar hugbúnaðar- og öryggisuppfærslur þar til <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Venjulegt</translation>
 <translation id="7744047395460924128">Sjá prentferilinn þinn</translation>
-<translation id="7746457520633464754">Til að greina hættuleg forrit og vefsvæði sendir Chrome vefslóðir einhverra síðna sem þú skoðar, kerfisupplýsingar og efni síðu til Google.</translation>
+<translation id="7746457520633464754">Til að greina hættuleg forrit og vefsvæði sendir Brave vefslóðir einhverra síðna sem þú skoðar, kerfisupplýsingar og efni síðu til Google.</translation>
 <translation id="7750228210027921155">Mynd í mynd</translation>
 <translation id="7751260505918304024">Sýna allt</translation>
 <translation id="7754704193130578113">Spyrja hvar á að vista hverja skrá áður en niðurhal hefst</translation>
@@ -4687,7 +4687,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="7771452384635174008">Útlit</translation>
 <translation id="7772032839648071052">Staðfestu aðgangsorðið</translation>
 <translation id="7772127298218883077">Um <ph name="PRODUCT_NAME" /></translation>
-<translation id="7772773261844472235">Sjáðu stöðuna á Chromebook</translation>
+<translation id="7772773261844472235">Sjáðu stöðuna á Bravebook</translation>
 <translation id="7773726648746946405">Lotugeymsla</translation>
 <translation id="7774365994322694683">Fugl</translation>
 <translation id="7776701556330691704">Engar raddir fundust</translation>
@@ -4702,7 +4702,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="7786207843293321886">Loka gestastillingu</translation>
 <translation id="7786889348652477777">Endu&amp;rhlaða forrit</translation>
 <translation id="7787308148023287649">Sýna á öðrum skjá</translation>
-<translation id="7788298548579301890">Annað forrit í tölvunni þinni bætti við forriti sem gæti breytt því hvernig Chrome virkar.
+<translation id="7788298548579301890">Annað forrit í tölvunni þinni bætti við forriti sem gæti breytt því hvernig Brave virkar.
 
 
 <ph name="EXTENSION_NAME" /></translation>
@@ -4727,7 +4727,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="7817361223956157679">Skjályklaborðið virkar ekki í Linux-forritum enn sem komið er</translation>
 <translation id="7818135753970109980">Nýju þema bætt við (<ph name="EXTENSION_NAME" />)</translation>
 <translation id="7819857487979277519">PSK (WPA eða RSN)</translation>
-<translation id="7819992334107904369">Chrome samstilling</translation>
+<translation id="7819992334107904369">Brave samstilling</translation>
 <translation id="782057141565633384">A&amp;frita slóð myndskeiðs</translation>
 <translation id="7824864914877854148">Villa kom í veg fyrir að hægt væri að ljúka afritun</translation>
 <translation id="782590969421016895">Nota núverandi síður</translation>
@@ -4763,7 +4763,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="7837776265184002579">Heimasíðu var breytt í <ph name="URL" />.</translation>
 <translation id="7839051173341654115">Skoða/afrita efni</translation>
 <translation id="7839192898639727867">Lykilauðkenni viðfangs vottorðs</translation>
-<translation id="7842692330619197998">Farðu á g.co/ChromeEnterpriseAccount ef þú þarft að búa til nýjan reikning.</translation>
+<translation id="7842692330619197998">Farðu á g.co/BraveEnterpriseAccount ef þú þarft að búa til nýjan reikning.</translation>
 <translation id="7844553762889824470">Auðkenndu það sem þú vilt heyra og ýttu svo á leitarlykilinn + S. Þú getur líka haldið inni leitarlyklinum eða ýtt á táknið fyrir textaupplestur hjá prófílmyndinni þinni til að velja.</translation>
 <translation id="7844992432319478437">Uppfærir breytingaskrá</translation>
 <translation id="7846634333498149051">Lyklaborð</translation>
@@ -4784,7 +4784,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="786957569166715433"><ph name="DEVICE_NAME" /> – parað</translation>
 <translation id="7870730066603611552">Fara yfir samstillingarkosti eftir uppsetningu</translation>
 <translation id="7870790288828963061">Engin sjálfsalaforrit í nýrri útgáfu fundust. Ekkert til að uppfæra. Fjarlægðu USB-lykilinn.</translation>
-<translation id="7874257161694977650">Bakgrunnar Chrome</translation>
+<translation id="7874257161694977650">Bakgrunnar Brave</translation>
 <translation id="7877451762676714207">Óþekkt villa á þjóni. Reyndu aftur eða hafðu samband við stjórnanda netþjónsins.</translation>
 <translation id="7877680364634660272">Kynning</translation>
 <translation id="7878562273885520351">Aðgangsorðinu þínu kann að hafa verið stolið</translation>
@@ -4890,7 +4890,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8008356846765065031">Engin nettenging. Kannaðu tenginguna við internetið.</translation>
 <translation id="8009225694047762179">Stjórna aðgangsorðum</translation>
 <translation id="8012647001091218357">Okkur tókst ekki að ná í foreldra þína á þessari stundu. Reyndu aftur.</translation>
-<translation id="8013993649590906847">Ef gagnlega lýsingu vantar við mynd reynir Chrome að útvega þér lýsingu. Til að búa til lýsingar eru myndir sendar til Google.</translation>
+<translation id="8013993649590906847">Ef gagnlega lýsingu vantar við mynd reynir Brave að útvega þér lýsingu. Til að búa til lýsingar eru myndir sendar til Google.</translation>
 <translation id="8014154204619229810">Uppsetningarforritið er í gangi. Endurnýjaðu eftir smástund til að athuga aftur.</translation>
 <translation id="8014206674403687691"><ph name="IDS_SHORT_PRODUCT_NAME" /> er ófært um að skipta aftur yfir í fyrri uppsetta útgáfu. Prófaðu að djúphreinsa tækið þitt aftur.</translation>
 <translation id="8015163965024115122">Þú hefur náð hámarkinu sem foreldri þitt stillti fyrir forritið <ph name="IDS_SHORT_PRODUCT_NAME" /> eða <ph name="IDS_SHORT_PRODUCT_NAME" />.</translation>
@@ -4898,7 +4898,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8017679124341497925">Flýtileið breytt</translation>
 <translation id="8018313076035239964">Stjórna því hvaða upplýsingar vefsvæði geta notað og hvaða efni þau geta sýnt þér</translation>
 <translation id="8023801379949507775">Uppfæra viðbætur núna</translation>
-<translation id="8024483450737722621">Forritum sem þú hefur sótt með Google Play verður eytt úr þessari Chromebook tölvu.
+<translation id="8024483450737722621">Forritum sem þú hefur sótt með Google Play verður eytt úr þessari Bravebook tölvu.
       <ph name="LINE_BREAKS1" />
       Efni sem þú hefur keypt eins og kvikmyndum, sjónvarpsþáttum, tónlist, bókum eða öðrum innkaupum í forritum verður einnig eytt.
       <ph name="LINE_BREAKS2" />
@@ -4970,7 +4970,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8116972784401310538">&amp;Bókamerkjastjórnun</translation>
 <translation id="8117620576188476503">Stjórnaðu tengingum, uppfærslum og stillingum með stöðusvæðinu. Ýttu á Alt + Shift + S til að gera þetta með lyklaborðinu.</translation>
 <translation id="8118076340394175570">Fyrirtækið þitt krefst þess að þetta tæki sé uppfært</translation>
-<translation id="8118362518458010043">Chrome slökkti á viðbótinni þar sem hún kann að vera ótraust.</translation>
+<translation id="8118362518458010043">Brave slökkti á viðbótinni þar sem hún kann að vera ótraust.</translation>
 <translation id="8118488170956489476"><ph name="BEGIN_LINK" />Vafranum er stjórnað<ph name="END_LINK" /> af fyrirtækinu þínu</translation>
 <translation id="8118860139461251237">Stjórna niðurhali</translation>
 <translation id="8123590694679414600">Gögnin voru dulkóðuð með samstillingaraðgangsorðinu þínu
@@ -5196,7 +5196,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8455026683977728932">Mistókst að virkja ADB-skýringarmynd</translation>
 <translation id="845702320058262034">Ekki tókst að tengjast. Gakktu úr skugga um að kveikt sé á Bluetooth í símanum.</translation>
 <translation id="8457451314607652708">Flytja bókamerki inn</translation>
-<translation id="8460336040822756677">Ef þú slekkur á Smart Lock fyrir <ph name="DEVICE_TYPE" /> geturðu ekki notað símann til að taka Chrome tækin þín úr lás. Þú þarft að slá inn aðgangsorðið þitt.</translation>
+<translation id="8460336040822756677">Ef þú slekkur á Smart Lock fyrir <ph name="DEVICE_TYPE" /> geturðu ekki notað símann til að taka Brave tækin þín úr lás. Þú þarft að slá inn aðgangsorðið þitt.</translation>
 <translation id="8461329675984532579">Heiti heimaveitu</translation>
 <translation id="84613761564611563">Beðið um notendaviðmót netkerfis, augnablik...</translation>
 <translation id="8461914792118322307">Proxy-þjónn</translation>
@@ -5213,7 +5213,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8470513973197838199">Vistuð aðgangsorð fyrir <ph name="ORIGIN" /></translation>
 <translation id="8472623782143987204">vélbúnaður</translation>
 <translation id="8473863474539038330">Heimilisföng og fleira</translation>
-<translation id="8475313423285172237">Annað forrit í tölvunni þinni bætti við viðbót sem gæti breytt því hvernig Chrome virkar.</translation>
+<translation id="8475313423285172237">Annað forrit í tölvunni þinni bætti við viðbót sem gæti breytt því hvernig Brave virkar.</translation>
 <translation id="8477241577829954800">Leyst af hólmi</translation>
 <translation id="8477384620836102176">Almennt</translation>
 <translation id="8480082892550707549">Jafnvel þótt þú hafir sótt skrár frá þessu vefsvæði áður kann vefsvæðið að vera ótraust í augnablikinu (ef brotist hefur verið inn á það). Prófaðu að sækja þessa skrá síðar.</translation>
@@ -5226,7 +5226,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8496717697661868878">Keyra þessa viðbót</translation>
 <translation id="8497219075884839166">Windows-hjálparforrit</translation>
 <translation id="8498214519255567734">Gerðu þér auðveldara að skoða og lesa á skjáinn í lítilli birtu</translation>
-<translation id="8498395510292172881">Halda áfram að lesa í Chrome</translation>
+<translation id="8498395510292172881">Halda áfram að lesa í Brave</translation>
 <translation id="8500234928660943538">Rangt PUK-númer. Tilraunir eftir: <ph name="RETRIES" />.</translation>
 <translation id="8502536196501630039">Áður en þú getur notað forrit af Google Play þarftu að endurheimta forritin þín. Einhver gögn gætu hafa glatast.</translation>
 <translation id="8503813439785031346">Notandanafn</translation>
@@ -5273,7 +5273,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8565650234829130278">Tilraun til að niðurfæra forrit.</translation>
 <translation id="8569682776816196752">Engir áfangastaðir fundust</translation>
 <translation id="8571213806525832805">Síðastliðnar fjórar vikur</translation>
-<translation id="8573403125070227391">Þessi auglýsing notar of mikið af gögnum fyrir tækið þitt, þannig að Chrome fjarlægði hana.</translation>
+<translation id="8573403125070227391">Þessi auglýsing notar of mikið af gögnum fyrir tækið þitt, þannig að Brave fjarlægði hana.</translation>
 <translation id="8574990355410201600">Leyfa alltaf hljóð á <ph name="HOST" /></translation>
 <translation id="8575286410928791436">Haltu <ph name="KEY_EQUIVALENT" /> inni til að hætta</translation>
 <translation id="8578639784464423491">Má ekki vera lengra en 99 stafir</translation>
@@ -5291,7 +5291,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8597845839771543242">Snið eigindar:</translation>
 <translation id="8598453409908276158">Lokað á óafmarkaða viðbót</translation>
 <translation id="8601206103050338563">Auðkenning TLS WWW-biðlara</translation>
-<translation id="8602851771975208551">Annað forrit í tölvunni þinni bætti við forriti sem gæti breytt því hvernig Chrome virkar.</translation>
+<translation id="8602851771975208551">Annað forrit í tölvunni þinni bætti við forriti sem gæti breytt því hvernig Brave virkar.</translation>
 <translation id="8605428685123651449">SQLite-minni</translation>
 <translation id="8606726445206553943">Nota MIDI-tækin þín</translation>
 <translation id="8608618451198398104">Bæta við Kerberos-miða</translation>
@@ -5303,7 +5303,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8620436878122366504">Foreldrar þínir hafa enn ekki samþykkt þetta</translation>
 <translation id="8620617069779373398">Reikistaða</translation>
 <translation id="8620765578342452535">Stilla nettengingar</translation>
-<translation id="8621866727807194849">Skaðlegur hugbúnaður er á tölvunni þinni. Chrome er að fjarlægja hann, endurheimta stillingar þínar og gera viðbætur óvirkar. Þetta lætur vafrann virka aftur eins og ætla skyldi.</translation>
+<translation id="8621866727807194849">Skaðlegur hugbúnaður er á tölvunni þinni. Brave er að fjarlægja hann, endurheimta stillingar þínar og gera viðbætur óvirkar. Þetta lætur vafrann virka aftur eins og ætla skyldi.</translation>
 <translation id="8621979332865976405">Deildu öllum skjánum</translation>
 <translation id="862542460444371744">Viðbætur</translation>
 <translation id="862727964348362408">Í bið</translation>
@@ -5313,7 +5313,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8631032106121706562">Baldursbrá</translation>
 <translation id="863109444997383731">Komið verður í veg fyrir að vefsvæði geti beðið um að birta tilkynningar. Ef vefsvæði biður um að birta tilkynningar birtist útilokunartákn á veffangastikunni.</translation>
 <translation id="8635628933471165173">Endurhleður...</translation>
-<translation id="8637542770513281060">Tölvan inniheldur örugga einingu sem er notuð til að innleiða fjölda mikilvægra öryggiseiginleika í Chrome OS. Farðu í hjálparmiðstöð Chromebook til að fá frekari upplýsingar: https://support.google.com/chromebook/?p=sm</translation>
+<translation id="8637542770513281060">Tölvan inniheldur örugga einingu sem er notuð til að innleiða fjölda mikilvægra öryggiseiginleika í Chrome OS. Farðu í hjálparmiðstöð Bravebook til að fá frekari upplýsingar: https://support.google.com/chromebook/?p=sm</translation>
 <translation id="8637688295594795546">Kerfisuppfærsla í boði. Undirbýr niðurhal…</translation>
 <translation id="8639047128869322042">Leitar að skaðlegum hugbúnaði...</translation>
 <translation id="8639391553632924850"><ph name="INPUT_LABEL" /> – gátt</translation>
@@ -5339,7 +5339,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8662795692588422978">Fólk</translation>
 <translation id="8662811608048051533">Skráir þig út af flestum vefsvæðum.</translation>
 <translation id="8662911384982557515">Breyta heimasíðunni þinni í: <ph name="HOME_PAGE" /></translation>
-<translation id="8662978096466608964">Chrome getur ekki valið veggfóður.</translation>
+<translation id="8662978096466608964">Brave getur ekki valið veggfóður.</translation>
 <translation id="8663099077749055505">Alltaf loka á sjálfvirkt niðurhal margra skráa á <ph name="HOST" /></translation>
 <translation id="8664389313780386848">Skoða frumkóða síðu</translation>
 <translation id="8665180165765946056">Afritun lokið</translation>
@@ -5420,7 +5420,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8761945298804995673">Þessi notandi er þegar til</translation>
 <translation id="8762886931014513155">Uppfæra þarf <ph name="DEVICE_TYPE" /></translation>
 <translation id="8763927697961133303">USB-tæki</translation>
-<translation id="8767621466733104912">Uppfæra Chrome sjálfkrafa fyrir alla notendur</translation>
+<translation id="8767621466733104912">Uppfæra Brave sjálfkrafa fyrir alla notendur</translation>
 <translation id="8770406935328356739">Rótarmappa viðbóta</translation>
 <translation id="8770507190024617908">Vinna með einstaklinga</translation>
 <translation id="8771300903067484968">Bakgrunnur upphafssíðu hefur verið endurstilltur á sjálfgefinn bakgrunn.</translation>
@@ -5491,7 +5491,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="885246833287407341">Breytur fyrir föll forritaskila</translation>
 <translation id="8853586775156634952">Þetta kort verður aðeins vistað í þessu tæki</translation>
 <translation id="8855501062415172277"><ph name="FILE_NAME" /> inniheldur viðkvæmt efni.</translation>
-<translation id="8855977033756560989">Chrome Enterprise uppfærslan fylgir með þessu Chromebook Enterprise tæki. Til að nýta fyrirtækjaeiginleika skaltu skrá tækið með reikningi Google stjórnanda.</translation>
+<translation id="8855977033756560989">Brave Enterprise uppfærslan fylgir með þessu Bravebook Enterprise tæki. Til að nýta fyrirtækjaeiginleika skaltu skrá tækið með reikningi Google stjórnanda.</translation>
 <translation id="885701979325669005">Geymslurými</translation>
 <translation id="8859057652521303089">Veldu tungumál:</translation>
 <translation id="8859174528519900719">Undirrammi: <ph name="SUBFRAME_SITE" /></translation>
@@ -5594,7 +5594,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="899403249577094719">Grunnslóð Netscape-vottorðs</translation>
 <translation id="8995603266996330174">Stjórnað af <ph name="DOMAIN" /></translation>
 <translation id="8996526648899750015">Bæta við reikningi...</translation>
-<translation id="899657321862108550">Chrome fyrir þig, hvar sem þú ert</translation>
+<translation id="899657321862108550">Brave fyrir þig, hvar sem þú ert</translation>
 <translation id="899676909165543803">Fingrafaralesarinn er neðst til hægri á lyklaborðinu. Snertu hann laust með fingrinum.</translation>
 <translation id="8999560016882908256">Málskipunarvilla hluta: <ph name="ERROR_LINE" /></translation>
 <translation id="9003647077635673607">Leyfa á öllum vefsvæðum</translation>
@@ -5633,7 +5633,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="9050666287014529139">Aðgangsorð</translation>
 <translation id="9052208328806230490">Þú hefur skráð prentarana þína hjá <ph name="CLOUD_PRINT_NAME" /> með því að nota reikninginn <ph name="EMAIL" /></translation>
 <translation id="9052404922357793350">Halda áfram að útiloka</translation>
-<translation id="9053091947372579468">Tækinu þínu fylgir leyfi fyrir Chrome en notandanafnið þitt hefur ekki verið tengt við stjórnborð stjórnanda. Búðu til reikning fyrir stjórnborð stjórnanda til að halda áfram með skráninguna. Athugaðu að ef þú velur að nota þitt eigið lén til að búa til reikning fyrir stjórnborð stjórnanda þarftu að staðfesta lénið að skráningu lokinni. https://g.co/ChromeEnterpriseAccount</translation>
+<translation id="9053091947372579468">Tækinu þínu fylgir leyfi fyrir Brave en notandanafnið þitt hefur ekki verið tengt við stjórnborð stjórnanda. Búðu til reikning fyrir stjórnborð stjórnanda til að halda áfram með skráninguna. Athugaðu að ef þú velur að nota þitt eigið lén til að búa til reikning fyrir stjórnborð stjórnanda þarftu að staðfesta lénið að skráningu lokinni. https://g.co/BraveEnterpriseAccount</translation>
 <translation id="9053563360605707198">Prenta á báðum hliðum</translation>
 <translation id="9053893665344928494">Muna hvað ég valdi</translation>
 <translation id="9055636786322918818">Þvinga RC4-dulkóðun. Þessi valkostur felur í sér meiri áhættu, þar sem RC4-dulmálslyklar eru óöruggir.</translation>
@@ -5688,7 +5688,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="9131487537093447019">Senda skilaboð til Bluetooth-tækja og taka á móti skilaboðum frá þeim.</translation>
 <translation id="9137013805542155359">Sýna frumtexta</translation>
 <translation id="9137157311132182254">Valin leitarvél</translation>
-<translation id="9137248913990643158">Byrjaðu á að skrá þig inn á Chrome áður en þetta forrit er notað.</translation>
+<translation id="9137248913990643158">Byrjaðu á að skrá þig inn á Brave áður en þetta forrit er notað.</translation>
 <translation id="9137916601698928395">Opna tengil sem <ph name="USER" /></translation>
 <translation id="9138978632494473300">Bæta flýtileiðum við á eftirfarandi stöðum:</translation>
 <translation id="9140067245205650184">Þú ert að nota óstutt flagg fyrir eiginleika: <ph name="BAD_FLAG" />. Þetta kemur niður á stöðugleika og öryggi.</translation>
@@ -5710,7 +5710,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="916964310188958970">Hvers vegna þessi tillaga?</translation>
 <translation id="9169931577761441333">Bæta <ph name="APP_NAME" /> á heimaskjá</translation>
 <translation id="9170848237812810038">Aft&amp;urkalla</translation>
-<translation id="9170884462774788842">Annað forrit í tölvunni þinni bætti við þema sem gæti breytt því hvernig Chrome virkar.</translation>
+<translation id="9170884462774788842">Annað forrit í tölvunni þinni bætti við þema sem gæti breytt því hvernig Brave virkar.</translation>
 <translation id="9173995187295789444">Leitar að Bluetooth-tækjum...</translation>
 <translation id="9176476835295860688">Senda notkunar- og greiningargögn. Þetta tæki sendir núna sjálfkrafa greiningargögn, tækisgögn og upplýsingar um forritanotkun til Google. Þetta mun stuðla að því að bæta stöðugleika kerfa og forrita auk annarra endurbóta. Sum uppsöfnuð gögn munu einnig gagnast forritum og samstarfsaðilum Google, til dæmis þróunaraðilum Android. Eigandi valdi þessa <ph name="BEGIN_LINK1" />stillingu<ph name="END_LINK1" />. Ef kveikt er á ítarlegri vef- og forritavirkni geta þessi gögn verið vistuð á Google reikningnum þínum. <ph name="BEGIN_LINK2" />Frekari upplýsingar<ph name="END_LINK2" /></translation>
 <translation id="9176611096776448349"><ph name="WINDOW_TITLE" /> – Bluetooth-tæki tengt</translation>
@@ -5739,7 +5739,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="932508678520956232">Ekki var hægt að hefja prentun.</translation>
 <translation id="93343527085570547">Farðu á <ph name="BEGIN_LINK1" />hjálparsíðu lagalegra atriða<ph name="END_LINK1" /> til að fara fram á breytingar á efni af lagalegum ástæðum. Einhverjar reiknings- og kerfisupplýsingar kunna að verða sendar til Google. Við munum nota upplýsingarnar sem þú veitir okkur til að laga tæknileg vandamál og bæta þjónustu okkar, í samræmi við <ph name="BEGIN_LINK2" />persónuverndarstefnu<ph name="END_LINK2" /> okkar og <ph name="BEGIN_LINK3" />þjónustuskilmála<ph name="END_LINK3" />.</translation>
 <translation id="93393615658292258">Einungis aðgangsorð</translation>
-<translation id="934503638756687833">Atriði sem eru ekki talin upp hér verða einnig fjarlægð ef þörf krefur. Frekari upplýsingar um &lt;a href="<ph name="URL" />"&gt;vernd gegn óæskilegum hugbúnaði&lt;/a&gt; má finna í skýrslu um persónuvernd í Chrome.</translation>
+<translation id="934503638756687833">Atriði sem eru ekki talin upp hér verða einnig fjarlægð ef þörf krefur. Frekari upplýsingar um &lt;a href="<ph name="URL" />"&gt;vernd gegn óæskilegum hugbúnaði&lt;/a&gt; má finna í skýrslu um persónuvernd í Brave.</translation>
 <translation id="935490618240037774">Bókamerkin þín, ferillinn, aðgangsorðin og aðrar stillingar verða samstillt við Google reikninginn þinn svo að þú getir notað þau í öllum tækjum.</translation>
 <translation id="935854577147268200">Smart Lock síma var breytt. Færðu inn aðgangsorðið þitt til að uppfæra Smart Lock. Næst tekur síminn þinn <ph name="DEVICE_TYPE" /> úr lás. Þú getur slökkt á Smart Lock í stillingunum</translation>
 <translation id="936801553271523408">Greiningargögn kerfis</translation>
@@ -5750,7 +5750,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="939519157834106403">SSID</translation>
 <translation id="939598580284253335">Sláðu inn aðgangsorð</translation>
 <translation id="939736085109172342">Ný mappa</translation>
-<translation id="942532530371314860"><ph name="APP_NAME" /> deilir flipa og hljóði í Chrome.</translation>
+<translation id="942532530371314860"><ph name="APP_NAME" /> deilir flipa og hljóði í Brave.</translation>
 <translation id="945166830402967374">Hafðu samband við tækjastjóra fyrirtækisins</translation>
 <translation id="945522503751344254">Senda ábendingu</translation>
 <translation id="947329552760389097">&amp;Kanna einingar</translation>
@@ -5760,7 +5760,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="960719561871045870">Kóði símafyrirtækis</translation>
 <translation id="960987915827980018">Um 1 klukkustund eftir</translation>
 <translation id="962802172452141067">Möpputré bókamerkja</translation>
-<translation id="964286338916298286">Kerfisstjórinn þinn hefur gert Chrome Goodies glaðning óvirkan fyrir tækið þitt.</translation>
+<translation id="964286338916298286">Kerfisstjórinn þinn hefur gert Brave Goodies glaðning óvirkan fyrir tækið þitt.</translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Forrit}one{Forrit}other{Forrit}}</translation>
 <translation id="965211523698323809">Sendu og taktu á móti SMS-skilaboðum úr <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Frekari upplýsingar<ph name="LINK_END" /></translation>
 <translation id="967624055006145463">Vistuð gögn</translation>
@@ -5781,7 +5781,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="988978206646512040">Ekki er leyft að hafa autt aðgangsorð</translation>
 <translation id="992032470292211616">Viðbætur, forrit og þemu geta skaðað tækið þitt. Ertu viss um að þú viljir halda áfram?</translation>
 <translation id="992256792861109788">Bleikur</translation>
-<translation id="992592832486024913">Gera ChromeVox (raddsvörun) óvirkt</translation>
+<translation id="992592832486024913">Gera BraveVox (raddsvörun) óvirkt</translation>
 <translation id="992778845837390402">Endurheimt Linux stendur yfir</translation>
 <translation id="993540765962421562">Uppsetning stendur yfir</translation>
 <translation id="994289308992179865">&amp;Lykkja</translation>
