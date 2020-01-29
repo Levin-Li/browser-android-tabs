@@ -5,7 +5,7 @@
 <translation id="1010200102790553230">Lataa sivu myöhemmin</translation>
 <translation id="1015730422737071372">Lisätietoja</translation>
 <translation id="1021110881106174305">Hyväksytyt kortit</translation>
-<translation id="1021753677514347426">Tämän virheen syynä on varmenne, jonka sinä tai joku muu asensi laitteellesi. Varmennetta on aiemmin käytetty verkkojen valvontaan ja kaappaamiseen, eikä Chromium luota siihen. Valvomiselle voi olla oikea syy esimerkiksi oppilaitoksen tai yrityksen verkossa, mutta Chromium haluaa sinun tietävän valvonnasta, vaikket voi lopettaa sitä. Valvonta voi tapahtua missä tahansa selaimessa tai sovelluksessa, jolla on pääsy verkkoon.</translation>
+<translation id="1021753677514347426">Tämän virheen syynä on varmenne, jonka sinä tai joku muu asensi laitteellesi. Varmennetta on aiemmin käytetty verkkojen valvontaan ja kaappaamiseen, eikä Brave luota siihen. Valvomiselle voi olla oikea syy esimerkiksi oppilaitoksen tai yrityksen verkossa, mutta Brave haluaa sinun tietävän valvonnasta, vaikket voi lopettaa sitä. Valvonta voi tapahtua missä tahansa selaimessa tai sovelluksessa, jolla on pääsy verkkoon.</translation>
 <translation id="1032854598605920125">Käännä myötäpäivään</translation>
 <translation id="1036348656032585052">Poista käytöstä</translation>
 <translation id="1038842779957582377">tuntematon nimi</translation>
@@ -22,9 +22,9 @@
 <translation id="1088860948719068836">Lisää kortissa oleva nimi</translation>
 <translation id="1089439967362294234">Vaihda salasana</translation>
 <translation id="1096545575934602868">Kentässä voi olla korkeintaan <ph name="MAX_ITEMS_LIMIT" /> kohtaa. Muut kohdat ohitetaan.</translation>
-<translation id="109743633954054152">Määritä salasanat Chrome-asetuksissa</translation>
+<translation id="109743633954054152">Määritä salasanat Brave-asetuksissa</translation>
 <translation id="1103523840287552314">Käännä <ph name="LANGUAGE" /> aina</translation>
-<translation id="1107591249535594099">Jos tämä ruutu on valittu, Chrome tallentaa kortin kopion tälle laitteelle, jotta lomakkeiden täyttö nopeutuu.</translation>
+<translation id="1107591249535594099">Jos tämä ruutu on valittu, Brave tallentaa kortin kopion tälle laitteelle, jotta lomakkeiden täyttö nopeutuu.</translation>
 <translation id="1110994991967754504">Valitse käyttöoikeus kohteelle <ph name="PERMISSION_NAME" /></translation>
 <translation id="1113869188872983271">K&amp;umoa uudelleenjärjestely</translation>
 <translation id="1125573121925420732">Varoituksia voi esiintyä usein, kun verkkosivustot päivittävät suojaustaan. Asian pitäisi korjaantua pian.</translation>
@@ -68,8 +68,8 @@
 <translation id="1264126396475825575">Kaatumisraportti tallennettu <ph name="CRASH_TIME" /> (ei vielä lähetetty tai ohitettu)</translation>
 <translation id="1270502636509132238">Noutotapa</translation>
 <translation id="1285320974508926690">Älä käännä tätä sivustoa</translation>
-<translation id="1285400217480592994">Tarkista Chromessa lataamiesi tai lähettämiesi tiedostojen sisältö.</translation>
-<translation id="1292701964462482250">Tietokoneelle asennettu ohjelmisto estää Chromea muodostamasta turvallista yhteyttä verkkoon (vain Windows-tietokoneilla)</translation>
+<translation id="1285400217480592994">Tarkista Bravessa lataamiesi tai lähettämiesi tiedostojen sisältö.</translation>
+<translation id="1292701964462482250">Tietokoneelle asennettu ohjelmisto estää Bravea muodostamasta turvallista yhteyttä verkkoon (vain Windows-tietokoneilla)</translation>
 <translation id="1294154142200295408">Komentorivin muunnelmat</translation>
 <translation id="129553762522093515">Hiljattain suljetut välilehdet</translation>
 <translation id="1298536327547837046">Haittaohjelmien tarkistus</translation>
@@ -160,9 +160,9 @@
 <translation id="1652415888492971589">JIS B8 (64 mm x 91 mm)</translation>
 <translation id="1656489000284462475">Noutoaika</translation>
 <translation id="1662550410081243962">Tallenna ja täytä maksutavat</translation>
-<translation id="1663943134801823270">Kortit ja osoitteet ovat peräisin Chromesta. Voit hallinnoida niitä <ph name="BEGIN_LINK" />asetuksissa<ph name="END_LINK" />.</translation>
+<translation id="1663943134801823270">Kortit ja osoitteet ovat peräisin Bravesta. Voit hallinnoida niitä <ph name="BEGIN_LINK" />asetuksissa<ph name="END_LINK" />.</translation>
 <translation id="1671391448414634642">Kielellä <ph name="SOURCE_LANGUAGE" /> kirjoitetut sivut käännetään tästä lähtien kielelle <ph name="TARGET_LANGUAGE" />.</translation>
-<translation id="1676269943528358898"><ph name="SITE" /> suojaa tietosi normaalisti salauksen avulla. Kun Chrome yritti tällä kertaa yhdistää sivustoon <ph name="SITE" />, sivusto palautti epätavalliset ja virheelliset kirjautumistiedot. Hyökkääjä saattaa yrittää esiintyä sivustona <ph name="SITE" />, tai Wi-Fi-kirjautumisruutu on keskeyttänyt yhteyden. Tietosi ovat edelleen turvassa, sillä Google Chrome katkaisi yhteyden, ennen kuin mitään tietoja vaihdettiin.</translation>
+<translation id="1676269943528358898"><ph name="SITE" /> suojaa tietosi normaalisti salauksen avulla. Kun Brave yritti tällä kertaa yhdistää sivustoon <ph name="SITE" />, sivusto palautti epätavalliset ja virheelliset kirjautumistiedot. Hyökkääjä saattaa yrittää esiintyä sivustona <ph name="SITE" />, tai Wi-Fi-kirjautumisruutu on keskeyttänyt yhteyden. Tietosi ovat edelleen turvassa, sillä Brave katkaisi yhteyden, ennen kuin mitään tietoja vaihdettiin.</translation>
 <translation id="168841957122794586">Palvelinvarmenne sisältää heikon salausavaimen.</translation>
 <translation id="1697532407822776718">Kaikki on valmista.</translation>
 <translation id="1703835215927279855">Kirje</translation>
@@ -210,21 +210,21 @@
 <translation id="1914326953223720820">Purkupalvelu</translation>
 <translation id="1915697529809968049">Käytetäänkö Touch ID:tä CVC:n sijaan?</translation>
 <translation id="1916770123977586577">Päivitä tämä sivu, niin päivitetyt asetuksesi otetaan käyttöön tällä sivustolla.</translation>
-<translation id="1917876262703816781">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Chrome suosittelee, että vaihdat salasanan heti (<ph name="ORIGIN" />).</translation>
+<translation id="1917876262703816781">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Brave suosittelee, että vaihdat salasanan heti (<ph name="ORIGIN" />).</translation>
 <translation id="1919345977826869612">Mainokset</translation>
 <translation id="1919367280705858090">Tiettyjen virheiden korjaaminen</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Ei mitään}=1{1 sivusto}other{# sivustoa}}</translation>
 <translation id="1927235823738766038">Hyväksytyt luotto- ja maksukortit</translation>
 <translation id="194030505837763158">Siirry osoitteeseen <ph name="LINK" /></translation>
-<translation id="1945968466830820669">Voit menettää organisaatiosi tilin käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Chromium suosittelee vaihtamaan salasanan välittömästi.</translation>
+<translation id="1945968466830820669">Voit menettää organisaatiosi tilin käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Brave suosittelee vaihtamaan salasanan välittömästi.</translation>
 <translation id="1947454675006758438">Niitti oikeassa yläkulmassa</translation>
 <translation id="1948773908305951926">Hyväksytyt prepaid-kortit</translation>
 <translation id="1962204205936693436">Verkkotunnuksen <ph name="DOMAIN" /> kirjanmerkit</translation>
 <translation id="1973335181906896915">Sarjaesittämisen virhe</translation>
 <translation id="1974060860693918893">Lisäasetukset</translation>
-<translation id="1974883374937189061">Auta kehittämään Chromen turvallisuutta lähettämällä <ph name="BEGIN_WHITEPAPER_LINK" />joidenkin avattujen sivujen URL-osoitteita, rajallisia järjestelmätietoja ja osia sivujen sisällöstä<ph name="END_WHITEPAPER_LINK" /> Googlelle. <ph name="PRIVACY_PAGE_LINK" /></translation>
+<translation id="1974883374937189061">Auta kehittämään Braven turvallisuutta lähettämällä <ph name="BEGIN_WHITEPAPER_LINK" />joidenkin avattujen sivujen URL-osoitteita, rajallisia järjestelmätietoja ja osia sivujen sisällöstä<ph name="END_WHITEPAPER_LINK" /> Googlelle. <ph name="PRIVACY_PAGE_LINK" /></translation>
 <translation id="1978555033938440688">Laiteohjelmiston versio</translation>
-<translation id="1981206234434200693">Tyhjennä Chromen selaushistoriadata</translation>
+<translation id="1981206234434200693">Tyhjennä Braven selaushistoriadata</translation>
 <translation id="1992331125980284532">JIS B3 (364 mm x 515 mm)</translation>
 <translation id="2001146170449793414">{COUNT,plural, =1{ja 1 muu}other{ja # muuta}}</translation>
 <translation id="2003709556000175978">Pyydä uusi salasana</translation>
@@ -280,7 +280,7 @@
 <translation id="225207911366869382">Tämän käytännön arvo on vanhentunut.</translation>
 <translation id="2258928405015593961">Syötä tulevaisuudessa oleva viimeinen voimassaolopäivä ja yritä uudelleen</translation>
 <translation id="2262243747453050782">HTTP-virhe</translation>
-<translation id="2263079731045660823">Päivitä luottokorttien automaattiset täyttötiedot Chrome-asetuksissa</translation>
+<translation id="2263079731045660823">Päivitä luottokorttien automaattiset täyttötiedot Brave-asetuksissa</translation>
 <translation id="2267047181501709434">Henkilöllisyyttäsi vahvistetaan…</translation>
 <translation id="2270484714375784793">Puhelinnumero</translation>
 <translation id="2277103315734023688">Kelaa eteenpäin</translation>
@@ -312,11 +312,11 @@
 <translation id="2392959068659972793">Näytä käytännöt, joille ei ole asetettu arvoa</translation>
 <translation id="239429038616798445">Lähetystapa ei ole käytettävissä. Kokeile toista tapaa.</translation>
 <translation id="2396249848217231973">K&amp;umoa poisto</translation>
-<translation id="2409589295040002961">Järjestelmänvalvoja voi muuttaa selaimen määrityksiä etäyhteydellä. Toimintaa tällä laitteella saatetaan ylläpitää myös Chromen ulkopuolelta. <ph name="BEGIN_LINK" />Lue lisää<ph name="END_LINK" /></translation>
+<translation id="2409589295040002961">Järjestelmänvalvoja voi muuttaa selaimen määrityksiä etäyhteydellä. Toimintaa tällä laitteella saatetaan ylläpitää myös Braven ulkopuolelta. <ph name="BEGIN_LINK" />Lue lisää<ph name="END_LINK" /></translation>
 <translation id="2410754574180102685">Viranomaiset-lakiasiat</translation>
 <translation id="2413528052993050574">Palvelin ei voinut todistaa olevansa <ph name="DOMAIN" />; sen suojausvarmenne ei välttämättä ole voimassa. Tämä voi johtua määritysvirheestä tai verkkoyhteytesi siepanneesta hyökkääjästä.</translation>
 <translation id="2438874542388153331">Neljä reikää oikealla</translation>
-<translation id="245044156129055925">Lisäsit juuri salasanasi harhaanjohtavalle sivustolle. Chromium suosittelee salasanan vaihtamista välittömästi.</translation>
+<translation id="245044156129055925">Lisäsit juuri salasanasi harhaanjohtavalle sivustolle. Brave suosittelee salasanan vaihtamista välittömästi.</translation>
 <translation id="2463193859425327265">Vaihda etusivua</translation>
 <translation id="2463739503403862330">Täytä</translation>
 <translation id="2465402087343596252">Arkkitehti-E</translation>
@@ -330,7 +330,7 @@
 <translation id="2491120439723279231">Palvelimen varmenteessa on virheitä.</translation>
 <translation id="2493640343870896922">Kirje-plus</translation>
 <translation id="2495083838625180221">JSON-jäsentäjä</translation>
-<translation id="2495093607237746763">Jos tämä on valittu, Chromium tallentaa kortin kopion tälle laitteelle nopeuttaakseen lomakkeiden täyttöä.</translation>
+<translation id="2495093607237746763">Jos tämä on valittu, Brave tallentaa kortin kopion tälle laitteelle nopeuttaakseen lomakkeiden täyttöä.</translation>
 <translation id="2498091847651709837">Skannaa uusi kortti</translation>
 <translation id="2501278716633472235">Takaisin</translation>
 <translation id="2503184589641749290">Hyväksytyt maksu- ja prepaid-kortit</translation>
@@ -427,11 +427,11 @@
 <translation id="2948083400971632585">Voit poistaa yhteydelle määritetyt välityspalvelimet käytöstä asetussivulla.</translation>
 <translation id="295526156371527179">Varoitus: tätä käytäntöä ei yhdistetty käytännössä kuvatulla tavalla sanakirjana, sillä se ei ole sanakirja.</translation>
 <translation id="2955913368246107853">Sulje hakupalkki</translation>
-<translation id="2969319727213777354">Kellosi täytyy asettaa oikeaan aikaan, jotta salattu yhteys voidaan muodostaa. Tämä johtuu siitä, että verkkosivustojen tunnistamisessa käytettävät varmenteet ovat voimassa vain tiettyinä aikoina. Chrome ei voi vahvistaa varmenteita, koska laitteesi kello on väärässä ajassa.</translation>
+<translation id="2969319727213777354">Kellosi täytyy asettaa oikeaan aikaan, jotta salattu yhteys voidaan muodostaa. Tämä johtuu siitä, että verkkosivustojen tunnistamisessa käytettävät varmenteet ovat voimassa vain tiettyinä aikoina. Brave ei voi vahvistaa varmenteita, koska laitteesi kello on väärässä ajassa.</translation>
 <translation id="2972581237482394796">&amp;Tee uudelleen</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" />, tällä hetkellä valittuna. <ph name="ROW_CONTENT" /></translation>
 <translation id="2982481275546140226">Tyhjennä tiedot</translation>
-<translation id="2985306909656435243">Jos tämä on käytössä, Chromium tallentaa kortin kopion tälle laitteelle nopeuttaakseen lomakkeiden täyttöä.</translation>
+<translation id="2985306909656435243">Jos tämä on käytössä, Brave tallentaa kortin kopion tälle laitteelle nopeuttaakseen lomakkeiden täyttöä.</translation>
 <translation id="2985398929374701810">Anna kelvollinen osoite.</translation>
 <translation id="2986368408720340940">Tämä noutotapa ei ole käytettävissä. Kokeile toista tapaa.</translation>
 <translation id="2987034854559945715">Ei hakua vastaavia ominaisuuksia</translation>
@@ -516,7 +516,7 @@
 <translation id="3422472998109090673">Sivustoon <ph name="HOST_NAME" /> ei saada tällä hetkellä yhteyttä.</translation>
 <translation id="3427092606871434483">Salli (oletus)</translation>
 <translation id="3427342743765426898">&amp;Toista muokkaus</translation>
-<translation id="342781501876943858">Chromium suosittelee salasanan vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
+<translation id="342781501876943858">Brave suosittelee salasanan vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
 <translation id="3428151540071562330">Yksi tai useampi DnsOverHttpsTemplates-palvelinmallien URI-tunnuksista on virheellinen, eikä niitä käytetä.</translation>
 <translation id="3431636764301398940">Tallenna kortti tälle laitteelle</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
@@ -529,7 +529,7 @@
 <translation id="3467763166455606212">Kortinhaltijan nimi on pakollinen.</translation>
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX" />, tällä hetkellä avoinna, siirry avoimelle välilehdelle painamalla ensin sarkainta ja sitten Enteriä</translation>
 <translation id="3479552764303398839">Ei nyt</translation>
-<translation id="3484560055331845446">Saatat menettää pääsyn Google-tilillesi. Chrome suosittelee vaihtamaan salasanan nyt. Sinua pyydetään kirjautumaan sisään.</translation>
+<translation id="3484560055331845446">Saatat menettää pääsyn Google-tilillesi. Brave suosittelee vaihtamaan salasanan nyt. Sinua pyydetään kirjautumaan sisään.</translation>
 <translation id="3495081129428749620">Hae sivulta
     <ph name="PAGE_TITLE" /></translation>
 <translation id="3512163584740124171">Tämä käytäntö ohitetaan, koska saman käytäntöryhmän toisella käytännöllä on korkeampi prioriteetti.</translation>
@@ -541,7 +541,7 @@
 <translation id="3566021033012934673">Yhteytesi ei ole salattu</translation>
 <translation id="3574305903863751447"><ph name="CITY" />, <ph name="STATE" /> <ph name="COUNTRY" /></translation>
 <translation id="3576616784287504635">Viesti upotetulta sivulta osoitteessa <ph name="SITE" /></translation>
-<translation id="3581089476000296252">Chrome ilmoittaa, kun tämä sivu on valmis. &lt;a&gt;Peruuta&lt;/a&gt;</translation>
+<translation id="3581089476000296252">Brave ilmoittaa, kun tämä sivu on valmis. &lt;a&gt;Peruuta&lt;/a&gt;</translation>
 <translation id="358285529439630156">Luotto- ja prepaid-kortit hyväksytään.</translation>
 <translation id="3582930987043644930">Lisää nimi</translation>
 <translation id="3583757800736429874">&amp;Toista siirto</translation>
@@ -586,7 +586,7 @@
 <translation id="372429172604983730">Tätä virhettä voivat aiheuttaa esimerkiksi virustorjuntaohjelmat, palomuurit ja verkon suodatus- tai välityspalvelinohjelmistot.</translation>
 <translation id="373042150751172459">B4 (kirjekuori)</translation>
 <translation id="3736520371357197498">Jos ymmärrät käyntiä koskevat turvallisuusriskit, voit <ph name="BEGIN_LINK" />siirtyä vaarantuneeseen sivustoon<ph name="END_LINK" /> jo ennen haitallisten ohjelmien poistamista.</translation>
-<translation id="3744899669254331632">Et voi siirtyä sivustoon <ph name="SITE" /> tällä hetkellä, koska sivusto lähetti salatut kirjautumistiedot, joita Chromium ei osaa käsitellä. Verkkovirheet ja hyökkäykset ovat yleensä väliaikaisia, joten sivu toimii luultavasti myöhemmin.</translation>
+<translation id="3744899669254331632">Et voi siirtyä sivustoon <ph name="SITE" /> tällä hetkellä, koska sivusto lähetti salatut kirjautumistiedot, joita Brave ei osaa käsitellä. Verkkovirheet ja hyökkäykset ovat yleensä väliaikaisia, joten sivu toimii luultavasti myöhemmin.</translation>
 <translation id="3745099705178523657">Vahvistamisen jälkeen korttitiedot Google-tililtäsi jaetaan tämän sivuston kanssa.</translation>
 <translation id="3748148204939282805">Sivustolle <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> hyökännyt taho voi yrittää huijata sinua tekemään jotain vaarallista, kuten asentamaan ohjelmia tai paljastamaan henkilötietojasi (esimerkiksi salasanoja, puhelinnumeroita tai luottokorttitietoja). <ph name="BEGIN_LEARN_MORE_LINK" />Lisätietoja<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="375403751935624634">Käännös epäonnistui palvelinvirheen vuoksi.</translation>
@@ -607,7 +607,7 @@
 <translation id="3828924085048779000">Tunnuslause ei voi olla tyhjä.</translation>
 <translation id="3831915413245941253"><ph name="ENROLLMENT_DOMAIN" /> on asentanut lisätoimintojen laajennuksia. Laajennuksilla on pääsy osaan datastasi.</translation>
 <translation id="3832522519263485449">Useita reikiä oikealla</translation>
-<translation id="3838154488026099170">Lisäsit juuri salasanasi petolliselle sivustolle. Chromium suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> ja <ph name="WEBSITE_3" />).</translation>
+<translation id="3838154488026099170">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> ja <ph name="WEBSITE_3" />).</translation>
 <translation id="385051799172605136">Edellinen</translation>
 <translation id="3858027520442213535">Päivitä päivämäärä ja aika</translation>
 <translation id="3884278016824448484">Ristiriitainen laitteen tunnus</translation>
@@ -631,7 +631,7 @@
 <translation id="3964661563329879394">{COUNT,plural, =0{Ei mitään}=1{1 sivustolta }other{# sivustolta }}</translation>
 <translation id="397105322502079400">Lasketaan...</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME" /> on estetty</translation>
-<translation id="3987405730340719549">Chrome epäilee tätä sivustoa vilpilliseksi tai valesivustoksi.
+<translation id="3987405730340719549">Brave epäilee tätä sivustoa vilpilliseksi tai valesivustoksi.
 
     Jos uskot, että ilmoitus on virheellinen, siirry osoitteeseen https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="3987940399970879459">Alle 1 Mt</translation>
@@ -645,7 +645,7 @@
 <translation id="4072486802667267160">Virhe tilausta käsiteltäessä. Yritä uudelleen.</translation>
 <translation id="4075732493274867456">Asiakassovellus ja palvelin eivät tue samaa SSL-protokollaversiota tai salaustekniikkaa.</translation>
 <translation id="4075941231477579656">Touch ID</translation>
-<translation id="4077092919748553596">Lisäsit juuri salasanasi petolliselle sivustolle. Chrome suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> ja <ph name="WEBSITE_3" />).</translation>
+<translation id="4077092919748553596">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" />, <ph name="WEBSITE_2" /> ja <ph name="WEBSITE_3" />).</translation>
 <translation id="4079302484614802869">Välityspalvelinmääritykset on asetettu käyttämään .pac-URL-osoitteita, ei kiinteitä välityspalvelimia.</translation>
 <translation id="4082393374666368382">Asetukset – Ylläpito</translation>
 <translation id="4098354747657067197">Seuraava sivusto on petollinen</translation>
@@ -685,11 +685,11 @@
     &lt;/ol&gt;
     &lt;h4&gt;Vaihe 2: Avaa sivu incognito-tilassa (vain tietokoneella)&lt;/h4&gt;
     &lt;p&gt;Avaa incognito-ikkunassa sivu, jolla olit.&lt;/p&gt;
-    &lt;p&gt;Jos sivu aukeaa, Chrome-laajennus ei toimi oikein. Voit korjata virheen poistamalla laajennuksen käytöstä.&lt;/p&gt;
+    &lt;p&gt;Jos sivu aukeaa, Brave-laajennus ei toimi oikein. Voit korjata virheen poistamalla laajennuksen käytöstä.&lt;/p&gt;
     &lt;h4&gt;Vaihe 3: Päivitä käyttöjärjestelmäsi&lt;/h4&gt;
     &lt;p&gt;Varmista, että laitteesi on päivitetty.&lt;/p&gt;
     &lt;h4&gt;Vaihe 4: Poista virustorjuntaohjelmisto käytöstä väliaikaisesti&lt;/h4&gt;
-    &lt;p&gt;Näet tämän virheen, jos käyttämäsi virustorjuntaohjelmiston HTTPS-suojaus tai HTTPS-skannaus estää Chromen tietoturvatoimintojen käytön.&lt;/p&gt;
+    &lt;p&gt;Näet tämän virheen, jos käyttämäsi virustorjuntaohjelmiston HTTPS-suojaus tai HTTPS-skannaus estää Braven tietoturvatoimintojen käytön.&lt;/p&gt;
     &lt;p&gt;Voit korjata ongelman poistamalla virustorjuntaohjelmiston käytöstä. Jos sivu toimii ohjelmiston sammuttamisen jälkeen, poista ohjelmisto käytöstä käydessäsi turvallisilla sivustoilla.&lt;/p&gt;
     &lt;p&gt;Muista ottaa virustorjuntaohjelmisto takaisin käyttöön, kun olet valmis.&lt;/p&gt;
     &lt;h4&gt;Vaihe 5: Pyydä lisäapua&lt;/h4&gt;
@@ -707,7 +707,7 @@
 <translation id="4277028893293644418">Pyydä uusi salasana</translation>
 <translation id="4279811152705618813"><ph name="ENROLLMENT_DOMAIN" /> ylläpitää laitetta (<ph name="DEVICE_TYPE" />)</translation>
 <translation id="428639260510061158">{NUM_CARDS,plural, =1{Tämä kortti on tallennettu Google-tilillesi}other{Nämä kortit on tallennettu Google-tilillesi}}</translation>
-<translation id="428847186335018806">Tarkista Chromessa lataamasi tai lähettämäsi tiedostot.</translation>
+<translation id="428847186335018806">Tarkista Bravessa lataamasi tai lähettämäsi tiedostot.</translation>
 <translation id="42981349822642051">Laajenna</translation>
 <translation id="4300675098767811073">Useita reikiä oikealla</translation>
 <translation id="4302965934281694568">Chou3 (kirjekuori)</translation>
@@ -719,14 +719,14 @@
 <translation id="4325863107915753736">Artikkelia ei löydy</translation>
 <translation id="4326324639298822553">Tarkista vanhentumispäivä ja yritä uudelleen.</translation>
 <translation id="4331708818696583467">Ei turvallinen</translation>
-<translation id="4340982228985273705">Havaintojen mukaan tämä tietokone ei ole yrityksen hallinnoima, joten käytäntö voi asentaa automaattisesti vain Chrome Web Storessa hostattuja laajennuksia. Chrome Web Storen päivitys-URL-osoite on <ph name="CWS_UPDATE_URL" />.</translation>
+<translation id="4340982228985273705">Havaintojen mukaan tämä tietokone ei ole yrityksen hallinnoima, joten käytäntö voi asentaa automaattisesti vain Brave Web Storessa hostattuja laajennuksia. Brave Web Storen päivitys-URL-osoite on <ph name="CWS_UPDATE_URL" />.</translation>
 <translation id="4346197816712207223">Hyväksytyt luottokortit</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
-<translation id="4349531505348777662">Lisäsit juuri salasanasi petolliselle sivustolle. Chrome suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" /> ja <ph name="WEBSITE_2" />).</translation>
+<translation id="4349531505348777662">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" /> ja <ph name="WEBSITE_2" />).</translation>
 <translation id="4356973930735388585">Tälle sivustolle hyökännyt taho voi yrittää asentaa tietokoneellesi vaarallisia ohjelmia, jotka varastavat tai poistavat tietojasi, kuten kuviasi, salasanojasi, viestejäsi ja luottokorttiesi tietoja.</translation>
 <translation id="4358059973562876591">Määrittämiäsi malleja ei välttämättä käytetä DnsOverHttpsMode-käytännön virheen vuoksi.</translation>
 <translation id="4358461427845829800">Hallinnoi maksutapoja…</translation>
-<translation id="4359160567981085931">Lisäsit juuri salasanasi petolliselle sivustolle. Chrome voi auttaa. Valitse Suojaa tili, niin voit vaihtaa salasanasi ja Googlelle ilmoitetaan tilin mahdollisesta vaarantumisesta.</translation>
+<translation id="4359160567981085931">Lisäsit juuri salasanasi petolliselle sivustolle. Brave voi auttaa. Valitse Suojaa tili, niin voit vaihtaa salasanasi ja Googlelle ilmoitetaan tilin mahdollisesta vaarantumisesta.</translation>
 <translation id="4367563149485757821">Numero-12 (kirjekuori)</translation>
 <translation id="437058704415269440">Tilin saldo</translation>
 <translation id="4372516964750095882">Fanfold-Us</translation>
@@ -736,7 +736,7 @@
 <translation id="4406896451731180161">hakutulokset</translation>
 <translation id="4408413947728134509">Evästeet <ph name="NUM_COOKIES" /></translation>
 <translation id="4415426530740016218">Nouto-osoite</translation>
-<translation id="4424024547088906515">Palvelin ei voinut todistaa olevansa <ph name="DOMAIN" />; Chrome ei luota sen suojausvarmenteeseen. Tämä voi johtua määritysvirheestä tai verkkoyhteytesi siepanneesta hyökkääjästä.</translation>
+<translation id="4424024547088906515">Palvelin ei voinut todistaa olevansa <ph name="DOMAIN" />; Brave ei luota sen suojausvarmenteeseen. Tämä voi johtua määritysvirheestä tai verkkoyhteytesi siepanneesta hyökkääjästä.</translation>
 <translation id="443121186588148776">Sarjaportti</translation>
 <translation id="4432688616882109544"><ph name="HOST_NAME" /> ei hyväksynyt kirjautumisvarmennettasi, tai varmennetta ei annettu.</translation>
 <translation id="4434045419905280838">Ponn.ikkunat ja uudelleenohjaus</translation>
@@ -747,7 +747,7 @@
 <translation id="4477350412780666475">Seuraava kappale</translation>
 <translation id="4482953324121162758">Tätä sivustoa ei käännetä.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="4492519888999857993">Nämä ominaisuudet ovat oletuksena poissa käytöstä. Ne eivät ole käytettävissä Chromen tulevissa versioissa.</translation>
+<translation id="4492519888999857993">Nämä ominaisuudet ovat oletuksena poissa käytöstä. Ne eivät ole käytettävissä Braven tulevissa versioissa.</translation>
 <translation id="4493480324863638523">Virheellinen URL-osoite URL-osoitteen on oltava vakiomallien mukainen, esimerkiksi "http://example.com" tai "https://example.com".</translation>
 <translation id="4503882053543859973">Arkkitehti-D</translation>
 <translation id="4506176782989081258">Todennusvirhe: <ph name="VALIDATION_ERROR" /></translation>
@@ -755,7 +755,7 @@
 <translation id="450710068430902550">Jakaminen järjestelmänvalvojan kanssa</translation>
 <translation id="4508814173490746936">Touch ID:n käyttö ei onnistunut</translation>
 <translation id="4510487217173779431">Chou4 (kirjekuori)</translation>
-<translation id="4515275063822566619">Kortit ja osoitteet ovat peräisin Chromesta ja Google-tililtäsi (<ph name="ACCOUNT_EMAIL" />). Voit hallinnoida niitä <ph name="BEGIN_LINK" />asetuksissa<ph name="END_LINK" />.</translation>
+<translation id="4515275063822566619">Kortit ja osoitteet ovat peräisin Bravesta ja Google-tililtäsi (<ph name="ACCOUNT_EMAIL" />). Voit hallinnoida niitä <ph name="BEGIN_LINK" />asetuksissa<ph name="END_LINK" />.</translation>
 <translation id="4517607026994743406">Comm-10 (kirjekuori)</translation>
 <translation id="4522570452068850558">Tiedot</translation>
 <translation id="4524138615196389145">Vahvista kortit jatkossa nopeammin WebAuthn-todennuksella</translation>
@@ -767,7 +767,7 @@
 <translation id="457875822857220463">Toimitus</translation>
 <translation id="4579056131138995126">Oma (kirjekuori)</translation>
 <translation id="4582204425268416675">Poista kortti</translation>
-<translation id="4587425331216688090">Poistetaanko osoite Chromen tiedoista?</translation>
+<translation id="4587425331216688090">Poistetaanko osoite Braven tiedoista?</translation>
 <translation id="4592951414987517459">Yhteytesi kohteeseen <ph name="DOMAIN" /> on salattu nykyaikaisella salaustekniikalla.</translation>
 <translation id="4594403342090139922">K&amp;umoa poisto</translation>
 <translation id="4597348597567598915">Koko 8</translation>
@@ -789,7 +789,7 @@
 <translation id="4726672564094551039">Päivitä käytännöt</translation>
 <translation id="4728558894243024398">Käyttöympäristö</translation>
 <translation id="4731967714531604179">Prc2 (kirjekuori)</translation>
-<translation id="4736825316280949806">Käynnistä Chromium uudelleen.</translation>
+<translation id="4736825316280949806">Käynnistä Brave uudelleen.</translation>
 <translation id="473775607612524610">Päivitä</translation>
 <translation id="4738601419177586157">Hakuehdotus <ph name="TEXT" /></translation>
 <translation id="4742407542027196863">Ylläpidä salasanoja…</translation>
@@ -807,7 +807,7 @@
 <translation id="4800132727771399293">Tarkista vanhenemispäivä ja CVC ja yritä uudelleen.</translation>
 <translation id="480334179571489655">Käytännön alkuperävirhe</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
-<translation id="4807049035289105102">Et voi siirtyä sivustoon <ph name="SITE" /> juuri nyt, koska sivusto lähetti sekoitetut kirjautumistiedot, joita Google Chrome ei voi käsitellä. Verkkovirheet ja hyökkäykset ovat yleensä väliaikaisia, joten sivu luultavasti toimii myöhemmin.</translation>
+<translation id="4807049035289105102">Et voi siirtyä sivustoon <ph name="SITE" /> juuri nyt, koska sivusto lähetti sekoitetut kirjautumistiedot, joita Brave ei voi käsitellä. Verkkovirheet ja hyökkäykset ovat yleensä väliaikaisia, joten sivu luultavasti toimii myöhemmin.</translation>
 <translation id="4813512666221746211">Verkkovirhe</translation>
 <translation id="4816492930507672669">Sovita sivulle</translation>
 <translation id="4850886885716139402">Näytä</translation>
@@ -840,7 +840,7 @@
 <translation id="4989542687859782284">Ei käytettävissä</translation>
 <translation id="4989809363548539747">Tätä laajennusta ei tueta.</translation>
 <translation id="4995216769782533993">Vahvista turvakoodi, jotta kortin tiedot voidaan jakaa tälle sivustolle</translation>
-<translation id="5002932099480077015">Kun tämä vaihtoehto on käytössä, Chrome nopeuttaa lomakkeiden täyttämistä tallentamalla kortin tiedot tälle laittelle.</translation>
+<translation id="5002932099480077015">Kun tämä vaihtoehto on käytössä, Brave nopeuttaa lomakkeiden täyttämistä tallentamalla kortin tiedot tälle laittelle.</translation>
 <translation id="5015510746216210676">Laitteen nimi:</translation>
 <translation id="5017554619425969104">Kopioimasi teksti</translation>
 <translation id="5018422839182700155">Sivun avaaminen epäonnistui</translation>
@@ -863,14 +863,14 @@
 <translation id="5087580092889165836">Lisää kortti</translation>
 <translation id="5089810972385038852">Osavaltio/alue</translation>
 <translation id="5093232627742069661">Kolmoistaite</translation>
-<translation id="5094747076828555589">Palvelin ei voinut todistaa olevansa <ph name="DOMAIN" />; Chromium ei luota sen suojausvarmenteeseen. Tämä voi johtua määritysvirheestä tai verkkoyhteytesi siepanneesta hyökkääjästä.</translation>
+<translation id="5094747076828555589">Palvelin ei voinut todistaa olevansa <ph name="DOMAIN" />; Brave ei luota sen suojausvarmenteeseen. Tämä voi johtua määritysvirheestä tai verkkoyhteytesi siepanneesta hyökkääjästä.</translation>
 <translation id="5095208057601539847">Provinssi</translation>
 <translation id="5097099694988056070">Laitetilastot esim. CPU:n/RAM-muistin käytöstä</translation>
 <translation id="5097501891273180634">A2</translation>
 <translation id="5112422516732747637">A5</translation>
 <translation id="5115216390227830982">Eurooppalainen-Edp</translation>
 <translation id="5115563688576182185">(64-bittinen)</translation>
-<translation id="5121469660360593280">Jaa järjestelmänvalvojalle dataa Chrome Enterprisen käyttäjäsuojan merkitsemistä tietoturvatapahtumista. Tämä voi sisältää avaamiesi sivujen URL-osoitteita, tiedostonimiä tai sisällönkuvaustietoja ja käyttäjänimen, jolla kirjaudut sisään laitteellesi ja Chromeen.</translation>
+<translation id="5121469660360593280">Jaa järjestelmänvalvojalle dataa Brave Enterprisen käyttäjäsuojan merkitsemistä tietoturvatapahtumista. Tämä voi sisältää avaamiesi sivujen URL-osoitteita, tiedostonimiä tai sisällönkuvaustietoja ja käyttäjänimen, jolla kirjaudut sisään laitteellesi ja Braveen.</translation>
 <translation id="5125394840236832993">B-Plus</translation>
 <translation id="5126510351761255129">Vahvista kortti</translation>
 <translation id="5135404736266831032">Hallinnoi osoitteita…</translation>
@@ -881,8 +881,8 @@
 <translation id="5158275234811857234">Kansi</translation>
 <translation id="5159010409087891077">Avaa sivu uudessa incognito-ikkunassa (⇧ + ⌘ + N).</translation>
 <translation id="516920405563544094">Anna kortin <ph name="CREDIT_CARD" /> CVC. Vahvistamisen jälkeen korttitiedot Google-tililtäsi jaetaan tämän sivuston kanssa.</translation>
-<translation id="5169827969064885044">Voit menettää organisaatiosi tilin käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Chrome suosittelee vaihtamaan salasanan välittömästi.</translation>
-<translation id="5170017743895942767">Chrome Enterprisen käyttäjäsuojaus</translation>
+<translation id="5169827969064885044">Voit menettää organisaatiosi tilin käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Brave suosittelee vaihtamaan salasanan välittömästi.</translation>
+<translation id="5170017743895942767">Brave Enterprisen käyttäjäsuojaus</translation>
 <translation id="5171045022955879922">Kirjoita hakusanoja tai URL-osoite</translation>
 <translation id="5171689220826475070">European Fanfold</translation>
 <translation id="5172758083709347301">Kaikki tietokoneen käyttäjät</translation>
@@ -913,7 +913,7 @@
 <translation id="5287240709317226393">Näytä evästeet</translation>
 <translation id="5287456746628258573">Tämä sivusto käyttää vanhentunutta tietoturvamääritystä, joka voi paljastaa tietosi (esim. salasanat tai credit-korttien numerot), kun ne lähetetään sivustolle.</translation>
 <translation id="5288108484102287882">Käytäntöarvojen vahvistus aiheutti varoituksia</translation>
-<translation id="5295292838686006428">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Chrome suosittelee tarkistamaan tallennetut salasanasi nyt.</translation>
+<translation id="5295292838686006428">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Brave suosittelee tarkistamaan tallennetut salasanasi nyt.</translation>
 <translation id="5299298092464848405">Virhe jäsennettäessä käytäntöä</translation>
 <translation id="5300589172476337783">Näytä</translation>
 <translation id="5308380583665731573">Muodosta yhteys</translation>
@@ -963,7 +963,7 @@
 <translation id="5540224163453853">Pyydettyä artikkelia ei löydy.</translation>
 <translation id="5541546772353173584">Lisää sähköposti</translation>
 <translation id="5545756402275714221">Sinulle valitut artikkelit</translation>
-<translation id="5552137475244467770">Chrome vertaa salasanojasi säännöllisesti listoihin salasanoista, jotka on julkaistu verkossa. Tätä varten salasanat ja käyttäjänimet salataan, joten kukaan (myöskään Google) ei voi lukea niitä.</translation>
+<translation id="5552137475244467770">Brave vertaa salasanojasi säännöllisesti listoihin salasanoista, jotka on julkaistu verkossa. Tätä varten salasanat ja käyttäjänimet salataan, joten kukaan (myöskään Google) ei voi lukea niitä.</translation>
 <translation id="5556459405103347317">Lataa uudelleen</translation>
 <translation id="5560088892362098740">Viimeinen voimassaolopäivä</translation>
 <translation id="5565735124758917034">Aktiivinen</translation>
@@ -976,7 +976,7 @@
 <translation id="560412284261940334">Hallintaa ei tueta</translation>
 <translation id="5605670050355397069">Kierrevihko</translation>
 <translation id="5607240918979444548">Arkkitehti-C</translation>
-<translation id="5608165884683734521">Tämä voi olla vilpillinen tai valesivusto. Chrome suosittelee siltä poistumista.</translation>
+<translation id="5608165884683734521">Tämä voi olla vilpillinen tai valesivusto. Brave suosittelee siltä poistumista.</translation>
 <translation id="5610142619324316209">Tarkista yhteys.</translation>
 <translation id="5610807607761827392">Voit hallita kortteja ja osoitteita <ph name="BEGIN_LINK" />Asetuksissa<ph name="END_LINK" />.</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME" /> uudelleenohjasi sinut liian monta kertaa.</translation>
@@ -1000,10 +1000,10 @@
 <translation id="5719499550583120431">Prepaid-kortit hyväksytään.</translation>
 <translation id="5720705177508910913">Nykyinen käyttäjä</translation>
 <translation id="5728056243719941842">C5 (kirjekuori)</translation>
-<translation id="5730040223043577876">Chrome suosittelee salasanan vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
+<translation id="5730040223043577876">Brave suosittelee salasanan vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
 <translation id="5737183892635480227">{NUM_CARDS,plural, =1{Tallenna kortti Google-tilillesi}other{Tallenna kortit Google-tilillesi}}</translation>
 <translation id="5763042198335101085">Anna voimassa oleva sähköpostiosoite.</translation>
-<translation id="5763703224595565476">Järjestelmänvalvoja on ottanut Chrome Enterprisen käyttäjäsuojan käyttöön selaimellasi. Chrome Enterprisen käyttäjäsuoja pääsee osaan datastasi.</translation>
+<translation id="5763703224595565476">Järjestelmänvalvoja on ottanut Brave Enterprisen käyttäjäsuojan käyttöön selaimellasi. Brave Enterprisen käyttäjäsuoja pääsee osaan datastasi.</translation>
 <translation id="5765072501007116331">Valitse osoite, niin näet toimitustavat ja vaatimukset.</translation>
 <translation id="5778550464785688721">MIDI-laitteiden täysi käyttöoikeus</translation>
 <translation id="5781136890105823427">Kokeilu käytössä</translation>
@@ -1013,7 +1013,7 @@
 <translation id="5785756445106461925">Tällä sivulla on kuitenkin muita osia, jotka eivät ole suojattuja. Muut voivat tarkastella näitä osia siirron aikana, ja hyökkääjä voi muuttaa sivun ulkoasua muokkaamalla näitä osia.</translation>
 <translation id="5786044859038896871">Täytetäänkö kortin tiedot?</translation>
 <translation id="5798290721819630480">Hylätäänkö muutokset?</translation>
-<translation id="5798683403665926540">Vaihda kotisivua Chromen asetuksissa</translation>
+<translation id="5798683403665926540">Vaihda kotisivua Braven asetuksissa</translation>
 <translation id="5803412860119678065">Täytetäänkö kortin <ph name="CARD_DETAIL" /> tiedot?</translation>
 <translation id="5804241973901381774">Käyttöoikeudet</translation>
 <translation id="5810442152076338065">Yhteytesi kohteeseen <ph name="DOMAIN" /> on salattu vanhentuneella salaustekniikalla.</translation>
@@ -1093,7 +1093,7 @@
 <translation id="6165508094623778733">Lisätietoja</translation>
 <translation id="6177128806592000436">Sivustoon ei ole muodostettu turvallista yhteyttä.</translation>
 <translation id="6203231073485539293">Tarkista internetyhteytesi</translation>
-<translation id="6218753634732582820">Poistetaanko osoite Chromiumista?</translation>
+<translation id="6218753634732582820">Poistetaanko osoite Brave?</translation>
 <translation id="622039917539443112">Pystytaite</translation>
 <translation id="6221345481584921695">Google-selaussuoja havaitsi sivustossa <ph name="SITE" /> äskettäin <ph name="BEGIN_LINK" />haittaohjelmia<ph name="END_LINK" />. Tavallisesti turvalliset sivustot voivat joskus saada haittaohjelmatartunnan. Haitallinen sisältö on peräisin tunnetusta haittaohjelmien jakelusivustosta nimeltä <ph name="SUBRESOURCE_HOST" />.</translation>
 <translation id="6234122620015464377">Leikkaa jokaisen dokumentin jälkeen</translation>
@@ -1108,7 +1108,7 @@
 <translation id="6266934640124581640">Vaaleanturkoosi</translation>
 <translation id="6276112860590028508">Lukulistasi sivuja tulee näkyviin tänne.</translation>
 <translation id="627746635834430766">Jos haluat maksaa nopeammin ensi kerralla, tallenna kortti ja laskutusosoite Google-tilillesi.</translation>
-<translation id="6279516281132775660">Chrome <ph name="BEGIN_EMPHASIS" />ei tallenna<ph name="END_EMPHASIS" /> näitä tietoja:
+<translation id="6279516281132775660">Brave <ph name="BEGIN_EMPHASIS" />ei tallenna<ph name="END_EMPHASIS" /> näitä tietoja:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />Selaushistoriasi
           <ph name="LIST_ITEM" />Evästeet ja sivustodata
@@ -1118,7 +1118,7 @@
 <translation id="6282194474023008486">Postinumero</translation>
 <translation id="6290238015253830360">Suositellut artikkelit näkyvät tässä.</translation>
 <translation id="6293309776179964942">JIS B5 (182 mm x 257 mm)</translation>
-<translation id="6302269476990306341">Chromen Google Assistant suljetaan</translation>
+<translation id="6302269476990306341">Braven Google Assistant suljetaan</translation>
 <translation id="6305205051461490394">Sivustoon <ph name="URL" /> ei saada yhteyttä.</translation>
 <translation id="6321917430147971392">Tarkista DNS-asetukset</translation>
 <translation id="6322182122604171028">Windows Hellon käyttö ei onnistunut</translation>
@@ -1142,9 +1142,9 @@
 <translation id="6401136357288658127">Tämä käytäntö on vanhentunut. Käytä <ph name="NEW_POLICY" /> ‑käytäntöä sen sijaan.</translation>
 <translation id="6404511346730675251">Muokkaa kirjanmerkkiä</translation>
 <translation id="6406765186087300643">C0 (kirjekuori)</translation>
-<translation id="6409754798200046165">Lisäsit juuri salasanasi harhaanjohtavalle sivustolle. Chrome suosittelee salasanan vaihtamista välittömästi.</translation>
+<translation id="6409754798200046165">Lisäsit juuri salasanasi harhaanjohtavalle sivustolle. Brave suosittelee salasanan vaihtamista välittömästi.</translation>
 <translation id="6410264514553301377">Anna kortin <ph name="CREDIT_CARD" /> vanhentumispäivä ja CVC</translation>
-<translation id="6415778972515849510">Chromium voi auttaa suojaamaan Google-tiliäsi ja vaihtamaan salasanasi.</translation>
+<translation id="6415778972515849510">Brave voi auttaa suojaamaan Google-tiliäsi ja vaihtamaan salasanasi.</translation>
 <translation id="6423385022588644828">Vahvista kortit jatkossa nopeammin Touch ID:llä</translation>
 <translation id="6427730057873428458">Lehtitaite</translation>
 <translation id="6433490469411711332">Muokkaa yhteystietoja</translation>
@@ -1163,7 +1163,7 @@
 <translation id="6489534406876378309">Aloita kaatumistietojen lähettäminen</translation>
 <translation id="6499038740797743453">Vaihdetaanko salasana?</translation>
 <translation id="6507833130742554667">Luotto- ja maksukortit hyväksytään.</translation>
-<translation id="6508722015517270189">Käynnistä Chrome uudelleen.</translation>
+<translation id="6508722015517270189">Käynnistä Brave uudelleen.</translation>
 <translation id="6517596291481585650">Varoitus: tätä käytäntöä ei yhdistetty käytännössä kuvatulla tavalla luettelona, sillä se ei ole luettelo.</translation>
 <translation id="6518133107902771759">Vahvista</translation>
 <translation id="6521745193039995384">Ei aktiivinen</translation>
@@ -1197,9 +1197,9 @@
 <translation id="6657585470893396449">Salasana</translation>
 <translation id="6665553082534466207">Kolme reikää oikealla</translation>
 <translation id="6670613747977017428">Takaisin turvaan</translation>
-<translation id="6671697161687535275">Poistetaanko lomake-ehdotus Chromiumista?</translation>
+<translation id="6671697161687535275">Poistetaanko lomake-ehdotus Brave?</translation>
 <translation id="6685834062052613830">Kirjaudu ulos ja suorita määritys loppuun.</translation>
-<translation id="6689271823431384964">Chrome tarjoaa korttien tallentamista Google-tilillesi, koska olet kirjautuneena sisään. Voit muuttaa tätä koska tahansa asetuksista. Kortinhaltijan nimi on peräisin tililtäsi.</translation>
+<translation id="6689271823431384964">Brave tarjoaa korttien tallentamista Google-tilillesi, koska olet kirjautuneena sisään. Voit muuttaa tätä koska tahansa asetuksista. Kortinhaltijan nimi on peräisin tililtäsi.</translation>
 <translation id="6704582573942289642">Onko tämä oikea sivusto?</translation>
 <translation id="6710213216561001401">Edellinen</translation>
 <translation id="6710594484020273272">&lt;Anna hakukysely&gt;</translation>
@@ -1246,7 +1246,7 @@
 <translation id="6970216967273061347">Alue</translation>
 <translation id="6973656660372572881">Sekä kiinteät välityspalvelimet että .pac-URL-osoite on määritetty.</translation>
 <translation id="6973932557599545801">En valitettavasti voi auttaa. Voit jatkaa omatoimisesti.</translation>
-<translation id="6975012522936652259">Lisäsit juuri salasanasi petolliselle sivustolle. Chromium suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" /> ja <ph name="WEBSITE_2" />).</translation>
+<translation id="6975012522936652259">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" /> ja <ph name="WEBSITE_2" />).</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6979440798594660689">Mykistä (oletus)</translation>
 <translation id="6989763994942163495">Näytä lisäasetukset...</translation>
@@ -1317,11 +1317,11 @@ Lisätietoja:
 <translation id="733923710415886693">Palvelimen varmenteesta ei ole saatu Certificate Transparencyn vaatimia tietoja.</translation>
 <translation id="734600844861828519">11x15</translation>
 <translation id="7346048084945669753">On yhdistetty:</translation>
-<translation id="73479065977517481"><ph name="ENROLLMENT_DOMAIN" /> otti Chrome Enterprisen käyttäjäsuojan käyttöön selaimellesi. Chrome Enterprisen käyttäjäsuoja pääsee osaan datastasi.</translation>
+<translation id="73479065977517481"><ph name="ENROLLMENT_DOMAIN" /> otti Brave Enterprisen käyttäjäsuojan käyttöön selaimellesi. Brave Enterprisen käyttäjäsuoja pääsee osaan datastasi.</translation>
 <translation id="7349430561505560861">A4-ekstra</translation>
 <translation id="7353601530677266744">Komentorivi</translation>
 <translation id="7372973238305370288">hakutulos</translation>
-<translation id="7374733840632556089">Tämän virheen syynä on varmenne, jonka sinä tai joku muu asensi laitteellesi. Varmennetta on aiemmin käytetty verkkojen valvontaan ja kaappaamiseen, eikä Chrome luota siihen. Valvomiselle voi olla oikea syy esimerkiksi oppilaitoksen tai yrityksen verkossa, mutta Chrome haluaa sinun tietävän valvonnasta, vaikket voi lopettaa sitä. Valvonta voi tapahtua missä tahansa selaimessa tai sovelluksessa, jolla on pääsy verkkoon.</translation>
+<translation id="7374733840632556089">Tämän virheen syynä on varmenne, jonka sinä tai joku muu asensi laitteellesi. Varmennetta on aiemmin käytetty verkkojen valvontaan ja kaappaamiseen, eikä Brave luota siihen. Valvomiselle voi olla oikea syy esimerkiksi oppilaitoksen tai yrityksen verkossa, mutta Brave haluaa sinun tietävän valvonnasta, vaikket voi lopettaa sitä. Valvonta voi tapahtua missä tahansa selaimessa tai sovelluksessa, jolla on pääsy verkkoon.</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE" /> - <ph name="FULL_DATE" /></translation>
 <translation id="7378594059915113390">Mediaohjaimet</translation>
 <translation id="7378627244592794276">Ei</translation>
@@ -1337,7 +1337,7 @@ Lisätietoja:
       &lt;li&gt;Valitse &lt;strong&gt;Käynnistystapa&lt;/strong&gt;-kohdasta &lt;strong&gt;Ei käytössä&lt;/strong&gt;.
       &lt;li&gt;Siirry &lt;strong&gt;Palvelun tila&lt;/strong&gt; ‑kohtaan ja valitse &lt;strong&gt;Pysäytä&lt;/strong&gt;.
       &lt;li&gt;Valitse &lt;strong&gt;Käytä&lt;/strong&gt; ja sen jälkeen &lt;strong&gt;OK&lt;/strong&gt;.
-      &lt;li&gt;Saat ohjeita ohjelmiston pysyvään poistamiseen tietokoneelta &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Chrome-ohjekeskuksesta&lt;/a&gt;.
+      &lt;li&gt;Saat ohjeita ohjelmiston pysyvään poistamiseen tietokoneelta &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Brave-ohjekeskuksesta&lt;/a&gt;.
       &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Leveä</translation>
 <translation id="7416351320495623771">Ylläpidä salasanoja…</translation>
@@ -1353,7 +1353,7 @@ Lisätietoja:
 <translation id="7473891865547856676">Ei kiitos</translation>
 <translation id="7481312909269577407">Seuraava</translation>
 <translation id="7485870689360869515">Tietoja ei löydy.</translation>
-<translation id="7495290002932347110">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Chrome suosittelee, että tarkistat tallennetut salasanasi ja vaihdat salasanan heti (<ph name="ORIGIN" />).</translation>
+<translation id="7495290002932347110">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Brave suosittelee, että tarkistat tallennetut salasanasi ja vaihdat salasanan heti (<ph name="ORIGIN" />).</translation>
 <translation id="7498234416455752244">Jatka muokkausta</translation>
 <translation id="7508255263130623398">Palautettu käytännön laitetunnus on tyhjä tai ei vastaa nykyistä laitetunnusta.</translation>
 <translation id="7508870219247277067">Avokadonvihreä</translation>
@@ -1370,12 +1370,12 @@ Lisätietoja:
 <translation id="7542995811387359312">Automaattinen luottokortin tietojen täyttäminen on poistettu käytöstä, koska tämä lomake ei käytä suojattua yhteyttä.</translation>
 <translation id="7548892272833184391">Yhteysvirheiden korjaaminen</translation>
 <translation id="7549584377607005141">Tämän sivun näyttäminen oikein edellyttää aiemmin lähetettyjä tietoja. Voit lähettää tiedot uudelleen, mutta tällöin sivulla mahdollisesti suoritettu toiminto toistetaan.</translation>
-<translation id="7550637293666041147">Käyttäjänimi laitteella ja käyttäjänimi Chromessa</translation>
+<translation id="7550637293666041147">Käyttäjänimi laitteella ja käyttäjänimi Bravessa</translation>
 <translation id="7552846755917812628">Kokeile seuraavia keinoja:</translation>
 <translation id="7554791636758816595">Uusi välilehti</translation>
-<translation id="7564049878696755256">Saatat menettää <ph name="ORG_NAME" />-tilisi käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Chrome suosittelee salasanan vaihtamista välittömästi.</translation>
+<translation id="7564049878696755256">Saatat menettää <ph name="ORG_NAME" />-tilisi käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Brave suosittelee salasanan vaihtamista välittömästi.</translation>
 <translation id="7567204685887185387">Palvelin ei voinut todistaa olevansa <ph name="DOMAIN" />; sen suojausvarmenne on ehkä luotu vilpillisesti. Tämä voi johtua määritysvirheestä tai verkkoyhteytesi siepanneesta hyökkääjästä.</translation>
-<translation id="7569952961197462199">Poistetaanko luottokortti Chromen tiedoista?</translation>
+<translation id="7569952961197462199">Poistetaanko luottokortti Braven tiedoista?</translation>
 <translation id="7569983096843329377">Musta</translation>
 <translation id="7578104083680115302">Voit maksaa sivustoilla ja sovelluksissa nopeasti eri laitteillasi käyttämällä Googleen tallennettuja kortteja.</translation>
 <translation id="7592362899630581445">Palvelimen varmenne rikkoo nimirajoituksia.</translation>
@@ -1386,7 +1386,7 @@ Lisätietoja:
 <translation id="7613889955535752492">Vanhenee: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7615602087246926389">Tietojasi on jo salattu Google-tilisi salasanan muulla versiolla. Syötä salasana alla.</translation>
 <translation id="7633909222644580952">Tehokkuusdata ja virheraportit</translation>
-<translation id="7637571805876720304">Poistetaanko luottokortti Chromiumista?</translation>
+<translation id="7637571805876720304">Poistetaanko luottokortti Brave?</translation>
 <translation id="7638605456503525968">Sarjaportit</translation>
 <translation id="7639968568612851608">Tummanharmaa</translation>
 <translation id="7653957176542370971">Maksujenkäsittelytaulukko on suljettu</translation>
@@ -1426,9 +1426,9 @@ Lisätietoja:
 <translation id="7802523362929240268">Sivusto on luotettava</translation>
 <translation id="780301667611848630">Ei kiitos</translation>
 <translation id="7805768142964895445">Tila</translation>
-<translation id="7806344367022510803">Muuta hakukoneasetuksia Chromessa</translation>
+<translation id="7806344367022510803">Muuta hakukoneasetuksia Bravessa</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">Poistetaanko lomake-ehdotus Chromen tiedoista?</translation>
+<translation id="7813600968533626083">Poistetaanko lomake-ehdotus Braven tiedoista?</translation>
 <translation id="7815407501681723534">Haku <ph name="SEARCH_STRING" /> tuotti <ph name="NUMBER_OF_RESULTS" /> <ph name="SEARCH_RESULTS" />.</translation>
 <translation id="782886543891417279">Käyttämäsi Wi-Fi (<ph name="WIFI_NAME" />) saattaa edellyttää kirjautumista.</translation>
 <translation id="7836231406687464395">Postfix (kirjekuori)</translation>
@@ -1473,7 +1473,7 @@ Lisätietoja:
 <translation id="8042918947222776840">Valitse noutotapa</translation>
 <translation id="8057711352706143257"><ph name="SOFTWARE_NAME" /> on määritetty virheellisesti. Ongelma korjaantuu yleensä, jos <ph name="SOFTWARE_NAME" /> poistetaan. <ph name="FURTHER_EXPLANATION" /></translation>
 <translation id="8066955247577885446">Jotain meni pieleen.</translation>
-<translation id="8067872629359326442">Lisäsit juuri salasanasi petolliselle sivustolle. Chromium voi auttaa. Valitse Suojaa tili, niin voit vaihtaa salasanasi ja Googlelle ilmoitetaan tilin mahdollisesta vaarantumisesta.</translation>
+<translation id="8067872629359326442">Lisäsit juuri salasanasi petolliselle sivustolle. Brave voi auttaa. Valitse Suojaa tili, niin voit vaihtaa salasanasi ja Googlelle ilmoitetaan tilin mahdollisesta vaarantumisesta.</translation>
 <translation id="8074253406171541171">10x13 (kirjekuori)</translation>
 <translation id="8078141288243656252">Kierrettyyn asiakirjaan ei voi tehdä merkintöjä</translation>
 <translation id="8079031581361219619">Ladataanko sivusto uudelleen?</translation>
@@ -1490,13 +1490,13 @@ Lisätietoja:
 <translation id="8105368624971345109">Poista käytöstä</translation>
 <translation id="8118489163946903409">Maksutapa</translation>
 <translation id="8127301229239896662"><ph name="SOFTWARE_NAME" /> on asennettu virheellisesti tietokoneellesi tai verkkoon. Pyydä järjestelmänvalvojaasi ratkaisemaan ongelma.</translation>
-<translation id="8128526133099929547">Lisäsit juuri salasanasi petolliselle sivustolle. Chrome suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" />).</translation>
+<translation id="8128526133099929547">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" />).</translation>
 <translation id="8131740175452115882">Vahvista</translation>
 <translation id="8149426793427495338">Tietokoneesi siirtyi virransäästötilaan.</translation>
 <translation id="8150722005171944719">Tiedosto osoitteessa <ph name="URL" /> ei ole luettavissa. Se on voitu poistaa tai siirtää, tai tiedoston käyttöluvat voivat estää sen käytön.</translation>
 <translation id="8157295877370077682">Poistu sivustolta</translation>
 <translation id="8163866351304776260">Neljä reikää vasemmalla</translation>
-<translation id="8175796834047840627">Chrome tarjoaa korttien tallentamista Google-tilillesi, koska olet kirjautuneena sisään. Voit muuttaa tätä koska tahansa asetuksista.</translation>
+<translation id="8175796834047840627">Brave tarjoaa korttien tallentamista Google-tilillesi, koska olet kirjautuneena sisään. Voit muuttaa tätä koska tahansa asetuksista.</translation>
 <translation id="8184538546369750125">Käytä yleistä oletusasetusta (salli)</translation>
 <translation id="8194797478851900357">K&amp;umoa siirto</translation>
 <translation id="8197543752516192074">Käännä sivu</translation>
@@ -1508,7 +1508,7 @@ Lisätietoja:
 <translation id="8218327578424803826">Määrätty sijainti:</translation>
 <translation id="8220146938470311105">C7/C6 (kirjekuori)</translation>
 <translation id="8220639454292072926">Yrityksen raportointi</translation>
-<translation id="8221250263817408492">Lisäsit juuri salasanasi petolliselle sivustolle. Chromium suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" />).</translation>
+<translation id="8221250263817408492">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1" />).</translation>
 <translation id="8225771182978767009">Tämän tietokoneen määrittänyt henkilö on estänyt tämän sivuston.</translation>
 <translation id="822964464349305906"><ph name="TYPE_1" />, <ph name="TYPE_2" /></translation>
 <translation id="8238581221633243064">Avaa sivu uudessa incognito-välilehdessä.</translation>
@@ -1533,7 +1533,7 @@ Lisätietoja:
 <translation id="830498451218851433">Keskitaite</translation>
 <translation id="8307358339886459768">Pieni kuva</translation>
 <translation id="8308427013383895095">Käännös epäonnistui, koska verkkoyhteydessä esiintyi ongelmia.</translation>
-<translation id="831207732689920588">Tämä sivu on epäilyttävä (Chromen merkitsemä).</translation>
+<translation id="831207732689920588">Tämä sivu on epäilyttävä (Braven merkitsemä).</translation>
 <translation id="8332188693563227489">Sivuston <ph name="HOST_NAME" /> käyttöoikeus evättiin</translation>
 <translation id="833262891116910667">Korosta</translation>
 <translation id="8340095855084055290"><ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
@@ -1560,19 +1560,19 @@ Lisätietoja:
 <translation id="8466379296835108687">{COUNT,plural, =1{1 luottokortti}other{# luottokorttia}}</translation>
 <translation id="8473863474539038330">Osoitteet ja muita tietoja</translation>
 <translation id="8479754468255770962">Niitti vasemmassa alakulmassa</translation>
-<translation id="8483780878231876732">Jos haluat käyttää Google-tilillesi tallennettuja kortteja, kirjaudu Chromeen</translation>
+<translation id="8483780878231876732">Jos haluat käyttää Google-tilillesi tallennettuja kortteja, kirjaudu Braveen</translation>
 <translation id="8488350697529856933">Käyttöalue</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME" /> ei vastannut riittävän nopeasti.</translation>
-<translation id="8503559462189395349">Chrome-salasanat</translation>
+<translation id="8503559462189395349">Brave-salasanat</translation>
 <translation id="8503813439785031346">Käyttäjätunnus</translation>
 <translation id="8508648098325802031">Hakukuvake</translation>
-<translation id="8522552481199248698">Chrome voi auttaa suojaamaan Google-tiliäsi ja vaihtamaan salasanasi.</translation>
+<translation id="8522552481199248698">Brave voi auttaa suojaamaan Google-tiliäsi ja vaihtamaan salasanasi.</translation>
 <translation id="8542014550340843547">Kolme niittiä alareunassa</translation>
 <translation id="8543181531796978784">Voit <ph name="BEGIN_ERROR_LINK" />ilmoittaa löytyneestä ongelmasta<ph name="END_ERROR_LINK" /> tai <ph name="BEGIN_LINK" />siirtyä mahdollisesti haitalliselle sivustolle<ph name="END_LINK" />, jos ymmärrät tietoturvariskit.</translation>
 <translation id="8553075262323480129">Käännös epäonnistui, sillä sivun kieltä ei voitu määrittää.</translation>
 <translation id="8557066899867184262">CVC sijaitsee kortin takapuolella.</translation>
 <translation id="8559762987265718583">Verkkotunnukseen <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> ei voi muodostaa salattua yhteyttä, koska laitteesi aika ja päivämäärä (<ph name="DATE_AND_TIME" />) ovat virheelliset.</translation>
-<translation id="8564985650692024650">Chromium suosittelee organisaation <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> salasanasi vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
+<translation id="8564985650692024650">Brave suosittelee organisaation <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> salasanasi vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
 <translation id="8571890674111243710">Käännetään sivua kielelle <ph name="LANGUAGE" />...</translation>
 <translation id="8574899947864779331">Vahvista kortteja nopeammin Touch ID:llä</translation>
 <translation id="858637041960032120">Lisää puh.nro
@@ -1595,7 +1595,7 @@ Lisätietoja:
 <translation id="8725066075913043281">Yritä uudelleen</translation>
 <translation id="8728672262656704056">Olet muuttunut näkymättömäksi</translation>
 <translation id="8730621377337864115">Valmis</translation>
-<translation id="8738058698779197622">Kellosi täytyy asettaa oikeaan aikaan, jotta salattu yhteys voidaan muodostaa. Tämä johtuu siitä, että verkkosivustojen tunnistamisessa käytettävät varmenteet ovat voimassa vain tiettyinä ajanjaksoina. Chromium ei voi vahvistaa varmenteita, koska laitteesi kello on väärässä ajassa.</translation>
+<translation id="8738058698779197622">Kellosi täytyy asettaa oikeaan aikaan, jotta salattu yhteys voidaan muodostaa. Tämä johtuu siitä, että verkkosivustojen tunnistamisessa käytettävät varmenteet ovat voimassa vain tiettyinä ajanjaksoina. Brave ei voi vahvistaa varmenteita, koska laitteesi kello on väärässä ajassa.</translation>
 <translation id="8740359287975076522">Sivuston <ph name="HOST_NAME" /> &lt;abbr id="dnsDefinition"&gt;DNS-osoitetta&lt;/abbr&gt; ei löydy. Ongelmaa diagnosoidaan.</translation>
 <translation id="874846938927089722">Hyväksytyt luotto- ja prepaid-kortit</translation>
 <translation id="874918643257405732">Aseta tämä välilehti kirjanmerkiksi</translation>
@@ -1605,7 +1605,7 @@ Lisätietoja:
 <translation id="8763927697961133303">USB-laite</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;Toista poisto</translation>
-<translation id="8792621596287649091">Saatat menettää <ph name="ORG_NAME" />-tilisi käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Chromium suosittelee salasanan vaihtamista välittömästi.</translation>
+<translation id="8792621596287649091">Saatat menettää <ph name="ORG_NAME" />-tilisi käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Brave suosittelee salasanan vaihtamista välittömästi.</translation>
 <translation id="8800988563907321413">Nearby-ehdotuksesi näkyvät tässä.</translation>
 <translation id="8805819170075074995">Luettelokohde <ph name="LANGUAGE_ID" />: Kohde on ohitettu, koska se sisältyy myös SpellcheckLanguage-käytäntöön.</translation>
 <translation id="8807160976559152894">Leikkaa jokaisen sivun jälkeen</translation>
@@ -1614,7 +1614,7 @@ Lisätietoja:
 <translation id="884264119367021077">Toimitusosoite</translation>
 <translation id="884923133447025588">Kumoamisjärjestelmää ei löytynyt.</translation>
 <translation id="885730110891505394">Googlen kanssa jakaminen</translation>
-<translation id="8858065207712248076">Chrome suosittelee organisaation <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> salasanasi vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
+<translation id="8858065207712248076">Brave suosittelee organisaation <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> salasanasi vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
 <translation id="8866481888320382733">Virhe jäsennettäessä käytännön asetuksia</translation>
 <translation id="8866928039507595380">Taite</translation>
 <translation id="886872106311861689">B3</translation>
@@ -1663,12 +1663,12 @@ Lisätietoja:
 <translation id="9065203028668620118">Muokkaa</translation>
 <translation id="9065745800631924235">Historiasta löydetty haku <ph name="TEXT" /></translation>
 <translation id="9069693763241529744">Laajennuksen estämä</translation>
-<translation id="9076630408993835509">Yritys tai muu organisaatio ei ylläpidä selainta. Laitteen toimintaa saatetaan ylläpitää muualta kuin Chromesta käsin. <ph name="BEGIN_LINK" />Lue lisää<ph name="END_LINK" /></translation>
+<translation id="9076630408993835509">Yritys tai muu organisaatio ei ylläpidä selainta. Laitteen toimintaa saatetaan ylläpitää muualta kuin Bravesta käsin. <ph name="BEGIN_LINK" />Lue lisää<ph name="END_LINK" /></translation>
 <translation id="9078964945751709336">Lisätietoja tarvitaan</translation>
 <translation id="9080712759204168376">Tilauksen yhteenveto</translation>
 <translation id="9089260154716455634">Ei-aktiivisen ajan käytäntö:</translation>
 <translation id="9095388113577226029">Lisää kieliä…</translation>
-<translation id="9103872766612412690"><ph name="SITE" /> suojaa tietosi normaalisti salauksen avulla. Kun Chromium yritti tällä kertaa yhdistää sivustoon <ph name="SITE" />, sivusto palautti epätavalliset ja virheelliset kirjautumistiedot. Hyökkääjä saattaa yrittää esiintyä sivustona <ph name="SITE" />, tai Wi-Fi-kirjautumisruutu on keskeyttänyt yhteyden. Tietosi ovat edelleen turvassa, sillä Chromium katkaisi yhteyden, ennen kuin mitään tietoja vaihdettiin.</translation>
+<translation id="9103872766612412690"><ph name="SITE" /> suojaa tietosi normaalisti salauksen avulla. Kun Brave yritti tällä kertaa yhdistää sivustoon <ph name="SITE" />, sivusto palautti epätavalliset ja virheelliset kirjautumistiedot. Hyökkääjä saattaa yrittää esiintyä sivustona <ph name="SITE" />, tai Wi-Fi-kirjautumisruutu on keskeyttänyt yhteyden. Tietosi ovat edelleen turvassa, sillä Brave katkaisi yhteyden, ennen kuin mitään tietoja vaihdettiin.</translation>
 <translation id="9106062320799175032">Lisää laskutusosoite</translation>
 <translation id="9114524666733003316">Vahvistetaan korttia…</translation>
 <translation id="9128870381267983090">Yhdistä verkkoon</translation>
@@ -1690,12 +1690,12 @@ Lisätietoja:
 <translation id="9191834167571392248">Reikä vasemmassa alakulmassa</translation>
 <translation id="9205078245616868884">Tietosi on salattu synkronoinnin tunnuslauseesi avulla. Aloita synkronointi antamalla tunnuslause.</translation>
 <translation id="9207861905230894330">Artikkelin lisääminen epäonnistui.</translation>
-<translation id="9215416866750762878">Sovellus estää Chromea muodostamasta turvallista yhteyttä tähän sivustoon</translation>
+<translation id="9215416866750762878">Sovellus estää Bravea muodostamasta turvallista yhteyttä tähän sivustoon</translation>
 <translation id="9219103736887031265">Kuvat</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">TYHJENNÄ LOMAKE</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="936602727769022409">Saatat menettää Google-tilisi käyttöoikeuden. Chromium suosittelee vaihtamaan salasanan nyt. Sinua pyydetään kirjautumaan sisään.</translation>
+<translation id="936602727769022409">Saatat menettää Google-tilisi käyttöoikeuden. Brave suosittelee vaihtamaan salasanan nyt. Sinua pyydetään kirjautumaan sisään.</translation>
 <translation id="939736085109172342">Uusi kansio</translation>
 <translation id="945855313015696284">Tarkista tiedot alta ja poista virheelliset kortit.</translation>
 <translation id="950736567201356821">Kolme reikää yläreunassa</translation>
@@ -1721,5 +1721,5 @@ Lisätietoja:
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1 (728 mm x 1 030 mm)</translation>
 <translation id="997986563973421916">Google Paysta</translation>
-<translation id="998893882640184078">Avaa uusi Chromen incognito-ikkuna</translation>
+<translation id="998893882640184078">Avaa uusi Braven incognito-ikkuna</translation>
 </translationbundle>

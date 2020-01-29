@@ -1,5 +1,5 @@
 # Before running this script
-# In Atom (or other editor) make changes to .grd and .xtb files in folders (chrome/android/java/strings, components/strings, chrome/app/resources, chrome/app):
+# In Atom (or other editor) make changes to .grd and .xtb files in folders (chrome/browser/ui/android/strings, components/strings, chrome/app, *.grd, *.xtb):
 # Chromiumista -> Brave
 # Chromiumist -> Brave
 # Chromiumilla -> Brave
@@ -70,9 +70,9 @@ import FP
 from os import walk
 
 # These are hard coded values
-chrome_strings_file='../../../../chrome/android/java/strings/android_chrome_strings.grd'
+chrome_strings_file='../../../../chrome/browser/ui/android/strings/android_chrome_strings.grd'
 chromium_strings_file='../../../../chrome/app/chromium_strings.grd'
-translations_folder='../../../../chrome/android/java/strings/translations'
+translations_folder='../../../../chrome/browser/ui/android/strings/translations'
 components_folder='../../../../components/strings'
 chromium_strings_folder='../../../../chrome/app/resources'
 brave_brand_string='Brave'
