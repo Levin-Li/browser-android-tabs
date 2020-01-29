@@ -1527,7 +1527,7 @@ Kontu honen ezarpenak kudeatzeko, instalatu Family Link aplikazioa zure gailuan.
 
     Azalpena:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave-ren aplikazioak</translation>
+<translation id="300669147395456190">Brave-ren aplikazioak</translation>
 <translation id="3150927491400159470">Behartu berriro kargatzera</translation>
 <translation id="315116470104423982">Datu-konexioa</translation>
 <translation id="3151539355209957474">Hasiera-ordua</translation>
@@ -1611,7 +1611,7 @@ Kontu honen ezarpenak kudeatzeko, instalatu Family Link aplikazioa zure gailuan.
 <translation id="3280243678470289153">Gelditu Brave-n</translation>
 <translation id="3281892622610078515">Berrogeialdian sartu beharreko fitxategiak eta programak:</translation>
 <translation id="3282210178675490297"><ph name="APP_NAME" /> aplikazioarekin fitxa bat partekatzen</translation>
-<translation id="3282568296779691940">Hasi saioa Brave-n</translation>
+<translation id="82609232232243542">Hasi saioa Brave-n</translation>
 <translation id="3285322247471302225">&amp;Fitxa berria</translation>
 <translation id="328571385944182268">Pasahitzak gorde nahi dituzu?</translation>
 <translation id="3288047731229977326">Garatzaile moduan abiarazten diren luzapenek ordenagailua kalte diezazukete. Ez bazara garatzailea, segurtasunez jokatzeko, luzapen horiek garatzaile moduan exekutatzeko aukera desgaitu beharko zenuke.</translation>
@@ -2442,7 +2442,7 @@ Kontu honen ezarpenak kudeatzeko, instalatu Family Link aplikazioa zure gailuan.
 <translation id="4469477701382819144">Iragarkiak blokeatuta daude iragarki oztopatzaileak edo iruzurrezkoak erakusten dituzten webguneetan</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> webguneak <ph name="FOLDERNAME" /> karpetako fitxategiak edita ditzake</translation>
 <translation id="4470957202018033307">Kanpoko memoria erabiltzeko hobespenak</translation>
-<translation id="447252321002412580">Lagundu Brave-ren eginbideak eta errendimendua hobetzen</translation>
+<translation id="918192811481327695">Lagundu Brave-ren eginbideak eta errendimendua hobetzen</translation>
 <translation id="4474155171896946103">Egin laster-markak fitxa guztiei…</translation>
 <translation id="4474461121892222090">15 minutura arte behar izan daitezke datu-konexioa aktibatzeko.</translation>
 <translation id="4475552974751346499">Bilatu deskargak</translation>
@@ -4055,7 +4055,7 @@ Kontu honen ezarpenak kudeatzeko, instalatu Family Link aplikazioa zure gailuan.
 <translation id="6841186874966388268">Erroreak</translation>
 <translation id="6843423766595476978">Ok Google prest dago</translation>
 <translation id="6845038076637626672">Ireki maximizatuta</translation>
-<translation id="6845325883481699275">Lagundu Brave-ren segurtasuna hobetzen</translation>
+<translation id="4991384657077828949">Lagundu Brave-ren segurtasuna hobetzen</translation>
 <translation id="6848388270925200958">Une honetan, gailu honetan soilik erabil daitezkeen txartel batzuk dituzu</translation>
 <translation id="6850286078059909152">Testuaren kolorea</translation>
 <translation id="6851497530878285708">Aplikazioa gaituta</translation>
@@ -4546,7 +4546,7 @@ Kontu honen ezarpenak kudeatzeko, instalatu Family Link aplikazioa zure gailuan.
 <translation id="756445078718366910">Ireki arakatzailearen leihoa</translation>
 <translation id="7564847347806291057">Amaitu prozesua</translation>
 <translation id="7566118625369982896">Kudeatu Play-ko aplikazioen estekak</translation>
-<translation id="756809126120519699">Garbitu dira Brave-ko datuak</translation>
+<translation id="7814200940910057384">Garbitu dira Brave-ko datuak</translation>
 <translation id="7568790562536448087">Eguneratzen</translation>
 <translation id="7569983096843329377">Beltza</translation>
 <translation id="7571643774869182231">Ez dago eguneratzeko behar adina toki</translation>
@@ -4666,7 +4666,7 @@ Kontu honen ezarpenak kudeatzeko, instalatu Family Link aplikazioa zure gailuan.
 <translation id="7737456446569756884"><ph name="MONTH_AND_YEAR" /> arte jasoko ditu gailuak software- eta segurtasun-eguneratze automatikoak.</translation>
 <translation id="7740996059027112821">Estandarra</translation>
 <translation id="7744047395460924128">Ikusi inprimatze-historia</translation>
-<translation id="7746457520633464754">Aplikazio eta webgune arriskutsuak hautemateko, ireki dituzun orrietako batzuen URLak, sistemari buruzko informazio mugatua eta orrietako edukiaren zati bat bidaltzen dizkio Brave-k Google-ri.</translation>
+<translation id="3712897541513849705">Aplikazio eta webgune arriskutsuak hautemateko, ireki dituzun orrietako batzuen URLak, sistemari buruzko informazio mugatua eta orrietako edukiaren zati bat bidaltzen dizkio Brave-k Google-ri.</translation>
 <translation id="7750228210027921155">Pantaila txikia</translation>
 <translation id="7751260505918304024">Erakutsi guztiak</translation>
 <translation id="7754704193130578113">Galdetu fitxategi bakoitza non gorde behar den deskargatu aurretik</translation>

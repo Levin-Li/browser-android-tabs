@@ -2,52 +2,52 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="bg">
 <translation id="1001534784610492198">Архивът на инсталационната програма е повреден или невалиден. Моля, изтеглете Brave отново.</translation>
-<translation id="102763973188675173">Персонализиране и управление на Brave. Налице е актуализация.</translation>
+<translation id="5849446944780602366">Персонализиране и управление на Brave. Налице е актуализация.</translation>
 <translation id="1051826050538111504">На компютъра ви има опасен софтуер. Brave може да го премахне, да възстанови настройките ви и да деактивира разширенията, така че браузърът отново да заработи нормално.</translation>
 <translation id="1065672644894730302">Предпочитанията ви не могат да бъдат прочетени. Възможно е да няма достъп до някои функции и промените в предпочитанията няма да бъдат запазени.</translation>
 <translation id="1088300314857992706">По-рано <ph name="USER_EMAIL_ADDRESS" /> използва Brave</translation>
 <translation id="1097330777386562916">Изчистване на „бисквитките“ и данните за сайтовете при излизане от Brave</translation>
 <translation id="1104959162601287462">Всичко за &amp;Chrome OS</translation>
 <translation id="110877069173485804">Това е вашият Brave</translation>
-<translation id="1142745911746664600">Brave не може да се актуализира</translation>
-<translation id="1154147086299354128">&amp;Отваряне в Brave</translation>
+<translation id="6389268239133412586">Brave не може да се актуализира</translation>
+<translation id="9071554113102421877">&amp;Отваряне в Brave</translation>
 <translation id="123620459398936149">Chrome OS не можа да синхронизира данните ви. Моля, актуализирайте пропуска си за синхронизиране.</translation>
 <translation id="1302523850133262269">Моля, изчакайте, докато Brave инсталира най-новите системни актуализации.</translation>
 <translation id="137466361146087520">Brave бета</translation>
 <translation id="1399397803214730675">На този компютър вече има по-нова версия на Brave. Ако софтуерът не работи, моля, деинсталирайте Brave и опитайте отново.</translation>
 <translation id="1434626383986940139">Приложения в ранната версия на Brave</translation>
-<translation id="1553358976309200471">Актуализиране на Brave</translation>
-<translation id="1587223624401073077">Brave използва камерата ви.</translation>
-<translation id="1587325591171447154">Brave блокира „<ph name="FILE_NAME" />“, тъй като файлът е опасен.</translation>
-<translation id="1590588151039584890">За да се извърши актуализацията, Brave трябва да спре работа на този компютър. Това може да доведе до изтриване на незапазените промени на други потребители, които са влезли в профила си на този компютър.</translation>
+<translation id="1705567146636171298">Актуализиране на Brave</translation>
+<translation id="3205074487970075628">Brave използва камерата ви.</translation>
+<translation id="4168372721886011198">Brave блокира „<ph name="FILE_NAME" />“, тъй като файлът е опасен.</translation>
+<translation id="2632141563911437138">За да се извърши актуализацията, Brave трябва да спре работа на този компютър. Това може да доведе до изтриване на незапазените промени на други потребители, които са влезли в профила си на този компютър.</translation>
 <translation id="1619887657840448962">За да направим Brave по-безопасен, деактивирахме следното разширение, което липсва от <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> и може да е било добавено без ваше знание.</translation>
 <translation id="1628000112320670027">Получаване на помощ за Brave</translation>
-<translation id="1635734105302489219">„Бисквитките“ ви се изчистват, когато излизате от Brave. За да продължи синхронизирането, променете тази <ph name="COOKIE_SETTINGS_LINK" />.</translation>
+<translation id="6813094029720377619">„Бисквитките“ ви се изчистват, когато излизате от Brave. За да продължи синхронизирането, променете тази <ph name="COOKIE_SETTINGS_LINK" />.</translation>
 <translation id="1662639173275167396">Chrome OS е възможна благодарение на допълнителен <ph name="BEGIN_LINK_CROS_OSS" />софтуер с отворен код<ph name="END_LINK_CROS_OSS" />. Това се отнася и за <ph name="BEGIN_LINK_LINUX_OSS" />Linux (бета)<ph name="END_LINK_LINUX_OSS" />.</translation>
 <translation id="1666409074978194368">Почти приключихме! Рестартирайте Brave, за да завършите актуализирането. Прозорците в режим „инкогнито“ няма да бъдат отворени отново.</translation>
 <translation id="1674870198290878346">Отваряне на връзката в прозорец в режим „инко&amp;гнито“ на Brave</translation>
-<translation id="1682634494516646069">Brave не може да чете и записва в директорията си за данни:
+<translation id="2585240446624043880">Brave не може да чете и записва в директорията си за данни:
 
 <ph name="USER_DATA_DIRECTORY" /></translation>
 <translation id="1698376642261615901">Brave е уеб браузър, който зарежда уеб страници и изпълнява приложения със светкавична скорост. Той е бърз, стабилен и лесен за употреба. Сърфирайте в мрежата по-безопасно с вградената защита на Brave срещу злонамерен софтуер и фишинг.</translation>
 <translation id="1713301662689114961">{0,plural, =1{Brave ще се стартира отново след 1 час}other{Brave ще се стартира отново след # часа}}</translation>
-<translation id="1734234790201236882">Brave ще запази тази парола в профила ви в Google. Няма да се налага да я помните.</translation>
+<translation id="6163134585289952357">Brave ще запази тази парола в профила ви в Google. Няма да се налага да я помните.</translation>
 <translation id="174539241580958092">Brave не можа да синхронизира данните ви поради грешка при влизането.</translation>
-<translation id="1759842336958782510">Brave</translation>
+<translation id="939305735877869636">Brave</translation>
 <translation id="1812689907177901597">С изключването на тази функция можете да влизате в сайтовете на Google, като например Gmail, без да влизате в Brave</translation>
 <translation id="1860536484129686729">Brave се нуждае от разрешение за достъп до камерата ви за този сайт</translation>
-<translation id="1873233029667955273">Brave не е браузърът ви по подразбиране</translation>
+<translation id="3343095737966473035">Brave не е браузърът ви по подразбиране</translation>
 <translation id="1874309113135274312">Brave бета (mDNS-In)</translation>
-<translation id="1877026089748256423">Brave не е актуален</translation>
+<translation id="5173820533850252773">Brave не е актуален</translation>
 <translation id="1900795423379050516">Ако дадена настройка не се показва на тази страница, потърсете в <ph name="LINK_BEGIN" />настройките на браузъра Brave<ph name="LINK_END" /></translation>
 <translation id="1919130412786645364">Разрешаване на влизането в Brave</translation>
 <translation id="2063848847527508675">Chrome OS трябва да се рестартира, за да приложи актуализацията.</translation>
 <translation id="2094919256425865063">Искате ли да затворите Brave въпреки това?</translation>
 <translation id="2120620239521071941"><ph name="ITEMS_COUNT" /> елемента ще се изтрият от това устройство. За да извлечете данните си по-късно, влезте в Brave като <ph name="USER_EMAIL" />.</translation>
 <translation id="2123055963409958220">Помогнете за подобряването на Brave, като подадете сигнал за <ph name="BEGIN_LINK" />текущите настройки<ph name="END_LINK" /></translation>
-<translation id="2151406531797534936">Моля, рестартирайте Brave сега</translation>
-<translation id="2246246234298806438">Brave не може да покаже визуализацията за печат, когато вграденият визуализатор на PDF файлове липсва.</translation>
-<translation id="2290014774651636340">Ключовете на приложния програмен интерфейс (API) на Google липсват. Някои функции на Brave ще бъдат деактивирани.</translation>
+<translation id="5646769069113654257">Моля, рестартирайте Brave сега</translation>
+<translation id="5874882355102994015">Brave не може да покаже визуализацията за печат, когато вграденият визуализатор на PDF файлове липсва.</translation>
+<translation id="350396164462274391">Ключовете на приложния програмен интерфейс (API) на Google липсват. Някои функции на Brave ще бъдат деактивирани.</translation>
 <translation id="2290095356545025170">Наистина ли искате да деинсталирате Brave?</translation>
 <translation id="2309047409763057870">Тази инсталация на Brave е алтернативна и не може да се зададе като браузър по подразбиране.</translation>
 <translation id="2348335408836342058">Brave се нуждае от разрешение за достъп до камерата и микрофона ви за този сайт</translation>
@@ -57,47 +57,47 @@
 <translation id="2534507159460261402">Google Pay (копирано в Brave)</translation>
 <translation id="2580411288591421699">Не може да се инсталира същата версия на Brave, която се използва понастоящем. Моля, затворете браузъра и опитайте отново.</translation>
 <translation id="2586406160782125153">Данните за сърфирането ви ще се изтрият от това устройство. За да ги извлечете по-късно, влезте в Brave като <ph name="USER_EMAIL" />.</translation>
-<translation id="2588322182880276190">Лого на Brave</translation>
+<translation id="4847979153841887006">Лого на Brave</translation>
 <translation id="2644798301485385923">Система Chrome OS</translation>
 <translation id="2652691236519827073">Отваряне на връзката в нов &amp;раздел на Brave</translation>
-<translation id="2665296953892887393">Помогнете ни да подобрим Brave, като ни изпращате <ph name="UMA_LINK" /> му и сигнали за сривове</translation>
-<translation id="2689103672227170538">Това разширение промени страницата, която се показва при стартиране на Brave.</translation>
+<translation id="7348158796480960456">Помогнете ни да подобрим Brave, като ни изпращате <ph name="UMA_LINK" /> му и сигнали за сривове</translation>
+<translation id="3813272600615358652">Това разширение промени страницата, която се показва при стартиране на Brave.</translation>
 <translation id="2765403129283291972">Brave се нуждае от разрешение за достъп до микрофона ви за този сайт</translation>
 <translation id="2770231113462710648">Промяна на браузъра по подразбиране с/ъс:</translation>
 <translation id="2799223571221894425">Стартиране отново</translation>
 <translation id="2847461019998147611">Показване на Brave на този език</translation>
 <translation id="2857540653560290388">Brave се стартира...</translation>
 <translation id="2871893339301912279">Влязохте в Brave!</translation>
-<translation id="2888126860611144412">Всичко за Brave</translation>
+<translation id="8541922081612557424">Всичко за Brave</translation>
 <translation id="3037838751736561277">Brave работи на заден план.</translation>
-<translation id="3065168410429928842">Раздел в Brave</translation>
+<translation id="6791166902140255175">Раздел в Brave</translation>
 <translation id="3080151273017101988">Изпълняване на приложения на заден план при затворен браузър Brave</translation>
 <translation id="3089968997497233615">Налице е нова, по-сигурна версия на Brave.</translation>
-<translation id="3149510190863420837">Приложения в Brave</translation>
-<translation id="3282568296779691940">Вход в Brave</translation>
+<translation id="300669147395456190">Приложения в Brave</translation>
+<translation id="82609232232243542">Вход в Brave</translation>
 <translation id="3340978935015468852">настройки</translation>
 <translation id="3360895254066713204">Brave Helper</translation>
 <translation id="3379938682270551431">{0,plural, =0{Brave ще се стартира отново сега}=1{Brave ще се стартира отново след 1 секунда}other{Brave ще се стартира отново след # секунди}}</translation>
 <translation id="3395323229510056640">Получаване на помощ за Chrome OS</translation>
 <translation id="3396977131400919238">По време на инсталирането възникна грешка в операционната система. Моля, изтеглете Brave отново.</translation>
 <translation id="3398288718845740432">Скриване в менюто на Brave</translation>
-<translation id="3451115285585441894">Добавя се към Brave...</translation>
+<translation id="8880183781256147665">Добавя се към Brave...</translation>
 <translation id="345171907106878721">Добавяне на вас към Brave</translation>
 <translation id="34857402635545079">Да се изчистят и данните от Brave (<ph name="URL" />)</translation>
 <translation id="3503306920980160878">Brave се нуждае от достъп до данните за местоположението ви, за да ги сподели с този сайт</translation>
 <translation id="3576528680708590453">Системният ви администратор е конфигурирал Brave да отваря алтернативен браузър за достъп до <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="3582972582564653026">Синхронизирайте и персонализирайте Brave на всичките си устройства</translation>
+<translation id="5477319665405831211">Синхронизирайте и персонализирайте Brave на всичките си устройства</translation>
 <translation id="3596080736082218006">{COUNT,plural, =0{Администраторът ви изисква да рестартирате Brave, за да се приложи актуализация}=1{Администраторът ви изисква да рестартирате Brave, за да се приложи актуализация. Прозорецът ви в режим „инкогнито“ няма да бъде отворен отново.}other{Администраторът ви изисква да рестартирате Brave, за да се приложи актуализация. Вашите # прозореца в режим „инкогнито“ няма да бъдат отворени отново.}}</translation>
 <translation id="3622797965165704966">Вече е по-лесно да използвате Brave с профила си в Google и на споделени компютри.</translation>
 <translation id="3637702109597584617"><ph name="TERMS_OF_SERVICE_LINK" />Общи условия<ph name="END_TERMS_OF_SERVICE_LINK" /> на Google Chrome OS</translation>
 <translation id="3718181793972440140">1 елемент ще се изтрие от това устройство. За да извлечете данните си по-късно, влезте в Brave като <ph name="USER_EMAIL" />.</translation>
-<translation id="3735758079232443276">Разширението „<ph name="EXTENSION_NAME" />“ промени страницата, която се показва при стартиране на Brave.</translation>
+<translation id="2576129394594491151">Разширението „<ph name="EXTENSION_NAME" />“ промени страницата, която се показва при стартиране на Brave.</translation>
 <translation id="3780814664026482060">Brave – <ph name="PAGE_TITLE" /></translation>
 <translation id="386202838227397562">Моля, затворете всички прозорци на Brave и опитайте отново.</translation>
 <translation id="3873044882194371212">Отваряне на връзката в прозорец в режим „инко&amp;гнито“ на Brave</translation>
 <translation id="3889417619312448367">Деинсталиране на Brave</translation>
 <translation id="4050175100176540509">В последната версия са налице важни подобрения в сигурността и нови функции.</translation>
-<translation id="4053720452172726777">Персонализиране и контролиране на Brave</translation>
+<translation id="8148611988012584308">Персонализиране и контролиране на Brave</translation>
 <translation id="4143243756087420366">Име и снимка за Brave</translation>
 <translation id="4147555960264124640">Влизате с управляван профил и давате на администратора му контрол над потребителския си профил в Brave. Данните ви в браузъра, като например приложения, отметки, история, пароли и други настройки, ще се свържат за постоянно с/ъс <ph name="USER_NAME" />. Ще можете да ги изтриете чрез таблото за управление на Google Профили, но не и да ги свържете с друг профил. <ph name="LEARN_MORE" /></translation>
 <translation id="4149882025268051530">Инсталационната програма не успя да декомпресира архива. Моля, изтеглете Brave отново.</translation>
@@ -115,56 +115,56 @@
 <translation id="4567424176335768812">Влезли сте като <ph name="USER_EMAIL_ADDRESS" />. Сега имате достъп до отметките, историята и другите си настройки на всички устройства, на които сте влезли.</translation>
 <translation id="4571503333518166079">Към настройките за известия в Brave</translation>
 <translation id="459622048091363950">След като Brave получи достъп, уебсайтовете ще могат да искат достъп от вас.</translation>
-<translation id="4600710005438004015">Brave не можа да се актуализира до най-новата версия. Това означава, че пропускате нови функции и корекции за сигурност.</translation>
+<translation id="7963515534397191222">Brave не можа да се актуализира до най-новата версия. Това означава, че пропускате нови функции и корекции за сигурност.</translation>
 <translation id="4631713731678262610">Скриване в менюто на Brave</translation>
 <translation id="4633000520311261472">За да направим Brave по-безопасен, деактивирахме някои разширения, които не са посочени в <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> и може да са били добавени без ваше знание.</translation>
 <translation id="4728575227883772061">Инсталирането не бе успешно поради неизвестна грешка. Ако Brave понастоящем работи, моля, затворете го и опитайте отново.</translation>
 <translation id="4750550185319565338">Рестартирайте Brave, за да активирате <ph name="PLUGIN_NAME" /></translation>
 <translation id="4754614261631455953">Brave Canary (входящ трафик за mDNS)</translation>
-<translation id="4771048833395599659">Brave блокира този файл, тъй като може да е опасен.</translation>
+<translation id="89367911614620585">Brave блокира този файл, тъй като може да е опасен.</translation>
 <translation id="479167709087336770">Използва се същата услуга за проверка на правописа като в Google Търсене. Текстът, който въвеждате в браузъра, се изпраща до Google. Винаги можете да промените това поведение от настройките.</translation>
 <translation id="4891791193823137474">Brave да се изпълнява на заден план</translation>
 <translation id="4895437082222824641">Отваряне на връзката в нов &amp;раздел на Brave</translation>
 <translation id="4953650215774548573">Задаване на Brave като браузър по подразбиране</translation>
-<translation id="495931528404527476">В Brave</translation>
+<translation id="6078442581074612226">В Brave</translation>
 <translation id="4990567037958725628">Brave Canary</translation>
 <translation id="5028489144783860647">Brave не можа да синхронизира данните ви. Моля, актуализирайте пропуска си за синхронизиране.</translation>
 <translation id="5062123544085870375">Рестартиране на Chrome OS</translation>
-<translation id="5132929315877954718">Открийте отлични приложения, игри, разширения и теми за Brave.</translation>
+<translation id="2871190378186459992">Открийте отлични приложения, игри, разширения и теми за Brave.</translation>
 <translation id="5170938038195470297">Потребителският ви профил не може да се използва, защото е от по-нова версия на Brave. Някои функции може да не са налице. Моля, посочете друга директория в потребителския профил или използвайте по-нова версия на Brave.</translation>
 <translation id="5193136243808726294">Google Chrome OS не може да отвори тази страница.</translation>
 <translation id="5204098752394657250"><ph name="TERMS_OF_SERVICE_LINK" />Общи условия<ph name="END_TERMS_OF_SERVICE_LINK" /> на Brave</translation>
 <translation id="5251420635869119124">Гостите могат да използват Brave, без да оставят следи.</translation>
-<translation id="532046782124376502">Предупреждение: Brave не може да попречи на разширенията да записват историята ви на сърфиране. За да деактивирате това разширение в режим „инкогнито“, премахнете отметката от тази опция.</translation>
+<translation id="5436841087823876677">Предупреждение: Brave не може да попречи на разширенията да записват историята ви на сърфиране. За да деактивирате това разширение в режим „инкогнито“, премахнете отметката от тази опция.</translation>
 <translation id="5386244825306882791">То също контролира коя страница се показва при стартиране на Brave или при търсене от полето за всичко.</translation>
-<translation id="5394833366792865639">Споделяне на раздел в Brave</translation>
-<translation id="5430073640787465221">Файлът с предпочитанията ви е повреден или невалиден. Brave не може да възстанови настройките ви.</translation>
-<translation id="5543953544073077331">Изпълняват се други копия на Brave. Затворете ги, за да актуализирате.</translation>
+<translation id="5147525139567260139">Споделяне на раздел в Brave</translation>
+<translation id="3403365884036456766">Файлът с предпочитанията ви е повреден или невалиден. Brave не може да възстанови настройките ви.</translation>
+<translation id="1801551749768408825">Изпълняват се други копия на Brave. Затворете ги, за да актуализирате.</translation>
 <translation id="556024056938947818">Brave опитва да покаже паролите.</translation>
 <translation id="5566025111015594046">Brave (входящ трафик за mDNS)</translation>
 <translation id="5657226924540934362">Ако дадена настройка не се показва на тази страница, потърсете в <ph name="LINK_BEGIN" />настройките на Chrome OS<ph name="LINK_END" /></translation>
-<translation id="565744775970812598">Brave блокира „<ph name="FILE_NAME" />“, тъй като файлът може да е опасен.</translation>
+<translation id="3561569806301739367">Brave блокира „<ph name="FILE_NAME" />“, тъй като файлът може да е опасен.</translation>
 <translation id="5678190148303298925">{COUNT,plural, =0{Администраторът ви моли да рестартирате Brave, за да се приложи тази актуализация}=1{Администраторът ви моли да рестартирате Brave, за да се приложи тази актуализация. Прозорецът ви в режим „инкогнито“ няма да бъде отворен отново.}other{Администраторът ви моли да рестартирате Brave, за да се приложи тази актуализация. Вашите # прозореца в режим „инкогнито“ няма да бъдат отворени отново.}}</translation>
-<translation id="5686916850681061684">Персонализиране и контролиране на Brave. Трябва да обърнете внимание на нещо – кликнете за подробности.</translation>
+<translation id="6315734375101223238">Персонализиране и контролиране на Brave. Трябва да обърнете внимание на нещо – кликнете за подробности.</translation>
 <translation id="5690427481109656848">Brave Software Inc</translation>
-<translation id="5715063361988620182">{SECONDS,plural, =1{Brave ще се рестартира след 1 секунда}other{Brave ще се рестартира след # секунди}}</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Brave ще се рестартира след 1 секунда}other{Brave ще се рестартира след # секунди}}</translation>
 <translation id="573759479754913123">Всичко за Chrome OS</translation>
-<translation id="5795887333006832406"><ph name="PAGE_TITLE" /> – Brave Canary</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE" /> – Brave Canary</translation>
 <translation id="5804318322022881572">Brave не можа да се стартира. Опитайте отново.</translation>
 <translation id="5895138241574237353">Рестартиране</translation>
 <translation id="5940385492829620908">Тук ще намерите посещаваните от вас места в мрежата, отметките и другите си неща в Brave.</translation>
-<translation id="5941830788786076944">Искам Brave да бъде браузърът по подразбиране</translation>
+<translation id="5019879183386042809">Искам Brave да бъде браузърът по подразбиране</translation>
 <translation id="6070348360322141662">За повишаване на сигурността Brave ще шифрова данните ви</translation>
 <translation id="6113794647360055231">Brave се подобри</translation>
-<translation id="6169866489629082767"><ph name="PAGE_TITLE" /> - Brave</translation>
-<translation id="6173637689840186878"><ph name="PAGE_TITLE" /> – Brave бета</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE" /> - Brave</translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE" /> – Brave бета</translation>
 <translation id="61852838583753520">Актуализиране на &amp;Chrome OS</translation>
 <translation id="6235018212288296708">Правило за Brave за допускане на входящия трафик за mDNS.</translation>
 <translation id="6291089322031436445">Приложения за Brave Dev</translation>
 <translation id="6291549208091401781">Brave вече е инсталиран за всички потребители на компютъра ви.</translation>
 <translation id="6338556085225130112">Brave се актуализира</translation>
 <translation id="6368958679917195344">Chrome OS е възможна благодарение на допълнителен <ph name="BEGIN_LINK_CROS_OSS" />софтуер с отворен код<ph name="END_LINK_CROS_OSS" />.</translation>
-<translation id="6515495397637126556"><ph name="PAGE_TITLE" /> – Brave Dev</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE" /> – Brave Dev</translation>
 <translation id="6566149418543181476">Brave се актуализира (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="6676384891291319759">Достъп до интернет</translation>
 <translation id="6679975945624592337">Разрешаване на Brave да се изпълнява на заден план</translation>
@@ -176,8 +176,8 @@
 <translation id="6967962315388095737">Правило за Brave бета за допускане на входящия трафик за mDNS.</translation>
 <translation id="6982337800632491844"><ph name="DOMAIN" /> изисква да прочетете и приемете следните Общи условия, преди да използвате това устройство. Те не разширяват, не променят, нито ограничават Условията на Google Chrome OS.</translation>
 <translation id="6989339256997917931">Brave е актуализиран, но не сте го използвали от поне 30 дни.</translation>
-<translation id="7098166902387133879">Brave използва микрофона ви.</translation>
-<translation id="7106741999175697885">Диспечер на задачите - Brave</translation>
+<translation id="8919461291440820124">Brave използва микрофона ви.</translation>
+<translation id="5516268345616100622">Диспечер на задачите - Brave</translation>
 <translation id="7140653346177713799">{COUNT,plural, =0{Налице е актуализация за Brave, която ще бъде приложена веднага щом рестартирате.}=1{Налице е актуализация за Brave, която ще бъде приложена веднага щом рестартирате. Прозорецът ви в режим „инкогнито“ няма да бъде отворен отново.}other{Налице е актуализация за Brave, която ще бъде приложена веднага щом рестартирате. Вашите # прозореца в режим „инкогнито“ няма да бъдат отворени отново.}}</translation>
 <translation id="7242029209006116544">Влизате с управляван профил и давате на администратора му контрол над потребителския си профил в Brave. Данните ви в браузъра, като например приложения, отметки, история, пароли и други настройки, ще се свържат за постоянно с/ъс <ph name="USER_NAME" />. Ще можете да ги изтриете чрез таблото за управление на Google Профили, но не и да ги свържете с друг профил. По избор можете да създадете нов потребителски профил, за да отделите съществуващите си данни в Brave. <ph name="LEARN_MORE" /></translation>
 <translation id="7295052994004373688">Този език служи за показване на ПИ на Brave</translation>
@@ -188,13 +188,13 @@
 <translation id="7408085963519505752">Общи условия на Chrome OS</translation>
 <translation id="7419046106786626209">Chrome OS не можа да синхронизира данните ви, защото тази функция не е налице за домейна ви.</translation>
 <translation id="7486227612705979895">Brave ще осъществява достъп до хранилището ви в Диск, за да извежда предложения в адресната лента</translation>
-<translation id="7531671357096394523">Затваряне на всички копия на Brave.</translation>
+<translation id="8887390605192156061">Затваряне на всички копия на Brave.</translation>
 <translation id="7535429826459677826">Brave Dev</translation>
 <translation id="7573289029918943991">За да разберете дали устройството ви е актуално, отворете <ph name="LINK_BEGIN" />настройките на Chrome OS<ph name="LINK_END" /></translation>
 <translation id="7589360514048265910">Занапред този компютър няма да получава актуализации на Brave, защото Mac OS X 10.9 вече не се поддържа.</translation>
 <translation id="7592736734348559088">Brave не можа да синхронизира данните ви, защото потребителското име и паролата за вход в профила ви не са актуални.</translation>
-<translation id="7626032353295482388">Добре дошли в Brave</translation>
-<translation id="7629695634924605473">Brave ви уведомява, ако паролите ви бъдат компрометирани</translation>
+<translation id="7207456302801184289">Добре дошли в Brave</translation>
+<translation id="8211837073776713955">Brave ви уведомява, ако паролите ви бъдат компрометирани</translation>
 <translation id="7641148173327520642">Системният ви администратор е конфигурирал Brave да отваря <ph name="ALTERNATIVE_BROWSER_NAME" /> за достъп до <ph name="TARGET_URL_HOSTNAME" />.</translation>
 <translation id="7651907282515937834">Лого на Brave Enterprise</translation>
 <translation id="7747138024166251722">Инсталационната програма не можа да създаде временна директория. Моля, проверете дали има свободно дисково пространство и разрешение за инсталиране на софтуер.</translation>
@@ -202,25 +202,24 @@
 <translation id="7777080907402804672">Ако няма полезно описание за дадено изображение, Brave ще се опита да предостави такова. За да бъдат създадени описания, съответните изображения се изпращат до Google. По всяко време можете да изключите тази функция от настройките.</translation>
 <translation id="7781002470561365167">Налице е нова версия на Brave.</translation>
 <translation id="7787950393032327779">Изглежда, че потребителският профил се използва от друг процес на Brave (<ph name="PROCESS_ID" />) на друг компютър (<ph name="HOST_NAME" />). Brave заключи потребителския профил, за да не се повреди. Ако сте сигурни, че нито един друг процес не го използва, можете да отключите потребителския профил и да стартирате Brave повторно.</translation>
-<translation id="7808348361785373670">Премахване от Brave...</translation>
+<translation id="777113543093865885">Премахване от Brave...</translation>
 <translation id="7825851276765848807">Инсталацията не бе успешна поради неизвестна грешка. Моля, изтеглете отново Brave.</translation>
 <translation id="7855730255114109580">Brave е актуален</translation>
 <translation id="7890208801193284374">Ако споделяте компютър, близките и приятелите ви могат да сърфират отделно и да настроят Brave точно така, както искат.</translation>
 <translation id="7896673875602241923">По-рано някой влезе в Brave на този компютър като <ph name="ACCOUNT_EMAIL_LAST" />. Моля, създайте нов потребител в браузъра, така че информацията ви да се съхранява отделно.</translation>
 <translation id="7962410387636238736">От сега нататък този компютър няма да получава актуализации на Brave, тъй като Windows XP и Windows Vista вече не се поддържат</translation>
-<translation id="8008534537613507642">Повторно инсталиране на Brave</translation>
+<translation id="5875673934455379806">Повторно инсталиране на Brave</translation>
 <translation id="8013993649590906847">Ако няма полезно описание за дадено изображение, Brave ще се опита да предостави такова. За да бъдат създадени описания, съответните изображения се изпращат до Google.</translation>
 <translation id="8129812357326543296">Всичко за &amp;Brave</translation>
-<translation id="8255190535488645436">Brave използва камерата и микрофона ви.</translation>
+<translation id="3293668930608086049">Brave използва камерата и микрофона ви.</translation>
 <translation id="8286862437124483331">Brave опитва да покаже паролите. За да разрешите това, въведете паролата си за Windows.</translation>
 <translation id="8290100596633877290">О, не! Brave претърпя срив. Да се стартира ли отново сега?</translation>
-<translation id="8342675569599923794">Brave блокира този файл, тъй като е опасен.</translation>
+<translation id="9067428552314418522">Brave блокира този файл, тъй като е опасен.</translation>
 <translation id="8370517070665726704">Авторски права <ph name="YEAR" /> г. Brave Software Inc. Всички права запазени.</translation>
 <translation id="840084489713044809">Brave иска да експортира паролите ви.</translation>
 <translation id="8455999171311319804">По избор: Помогнете за подобряването на Chrome OS, като автоматично изпращате до Google данни за диагностиката и употребата.</translation>
-<translation id="8498858610309223613">Току-що бе приложена специална актуализация за сигурност за Brave. Рестартирайте сега – ще възстановим разделите ви.</translation>
+<translation id="8668413672647811944">Току-що бе приложена специална актуализация за сигурност за Brave. Рестартирайте сега – ще възстановим разделите ви.</translation>
 <translation id="8521348052903287641">Правило за Brave Dev за допускане на входящия трафик за mDNS.</translation>
-<translation id="8540666473246803645">Brave</translation>
 <translation id="8556340503434111824">Налице е нова версия на Brave, която е по-бърза от всякога.</translation>
 <translation id="8614913330719544658">Brave блокира. Да се стартира ли отново сега?</translation>
 <translation id="8625237574518804553">{0,plural, =1{Brave ще се стартира отново след 1 минута}other{Brave ще се стартира отново след # минути}}</translation>

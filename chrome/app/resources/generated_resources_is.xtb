@@ -1528,7 +1528,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 
     Lýsing:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave forrit</translation>
+<translation id="300669147395456190">Brave forrit</translation>
 <translation id="3150927491400159470">Algjör endurhleðsla</translation>
 <translation id="315116470104423982">Farsímagögn</translation>
 <translation id="3151539355209957474">Upphafstími</translation>
@@ -1612,7 +1612,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3280243678470289153">Vera áfram í Brave</translation>
 <translation id="3281892622610078515">Skrár og forrit sem á að setja í sóttkví:</translation>
 <translation id="3282210178675490297">Deilir flipa með <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Skráðu þig inn á Brave</translation>
+<translation id="82609232232243542">Skráðu þig inn á Brave</translation>
 <translation id="3285322247471302225">Nýr flipi</translation>
 <translation id="328571385944182268">Vista aðgangsorðin þín?</translation>
 <translation id="3288047731229977326">Viðbætur sem keyra í forritarastillingu geta skaðað tölvuna þína. Ef þú ert ekki forritari ættirðu að gera þessar viðbætur sem keyra í forritarastillingu óvirkar til öryggis.</translation>
@@ -2443,7 +2443,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4469477701382819144">Lokað fyrir á vefsvæðum sem sýna ágengar eða villandi auglýsingar</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> getur breytt skrám í <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Kjörstillingar ytri geymslu</translation>
-<translation id="447252321002412580">Hjálpaðu til við að bæta eiginleika og afköst Brave</translation>
+<translation id="918192811481327695">Hjálpaðu til við að bæta eiginleika og afköst Brave</translation>
 <translation id="4474155171896946103">Bókamerkja alla flipa...</translation>
 <translation id="4474461121892222090">Það getur tekið allt að 15 mínútur að ljúka virkjun farsímagagna.</translation>
 <translation id="4475552974751346499">Leita í niðurhali</translation>
@@ -4058,7 +4058,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6841186874966388268">Villur</translation>
 <translation id="6843423766595476978">Ok Google er tilbúið</translation>
 <translation id="6845038076637626672">Opna stækkað</translation>
-<translation id="6845325883481699275">Hjálpaðu til við að bæta öryggi Brave</translation>
+<translation id="4991384657077828949">Hjálpaðu til við að bæta öryggi Brave</translation>
 <translation id="6848388270925200958">Eins og er ertu með einhver kort sem aðeins er hægt að nota í þessu tæki</translation>
 <translation id="6850286078059909152">Textalitur</translation>
 <translation id="6851497530878285708">Forrit virkt</translation>
@@ -4549,7 +4549,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="756445078718366910">Opna vafraglugga</translation>
 <translation id="7564847347806291057">Stöðva ferli</translation>
 <translation id="7566118625369982896">Umsjón með forritatenglum í Play</translation>
-<translation id="756809126120519699">Brave gögnum eytt</translation>
+<translation id="7814200940910057384">Brave gögnum eytt</translation>
 <translation id="7568790562536448087">Uppfærir</translation>
 <translation id="7569983096843329377">Svartur</translation>
 <translation id="7571643774869182231">Ekki nægt geymslurými fyrir uppfærslu</translation>
@@ -4669,7 +4669,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="7737456446569756884">Þetta tæki fær sjálfvirkar hugbúnaðar- og öryggisuppfærslur þar til <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Venjulegt</translation>
 <translation id="7744047395460924128">Sjá prentferilinn þinn</translation>
-<translation id="7746457520633464754">Til að greina hættuleg forrit og vefsvæði sendir Brave vefslóðir einhverra síðna sem þú skoðar, kerfisupplýsingar og efni síðu til Google.</translation>
+<translation id="3712897541513849705">Til að greina hættuleg forrit og vefsvæði sendir Brave vefslóðir einhverra síðna sem þú skoðar, kerfisupplýsingar og efni síðu til Google.</translation>
 <translation id="7750228210027921155">Mynd í mynd</translation>
 <translation id="7751260505918304024">Sýna allt</translation>
 <translation id="7754704193130578113">Spyrja hvar á að vista hverja skrá áður en niðurhal hefst</translation>

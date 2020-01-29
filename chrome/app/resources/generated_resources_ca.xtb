@@ -1525,7 +1525,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3149477159749171726">Versió: <ph name="LINUX_VERSION" />
 
 Descripció: <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Aplicacions de Brave</translation>
+<translation id="300669147395456190">Aplicacions de Brave</translation>
 <translation id="3150927491400159470">Torna a carregar de manera forçada</translation>
 <translation id="315116470104423982">Dades mòbils</translation>
 <translation id="3151539355209957474">Hora d'inici</translation>
@@ -1609,7 +1609,7 @@ Descripció: <ph name="LINUX_DESCRIPTION" /></translation>
 <translation id="3280243678470289153">Continua a Brave</translation>
 <translation id="3281892622610078515">Fitxer i programes que es posaran en quarantena:</translation>
 <translation id="3282210178675490297">S'està compartint una pestanya amb <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Inicia la sessió a Brave</translation>
+<translation id="82609232232243542">Inicia la sessió a Brave</translation>
 <translation id="3285322247471302225">Pes&amp;tanya nova</translation>
 <translation id="328571385944182268">Vols desar les contrasenyes?</translation>
 <translation id="3288047731229977326">Les extensions que funcionen amb el mode de desenvolupador poden malmetre el vostre ordinador. Si no sou desenvolupador, hauríeu de desactivar aquestes extensions per continuar protegit.</translation>
@@ -2440,7 +2440,7 @@ en almenys <ph name="INSTALL_SIZE" /> d'espai lliure. Per alliberar espai, supri
 <translation id="4469477701382819144">Anuncis bloquejats als llocs web que mostren publicitat intrusiva o enganyosa</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> pot editar els fitxers que conté la carpeta <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Preferències de l'emmagatzematge extern</translation>
-<translation id="447252321002412580">Ajuda a millorar les funcions i el rendiment de Brave</translation>
+<translation id="918192811481327695">Ajuda a millorar les funcions i el rendiment de Brave</translation>
 <translation id="4474155171896946103">Afegeix totes les pestanyes a les adreces d'interès...</translation>
 <translation id="4474461121892222090">És possible que les dades mòbils tardin fins a 15 minuts a activar-se.</translation>
 <translation id="4475552974751346499">Cerca baixades</translation>
@@ -4057,7 +4057,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6841186874966388268">Errors</translation>
 <translation id="6843423766595476978">Ok Google ja està configurat</translation>
 <translation id="6845038076637626672">Obre-la maximitzada</translation>
-<translation id="6845325883481699275">Ajuda a millorar la seguretat de Brave</translation>
+<translation id="4991384657077828949">Ajuda a millorar la seguretat de Brave</translation>
 <translation id="6848388270925200958">En aquest moment tens targetes que només es poden fer servir en aquest dispositiu</translation>
 <translation id="6850286078059909152">Color del text</translation>
 <translation id="6851497530878285708">Aplicació activada</translation>
@@ -4548,7 +4548,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="756445078718366910">Obre una finestra del navegador</translation>
 <translation id="7564847347806291057">Finalitza el procés</translation>
 <translation id="7566118625369982896">Gestiona els enllaços d'aplicacions de Play</translation>
-<translation id="756809126120519699">S'han esborrat les dades de Brave</translation>
+<translation id="7814200940910057384">S'han esborrat les dades de Brave</translation>
 <translation id="7568790562536448087">Actualització</translation>
 <translation id="7569983096843329377">Negre</translation>
 <translation id="7571643774869182231">No hi ha prou espai d'emmagatzematge per fer l'actualització</translation>
@@ -4668,7 +4668,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="7737456446569756884">Aquest dispositiu rebrà actualitzacions automàtiques de programari i seguretat fins a la data: <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Estàndard</translation>
 <translation id="7744047395460924128">Veure l'historial d'impressions</translation>
-<translation id="7746457520633464754">Per detectar aplicacions i llocs web perillosos, Brave envia a Google els URL d'algunes de les pàgines que visites, informació limitada del sistema i part del contingut de les pàgines</translation>
+<translation id="3712897541513849705">Per detectar aplicacions i llocs web perillosos, Brave envia a Google els URL d'algunes de les pàgines que visites, informació limitada del sistema i part del contingut de les pàgines</translation>
 <translation id="7750228210027921155">Pantalla en pantalla</translation>
 <translation id="7751260505918304024">Mostra-ho tot</translation>
 <translation id="7754704193130578113">Pregunta on es desarà cada fitxer abans de baixar-lo</translation>

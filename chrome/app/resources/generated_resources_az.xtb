@@ -1523,7 +1523,7 @@ Cihazda Family Link tətbiqini quraşdırmaqla bu hesabın ayarlarını idarə e
 
     Təsvir:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave Tətbiqləri</translation>
+<translation id="300669147395456190">Brave Tətbiqləri</translation>
 <translation id="3150927491400159470">Çətin yenidən yükləmə</translation>
 <translation id="315116470104423982">Mobil data</translation>
 <translation id="3151539355209957474">Başlama vaxtı</translation>
@@ -1607,7 +1607,7 @@ Cihazda Family Link tətbiqini quraşdırmaqla bu hesabın ayarlarını idarə e
 <translation id="3280243678470289153">Brave'da qalın</translation>
 <translation id="3281892622610078515">Təcrid ediləcək fayl və proqramlar:</translation>
 <translation id="3282210178675490297">Tab <ph name="APP_NAME" /> ilə paylaşılır</translation>
-<translation id="3282568296779691940">Brave'a daxil olun</translation>
+<translation id="82609232232243542">Brave'a daxil olun</translation>
 <translation id="3285322247471302225">Yeni Tab</translation>
 <translation id="328571385944182268">Parollar yadda saxlanılsın?</translation>
 <translation id="3288047731229977326">Developer rejimində işləyən artırmalar kompüterinizə zərər verə bilər. Developer deyilsinizsə, güvənli qalmaq üçün bu artırmaların developer rejimində işləməsinə icazə verməməlisiniz.</translation>
@@ -2436,7 +2436,7 @@ Cihazda Family Link tətbiqini quraşdırmaqla bu hesabın ayarlarını idarə e
 <translation id="4469477701382819144">İnadçı və ya aldadıcı reklamlar göstərən saytlarda bloklandı</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> <ph name="FOLDERNAME" /> qovluğundakı faylları redaktə edə bilər</translation>
 <translation id="4470957202018033307">Xarici yaddaş tərcihləri</translation>
-<translation id="447252321002412580">Brave'un funksiya və performansını təkmilləşdirməyə kömək edin</translation>
+<translation id="918192811481327695">Brave'un funksiya və performansını təkmilləşdirməyə kömək edin</translation>
 <translation id="4474155171896946103">Bütün panelləri əlfəcinləyin...</translation>
 <translation id="4474461121892222090">Mobil data aktivasiyasının tamamlanması maksimum 15 dəqiqə çəkə bilər.</translation>
 <translation id="4475552974751346499">Endirmələri axtarın</translation>
@@ -4049,7 +4049,7 @@ Cihazda Family Link tətbiqini quraşdırmaqla bu hesabın ayarlarını idarə e
 <translation id="6841186874966388268">Xətalar</translation>
 <translation id="6843423766595476978">Ok Google tam hazırdır</translation>
 <translation id="6845038076637626672">Maksimal açın</translation>
-<translation id="6845325883481699275">Brave təhlükəsizliyini təkmilləşdirin</translation>
+<translation id="4991384657077828949">Brave təhlükəsizliyini təkmilləşdirin</translation>
 <translation id="6848388270925200958">Hazırda yalnız bu cihazda istifadə edilə bilən bir neçə kartınız var</translation>
 <translation id="6850286078059909152">Mətn rəngi</translation>
 <translation id="6851497530878285708">Tətbiq Aktiv Edildi</translation>
@@ -4540,7 +4540,7 @@ Cihazda Family Link tətbiqini quraşdırmaqla bu hesabın ayarlarını idarə e
 <translation id="756445078718366910">Brauzer pəncərəsini açın</translation>
 <translation id="7564847347806291057">Prosesi bitirin</translation>
 <translation id="7566118625369982896">Play tətbiq linklərini idarə edin</translation>
-<translation id="756809126120519699">Brave datası təmizləndi</translation>
+<translation id="7814200940910057384">Brave datası təmizləndi</translation>
 <translation id="7568790562536448087">Güncəlləşir</translation>
 <translation id="7569983096843329377">Qara</translation>
 <translation id="7571643774869182231">Güncəlləmə üçün kifayət qədər yaddaş yoxdur</translation>
@@ -4660,7 +4660,7 @@ Cihazda Family Link tətbiqini quraşdırmaqla bu hesabın ayarlarını idarə e
 <translation id="7737456446569756884">Avtomatik proqram təminatı və təhlükəsizlik güncəlləmələri <ph name="MONTH_AND_YEAR" /> tarixinə kimi bu cihaza göndəriləcək.</translation>
 <translation id="7740996059027112821">Standart</translation>
 <translation id="7744047395460924128">Çap tarixçənizi görün</translation>
-<translation id="7746457520633464754">Təhlükəli tətbiq və saytları aşkarlamaq üçün Brave daxil olduğunuz səhifələrin linkləri, məhdud sistem məlumatı və bəzi səhifə kontentini Google'a göndərir</translation>
+<translation id="3712897541513849705">Təhlükəli tətbiq və saytları aşkarlamaq üçün Brave daxil olduğunuz səhifələrin linkləri, məhdud sistem məlumatı və bəzi səhifə kontentini Google'a göndərir</translation>
 <translation id="7750228210027921155">Şəkil içində şəkil</translation>
 <translation id="7751260505918304024">Hamısını göstərin</translation>
 <translation id="7754704193130578113">Endirmədən öncə faylın saxlanacağı yeri soruşun</translation>

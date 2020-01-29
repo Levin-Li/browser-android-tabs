@@ -1528,7 +1528,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 
     Paglalarawan:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave Apps</translation>
+<translation id="300669147395456190">Brave Apps</translation>
 <translation id="3150927491400159470">I-hard Reload</translation>
 <translation id="315116470104423982">Data sa mobile</translation>
 <translation id="3151539355209957474">Oras ng Pagsisimula</translation>
@@ -1612,7 +1612,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="3280243678470289153">Manatili sa Brave</translation>
 <translation id="3281892622610078515">Mga file at program na iku-quarantine:</translation>
 <translation id="3282210178675490297">Nagbabahagi ng tab sa <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Mag-sign in sa Brave</translation>
+<translation id="82609232232243542">Mag-sign in sa Brave</translation>
 <translation id="3285322247471302225">Bagong &amp;Tab</translation>
 <translation id="328571385944182268">I-save ang iyong mga password?</translation>
 <translation id="3288047731229977326">Ang mga extension na tumatakbo sa developer mode ay maaaring makapinsala sa iyong computer. Kung hindi ka isang developer, dapat mong i-disable ang mga extension na tumatakbo sa developer mode upang manatiling ligtas.</translation>
@@ -2443,7 +2443,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="4469477701382819144">Naka-block sa mga site na nagpapakita ng mga nakakasagabal at nakakapanlinlang na ad</translation>
 <translation id="4469762931504673593">Puwedeng i-edit ng <ph name="ORIGIN" /> ang mga file sa <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Mga kagustuhan sa external na storage</translation>
-<translation id="447252321002412580">Tumulong sa pagpapahusay sa mga feature at performance ng Brave</translation>
+<translation id="918192811481327695">Tumulong sa pagpapahusay sa mga feature at performance ng Brave</translation>
 <translation id="4474155171896946103">I-bookmark ang lahat ng tab...</translation>
 <translation id="4474461121892222090">Puwede tumagal nang hanggang 15 minuto para makumpleto ang pag-activate ng mobile data.</translation>
 <translation id="4475552974751346499">Paghahanap ng mga pag-download</translation>
@@ -4058,7 +4058,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="6841186874966388268">Mga error</translation>
 <translation id="6843423766595476978">Nakahanda na ang Ok Google</translation>
 <translation id="6845038076637626672">Buksan ang naka-maximize</translation>
-<translation id="6845325883481699275">Tulungang paigtingin ang seguridad ng Brave</translation>
+<translation id="4991384657077828949">Tulungang paigtingin ang seguridad ng Brave</translation>
 <translation id="6848388270925200958">Sa ngayon, mayroon kang ilang card na magagamit lang sa device na ito</translation>
 <translation id="6850286078059909152">Kulay ng text</translation>
 <translation id="6851497530878285708">Naka-enable ang App</translation>
@@ -4549,7 +4549,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="756445078718366910">Magbukas ng Window ng Browser</translation>
 <translation id="7564847347806291057">Tapusin ang proseso</translation>
 <translation id="7566118625369982896">Pamahalaan ang mga link ng app sa Play</translation>
-<translation id="756809126120519699">Na-clear ang data ng Brave</translation>
+<translation id="7814200940910057384">Na-clear ang data ng Brave</translation>
 <translation id="7568790562536448087">Ina-update</translation>
 <translation id="7569983096843329377">Itim</translation>
 <translation id="7571643774869182231">Hindi sapat ang storage para sa update</translation>
@@ -4669,7 +4669,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="7737456446569756884">Makakakuha ang device na ito ng mga awtomatikong update sa software at seguridad hanggang <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Karaniwan</translation>
 <translation id="7744047395460924128">Tingnan ang iyong history ng pag-print</translation>
-<translation id="7746457520633464754">Para matukoy ang mapapanganib na app at site, nagpapadala ang Brave ng mga URL ng ilang page na binibisita mo, limitadong impormasyon ng system, at ilang content ng page sa Google</translation>
+<translation id="3712897541513849705">Para matukoy ang mapapanganib na app at site, nagpapadala ang Brave ng mga URL ng ilang page na binibisita mo, limitadong impormasyon ng system, at ilang content ng page sa Google</translation>
 <translation id="7750228210027921155">Picture in picture</translation>
 <translation id="7751260505918304024">Ipakita lahat</translation>
 <translation id="7754704193130578113">Magtanong kung saan ise-save ang bawat file bago ang pagda-download</translation>

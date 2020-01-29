@@ -1525,7 +1525,7 @@
 
     Сипаттамасы:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave Apps</translation>
+<translation id="300669147395456190">Brave Apps</translation>
 <translation id="3150927491400159470">Жабдықты қайта жүктеу</translation>
 <translation id="315116470104423982">Мобильді деректер</translation>
 <translation id="3151539355209957474">Басталу уақыты</translation>
@@ -1609,7 +1609,7 @@
 <translation id="3280243678470289153">Brave браузерінде қалу</translation>
 <translation id="3281892622610078515">Кепілдік берілетін файлдар мен бағдарламалар:</translation>
 <translation id="3282210178675490297">Қойынды <ph name="APP_NAME" /> қолданбасымен бөлісілуде</translation>
-<translation id="3282568296779691940">Brave жүйесіне кіру</translation>
+<translation id="82609232232243542">Brave жүйесіне кіру</translation>
 <translation id="3285322247471302225">Жаңа &amp;қойынды</translation>
 <translation id="328571385944182268">Құпия сөздеріңіз сақталсын ба?</translation>
 <translation id="3288047731229977326">Әзірлеуші режимінде іске қосылатын кеңейтімдер компьютеріңізге зиян келтіруі мүмкін. Әзірлеуші болмасаңыз, қауіпсіз болуы үшін әзірлеуші режимінде іске қосылатын бұл кеңейтімдерді өшіруіңіз тиіс.</translation>
@@ -2440,7 +2440,7 @@
 <translation id="4469477701382819144">Мазалайтын немесе жалған ақпаратты жарнамалар көрсететін сайттарда бөгелген</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> <ph name="FOLDERNAME" /> қалтасындағы файлдарды өңдей алады.</translation>
 <translation id="4470957202018033307">Сыртқы жад параметрлері</translation>
-<translation id="447252321002412580">Brave мүмкіндіктері мен жұмысын жақсартуға көмектесу</translation>
+<translation id="918192811481327695">Brave мүмкіндіктері мен жұмысын жақсартуға көмектесу</translation>
 <translation id="4474155171896946103">Барлық қойындыларға бетбелгі қою…</translation>
 <translation id="4474461121892222090">Мобильдік интернеттің іске қосылуына 15 минут кетуі мүмкін.</translation>
 <translation id="4475552974751346499">Жүктеулерді іздеу</translation>
@@ -4055,7 +4055,7 @@
 <translation id="6841186874966388268">Қателер</translation>
 <translation id="6843423766595476978">"Ok Google" пәрмені реттеліп болды</translation>
 <translation id="6845038076637626672">Жайып ашу</translation>
-<translation id="6845325883481699275">Brave қауіпсіздігін жетілдіруге көмектесу</translation>
+<translation id="4991384657077828949">Brave қауіпсіздігін жетілдіруге көмектесу</translation>
 <translation id="6848388270925200958">Қазір осы құрылғыда ғана пайдаланылатын бірнеше карта бар</translation>
 <translation id="6850286078059909152">Мәтін түсі</translation>
 <translation id="6851497530878285708">Қолданба іске қосылды</translation>
@@ -4546,7 +4546,7 @@
 <translation id="756445078718366910">Браузер терезесін ашу</translation>
 <translation id="7564847347806291057">Процесті аяқтау</translation>
 <translation id="7566118625369982896">Play дүкеніндегі қолданба сілтемелерін басқару</translation>
-<translation id="756809126120519699">Brave деректері өшірілді</translation>
+<translation id="7814200940910057384">Brave деректері өшірілді</translation>
 <translation id="7568790562536448087">Жаңарту</translation>
 <translation id="7569983096843329377">Қара</translation>
 <translation id="7571643774869182231">Жаңарту үшін жад жеткіліксіз</translation>
@@ -4666,7 +4666,7 @@
 <translation id="7737456446569756884">Бұл құрылғыға <ph name="MONTH_AND_YEAR" /> дейін бағдарламалық құрал мен қауіпсіздік жүйесінің жаңартылған нұсқасы автоматты түрде орнатылады.</translation>
 <translation id="7740996059027112821">Стандартты</translation>
 <translation id="7744047395460924128">Басып шығару тарихыңызды көру</translation>
-<translation id="7746457520633464754">Қауіпті қолданбалар мен сайттарды анықтау үшін Brave браузері сіз кірген кейбір беттердің URL сілтемелерін, жүйе туралы шектеулі ақпаратты және беттің кейбір мазмұнын Google-ға жібереді.</translation>
+<translation id="3712897541513849705">Қауіпті қолданбалар мен сайттарды анықтау үшін Brave браузері сіз кірген кейбір беттердің URL сілтемелерін, жүйе туралы шектеулі ақпаратты және беттің кейбір мазмұнын Google-ға жібереді.</translation>
 <translation id="7750228210027921155">Суреттегі сурет</translation>
 <translation id="7751260505918304024">Барлығын көрсету</translation>
 <translation id="7754704193130578113">Жүктеу алдында әр файлды сақтау орнын сұрау</translation>

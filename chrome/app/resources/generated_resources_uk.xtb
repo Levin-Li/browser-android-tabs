@@ -1528,7 +1528,7 @@
 
     Опис:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Додатки Brave</translation>
+<translation id="300669147395456190">Додатки Brave</translation>
 <translation id="3150927491400159470">Жорстке перезавантаження</translation>
 <translation id="315116470104423982">Мобільне передавання даних</translation>
 <translation id="3151539355209957474">Час початку</translation>
@@ -1612,7 +1612,7 @@
 <translation id="3280243678470289153">Не виходити з Brave</translation>
 <translation id="3281892622610078515">Файли та програми, які буде переміщено в карантин:</translation>
 <translation id="3282210178675490297">Додаток <ph name="APP_NAME" /> має доступ до цієї вкладки</translation>
-<translation id="3282568296779691940">Вхід у Brave</translation>
+<translation id="82609232232243542">Вхід у Brave</translation>
 <translation id="3285322247471302225">Нова &amp;вкладка</translation>
 <translation id="328571385944182268">Зберігати паролі?</translation>
 <translation id="3288047731229977326">Розширення, які працюють у режимі розробника, можуть пошкодити ваш комп’ютер. Якщо ви не розробник, вимкніть їх заради безпеки.</translation>
@@ -2443,7 +2443,7 @@
 <translation id="4469477701382819144">Заблоковано на сайтах, які показують нав’язливі чи оманливі оголошення</translation>
 <translation id="4469762931504673593">Сайт <ph name="ORIGIN" /> може змінювати файли в папці "<ph name="FOLDERNAME" />"</translation>
 <translation id="4470957202018033307">Параметри зовнішньої пам'яті</translation>
-<translation id="447252321002412580">Допоможіть покращити функції й ефективність Brave</translation>
+<translation id="918192811481327695">Допоможіть покращити функції й ефективність Brave</translation>
 <translation id="4474155171896946103">Позначити закладками всі вкладки...</translation>
 <translation id="4474461121892222090">Активація мобільного передавання даних може зайняти до 15 хвилин.</translation>
 <translation id="4475552974751346499">Пошук завантажень</translation>
@@ -4058,7 +4058,7 @@
 <translation id="6841186874966388268">Помилки</translation>
 <translation id="6843423766595476978">Команду "Ok Google" налаштовано</translation>
 <translation id="6845038076637626672">Відкрити в розгорнутому вигляді</translation>
-<translation id="6845325883481699275">Допоможіть покращити безпеку Brave</translation>
+<translation id="4991384657077828949">Допоможіть покращити безпеку Brave</translation>
 <translation id="6848388270925200958">Зараз у вас є кілька карток, які можна використовувати лише на цьому пристрої</translation>
 <translation id="6850286078059909152">Колір тексту</translation>
 <translation id="6851497530878285708">Додаток увімкнено</translation>
@@ -4549,7 +4549,7 @@
 <translation id="756445078718366910">Відкрити вікно веб-переглядача</translation>
 <translation id="7564847347806291057">Завершити процес</translation>
 <translation id="7566118625369982896">Керувати посиланнями на додатки в Google Play</translation>
-<translation id="756809126120519699">Дані Brave видалено</translation>
+<translation id="7814200940910057384">Дані Brave видалено</translation>
 <translation id="7568790562536448087">Оновлення</translation>
 <translation id="7569983096843329377">Чорний</translation>
 <translation id="7571643774869182231">Замало пам’яті для оновлення</translation>
@@ -4669,7 +4669,7 @@
 <translation id="7737456446569756884">Цей пристрій отримуватиме автоматичні оновлення програмного забезпечення й системи безпеки до такого часу: <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Стандартно</translation>
 <translation id="7744047395460924128">Перегляд історії друку</translation>
-<translation id="7746457520633464754">Щоб виявляти небезпечні додатки й сайти, Brave надсилає URL-адреси певних відвіданих сторінок, обмежену системну інформацію та вміст деяких сторінок у Google</translation>
+<translation id="3712897541513849705">Щоб виявляти небезпечні додатки й сайти, Brave надсилає URL-адреси певних відвіданих сторінок, обмежену системну інформацію та вміст деяких сторінок у Google</translation>
 <translation id="7750228210027921155">Картинка в картинці</translation>
 <translation id="7751260505918304024">Показати все</translation>
 <translation id="7754704193130578113">Запитувати, де зберігати кожен файл перед завантаженням</translation>

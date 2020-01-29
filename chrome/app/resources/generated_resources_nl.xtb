@@ -1528,7 +1528,7 @@ Je kunt de instellingen van dit account beheren door de Family Link-app op je ap
 
     Beschrijving:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Brave-apps</translation>
+<translation id="300669147395456190">Brave-apps</translation>
 <translation id="3150927491400159470">Geforceerd opnieuw laden</translation>
 <translation id="315116470104423982">Mobiele data</translation>
 <translation id="3151539355209957474">Begintijd</translation>
@@ -1612,7 +1612,7 @@ Je kunt de instellingen van dit account beheren door de Family Link-app op je ap
 <translation id="3280243678470289153">In Brave blijven</translation>
 <translation id="3281892622610078515">Bestanden en programma's die in quarantaine worden gezet:</translation>
 <translation id="3282210178675490297">Er wordt een tabblad gedeeld met <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Inloggen bij Brave</translation>
+<translation id="82609232232243542">Inloggen bij Brave</translation>
 <translation id="3285322247471302225">Nieuw &amp;tabblad</translation>
 <translation id="328571385944182268">Je wachtwoorden opslaan?</translation>
 <translation id="3288047731229977326">Extensies die in de ontwikkelaarmodus worden uitgevoerd, kunnen je computer beschadigen. Als je geen ontwikkelaar bent, moet je deze extensies uitschakelen, die in de ontwikkelaarsmodus worden uitgevoerd, om beveiligd te blijven.</translation>
@@ -2443,7 +2443,7 @@ Je kunt de instellingen van dit account beheren door de Family Link-app op je ap
 <translation id="4469477701382819144">Geblokkeerd op sites die opdringerige of misleidende advertenties weergeven</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> kan bestanden bewerken in <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Voorkeuren voor externe opslag</translation>
-<translation id="447252321002412580">Help de functies en prestaties van Brave verbeteren</translation>
+<translation id="918192811481327695">Help de functies en prestaties van Brave verbeteren</translation>
 <translation id="4474155171896946103">Bladwijzer toevoegen aan alle tabbladen...</translation>
 <translation id="4474461121892222090">Het kan maximaal vijftien minuten duren voordat mobiele data is geactiveerd.</translation>
 <translation id="4475552974751346499">Zoek in downloads</translation>
@@ -4058,7 +4058,7 @@ Je kunt de instellingen van dit account beheren door de Family Link-app op je ap
 <translation id="6841186874966388268">Fouten</translation>
 <translation id="6843423766595476978">'Oké Google' is helemaal ingesteld</translation>
 <translation id="6845038076637626672">Gemaximaliseerd openen</translation>
-<translation id="6845325883481699275">Help de beveiliging van Brave te verbeteren</translation>
+<translation id="4991384657077828949">Help de beveiliging van Brave te verbeteren</translation>
 <translation id="6848388270925200958">Je hebt momenteel enkele passen die alleen op dit apparaat kunnen worden gebruikt</translation>
 <translation id="6850286078059909152">Tekstkleur</translation>
 <translation id="6851497530878285708">App ingeschakeld</translation>
@@ -4549,7 +4549,7 @@ Je kunt de instellingen van dit account beheren door de Family Link-app op je ap
 <translation id="756445078718366910">Browservenster openen</translation>
 <translation id="7564847347806291057">Proces beëindigen</translation>
 <translation id="7566118625369982896">Play-app-links beheren</translation>
-<translation id="756809126120519699">Brave-gegevens gewist</translation>
+<translation id="7814200940910057384">Brave-gegevens gewist</translation>
 <translation id="7568790562536448087">Bijwerken</translation>
 <translation id="7569983096843329377">Zwart</translation>
 <translation id="7571643774869182231">Onvoldoende opslagruimte voor update</translation>
@@ -4669,7 +4669,7 @@ Je kunt de instellingen van dit account beheren door de Family Link-app op je ap
 <translation id="7737456446569756884">Dit apparaat ontvangt tot <ph name="MONTH_AND_YEAR" /> automatische software- en beveiligingsupdates.</translation>
 <translation id="7740996059027112821">Standaard</translation>
 <translation id="7744047395460924128">Je afdrukgeschiedenis weergeven</translation>
-<translation id="7746457520633464754">Brave verzendt de URL's van sommige pagina's die je bezoekt, beperkte systeemgegevens en bepaalde paginacontent naar Google om gevaarlijke apps en sites te detecteren</translation>
+<translation id="3712897541513849705">Brave verzendt de URL's van sommige pagina's die je bezoekt, beperkte systeemgegevens en bepaalde paginacontent naar Google om gevaarlijke apps en sites te detecteren</translation>
 <translation id="7750228210027921155">Scherm-in-scherm</translation>
 <translation id="7751260505918304024">Alles weergeven</translation>
 <translation id="7754704193130578113">Voorafgaand aan een download vragen waar een bestand moet worden opgeslagen</translation>

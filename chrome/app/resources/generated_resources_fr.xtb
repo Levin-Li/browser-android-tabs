@@ -1528,7 +1528,7 @@ Vous pouvez gérer les paramètres de ce compte en installant l'application Fami
 
     Description :
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Applications Brave</translation>
+<translation id="300669147395456190">Applications Brave</translation>
 <translation id="3150927491400159470">Actualisation forcée</translation>
 <translation id="315116470104423982">Données mobiles</translation>
 <translation id="3151539355209957474">Heure de début</translation>
@@ -1612,7 +1612,7 @@ Vous pouvez gérer les paramètres de ce compte en installant l'application Fami
 <translation id="3280243678470289153">Rester dans Brave</translation>
 <translation id="3281892622610078515">Fichiers et programmes à placer en quarantaine :</translation>
 <translation id="3282210178675490297">Partage d'un onglet avec <ph name="APP_NAME" />…</translation>
-<translation id="3282568296779691940">Connectez-vous à Brave</translation>
+<translation id="82609232232243542">Connectez-vous à Brave</translation>
 <translation id="3285322247471302225">Nouvel ongle&amp;t</translation>
 <translation id="328571385944182268">Enregistrer vos mots de passe ?</translation>
 <translation id="3288047731229977326">Les extensions exécutées en mode développeur peuvent nuire à votre ordinateur. Si vous n'êtes pas un développeur, nous vous recommandons de désactiver celles-ci afin d'assurer la sécurité de votre ordinateur.</translation>
@@ -2443,7 +2443,7 @@ Souhaitez-vous lancer <ph name="CONTROL_PANEL_APPLET_NAME" /> ?</translation>
 <translation id="4469477701382819144">Bloqué sur les sites qui affichent des annonces intrusives ou trompeuses</translation>
 <translation id="4469762931504673593">Le site <ph name="ORIGIN" /> peut modifier les fichiers du dossier <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Préférences de l'espace de stockage externe</translation>
-<translation id="447252321002412580">Contribuer à l'amélioration des fonctionnalités et des performances de Brave</translation>
+<translation id="918192811481327695">Contribuer à l'amélioration des fonctionnalités et des performances de Brave</translation>
 <translation id="4474155171896946103">Ajouter tous les onglets aux favoris...</translation>
 <translation id="4474461121892222090">Le processus d'activation des données mobiles peut prendre jusqu'à 15 minutes.</translation>
 <translation id="4475552974751346499">Rechercher dans les téléchargements</translation>
@@ -4059,7 +4059,7 @@ Assurez-vous de ne pas dévoiler d'informations sensibles.</translation>
 <translation id="6841186874966388268">Erreurs</translation>
 <translation id="6843423766595476978">Ok Google est à présent configuré</translation>
 <translation id="6845038076637626672">Ouvrir la version agrandie</translation>
-<translation id="6845325883481699275">Contribuer à améliorer la sécurité de Brave</translation>
+<translation id="4991384657077828949">Contribuer à améliorer la sécurité de Brave</translation>
 <translation id="6848388270925200958">Vous disposez actuellement de plusieurs cartes qui ne peuvent être utilisées qu'avec cet appareil</translation>
 <translation id="6850286078059909152">Couleur du texte</translation>
 <translation id="6851497530878285708">Application activée</translation>
@@ -4550,7 +4550,7 @@ Assurez-vous de ne pas dévoiler d'informations sensibles.</translation>
 <translation id="756445078718366910">Ouvrir une fenêtre du navigateur</translation>
 <translation id="7564847347806291057">Arrêter le processus</translation>
 <translation id="7566118625369982896">Gérer les liens des applications Play</translation>
-<translation id="756809126120519699">Données de Brave effacées</translation>
+<translation id="7814200940910057384">Données de Brave effacées</translation>
 <translation id="7568790562536448087">Mise à jour en cours</translation>
 <translation id="7569983096843329377">Noir</translation>
 <translation id="7571643774869182231">Espace de stockage insuffisant pour la mise à jour</translation>
@@ -4670,7 +4670,7 @@ Assurez-vous de ne pas dévoiler d'informations sensibles.</translation>
 <translation id="7737456446569756884">Cet appareil recevra des mises à jour logicielles et de sécurité automatiques jusqu'en <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Standard</translation>
 <translation id="7744047395460924128">Afficher l'historique d'impression</translation>
-<translation id="7746457520633464754">Pour détecter les applications et sites dangereux, Brave envoie à Google l'URL de certaines pages que vous consultez, ainsi que des informations système limitées et une partie du contenu de certaines pages.</translation>
+<translation id="3712897541513849705">Pour détecter les applications et sites dangereux, Brave envoie à Google l'URL de certaines pages que vous consultez, ainsi que des informations système limitées et une partie du contenu de certaines pages.</translation>
 <translation id="7750228210027921155">Mode PIP (Picture-in-Picture)</translation>
 <translation id="7751260505918304024">Tout afficher</translation>
 <translation id="7754704193130578113">Toujours demander où enregistrer les fichiers</translation>

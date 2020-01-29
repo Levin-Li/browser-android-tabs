@@ -1528,7 +1528,7 @@
 
     Опис:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Апликации на Brave</translation>
+<translation id="300669147395456190">Апликации на Brave</translation>
 <translation id="3150927491400159470">Тешко повторно вчитување</translation>
 <translation id="315116470104423982">Мобилен интернет</translation>
 <translation id="3151539355209957474">Време на започнување</translation>
@@ -1612,7 +1612,7 @@
 <translation id="3280243678470289153">Остани во Brave</translation>
 <translation id="3281892622610078515">Датотеки и програми за ставање во карантин:</translation>
 <translation id="3282210178675490297">Картичката се споделува на <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Најави се на Brave</translation>
+<translation id="82609232232243542">Најави се на Brave</translation>
 <translation id="3285322247471302225">Нова &amp;картичка</translation>
 <translation id="328571385944182268">Да се зачуваат лозинките?</translation>
 <translation id="3288047731229977326">Наставки кои работат во режим на програмер може да го оштетат компјутерот. Ако не сте програмер, треба да ги оневозможите наставките кои работат во режим на програмер за да останете безбедни.</translation>
@@ -2443,7 +2443,7 @@
 <translation id="4469477701382819144">Блокирани на сајтовите што прикажуваат нападни или лажни реклами</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> може да изменува датотеки во <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Поставки за надворешно складирање</translation>
-<translation id="447252321002412580">Помогнете да се подобрат функциите и изведбата на Brave</translation>
+<translation id="918192811481327695">Помогнете да се подобрат функциите и изведбата на Brave</translation>
 <translation id="4474155171896946103">Обележи ги сите картички</translation>
 <translation id="4474461121892222090">Може да поминат и до 15 минути за да се заврши активацијата на мобилниот интернет.</translation>
 <translation id="4475552974751346499">Барај преземања</translation>
@@ -4058,7 +4058,7 @@
 <translation id="6841186874966388268">Грешки</translation>
 <translation id="6843423766595476978">„Ok Google“ е поставен</translation>
 <translation id="6845038076637626672">Отвори максимизирано</translation>
-<translation id="6845325883481699275">Помогнете да се подобри безбедноста на Brave</translation>
+<translation id="4991384657077828949">Помогнете да се подобри безбедноста на Brave</translation>
 <translation id="6848388270925200958">Во моментов имате картички што може да се користат само на овој уред</translation>
 <translation id="6850286078059909152">Боја на текст</translation>
 <translation id="6851497530878285708">Апликацијата е овозможена</translation>
@@ -4549,7 +4549,7 @@
 <translation id="756445078718366910">Отвори прозорец на прелистувач</translation>
 <translation id="7564847347806291057">Заврши процес</translation>
 <translation id="7566118625369982896">Управувајте со линкови до апликации на Play</translation>
-<translation id="756809126120519699">Податоците на Brave се исчистени</translation>
+<translation id="7814200940910057384">Податоците на Brave се исчистени</translation>
 <translation id="7568790562536448087">Се ажурира</translation>
 <translation id="7569983096843329377">Црна</translation>
 <translation id="7571643774869182231">Нема доволно простор за ажурирање</translation>
@@ -4669,7 +4669,7 @@
 <translation id="7737456446569756884">Уредов ќе добива автоматски софтверски и безбедносни ажурирања до <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Стандарден</translation>
 <translation id="7744047395460924128">Видете ја историјата на печатење</translation>
-<translation id="7746457520633464754">За да открие опасни апликации и сајтови, Brave испраќа URL-адреси од некои страници што ги посетувате, ограничени информации за системот и некои содржини од страниците до Google</translation>
+<translation id="3712897541513849705">За да открие опасни апликации и сајтови, Brave испраќа URL-адреси од некои страници што ги посетувате, ограничени информации за системот и некои содржини од страниците до Google</translation>
 <translation id="7750228210027921155">Слика во слика</translation>
 <translation id="7751260505918304024">Прикажи ги сите</translation>
 <translation id="7754704193130578113">Прашај каде да се зачува секоја датотека пред преземање</translation>

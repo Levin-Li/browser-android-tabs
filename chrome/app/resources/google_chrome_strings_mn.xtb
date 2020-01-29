@@ -2,7 +2,7 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="mn">
 <translation id="1001534784610492198">Суулгагч архив нь эвдэрсэн  эсвэл хүчингүй болсон байна. Brave-ыг дахин татаж авна уу.</translation>
-<translation id="102763973188675173">Brave-г тохируулж, хянана уу. Шинэчлэх боломжтой.</translation>
+<translation id="5849446944780602366">Brave-г тохируулж, хянана уу. Шинэчлэх боломжтой.</translation>
 <translation id="1051826050538111504">Таны компьютер дээр аюултай программ хангамж байна. Brave таны хөтчийн ажиллагааг дахин хэвийн болгохын тулд үүнийг устгах, таны тохиргоог сэргээх болон өргөтгөлүүдийг идэвхгүй болгох боломжтой.</translation>
 <translation id="1065672644894730302">Таны хүсэлтийг уншиж чадахгүй байна. 
 
@@ -11,36 +11,36 @@
 <translation id="1097330777386562916">Таныг Brave-с гарах үед күүки болон сайтын өгөгдлийг устгах</translation>
 <translation id="1104959162601287462">Chrome OS-ийн тухай</translation>
 <translation id="110877069173485804">Энэ бол таны Brave.</translation>
-<translation id="1142745911746664600">Brave-г шинэчлэх боломжгүй байна</translation>
-<translation id="1154147086299354128">&amp;Brave-д нээх</translation>
+<translation id="6389268239133412586">Brave-г шинэчлэх боломжгүй байна</translation>
+<translation id="9071554113102421877">&amp;Brave-д нээх</translation>
 <translation id="123620459398936149">Chrome OS нь таны өгөгдлийг sync хийж чадсангүй. Sync-ийн нэвтрэх хэллэгээ шинэчилнэ үү.</translation>
 <translation id="1302523850133262269">Brave-оос хамгийн сүүлийн үеийн системийн шинэчлэлтүүдийг суулгаж байгаа тул түр хүлээнэ үү.</translation>
 <translation id="137466361146087520">Brave Бэта</translation>
 <translation id="1399397803214730675">Brave-ийн сүүлийн үеийн хувилбар аль хэдийн энэ компьютерт байна. Хэрэв програм хангамж ажиллахгүй байгаа бол Brave-ийг устгаад, дахин оролдож үзнэ үү.</translation>
 <translation id="1434626383986940139">Brave Canary програмууд</translation>
-<translation id="1553358976309200471">Brave-г шинэчлэх</translation>
-<translation id="1587223624401073077">Brave нь таны камерыг ашиглаж байна.</translation>
-<translation id="1587325591171447154"><ph name="FILE_NAME" /> аюултай тул үүнийг Brave блок хийсэн.</translation>
-<translation id="1590588151039584890">Шинэчлэхийн тулд Brave-г энэ компьютер дээр ажиллуулахыг зогсоох шаардлагатай. Энэ нь энэ компьютерт нэвтэрсэн бусад хэрэглэгчийг хадгалаагүй өөрчлөлтөө алдахад хүргэж болзошгүй.</translation>
+<translation id="1705567146636171298">Brave-г шинэчлэх</translation>
+<translation id="3205074487970075628">Brave нь таны камерыг ашиглаж байна.</translation>
+<translation id="4168372721886011198"><ph name="FILE_NAME" /> аюултай тул үүнийг Brave блок хийсэн.</translation>
+<translation id="2632141563911437138">Шинэчлэхийн тулд Brave-г энэ компьютер дээр ажиллуулахыг зогсоох шаардлагатай. Энэ нь энэ компьютерт нэвтэрсэн бусад хэрэглэгчийг хадгалаагүй өөрчлөлтөө алдахад хүргэж болзошгүй.</translation>
 <translation id="1619887657840448962">Brave-г илүү аюулгүй болгохын тулд <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> жагсаалтанд байхгүй, танд мэдэгдэлгүйгээр нэмэгдсэн байж болох дараах өргөтгөлийг идэвхгүй болголоо.</translation>
 <translation id="1628000112320670027">Brave-с тусламж авах</translation>
-<translation id="1635734105302489219">Brave-с гарах үедээ күүкийг устгана. Синкийг үргэлжлүүлэхийн тулд <ph name="COOKIE_SETTINGS_LINK" />-г өөрчилнө үү.</translation>
+<translation id="6813094029720377619">Brave-с гарах үедээ күүкийг устгана. Синкийг үргэлжлүүлэхийн тулд <ph name="COOKIE_SETTINGS_LINK" />-г өөрчилнө үү.</translation>
 <translation id="1662639173275167396">Chrome OS нь нэмэлт <ph name="BEGIN_LINK_CROS_OSS" />нээлттэй эх кодын програм хангамж<ph name="END_LINK_CROS_OSS" /> болох <ph name="BEGIN_LINK_LINUX_OSS" />Linux (Бэта)<ph name="END_LINK_LINUX_OSS" />-р боломжтой байдаг.</translation>
 <translation id="1666409074978194368">Шинэчилж дуусаж байна! Шинэчлэлтийг дуусгахын тулд Brave-г дахин ачаална уу. Нууцлалтай цонхыг дахин нээхгүй.</translation>
 <translation id="1674870198290878346">Холбоосыг Brave-н нууцлалтай цонхонд нээх</translation>
-<translation id="1682634494516646069">Brave нь өөрийн өгөгдлийн хадгалалтын сан руу уншуулж бас бичиж чадахгүй:
+<translation id="2585240446624043880">Brave нь өөрийн өгөгдлийн хадгалалтын сан руу уншуулж бас бичиж чадахгүй:
 
  <ph name="USER_DATA_DIRECTORY" /></translation>
 <translation id="1698376642261615901">Brave нь вэб хуудсууд болон аппликейшнуудыг цахилгаан мэт хурдан ажиллуулдаг вэб хөтөч юм. Энэ нь хурдан, найдвартай мөн хэрэглэхэд хялбар. Brave-д бий болгосон хорт вирус болон хууль бус үйлдлээс хамгаалах хамгаалалтаар дамжуулан вэб сайтуудад илүү аюулгүй хайлт хийгээрэй.</translation>
 <translation id="1713301662689114961">{0,plural, =1{Brave-г 1 цагийн дотор дахин ажиллуулна}other{Brave-г # цагийн дотор дахин ажиллуулна}}</translation>
-<translation id="1734234790201236882">Brave энэ нууц үгийг таны Google Бүртгэлд хадгалах тул та үүнийг санах шаардлагагүй.</translation>
+<translation id="6163134585289952357">Brave энэ нууц үгийг таны Google Бүртгэлд хадгалах тул та үүнийг санах шаардлагагүй.</translation>
 <translation id="174539241580958092">Brave нь нэвтрэх хэсэгт гарсан алдаатай холбоотойгоор таны өгөгдлийн тохиргоог хийж чадсангүй.</translation>
-<translation id="1759842336958782510">Хромэ</translation>
+<translation id="939305735877869636">Хромэ</translation>
 <translation id="1812689907177901597">Үүнийг унтрааснаар та Gmail зэрэг Google-н сайтуудад Brave-д нэвтрэлгүйгээр нэвтэрч болно</translation>
 <translation id="1860536484129686729">Энэ сайтыг ашиглахын тулд Brave-д зөвшөөрөл шаардлагатай</translation>
-<translation id="1873233029667955273">Brave таны өгөгдмөл хөтөч биш юм</translation>
+<translation id="3343095737966473035">Brave таны өгөгдмөл хөтөч биш юм</translation>
 <translation id="1874309113135274312">Brave Бэта (mDNS-In)</translation>
-<translation id="1877026089748256423">Brave хуучирсан байна.</translation>
+<translation id="5173820533850252773">Brave хуучирсан байна.</translation>
 <translation id="1900795423379050516">Хэрэв энэ хуудсан дээр тохиргоог харуулахгүй байгаа бол <ph name="LINK_BEGIN" />
       Brave хөтчийнхөө тохиргоо<ph name="LINK_END" /> дотроос хайна уу</translation>
 <translation id="1919130412786645364">Brave-д нэвтрэхийг зөвшөөрөх</translation>
@@ -48,9 +48,9 @@
 <translation id="2094919256425865063">Ямар ч байсан Brave-с гарах уу?</translation>
 <translation id="2120620239521071941">Энэ нь төхөөрөмжөөс <ph name="ITEMS_COUNT" /> зүйлийг устгана. Дараа нь өгөгдлөө сэргээхийн тулд Brave-д <ph name="USER_EMAIL" />-р нэвтэрнэ үү.</translation>
 <translation id="2123055963409958220"><ph name="BEGIN_LINK" />Одоогийн тохиргоог<ph name="END_LINK" /> мэдэгдэж Brave-г сайжруулахад тусална уу</translation>
-<translation id="2151406531797534936">Brave-г одоо дахин эхлүүлнэ үү</translation>
-<translation id="2246246234298806438">built-in PDF нээгч байхгүй байхад Brave хэвлэхийн өмнөх харагдах байдлыг үзүүлэх боломжгүй байна.</translation>
-<translation id="2290014774651636340">Google-ийн API түлхүүр байхгүй байна. Brave-ийн зарим функц идэвхгүй болно.</translation>
+<translation id="5646769069113654257">Brave-г одоо дахин эхлүүлнэ үү</translation>
+<translation id="5874882355102994015">built-in PDF нээгч байхгүй байхад Brave хэвлэхийн өмнөх харагдах байдлыг үзүүлэх боломжгүй байна.</translation>
+<translation id="350396164462274391">Google-ийн API түлхүүр байхгүй байна. Brave-ийн зарим функц идэвхгүй болно.</translation>
 <translation id="2290095356545025170">Та Brave-ыг устгах гэж байгаадаа итгэлтэй байна уу?</translation>
 <translation id="2309047409763057870">Энэ нь Brave-н хоёр дахь суулгалт тул таны өгөгдмөл хөтчөөр сонгох боломжгүй.</translation>
 <translation id="2348335408836342058">Энэ сайтыг ашиглахын тулд Brave-д таны камер, микрофонд хандах зөвшөөрөл шаардлагатай</translation>
@@ -60,47 +60,47 @@
 <translation id="2534507159460261402">Google Pay (Brave-д хуулсан)</translation>
 <translation id="2580411288591421699">Одоо ажиллаж байгаа Brave-ийн хувилбарыг суурьлуулах боломжгүй. Brave-оо хаагаад, дахин оролдоно уу.</translation>
 <translation id="2586406160782125153">Энэ нь төхөөрөмжөөс таны хайлтын өгөгдлийг устгах болно. Өгөгдлөө дараа нь сэргээхийн тулд Brave-д <ph name="USER_EMAIL" />-р нэвтэрнэ үү.</translation>
-<translation id="2588322182880276190">Brave лого</translation>
+<translation id="4847979153841887006">Brave лого</translation>
 <translation id="2644798301485385923">Chrome OS-н систем</translation>
 <translation id="2652691236519827073">Холбоосыг шинэ Brave-н чихтэй хуудсанд нээх</translation>
-<translation id="2665296953892887393">Google рүү эвдрэлийн тайлан болон <ph name="UMA_LINK" />-ыг илгээх замаар Brave-ыг сайжруулахад туслаач</translation>
-<translation id="2689103672227170538">Энэ өргөтгөл нь таныг Brave-г эхлүүлэх үед хуудсанд харагдах зүйлийг өөрчилсөн.</translation>
+<translation id="7348158796480960456">Google рүү эвдрэлийн тайлан болон <ph name="UMA_LINK" />-ыг илгээх замаар Brave-ыг сайжруулахад туслаач</translation>
+<translation id="3813272600615358652">Энэ өргөтгөл нь таныг Brave-г эхлүүлэх үед хуудсанд харагдах зүйлийг өөрчилсөн.</translation>
 <translation id="2765403129283291972">Энэ сайтыг ашиглахын тулд Brave-д таны микрофонд хандах зөвшөөрөл шаардлагатай</translation>
 <translation id="2770231113462710648">Стандарт вэб хөтчийг дараах руу өөрчил:</translation>
 <translation id="2799223571221894425">Дахин эхлүүлэх</translation>
 <translation id="2847461019998147611">Brave-г энэ хэлээр харуулах</translation>
 <translation id="2857540653560290388">Brave-г эхлүүлж байна...</translation>
 <translation id="2871893339301912279">Та Brave-д нэвтэрсэн байна!</translation>
-<translation id="2888126860611144412">Brave-н тухай</translation>
+<translation id="8541922081612557424">Brave-н тухай</translation>
 <translation id="3037838751736561277">Brave нь суурь горимд байна.</translation>
-<translation id="3065168410429928842">Brave-н чихтэй хуудас</translation>
+<translation id="6791166902140255175">Brave-н чихтэй хуудас</translation>
 <translation id="3080151273017101988">Brave хаагдсан үед үндсэн аппликйешнуудыг үргэлжлүүлэн ажиллуул</translation>
 <translation id="3089968997497233615">Brave-ийн шинэ, илүү аюулгүй хувилбар бэлэн боллоо.</translation>
-<translation id="3149510190863420837">Brave Аппликейшнууд</translation>
-<translation id="3282568296779691940">Brave руу нэвтрэх</translation>
+<translation id="300669147395456190">Brave Аппликейшнууд</translation>
+<translation id="82609232232243542">Brave руу нэвтрэх</translation>
 <translation id="3340978935015468852">Тохиргоонууд</translation>
 <translation id="3360895254066713204">Brave Helper</translation>
 <translation id="3379938682270551431">{0,plural, =0{Brave-г одоо дахин ажиллуулж байна}=1{Brave-г 1 секундийн дотор дахин ажиллуулна}other{Brave-г # секундийн дотор дахин ажиллуулна}}</translation>
 <translation id="3395323229510056640">Brave үйлдлийн системээс тусламж авах</translation>
 <translation id="3396977131400919238">Суулгах явцад үйлдлийн системд алдаа гарлаа. Brave-ыг дахин татаж авна уу.</translation>
 <translation id="3398288718845740432">Brave-ын цэсэнд нуух</translation>
-<translation id="3451115285585441894">Brave руу нэмж байна...</translation>
+<translation id="8880183781256147665">Brave руу нэмж байна...</translation>
 <translation id="345171907106878721">Brave-д өөрийгөө нэмэх</translation>
 <translation id="34857402635545079">Brave-н (<ph name="URL" />) өгөгдлийг мөн адил устгах</translation>
 <translation id="3503306920980160878">Энэ сайтаар таны байршлыг хуваалцахын тулд Brave-д таны байршилд хандах зөвшөөрөл шаардлагатай</translation>
 <translation id="3576528680708590453">Таны системийн админ Brave-г <ph name="TARGET_URL_HOSTNAME" />-д хандахын тулд өөр хөтөч нээхээр тохируулсан байна.</translation>
-<translation id="3582972582564653026">Төхөөрөмжүүддээ Brave-г синк хийж, хувийн болгох</translation>
+<translation id="5477319665405831211">Төхөөрөмжүүддээ Brave-г синк хийж, хувийн болгох</translation>
 <translation id="3596080736082218006">{COUNT,plural, =0{Шинэчлэлтийг хэрэгжүүлэхийн тулд Brave-г дахин ачаалахыг таны администратор танаас шаардаж байна}=1{Шинэчлэлтийг хэрэгжүүлэхийн тулд Brave-г дахин ачаалахыг таны администратор танаас шаардаж байна. Таны нууцлалтай цонхыг дахин нээхгүй.}other{Шинэчлэлтийг хэрэгжүүлэхийн тулд Brave-г дахин ачаалахыг таны администратор танаас шаардаж байна. Таны # нууцлалтай цонхыг дахин нээхгүй.}}</translation>
 <translation id="3622797965165704966">Одоо та Google хаягаа ашиглан мөн өөр бусад компьютер дээр Brave-г ашиглахад хялбар боллоо.</translation>
 <translation id="3637702109597584617">Brave үйлдлийн системийн <ph name="TERMS_OF_SERVICE_LINK" />Үйлчилгээний нөхцөл<ph name="END_TERMS_OF_SERVICE_LINK" /></translation>
 <translation id="3718181793972440140">Энэ нь төхөөрөмжөөс 1 зүйл устгах болно. Өгөгдлөө дараа сэргээхийн тулд Brave-д <ph name="USER_EMAIL" />-р нэвтэрнэ үү.</translation>
-<translation id="3735758079232443276">"<ph name="EXTENSION_NAME" />" өргөтгөл нь таныг Brave-г эхлүүлэх үед хуудсанд харагдах зүйлийг өөрчилсөн.</translation>
+<translation id="2576129394594491151">"<ph name="EXTENSION_NAME" />" өргөтгөл нь таныг Brave-г эхлүүлэх үед хуудсанд харагдах зүйлийг өөрчилсөн.</translation>
 <translation id="3780814664026482060">Brave - <ph name="PAGE_TITLE" /></translation>
 <translation id="386202838227397562">Бүх Brave-ын цонхнуудыг хааж дахин оролдоно уу.</translation>
 <translation id="3873044882194371212">Холбоосыг Brave-н нууцлалтай цонхонд нээх</translation>
 <translation id="3889417619312448367">Brave-ыг устгах</translation>
 <translation id="4050175100176540509">Хамгийн сүүлийн хувилбар дээр аюулгүй байдлын чухал сайжруулалт болон шинэ функцийг санал болгож байна.</translation>
-<translation id="4053720452172726777">Brave-ыг өөртөө тохируулан хянах</translation>
+<translation id="8148611988012584308">Brave-ыг өөртөө тохируулан хянах</translation>
 <translation id="4143243756087420366">Brave-н нэр болон зураг</translation>
 <translation id="4147555960264124640">Та хяналтанд байдаг дансаар нэвтэрч байгаа бөгөөд администраторт таны Brave-ийн профайлыг хянах боломжийг олгож байна. Таны апп, хавчуурга, түүх, нууц үг болон бусад тохиргоо гэх мэт Brave дата нь байнга <ph name="USER_NAME" />-д хадгалагдана. Та Google Accounts Dashboard-ийн тусламжтай эдгээр датаг устгаж болох боловч энэ датаг өөр данстай хуваалцах боломжгүй. <ph name="LEARN_MORE" /></translation>
 <translation id="4149882025268051530">Суурьлуулагч Archive файлыг задалж чадсангүй. Brave-ыг дахин татаж авна уу.</translation>
@@ -118,61 +118,61 @@
 <translation id="4567424176335768812">Та <ph name="USER_EMAIL_ADDRESS" /> ингэж нэвтэрсэн байна. Одоо та өөрийн нэвтэрсэн бүх төхөөрөмжүүд дээрээ хайлтын жагсаалт, түүх болон бусад тохиргоонууд руугаа нэвтэрч болно.</translation>
 <translation id="4571503333518166079">Brave-н мэдэгдлийн тохиргоо хэсэгт очих</translation>
 <translation id="459622048091363950">Brave-д хандалт олгосны дараа вэб сайтууд таны хандалтыг асуух боломжтой болно.</translation>
-<translation id="4600710005438004015">Brave-г хамгийн сүүлийн хувилбарт шинэчлээгүй тул та шинэ онцлог болон аюулгүй байдлын засвар авах боломжгүй байна.</translation>
+<translation id="7963515534397191222">Brave-г хамгийн сүүлийн хувилбарт шинэчлээгүй тул та шинэ онцлог болон аюулгүй байдлын засвар авах боломжгүй байна.</translation>
 <translation id="4631713731678262610">Brave-ын цэсэнд нуух</translation>
 <translation id="4633000520311261472">Brave-ыг илүү аюулгүй болгохын тулд бид <ph name="IDS_EXTENSION_WEB_STORE_TITLE" />-дахь жагсаалтанд ороогүй мөн танд мэдэгдэлгүйгээр нэмэгдсэн байж болох зарим нэг өргөтгөлүүдийг идэвхгүй болголоо.</translation>
 <translation id="4728575227883772061">Тодорхой бус шалтгаанаар суурьлуулалт амжилтгүй боллоо. Хэрэв Brave нээлттэй байгаа бол хаагаад, дахин оролдож үзнэ үү.</translation>
 <translation id="4750550185319565338"><ph name="PLUGIN_NAME" />-г идэвхжүүлэхийн тулд Brave-г дахин эхлүүлнэ үү</translation>
 <translation id="4754614261631455953">Brave Canary (mDNS-In)</translation>
-<translation id="4771048833395599659">Энэ файл аюултай байж болзошгүй тул Brave блоклосон байна.</translation>
+<translation id="89367911614620585">Энэ файл аюултай байж болзошгүй тул Brave блоклосон байна.</translation>
 <translation id="479167709087336770">Энэ нь Google хайлтад ашигладаг зөв бичгийн ижил алдаа шалгагчийг ашигладаг. Таны хөтчид бичсэн текстийг Google-д илгээдэг. Та энэ ажиллах төлөвийг хүссэн үедээ тохиргоонд өөрчилж болно</translation>
 <translation id="4891791193823137474">Brave-ыг энэ дэвсгэр дээр ажиллуулна уу</translation>
 <translation id="4895437082222824641">Холбоосыг шинэ Brave-н чихтэй хуудсанд нээх</translation>
 <translation id="4953650215774548573">Brave-ыг өөрийн анхдагч вэб хөтөч болгон тохируулна уу</translation>
-<translation id="495931528404527476">Brave-д</translation>
+<translation id="6078442581074612226">Brave-д</translation>
 <translation id="4990567037958725628">Brave цайвар шаргал өнгө</translation>
 <translation id="5028489144783860647">Brave таны өгөгдлийг синхрончилж чадсангүй. Синх-ийн нууц үгүүдээ шинэчлэнэ үү.</translation>
 <translation id="5062123544085870375">Chrome OS-г дахин эхлүүлэх</translation>
-<translation id="5132929315877954718">Google Кромын шилдэг апп, тоглоом, өргөтгөл болон загварыг ашиглах боломжтой.</translation>
+<translation id="2871190378186459992">Google Кромын шилдэг апп, тоглоом, өргөтгөл болон загварыг ашиглах боломжтой.</translation>
 <translation id="5170938038195470297">Таны профайл Brave-ийн шинэ хувилбарынх тул ашиглаж болохгүй.
 
 Зарим функц ажиллахгүй байж болох юм. Өөр профайл тодорхойл эсвэл Brave-ийн шинэ хувилбарыг хэрэглэнэ үү.</translation>
 <translation id="5193136243808726294">Brave үйлдлийн систем энэ хуудсыг нээх боломжгүй</translation>
 <translation id="5204098752394657250">Brave <ph name="TERMS_OF_SERVICE_LINK" /> Үйлчилгээний нөхцөл <ph name="END_TERMS_OF_SERVICE_LINK" /></translation>
 <translation id="5251420635869119124">Зочид ч бусдаас хоцролгүй Brave-ийг бүх талаар нь ашиглах боломжтой.</translation>
-<translation id="532046782124376502">Анхааруулга: Brave таны өргөтгөлийг хөтчийн түүх бичихээс сэргийлэх боломжгүй. Энэ өргөтгөлийг үл танигдах горимд идэвхгүй болгохын тулд энэ сонголтыг сонгохгүй орхино уу.</translation>
+<translation id="5436841087823876677">Анхааруулга: Brave таны өргөтгөлийг хөтчийн түүх бичихээс сэргийлэх боломжгүй. Энэ өргөтгөлийг үл танигдах горимд идэвхгүй болгохын тулд энэ сонголтыг сонгохгүй орхино уу.</translation>
 <translation id="5386244825306882791">Энэ нь мөн таныг Brave эхлүүлэхэд ямар хуудаснуудыг харуулах эсвэл Omnibox-оос хайхыг хянадаг.</translation>
-<translation id="5394833366792865639">Brave-н таб хуваалцах</translation>
-<translation id="5430073640787465221">Та сонгосон файл хүчин төгөлдөр бус эсвэл гэмтсэн байна.
+<translation id="5147525139567260139">Brave-н таб хуваалцах</translation>
+<translation id="3403365884036456766">Та сонгосон файл хүчин төгөлдөр бус эсвэл гэмтсэн байна.
 
 Brave таны тохируулгыг дахин сэргээх боломжгүй байна.</translation>
-<translation id="5543953544073077331">Brave-н бусад хуулбар ажиллаж байна. Шинэчлэхийн тулд тэдгээрийг хаана уу.</translation>
+<translation id="1801551749768408825">Brave-н бусад хуулбар ажиллаж байна. Шинэчлэхийн тулд тэдгээрийг хаана уу.</translation>
 <translation id="556024056938947818">Brave нууц харуулахыг хичээж байна.</translation>
 <translation id="5566025111015594046">Brave (mDNS-In)</translation>
 <translation id="5657226924540934362">Хэрэв энэ хуудсан дээр тохиргоог харуулахгүй байгаа бол <ph name="LINK_BEGIN" />
       Brave үйлдлийн системийнхээ тохиргоо<ph name="LINK_END" /> дотроос хайна уу</translation>
-<translation id="565744775970812598"><ph name="FILE_NAME" /> аюултай байж болзошгүй тул үүнийг Brave блок хийсэн.</translation>
+<translation id="3561569806301739367"><ph name="FILE_NAME" /> аюултай байж болзошгүй тул үүнийг Brave блок хийсэн.</translation>
 <translation id="5678190148303298925">{COUNT,plural, =0{Энэ шинэчлэлтийг хэрэгжүүлэхийн тулд Brave-г дахин ачаалахыг таны администратор танаас хүсэж байна}=1{Энэ шинэчлэлтийг хэрэгжүүлэхийн тулд Brave-г дахин ачаалахыг таны администратор танаас хүсэж байна. Таны нууцлалтай цонхыг дахин нээхгүй.}other{Энэ шинэчлэлтийг хэрэгжүүлэхийн тулд Brave-г дахин ачаалахыг таны администратор танаас хүсэж байна. Таны # нууцлалтай цонхыг дахин нээхгүй.}}</translation>
-<translation id="5686916850681061684">Brave-г өөрчилж, хянана уу. Та ямар нэг зүйлд анхаарлаа хандуулах шаардлагатай байна. Дэлгэрэнгүй мэдээлэл авахын тулд товшино уу.</translation>
+<translation id="6315734375101223238">Brave-г өөрчилж, хянана уу. Та ямар нэг зүйлд анхаарлаа хандуулах шаардлагатай байна. Дэлгэрэнгүй мэдээлэл авахын тулд товшино уу.</translation>
 <translation id="5690427481109656848">Google ХХК</translation>
-<translation id="5715063361988620182">{SECONDS,plural, =1{Brave 1 секундийн дараа дахин эхэлнэ}other{Brave # секундийн дараа дахин эхэлнэ}}</translation>
+<translation id="2513524988380267210">{SECONDS,plural, =1{Brave 1 секундийн дараа дахин эхэлнэ}other{Brave # секундийн дараа дахин эхэлнэ}}</translation>
 <translation id="573759479754913123">Brave үйлдлийн системийн тухай</translation>
-<translation id="5795887333006832406"><ph name="PAGE_TITLE" /> - Brave Канари</translation>
+<translation id="6236814935154483927"><ph name="PAGE_TITLE" /> - Brave Канари</translation>
 <translation id="5804318322022881572">Brave-г эхлүүлж чадсангүй. Дахин оролдоно уу.</translation>
 <translation id="5895138241574237353">Дахин асаах</translation>
 <translation id="5940385492829620908">Таны вэб, хавчуурга, болон Brave-ийн бусад зүйлс энд хадгалагддаг.</translation>
-<translation id="5941830788786076944">Brave-ыг анхдагч вэб хөтөчөө болгоно уу</translation>
+<translation id="5019879183386042809">Brave-ыг анхдагч вэб хөтөчөө болгоно уу</translation>
 <translation id="6070348360322141662">Таны аюулгүй байдлыг сайжруулахын тулд Brave таны өгөгдлийг шифрлэнэ</translation>
 <translation id="6113794647360055231">Brave илүү сайн боллоо</translation>
-<translation id="6169866489629082767"><ph name="PAGE_TITLE" /> - Brave</translation>
-<translation id="6173637689840186878"><ph name="PAGE_TITLE" /> - Brave Бета</translation>
+<translation id="5381622442243174305"><ph name="PAGE_TITLE" /> - Brave</translation>
+<translation id="1403270718080126244"><ph name="PAGE_TITLE" /> - Brave Бета</translation>
 <translation id="61852838583753520">Chrome OS-ийг шинэчлэх</translation>
 <translation id="6235018212288296708">mDNS урсгалыг зөвшөөрөх Brave-ын дотоод дүрэм.</translation>
 <translation id="6291089322031436445">Brave Dev Апп</translation>
 <translation id="6291549208091401781">Brave-г таны компьютерийн бүх хэрэглэгчид суулгасан.</translation>
 <translation id="6338556085225130112">Brave-г шинэчилж байна</translation>
 <translation id="6368958679917195344">Chrome OS-ийг нэмэлт <ph name="BEGIN_LINK_CROS_OSS" /> нээлттэй эхийн програм хангамжаар ажиллуулж байна <ph name="END_LINK_CROS_OSS" />.</translation>
-<translation id="6515495397637126556"><ph name="PAGE_TITLE" /> - Brave Дев</translation>
+<translation id="3943696263619956191"><ph name="PAGE_TITLE" /> - Brave Дев</translation>
 <translation id="6566149418543181476">Brave-г шинэчилж байна (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="6676384891291319759">Интернэтэд нэвтрэх</translation>
 <translation id="6679975945624592337">Brave-г цаана ажиллуулахыг зөвшөөрөх</translation>
@@ -184,8 +184,8 @@ Brave таны тохируулгыг дахин сэргээх боломжгү
 <translation id="6967962315388095737">mDNS урсгалыг зөвшөөрөх Brave Бэта-н дотоод дүрэм.</translation>
 <translation id="6982337800632491844"><ph name="DOMAIN" />-аас таныг энэ төхөөрөмжийг ашиглахаасаа өмнө дараах үйлчилгээний нөхцлийг уншиж, хүлээн зөвшөөрсөн байхыг шаардаж байна. Эдгээр нөхцлүүд нь Google Chrome OS нөхцлүүдийг өргөтгөж, өөрчилж бас хязгаарлахгүй.</translation>
 <translation id="6989339256997917931">Brave шинэчлэгдсэн байна, гэхдээ та үүнийг ядаж 30 хоног ч ашиглаагүй байна.</translation>
-<translation id="7098166902387133879">Brave таны микрофоныг ашиглаж байна.</translation>
-<translation id="7106741999175697885">Асуудлын менежер - Brave</translation>
+<translation id="8919461291440820124">Brave таны микрофоныг ашиглаж байна.</translation>
+<translation id="5516268345616100622">Асуудлын менежер - Brave</translation>
 <translation id="7140653346177713799">{COUNT,plural, =0{Brave-н шинэ шинэчлэлт боломжтой байгаа бөгөөд таныг дахин ачаалах үед түүнийг хэрэгжүүлэх болно.}=1{Brave-н шинэ шинэчлэлт боломжтой байгаа бөгөөд таныг дахин ачаалах үед түүнийг хэрэгжүүлэх болно. Таны нууцлалтай цонхыг дахин нээхгүй.}other{Brave-н шинэ шинэчлэлт боломжтой байгаа бөгөөд таныг дахин ачаалах үед түүнийг хэрэгжүүлэх болно. Таны # нууцлалтай цонхыг дахин нээхгүй.}}</translation>
 <translation id="7242029209006116544">Та удирдлагатай бүртгэлээр нэвтрэн орсноор үүний админд нь өөрийнхөө Brave-ын мэдээллийг хянах эрхийг өгөх болно.  Жишээ нь, таны Brave-ын мэдээлэл,  хадгалагдсан хуудсууд,  түүх, нууц үг болон бусад тохиргоонууд <ph name="USER_NAME" /> руу  тэр чигтээ нэгтгэгдэх болно.  Та Google-ийн Хяналтын Самбараар дамжуулан энэ мэдээллийг устгах боломжтой хэдий ч энэ мэдээллийг өөр бүртгэлтэй холбох боломжгүй болно. Харин та одоо байгаа Brave-ын мэдээллийг тусад нь хадгалахын тулд шинэ хэрэглэгч үүсгэж болно. <ph name="LEARN_MORE" /></translation>
 <translation id="7295052994004373688">Энэ хэлийг Brave UI-г харуулахад ашигладаг</translation>
@@ -196,13 +196,13 @@ Brave таны тохируулгыг дахин сэргээх боломжгү
 <translation id="7408085963519505752">Chrome OS-ийн нөхцлүүд</translation>
 <translation id="7419046106786626209">Таны домэйн дээр мэдээллийн тохиргоог хийх боломжгүй байгаа тул Chrome OS нь таны мэдээллийн тохиргоог хийх боломжгүй байна.</translation>
 <translation id="7486227612705979895">Brave хаяг оруулах хэсэгт зөвлөмж харуулахын тулд таны Драйвт хандах болно</translation>
-<translation id="7531671357096394523">Brave-н бүх хуулбараас гарна уу.</translation>
+<translation id="8887390605192156061">Brave-н бүх хуулбараас гарна уу.</translation>
 <translation id="7535429826459677826">Brave Dev</translation>
 <translation id="7573289029918943991">Таны төхөөрөмж шинэчлэгдсэн эсэхийг харахын тулд <ph name="LINK_BEGIN" />Brave үйлдлийн системийн тохиргоо<ph name="LINK_END" /> руу очно уу</translation>
 <translation id="7589360514048265910">Энэ компьютер Mac үйлдлийн систем X 10.9-г дэмжихээ больсон тул Brave-н шинэчлэлтийг цаашид авахгүй.</translation>
 <translation id="7592736734348559088">Таны дансандаа нэвтрэх мэдээлэл хуучирсан учраас Brave таны өгөгдлийг синхрончилж чадахгүй.</translation>
-<translation id="7626032353295482388">Brave-д тавтай морил</translation>
-<translation id="7629695634924605473">Хэрэв таны нууц үг алдагдсан байвал Brave танд мэдэгдэнэ</translation>
+<translation id="7207456302801184289">Brave-д тавтай морил</translation>
+<translation id="8211837073776713955">Хэрэв таны нууц үг алдагдсан байвал Brave танд мэдэгдэнэ</translation>
 <translation id="7641148173327520642">Таны системийн админ Brave-г <ph name="TARGET_URL_HOSTNAME" />-д хандахын тулд <ph name="ALTERNATIVE_BROWSER_NAME" />-г нээхээр тохируулсан байна.</translation>
 <translation id="7651907282515937834">Brave-н байгууллагын лого</translation>
 <translation id="7747138024166251722">Суулгагч нь түр зуурын хадгалалтын санг үүсгэж чадсангүй. Дискэнд сул зай байгаа эсэхийг мөн програм хангамж суулгах зөвшөөрлийг шалгана уу.</translation>
@@ -210,25 +210,24 @@ Brave таны тохируулгыг дахин сэргээх боломжгү
 <translation id="7777080907402804672">Хэрэв зурагт хэрэгтэй тайлбар байхгүй бол Brave танд тайлбар өгөхөөр оролдох болно. Тайлбар үүсгэхийн тулд зургийг Google-д илгээнэ. Та үүнийг хүссэн үедээ тохиргоонд унтрааж болно.</translation>
 <translation id="7781002470561365167">Brave-ийн шинэ хувилбар боломжтой байна.</translation>
 <translation id="7787950393032327779">Энэхүү профайлыг өөр компьютер дээр (<ph name="HOST_NAME" />) өөр Brave-ийн процесс (<ph name="PROCESS_ID" />) ашиглаж байна. Brave энэ профайлыг гэмтэхээс хамгаалах үүднээс түгжсэн. Хэрэв та өөр ямар нэгэн процесс энэхүү профайлыг хэрэглэхгүй байгаа талаар итгэлтэй байгаа бол түгжээг гаргаад Brave-ийг дахин эхлүүл.</translation>
-<translation id="7808348361785373670">Кромоос хасах</translation>
+<translation id="777113543093865885">Кромоос хасах</translation>
 <translation id="7825851276765848807">Тодорхой бус шалтгаанаар суурьлуулалт амжилтгүй боллоо. Brave-ыг дахин татаж авна уу.</translation>
 <translation id="7855730255114109580">Brave-г шинэчилсэн байна</translation>
 <translation id="7890208801193284374">Нэг компьютерыг олон хэрэглэгч хуваан хэрэглэж байгаа тохиолдолд хэрэглэгч бүр өөрийн хүссэнээр Brave-ыг тохируулж, хайлт хийх боломжтой.</translation>
 <translation id="7896673875602241923">Өмнө нь хэн нэгэн энэ компьютероос Brave-д <ph name="ACCOUNT_EMAIL_LAST" /> бүртгэлээр нэвтэрсэн байна. Мэдээллээ тусaд нь байлгахын тулд Brave-н шинэ хэрэглэгч үүсгэнэ үү.</translation>
 <translation id="7962410387636238736">Энэ компьютер Windows XP болон Windows Vista-г дэмжихээ больсон тул цаашид Brave-н шинэчлэлтийг авахгүй.</translation>
-<translation id="8008534537613507642">Brave-ийг дахин суулгах</translation>
+<translation id="5875673934455379806">Brave-ийг дахин суулгах</translation>
 <translation id="8013993649590906847">Хэрэв зурагт хэрэгтэй тайлбар байхгүй бол Brave танд тайлбар өгөхөөр оролдох болно. Тайлбар үүсгэхийн тулд зургийг Google-д илгээнэ.</translation>
 <translation id="8129812357326543296">Brave-ийн тухай</translation>
-<translation id="8255190535488645436">Brave нь таны камер болон микрофоныг ашиглаж байна.</translation>
+<translation id="3293668930608086049">Brave нь таны камер болон микрофоныг ашиглаж байна.</translation>
 <translation id="8286862437124483331">Brave нь нууц үгийг харуулахыг оролдож байна. Үүнийг зөвшөөрөхийн тулд Windows-ийн нууц үгээ бичиж оруулна уу.</translation>
 <translation id="8290100596633877290">Өө! Brave гэмтсэн байна. Дахин эхлүүлэх үү?</translation>
-<translation id="8342675569599923794">Энэ файл аюултай тул Brave блоклосон байна.</translation>
+<translation id="9067428552314418522">Энэ файл аюултай тул Brave блоклосон байна.</translation>
 <translation id="8370517070665726704">Зохиогчийн эрх <ph name="YEAR" /> Google ХХК. Бүх эрх хуулиар хамгаалагдсан.</translation>
 <translation id="840084489713044809">Brave таны нууц үгийг экспортлох хүсэлтэй байна.</translation>
 <translation id="8455999171311319804">Сонголтын: Оношилгоо болон хэрэглээний өгөгдлийг Google-д илгээж, Brave үйлдлийн системийг сайжруулахад тусална уу.</translation>
-<translation id="8498858610309223613">Brave-н аюулгүй байдлын тусгай шинэчлэлтийг хийж дууслаа. Одоо дахин эхлүүлнэ үү. Бид таны табыг сэргээх болно.</translation>
+<translation id="8668413672647811944">Brave-н аюулгүй байдлын тусгай шинэчлэлтийг хийж дууслаа. Одоо дахин эхлүүлнэ үү. Бид таны табыг сэргээх болно.</translation>
 <translation id="8521348052903287641">mDNS урсгалыг зөвшөөрөх Brave-н дотоод дүрэм.</translation>
-<translation id="8540666473246803645">Brave</translation>
 <translation id="8556340503434111824">Brave-ийн шинэ хувилбар боломжтой байгаа бөгөөд энэ нь урьд урьдныхаас ч илүү хурдан.</translation>
 <translation id="8614913330719544658">Brave ажиллахгүй байна. Дахин эхүүлэх үү?</translation>
 <translation id="8625237574518804553">{0,plural, =1{Brave-г 1 минутын дотор дахин ажиллуулна}other{Brave-г # минутын дотор дахин ажиллуулна}}</translation>

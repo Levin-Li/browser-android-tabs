@@ -1525,7 +1525,7 @@
 
 Описание:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Приложения в Brave</translation>
+<translation id="300669147395456190">Приложения в Brave</translation>
 <translation id="3150927491400159470">Твърдо презареждане</translation>
 <translation id="315116470104423982">Мобилни данни</translation>
 <translation id="3151539355209957474">Начален час</translation>
@@ -1609,7 +1609,7 @@
 <translation id="3280243678470289153">Оставане в Brave</translation>
 <translation id="3281892622610078515">Файлове и програми, които да бъдат поставени под карантина:</translation>
 <translation id="3282210178675490297">Споделя се раздел с(ъс) <ph name="APP_NAME" /></translation>
-<translation id="3282568296779691940">Вход в Brave</translation>
+<translation id="82609232232243542">Вход в Brave</translation>
 <translation id="3285322247471302225">Нов &amp;раздел</translation>
 <translation id="328571385944182268">Да се запазят ли паролите ви?</translation>
 <translation id="3288047731229977326">Разширенията, които се изпълняват в режим за програмисти, могат да навредят на компютъра ви. Ако не сте програмист, за по-голяма безопасност трябва да деактивирате изпълнението им в този режим.</translation>
@@ -2442,7 +2442,7 @@
 <translation id="4469477701382819144">Блокиране за сайтовете, на които се показват натрапчиви или подвеждащи реклами</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> може да редактира файловете в(ъв) „<ph name="FOLDERNAME" />“</translation>
 <translation id="4470957202018033307">Предпочитания за външно хранилище</translation>
-<translation id="447252321002412580">Помощ за подобряването на функциите и ефективността на Brave</translation>
+<translation id="918192811481327695">Помощ за подобряването на функциите и ефективността на Brave</translation>
 <translation id="4474155171896946103">Запазване на отметки към всички раздели…</translation>
 <translation id="4474461121892222090">Активирането на мобилните данни може да отнеме до 15 минути.</translation>
 <translation id="4475552974751346499">Търсене в изтеглените файлове</translation>
@@ -4058,7 +4058,7 @@
 <translation id="6841186874966388268">Грешки</translation>
 <translation id="6843423766595476978">Настроихте Ok Google</translation>
 <translation id="6845038076637626672">Отваряне с увеличен изглед</translation>
-<translation id="6845325883481699275">Помощ за подобряването на сигурността на Brave</translation>
+<translation id="4991384657077828949">Помощ за подобряването на сигурността на Brave</translation>
 <translation id="6848388270925200958">В момента имате някои карти, които могат да се използват само на това устройство</translation>
 <translation id="6850286078059909152">Цвят на текста</translation>
 <translation id="6851497530878285708">Активиране на приложението</translation>
@@ -4549,7 +4549,7 @@
 <translation id="756445078718366910">Отваряне на прозореца на браузъра</translation>
 <translation id="7564847347806291057">Прекратяване на процеса</translation>
 <translation id="7566118625369982896">Управление на връзките към приложения в Google Play</translation>
-<translation id="756809126120519699">Данните в Brave са изчистени</translation>
+<translation id="7814200940910057384">Данните в Brave са изчистени</translation>
 <translation id="7568790562536448087">Актуализира се</translation>
 <translation id="7569983096843329377">черно</translation>
 <translation id="7571643774869182231">Мястото в хранилището не е достатъчно за актуализацията</translation>
@@ -4669,7 +4669,7 @@
 <translation id="7737456446569756884">Това устройство ще получава автоматични актуализации на софтуера и сигурността до <ph name="MONTH_AND_YEAR" />.</translation>
 <translation id="7740996059027112821">Стандартна</translation>
 <translation id="7744047395460924128">Преглеждане на историята ви на отпечатване</translation>
-<translation id="7746457520633464754">За да открива опасни приложения и сайтове, Brave изпраща до Google URL адресите на някои от страниците, които посещавате, ограничена системна информация и част от съдържанието на страниците</translation>
+<translation id="3712897541513849705">За да открива опасни приложения и сайтове, Brave изпраща до Google URL адресите на някои от страниците, които посещавате, ограничена системна информация и част от съдържанието на страниците</translation>
 <translation id="7750228210027921155">Картина в картината</translation>
 <translation id="7751260505918304024">Показване на всички</translation>
 <translation id="7754704193130578113">Извеждане на запитване къде да бъде запазен всеки файл преди изтеглянето му</translation>

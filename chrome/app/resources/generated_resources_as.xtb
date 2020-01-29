@@ -1525,7 +1525,7 @@
 
     বিৱৰণ:
     <ph name="LINUX_DESCRIPTION" /></translation>
-<translation id="3149510190863420837">Braveৰ এপ্‌</translation>
+<translation id="300669147395456190">Braveৰ এপ্‌</translation>
 <translation id="3150927491400159470">হাৰ্ড ৰিল’ড</translation>
 <translation id="315116470104423982">ম’বাইল ডেটা</translation>
 <translation id="3151539355209957474">আৰম্ভ হোৱাৰ সময়</translation>
@@ -1609,7 +1609,7 @@
 <translation id="3280243678470289153">Braveত থাকক</translation>
 <translation id="3281892622610078515">পৃথক কৰিবলগীয়া ফাইল আৰু প্ৰ’গ্ৰামসমূহ:</translation>
 <translation id="3282210178675490297"><ph name="APP_NAME" />লৈ এটা টেব শ্বেয়াৰ কৰি থকা হৈছে</translation>
-<translation id="3282568296779691940">Braveত ছাইন-ইন কৰক</translation>
+<translation id="82609232232243542">Braveত ছাইন-ইন কৰক</translation>
 <translation id="3285322247471302225">নতুন &amp;টেব</translation>
 <translation id="328571385944182268">আপোনাৰ পাছৱৰ্ডসমূহ ছেভ কৰিবনে?</translation>
 <translation id="3288047731229977326">বিকাশকর্তাৰ ম’ড চলি থকা এক্সটেনশ্বনসমূহে আপোনাৰ কম্পিউটাৰৰ ক্ষতি কৰিব পাৰে। যদি আপুনি কোনো বিকাশকর্তা নহয় তেন্তে আপুনি সুৰক্ষিত হৈ থাকিবলৈ বিকাশকর্তাৰ ম’ডত থকা এক্সটেনশ্বনসমূহ অক্ষম কৰা উচিত।</translation>
@@ -2437,7 +2437,7 @@
 <translation id="4469477701382819144">বিনা অনুমতিত বিজ্ঞাপন দেখুওৱা বা বিভ্ৰান্তিকৰ বিজ্ঞাপন দেখুওৱা ছাইটসমূহ অৱৰোধ কৰা হৈছে</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" />এ <ph name="FOLDERNAME" />ত থকা ফাইলসমূহ সম্পাদনা কৰিব পাৰে</translation>
 <translation id="4470957202018033307">বাহ্যিক ষ্ট’ৰেজৰ অগ্ৰাধিকাৰসমূহ</translation>
-<translation id="447252321002412580">Braveৰ সুবিধা আৰু প্ৰদৰ্শন উন্নত কৰাত সহায় কৰক</translation>
+<translation id="918192811481327695">Braveৰ সুবিধা আৰু প্ৰদৰ্শন উন্নত কৰাত সহায় কৰক</translation>
 <translation id="4474155171896946103">সকলো টেব বুকমাৰ্ক কৰক...</translation>
 <translation id="4474461121892222090">ম’বাইল ডেটা সক্রিয় কৰা প্ৰক্ৰিয়াটো সম্পূৰ্ণ হ’বলৈ ১৫মিনিটলৈকে লাগিব পাৰে।</translation>
 <translation id="4475552974751346499">ডাউনল’ড কৰা সমলৰ সন্ধান কৰক</translation>
@@ -4046,7 +4046,7 @@
 <translation id="6841186874966388268">আসোঁৱাহ</translation>
 <translation id="6843423766595476978">Ok Google সাজু</translation>
 <translation id="6845038076637626672">বিস্তাৰিত আকাৰত খোলক</translation>
-<translation id="6845325883481699275">Braveৰ সুৰক্ষা উন্নত কৰাত সহায় কৰক</translation>
+<translation id="4991384657077828949">Braveৰ সুৰক্ষা উন্নত কৰাত সহায় কৰক</translation>
 <translation id="6848388270925200958">এই মুহূৰ্তত আপোনাৰ লগত কেইখনমান কাৰ্ড আছে যিবোৰ কেৱল এই ডিভাইচটোতহে ব্যৱহাৰ কৰিব পাৰি</translation>
 <translation id="6850286078059909152">পাঠৰ ৰং</translation>
 <translation id="6851497530878285708">এপ্ সক্ষম কৰা হ’ল</translation>
@@ -4534,7 +4534,7 @@
 <translation id="756445078718366910">ব্ৰাউজাৰ ৱিণ্ড’ খোলক</translation>
 <translation id="7564847347806291057">প্ৰক্ৰিয়া সমাপ্ত কৰক</translation>
 <translation id="7566118625369982896">Play এপ্ লিংকসমূহ পৰিচালনা কৰক।</translation>
-<translation id="756809126120519699">মচা Brave ডেটা</translation>
+<translation id="7814200940910057384">মচা Brave ডেটা</translation>
 <translation id="7568790562536448087">আপডে’ট কৰি থকা হৈছে</translation>
 <translation id="7569983096843329377">ক'লা</translation>
 <translation id="7571643774869182231">আপডে’টৰ বাবে পর্যাপ্ত খালী ঠাই নাই</translation>
@@ -4654,7 +4654,7 @@
 <translation id="7737456446569756884">এই ডিভাইচটোৱে <ph name="MONTH_AND_YEAR" /> পৰ্যন্ত স্বয়ংক্ৰিয় ছফ্টৱেৰ আৰু সুৰক্ষাৰ আপডে’টসমূহ পাব।</translation>
 <translation id="7740996059027112821">মান্য</translation>
 <translation id="7744047395460924128">আপুনি কৰা প্ৰিণ্টৰ ইতিহাস চাওক</translation>
-<translation id="7746457520633464754">বিপজ্জনক এপ্‌ আৰু ছাইটসমূহ চিনাক্ত কৰিবলৈ Braveএ আপুনি চোৱা পৃষ্ঠাৰ URLসমূহ, ছিষ্টেমৰ সীমিত তথ্য আৰু পৃষ্ঠাৰ কিছু সমল Googleলৈ পঠিয়ায়</translation>
+<translation id="3712897541513849705">বিপজ্জনক এপ্‌ আৰু ছাইটসমূহ চিনাক্ত কৰিবলৈ Braveএ আপুনি চোৱা পৃষ্ঠাৰ URLসমূহ, ছিষ্টেমৰ সীমিত তথ্য আৰু পৃষ্ঠাৰ কিছু সমল Googleলৈ পঠিয়ায়</translation>
 <translation id="7750228210027921155">চিত্ৰৰ ভিতৰত চিত্ৰ</translation>
 <translation id="7751260505918304024">সকলো দেখুৱাওক</translation>
 <translation id="7754704193130578113">ডাউনল'ড কৰাৰ আগতে প্ৰতিটো ফাইল ক'ত ছেভ কৰা হ'ব সেয়া সোধক</translation>

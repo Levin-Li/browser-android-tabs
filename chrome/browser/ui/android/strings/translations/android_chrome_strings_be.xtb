@@ -52,8 +52,8 @@
 <translation id="1303507811548703290"><ph name="DOMAIN" /> – адпраўлена з прылады <ph name="DEVICE_NAME" /></translation>
 <translation id="1310482092992808703">Згрупаваць укладкі</translation>
 <translation id="1327257854815634930">Гісторыя навігацыі адкрыта</translation>
-<translation id="1331212799747679585">Немагчыма абнавіць Brave. Дадатковыя параметры</translation>
-<translation id="1332501820983677155">Спалучэнні клавіш для функцый Brave</translation>
+<translation id="6773423637732432200">Немагчыма абнавіць Brave. Дадатковыя параметры</translation>
+<translation id="3169981355900570544">Спалучэнні клавіш для функцый Brave</translation>
 <translation id="1360432990279830238">Выйсці і выключыць сінхранізацыю?</translation>
 <translation id="1369915414381695676">Сайт <ph name="SITE_NAME" /> дададзены</translation>
 <translation id="1373696734384179344">Недастаткова памяці, каб спампаваць выбранае змесціва.</translation>
@@ -81,10 +81,10 @@
 <translation id="1521774566618522728">Апошнія дзеянні адбываліся сёння</translation>
 <translation id="1544826120773021464">Каб змяніць налады вашага ўліковага запісу Google, націсніце кнопку "Кіраваць уліковым запісам"</translation>
 <translation id="1549000191223877751">Перамясціць у іншае акно</translation>
-<translation id="1553358976309200471">Абнавіць Brave</translation>
+<translation id="1705567146636171298">Абнавіць Brave</translation>
 <translation id="1569387923882100876">Падключаная прылада</translation>
 <translation id="1571304935088121812">Капіраваць імя карыстальніка</translation>
-<translation id="1612196535745283361">Для пошуку прылад Brave патрабуе доступу да месцазнаходжання. Доступ да месцазнаходжання <ph name="BEGIN_LINK" />для гэтай прылады выключаны<ph name="END_LINK" />.</translation>
+<translation id="852740676285943527">Для пошуку прылад Brave патрабуе доступу да месцазнаходжання. Доступ да месцазнаходжання <ph name="BEGIN_LINK" />для гэтай прылады выключаны<ph name="END_LINK" />.</translation>
 <translation id="1620510694547887537">Камера</translation>
 <translation id="1623104350909869708">Не дазваляць гэтай старонцы ствараць дадатковыя дыялогавыя вокны</translation>
 <translation id="1628019612362412531">{NUM_SELECTED,plural, =1{Выдаліць 1 выбраны элемент}one{Выдаліць # выбраны элемент}few{Выдаліць # выбраныя элементы}many{Выдаліць # выбраных элементаў}other{Выдаліць # выбранага элемента}}</translation>
@@ -113,24 +113,24 @@
 <translation id="1829244130665387512">Пошук на старонцы</translation>
 <translation id="1853692000353488670">Новая ўкладка інкогніта</translation>
 <translation id="1856325424225101786">Скінуць налады лёгкага рэжыму?</translation>
-<translation id="1868024384445905608">Brave цяпер спампоўвае файлы хутчэй</translation>
+<translation id="5817715962196959877">Brave цяпер спампоўвае файлы хутчэй</translation>
 <translation id="1883903952484604915">Мае файлы</translation>
 <translation id="1887786770086287077">Доступ да месцазнаходжання для гэтай прылады выключаны. Уключыце яго ў <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
-<translation id="1891331835972267886"><ph name="APP_NAME" /> адкрыецца ў Brave. Працягваючы, вы згаджаецеся з <ph name="BEGIN_LINK1" />Умовамі выкарыстання<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Паведамленнем аб прыватнасці<ph name="END_LINK2" /> браўзера Brave.</translation>
+<translation id="4218324479468769727"><ph name="APP_NAME" /> адкрыецца ў Brave. Працягваючы, вы згаджаецеся з <ph name="BEGIN_LINK1" />Умовамі выкарыстання<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Паведамленнем аб прыватнасці<ph name="END_LINK2" /> браўзера Brave.</translation>
 <translation id="1919345977826869612">Рэклама</translation>
 <translation id="1919950603503897840">Выберыце кантакты</translation>
-<translation id="1922076542920281912">Каб даць браўзеру Brave доступ да даных пра ваша месцазнаходжанне, уключыце апошнія ў <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
+<translation id="2928908108430545745">Каб даць браўзеру Brave доступ да даных пра ваша месцазнаходжанне, уключыце апошнія ў <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
 <translation id="1923695749281512248"><ph name="BYTES_DOWNLOADED_WITH_UNITS" /> / <ph name="FILE_SIZE_WITH_UNITS" /></translation>
 <translation id="1928696683969751773">Абнаўленні</translation>
-<translation id="19288952978244135">Адкрыйце Brave яшчэ раз.</translation>
+<translation id="1875543012935658554">Адкрыйце Brave яшчэ раз.</translation>
 <translation id="1933845786846280168">Выбраная ўкладка</translation>
-<translation id="194341124344773587">Уключыце дазвол для Brave у <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
+<translation id="6665548517310046133">Уключыце дазвол для Brave у <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
 <translation id="1943432128510653496">Захоўваць паролі</translation>
 <translation id="1952172573699511566">Тэкст на вэб-сайтах будзе паказвацца на мове, выбранай вамі ў якасці прыярытэтнай, калі гэта магчыма.</translation>
-<translation id="1960290143419248813">Абнаўленні Brave больш не падтрымліваюцца для гэтай версіі Android.</translation>
+<translation id="3968054912784331254">Абнаўленні Brave больш не падтрымліваюцца для гэтай версіі Android.</translation>
 <translation id="1966710179511230534">Абнавіце ўліковыя даныя для ўваходу.</translation>
 <translation id="1974060860693918893">Пашыраныя налады</translation>
-<translation id="1984705450038014246">Сінхранізацыя даных Brave</translation>
+<translation id="714362445477979774">Сінхранізацыя даных Brave</translation>
 <translation id="1984937141057606926">Дазволены, за выключэннем старонніх</translation>
 <translation id="1986685561493779662">Такая назва ўжо існуе</translation>
 <translation id="1987739130650180037"><ph name="MESSAGE" />, кнопка "<ph name="LINK_NAME" />"</translation>
@@ -143,8 +143,8 @@
 <translation id="2017836877785168846">Ачышчае гісторыю і гісторыю аўтазапаўнення ў адрасным радку.</translation>
 <translation id="2021896219286479412">Кіраванне сайтам на ўвесь экран</translation>
 <translation id="2038563949887743358">Уключыць запытванне версіі для настольнага камп'ютара</translation>
-<translation id="2041019821020695769">Каб Brave мог адпраўляць вам апавяшчэнні, таксама ўключыце іх у <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
-<translation id="204321170514947529">Праграма "<ph name="APP_NAME" />" таксама мае змесціва ў Brave</translation>
+<translation id="2913721282607281710">Каб Brave мог адпраўляць вам апавяшчэнні, таксама ўключыце іх у <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
+<translation id="7675869148432102528">Праграма "<ph name="APP_NAME" />" таксама мае змесціва ў Brave</translation>
 <translation id="2049574241039454490"><ph name="FILE_SIZE_OF_TOTAL" /> <ph name="SEPARATOR" /> <ph name="DESCRIPTION" /></translation>
 <translation id="2056878612599315956">Сайт прыпынены</translation>
 <translation id="2063713494490388661">Дакраніцеся, каб шукаць</translation>
@@ -158,7 +158,7 @@
 <translation id="2107397443965016585">Пытаць, перш чым дазволіць прайграванне абароненага змесціва на сайтах (рэкамендуецца)</translation>
 <translation id="2111511281910874386">Перайдзіце на старонку</translation>
 <translation id="2122601567107267586">Не ўдалося адкрыць праграму</translation>
-<translation id="2126426811489709554">На платформе Brave</translation>
+<translation id="796823723482603597">На платформе Brave</translation>
 <translation id="2131665479022868825">Эканомія: <ph name="DATA" /></translation>
 <translation id="213279576345780926">Закрыта ўкладка <ph name="TAB_TITLE" /></translation>
 <translation id="2139186145475833000">Дадаць на галоўны экран</translation>
@@ -167,7 +167,7 @@
 <translation id="2154484045852737596">Рэдагаваць картку</translation>
 <translation id="2154710561487035718">Скапіраваць URL-адрас</translation>
 <translation id="2156074688469523661">Астатнія сайты (<ph name="NUMBER_OF_SITES" />)</translation>
-<translation id="2157851137955077194">Каб абагульваць файлы з тэлефона і мець да іх доступ з іншай прылады, уключыце сінхранізацыю ў наладах Brave на абедзвюх прыладах.</translation>
+<translation id="6162454065885854378">Каб абагульваць файлы з тэлефона і мець да іх доступ з іншай прылады, уключыце сінхранізацыю ў наладах Brave на абедзвюх прыладах.</translation>
 <translation id="2175927920773552910">QR-код</translation>
 <translation id="218608176142494674">Абагульванне</translation>
 <translation id="2227444325776770048">Працягнуць як <ph name="USER_FULL_NAME" /></translation>
@@ -183,7 +183,7 @@
 <translation id="2321958826496381788">Перацягвайце паўзунок, пакуль гэты тэкст не будзе зручна чытаць. Пасля падвойнага націскання на абзац тэкст павінен быць як мінімум такім вялікім.</translation>
 <translation id="2323763861024343754">Сховішча сайта</translation>
 <translation id="2328985652426384049">Не ўдалося ўвайсці ў сістэму</translation>
-<translation id="2349710944427398404">Агульны аб'ём даных Brave, у тым ліку закладкі, уліковыя запісы і захаваныя налады</translation>
+<translation id="3587672679800759167">Агульны аб'ём даных Brave, у тым ліку закладкі, уліковыя запісы і захаваныя налады</translation>
 <translation id="2353636109065292463">Праверка падключэння да інтэрнэту</translation>
 <translation id="2359808026110333948">Працягнуць</translation>
 <translation id="2369533728426058518">адкрыць укладкі</translation>
@@ -193,7 +193,7 @@
 <translation id="2407481962792080328">Гэта функцыя будзе ўключацца пры ўваходзе ва Уліковы запіс Google</translation>
 <translation id="2410754283952462441">Выберыце ўліковы запіс</translation>
 <translation id="2414886740292270097">Цёмная</translation>
-<translation id="2416359993254398973">Brave запытвае дазвол на доступ да вашай камеры для гэтага сайта.</translation>
+<translation id="8285489906452138776">Brave запытвае дазвол на доступ да вашай камеры для гэтага сайта.</translation>
 <translation id="2426805022920575512">Выбраць іншы ўліковы запіс</translation>
 <translation id="2433507940547922241">Выгляд</translation>
 <translation id="2434158240863470628">Спампоўванне завершана <ph name="SEPARATOR" /> <ph name="BYTES_DOWNLOADED" /></translation>
@@ -202,14 +202,14 @@
 <translation id="246532703174860178">Абагуліць</translation>
 <translation id="2482878487686419369">Апавяшчэнні</translation>
 <translation id="2490684707762498678">Пад кіраваннем праграмы "<ph name="APP_NAME" />"</translation>
-<translation id="2494974097748878569">Памочнік Google у Brave</translation>
+<translation id="8179121170910316615">Памочнік Google у Brave</translation>
 <translation id="2496180316473517155">Гісторыя прагляду сайтаў</translation>
 <translation id="2497852260688568942">Сінхранізацыя выключана вашым адміністратарам</translation>
 <translation id="2498359688066513246">Даведка і водгукі</translation>
 <translation id="2501278716633472235">Назад</translation>
 <translation id="2513403576141822879">Дадатковыя налады прыватнасці, бяспекі і збору даных глядзіце ў раздзеле <ph name="BEGIN_LINK" />Сінхранізацыя і сэрвісы Google<ph name="END_LINK" /></translation>
 <translation id="2517472476991765520">Пошук</translation>
-<translation id="2518590038762162553">У спрошчаным рэжыме Brave загружае старонкі хутчэй і зніжае выкарыстанне трафіка максімум на 60 працэнтаў. Каб аптымізаваць старонкі, якія вы наведваеце, Brave адпраўляе даныя пра ваш інтэрнэт-трафік у Google. <ph name="BEGIN_LINK" />Даведацца больш<ph name="END_LINK" /></translation>
+<translation id="6506679409937844247">У спрошчаным рэжыме Brave загружае старонкі хутчэй і зніжае выкарыстанне трафіка максімум на 60 працэнтаў. Каб аптымізаваць старонкі, якія вы наведваеце, Brave адпраўляе даныя пра ваш інтэрнэт-трафік у Google. <ph name="BEGIN_LINK" />Даведацца больш<ph name="END_LINK" /></translation>
 <translation id="2523184218357549926">Адпраўка URL-адрасоў наведаных вамі старонак у Google</translation>
 <translation id="2532336938189706096">Прагляд вэб-змесціва</translation>
 <translation id="2534155362429831547">Выдалена элементаў: <ph name="NUMBER_OF_ITEMS" /></translation>
@@ -220,7 +220,7 @@
 <translation id="257088987046510401">Тэмы</translation>
 <translation id="2570922361219980984">Доступ да месцазнаходжання для гэтай прылады таксама выключаны. Уключыце яго ў <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
 <translation id="257931822824936280">Разгорнута. Націсніце, каб згарнуць.</translation>
-<translation id="2581165646603367611">Пры гэтым ачысціцца кэш, будуць выдалены файлы cookie і іншыя даныя сайтаў, якія Brave не лічыць важнымі.</translation>
+<translation id="2324920234469020158">Пры гэтым ачысціцца кэш, будуць выдалены файлы cookie і іншыя даныя сайтаў, якія Brave не лічыць важнымі.</translation>
 <translation id="2586657967955657006">Буфер абмену</translation>
 <translation id="2587052924345400782">Даступная навейшая версія</translation>
 <translation id="2593272815202181319">Монашырынны</translation>
@@ -244,7 +244,7 @@
 <translation id="2777555524387840389">Засталося <ph name="SECONDS" /> с</translation>
 <translation id="2779651927720337254">не выканана</translation>
 <translation id="2781151931089541271">Засталася 1 секунда</translation>
-<translation id="2801022321632964776">Каб атрымаць інтэрфейс на сваёй мове ў апошняй версіі браўзера Brave, абнавіце яго</translation>
+<translation id="1379423114029199501">Каб атрымаць інтэрфейс на сваёй мове ў апошняй версіі браўзера Brave, абнавіце яго</translation>
 <translation id="2810645512293415242">Спрошчаны выгляд старонкі (для эканоміі даных і хутчэйшай загрузкі).</translation>
 <translation id="281504910091592009">Праглядайце захаваныя паролі і кіруйце імі праз <ph name="BEGIN_LINK" />Уліковы запіс Google<ph name="END_LINK" /></translation>
 <translation id="2818669890320396765">Каб перанесці закладкі на ўсе прылады, увайдзіце ва ўліковы запіс і ўключыце сінхранізацыю</translation>
@@ -255,7 +255,7 @@
 <translation id="2870560284913253234">Сайт</translation>
 <translation id="2874939134665556319">Папярэдні трэк</translation>
 <translation id="2876369937070532032">Адпраўляе URL-адрасы некаторых наведаных вамі старонак у Google, калі ваша бяспека пад пагрозай</translation>
-<translation id="2888126860611144412">Пра браўзер Brave</translation>
+<translation id="8541922081612557424">Пра браўзер Brave</translation>
 <translation id="2891154217021530873">Спыніць загрузку старонкі</translation>
 <translation id="2893180576842394309">Google можа выкарыстоўваць вашу гісторыю, каб персаналізаваць пошук і іншыя сэрвісы Google</translation>
 <translation id="2898264748040935573">Рэдагаваць захаваны пароль</translation>
@@ -295,7 +295,7 @@
 <translation id="3157842584138209013">Глядзіце, колькі трафіка вы сэканомілі, з дапамогай кнопкі "Дадатковыя параметры"</translation>
 <translation id="3166827708714933426">Спалучэнні клавіш для працы з укладкамі і вокнамі</translation>
 <translation id="3181954750937456830">Бяспечны прагляд (абараняе вас і прыладу ад небяспечных сайтаў)</translation>
-<translation id="3190152372525844641">Уключыце дазволы для Brave у <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
+<translation id="2023546461831060654">Уключыце дазволы для Brave у <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
 <translation id="3198916472715691905">Аб'ём захаваных даных: <ph name="STORAGE_AMOUNT" /></translation>
 <translation id="3205824638308738187">Амаль гатова!</translation>
 <translation id="3207960819495026254">Дададзена ў закладкі</translation>
@@ -310,14 +310,14 @@
 <translation id="3269093882174072735">Загрузіць відарыс</translation>
 <translation id="3269956123044984603">Каб бачыць укладкі з іншых сваіх прылад, у наладах уліковага запісу Android уключыце наладу “Аўтасінхранізацыя даных”.</translation>
 <translation id="3277252321222022663">Дазволіць сайтам доступ да датчыкаў (рэкамендуецца)</translation>
-<translation id="3282568296779691940">Увайсці ў Brave</translation>
+<translation id="82609232232243542">Увайсці ў Brave</translation>
 <translation id="3288003805934695103">Перазагрузка старонкі</translation>
 <translation id="32895400574683172">Апавяшчэнні дазволены</translation>
 <translation id="3295530008794733555">Больш хуткая загрузка вэб-старонак і эканомія трафіка.</translation>
 <translation id="3295602654194328831">Схаваць інфармацыю</translation>
 <translation id="3298243779924642547">Лёгкі</translation>
 <translation id="3303414029551471755">Перайсці да спампоўкі змесціва?</translation>
-<translation id="3306398118552023113">Гэта праграма працуе ў браўзеры Brave</translation>
+<translation id="919933208285147476">Гэта праграма працуе ў браўзеры Brave</translation>
 <translation id="3315103659806849044">Вы змяняеце налады сэрвісаў Google і сінхранізацыі. Каб завяршыць уключэнне сінхранізацыі, націсніце кнопку "Пацвердзіць" унізе экрана. Перайсці ўверх</translation>
 <translation id="3328801116991980348">Звесткі пра сайт</translation>
 <translation id="3333961966071413176">Усе кантакты</translation>
@@ -326,7 +326,7 @@
 <translation id="3350687908700087792">Закрыць усе ўкладкі інкогніта</translation>
 <translation id="3353615205017136254">Старонка, спрошчаная алгарытмамі Google. Каб загрузіць зыходную старонку, націсніце адпаведную кнопку.</translation>
 <translation id="3367813778245106622">Каб пачаць сінхранізацыю, увайдзіце ва ўліковы запіс зноў</translation>
-<translation id="3374023511497244703">Закладкі, гісторыя, паролі і іншыя даныя Brave больш не будуць сінхранізавацца з Уліковым запісам Google</translation>
+<translation id="9073342268197154480">Закладкі, гісторыя, паролі і іншыя даныя Brave больш не будуць сінхранізавацца з Уліковым запісам Google</translation>
 <translation id="3384347053049321195">Абагуліць відарыс</translation>
 <translation id="3386292677130313581">Пытацца, перш чым дазволіць сайтам атрымліваць інфармацыю пра ваша месцазнаходжанне (рэкамендуецца)</translation>
 <translation id="3387650086002190359">Не ўдалося спампаваць файл "<ph name="FILE_NAME" />" з-за памылак файлавай сістэмы.</translation>
@@ -347,11 +347,11 @@
 <translation id="3542235761944717775">Даступна <ph name="KILOBYTES" /> КБ</translation>
 <translation id="3549657413697417275">Пошук у сваёй гісторыі</translation>
 <translation id="3557336313807607643">Дадаць у кантакты</translation>
-<translation id="3566923219790363270">Падтрымка VR у браўзеры Brave яшчэ рыхтуецца. Перазапусціце яго пазней.</translation>
+<translation id="1908301351964700579">Падтрымка VR у браўзеры Brave яшчэ рыхтуецца. Перазапусціце яго пазней.</translation>
 <translation id="3568688522516854065">Каб бачыць укладкі з іншых сваіх прылад, увайдзіце і ўключыце сінхранізацыю</translation>
 <translation id="3587482841069643663">Усе</translation>
 <translation id="358794129225322306">Дазволіць сайту аўтаматычна спампоўваць некалькі файлаў.</translation>
-<translation id="3590487821116122040">Даныя сайтаў, якія Brave не лічыць важнымі (напрыклад, сайты, налады якіх не захаваны або якія вы наведваеце рэдка)</translation>
+<translation id="9205995714227143200">Даныя сайтаў, якія Brave не лічыць важнымі (напрыклад, сайты, налады якіх не захаваны або якія вы наведваеце рэдка)</translation>
 <translation id="3599863153486145794">Ачышчае гісторыю на ўсіх прыладах, з якіх выкананы ўваход. На сайце <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> могуць быць размешчаны іншыя формы запісу гісторыі прагляду сайтаў для вашага Уліковага запісу Google.</translation>
 <translation id="3600792891314830896">Выключыць гук на сайтах, якія прайграюць гукі</translation>
 <translation id="3616113530831147358">Аўдыя</translation>
@@ -362,8 +362,8 @@
 <translation id="3692944402865947621">Не ўдалося спампаваць файл "<ph name="FILE_NAME" />": месца захоўвання недаступнае.</translation>
 <translation id="3701167022068948696">Выправіць</translation>
 <translation id="3714981814255182093">Адкрыць панэль пошуку</translation>
-<translation id="3716182511346448902">Гэта старонка выкарыстоўвае занадта многа памяці, таму Brave прыпыніў яе.</translation>
-<translation id="3730075448226062617">Каб даць браўзеру Brave доступ да мікрафона, уключыце апошні ў <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
+<translation id="5805364706385912897">Гэта старонка выкарыстоўвае занадта многа памяці, таму Brave прыпыніў яе.</translation>
+<translation id="8753483718490035722">Каб даць браўзеру Brave доступ да мікрафона, уключыце апошні ў <ph name="BEGIN_LINK" />Наладах Android<ph name="END_LINK" />.</translation>
 <translation id="3739899004075612870">Закладка дададзена ў <ph name="PRODUCT_NAME" /></translation>
 <translation id="3744111561329211289">Фонавая сінхранізацыя</translation>
 <translation id="3749259744154402564">Не падтрымлiваецца</translation>
@@ -389,7 +389,7 @@
 <translation id="393697183122708255">Уключаны галасавы пошук недаступны</translation>
 <translation id="395206256282351086">Падказкі пошукавых запытаў і сайтаў выключаны</translation>
 <translation id="3955193568934677022">Дазволіць сайтам прайграваць абароненае змесціва (рэкамендуецца)</translation>
-<translation id="396192773038029076">{NUM_IN_PROGRESS,plural, =1{Brave загрузіць старонку па гатоўнасці}one{Brave загрузіць старонкі па гатоўнасці}few{Brave загрузіць старонкі па гатоўнасці}many{Brave загрузіць старонкі па гатоўнасці}other{Brave загрузіць старонкі па гатоўнасці}}</translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Brave загрузіць старонку па гатоўнасці}one{Brave загрузіць старонкі па гатоўнасці}few{Brave загрузіць старонкі па гатоўнасці}many{Brave загрузіць старонкі па гатоўнасці}other{Brave загрузіць старонкі па гатоўнасці}}</translation>
 <translation id="3963007978381181125">Шыфраванне фразы-пароля не распаўсюджваецца на спосабы аплаты і адрасы з Google Pay. Толькі карыстальнікі, якія ведаюць фразу-пароль, могуць чытаць вашы зашыфраваныя даныя. Google не атрымлівае і не захоўвае фразу-пароль. Калі вы не памятаеце фразу-пароль або хочаце змяніць гэту наладу, вам трэба скінуць сінхранізацыю. <ph name="BEGIN_LINK" />Даведацца больш<ph name="END_LINK" /></translation>
 <translation id="3967822245660637423">Спампоўка завершана</translation>
 <translation id="397583555483684758">Сінхранізацыя перастала працаваць</translation>
@@ -414,7 +414,7 @@
 <translation id="4084682180776658562">Дадаць у закладкі</translation>
 <translation id="4084712963632273211">Выдавец – <ph name="PUBLISHER_ORIGIN" />, <ph name="BEGIN_DEEMPHASIZED" />пастаўшчык – Google<ph name="END_DEEMPHASIZED" /></translation>
 <translation id="4095146165863963773">Выдаліць даныя праграмы?</translation>
-<translation id="4099578267706723511">Дапамажыце палепшыць Brave, адпраўляючы ў Google статыстыку выкарыстання і справаздачы аб збоях.</translation>
+<translation id="1689813225531684903">Дапамажыце палепшыць Brave, адпраўляючы ў Google статыстыку выкарыстання і справаздачы аб збоях.</translation>
 <translation id="4116038641877404294">Спампуйце старонкі, каб праглядаць іх па-за сеткай</translation>
 <translation id="4135200667068010335">Спіс прылад, з якімі можна абагуліць укладку, закрыты.</translation>
 <translation id="4149994727733219643">Спрошчаны выгляд для вэб-старонак</translation>
@@ -455,14 +455,14 @@
 <translation id="445467742685312942">Дазволіць сайтам прайграваць абароненае змесціва</translation>
 <translation id="4468959413250150279">Выключыць гук на канкрэтным сайце.</translation>
 <translation id="4472118726404937099">Каб сінхранізаваць і персаналізаваць прылады, увайдзіце і ўключыце сінхранізацыю</translation>
-<translation id="447252321002412580">Дапамажыце палепшыць функцыі і прадукцыйнасць Brave</translation>
+<translation id="918192811481327695">Дапамажыце палепшыць функцыі і прадукцыйнасць Brave</translation>
 <translation id="4479647676395637221">Пытацца, перш чым дазволіць сайтам выкарыстоўваць камеру (рэкамендуецца)</translation>
-<translation id="4479972344484327217">Усталёўваецца <ph name="MODULE" /> для Brave…</translation>
-<translation id="4487967297491345095">Усе даныя праграмы Brave будуць назаўсёды выдалены. Гэта датычыцца ўсіх файлаў, налад, уліковых запісаў, баз даных і г. д.</translation>
+<translation id="3133489217401741157">Усталёўваецца <ph name="MODULE" /> для Brave…</translation>
+<translation id="53119194224775367">Усе даныя праграмы Brave будуць назаўсёды выдалены. Гэта датычыцца ўсіх файлаў, налад, уліковых запісаў, баз даных і г. д.</translation>
 <translation id="4493497663118223949">Лёгкі рэжым уключаны</translation>
 <translation id="4513387527876475750">{DAYS,plural, =1{# дзень таму}one{# дзень таму}few{# дні таму}many{# дзён таму}other{# дня таму}}</translation>
 <translation id="451872707440238414">Пошук закладак</translation>
-<translation id="4521489764227272523">Выбраныя даныя выдалены з Brave і сінхранізаваных прылад.
+<translation id="325544313058996650">Выбраныя даныя выдалены з Brave і сінхранізаваных прылад.
 
 На сайце <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> могуць быць размешчаны іншыя формы гісторыі праглядаў сайтаў для вашага Уліковага запісу Google: напрыклад, пошукавыя запыты і дзеянні ў іншых сэрвісах Google.</translation>
 <translation id="4532845899244822526">Выберыце папку</translation>
@@ -491,7 +491,7 @@
 <translation id="4714588616299687897">Эканомце да 60 % трафіка</translation>
 <translation id="4719927025381752090">Прапаноўваць пераклад</translation>
 <translation id="4720023427747327413">Адкрыць у <ph name="PRODUCT_NAME" /></translation>
-<translation id="4720982865791209136">Дапамажыце палепшыць Brave. <ph name="BEGIN_LINK" />Прыміце ўдзел у апытанні<ph name="END_LINK" /></translation>
+<translation id="4939482511480190003">Дапамажыце палепшыць Brave. <ph name="BEGIN_LINK" />Прыміце ўдзел у апытанні<ph name="END_LINK" /></translation>
 <translation id="4732120983431207637">Размотчык стэка</translation>
 <translation id="473775607612524610">Абнавіць</translation>
 <translation id="4738836084190194332">Апошняя сінхранізацыя: <ph name="WHEN" /></translation>
@@ -509,7 +509,7 @@
 <translation id="4837753911714442426">Адкрыць параметры друку старонкі</translation>
 <translation id="4842092870884894799">Паказана выплыўное акно для стварэння пароля</translation>
 <translation id="4860895144060829044">Выклік</translation>
-<translation id="4866368707455379617">Не ўдалося ўсталяваць модуль "<ph name="MODULE" />" для Brave</translation>
+<translation id="5131234170665854056">Не ўдалося ўсталяваць модуль "<ph name="MODULE" />" для Brave</translation>
 <translation id="4875775213178255010">Рэкамендацыі змесціва</translation>
 <translation id="4878404682131129617">Не ўдалося стварыць тунэль праз проксі-сервер</translation>
 <translation id="4880127995492972015">Перакласці…</translation>
@@ -517,13 +517,13 @@
 <translation id="488187801263602086">Перайменаваць файл</translation>
 <translation id="4882831918239250449">Кіраванне тым, як гісторыя прагляду сайтаў выкарыстоўваецца для персаналізацыі пошуку, рэкламы і інш.</translation>
 <translation id="4883854917563148705">Налады, якія знаходзяцца пад кіраваннем, скінуць нельга</translation>
-<translation id="4885273946141277891">Недапушчальная колькасць версій Brave.</translation>
+<translation id="1248710015876067820">Недапушчальная колькасць версій Brave.</translation>
 <translation id="4910889077668685004">Плацежныя праграмы</translation>
 <translation id="4913161338056004800">Скінуць статыстыку</translation>
 <translation id="4913169188695071480">Спыніць абнаўленне</translation>
 <translation id="4915549754973153784"><ph name="BEGIN_LINK" />Атрымайце даведку<ph name="END_LINK" /> падчас пошуку прылад…</translation>
 <translation id="4921180162323349895">{FILE_COUNT,plural, =1{# старонка}one{# старонка}few{# старонкі}many{# старонак}other{# старонкі}}</translation>
-<translation id="4932247056774066048">Даныя Brave будуць выдалены з гэтай прылады, паколькі вы выходзіце з уліковага запісу, якім кіруе <ph name="DOMAIN_NAME" />. Яны застануцца ва Уліковым запісе Google.</translation>
+<translation id="7196828324954991967">Даныя Brave будуць выдалены з гэтай прылады, паколькі вы выходзіце з уліковага запісу, якім кіруе <ph name="DOMAIN_NAME" />. Яны застануцца ва Уліковым запісе Google.</translation>
 <translation id="4943703118917034429">Віртуальная рэальнасць</translation>
 <translation id="4943872375798546930">Няма вынікаў</translation>
 <translation id="4958708863221495346"><ph name="URL_OF_THE_CURRENT_TAB" /> абагульвае ваш экран</translation>
@@ -557,7 +557,7 @@
 <translation id="5161254044473106830">Патрабуецца назва</translation>
 <translation id="5162754098604580781">{FILE_COUNT,plural, =1{Збой 1 спампоўкі.}one{Збой # спампоўкі.}few{Збой # спамповак.}many{Збой # спамповак.}other{Збой # спампоўкі.}}</translation>
 <translation id="5170568018924773124">Паказаць у папцы</translation>
-<translation id="5184329579814168207">Адкрыць у Brave</translation>
+<translation id="8445059357334030806">Адкрыць у Brave</translation>
 <translation id="5193988420012215838">Скапіравана ў буфер абмену</translation>
 <translation id="5197729504361054390">Выбраныя вамі кантакты будуць абагулены з сайтам <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" />.</translation>
 <translation id="5199929503336119739">Працоўны профіль</translation>
@@ -586,7 +586,7 @@
 <translation id="5368958499335451666">{OPEN_TABS,plural, =1{<ph name="OPEN_TABS_ONE" /> адкрытая ўкладка. Націсніце, каб пераключыцца паміж укладкамі.}one{<ph name="OPEN_TABS_MANY" /> адкрытая ўкладка. Націсніце, каб пераключыцца паміж укладкамі.}few{<ph name="OPEN_TABS_MANY" /> адкрытыя ўкладкі. Націсніце, каб пераключыцца паміж укладкамі.}many{<ph name="OPEN_TABS_MANY" /> адкрытых укладак. Націсніце, каб пераключыцца паміж укладкамі.}other{<ph name="OPEN_TABS_MANY" /> адкрытай укладкі. Націсніце, каб пераключыцца паміж укладкамі.}}</translation>
 <translation id="5391532827096253100">Ваша падключэнне да гэтага сайта небяспечнае. Звесткі пра сайт</translation>
 <translation id="5394307150471348411">{DETAIL_COUNT,plural, =1{(і яшчэ 1)}one{(і яшчэ #)}few{(і яшчэ #)}many{(і яшчэ #)}other{(і яшчэ #)}}</translation>
-<translation id="5400569084694353794">Выкарыстоўваючы гэту праграму, вы згаджаецеся з <ph name="BEGIN_LINK1" />Умовамі выкарыстання<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Паведамленнем аб прыватнасці<ph name="END_LINK2" /> браўзера Brave.</translation>
+<translation id="2700285883409956633">Выкарыстоўваючы гэту праграму, вы згаджаецеся з <ph name="BEGIN_LINK1" />Умовамі выкарыстання<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Паведамленнем аб прыватнасці<ph name="END_LINK2" /> браўзера Brave.</translation>
 <translation id="5403592356182871684">Імёны</translation>
 <translation id="5403644198645076998">Дазваляць толькі пэўныя сайты</translation>
 <translation id="5414836363063783498">Ідзе праверка…</translation>
@@ -612,13 +612,13 @@
 <translation id="5516455585884385570">Адкрыць налады апавяшчэнняў</translation>
 <translation id="5517095782334947753">У вас ёсць закладкі, гісторыя, паролі і іншыя налады з уліковага запісу <ph name="FROM_ACCOUNT" />.</translation>
 <translation id="5524843473235508879">Перанакіраванне заблакіравана.</translation>
-<translation id="5527082711130173040">Для пошуку прылад браўзеру Brave патрабуецца доступ да месцазнаходжання. <ph name="BEGIN_LINK1" />Змяніце дазволы<ph name="END_LINK1" />. Доступ да месцазнаходжання <ph name="BEGIN_LINK2" />для гэтай прылады таксама выключаны<ph name="END_LINK2" />.</translation>
+<translation id="2367014990350929709">Для пошуку прылад браўзеру Brave патрабуецца доступ да месцазнаходжання. <ph name="BEGIN_LINK1" />Змяніце дазволы<ph name="END_LINK1" />. Доступ да месцазнаходжання <ph name="BEGIN_LINK2" />для гэтай прылады таксама выключаны<ph name="END_LINK2" />.</translation>
 <translation id="5527111080432883924">Пытацца, перш чым дазволіць сайтам чытаць тэкст і відарысы з буфера абмену (рэкамендуецца)</translation>
 <translation id="5530766185686772672">Закрыць укладкі інкогніта</translation>
 <translation id="5534640966246046842">Сайт скапіраваны</translation>
 <translation id="5556459405103347317">Перазагрузіць</translation>
 <translation id="5561549206367097665">Чакаецца адказ сеткі…</translation>
-<translation id="557283862590186398">Brave запытвае дазвол на доступ да мікрафона для гэтага сайта.</translation>
+<translation id="320189792589364011">Brave запытвае дазвол на доступ да мікрафона для гэтага сайта.</translation>
 <translation id="55737423895878184">Вызначэнне месцазнаходжання і апавяшчэнні дазволены</translation>
 <translation id="5578795271662203820">Шукаць гэты відарыс праз <ph name="SEARCH_ENGINE" /></translation>
 <translation id="5581519193887989363">У <ph name="BEGIN_LINK1" />наладах<ph name="END_LINK1" /> заўсёды можна выбраць, што трэба сінхранізаваць.</translation>
@@ -644,7 +644,7 @@
 <translation id="572328651809341494">Нядаўнія ўкладкі</translation>
 <translation id="5726692708398506830">Павялічыць усё на старонцы</translation>
 <translation id="5748802427693696783">Пераключана на стандартныя ўкладкі</translation>
-<translation id="5749068826913805084">Для спампоўвання файлаў Brave патрабуецца доступ да сховішча.</translation>
+<translation id="3088191967551450609">Для спампоўвання файлаў Brave патрабуецца доступ да сховішча.</translation>
 <translation id="5763382633136178763">Укладкі інкогніта</translation>
 <translation id="5763514718066511291">Дакраніцеся, каб скапіраваць URL-адрас гэтай праграмы</translation>
 <translation id="5765780083710877561">Апісанне:</translation>
@@ -652,15 +652,15 @@
 <translation id="5797070761912323120">Google можа выкарыстоўваць вашу гісторыю, каб персаналізаваць пошук, паказ рэкламы і іншыя сэрвісы Google</translation>
 <translation id="5804241973901381774">Дазволы</translation>
 <translation id="5809361687334836369">{HOURS,plural, =1{# гадзіну таму}one{# гадзіну таму}few{# гадзіны таму}many{# гадзін таму}other{# гадзіны таму}}</translation>
-<translation id="5810288467834065221">© <ph name="YEAR" /> Brave Software Inc. Усе правы абароненыя.</translation>
+<translation id="7595487214788865841">© <ph name="YEAR" /> Brave Software Inc. Усе правы абароненыя.</translation>
 <translation id="5817918615728894473">Спалучыць</translation>
 <translation id="5819762621475381970">– планіроўку вашага пакоя</translation>
 <translation id="583281660410589416">Невядома</translation>
 <translation id="5833984609253377421">Абагуліць спасылку</translation>
-<translation id="5836192821815272682">Спампоўваецца абнаўленне Brave…</translation>
+<translation id="3888648114124182147">Спампоўваецца абнаўленне Brave…</translation>
 <translation id="5853623416121554550">прыпынена</translation>
 <translation id="5854790677617711513">Даныя, старэйшыя за 30 дзён</translation>
-<translation id="5858741533101922242">Браўзеру Brave не ўдалося ўключыць Bluetooth-адаптар</translation>
+<translation id="998321811308652668">Браўзеру Brave не ўдалося ўключыць Bluetooth-адаптар</translation>
 <translation id="5860033963881614850">Выключана</translation>
 <translation id="5862731021271217234">Каб глядзець укладкі са сваіх іншых прылад, уключыце сінхранізацыю</translation>
 <translation id="5864174910718532887">Падрабязнасці: адсартавана па назве сайта</translation>
@@ -674,7 +674,7 @@
 <translation id="5939518447894949180">Скінуць</translation>
 <translation id="5942872142862698679">Выкарыстоўваецца пошукавая сістэма Google</translation>
 <translation id="5952764234151283551">Адпраўляе ў Google URL-адрас старонкі, якую вы спрабуеце адкрыць</translation>
-<translation id="5956665950594638604">Адкрыць Даведачны цэнтр Brave у новай укладцы</translation>
+<translation id="305870044889644984">Адкрыць Даведачны цэнтр Brave у новай укладцы</translation>
 <translation id="5958275228015807058">Знайсці файлы і старонкі можна ў раздзеле "Спампоўкі"</translation>
 <translation id="5962718611393537961">Каб згарнуць, націсніце тут</translation>
 <translation id="6000066717592683814">Пакінуць Google</translation>
@@ -701,7 +701,7 @@
 <translation id="6181444274883918285">Дадаць выключэнне з сайтаў</translation>
 <translation id="6192333916571137726">Спампаваць файл</translation>
 <translation id="6192792657125177640">Выключэнні</translation>
-<translation id="6194112207524046168">Каб Brave атрымаў доступ да камеры, уключыце камеру таксама ў <ph name="BEGIN_LINK" />наладах Android<ph name="END_LINK" />.</translation>
+<translation id="1028853271388022585">Каб Brave атрымаў доступ да камеры, уключыце камеру таксама ў <ph name="BEGIN_LINK" />наладах Android<ph name="END_LINK" />.</translation>
 <translation id="6196640612572343990">Блакіраваць староннія файлы cookie</translation>
 <translation id="6206551242102657620">Падключэнне бяспечнае. Звесткі пра сайт</translation>
 <translation id="6210748933810148297"><ph name="EMAIL" /> – гэта не вы?</translation>
@@ -729,7 +729,7 @@
 <translation id="6378173571450987352">Падрабязныя звесткі: адсартавана па аб'ёме выкарыстанага трафіка</translation>
 <translation id="6381421346744604172">Зацямняць вэб-сайты</translation>
 <translation id="6388207532828177975">Ачысціць і скінуць</translation>
-<translation id="6393863479814692971">Brave запытвае дазвол на доступ да вашай камеры і мікрафона для гэтага сайта.</translation>
+<translation id="7988136689212463100">Brave запытвае дазвол на доступ да вашай камеры і мікрафона для гэтага сайта.</translation>
 <translation id="6395288395575013217">СУВЯЗЬ</translation>
 <translation id="6404511346730675251">Змяніце закладку</translation>
 <translation id="6406506848690869874">Сінхранізаваць</translation>
@@ -742,13 +742,13 @@
 <translation id="6444421004082850253">{FILE_COUNT,plural, =1{# відарыс}one{# відарыс}few{# відарысы}many{# відарысаў}other{# відарыса}}</translation>
 <translation id="6447842834002726250">Файлы cookie</translation>
 <translation id="6461962085415701688">Не ўдалося адкрыць файл</translation>
-<translation id="6464977750820128603">Вы можаце бачыць сайты, якія наведвалі ў Brave, і задаваць для іх таймеры.\n\nGoogle атрымлівае інфармацыю пра сайты, для якіх вы задалі таймеры, і працягласць іх наведвання. Гэта інфармацыя выкарыстоўваецца для паляпшэння якасці лічбавага камфорту.</translation>
+<translation id="385400944300042057">Вы можаце бачыць сайты, якія наведвалі ў Brave, і задаваць для іх таймеры.\n\nGoogle атрымлівае інфармацыю пра сайты, для якіх вы задалі таймеры, і працягласць іх наведвання. Гэта інфармацыя выкарыстоўваецца для паляпшэння якасці лічбавага камфорту.</translation>
 <translation id="6475951671322991020">Спампаваць відэа</translation>
 <translation id="6482749332252372425">Не ўдалося спампаваць файл <ph name="FILE_NAME" /> з-за недахопу месца ў сховішчы.</translation>
 <translation id="6496823230996795692">Каб выкарыстаць <ph name="APP_NAME" /> першы раз, падключыцеся да інтэрнэту.</translation>
-<translation id="6508722015517270189">Перазапусціце Brave</translation>
+<translation id="3960299545138990065">Перазапусціце Brave</translation>
 <translation id="6527303717912515753">Абагуліць</translation>
-<translation id="6532866250404780454">Не будуць паказвацца сайты, наведаныя вамі ў Brave. Усе таймеры сайтаў будуць выдалены.</translation>
+<translation id="708829030563435351">Не будуць паказвацца сайты, наведаныя вамі ў Brave. Усе таймеры сайтаў будуць выдалены.</translation>
 <translation id="6534565668554028783">Чаканне адказу ад Google заняло занадта шмат часу</translation>
 <translation id="6538442820324228105">Спампавана <ph name="GBS" /> ГБ</translation>
 <translation id="6539092367496845964">Нешта пайшло не так. Паўтарыце спробу пазней.</translation>
@@ -758,12 +758,12 @@
 <translation id="6560414384669816528">Пошук праз Sogou</translation>
 <translation id="656065428026159829">Яшчэ</translation>
 <translation id="6561560012278703671">Забараніць сайтам адцягваць вашу ўвагу запытамі дазволу на паказ апавяшчэнняў. Паказваць замест іх індыкатар блакіроўкі ў адрасным радку</translation>
-<translation id="6566259936974865419">Brave сэканоміў вам <ph name="GIGABYTES" /> ГБ</translation>
+<translation id="5813223329348543512">Brave сэканоміў вам <ph name="GIGABYTES" /> ГБ</translation>
 <translation id="6573096386450695060">Заўсёды дазваляць</translation>
-<translation id="6573431926118603307">Тут з'явяцца ўкладкі, адкрытыя вамі ў браўзеры Brave на іншых прыладах.</translation>
+<translation id="5157964048453367290">Тут з'явяцца ўкладкі, адкрытыя вамі ў браўзеры Brave на іншых прыладах.</translation>
 <translation id="6583199322650523874">Дадаць бягучую старонку ў закладкі</translation>
 <translation id="6593061639179217415">Версія для ПК</translation>
-<translation id="6600954340915313787">Скапіравана ў Brave</translation>
+<translation id="663059986967017181">Скапіравана ў Brave</translation>
 <translation id="6608650720463149374"><ph name="GIGABYTES" /> ГБ</translation>
 <translation id="6612358246767739896">Абароненае змесціва</translation>
 <translation id="6627583120233659107">Рэдагаваць папку</translation>
@@ -771,15 +771,15 @@
 <translation id="6643649862576733715">Сартаваць па аб'ёме сэканомленага трафіка</translation>
 <translation id="6648977384226967773">{CONTACT,plural, =1{<ph name="CONTACT_PREVIEW" />\u2026 і яшчэ <ph name="NUMBER_OF_ADDITIONAL_CONTACTS" />}one{<ph name="CONTACT_PREVIEW" />\u2026 і яшчэ <ph name="NUMBER_OF_ADDITIONAL_CONTACTS" />}few{<ph name="CONTACT_PREVIEW" />\u2026 і яшчэ <ph name="NUMBER_OF_ADDITIONAL_CONTACTS" />}many{<ph name="CONTACT_PREVIEW" />\u2026 і яшчэ <ph name="NUMBER_OF_ADDITIONAL_CONTACTS" />}other{<ph name="CONTACT_PREVIEW" />\u2026 і яшчэ <ph name="NUMBER_OF_ADDITIONAL_CONTACTS" />}}</translation>
 <translation id="6649642165559792194">Перадпрагляд відарыса <ph name="BEGIN_NEW" />Навінка<ph name="END_NEW" /></translation>
-<translation id="6656545060687952787">Для пошуку прылад Brave патрабуе доступу да месцазнаходжання. <ph name="BEGIN_LINK" />Дазволы на абнаўленне<ph name="END_LINK" /></translation>
+<translation id="8428644385678426438">Для пошуку прылад Brave патрабуе доступу да месцазнаходжання. <ph name="BEGIN_LINK" />Дазволы на абнаўленне<ph name="END_LINK" /></translation>
 <translation id="6657585470893396449">Пароль</translation>
 <translation id="6659594942844771486">Укладка</translation>
 <translation id="666731172850799929">Адкрыць у праграме <ph name="APP_NAME" /></translation>
-<translation id="666981079809192359">Паведамленне аб прыватнасці Brave</translation>
-<translation id="6676840375528380067">Выдаліць даныя Brave з гэтай прылады?</translation>
+<translation id="7392539049993970338">Паведамленне аб прыватнасці Brave</translation>
+<translation id="8581481290581777242">Выдаліць даныя Brave з гэтай прылады?</translation>
 <translation id="6689172468748959065">Фота профілю</translation>
 <translation id="6697492270171225480">Паказваць прапановы падобных старонак, калі старонку не ўдаецца знайсці</translation>
-<translation id="6697947395630195233">Brave патрабуе доступу да вашага месцазнаходжання, каб абагуліць яго з гэтым сайтам.</translation>
+<translation id="4931190655840828017">Brave патрабуе доступу да вашага месцазнаходжання, каб абагуліць яго з гэтым сайтам.</translation>
 <translation id="6698801883190606802">Кіраванне сінхранізаванымі данымі</translation>
 <translation id="6699370405921460408">Серверы Google будуць аптымізаваць старонкі, якія вы наведваеце.</translation>
 <translation id="6709133671862442373">Навіны</translation>
@@ -796,7 +796,7 @@
 <translation id="6818926723028410516">Выберыце элементы</translation>
 <translation id="6820686453637990663">CVC</translation>
 <translation id="6831043979455480757">Перакласці</translation>
-<translation id="6845325883481699275">Дапамагаць павысіць бяспеку Brave</translation>
+<translation id="4991384657077828949">Дапамагаць павысіць бяспеку Brave</translation>
 <translation id="6846298663435243399">Ідзе загрузка…</translation>
 <translation id="6850409657436465440">Спампоўка ўсё яшчэ працягваецца</translation>
 <translation id="6850830437481525139">Закрытыя ўкладкі (<ph name="TAB_COUNT" />)</translation>
@@ -844,18 +844,18 @@
 <translation id="7189372733857464326">Чакаем, пакуль завершыцца абнаўленне Сэрвісаў Google Play</translation>
 <translation id="7191430249889272776">Укладка адкрыта ў фоне.</translation>
 <translation id="723171743924126238">Выберыце відарысы</translation>
-<translation id="7233236755231902816">Каб праглядаць вэб-сайты на сваёй мове, усталюйце апошнюю версію Brave</translation>
+<translation id="3512968675351418494">Каб праглядаць вэб-сайты на сваёй мове, усталюйце апошнюю версію Brave</translation>
 <translation id="7243308994586599757">Параметры знаходзяцца ў ніжняй частцы экрана</translation>
-<translation id="7248069434667874558">Праверце, ці ўключана на прыладзе "<ph name="TARGET_DEVICE_NAME" />" сінхранізацыя ў браўзеры Brave</translation>
+<translation id="8287068819750208230">Праверце, ці ўключана на прыладзе "<ph name="TARGET_DEVICE_NAME" />" сінхранізацыя ў браўзеры Brave</translation>
 <translation id="7250468141469952378">Выбрана: <ph name="ITEM_COUNT" /></translation>
 <translation id="7274013316676448362">Заблакіраваны сайт</translation>
 <translation id="7290209999329137901">Перайменаванне недаступнае</translation>
 <translation id="7291387454912369099">Афармленне заказаў з Памочнікам</translation>
-<translation id="7293171162284876153">Каб пачаць сінхранізацыю, уключыце "Сінхранізацыю даных Brave".</translation>
+<translation id="2997266899014181325">Каб пачаць сінхранізацыю, уключыце "Сінхранізацыю даных Brave".</translation>
 <translation id="729975465115245577">На вашай прыладзе няма праграмы для захоўвання файла з паролямі.</translation>
 <translation id="7302081693174882195">Падрабязныя звесткі: Адсартавана па аб'ёме захаваных даных</translation>
 <translation id="7302486331832100261">Звычайна вы блакіруеце апавяшчэнні. Каб дазволіць іх, націсніце "Падрабязнасці".</translation>
-<translation id="7328017930301109123">У спрошчаным рэжыме Brave загружае старонкі хутчэй і зніжае выкарыстанне трафіка максімум на 60 працэнтаў.</translation>
+<translation id="3252158532344029638">У спрошчаным рэжыме Brave загружае старонкі хутчэй і зніжае выкарыстанне трафіка максімум на 60 працэнтаў.</translation>
 <translation id="7333031090786104871">Ідзе дадаванне папярэдняга сайта</translation>
 <translation id="7352939065658542140">ВІДЭА</translation>
 <translation id="7353894246028566792">{NUM_SELECTED,plural, =1{Абагуліць 1 выбраны элемент}one{Абагуліць # выбраны элемент}few{Абагуліць # выбраныя элементы}many{Абагуліць # выбраных элементаў}other{Абагуліць # выбранага элемента}}</translation>
@@ -868,14 +868,14 @@
 <translation id="7375125077091615385">Тып:</translation>
 <translation id="7396940094317457632"><ph name="FILE_NAME" />.</translation>
 <translation id="7400418766976504921">URL-адрас</translation>
-<translation id="7403691278183511381">Першы запуск Brave</translation>
+<translation id="724102042129299115">Першы запуск Brave</translation>
 <translation id="741204030948306876">Так, я згаджаюся</translation>
 <translation id="7413229368719586778">Дата пачатку: <ph name="DATE" /></translation>
 <translation id="7423098979219808738">Спачатку запытваць</translation>
 <translation id="7423538860840206698">Чытанне буфера абмену заблакіравана</translation>
 <translation id="7431991332293347422">Кіраванне тым, як ваша гісторыя прагляду сайтаў выкарыстоўваецца для персаналізацыі пошуку і ў іншых мэтах</translation>
-<translation id="7437998757836447326">Выйсці з Brave</translation>
-<translation id="7438641746574390233">Калі ўключаны лёгкі рэжым, браўзер Brave будзе выкарыстоўваць серверы Google, каб паскорыць загрузку старонак. У лёгкім рэжыме на вельмі павольных старонках загружацца будзе толькі асноўнае змесціва. Лёгкі рэжым не працуе на ўкладках інкогніта.</translation>
+<translation id="6234515504547364178">Выйсці з Brave</translation>
+<translation id="3115886637728756106">Калі ўключаны лёгкі рэжым, браўзер Brave будзе выкарыстоўваць серверы Google, каб паскорыць загрузку старонак. У лёгкім рэжыме на вельмі павольных старонках загружацца будзе толькі асноўнае змесціва. Лёгкі рэжым не працуе на ўкладках інкогніта.</translation>
 <translation id="7444811645081526538">Іншыя катэгорыі</translation>
 <translation id="7453467225369441013">Будзе выкананы выхад з большасці сайтаў. З Уліковага запісу Google вы не выйдзеце.</translation>
 <translation id="7454641608352164238">Не хапае месца</translation>
@@ -893,20 +893,20 @@
 <translation id="7542481630195938534">Не ўдалося атрымаць прапановы</translation>
 <translation id="7559975015014302720">Лёгкі рэжым выключаны</translation>
 <translation id="7562080006725997899">Ідзе ачыстка даных прагляду</translation>
-<translation id="756809126120519699">Даныя Brave выдалены</translation>
+<translation id="7814200940910057384">Даныя Brave выдалены</translation>
 <translation id="7572498721684305250">Блакіраваць сайтам адпраўку і атрыманне інфармацыі, калі вы націсканнем выбіраеце прылады NFC</translation>
 <translation id="757524316907819857">Блакіраваць прайграванне абароненага змесціва на сайтах</translation>
 <translation id="757855969265046257">{FILES,plural, =1{Спампаваны <ph name="FILES_DOWNLOADED_ONE" /> файл}one{Спампаваны <ph name="FILES_DOWNLOADED_MANY" /> файл}few{Спампавана <ph name="FILES_DOWNLOADED_MANY" /> файлы}many{Спампавана <ph name="FILES_DOWNLOADED_MANY" /> файлаў}other{Спампавана <ph name="FILES_DOWNLOADED_MANY" /> файла}}</translation>
 <translation id="7588219262685291874">Выкарыстоўваць цёмную тэму, калі на прыладзе ўключаны рэжым эканоміі зараду</translation>
 <translation id="7589445247086920869">Блакіраваць для бягучай пошукавай сістэмы</translation>
-<translation id="7593557518625677601">Каб запусціць сінхранізацыю Brave, адкрыйце налады Android і зноў уключыце сінхранізацыю сістэмы Android</translation>
+<translation id="3235722914093408050">Каб запусціць сінхранізацыю Brave, адкрыйце налады Android і зноў уключыце сінхранізацыю сістэмы Android</translation>
 <translation id="7596558890252710462">Аперацыйная сістэма</translation>
 <translation id="7605594153474022051">Сінхранізацыя не працуе</translation>
 <translation id="7606077192958116810">Лёгкі рэжым уключаны. Кіраваць ім можна ў Наладах.</translation>
 <translation id="7612619742409846846">Уваход у Google выкананы ад імя</translation>
 <translation id="7619072057915878432">Не ўдалося спампаваць файл "<ph name="FILE_NAME" />" з-за збояў сеткі.</translation>
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1" />Атрымайце даведку<ph name="END_LINK1" /> або <ph name="BEGIN_LINK2" />паўтарыце пошук<ph name="END_LINK2" /></translation>
-<translation id="7626032353295482388">Вас вітае Brave</translation>
+<translation id="7207456302801184289">Вас вітае Brave</translation>
 <translation id="7638584964844754484">Няправільная фраза-пароль</translation>
 <translation id="7641339528570811325">Выдаліць гісторыю праглядаў…</translation>
 <translation id="7648422057306047504">Шыфраваць паролі з дапамогай уліковых даных Google</translation>
@@ -919,7 +919,7 @@
 <translation id="7704317875155739195">Аўтаматычна дапісваць пошукавыя запыты і URL-адрасы</translation>
 <translation id="7725024127233776428">Тут будуць паказвацца старонкі, якія вы дадалі ў закладкі</translation>
 <translation id="773466115871691567">Заўсёды перакладаць старонкі на наступнай мове: <ph name="SOURCE_LANGUAGE" /></translation>
-<translation id="7746457520633464754">Каб выявіць небяспечныя праграмы і сайты, Brave адпраўляе URL-адрасы некаторых наведаных вамі старонак, пэўную сістэмную інфармацыю і змесціва старонак у Google</translation>
+<translation id="3712897541513849705">Каб выявіць небяспечныя праграмы і сайты, Brave адпраўляе URL-адрасы некаторых наведаных вамі старонак, пэўную сістэмную інфармацыю і змесціва старонак у Google</translation>
 <translation id="7757787379047923882">Тэкст абагулены з прылады "<ph name="DEVICE_NAME" />"</translation>
 <translation id="7762668264895820836">SD-карта <ph name="SD_CARD_NUMBER" /></translation>
 <translation id="7764225426217299476">Дадаць адрас</translation>
@@ -938,7 +938,7 @@
 <translation id="7876243839304621966">Выдаліць усе</translation>
 <translation id="7882131421121961860">Гісторыя не знойдзена</translation>
 <translation id="7882806643839505685">Дазвол гуку на канкрэтным сайце.</translation>
-<translation id="7886917304091689118">Выконваецца ў браўзеры Brave</translation>
+<translation id="6143689084714664628">Выконваецца ў браўзеры Brave</translation>
 <translation id="7925590027513907933">{FILE_COUNT,plural, =1{Ідзе спампоўванне файла.}one{Ідзе спампоўванне # файла.}few{Ідзе спампоўванне # файлаў.}many{Ідзе спампоўванне # файлаў.}other{Ідзе спампоўванне # файла.}}</translation>
 <translation id="7929962904089429003">Адкрыць меню</translation>
 <translation id="7942131818088350342"><ph name="PRODUCT_NAME" /> – версія састарэла.</translation>
@@ -949,12 +949,12 @@
 <translation id="7981313251711023384">Папярэдне загружаць старонкі для больш хуткага прагляду і пошуку</translation>
 <translation id="79859296434321399">Каб праглядаць змесціва ў рэжыме дапоўненай рэальнасці, усталюйце ARCore</translation>
 <translation id="7986741934819883144">Выберыце кантакт</translation>
-<translation id="7987073022710626672">Умовы выкарыстання Brave</translation>
+<translation id="1138681184697033370">Умовы выкарыстання Brave</translation>
 <translation id="7998918019931843664">Паўторна адкрыць закрытую ўкладку</translation>
 <translation id="7999064672810608036">Вы сапраўды хочаце ачысціць усе лакальныя даныя, у тым ліку файлы cookie, і скінуць усе дазволы для гэтага вэб-сайта?</translation>
 <translation id="8004582292198964060">Браўзер</translation>
 <translation id="8007176423574883786">Выключана для гэтай прылады</translation>
-<translation id="8013372441983637696">Таксама выдаліць даныя Brave з гэтай прылады</translation>
+<translation id="3325020657155065477">Таксама выдаліць даныя Brave з гэтай прылады</translation>
 <translation id="8015452622527143194">Вярнуць усё на старонцы да стандартнага памеру</translation>
 <translation id="802154636333426148">Збой спампоўкі</translation>
 <translation id="8026334261755873520">Выдаленне гісторыі праглядаў</translation>
@@ -963,7 +963,7 @@
 <translation id="804335162455518893">SD-карта не знойдзена</translation>
 <translation id="805047784848435650">На падставе гісторыі прагляду сайтаў</translation>
 <translation id="8051695050440594747">Даступна <ph name="MEGABYTES" /> МБ</translation>
-<translation id="8058746566562539958">Адкрыць у новай укладцы Brave</translation>
+<translation id="2317945146070194624">Адкрыць у новай укладцы Brave</translation>
 <translation id="8063895661287329888">Не ўдалося дадаць закладку.</translation>
 <translation id="806745655614357130">Захоўваць мае даныя асобна</translation>
 <translation id="8067883171444229417">Прайграць відэа</translation>
@@ -975,7 +975,7 @@
 <translation id="8103578431304235997">Укладка інкогніта</translation>
 <translation id="8105893657415066307"><ph name="DESCRIPTION" /> <ph name="SEPARATOR" /> <ph name="FILE_SIZE" /></translation>
 <translation id="8109613176066109935">Каб мець свае закладкі на ўсіх прыладах, уключыце сінхранізацыю</translation>
-<translation id="8110087112193408731">Паказваць у службе лічбавага камфорту вашы дзеянні ў Brave?</translation>
+<translation id="4565206163201411670">Паказваць у службе лічбавага камфорту вашы дзеянні ў Brave?</translation>
 <translation id="8116925261070264013">Без гуку</translation>
 <translation id="813082847718468539">Прагляд звестак пра сайт</translation>
 <translation id="8131740175452115882">Пацвердзіць</translation>
@@ -990,7 +990,7 @@
 <translation id="8232956427053453090">Захаваць даныя</translation>
 <translation id="8249310407154411074">Перамясціць уверх</translation>
 <translation id="8250920743982581267">Дакументы</translation>
-<translation id="825412236959742607">Гэта старонка выкарыстоўвае занадта многа памяці, таму Brave выдаліў некаторае змесціва.</translation>
+<translation id="5138664332909611586">Гэта старонка выкарыстоўвае занадта многа памяці, таму Brave выдаліў некаторае змесціва.</translation>
 <translation id="8260126382462817229">Увайдзіце яшчэ раз</translation>
 <translation id="8261506727792406068">Выдаліць</translation>
 <translation id="8266862848225348053">Размяшчэнне спамповак</translation>
@@ -999,7 +999,7 @@
 <translation id="8300705686683892304">Пад кіраваннем праграмы</translation>
 <translation id="8310344678080805313">Стандартныя ўкладкі</translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME" /> і іншыя сайты</translation>
-<translation id="8327155640814342956">Каб карыстацца найлепшымі функцыямі, адкрыйце і абнавіце Brave</translation>
+<translation id="6195417478702700398">Каб карыстацца найлепшымі функцыямі, адкрыйце і абнавіце Brave</translation>
 <translation id="8339163506404995330">Старонкі на мове <ph name="LANGUAGE" /> не будуць перакладацца</translation>
 <translation id="8349013245300336738">Сартаваць па аб'ёме выкарыстанага трафіка</translation>
 <translation id="8364299278605033898">Праглядайце папулярныя вэб-сайты</translation>
@@ -1013,7 +1013,7 @@
 <translation id="8428213095426709021">Налады</translation>
 <translation id="8438566539970814960">Паскорыць пошук і прагляд</translation>
 <translation id="8441146129660941386">Перайсці назад</translation>
-<translation id="8443209985646068659">Немагчыма абнавіць Brave</translation>
+<translation id="4058091506841967397">Немагчыма абнавіць Brave</translation>
 <translation id="8445448999790540984">Не ўдалося экспартаваць паролі</translation>
 <translation id="8447861592752582886">Адклікаць дазвол на доступ да прылады</translation>
 <translation id="8461694314515752532">Зашыфраваць сінхранізаваныя даныя з дапамогай фразы-пароля.</translation>
@@ -1023,9 +1023,9 @@
 <translation id="8489271220582375723">Адкрыць старонку гісторыі</translation>
 <translation id="8493948351860045254">Вызваліць месца</translation>
 <translation id="8497726226069778601">Тут нічога няма… пакуль што</translation>
-<translation id="8503559462189395349">Паролі Brave</translation>
+<translation id="230699814587342492">Паролі Brave</translation>
 <translation id="8503813439785031346">Імя карыстальніка</translation>
-<translation id="8514477925623180633">Экспартаваць паролі, захаваныя ў Brave</translation>
+<translation id="133012818630824069">Экспартаваць паролі, захаваныя ў Brave</translation>
 <translation id="8514577642972634246">Увайсці ў рэжым інкогніта</translation>
 <translation id="8516012719330875537">Рэдактар відарысаў</translation>
 <translation id="851751545965956758">Блакіраваць сайтам падключэнне да прылад</translation>
@@ -1044,7 +1044,7 @@
 <translation id="8617240290563765734">Адкрыць прапанаваны URL-адрас, указаны ў спампаваным змесціве?</translation>
 <translation id="8636825310635137004">Каб глядзець укладкі са сваіх іншых прылад, уключыце сінхранізацыю.</translation>
 <translation id="8641930654639604085">Спрабаваць блакіраваць сайты для дарослых</translation>
-<translation id="8655129584991699539">Даныя можна выдаліць у наладах Brave</translation>
+<translation id="2734140769649165081">Даныя можна выдаліць у наладах Brave</translation>
 <translation id="8655599981421006542">Націсніце тут, каб стварыць новыя ўкладкі і вярнуцца да папярэдніх</translation>
 <translation id="8662811608048051533">Будзе выкананы выхад з уліковых запісаў на большасці сайтаў.</translation>
 <translation id="8664979001105139458">Файл з такой назвай ужо існуе</translation>
@@ -1054,7 +1054,7 @@
 <translation id="869891660844655955">Тэрмін дзеяння</translation>
 <translation id="8719023831149562936">Немагчыма перадаць бягучую ўкладку</translation>
 <translation id="8725066075913043281">Паўтарыць спробу</translation>
-<translation id="8728487861892616501">Выкарыстоўваючы гэту праграму, вы згаджаецеся з <ph name="BEGIN_LINK1" />Умовамі выкарыстання<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Паведамленнем аб прыватнасці<ph name="END_LINK2" /> браўзера Brave, а таксама з <ph name="BEGIN_LINK3" />Паведамленнем аб прыватнасці ў дачыненні да Уліковых запісаў Google, якія кіруюцца праз Family Link<ph name="END_LINK3" />.</translation>
+<translation id="7247433043977983806">Выкарыстоўваючы гэту праграму, вы згаджаецеся з <ph name="BEGIN_LINK1" />Умовамі выкарыстання<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Паведамленнем аб прыватнасці<ph name="END_LINK2" /> браўзера Brave, а таксама з <ph name="BEGIN_LINK3" />Паведамленнем аб прыватнасці ў дачыненні да Уліковых запісаў Google, якія кіруюцца праз Family Link<ph name="END_LINK3" />.</translation>
 <translation id="8730621377337864115">Гатова</translation>
 <translation id="8748850008226585750">Змесціва схавана</translation>
 <translation id="8751914237388039244">Выберыце відарыс</translation>
@@ -1064,7 +1064,7 @@
 <translation id="8801436777607969138">Блакіраванне JavaScript для канкрэтнага сайта.</translation>
 <translation id="8812260976093120287">На некаторых вэб-сайтах можна плаціць з дапамогай указаных вышэй плацежных праграм, усталяваных на прыладзе.</translation>
 <translation id="8816026460808729765">Забараніць сайтам доступ да датчыкаў</translation>
-<translation id="8816439037877937734"><ph name="APP_NAME" /> адкрыецца ў Brave. Працягваючы, вы згаджаецеся з <ph name="BEGIN_LINK1" />Умовамі выкарыстання<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Паведамленнем аб прыватнасці<ph name="END_LINK2" /> браўзера Brave і з <ph name="BEGIN_LINK3" />Паведамленнем аб прыватнасці ў дачыненні да Уліковых запісаў Google, якія кіруюцца праз Family Link<ph name="END_LINK3" />.</translation>
+<translation id="7076844027493640847"><ph name="APP_NAME" /> адкрыецца ў Brave. Працягваючы, вы згаджаецеся з <ph name="BEGIN_LINK1" />Умовамі выкарыстання<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Паведамленнем аб прыватнасці<ph name="END_LINK2" /> браўзера Brave і з <ph name="BEGIN_LINK3" />Паведамленнем аб прыватнасці ў дачыненні да Уліковых запісаў Google, якія кіруюцца праз Family Link<ph name="END_LINK3" />.</translation>
 <translation id="8820817407110198400">Закладкі</translation>
 <translation id="8833831881926404480">Сайт абагульвае ваш экран</translation>
 <translation id="883806473910249246">Адбылася памылка падчас спампоўвання змесціва.</translation>
@@ -1072,23 +1072,23 @@
 <translation id="8847988622838149491">USB</translation>
 <translation id="8853345339104747198"><ph name="TAB_TITLE" />, укладка</translation>
 <translation id="885701979325669005">Сховішча</translation>
-<translation id="889338405075704026">Перайсці ў налады Brave</translation>
+<translation id="6084271560289605378">Перайсці ў налады Brave</translation>
 <translation id="8901170036886848654">Закладак не знойдзена</translation>
 <translation id="8909135823018751308">Абагуліць…</translation>
 <translation id="8912362522468806198">Уліковы запіс Google</translation>
 <translation id="8920114477895755567">Чакаюцца падрабязныя даныя бацькоў.</translation>
 <translation id="8922289737868596582">Спампуйце старонкі з меню кнопкі Дадатковыя параметры, каб праглядаць іх па-за сеткай</translation>
-<translation id="8937772741022875483">Выдаліць вашы дзеянні ў Brave са службы лічбавага камфорту?</translation>
+<translation id="1174893863889683998">Выдаліць вашы дзеянні ў Brave са службы лічбавага камфорту?</translation>
 <translation id="8941729603749328384">www.example.com</translation>
 <translation id="8942627711005830162">Адкрыць у іншым акне</translation>
-<translation id="8951232171465285730">Brave сэканоміў вам <ph name="MEGABYTES" /> МБ</translation>
+<translation id="3257320067425202300">Brave сэканоміў вам <ph name="MEGABYTES" /> МБ</translation>
 <translation id="8958424370300090006">Блакіраваць файлы cookie для пэўнага сайта.</translation>
 <translation id="8959122750345127698">Пераход па наступным адрасе недаступны: <ph name="URL" /></translation>
 <translation id="8965591936373831584">у стане чакання</translation>
 <translation id="8970887620466824814">Нешта пайшло не так.</translation>
 <translation id="8972098258593396643">Спампаваць у стандартную папку?</translation>
 <translation id="8993760627012879038">Адкрыць новую ўкладку ў рэжыме інкогніта</translation>
-<translation id="8998729206196772491">Вы ўваходзіце праз уліковы запіс, які кіруецца даменам <ph name="MANAGED_DOMAIN" />, што дае адміністратару кантроль над вашымі данымі з браўзера Brave. Вашы даныя будуць назаўсёды прывязаны да гэтага ўліковага запісу. Калі выйсці з браўзера Brave, вашы даныя будуць выдалены з гэтай прылады, але застануцца ва Уліковым запісе Google.</translation>
+<translation id="6902256485508683865">Вы ўваходзіце праз уліковы запіс, які кіруецца даменам <ph name="MANAGED_DOMAIN" />, што дае адміністратару кантроль над вашымі данымі з браўзера Brave. Вашы даныя будуць назаўсёды прывязаны да гэтага ўліковага запісу. Калі выйсці з браўзера Brave, вашы даныя будуць выдалены з гэтай прылады, але застануцца ва Уліковым запісе Google.</translation>
 <translation id="9019902583201351841">Пад кіраваннем вашых бацькоў</translation>
 <translation id="9028914725102941583">Каб абагульваць файлы паміж прыладамі, уключыце сінхранізацыю</translation>
 <translation id="9040142327097499898">Апавяшчэнні дазволены. Вызначэнне месцазнаходжання для гэтай прылады выключана.</translation>
@@ -1113,11 +1113,11 @@
 <translation id="9206873250291191720">A</translation>
 <translation id="9209888181064652401">Нельга рабіць выклікі</translation>
 <translation id="9219103736887031265">Відарысы</translation>
-<translation id="926205370408745186">Выдаліць дзеянні ў Brave са службы лічбавага камфорту</translation>
+<translation id="4596514158372210596">Выдаліць дзеянні ў Brave са службы лічбавага камфорту</translation>
 <translation id="932327136139879170">Галоўная старонка</translation>
 <translation id="938850635132480979">Памылка: <ph name="ERROR_CODE" /></translation>
 <translation id="945632385593298557">Доступ да мікрафона</translation>
-<translation id="95817756606698420">Для пошуку ў Кітаі Brave можа выкарыстоўваць <ph name="BEGIN_BOLD" />Sogou<ph name="END_BOLD" />. Гэта можна змяніць у <ph name="BEGIN_LINK" />Наладах<ph name="END_LINK" />.</translation>
+<translation id="5406914950576900927">Для пошуку ў Кітаі Brave можа выкарыстоўваць <ph name="BEGIN_BOLD" />Sogou<ph name="END_BOLD" />. Гэта можна змяніць у <ph name="BEGIN_LINK" />Наладах<ph name="END_LINK" />.</translation>
 <translation id="965817943346481315">Блакіраваць, калі сайт паказвае назойлівую рэкламу або рэкламу, якая ўводзіць у зман (рэкамендуецца)</translation>
 <translation id="968900484120156207">Тут будуць паказвацца наведаныя вамі старонкі</translation>
 <translation id="970715775301869095">Засталося часу: <ph name="MINUTES" /> хв</translation>
