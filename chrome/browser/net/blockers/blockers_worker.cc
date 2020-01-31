@@ -348,7 +348,7 @@ namespace blockers {
         }
 
         // Skip check for sync requests
-        if (tab_url == "file:///android_asset/") {
+        if (tab_url == "file:///android_asset/" || tab_url == "file:///") {
           return false;
         }
 
