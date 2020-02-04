@@ -45,6 +45,7 @@ import org.chromium.chrome.browser.customtabs.CustomTabActivity;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.tabmodel.TabModel;
 import org.chromium.chrome.R;
+import org.chromium.chrome.browser.tab.TabImpl;
 
 import static org.chromium.chrome.browser.util.ViewUtils.dpToPx;
 
@@ -300,7 +301,7 @@ public class RewardsBottomSheetDialogFragment extends BottomSheetDialogFragment{
         for (Activity ref : ApplicationStatus.getRunningActivities()) {
             if (!(ref instanceof ChromeTabbedActivity)) continue;
             ChromeTabbedActivity chromeTabbedActivity =  (ChromeTabbedActivity)ref;
-            Tab currentTab = chromeTabbedActivity.getActivityTab(); 
+            TabImpl currentTab = (TabImpl)chromeTabbedActivity.getActivityTab();
             currentTab.setNTPImage(SponsoredImageUtil.getBackgroundImage());
             newTabListener.updateNTPImage();
         }
