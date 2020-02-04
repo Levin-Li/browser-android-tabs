@@ -434,7 +434,7 @@ public class BraveRewardsNativeWorker {
     }
 
     @CalledByNative
-    public void OnGetCurrentBalanceReport(double[] report) {
+    public void OnGetCurrentBalanceReport(String[] report) {
         for(BraveRewardsObserver observer : observers_) {
             observer.OnGetCurrentBalanceReport(report);
         }
