@@ -79,6 +79,8 @@ import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.tabmodel.TabModel;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.ntp.sponsored.NTPImage;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
+import org.chromium.chrome.browser.ChromeFeatureList;
 
 /**
  * Implementation of the interface {@link Tab}. Contains and manages a {@link ContentView}.
@@ -1710,7 +1712,7 @@ public class TabImpl implements Tab {
             && mSharedPreferences.getInt(BackgroundImagesPreferences.PREF_APP_OPEN_COUNT, 0) == 1
             && SponsoredImageUtil.getTabIndex() == 2
             && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile())
-            && !PrefServiceBridge.getInstance().isSafetynetCheckFailed()
+            && !WebsitePreferenceBridge.isSafetynetCheckFailed()
             && ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
             SponsoredImage sponsoredImage = SponsoredImageUtil.getSponsoredImage();
             SponsoredImageUtil.incrementTabIndex(3);
@@ -1722,7 +1724,7 @@ public class TabImpl implements Tab {
             && SponsoredImageUtil.getTabIndex() != 1
             && SponsoredImageUtil.getTabIndex() % 4 == 0
             && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile())
-            && !PrefServiceBridge.getInstance().isSafetynetCheckFailed()
+            && !WebsitePreferenceBridge.isSafetynetCheckFailed()
             && ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
             SponsoredImageUtil.incrementTabIndex(1);
             return SponsoredImageUtil.getSponsoredImage();

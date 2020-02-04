@@ -28,6 +28,7 @@ import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 import org.chromium.chrome.browser.settings.SettingsUtils;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.BraveAdsNativeHelper;
+import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 
 /**
  * Fragment to keep track of all the display related preferences.
@@ -51,7 +52,7 @@ public class BackgroundImagesPreferences extends BravePreferenceFragment
         getActivity().setTitle(R.string.prefs_new_tab_page);
         SettingsUtils.addPreferencesFromResource(this, R.xml.background_images_preferences);
         if (!BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile()) 
-            || PrefServiceBridge.getInstance().isSafetynetCheckFailed()
+            || WebsitePreferenceBridge.isSafetynetCheckFailed()
             || !ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
             removePreferenceIfPresent(PREF_SHOW_SPONSORED_IMAGES);
         }

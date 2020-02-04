@@ -66,6 +66,7 @@ import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.tabmodel.TabModel;
 import org.chromium.chrome.browser.tab.Tab;
+import org.chromium.chrome.browser.tab.TabImpl;
 
 /**
  * Layout for the new tab page. This positions the page elements in the correct vertical positions.
@@ -798,7 +799,7 @@ public class NewTabPageLayout extends FrameLayout implements TileGroup.Observer,
                 mTileGridPlaceholder = placeholderStub.inflate();
                 SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
                 if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
-                    && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !mTab.isMoreTabs()))) {
+                    && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !((TabImpl)mTab).isMoreTabs()))) {
                     TextView title = mTileGridPlaceholder.findViewById(R.id.most_visited_placeholder_title);
                     TextView summary = mTileGridPlaceholder.findViewById(R.id.most_visited_placeholder_summary);                    
                     title.setTextColor(getResources().getColor(android.R.color.white));
@@ -814,7 +815,7 @@ public class NewTabPageLayout extends FrameLayout implements TileGroup.Observer,
     private int getMaxTileRows() {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
         if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
-            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !mTab.isMoreTabs()))) {
+            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !((TabImpl)mTab).isMoreTabs()))) {
             return 1;
         } else {
             return 2;
