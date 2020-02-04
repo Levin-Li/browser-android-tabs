@@ -203,7 +203,7 @@ public class BraveRewardsDonationSentActivity extends Activity implements BraveR
     public void OnPublisherInfo(int tabId) {}
 
     @Override
-    public void OnGetCurrentBalanceReport(double[] report) {}
+    public void OnGetCurrentBalanceReport(String[] report) {}
 
     @Override
     public void OnNotificationAdded(String id, int type, long timestamp, String[] args) {}
