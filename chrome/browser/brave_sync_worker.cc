@@ -1,13 +1,16 @@
 /* This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
- #include "brave_sync_worker.h"
- #include "base/android/jni_android.h"
- #include "base/android/jni_string.h"
- #include "chrome/android/chrome_jni_headers/BraveSyncWorker_jni.h"
- #include "base/files/file_util.h"
- #include "base/path_service.h"
- #include "third_party/leveldatabase/src/include/leveldb/db.h"
+
+#include "brave_sync_worker.h"
+
+#include "base/android/jni_android.h"
+#include "base/android/jni_string.h"
+#include "base/files/file_util.h"
+#include "base/json/json_reader.h"
+#include "base/path_service.h"
+#include "chrome/android/chrome_jni_headers/BraveSyncWorker_jni.h"
+#include "third_party/leveldatabase/src/include/leveldb/db.h"
 
 namespace brave_sync_storage {
 
@@ -16,6 +19,25 @@ namespace brave_sync_storage {
 leveldb::DB* g_level_db;
 static std::mutex* g_pLevel_db_init_mutex = new std::mutex();
 
+namespace {
+
+std::string ExtractObjectIdFromJson(const std::string& json) {
+  // See java BraveSyncWorker.BraveSySaveObjectId
+  // pack looks as
+  // [{"objectId": "69, 224, 213, 24, 100, 92, 94, 82, 63, 236, 192, 154, 81, 237, 213, 154", "order": "255.255.255", "apiVersion": "0"}]  // NOLINT
+  auto root = base::JSONReader::Read(json);
+  if (root && root->is_list() && root->GetList().size() == 1 &&
+      root->GetList()[0].is_dict()) {
+    const std::string* object_id_string =
+        root->GetList()[0].FindStringKey("objectId");
+    if (object_id_string) {
+      return *object_id_string;
+    }
+  }
+  return std::string();
+}
+
+}  // namespace
 
 BraveSyncWorker::BraveSyncWorker(JNIEnv* env, jobject obj):
   weak_java_shields_config_(env, obj) {
@@ -109,9 +131,13 @@ void JNI_BraveSyncWorker_DeleteByLocalId(JNIEnv* env,
     std::string strLocalId = base::android::ConvertJavaStringToUTF8(localId);
     std::string value;
     g_level_db->Get(leveldb::ReadOptions(), strLocalId, &value);
+    std::string object_id = ExtractObjectIdFromJson(value);
+    if (object_id.empty()) {
+      object_id = value;
+    }
 
     g_level_db->Delete(leveldb::WriteOptions(), strLocalId);
-    g_level_db->Delete(leveldb::WriteOptions(), value);
+    g_level_db->Delete(leveldb::WriteOptions(), object_id);
 }
 
 static void JNI_BraveSyncWorker_Clear(JNIEnv* env, const base::android::JavaParamRef<jobject>& obj) {
