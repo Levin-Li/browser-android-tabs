@@ -43,6 +43,7 @@ import org.chromium.chrome.browser.flags.FeatureUtilities;
 import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.StatsUpdaterWorker;
 import org.chromium.chrome.browser.ADBlockUpdaterWorker;
+import org.chromium.chrome.browser.NTPUpdaterWorker;
 import org.chromium.chrome.browser.instantapps.InstantAppsHandler;
 import org.chromium.chrome.browser.init.ShieldsConfig;
 import org.chromium.chrome.browser.locale.LocaleManager;
@@ -72,6 +73,8 @@ public class ChromeApplication extends Application {
     public StatsUpdaterWorker mStatsUpdaterWorker;
     // ADBlock updater
     public ADBlockUpdaterWorker mADBlockUpdaterWorker;
+    // NTP updater
+    public NTPUpdaterWorker mNTPUpdaterWorker;
     // Mixpanel global object
     //public MixpanelAPI mMixpanelInstance = null;
 

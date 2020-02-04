@@ -1,21 +1,31 @@
+/* Copyright (c) 2020 The Brave Authors. All rights reserved.
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 package org.chromium.chrome.browser.ntp.sponsored;
 
-public class SponsoredImage extends BackgroundImage {
+public class SponsoredImage extends NTPImage {
 
-    private long startDate;
-    private long endDate;
+    private String imageUrl;
+    private int focalPointX;
+    private int focalPointY;
 
-    public SponsoredImage(int imageDrawable, int centerPoint, ImageCredit imageCredit, long startDate, long endDate) {
-        super(imageDrawable, centerPoint, imageCredit);
-        this.startDate = startDate;
-        this.endDate = endDate;
+    public SponsoredImage(String imageUrl, int focalPointX, int focalPointY) {
+        this.imageUrl = imageUrl;
+        this.focalPointX = focalPointX;
+        this.focalPointY = focalPointY;
     }
 
-    public long getStartDate() {
-        return startDate;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
-    public long getEndDate() {
-        return endDate;
+    public int getFocalPointX() {
+        return focalPointX;
+    }
+
+    public int getFocalPointY() {
+        return focalPointY;
     }
 }

@@ -6,12 +6,26 @@ package org.chromium.chrome.browser.tabmodel;
 
 import androidx.annotation.Nullable;
 
+import android.app.Activity;
+import android.os.Build;
+import android.content.SharedPreferences;
+
+import org.chromium.base.ContextUtils;
 import org.chromium.base.TraceEvent;
 import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.chrome.browser.tab.TabState;
 import org.chromium.chrome.browser.util.UrlConstants;
 import org.chromium.content_public.browser.LoadUrlParams;
 import org.chromium.content_public.browser.WebContents;
+import org.chromium.chrome.browser.ChromeTabbedActivity;
+import org.chromium.chrome.browser.ntp.NewTabPage;
+import org.chromium.base.ApplicationStatus;
+import org.chromium.chrome.browser.tabmodel.TabModelUtils;
+import org.chromium.chrome.browser.tabmodel.TabSelectionType;
+import org.chromium.chrome.browser.BraveRewardsHelper;
+import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;
+import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
+import org.chromium.base.Log;
 
 /**
  * An interface to return a {@link TabCreator} either for regular or incognito tabs.
@@ -90,7 +104,25 @@ public interface TabCreatorManager {
         public final void launchNTP() {
             try {
                 TraceEvent.begin("TabCreator.launchNTP");
-                launchUrl(UrlConstants.NTP_URL, TabLaunchType.FROM_CHROME_UI);
+
+                SharedPreferences mSharedPreferences = ContextUtils.getAppSharedPreferences();
+
+                ChromeTabbedActivity chromeTabbedActivity = BraveRewardsHelper.getChromeTabbedActivity();
+                if(chromeTabbedActivity != null && Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
+                    TabModel tabModel = chromeTabbedActivity.getCurrentTabModel();
+                    if (tabModel.getCount() >= SponsoredImageUtil.MAX_TABS && mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)) {
+                        if(chromeTabbedActivity.getActivityTab() != null && NewTabPage.isNTPUrl(chromeTabbedActivity.getActivityTab().getUrl())) {
+                            chromeTabbedActivity.hideOverviewTemp();
+                        } else {
+                            chromeTabbedActivity.openNewOrSelectExistingTab(UrlConstants.NTP_URL);
+                            chromeTabbedActivity.hideOverviewTemp();
+                        }
+                    } else {
+                        launchUrl(UrlConstants.NTP_URL, TabLaunchType.FROM_CHROME_UI);
+                    }
+                } else {
+                    launchUrl(UrlConstants.NTP_URL, TabLaunchType.FROM_CHROME_UI);
+                }
             } finally {
                 TraceEvent.end("TabCreator.launchNTP");
             }

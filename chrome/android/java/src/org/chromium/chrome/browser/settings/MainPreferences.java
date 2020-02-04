@@ -229,10 +229,6 @@ public class MainPreferences extends BravePreferenceFragment
         if (!ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
             getPreferenceScreen().removePreference(welcomeTour);
         }
-
-        if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
-            getPreferenceScreen().removePreference(findPreference(PREF_BACKGROUND_IMAGES));
-        }
     }
 
     /**

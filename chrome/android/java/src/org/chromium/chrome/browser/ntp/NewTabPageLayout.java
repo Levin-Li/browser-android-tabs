@@ -20,6 +20,7 @@ import android.view.ViewGroup;
 import android.view.ViewStub;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.content.SharedPreferences;
 
@@ -61,13 +62,16 @@ import org.chromium.chrome.browser.vr.VrModeObserver;
 import org.chromium.chrome.browser.vr.VrModuleProvider;
 import org.chromium.ui.base.DeviceFormFactor;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;
+import org.chromium.chrome.browser.BraveRewardsHelper;
+import org.chromium.chrome.browser.ChromeTabbedActivity;
+import org.chromium.chrome.browser.tabmodel.TabModel;
 import org.chromium.chrome.browser.tab.Tab;
 
 /**
  * Layout for the new tab page. This positions the page elements in the correct vertical positions.
  * There are no separate phone and tablet UIs; this layout adapts based on the available space.
  */
-public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer, VrModeObserver {
+public class NewTabPageLayout extends FrameLayout implements TileGroup.Observer, VrModeObserver {
     private static final String TAG = "NewTabPageLayout";
     // Used to signify the cached resource value is unset.
     private static final int UNSET_RESOURCE_FLAG = -1;
@@ -184,6 +188,7 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
     protected void onFinishInflate() {
         super.onFinishInflate();
         mMiddleSpacer = findViewById(R.id.ntp_middle_spacer);
+        mBraveStatsView = (ViewGroup) findViewById(R.id.brave_stats);
         //mSearchProviderLogoView = findViewById(R.id.search_provider_logo);
         mSearchBoxView = findViewById(R.id.search_box);
         mExploreOfflineCard = new ExploreOfflineCard(this, openDownloadHomeCallback());
@@ -266,8 +271,6 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
                     R.dimen.ntp_search_box_bounds_vertical_inset_modern);
         }
         mNoSearchLogoSpacer = findViewById(R.id.no_search_logo_spacer);
-
-        mBraveStatsView = (ViewGroup) findViewById(R.id.brave_stats);
 
         initializeSearchBoxTextView();
         initializeVoiceSearchButton();
@@ -428,8 +431,9 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
                 1f);
     }
 
-    private void insertSiteSectionView() {
-        mSiteSectionView = SiteSection.inflateSiteSection(this);
+    public void insertSiteSectionView() {
+        ViewGroup mainLayout = findViewById(R.id.ntp_main_layout);
+        mSiteSectionView = SiteSection.inflateSiteSection(mainLayout);
         ViewGroup.LayoutParams layoutParams = mSiteSectionView.getLayoutParams();
         layoutParams.width = ViewGroup.LayoutParams.WRAP_CONTENT;
         // If the explore sites section exists as its own section, then space it more closely.
@@ -442,8 +446,8 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
         }
         mSiteSectionView.setLayoutParams(layoutParams);
 
-        int insertionPoint = indexOfChild(mMiddleSpacer) + 1;
-        addView(mSiteSectionView, insertionPoint);
+        int insertionPoint = mainLayout.indexOfChild(mBraveStatsView) + 1;
+        mainLayout.addView(mSiteSectionView, insertionPoint);
     }
 
     /**
@@ -794,7 +798,7 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
                 mTileGridPlaceholder = placeholderStub.inflate();
                 SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
                 if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
-                    && Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
+                    && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !mTab.isMoreTabs()))) {
                     TextView title = mTileGridPlaceholder.findViewById(R.id.most_visited_placeholder_title);
                     TextView summary = mTileGridPlaceholder.findViewById(R.id.most_visited_placeholder_summary);                    
                     title.setTextColor(getResources().getColor(android.R.color.white));
@@ -809,8 +813,8 @@ public class NewTabPageLayout extends LinearLayout implements TileGroup.Observer
 
     private int getMaxTileRows() {
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
-        if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)
-            && Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
+        if(sharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
+            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !mTab.isMoreTabs()))) {
             return 1;
         } else {
             return 2;
