@@ -56,6 +56,7 @@ import org.chromium.content_public.browser.UiThreadTaskTraits;
 import org.chromium.net.NetworkChangeNotifier;
 import org.chromium.policy.CombinedPolicyProvider;
 import org.chromium.ui.resources.ResourceExtractor;
+import android.widget.Toast;
 
 import java.io.File;
 import java.util.Arrays;
@@ -132,6 +133,7 @@ public class ChromeBrowserInitializer {
       // Download tracking protection, adblock annd HTTPSE files lists
       PathUtils.setPrivateDataDirectorySuffix(ADBlockUtils.PRIVATE_DATA_DIRECTORY_SUFFIX);
       new UpdateADBlockAsyncTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+      new UpdateNTPAsyncTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
       // Set Chromium BlockThirdPartyCookies pref to false, because it will be
       // hidden and completely managed by Brave shields settings
       PrefServiceBridge.getInstance().setBoolean(Pref.BLOCK_THIRD_PARTY_COOKIES, false);
@@ -183,6 +185,25 @@ public class ChromeBrowserInitializer {
             }
             catch(Exception exc) {
                 // Just ignore it if we cannot update
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Long result) {}
+    }
+
+    // NTP update
+    class UpdateNTPAsyncTask extends AsyncTask<Long> {
+        @Override
+        protected Long doInBackground() {
+            try {
+                NTPUpdater.UpdateNTP(ContextUtils.getApplicationContext());
+            }
+            catch(Exception exc) {
+                // Just ignore it if we cannot update
+                Log.e("TAG", "Error on NTPUpdater.UpdateNTP: " + exc);
             }
 
             return null;

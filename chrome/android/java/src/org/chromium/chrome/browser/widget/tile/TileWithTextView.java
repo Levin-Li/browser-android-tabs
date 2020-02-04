@@ -10,12 +10,15 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 import android.content.SharedPreferences;
 import android.os.Build;
+import android.app.Activity;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.ChromeTabbedActivity;
+import org.chromium.base.ApplicationStatus;
+import org.chromium.chrome.browser.tabmodel.TabModel;
 
 import org.chromium.chrome.R;
 
@@ -59,10 +62,17 @@ public class TileWithTextView extends TileView {
         mTitleView.setLines(titleLines);
         mTitleView.setText(title);
 
-        ChromeTabbedActivity chromeTabbedActivity = BraveRewardsHelper.getChromeTabbedActivity();
         SharedPreferences mSharedPreferences = ContextUtils.getAppSharedPreferences();
+
+        boolean isMoreTabs = false;
+        ChromeTabbedActivity chromeTabbedActivity = BraveRewardsHelper.getChromeTabbedActivity();
+        if(chromeTabbedActivity != null) {
+            TabModel tabModel = chromeTabbedActivity.getCurrentTabModel();
+            isMoreTabs = tabModel.getCount() >= SponsoredImageUtil.MAX_TABS ? true : false;
+        }
+
         if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
-            && Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
+            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !isMoreTabs))) {
             mTitleView.setTextColor(getResources().getColor(android.R.color.white));
         }
     }

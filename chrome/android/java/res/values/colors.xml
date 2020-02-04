@@ -217,4 +217,6 @@
 
     <color name="find_in_page_query_incognito_hint_color">@color/white_alpha_70</color>
 
+    <color name="ntp_non_disruptive_banner_bg_color">#E6343a40</color>
+
 </resources>

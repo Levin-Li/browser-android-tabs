@@ -2194,6 +2194,12 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                 || (type == TabLaunchType.FROM_RESTORE && tab.getParentId() != Tab.INVALID_TAB_ID);
     }
 
+    public void hideOverviewTemp() {
+        if (mOverviewModeController.overviewVisible() && !isTablet()) {
+            mOverviewModeController.hideOverview(true);
+        }
+    }
+
     /**
      * Sends this Activity to the background.
      *

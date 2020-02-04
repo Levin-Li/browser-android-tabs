@@ -11,14 +11,9 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 
 import org.chromium.base.ContextUtils;
-import org.chromium.base.Log;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
-import org.chromium.chrome.browser.BraveRewardsNativeWorker;
-import org.chromium.chrome.browser.BraveRewardsObserver;
 import org.chromium.chrome.browser.ChromeFeatureList;
-import org.chromium.chrome.browser.accessibility.FontSizePrefs;
-import org.chromium.chrome.browser.accessibility.FontSizePrefs.FontSizePrefsObserver;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.RestartWorker;
 import org.chromium.chrome.browser.util.AccessibilityUtil;
@@ -31,6 +26,8 @@ import org.chromium.chrome.browser.tabmodel.TabModelUtils;
 import org.chromium.chrome.browser.util.LocaleUtil;
 import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 import org.chromium.chrome.browser.settings.SettingsUtils;
+import org.chromium.chrome.browser.profiles.Profile;
+import org.chromium.chrome.browser.BraveAdsNativeHelper;
 
 /**
  * Fragment to keep track of all the display related preferences.
@@ -40,6 +37,7 @@ public class BackgroundImagesPreferences extends BravePreferenceFragment
 
     public static final String PREF_SHOW_BACKGROUND_IMAGES = "show_background_images";
     public static final String PREF_SHOW_SPONSORED_IMAGES = "show_sponsored_images";
+    public static final String PREF_SHOW_NON_DISTRUPTIVE_BANNER = "show_non_distruptive_banner";
     public static final String PREF_APP_OPEN_COUNT = "app_open_count";
 
     ChromeSwitchPreference showBackgroundImagesPref, showSponsoredImagesPref;
@@ -52,7 +50,9 @@ public class BackgroundImagesPreferences extends BravePreferenceFragment
         super.onCreate(savedInstanceState);
         getActivity().setTitle(R.string.prefs_new_tab_page);
         SettingsUtils.addPreferencesFromResource(this, R.xml.background_images_preferences);
-        if (!LocaleUtil.isSponsoredRegions()) {
+        if (!BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile()) 
+            || PrefServiceBridge.getInstance().isSafetynetCheckFailed()
+            || !ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
             removePreferenceIfPresent(PREF_SHOW_SPONSORED_IMAGES);
         }
     }
@@ -88,6 +88,7 @@ public class BackgroundImagesPreferences extends BravePreferenceFragment
         if (PREF_SHOW_BACKGROUND_IMAGES.equals(preference.getKey()) && showSponsoredImagesPref != null) {
             if ((boolean)newValue) {
                 showSponsoredImagesPref.setEnabled(true);
+                showSponsoredImagesPref.setChecked(true);
             } else {
                 showSponsoredImagesPref.setEnabled(false);
             }

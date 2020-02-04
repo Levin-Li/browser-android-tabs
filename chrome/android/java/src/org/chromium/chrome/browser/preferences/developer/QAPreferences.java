@@ -43,6 +43,7 @@ public class QAPreferences extends BravePreferenceFragment
         implements OnPreferenceChangeListener, BraveRewardsObserver {
     private static final String PREF_USE_REWARDS_STAGING_SERVER = "use_rewards_staging_server";
     private static final String PREF_QA_MAXIMIZE_INITIAL_ADS_NUMBER = "qa_maximize_initial_ads_number";
+    public static final String PREF_QA_DEBUG_NTP= "qa_debug_ntp";
 
     private static final String QA_ADS_PER_HOUR = "qa_ads_per_hour";
     private static final String QA_ADS_PER_DAY = "qa_ads_per_day";
@@ -53,6 +54,7 @@ public class QAPreferences extends BravePreferenceFragment
 
     ChromeSwitchPreference mIsStagingServer;
     ChromeSwitchPreference mMaximizeAdsNumber;
+    ChromeSwitchPreference mDebugNTP;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -70,6 +72,11 @@ public class QAPreferences extends BravePreferenceFragment
         if (mMaximizeAdsNumber != null) {
             mMaximizeAdsNumber.setEnabled(mIsStagingServer.isChecked());
             mMaximizeAdsNumber.setOnPreferenceChangeListener(this);
+        }
+
+        mDebugNTP = (ChromeSwitchPreference) findPreference(PREF_QA_DEBUG_NTP);
+        if(mDebugNTP != null) {
+            mDebugNTP.setOnPreferenceChangeListener(this);
         }
     }
 
@@ -96,8 +103,18 @@ public class QAPreferences extends BravePreferenceFragment
             RestartWorker.AskForRelaunch(getActivity());
         } else if (PREF_QA_MAXIMIZE_INITIAL_ADS_NUMBER.equals(preference.getKey())) {
             enableMaximumAdsNumber((boolean) newValue);
+        } else if (PREF_QA_DEBUG_NTP.equals(preference.getKey())) {
+            setOnPreferenceValue(preference.getKey(), (boolean)newValue);
+            RestartWorker.AskForRelaunch(getActivity());
         }
         return true;
+    }
+
+    private void setOnPreferenceValue(String preferenceName, boolean newValue) {
+        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
+        SharedPreferences.Editor sharedPreferencesEditor = sharedPreferences.edit();
+        sharedPreferencesEditor.putBoolean(preferenceName, newValue);
+        sharedPreferencesEditor.apply();
     }
 
     private void checkQACode() {

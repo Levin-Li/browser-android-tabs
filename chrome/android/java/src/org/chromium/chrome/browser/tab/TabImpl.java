@@ -71,6 +71,14 @@ import org.chromium.chrome.browser.ntp.sponsored.SponsoredImage;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;
 import org.chromium.chrome.browser.util.LocaleUtil;
 import android.os.Build;
+import org.chromium.chrome.browser.preferences.PrefServiceBridge;
+import org.chromium.chrome.browser.profiles.Profile;
+import org.chromium.chrome.browser.BraveAdsNativeHelper;
+import org.chromium.base.ApplicationStatus;
+import org.chromium.chrome.browser.ChromeTabbedActivity;
+import org.chromium.chrome.browser.tabmodel.TabModel;
+import org.chromium.chrome.browser.BraveRewardsHelper;
+import org.chromium.chrome.browser.ntp.sponsored.NTPImage;
 
 /**
  * Implementation of the interface {@link Tab}. Contains and manages a {@link ContentView}.
@@ -242,8 +250,11 @@ public class TabImpl implements Tab {
 
     private final UserDataHost mUserDataHost = new UserDataHost();
 
-    private BackgroundImage backgroundImage;
-    private int index;
+    private NTPImage ntpImage;
+    private int tabIndex;
+    private boolean mShouldShowBanner;
+
+    private boolean isMoreTabs;
 
     /**
      * Creates an instance of a {@link TabImpl}.
@@ -302,10 +313,17 @@ public class TabImpl implements Tab {
         mScriptsBlocked = 0;
         mFingerprintsBlocked = 0;
 
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
-            backgroundImage = getBackgroundImage();
+        ChromeTabbedActivity chromeTabbedActivity = BraveRewardsHelper.getChromeTabbedActivity();
+        if(chromeTabbedActivity != null) {
+            TabModel tabModel = chromeTabbedActivity.getCurrentTabModel();
+            isMoreTabs = tabModel.getCount() > SponsoredImageUtil.MAX_TABS ? true : false;
         }
-        index = SponsoredImageUtil.imageIndex;
+
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !isMoreTabs)){
+            ntpImage = getNTPImage();
+            tabIndex = SponsoredImageUtil.getTabIndex();
+            updateBannerPref();
+        }
     }
 
     @Override
@@ -1660,48 +1678,58 @@ public class TabImpl implements Tab {
         }
     }
 
-    public BackgroundImage getTabBackgroundImage() {
-        return backgroundImage;
+    public NTPImage getTabNTPImage() {
+        return ntpImage;
     }
 
-    public int getIndex() {
-        return index;
+    public void setNTPImage(NTPImage ntpImage) {
+        this.ntpImage = ntpImage;
     }
 
-    private BackgroundImage getBackgroundImage() {
-        BackgroundImage backgroundImage;
+    public int getTabIndex() {
+        return tabIndex;
+    }
+
+    public boolean shouldShowBanner() {
+        return mShouldShowBanner;
+    }
+
+    public boolean isMoreTabs() {
+        return isMoreTabs;
+    }
+
+    public void updateBannerPref() {
+        mShouldShowBanner = ContextUtils.getAppSharedPreferences().getBoolean(BackgroundImagesPreferences.PREF_SHOW_NON_DISTRUPTIVE_BANNER, true);
+    }
+
+    private NTPImage getNTPImage() {
         SharedPreferences mSharedPreferences = ContextUtils.getAppSharedPreferences();
 
-        if (mSharedPreferences.getInt(BackgroundImagesPreferences.PREF_APP_OPEN_COUNT, 0) == 2
-            && SponsoredImageUtil.imageIndex == 2) {
-            SponsoredImage sponsoredImage = SponsoredImageUtil.getSponsoredImage(); 
-            long currentTime = Calendar.getInstance().getTimeInMillis();
-            if ((sponsoredImage.getStartDate() <= currentTime  && currentTime <= sponsoredImage.getEndDate()) 
-                && LocaleUtil.isSponsoredRegions()
-                && mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_SPONSORED_IMAGES, true)) {
-                SponsoredImageUtil.imageIndex = SponsoredImageUtil.imageIndex + 3;
-                return sponsoredImage;
-            }
+        if (mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_SPONSORED_IMAGES, true)
+            && SponsoredImageUtil.getSponsoredImages().size() > 0
+            && mSharedPreferences.getInt(BackgroundImagesPreferences.PREF_APP_OPEN_COUNT, 0) == 1
+            && SponsoredImageUtil.getTabIndex() == 2
+            && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile())
+            && !PrefServiceBridge.getInstance().isSafetynetCheckFailed()
+            && ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
+            SponsoredImage sponsoredImage = SponsoredImageUtil.getSponsoredImage();
+            SponsoredImageUtil.incrementTabIndex(3);
+            return sponsoredImage;
         }
 
-        if (SponsoredImageUtil.imageIndex % 4 == 0 && SponsoredImageUtil.imageIndex != 1) {
-            SponsoredImage sponsoredImage = SponsoredImageUtil.getSponsoredImage(); 
-            long currentTime = Calendar.getInstance().getTimeInMillis();
-            if ((sponsoredImage.getStartDate() <= currentTime  && currentTime <= sponsoredImage.getEndDate()) 
-                && LocaleUtil.isSponsoredRegions()
-                && mSharedPreferences.getInt(BackgroundImagesPreferences.PREF_APP_OPEN_COUNT, 0) != 1
-                && mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_SPONSORED_IMAGES, true)) {
-                backgroundImage = sponsoredImage;
-            } else {
-                backgroundImage = SponsoredImageUtil.getBackgroundImage();
-            }
+        if (mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_SPONSORED_IMAGES, true)
+            && SponsoredImageUtil.getSponsoredImages().size() > 0
+            && SponsoredImageUtil.getTabIndex() != 1
+            && SponsoredImageUtil.getTabIndex() % 4 == 0
+            && BraveAdsNativeHelper.nativeIsLocaleValid(Profile.getLastUsedProfile())
+            && !PrefServiceBridge.getInstance().isSafetynetCheckFailed()
+            && ChromeFeatureList.isEnabled(ChromeFeatureList.BRAVE_REWARDS)) {
+            SponsoredImageUtil.incrementTabIndex(1);
+            return SponsoredImageUtil.getSponsoredImage();
         } else {
-            backgroundImage = SponsoredImageUtil.getBackgroundImage();
+            SponsoredImageUtil.incrementTabIndex(1);
+            return SponsoredImageUtil.getBackgroundImage();
         }
-
-        SponsoredImageUtil.imageIndex++;
-
-        return backgroundImage;
     }
 
     @NativeMethods

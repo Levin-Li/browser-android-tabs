@@ -329,7 +329,6 @@ content creators you love.</string>
     <string name="ten_tip_option">10 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Photo by <ph name="PHOTO_BY">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Brave Ads sent when browser is in the background</string>
 
     <string name="brave_ui_tips_processed_notification">Your monthly tips have been processed!</string>
@@ -339,4 +338,17 @@ content creators you love.</string>
     <string name="brave_ui_brave_ads_launch_title">Brave Ads has arrived!</string>
     <string name="brave_ui_verified_publisher_notification">Creator <ph name="PUBLISHER_NAME">%1$s</ph> recently verified</string>
     <string name="brave_ui_pending_contribution_title">Pending Contribution</string>
+    <string name="get_paid_to_see_ads">Get paid to see this background image.</string>
+    <string name="ntp_brave_rewards_off_text">You&apos;ll receive 70% of the ad revenue for this private sponsorship which can be used to support web content creators. Turn on Brave Rewards to claim your share.</string>
+    <string name="turn_on_rewards">Turn on Rewards</string>
+    <string name="turn_on_brave_ads">Turn on Brave Ads</string>
+    <string name="ntp_tos_text">By turning on Rewards, you agree to the <ph name="TERMS_OF_SERVICE">%1$s</ph>. You can also choose to <ph name="HIDE_SPONSORED_IMAGES">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Get paid to see this background image.</string>
+    <string name="hide_sponsored_images">Hide Sponsored Images</string>
+    <string name="you_can_support_creators">You can support web creators with tokens.
+Earn tokens by viewing privacy-respecting ads.</string>
+    <string name="you_are_getting_paid">You&apos;re getting paid to see this background image.</string>
+    <string name="br_on_ads_on_text"><ph name="LEARN_MORE">%1$s</ph> about sponsored images in Brave Rewards. You can also choose to <ph name="HIDE_SPONSORED_IMAGES">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">You can also choose to <ph name="HIDE_SPONSORED_IMAGES">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Get paid to see this background image. Turn on Brave Ads to claim your share.</string>
 </resources>
