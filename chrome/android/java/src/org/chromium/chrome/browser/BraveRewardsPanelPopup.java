@@ -817,28 +817,12 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         return valid;
     }
 
-    private void ShowClaimOkButtonIfProcessingNotification() {
-        if (currentNotificationId.isEmpty()){
-            return;
-        }
-
-        Button btClaimOk = (Button)root.findViewById(R.id.br_claim_button);
-        View claim_progress = root.findViewById(R.id.progress_br_claim_button);
-
-        mClaimInProcess = (mBraveRewardsNativeWorker != null)?
-                mBraveRewardsNativeWorker.IsGrantClaimInProcess() : true;
-        if (mClaimInProcess){
-            btClaimOk.setVisibility(View.GONE);
-            claim_progress.setVisibility(View.VISIBLE);
-        }
-        else {
-            claim_progress.setVisibility(View.GONE);
-            btClaimOk.setVisibility(View.VISIBLE);
-        }
-    }
-
     private void ShowNotification(String id, int type, long timestamp,
             String[] args) {
+
+        if (mBraveRewardsNativeWorker == null){
+            return;
+        }
 
         // don't process unknown notifications
         if ( !IsValidNotificationType (type, args.length) && mBraveRewardsNativeWorker != null) {
@@ -851,8 +835,8 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         hl.setBackgroundResource(R.drawable.notification_header);
         GridLayout gl = (GridLayout)root.findViewById(R.id.wallet_info_gridlayout);
         gl.setVisibility(View.GONE);
-        LinearLayout ll = (LinearLayout)root.findViewById(R.id.notification_info_layout);
-        ll.setVisibility(View.VISIBLE);
+
+
         TimeZone utc = TimeZone.getTimeZone("UTC");
         Calendar calTime = Calendar.getInstance(utc);
         calTime.setTimeInMillis(timestamp * 1000);
@@ -863,9 +847,18 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         String title = "";
         String description = "";
         Button btClaimOk = (Button)root.findViewById(R.id.br_claim_button);
+        View claim_progress = root.findViewById(R.id.progress_br_claim_button);
+
 
         //hide or show 'Claim/OK' button if Grant claim is (not) in process
-        ShowClaimOkButtonIfProcessingNotification();
+        mClaimInProcess = mBraveRewardsNativeWorker.IsGrantClaimInProcess();
+        if (mClaimInProcess){
+            BraveRewardsHelper.crossfade(btClaimOk, claim_progress, View.GONE, 1f, BraveRewardsHelper.CROSS_FADE_DURATION);
+        }
+        else {
+            btClaimOk.setEnabled(true);
+            BraveRewardsHelper.crossfade(claim_progress, btClaimOk, View.GONE, 1f, BraveRewardsHelper.CROSS_FADE_DURATION);
+        }
 
         TextView notificationClose = (TextView)root.findViewById(R.id.br_notification_close);
         notificationClose.setVisibility(View.VISIBLE);
@@ -877,6 +870,10 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         nit.setLayoutParams(params);
         TextView tv = (TextView)root.findViewById(R.id.br_notification_description);
         tv.setGravity(Gravity.CENTER);
+
+        LinearLayout ll = (LinearLayout)root.findViewById(R.id.notification_info_layout);
+        ll.setVisibility(View.VISIBLE);
+
         // TODO other types of notifications
         switch (type) {
             case BraveRewardsNativeWorker.REWARDS_NOTIFICATION_AUTO_CONTRIBUTE:
@@ -1531,13 +1528,8 @@ public class BraveRewardsPanelPopup implements BraveRewardsObserver, BraveReward
         }
     }
 
-    /**
-        The problem here: a processed notification is deleted before
-        'OnGrantFinish' is called. 'ShowNotification' draws a new notification
-        without 'Claim/OK' button. 'OnGrantFinish' draws the button.
-    */
     @Override
     public void OnGrantFinish(int result){
-        ShowClaimOkButtonIfProcessingNotification();
+        mBraveRewardsNativeWorker.GetAllNotifications();
     }
 }
