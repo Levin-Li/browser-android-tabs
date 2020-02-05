@@ -239,6 +239,9 @@
     <string name="prefs_section_display">Показване</string>
     <string name="prefs_section_controls">Контроли</string>
     <string name="prefs_appearance">Облик</string>
+    <string name="prefs_new_tab_page">Нова страница на раздел</string>
+    <string name="show_background_images">Показване на фонови изображения</string>
+    <string name="show_sponsored_images">Показване на спонсорирани изображения</string>
     <string name="hide_brave_rewards_icon_title">Скриване на иконата на Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Скрива иконата на Brave Rewards, когато система Brave Rewards е неактивна</string>
     <string name="show_ads_when_brave_is_not_in_use">Показвай реклами, когато Brave не се използва</string>
@@ -311,4 +314,29 @@
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
-    </resources>
+    <string name="photo_by">Снимка от <ph name=\"PHOTO_BY\">%1$s</ph></string>
+
+    <string name="notification_category_brave_ads_background">Brave Ads изпратена, когато браузърът е във фонов режим</string>
+
+    <string name="brave_ui_tips_processed_notification">Вашите месечни съвети са обработени!</string>
+    <string name="brave_ui_contribution_tips">Приноси и съвети</string>
+    <string name="brave_ui_brave_ads_launch_msg">Сега можете да печелите, като гледате реклами.</string>
+    <string name="brave_ui_turn_on_ads">Включване на рекламите</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads пристигна!</string>
+    <string name="brave_ui_verified_publisher_notification">Автор <ph name=\"PUBLISHER_NAME\">%1$s</ph> наскоро проверен</string>
+    <string name="brave_ui_pending_contribution_title">Участие в изчакване</string>
+
+    <string name="get_paid_to_see_ads">Платете, за да видите това фоново изображение.</string>
+    <string name="ntp_brave_rewards_off_text">Ще получите 70% от приходите от реклама за това частно спонсорство, които могат да се използват за подкрепа на авторите на уеб съдържание. Включете Brave Rewards, за да вземете своя дял.</string>
+    <string name="turn_on_rewards">Включване на наградите</string>
+    <string name="turn_on_brave_ads">Включване на Brave Ads</string>
+    <string name="ntp_tos_text">С включването на наградите вие се съгласявате с <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Можете също да изберете да <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Платете, за да видите това фоново изображение.</string>
+    <string name="hide_sponsored_images">Скриване на спонсорирани изображения</string>
+    <string name="you_can_support_creators">Можете да подкрепите уеб авторите с токени.
+Печелете токени, като гледате реклами, зачитащи поверителността.</string>
+    <string name="you_are_getting_paid">Плаща ви се, за да видите това фоново изображение.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> за спонсорираните изображения в Brave Rewards. Можете също да изберете да <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Можете също да изберете да <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Платете, за да видите това фоново изображение. Включете Brave Ads, за да вземете своя дял.</string>
+</resources>

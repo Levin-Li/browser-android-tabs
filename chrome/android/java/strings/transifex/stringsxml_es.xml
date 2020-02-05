@@ -233,9 +233,9 @@ mes...</string>
 que respetan tu privacidad y haz aportaciones para
 apoyar a los creadores de contenido que más te gustan.</string>
     <string name="brave_welcome_page_rewards_title">ACTIVAR LAS RECOMPENSAS DE BRAVE</string>
-    <string name="brave_ui_first_tip_text">Su primer consejo mensual se enviará el:</string>
-    <string name="brave_ui_tip_text">Acaba de enviar un consejo a:</string>
-    <string name="brave_ui_auto_tip_text">Está enviando un consejo automáticamente a: </string>
+    <string name="brave_ui_first_tip_text">Su primera propina mensual se enviará el:</string>
+    <string name="brave_ui_tip_text">Acaba de enviar una propina a:</string>
+    <string name="brave_ui_auto_tip_text">Está enviando una propina automáticamente a: </string>
     <string name="brave_ui_monthly_text">Mensualmente</string>
     <string name="bottom_toolbar_enable">Activar la barra de herramientas inferior</string>
     <string name="bottom_toolbar_disable">Desactivar la barra de herramientas inferior</string>
@@ -326,4 +326,27 @@ apoyar a los creadores de contenido que más te gustan.</string>
 
     <string name="photo_by">Fotografía de <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Brave Ads enviado cuando el navegador está en segundo plano</string>
+
+    <string name="brave_ui_tips_processed_notification">¡Tus ganancias mensuales han sido procesadas!</string>
+    <string name="brave_ui_contribution_tips">Consejos &amp; de Contribuciones</string>
+    <string name="brave_ui_brave_ads_launch_msg">Ahora puedes ganar dinero viendo anuncios.</string>
+    <string name="brave_ui_turn_on_ads">Activar anuncios</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads ha llegado</string>
+    <string name="brave_ui_verified_publisher_notification">Verificado recientemente, el creador <ph name=\"PUBLISHER_NAME\">%1$s</ph> </string>
+    <string name="brave_ui_pending_contribution_title">Contribución pendiente de pago</string>
+
+    <string name="get_paid_to_see_ads">Gana dinero para ver esta imagen de fondo.</string>
+    <string name="ntp_brave_rewards_off_text">Recibirás&apos; el 70% de los ingresos publicitarios de este patrocinio privado que puede utilizarse para apoyar a los creadores de contenido web. Activa Brave Rewards para reclamar tu parte.</string>
+    <string name="turn_on_rewards">Activa las gratificaciones</string>
+    <string name="turn_on_brave_ads">Activa Brave Ads</string>
+    <string name="ntp_tos_text">Al activar Recompensas, aceptas los <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. También puedes elegir <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Gana dinero para ver esta imagen de fondo.</string>
+    <string name="hide_sponsored_images">Ocultar imágenes patrocinadas</string>
+    <string name="you_can_support_creators">Puedes apoyar a los creadores web con tokens.
+Gana tokens al ver anuncios que respetan la privacidad.</string>
+    <string name="you_are_getting_paid">Te&apos;rpagan para ver esta imagen de fondo.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> sobre imágenes patrocinadas en Brave Rewards. También puedes elegir <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">También puedes elegir <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Gana dinero para ver esta imagen de fondo. Activa Brave Ads para reclamar tu parte.</string>
 </resources>

@@ -56,7 +56,7 @@ Afërsisht</string>
     <string name="brave_shields_first_group_title">Bllokim Monitori</string>
     <string name="brave_shields_second_group_title">Kontrolle Individuale</string>
     <string name="brave_shields">Mburoja</string>
-    <string name="brave_shields_ads_and_trackers">Reklama &amp: Gjurmues</string>
+    <string name="brave_shields_ads_and_trackers">Reklama &amp; Gjurmues</string>
     <string name="brave_shields_fingerprint_methods">Metoda Fingerprinting-u</string>
     <string name="brave_shields_block_phishing_switch">Blloko Karremëzim</string>
 
@@ -328,4 +328,4 @@ përkrahje të krijuesve të lëndës që doni.</string>
 
     <string name="photo_by">Foto nga <ph name="PHOTO_BY">%1$s</ph></string>
 
-</resources>
+    </resources>

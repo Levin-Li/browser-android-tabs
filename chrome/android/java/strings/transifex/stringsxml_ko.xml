@@ -329,4 +329,27 @@
 
     <string name="photo_by"><ph name=\"PHOTO_BY\">%1$s</ph> 촬영</string>
 
+    <string name="notification_category_brave_ads_background">브라우저가 백그라우드로 진행 중일 때 Brave Ads가 전송됨</string>
+
+    <string name="brave_ui_tips_processed_notification">귀하의 월간 팁이 처리되었습니다!</string>
+    <string name="brave_ui_contribution_tips">컨트리뷰션 &amp; 팁</string>
+    <string name="brave_ui_brave_ads_launch_msg">이제 광고를 보는 것으로 돈을 벌 수 있습니다.</string>
+    <string name="brave_ui_turn_on_ads">광고 켜기</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads가 도착했습니다!</string>
+    <string name="brave_ui_verified_publisher_notification">크리에이터 <ph name=\"PUBLISHER_NAME\">%1$s</ph> 최근에 검증됨</string>
+    <string name="brave_ui_pending_contribution_title">진행 중인 컨트리뷰션</string>
+
+    <string name="get_paid_to_see_ads">대가를 받고 이 백그라운드 이미지를 보세요.</string>
+    <string name="ntp_brave_rewards_off_text">귀하는 웹 콘텐츠 크리에이터를 지원하기 위해 사용될 수 있는 이 프라이빗 스폰서십에 대한 광고 수입의 70%를 받을 것입니다. 귀하의 지분을 청구하려면 Brave 리워드를 켜세요.</string>
+    <string name="turn_on_rewards">리워드 켜기</string>
+    <string name="turn_on_brave_ads">Brave Ads 켜기</string>
+    <string name="ntp_tos_text">리워드를 켜는 경우, 귀하는 <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>에 동의하는 것입니다. <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>를 선택할 수도 있습니다.</string>
+    <string name="get_paid_to_see_image">대가를 받고 이 백그라운드 이미지를 보세요.</string>
+    <string name="hide_sponsored_images">스폰서 이미지 숨기기</string>
+    <string name="you_can_support_creators">귀하는 토큰으로 웹 크리에이터를 지원할 수 있습니다.
+개인정보가 보호되는 광고를 열람함으로써 토큰을 획득하세요.</string>
+    <string name="you_are_getting_paid">귀하는 대가를 받고 이 백그라운드 이미지를 봅니다.</string>
+    <string name="br_on_ads_on_text">Brave 리워드에 있는 스폰서 이미지에 관해 <ph name=\"LEARN_MORE\">%1$s</ph>. <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>를 선택할 수도 있습니다.</string>
+    <string name="br_on_ads_on_text2"><ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>를 선택할 수도 있습니다.</string>
+    <string name="turn_on_brave_ads_to_claim">대가를 받고 이 백그라운드 이미지를 보세요. 귀하의 지분을 청구하려면 Brave Ads를 켜세요.</string>
 </resources>

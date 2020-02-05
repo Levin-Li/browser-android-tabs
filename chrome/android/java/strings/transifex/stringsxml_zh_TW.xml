@@ -330,4 +330,27 @@
 
     <string name="photo_by">攝影：<ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">瀏覽器在背景中時即發送Brave Ads</string>
+
+    <string name="brave_ui_tips_processed_notification">你的每月小費已處理！</string>
+    <string name="brave_ui_contribution_tips">投入&amp; 消費</string>
+    <string name="brave_ui_brave_ads_launch_msg">現在你可通過瀏覽廣告鑽錢。</string>
+    <string name="brave_ui_turn_on_ads">打開Ads</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads 已抵達！</string>
+    <string name="brave_ui_verified_publisher_notification">最近認證的創建者 <ph name=\"PUBLISHER_NAME\">%1$s</ph>  </string>
+    <string name="brave_ui_pending_contribution_title">待定投入</string>
+
+    <string name="get_paid_to_see_ads">查看此背景圖片獲得酬金。</string>
+    <string name="ntp_brave_rewards_off_text">你&apos;ll 會收到此私人贊助70%的廣告收入，可用於支持網絡內容創建者。 打開 Brave Rewards 以索取你的份額。</string>
+    <string name="turn_on_rewards">打開 Rewards（獎金）</string>
+    <string name="turn_on_brave_ads">打開 Brave Ads</string>
+    <string name="ntp_tos_text">通過打開Rewards（獎金），你即同意 <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. 你還可以選擇 <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">查看此背景圖片獲得酬金。</string>
+    <string name="hide_sponsored_images">隱藏贊助圖像</string>
+    <string name="you_can_support_creators">你可以用代幣支持網絡創建者。
+通過瀏覽尊重隱私的廣告賺取代幣。</string>
+    <string name="you_are_getting_paid">你&apos;查看此背景圖片獲得酬金。 </string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph>關於Brave Rewards中的贊助圖像。 你還可以選擇 <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">你還可以選擇 <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">查看此背景圖片獲得酬金。 打開Brave Ads以索取你的份額。</string>
 </resources>

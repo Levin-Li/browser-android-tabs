@@ -151,6 +151,8 @@ Taupykite akumuliatoriaus energiją ir negaiškite laukdami, kol puslapiai bus �
 
     <string name="brave_ui_welcome_header_two">Pasiruoškite internete
 naršyti kitaip.</string>
+    <string name="brave_ui_welcome_desc_two">Dabar galite užsidirbti <ph name=\"TOKEN\">%1$s<ex>žetonų</ex></ph> už
+privatumą gerbiančių llų peržiūrą.</string>
     <string name="brave_ui_welcome_button_text_two">DALYVAUTI ATLYGIO PROGRAMOJE</string>
     <string name="brave_ui_welcome_footer_text_two">DAUGIAU INFORMACIJOS</string>
     <string name="brave_ui_rewards_creating_text">Piniginės kūrimas</string>
@@ -251,6 +253,9 @@ savo uždarbį mėgstamiems turinio kūrėjams.</string>
     <string name="prefs_section_display">Rodinys</string>
     <string name="prefs_section_controls">Valdikliai</string>
     <string name="prefs_appearance">Išvaizda</string>
+    <string name="prefs_new_tab_page">Nauja kortelė</string>
+    <string name="show_background_images">Rodyti foninius vaizdus</string>
+    <string name="show_sponsored_images">Rodyti remiamus vaizdus</string>
     <string name="hide_brave_rewards_icon_title">Slėpti „Brave“ atlygio piktogramą</string>
     <string name="hide_brave_rewards_icon_description">Kai „Brave“ atlygis išjungtas, „Brave“ atlygio piktograma paslepiama</string>
     <string name="show_ads_when_brave_is_not_in_use">Rodyti skelbimus, kai „Brave“ nenaudojamas</string>
@@ -325,4 +330,27 @@ savo uždarbį mėgstamiems turinio kūrėjams.</string>
 
     <string name="photo_by">Nuotrauka pagal <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Brave Ads skelbimai siunčiami, kai naršyklė yra antrame plane</string>
+
+    <string name="brave_ui_tips_processed_notification">Jūsų mėnesio arbatpinigiai apdoroti!</string>
+    <string name="brave_ui_contribution_tips">Indėlis ir arbatpinigiai</string>
+    <string name="brave_ui_brave_ads_launch_msg">Dabar galite užsidirbti už reklamos žiūrėjimą.</string>
+    <string name="brave_ui_turn_on_ads">Įjungti skelbimus</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads jau čia!</string>
+    <string name="brave_ui_verified_publisher_notification">Kūrėjas <ph name=\"PUBLISHER_NAME\">%1$s</ph> neseniai patvirtintas</string>
+    <string name="brave_ui_pending_contribution_title">Laukiama indėlio</string>
+
+    <string name="get_paid_to_see_ads">Užsidirbkite už foninio vaizdo peržiūrą.</string>
+    <string name="ntp_brave_rewards_off_text">Už šį privatų rėmimą gausite 70% skelbimo pajamų, kurias galėsite panaudoti paremti interneto turinio kūrėjus. Įjunkite Brave Rewards, kad gautumėte atlygį.</string>
+    <string name="turn_on_rewards">Įjungti atlygį</string>
+    <string name="turn_on_brave_ads">Įjungti Brave Ads</string>
+    <string name="ntp_tos_text">Įjungdami Rewards sutinkate su <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Taip pat galite pasirinkti <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Užsidirbkite už foninio vaizdo peržiūrą.</string>
+    <string name="hide_sponsored_images">Slėpti remiamus vaizdus</string>
+    <string name="you_can_support_creators">Interneto kūrėjus galite paremti žetonais.
+Užsidirbkite žetonų žiūrėdami privatumą gerbiančius skelbimus.</string>
+    <string name="you_are_getting_paid">Jums bus sumokėta už šio foninio vaizdo peržiūrą.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> apie remiamus vaizdus Brave Rewards programoje. Taip pat galite pasirinkti <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Taip pat galite pasirinkti <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Užsidirbkite už foninio vaizdo peržiūrą. Įjunkite Brave Ads, kad gautumėte atlygį.</string>
 </resources>

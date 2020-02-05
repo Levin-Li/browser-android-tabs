@@ -329,4 +329,27 @@
 
     <string name="photo_by">Фото <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Реклама от Brave отсылается, когда браузер работает в фоновом режиме</string>
+
+    <string name="brave_ui_tips_processed_notification">Ваше месячное вознаграждение обработано!</string>
+    <string name="brave_ui_contribution_tips">Взносы и вознаграждение</string>
+    <string name="brave_ui_brave_ads_launch_msg">Теперь вы можете зарабатывать на просмотре рекламы.</string>
+    <string name="brave_ui_turn_on_ads">Включить рекламу</string>
+    <string name="brave_ui_brave_ads_launch_title">Реклама от Brave уже здесь!</string>
+    <string name="brave_ui_verified_publisher_notification">Автор <ph name=\"PUBLISHER_NAME\">%1$s</ph> недавно прошел проверку</string>
+    <string name="brave_ui_pending_contribution_title">Ожидаемый взнос</string>
+
+    <string name="get_paid_to_see_ads">Получите плату за просмотр этого фонового изображения.</string>
+    <string name="ntp_brave_rewards_off_text">Вы будете получать 70% дохода от рекламы за этот частный вклад, который можно использовать на поддержку разработчиков материалов сайтов.  Включите вознаграждения от Brave, чтобы получить свою долю.</string>
+    <string name="turn_on_rewards">Включить вознаграждения</string>
+    <string name="turn_on_brave_ads">Включить рекламу от Brave</string>
+    <string name="ntp_tos_text">Активируя функцию получения вознаграждений за рекламу, вы соглашаетесь с <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Вы также можете выбрать опцию <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Получите плату за просмотр этого фонового изображения.</string>
+    <string name="hide_sponsored_images">Скрыть платную рекламу</string>
+    <string name="you_can_support_creators">Вы можете поддерживать разработчиков жетонами.
+Зарабатывайте жетоны на просмотре рекламы, в отношении которой соблюдается правило о невмешательстве в частную жизнь.</string>
+    <string name="you_are_getting_paid">Вы получаете плату за просмотр этого фонового изображения.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> о платных изображениях в вознаграждениях от Brave. Вы также можете выбрать опцию <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Вы также можете выбрать опцию <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Получите плату за просмотр этого фонового изображения. Включите рекламу от Brave, чтобы получить свою долю.</string>
 </resources>

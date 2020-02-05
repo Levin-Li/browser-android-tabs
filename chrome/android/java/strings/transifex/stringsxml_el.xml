@@ -326,4 +326,27 @@ HTTPS</string>
 
     <string name="photo_by">Φωτογραφία από <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Οι διαφημίσεις Brave αποστέλλονται όταν το πρόγραμμα περιήγησης βρίσκεται στο παρασκήνιο.</string>
+
+    <string name="brave_ui_tips_processed_notification">Οι μηνιαίες συμβουλές σας έχουν επεξεργαστεί!</string>
+    <string name="brave_ui_contribution_tips">Συνεισφορές &amp; συμβουλές</string>
+    <string name="brave_ui_brave_ads_launch_msg">Τώρα μπορείτε να κερδίσετε χρήματα βλέποντας διαφημίσεις.</string>
+    <string name="brave_ui_turn_on_ads">Ενεργοποιήστε τις διαφημίσεις</string>
+    <string name="brave_ui_brave_ads_launch_title">Οι διαφημίσεις Brave είναι εδώ!</string>
+    <string name="brave_ui_verified_publisher_notification">Ο δημιουργός <ph name=\"PUBLISHER_NAME\">%1$s</ph> επαληθεύτηκε πρόσφατα</string>
+    <string name="brave_ui_pending_contribution_title">Συνεισφορά σε εκκρεμότητα</string>
+
+    <string name="get_paid_to_see_ads">Πληρωθείτε για να δείτε αυτή την εικόνα φόντου.</string>
+    <string name="ntp_brave_rewards_off_text">Εσείς&apos;ll θα λάβετε το 70% των διαφημιστικών εσόδων αυτής της ιδιωτικής χορηγίας, η οποία μπορεί να χρησιμοποιηθεί για την υποστήριξη των δημιουργών περιεχομένου web. Ενεργοποιήστε το πρόγραμμα ανταμοιβών Brave για να διεκδικήσετε το μερίδιό σας.</string>
+    <string name="turn_on_rewards">Ενεργοποιήστε το πρόγραμμα ανταμοιβών</string>
+    <string name="turn_on_brave_ads">Ενεργοποιήστε τις διαφημίσεις Brave</string>
+    <string name="ntp_tos_text">Ενεργοποιώντας το πρόγραμμα ανταμοιβών συναινείτε στο <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Μπορείτε επίσης να επιλέξετε να <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Πληρωθείτε για να δείτε αυτή την εικόνα φόντου.</string>
+    <string name="hide_sponsored_images">Απόκρυψη χορηγούμενων εικόνων</string>
+    <string name="you_can_support_creators">Μπορείτε να υποστηρίξετε τους δημιουργούς περιεχομένου web με διακριτικά.
+Κερδίστε διακριτικά βλέποντας διαφημίσεις που σέβονται την ιδιωτική ζωή.</string>
+    <string name="you_are_getting_paid">Εσείς&apos;πληρώνεστε για να δείτε αυτή την εικόνα φόντου.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> σχετικά με τις χορηγούμενες εικόνες στο πρόγραμμα ανταμοιβών Brave. Μπορείτε επίσης να επιλέξετε να <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Μπορείτε επίσης να επιλέξετε <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Πληρωθείτε για να δείτε αυτή την εικόνα φόντου. Ενεργοποιήστε τις διαφημίσεις Brave για να διεκδικήσετε το μερίδιό σας.</string>
 </resources>

@@ -328,4 +328,27 @@ twórcom treści, które lubisz.</string>
 
     <string name="photo_by">Zdjęcie autorstwa<ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Reklamy Brave są wysyłane, gdy przeglądarka działa w tle</string>
+
+    <string name="brave_ui_tips_processed_notification">Twoje miesięczne napiwki zostały przetworzone!</string>
+    <string name="brave_ui_contribution_tips">Wsparcie &amp; napiwki</string>
+    <string name="brave_ui_brave_ads_launch_msg">Teraz możesz zarabiać oglądając reklamy.</string>
+    <string name="brave_ui_turn_on_ads">Włącz reklamy</string>
+    <string name="brave_ui_brave_ads_launch_title">Reklamy Brave są już dostępne!</string>
+    <string name="brave_ui_verified_publisher_notification">Twórca <ph name=\"PUBLISHER_NAME\">%1$s</ph> został zweryfikowany</string>
+    <string name="brave_ui_pending_contribution_title">W oczekiwaniu na wpłatę</string>
+
+    <string name="get_paid_to_see_ads">Zarabiaj za obejrzenie tego obrazu w tle.</string>
+    <string name="ntp_brave_rewards_off_text">&apos;Otrzymasz 70% przychodów z reklam na prywatny sponsoring, który może być wykorzystany do wspierania twórców treści internetowych. Włącz funkcję nagród Brave, aby odebrać swój udział.</string>
+    <string name="turn_on_rewards">Włącz nagrody</string>
+    <string name="turn_on_brave_ads">Włącz reklamy Brave</string>
+    <string name="ntp_tos_text">Włączając nagrody, zgadzasz się na <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Możesz również wybrać <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Zarabiaj za obejrzenie tego obrazu w tle.</string>
+    <string name="hide_sponsored_images">Ukryj obrazy sponsorowane</string>
+    <string name="you_can_support_creators">Możesz wspierać twórców stron internetowych za pomocą tokenów.
+Zdobądź tokeny, oglądając reklamy szanujące prywatność.</string>
+    <string name="you_are_getting_paid">Uzyskasz wynagrodzenie za obejrzenie obrazów w tle.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> na temat sponsorowanych zdjęć w ramach nagród nagród Brave. Możesz również wybrać <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Możesz również wybrać <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Zarabiaj za obejrzenie tego obrazu w tle. Włącz reklamy Brave, aby zarabiać.</string>
 </resources>

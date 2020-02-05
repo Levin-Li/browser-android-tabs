@@ -653,7 +653,7 @@
 <translation id="5804241973901381774">પરવાનગીઓ</translation>
 <translation id="5809361687334836369">{HOURS,plural, =1{# કલાક પહેલાં}one{# કલાક પહેલાં}other{# કલાક પહેલાં}}</translation>
 <translation id="7595487214788865841">કૉપિરાઇટ <ph name="YEAR" /> Brave Software Inc. સર્વાધિકાર સુરક્ષિત.</translation>
-<translation id="5817918615728894473">જોડી કરો</translation>
+<translation id="5817918615728894473">જોડી બનાવો</translation>
 <translation id="5819762621475381970">- તમારા રૂમનો લેઆઉટ</translation>
 <translation id="583281660410589416">અજ્ઞાત</translation>
 <translation id="5833984609253377421">લિંક શેર કરો</translation>
@@ -732,7 +732,7 @@
 <translation id="7988136689212463100">Braveને આ સાઇટ માટે તમારા કૅમેરા અને માઇક્રોફોનના ઍક્સેસની પરવાનગીની જરૂર પડે છે.</translation>
 <translation id="6395288395575013217">લિંક</translation>
 <translation id="6404511346730675251">બુકમાર્કમાં ફેરફાર કરો</translation>
-<translation id="6406506848690869874">સમન્વયન</translation>
+<translation id="6406506848690869874">સિંક</translation>
 <translation id="641643625718530986">પ્રિન્ટ…</translation>
 <translation id="6416782512398055893"><ph name="MBS" /> MB ડાઉનલોડ કર્યા</translation>
 <translation id="6427112570124116297">વેબનો અનુવાદ કરો</translation>
@@ -825,7 +825,7 @@
 <translation id="7022756207310403729">બ્રાઉઝરમાં ખોલો</translation>
 <translation id="702463548815491781">જ્યારે ટૉકબૅક અથવા સ્વિચ ઍક્સેસ ચાલુ હોય ત્યારે આપેલ સુઝાવ</translation>
 <translation id="7029809446516969842">પાસવર્ડ્સ</translation>
-<translation id="7053983685419859001">અવરોધિત કરો</translation>
+<translation id="7053983685419859001">બ્લોક</translation>
 <translation id="7055152154916055070">રીડાયરેક્ટ કરવાનું બ્લૉક કરવામાં આવ્યું છે:</translation>
 <translation id="7063006564040364415">સમન્વયન સર્વર સાથે કનેક્ટ કરી શકાયું નથી</translation>
 <translation id="7066151586745993502">{NUM_SELECTED,plural, =1{1 પસંદ કરી}one{# પસંદ કરી}other{# પસંદ કરી}}</translation>
@@ -928,7 +928,7 @@
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 અને વધુ <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />}one{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 અને વધુ <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />}other{<ph name="PAYMENT_METHOD_PREVIEW" />\u2026 અને વધુ <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS" />}}</translation>
 <translation id="7781829728241885113">ગઈ કાલે</translation>
 <translation id="7791543448312431591">ઉમેરો</translation>
-<translation id="780301667611848630">નહીં, આભાર</translation>
+<translation id="780301667611848630">ખૂબ ખૂબ આભાર</translation>
 <translation id="7810647596859435254">આની સાથે ખોલો…</translation>
 <translation id="7821588508402923572">તમારી ડેટા બચત અહીં દેખાશે</translation>
 <translation id="7846076177841592234">પસંદગી રદ કરો</translation>
@@ -1055,7 +1055,7 @@
 <translation id="8719023831149562936">વર્તમાન ટેબને બીમ કરી શકતાં નથી</translation>
 <translation id="8725066075913043281">ફરી પ્રયાસ કરો</translation>
 <translation id="7247433043977983806">આ ઍપ્લિકેશનનો ઉપયોગ કરીને તમે Braveની <ph name="BEGIN_LINK1" />સેવાની શરતો<ph name="END_LINK1" /> અને <ph name="BEGIN_LINK2" />ગોપનીયતા સૂચના<ph name="END_LINK2" /> અને <ph name="BEGIN_LINK3" />Family Link દ્વારા મેનેજ થતા Google એકાઉન્ટ્સ માટેની ગોપનીયતા સૂચના<ph name="END_LINK3" /> સાથે સંમત થાઓ છો.</translation>
-<translation id="8730621377337864115">થઈ ગયું</translation>
+<translation id="8730621377337864115">પૂર્ણ</translation>
 <translation id="8748850008226585750">સામગ્રીઓ છુપાવેલ છે</translation>
 <translation id="8751914237388039244">છબી પસંદ કરો</translation>
 <translation id="8758557275681689734">તમારા બધા ખુલ્લા ટૅબ જુઓ</translation>
@@ -1126,4 +1126,269 @@
 <translation id="982182592107339124">આ બધી સાઇટ્સ પરથી ડેટા સાફ કરશે, આ સહિત:</translation>
 <translation id="983192555821071799">બધા ટેબ્સ બંધ કરો</translation>
 <translation id="987264212798334818">સામાન્ય</translation>
+<translation id="3209146299287804856">ના માટે Brave સાઇટ શિલ્ડ સેટિંગ્સ</translation>
+<translation id="622484624075952240">નીચે</translation>
+<translation id="2706462751667573066">ઉપર</translation>
+<translation id="351823742912624358">એડ્સ &amp; ટ્રેકર્સ બ્લોક કરાયેલ છે</translation>
+<translation id="2313532038420432247">HTTPS અપગ્રેડ્સ</translation>
+<translation id="7461425058443653485">સ્ક્રીપ્ટ્સ બ્લોક કરાયેલ છે</translation>
+<translation id="676626188808136495">બ્લોક એડ્સ &amp; ટ્રેકીંગ</translation>
+<translation id="520895744850022668">HTTPS સર્વત્ર</translation>
+<translation id="94154759592465111">સ્ક્રીપ્ટ્સ બ્લૉક કરો</translation>
+<translation id="7307834434086582547">Brave શિલ્ડ્સને સક્રિય/નિષ્ક્રિય કરો</translation>
+<translation id="6302422639282249274">Brave પુરસ્કારોને મેનેજ કરો</translation>
+<translation id="6132506775968708399">3 જા પક્ષની કૂકીઝ બ્લોક કરો</translation>
+<translation id="8710614491157212477">શક્ય હોય ત્યારે HTTP ને બદલે HTTPS નો ઉપયોગ કરીને સમર્થિત સાઇટ્સ ખોલે છે</translation>
+<translation id="8387201461264842096">એડ બ્લોક</translation>
+<translation id="1934885595886623674">એડ્સ ને લોડ થતી અટકાવે છે</translation>
+<translation id="7458422973722236530">ફિંગરપ્રિન્ટિંગ સંરક્ષણ</translation>
+<translation id="5787084571334399599">બ્રાઉઝરને ફિંગરપ્રિન્ટિંગથી રોકે છે</translation>
+<translation id="3758669798635576061">ફિંગરપ્રિંટિંગ પદ્ધતિઓ બ્લોક કરાયેલ છે</translation>
+<translation id="3276318574457057212">ક્ષેત્રિય એડ બ્લોક</translation>
+<translation id="2300239903491866759">ક્ષેત્રિય એડ્સને લોડ થતી અટકાવે છે</translation>
+<translation id="8142327400852603066">તમારા ક્રિયાસ્થળ માટે કોઈ વધારાની સૂચિ ઉપલબ્ધ નથી</translation>
+<translation id="9148058034647219655">બહાર નીકળો</translation>
+<translation id="7820683005702098135">Brave સિંક (બીટા)</translation>
+<translation id="3082265116777145081">ઉપકરણનું નામ ઉમેરો</translation>
+<translation id="9024091168371687561">આ ઉપકરણ માટે એક વૈકલ્પિક નામ દાખલ કરો</translation>
+<translation id="3998827900918661986">એંડરોઈડ ડિવાઇસ</translation>
+<translation id="7539985410310934287">કોડ વર્ડ્સ દાખલ કરો</translation>
+<translation id="326454632686131209">ઉપકરણ સિંક કરો</translation>
+<translation id="8985635554450124959">સિંક સેટ અપ ન થયું</translation>
+<translation id="230829157901335313">તમારા કમ્પ્યુટરની ક્લોક ખોટા સમય પર અથવા ખોટા ટાઇમ-ઝોનમાં સેટ થઈ હોઈ શકે છે.  તમારાં ક્લોક સેટિંગ્સ ચકાસો</translation>
+<translation id="6975719536773320922">એડ્સ &amp; ટ્રેકર્સ
+બ્લોક કરાયેલ છે</translation>
+<translation id="8880969045613157151">HTTPS
+અપગ્રેડ્સ</translation>
+<translation id="204407992549693965">Est. બચેલો
+સમય</translation>
+<translation id="991605024067283917">મેટ્રિક્સ મોકલો</translation>
+<translation id="6572660632052512096">ડેસ્કટૉપ મોડ</translation>
+<translation id="4479934682648362332">સાઇટ્સનું ડેસ્કટૉપ સંસ્કરણ પસંદ કરો</translation>
+<translation id="807636106793708118">સાઇટ્સનું મોબાઇલ સંસ્કરણ પસંદ કરો</translation>
+<translation id="1340503115760585811">નવા ટેબ્સ માટે ડેસ્કટોપ વ્યૂ સક્ષમ કરો</translation>
+<translation id="7924540991929826186">નવા ટેબ્સ માટે સાઇટ્સના મોબાઇલ સંસ્કરણોનો ઉપયોગ કરો (ભલામણ કરેલ)</translation>
+<translation id="3834924998750356151">મોનિટર બ્લોક કરવું</translation>
+<translation id="1713450908129883784">વ્યક્તિગત નિયંત્રણો</translation>
+<translation id="6303294677342628402">શિલ્ડ્સ</translation>
+<translation id="8158940752709423201">એડ્સ &amp; ટ્રેકર્સ</translation>
+<translation id="6754976710186182237">ફિંગરપ્રિન્ટ પદ્ધતિઓ</translation>
+<translation id="8585880402319729023">બ્લોક ફિશીંગ</translation>
+<translation id="5965081608816406060">બેકગ્રાઉંડ વિડિઓ પ્લેબેક</translation>
+<translation id="59174027418879706">સક્ષમ</translation>
+<translation id="4176463684765177261">અક્ષમ કરેલ</translation>
+<translation id="1580125697191336644">પ્રાયોગિક. જ્યારે ટેબ સક્રિય ન હોય અથવા ડિવાઇસ સ્ક્રીન બંધ હોય ત્યારે પૃષ્ઠભૂમિમાં વિડિઓમાંથી ઓડિઓ ચલાવવાનું સક્ષમ કરે છે. જો આ સુવિધા કાર્યરત ન હોય તો ડેસ્કટોપ મોડ પર સ્વિચ કરવાનો પ્રયાસ કરો.</translation>
+<translation id="6587448235155023666">આગલા વખતે જ્યારે તમે Braveને ફરીથી લોંચ કરો ત્યારે તમારા ફેરફારો પ્રભાવમાં આવશે</translation>
+<translation id="8701563696941209024">હમણાં જ રિલોંચ કરો</translation>
+<translation id="834487290629916192">પછીથી</translation>
+<translation id="1842747674580016420">Braveમાં વિડિઓ પ્લેબેક</translation>
+<translation id="5368992950177874750">જો સક્ષમ કરેલ હોય, તો વિડિઓ અનુરૂપ એપ્લિકેશનને બદલે Braveમાં ચલાવવામાં આવશે</translation>
+<translation id="7459000603787995422">બહાર નીકળવા પર ટૅબ્સ બંધ કરો</translation>
+<translation id="1680858055899097121">બ્રાઉઝિંગ સત્રો વચ્ચે ટૅબ્સ ચાલુ રાખશો નહીં</translation>
+<translation id="213787746370741250">કસ્ટમ ટૅબ્સમાં ટૅબ્સને ખોલો</translation>
+<translation id="3544772668823934222">કસ્ટમ ટેબ્સમાં ટેબ્સ ખોલવાની ઓફર</translation>
+<translation id="4501702055016678577">DuckDuckGo ની સાથે ખાનગી સર્ચ કરશો?</translation>
+<translation id="910419239800579753">જ્યારે તમે આ ખાનગી ટૅબમાં હશો, ત્યારે ખાનગી શોધ સાથે, Brave તમારી શોધનો જવાબ આપવા માટે DuckDuckGoનો ઉપયોગ કરશે. DuckDuckGo એક સર્ચ એંજિન છે જે તમારા શોધ ઇતિહાસને ટ્રેક કરતું નથી, તમને ખાનગી રીતે શોધવામાં સક્ષમ કરે છે.</translation>
+<translation id="1426410128494586442">હા</translation>
+<translation id="4250680216510889253">ના</translation>
+<translation id="5628466560184522265">DuckDuckGo સાથેની ખાનગી શોધ વિશે જાણો</translation>
+<translation id="1468415711258933398">સ્ટાન્ડર્ડ ટૅબ</translation>
+<translation id="3377025655491224618">ખાનગી ટૅબ</translation>
+<translation id="4243710787042215766">ખાનગી ટૅબમાં ખોલો</translation>
+<translation id="6610147964972079463">ખાનગી ટેબ્સ બંધ કરો</translation>
+<translation id="6336451774241870485">નવું ખાનગી ટેબ</translation>
+<translation id="6199596294742117349">આ એક ખાનગી ટૅબ છે</translation>
+<translation id="5858455511731621847">તેમ છતાં, તમે ખાનગી ટેબ્સમાં મુલાકાત લો છો તે સાઇટ્સ સ્થાનિક રૂપે સાચવવામાં આવી નથી, તે તમને તમારા ISP, તમારા એમ્પ્લોયર અથવા તમે મુલાકાત લઈ રહ્યાં છો તે સાઇટ્સ માટે અનામી અથવા અદ્રશ્ય બનાવતા નથી.</translation>
+<translation id="2339273275658335597">Brave સુધારો</translation>
+<translation id="8395234238259738935">નવું Brave બ્રાઉઝર 22% ઝડપી છે</translation>
+<translation id="391177677159359824">સિંક (બીટા)</translation>
+<translation id="8038539967102225446">Brave એડ્સ અહીં છે!</translation>
+<translation id="8050847734948770789">Brave પુરસ્કારોને સક્ષમ કરો</translation>
+<translation id="2980493584149453310">Brave પુરસ્કારોમાં ગોપનીયતા સાચવવાની એડ્સ જોવા માટે મૂળભૂત ધ્યાન ટોકન કમાઓ.</translation>
+<translation id="9187185473011056079">હું અંદર છું!</translation>
+<translation id="3680755684186855422">Brave સિંક તમને તમારા વિવિધ ઉપકરણો પર તમારા Brave બ્રાઉઝર્સ વચ્ચે બુકમાર્ક્સ ડેટાને ખાનગી રીતે સિંક કરવાની મંજૂરી આપે છે.</translation>
+<translation id="3735228155296883311">ફક્ત તમારી સિંક ચેઇનમાંથી કોડને સ્કેન કરો કે જે તમે બીજા ઉપકરણ પર બનાવ્યો છે. અથવા નવી સિંક ચેન શરૂ કરો.</translation>
+<translation id="7745082336226088126">સિંક કોડ સ્કેન કરો અથવા દાખલ કરો</translation>
+<translation id="1602067095281698985">નવી સિંક ચેન શરૂ કરો</translation>
+<translation id="4690880825349994619">અસ્તિત્વમાં સમન્વયિત ઉપકરણનો ઉપયોગ કરીને, Brave સેટિંગ્સ ખોલો અને સેટિંગ્સ &gt; સિંક પર નેવિગેટ કરો. "ઉપકરણ ઉમેરો" પસંદ કરો અને QR કોડ સ્ક્રીન પર પ્રદર્શિત સ્કેન કરે છે.</translation>
+<translation id="6270614677029463366">અસ્તિત્વમાં સમન્વયિત ઉપકરણનો ઉપયોગ કરીને, Brave સેટિંગ્સ ખોલો અને સેટિંગ્સ &gt; સિંક પર નેવિગેટ કરો. "ઉપકરણ ઉમેરો" પસંદ કરો અને પછી "તેના બદલે કોડ શબ્દો દર્શાવો" પસંદ કરો.</translation>
+<translation id="1475223680121592371">મોબાઇલ ઉપકરણ ઉમેરો</translation>
+<translation id="2965377893636908578">કમ્પ્યુટર ઉમેરો</translation>
+<translation id="65315202420929965">આ સિંક કોડને સ્કેન કરો</translation>
+<translation id="6604289897677913048">બીજો ફોન અથવા ટેબ્લેટનો ઉપયોગ કરીને, Brave સેટિંગ્સ &gt; સિંક &gt; સ્કેન પર નેવિગેટ કરો.</translation>
+<translation id="8508856434435157945">તમારા મોબાઇલ ઉપકરણ પર, સેટિંગ્સ પેનલમાં Brave સિંક પર નેવિગેટ કરો અને "સ્કેન સિંક કોડ" બટનને ક્લિક કરો. નીચે આપેલા QR કોડને સ્કેન કરવા માટે તમારા કેમેરાનો ઉપયોગ કરો.</translation>
+<translation id="5706430066167764107">ઓટોફિલ/પાસવર્ડ્સ</translation>
+<translation id="1164234435773528579">Brave ચુકવણી સેટિંગ્સ</translation>
+<translation id="6174119914106813304">આ ઉપકરણ પર સિન્ક કરો</translation>
+<translation id="6776430845975754238">સેટિંગ્સ બદલવાનું ફક્ત આ ડેટાને અસર કરશે જે આ ઉપકરણ અન્ય લોકો સાથે શેર કરે છે.</translation>
+<translation id="8193724030871339658">ચેઇન પરના અન્ય ઉપકરણો</translation>
+<translation id="279635009973773843">ઉપકરણ લોડ કરી રહ્યું છે...</translation>
+<translation id="6450924769151530465">અન્ય ઉપકરણ ઉમેરો</translation>
+<translation id="2004365171440701679">આ ઉપકરણને દૂર કરો</translation>
+<translation id="2731921493694251495">સિંક ચેન કોડ દાખલ કરો</translation>
+<translation id="2590683710114839102">તમારા કમ્પ્યુટર પર, Brave સેટિંગ્સ &gt; સિંક પર નેવિગેટ કરો. "એક સિંક ચેઇન કોડ દાખલ કરો" પસંદ કરો.</translation>
+<translation id="1732271215616957850">જગ્યાઓ સહિત ઉપરના કોડ શબ્દો દાખલ કરો.</translation>
+<translation id="1178128181015923849">શું તમે ખરેખર ઉપકરણ ‘<ph name="DEVICE_NAME" />’ ને કાઢી નાખવા માંગો છો?</translation>
+<translation id="9154490620151093733">કાઢી નાખવાની વિનંતિ મોકલવામાં આવી છે. ઉપકરણ ટૂંક સમયમાં દૂર કરવામાં આવશે.</translation>
+<translation id="544873101641618162">ડેટા લોડ કરી રહ્યું છે...</translation>
+<translation id="6779408765480516895">કંઈક ખોટું થયું, એવું લાગે છે કે તમારી વિનંતી સમય સમાપ્ત થઈ ગઈ છે.</translation>
+<translation id="4973653569293835178">હું મારો કેમેરો વાપરીશ...</translation>
+<translation id="2569646144216067185">શબ્દ ગણતરી: <ph name="WORD_COUNT" /></translation>
+<translation id="4282642752844565114">શબ્દો ખોટો નંબર</translation>
+<translation id="8653433343015102968">કોડ શબ્દો</translation>
+<translation id="8624315169751085215">ક્લિપબોર્ડ પર કોપિ કરો</translation>
+<translation id="5241263629636958324">ક્લિપબોર્ડ પર કૉપિ</translation>
+<translation id="222883304157347087">(આ ઉપકરણ)</translation>
+<translation id="4745013713714502219">Brave પહેલેથી જ સેટ છે
+તમારા ડિફોલ્ટ બ્રાઉઝર તરીકે.</translation>
+<translation id="6874141297197991294">તમે પહેલેથી જ ડિફોલ્ટ બ્રાઉઝર સેટ કર્યું છે.
+તમે તમારી એપ્લિકેશન સેટિંગ્સમાં ડિફોલ્ટ બ્રાઉઝર બદલી શકો છો.</translation>
+<translation id="5708254139873333042">બેટરી સાચવો અને વેબ પૃષ્ઠોને ઝડપથી લોડ કરો. Brave ને તમારું ડિફૉલ્ટ બ્રાઉઝર બનાવો. Brave મેનૂ ટેપમાંથી "ડિફોલ્ટ બ્રાઉઝર તરીકે સેટ કરો"</translation>
+<translation id="3570367516044491911">ડિફોલ્ટ બ્રાઉઝર તરીકે સેટ કરો</translation>
+<translation id="5827583267117939716">સૂચિમાંથી Brave પસંદ કરો અને "હંમેશાં" ને ટેપ કરો.</translation>
+<translation id="2262526166668973593">Braveને તમારું ડિફોલ્ટ વેબ બ્રાઉઝર બનાવો
+બેટરી સાચવો અને વેબ પેઇજને ઝડપી લોડ કરો</translation>
+<translation id="1916285746997567466">આગલા ઇન્ટરનેટનો
+અનુભવ કરવા માટે તૈયાર થાઓ.</translation>
+<translation id="1327938628925645979">પુરસ્કારોમાં જોડાઓ</translation>
+<translation id="5567439033041178034">વધુ શીખો</translation>
+<translation id="7530570094705720669">વૉલેટ બનાવી રહ્યા છીએ</translation>
+<translation id="3780605330121608425">તમારું વૉલેટ</translation>
+<translation id="7924320838799747606">તમારું બેલેન્સ</translation>
+<translation id="8845154268466251503">BAT</translation>
+<translation id="6160106411363856968">BAP</translation>
+<translation id="1081826981536899387">BAT પોઇંટ્સ</translation>
+<translation id="7837083325641186736"><ph name="VALUE" /></translation>
+<translation id="3826081199286264109">USD</translation>
+<translation id="1165667598801520610">ફંડ્સ ઉમેરો</translation>
+<translation id="2730771409541953249">પુરસ્કારોનો સારાંશ</translation>
+<translation id="1910721550319506122">સ્વાગત છે!</translation>
+<translation id="3165726837666415756">તમે ટીપ મોકલીને આ સાઇટને ટેકો આપી શકો છો. તે મહાન સામગ્રી બનાવવા માટે તેમને આભાર માનવાનો એક માર્ગ છે. ચકાસાયેલ સામગ્રી નિર્માતાઓને દરેક કેલેન્ડર મહિનાના પ્રથમ અઠવાડિયા દરમિયાન તેમની ટીપ્સ માટે ચૂકવણી કરવામાં આવે છે.</translation>
+<translation id="1704859330137112950">જો તમને ગમે, તો તમે સતત આધારે આ સાઇટને ટેકો આપવા માટે માસિક ટીપ્સનું શેડ્યૂલ કરી શકો છો.</translation>
+<translation id="245015745140252435">ટીપની રકમ</translation>
+<translation id="3370968821559864204">વોલેટ બેલેન્સ:</translation>
+<translation id="3250511771491660127">આને માસિક બનાવો</translation>
+<translation id="2573313946367623146">મારી ટીપ મોકલો</translation>
+<translation id="3492491948683276944">માસિક ટીપ સેટ કરો</translation>
+<translation id="3101693828171454453">પૂરતા <ph name="TOKEN" /></translation>
+<translation id="298349922412901215">નોંધ: આ સર્જકે Brave વપરાશકર્તાઓ તરફથી યોગદાન પ્રાપ્ત કરવા માટે હજી સુધી સાઇન અપ કર્યું નથી. જ્યાં સુધી તેઓ ચકાસે નહીં ત્યાં સુધી અથવા 90 દિવસ પસાર ન થાય ત્યાં સુધી અમે યોગદાન આપવાનો પ્રયત્ન કરીશું.</translation>
+<translation id="6940273954212603510">કૃપા કરીને</translation>
+<translation id="1036277985068412734">ફંડ્સ ઉમેરો</translation>
+<translation id="5299848999918506028">આપનો આભાર!</translation>
+<translation id="2626799779920242286">કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.</translation>
+<translation id="6639570430554986719">જાન્યુઆરી</translation>
+<translation id="1807352595146144483">ફેબ્રુઆરી</translation>
+<translation id="2021828608097804771">માર્ચ</translation>
+<translation id="1112527417301376065">એપ્રિલ</translation>
+<translation id="8737090912129856089">મે</translation>
+<translation id="6832612641867423485">જુન</translation>
+<translation id="8442574087856349697">જુલાઈ</translation>
+<translation id="1202041222842415454">ઓગસ્ટ</translation>
+<translation id="7317265217038113435">સપ્ટેમ્બર</translation>
+<translation id="8220228041552340594">ઓક્ટોબર</translation>
+<translation id="8280223431922155812">નવેમ્બર</translation>
+<translation id="4254029385847607686">ડિસેમ્બર</translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
+<translation id="3074127054582480056">ધ્યાન</translation>
+<translation id="7335371657242627509">સ્વત: યોગદાનમાં શામેલ કરો</translation>
+<translation id="8918760045046434238">એક ટિપ મોકલો...</translation>
+<translation id="1978261665418056203">આ મહિને હજી સુધી કોઈ
+પ્રવૃત્તિઓ નથી...</translation>
+<translation id="4914597931214386232">દાવો કરેલ ટોકન ગ્રાન્ટ્સ</translation>
+<translation id="9212459913845238740">પોઇન્ટ ગ્રાન્ટ્સ દાવો કરે છે</translation>
+<translation id="298067735430872465">એડ્સથી કમાણી</translation>
+<translation id="6112368337882254910">સ્વતઃ યોગદાન</translation>
+<translation id="3523149753820792761">તમે <ph name="BAT_VALUE" /> <ph name="BAT_TEXT" /> ફાળો આપ્યો છે.</translation>
+<translation id="9182287025588539628">વન-ટાઇમ ટિપ્સ</translation>
+<translation id="7577100371127227294">માસિક ટીપ્સ</translation>
+<translation id="8772672608371898774">Brave ચકાસાયેલ પ્રકાશક</translation>
+<translation id="1397683270551078781">હજી ચકાસી નથી</translation>
+<translation id="5727208111992260840">આ સર્જકે Brave વપરાશકર્તાઓ તરફથી યોગદાન પ્રાપ્ત કરવા માટે હજી સુધી સાઇન અપ કર્યું નથી.
+  તમે મોકલેલી કોઈપણ ટીપ્સ તે ચકાસે ત્યાં સુધી તમારા વોલેટમાં રહેશે.</translation>
+<translation id="683765328936486920">YouTube પર</translation>
+<translation id="8969049974285901797">Twitch પર</translation>
+<translation id="5497435273900537730">મફત <ph name="TOKEN" /> ગ્રાન્ટ ઉપલબ્ધ છે.</translation>
+<translation id="3453206261112715431">નિઃશુલ્ક ટોકન ગ્રાન્ટ</translation>
+<translation id="2132683977638223450">ફ્રી પોઇન્ટ ગ્રાન્ટ</translation>
+<translation id="13853865024308201">દાવો</translation>
+<translation id="4376933248999950592">તમે યોગદાન પ્રાપ્ત કરવા માટે હજી સુધી સાઇન અપ ન કરનારા નિર્માતાઓ માટે <ph name="BAT_VALUE" />  <ph name="BAT_TEXT" /> ને નિયુક્ત
+કર્યું છે. તમારું બ્રાઉઝર તેઓની ચકાસણી કરે ત્યાં સુધી
+અથવા 90 દિવસ પસાર ન થાય ત્યાં સુધી યોગદાન આપવાનો પ્રયત્ન કરશે.</translation>
+<translation id="7997676409547731821">અપૂરતા ભંડોળને કારણે ઓટો-ફાળો અને માસિક ટીપ્સ માટે તમારું શેડ્યૂલ થયેલ માસિક ચુકવણી પૂર્ણ થઈ શક્યું નથી. અમે 30 દિવસમાં ફરી પ્રયાસ કરીશું.</translation>
+<translation id="5306913077198665897">તમારી ટીપ પર પ્રક્રિયા કરવામાં સમસ્યા આવી, કૃપા કરી ફરીથી પ્રયત્ન કરો.</translation>
+<translation id="2429828319207652823">તમારા યોગદાન પર પ્રક્રિયા કરવામાં સમસ્યા આવી.</translation>
+<translation id="2323069945529668668">ઓહ ઓહ!</translation>
+<translation id="7510166204621526816">Brave વળતરો સર્વર પ્રતિસાદ આપી રહ્યું નથી. અમે શક્ય તેટલી વહેલી તકે આ ફિક્સ કરશે.</translation>
+<translation id="2104073734684466851">ગ્રાંટ્સ</translation>
+<translation id="4522570452068850558">વિગતો</translation>
+<translation id="3068742524072211213"><ph name="DATE" /> ના રોજ સમાપ્ત થાય છે</translation>
+<translation id="7550470870580166294">અપર્યાપ્ત ભંડોળ</translation>
+<translation id="2775064702681588061">તમારું Brave પુરસ્કાર ખાતું એક થાપણની રાહ જોઈ રહ્યું છે.</translation>
+<translation id="765834632354589737">બેકઅપ વોલેટ</translation>
+<translation id="1713542052890184975">કૃપા કરીને તમારા Brave વોલેટનો બેકઅપ લો.</translation>
+<translation id="3333887201479867589">Brave પુરસ્કારો</translation>
+<translation id="2012723204723845092">પરત ફરવા પર સ્વાગત છે!</translation>
+<translation id="7669994301500276741">બ્રાઉઝિંગ માટે પુરસ્કારો મેળવો.</translation>
+<translation id="8203529727745387785">ગોપનીયતા-માન આપતી એડ્સ જોઈને
+કમાઓ અને તમને ગમતી સામગ્રી નિર્માતાઓને ટેકો
+આપવા માટે તેને આગળ ચૂકવો.</translation>
+<translation id="5148719990624240755">BRAVE પુરસ્કારોને સક્ષમ કરો</translation>
+<translation id="1628742278973105368">તમારી પ્રથમ માસિક ટિપ આના પર મોકલવામાં આવશે:</translation>
+<translation id="6665366815203065060">તમે હમણાં જ એક ટિપ મોકલ્યો છે:</translation>
+<translation id="5441565662498481293">તમે આપમેળે એક ટિપ મોકલી રહ્યાં છો:</translation>
+<translation id="1166682575529520472">માસિક</translation>
+<translation id="8495235435594442882">બોટમ ટૂલબારને સક્ષમ કરો</translation>
+<translation id="7239121106815507493">બોટમ ટૂલબારને અક્ષમ કરો</translation>
+<translation id="145068164597056296">શોધ અથવા URL</translation>
+<translation id="6810078320346589989">બુકમાર્ક બનાવો</translation>
+<translation id="5463954686005964104">આ સાઇટને માસિક ટીપ આપો</translation>
+<translation id="4162066325465825185">અમને દિલગીર છે કે એવું લાગે છે કે તમારા ઉપકરણ પર Brave પુરસ્કારો ઉપલબ્ધ નથી</translation>
+<translation id="6332924730165919598">બધા ટેબ્સ બંધ કરવાથી Brave બંધ થાય છે</translation>
+<translation id="4150201353443180367">પ્રદર્શન</translation>
+<translation id="2645380101799517405">નિયંત્રણો</translation>
+<translation id="2804710924397009224">Brave પુરસ્કારોનું આઇકોન છુપાવો</translation>
+<translation id="7358991116457217836">જ્યારે Brave પુરસ્કારો સક્ષમ ન હોય ત્યારે Brave પુરસ્કારોને ચિહ્નિત કરે છે</translation>
+<translation id="6393502589311632553">Brave ઉપયોગમાં ન હોય ત્યારે એડ્સ બતાવો</translation>
+<translation id="3349204812119681938">Brave રિવોર્ડ્સ ફરીથી સેટ કરો</translation>
+<translation id="8782039523249932839">આ તમારા Brave વૉલેટને કાઢી નાખશે અને તમારા બધા Brave પુરસ્કારો ડેટાને ફરીથી સેટ કરશે</translation>
+<translation id="5321518976657560663">રીસેટ ભૂલ</translation>
+<translation id="7071576788062714665">Brave પુરસ્કારો રીસેટ કરતી વખતે ભૂલ આવી હતી. કૃપા કરીને Braveને ફરીથી લોંચ કરો અને ફરીથી પ્રયાસ કરો</translation>
+<translation id="6707003343517029414">તમારા લક્ષ્ય કમ્પ્યુટર પર, સેટિંગ્સમાં Brave સિંક પર નેવિગેટ કરો અને "મારી પાસે સિંક કોડ છે" બટનને ક્લિક કરો.\nનીચે બતાવેલ સિંક ચેન કોડ શબ્દો દાખલ કરો.</translation>
+<translation id="3149880132460839085">Brave સિંક</translation>
+<translation id="6764016175302339802">આ કોડને પાસવર્ડની જેમ ગણો અને સાચવો. જો કોઈ તેને મેળવી લે છે, તો તે તમારા સિંક્ડ ડેટાને વાંચી અને તેમાં ફેરફાર કરી શકે છે.</translation>
+<translation id="6417420737057016607">Brave એડ્સ</translation>
+<translation id="8689997599821157251">તમે કમાવ્યા છે</translation>
+<translation id="7091885296442320770">Brave વીજળી જેવુ ઝડપી છે</translation>
+<translation id="2171928016777725844">Brave ને તમારું ડિફૉલ્ટ બ્રાઉઝર બનાવો!</translation>
+<translation id="7136694880210472378">ડિફૉલ્ટ બનાવો</translation>
+<translation id="4292832015778676417">એડ્સ માંથી કમાયેલ</translation>
+<translation id="8281886186245836920">સ્કીપ</translation>
+<translation id="316832010181763471">સર્ચ એન્જિન ઓનબોર્ડિંગ</translation>
+<translation id="986879628471635371">ઓનબોર્ડિંગ મુશ્કેલીનિવારણ</translation>
+<translation id="1078265935778232285">Brave બ્રાઉઝર પર આપનું સ્વાગત છે</translation>
+<translation id="8867511707771147258">તમારું ડિફોલ્ટ સર્ચ એંજિન પસંદ કરો</translation>
+<translation id="5806601733251372221">Brave શિલ્ડ્સ</translation>
+<translation id="4702084935512138078">ગોપનીયતા-આક્રમણ એડ્સ &amp; કરનારા ટ્રેકર્સ જેથી તમે વેબની આસપાસ અનુસર્યા વિના બ્રાઉઝ કરી શકો.</translation>
+<translation id="8537217141725709400"><ph name="TOKEN" /> કમાઓ</translation>
+<translation id="1789842587755069541">ગોપનીયતાને આદર આપતી એડ્સ જોવા માટે. તમારી મનપસંદ સાઇટ્સ અને નિર્માતાઓને ટેકો આપવા માટે તેનો ઉપયોગ કરો.</translation>
+<translation id="821707262661492716">ગોપનીયતાને આદર આપતી એડ્સ જોવા માટે.</translation>
+<translation id="7396091471805549630">પુરસ્કારોને ચાલુ કરીને, તમે આના માટે સંમત થાઓ છો</translation>
+<translation id="4281844954008187215">સેવાની શરતો</translation>
+<translation id="6871397658902960384">બ્રાઉઝ કરવાનું પ્રારંભ કરો</translation>
+<translation id="454386012157232640">મને કોઈ એડ દેખાઈ નથી</translation>
+<translation id="1448877943847791441">Brave તમારી પ્રથમ એડ આમાં બતાવશે</translation>
+<translation id="7414844564462429821">Brave પુરસ્કારોની એડ્સ જોવા માટે, ખાતરી કરો કે Braveને તમને સૂચનાઓ બતાવવાની મંજૂરી છે.</translation>
+<translation id="6511854390690723657">આ તમારી પ્રથમ Brave એડ છે. વધુ જાણવા માટે ટેપ કરો.</translation>
+<translation id="4930714375720679147">ચાલુ કરો</translation>
+<translation id="8906569594072556752">સ્વાગત યાત્રા</translation>
+<translation id="7808431604191267817">સ્વાગત યાત્રાને ફરીથી લૉન્ચ કરવાથી કોઇપણ હાલની સેટિંગ્સને અસર થશે નહીં.</translation>
+<translation id="2453860139492968684">પૂર્ણ</translation>
+<translation id="7127980134843952133">ડાઉનલોડ ઇતિહાસ</translation>
+<translation id="327726072512457161">સેટિંગ્સમાંથી બહાર નીકળો</translation>
+<translation id="597993392929850353">Brave લાઈસન્સ</translation>
+<translation id="1486343603936278248">ટોકન</translation>
+<translation id="8713995420537272453">પોઇન્ટ</translation>
+<translation id="6678056861663824314">1 <ph name="TIP" /></translation>
+<translation id="4065726515175370979">5 <ph name="TIP" /></translation>
+<translation id="8171148564903208264">10 <ph name="TIP" /></translation>
 </translationbundle>

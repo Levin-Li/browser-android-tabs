@@ -329,4 +329,27 @@ för att visa ditt stöd för skapare du gillar.</string>
 
     <string name="photo_by">Foto av <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Brave Ads skickat när webbläsaren är i bakgrunden</string>
+
+    <string name="brave_ui_tips_processed_notification">Dina månatliga tips har behandlats!</string>
+    <string name="brave_ui_contribution_tips">Bidrag / tips</string>
+    <string name="brave_ui_brave_ads_launch_msg">Du kan nu tjäna pengar på att kolla annonser.</string>
+    <string name="brave_ui_turn_on_ads">Slå på Ads</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads är här!</string>
+    <string name="brave_ui_verified_publisher_notification">Skapare <ph name=\"PUBLISHER_NAME\">%1$s</ph> har nyligen verifierats</string>
+    <string name="brave_ui_pending_contribution_title">Väntande bidrag</string>
+
+    <string name="get_paid_to_see_ads">Få betalt för att se denna bakgrundsbild.</string>
+    <string name="ntp_brave_rewards_off_text">Du får 70 % av annonsintäkterna för detta privata sponsoravtal som kan användas för att stödja skapare av webbcontent. Slå på Brave Rewards för att få din dil.</string>
+    <string name="turn_on_rewards">Slå på Rewards</string>
+    <string name="turn_on_brave_ads">Slå på Brave Ads</string>
+    <string name="ntp_tos_text">Genom att slå på Rewards godkänner du <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Du kan även välja att <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Få betalt för att se denna bakgrundsbild.</string>
+    <string name="hide_sponsored_images">Göm sponsrade bilder</string>
+    <string name="you_can_support_creators">Du kan stödja webbskapare med tokens.
+Tjäna token genom att kolla annonser som respekterar sekretessen.</string>
+    <string name="you_are_getting_paid">Du får betalt för att se denna bakgrundsbild.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> om sponsrade bilder i Brave Rewards. Du kan även välja att <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Du kan även välja att <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Få betalt för att se denna bakgrundsbild. Slå på Brave Ads för att få din del.</string>
 </resources>

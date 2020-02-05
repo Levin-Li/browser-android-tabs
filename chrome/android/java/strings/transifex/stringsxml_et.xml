@@ -151,6 +151,8 @@ Säästa akut ja lae lehti kiiremini</string>
 
     <string name="brave_ui_welcome_header_two">Valmistu kogema
 uut internetti.</string>
+    <string name="brave_ui_welcome_desc_two">Saate nüüd teenida <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s
+privaatsust austavate reklaamide vaatamise eest.</string>
     <string name="brave_ui_welcome_button_text_two">LIITU PREEMIATEGA</string>
     <string name="brave_ui_welcome_footer_text_two">LISATEAVE</string>
     <string name="brave_ui_rewards_creating_text">Rahakoti loomine</string>
@@ -251,6 +253,9 @@ armastatud sisuloojate toetamiseks.</string>
     <string name="prefs_section_display">Ekraan</string>
     <string name="prefs_section_controls">Juhtnupud</string>
     <string name="prefs_appearance">Välimus</string>
+    <string name="prefs_new_tab_page">Uus vahekaardi leht</string>
+    <string name="show_background_images">Näita taustapilte</string>
+    <string name="show_sponsored_images">Näita sponsoreeritud kujutisi</string>
     <string name="hide_brave_rewards_icon_title">Peida ikoon Brave’i preemiad</string>
     <string name="hide_brave_rewards_icon_description">Peidab ikooni Brave’i preemiad, kui Brave’i preemiad pole lubatud</string>
     <string name="show_ads_when_brave_is_not_in_use">Näita kuulutusi, kui Brave ei ole kasutusel.</string>
@@ -323,4 +328,29 @@ armastatud sisuloojate toetamiseks.</string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
-    </resources>
+    <string name="photo_by">Foto: <ph name=\"PHOTO_BY\">%1$s</ph></string>
+
+    <string name="notification_category_brave_ads_background">Kui brauser töötab taustal, saadeti Brave\'i reklaamid</string>
+
+    <string name="brave_ui_tips_processed_notification">Teie igakuised nõuanded on töödeldud!</string>
+    <string name="brave_ui_contribution_tips">Panused &amp; nõuanded</string>
+    <string name="brave_ui_brave_ads_launch_msg">Saate nüüd reklaame vaadates teenida.</string>
+    <string name="brave_ui_turn_on_ads">Lülitage reklaamid sisse</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave\'i reklaamid on kohal!</string>
+    <string name="brave_ui_verified_publisher_notification">Autor <ph name=\"PUBLISHER_NAME\">%1$s</ph> hiljuti verifitseeritud</string>
+    <string name="brave_ui_pending_contribution_title">Panuse ootel</string>
+
+    <string name="get_paid_to_see_ads">Teenige selle taustapildi nägemise eest raha.</string>
+    <string name="ntp_brave_rewards_off_text">Te saate erasponsorluse eest 70% reklaamitulust, mida saab kasutada veebisisu loojate toetamiseks. Oma osa sissenõudmiseks lülitage Brave\'i boonused sisse.</string>
+    <string name="turn_on_rewards">Lülitage boonused sissse</string>
+    <string name="turn_on_brave_ads">Lülita Brave\'i reklaamid sisse</string>
+    <string name="ntp_tos_text">Boonuste sissselülitamisega nõustute järgmisega: <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Võite samuti valida <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Teenige selle taustapildi nägemise eest raha.</string>
+    <string name="hide_sponsored_images">Peida sponsoreeritud kujutised</string>
+    <string name="you_can_support_creators">Saate veebiloojaid tookenitega toetada.
+Teenige privaatsust austavate reklaamide vaatamisega tookeneid.</string>
+    <string name="you_are_getting_paid">Teile makstakse selle taustapildi nägemise eest.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> sponsoreeritud kujutiste kohta Brave\'i boonustes. Võite valida ka <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Võite valida ka <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Teenige selle taustapildi nägemise eest raha. Oma osa sissenõudmiseks lülitage Brave\'i reklaamid sisse.</string>
+</resources>

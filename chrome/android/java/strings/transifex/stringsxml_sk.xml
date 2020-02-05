@@ -330,4 +330,27 @@ tvorcov obsahu, ktorých máte radi.</string>
 
     <string name="photo_by">Fotografia od <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Reklamy Brave sa odosielajú, keď je prehliadač na pozadí</string>
+
+    <string name="brave_ui_tips_processed_notification">Vaše sprepitné za mesiac bolo spracované!</string>
+    <string name="brave_ui_contribution_tips">Príspevky a prepitné</string>
+    <string name="brave_ui_brave_ads_launch_msg">Teraz môžete zarábať zobrazovaním reklám.</string>
+    <string name="brave_ui_turn_on_ads">Zapnúť reklamy</string>
+    <string name="brave_ui_brave_ads_launch_title">Reklamy Brave sú tu!</string>
+    <string name="brave_ui_verified_publisher_notification">Tvorca <ph name=\"PUBLISHER_NAME\">%1$s</ph> bol nedávno overený</string>
+    <string name="brave_ui_pending_contribution_title">Nevybavený príspevok</string>
+
+    <string name="get_paid_to_see_ads">Dostaňte zaplatené za zobrazenie tohto obrázku pozadia.</string>
+    <string name="ntp_brave_rewards_off_text">Dostanete 70 % z príjmu za reklamu pre tento súkromný sponzoring. Zárobok môžete využiť na podporu tvorcov webového obsahu. Ak sa chcete prihlásiť o svoj podiel, zapnite odmeny Brave.</string>
+    <string name="turn_on_rewards">Zapnúť odmeny</string>
+    <string name="turn_on_brave_ads">Zapnúť reklamy Brave</string>
+    <string name="ntp_tos_text">Zapnutím odmien vyjadrujete súhlas s dokumentom <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Môžete sa tiež rozhodnúť <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Dostaňte zaplatené za zobrazenie tohto obrázku pozadia.</string>
+    <string name="hide_sponsored_images">Skryť sponzorované obrázky</string>
+    <string name="you_can_support_creators">Tokenmi môžete podporiť webových tvorcov.
+Zarábajte tokeny zobrazovaním reklám rešpektujúcich súkromie.</string>
+    <string name="you_are_getting_paid">Dostávate zaplatené za zobrazenie tohto obrázku pozadia.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> o sponzorovaných obrázkoch v rámci odmien Brave. Môžete sa tiež rozhodnúť <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Môžete sa tiež rozhodnúť <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Dostaňte zaplatené za zobrazenie tohto obrázku pozadia. Ak sa chcete prihlásiť o svoj podiel, zapnite reklamy Brave.</string>
 </resources>

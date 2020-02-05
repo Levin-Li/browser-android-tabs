@@ -329,4 +329,27 @@ EST แล้ว</string>
 
     <string name="photo_by">ภาพถ่ายโดย <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">ส่ง Brave Ads เมื่อเบราว์เซอร์อยู่เบื้องหลัง</string>
+
+    <string name="brave_ui_tips_processed_notification">ทิปรายเดือนของคุณประมวลผลเสร็จแล้ว!</string>
+    <string name="brave_ui_contribution_tips">คำแนะนำสำหรับการมีส่วนร่วม</string>
+    <string name="brave_ui_brave_ads_launch_msg">ตอนนี้คุณสามารถหารายได้จากการชมโฆษณา</string>
+    <string name="brave_ui_turn_on_ads">เปิดใช้โฆษณา</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads มาแล้ว!</string>
+    <string name="brave_ui_verified_publisher_notification">ผู้สร้าง <ph name=\"PUBLISHER_NAME\">%1$s</ph> เพิ่งผ่านการยืนยัน</string>
+    <string name="brave_ui_pending_contribution_title">การช่วยเหลือที่ค้างอยู่</string>
+
+    <string name="get_paid_to_see_ads">หารายได้จากการดูภาพเบื้องหลังนี้</string>
+    <string name="ntp_brave_rewards_off_text">คุณจะได้รับ 70% จากรายได้โฆษณาของสปอนเซอร์ส่วนตัวนี้ ซึ่งสามารถใช้สนับสนุนผู้สร้างเนื้อหาบนอินเทอร์เน็ต เปิดใช้งาน Brave Rewards เพื่อรับส่วนแบ่งของคุณ</string>
+    <string name="turn_on_rewards">เปิดใช้รางวัล</string>
+    <string name="turn_on_brave_ads">เปิดใช้งาน Brave Ads</string>
+    <string name="ntp_tos_text">โดยการเปิดใช้รางวัล คุณตกลงยอมรับ <ph name=\"TERMS_OF_SERVICE\">%1$s</ph> นอกจากนี้ คุณสามาถเลือกใช้ <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph></string>
+    <string name="get_paid_to_see_image">หารายได้จากการดูภาพเบื้องหลังนี้</string>
+    <string name="hide_sponsored_images">ซ่อนภาพสปอนเซอร์</string>
+    <string name="you_can_support_creators">คุณสามารถสนับสนุนผู้สร้างเนื้อหาในอินเตอร์เน็ตด้วยโทเค็น
+รับโทเค็นจากการชมโฆษณาที่เคารพความเป็นส่วนตัว</string>
+    <string name="you_are_getting_paid">คุณได้เงินจากการดูภาพเบื้องหลังนี้</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> เกี่ยวกับภาพสปอนเซอร์ใน Brave Rewards นอกจากนี้ คุณสามาถเลือกใช้ <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph></string>
+    <string name="br_on_ads_on_text2">นอกจากนี้ คุณสามารถเลือกที่จะ <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph></string>
+    <string name="turn_on_brave_ads_to_claim">หารายได้จากการดูภาพเบื้องหลังนี้ เปิด Brave Ads เพื่อรับส่วนแบ่งของตัวเอง</string>
 </resources>
