@@ -327,4 +327,28 @@ delle sovvenzioni.</string>
 
     <string name="photo_by">Foto di <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Brave Ads avviato quando il browser è in background</string>
+
+    <string name="brave_ui_tips_processed_notification">I tuoi suggerimenti mensili sono stati elaborati!</string>
+    <string name="brave_ui_contribution_tips">Contributi e suggerimenti</string>
+    <string name="brave_ui_brave_ads_launch_msg">Ora puoi guadagnare visualizzando annunci pubblicitari.</string>
+    <string name="brave_ui_turn_on_ads">Attiva annunci</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads è arrivato!</string>
+    <string name="brave_ui_verified_publisher_notification">Creatore <ph name=\"PUBLISHER_NAME\">%1$s</ph> recentemente verificato</string>
+    <string name="brave_ui_pending_contribution_title">Contributo in sospeso</string>
+
+    <string name="get_paid_to_see_ads">Guarda questa immagine di sfondo e ottieni in cambio un compenso.</string>
+    <string name="ntp_brave_rewards_off_text">Riceverai il 70% delle entrate pubblicitarie per questa sponsorizzazione privata, che può essere utilizzata per supportare i creatori di contenuti web. Attiva Brave Rewards per richiedere la tua condivisione.</string>
+    <string name="turn_on_rewards">Attiva le ricompense</string>
+    <string name="turn_on_brave_ads">Attiva Brave Ads</string>
+    <string name="ntp_tos_text">Attivando Rewards, accetti <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Puoi anche scegliere di <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Guarda questa immagine di sfondo e ottieni in cambio un compenso.</string>
+    <string name="hide_sponsored_images">Nascondi immagini sponsorizzate</string>
+    <string name="you_can_support_creators">Puoi supportare i creatori di siti Web con i token.
+Guadagna token visualizzando annunci rispettosi della privacy.</string>
+    <string name="you_are_getting_paid">Verrai ricompensato per vedere questa immagine di sfondo.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> sulle immagini sponsorizzate in Brave Rewards. Puoi anche scegliere di <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Puoi anche scegliere di <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.
+</string>
+    <string name="turn_on_brave_ads_to_claim">Guarda questa immagine di sfondo e ottieni in cambio un compenso. Attiva Brave Ads per richiedere la tua condivisione.</string>
 </resources>

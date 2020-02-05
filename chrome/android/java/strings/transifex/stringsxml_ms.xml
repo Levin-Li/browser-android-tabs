@@ -327,4 +327,27 @@ pencipta kandungan yang anda suka.</string>
 
     <string name="photo_by">Gambar oleh <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Brave Ads dihantar apabila pelayar berada di latar belakang</string>
+
+    <string name="brave_ui_tips_processed_notification">Petua bulanan anda telah diproses!</string>
+    <string name="brave_ui_contribution_tips">Sumbangan dan Petua</string>
+    <string name="brave_ui_brave_ads_launch_msg">Kini anda boleh memperoleh pendapatan dengan menonton iklan.</string>
+    <string name="brave_ui_turn_on_ads">Hidupkan Iklan</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads telah tiba!</string>
+    <string name="brave_ui_verified_publisher_notification">Pencipta <ph name=\"PUBLISHER_NAME\">%1$s</ph> baru disahkan</string>
+    <string name="brave_ui_pending_contribution_title">Sumbangan yang belum selesai</string>
+
+    <string name="get_paid_to_see_ads">Dibayar untuk melihat imej latar belakang ini.</string>
+    <string name="ntp_brave_rewards_off_text">Anda akan menerima 70% hasil iklan untuk penajaan peribadi ini yang boleh digunakan untuk menyokong pencipta kandungan web. Hidupkan Brave Rewards untuk menuntut bahagian anda.</string>
+    <string name="turn_on_rewards">Hidupkan Rewards</string>
+    <string name="turn_on_brave_ads">Hidupkan Brave Ads</string>
+    <string name="ntp_tos_text">Dengan menghidupkan Ganjaran, anda bersetuju dengan <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Anda juga boleh memilih untuk <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Dibayar untuk melihat imej latar belakang ini.</string>
+    <string name="hide_sponsored_images">Sembunyikan Imej yang Ditaja</string>
+    <string name="you_can_support_creators">Anda boleh menyokong pencipta web dengan token.
+Dapatkan token dengan melihat iklan yang menghormati privasi.</string>
+    <string name="you_are_getting_paid">Anda dibayar untuk melihat imej latar belakang ini.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> mengenai imej yang ditaja dalam Brave Rewards. Anda juga boleh memilih untuk <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Anda juga boleh memilih <ph name =\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Dibayar untuk melihat imej latar belakang ini. Hidupkan Brave Ads untuk menuntut bahagian anda.</string>
 </resources>

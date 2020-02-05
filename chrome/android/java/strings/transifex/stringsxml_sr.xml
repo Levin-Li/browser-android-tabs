@@ -328,4 +328,27 @@ kreatore sadržaja koji vam se sviđaju.</string>
 
     <string name="photo_by">Fotografisao <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Brave Ads se šalju kada je pregledač u pozadini</string>
+
+    <string name="brave_ui_tips_processed_notification">Vaši mesečni saveti su obrađeni!</string>
+    <string name="brave_ui_contribution_tips">Doprinosi &amp; Saveti</string>
+    <string name="brave_ui_brave_ads_launch_msg">Sada može da zarađujete gledajući oglase.</string>
+    <string name="brave_ui_turn_on_ads">Uključi oglase</string>
+    <string name="brave_ui_brave_ads_launch_title">Stigli su Brave Ads!</string>
+    <string name="brave_ui_verified_publisher_notification">Autor <ph name=\"PUBLISHER_NAME\">%1$s</ph> nedavno je potvrdio</string>
+    <string name="brave_ui_pending_contribution_title">Doprinos na čekanju</string>
+
+    <string name="get_paid_to_see_ads">Budite plaćeni za pregled ove pozadinske slike.</string>
+    <string name="ntp_brave_rewards_off_text">Dobićete 70% prihoda od oglasa na ime ovog privatnog sponzorstva, koje se može iskoristiti za podršku autora veb-sadržaja. Uključi Brave Rewards da biste zatražili svoj deo.</string>
+    <string name="turn_on_rewards">Uključi Rewards</string>
+    <string name="turn_on_brave_ads">Uključi Brave Ads</string>
+    <string name="ntp_tos_text">Uključivanjem usluge Rewards, prihvatate <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Možete takođe da izaberete opciju <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Budite plaćeni za pregled ove pozadinske slike.</string>
+    <string name="hide_sponsored_images">Sakrij sponzorisane slike</string>
+    <string name="you_can_support_creators">Možete da podržite veb autore tokenima.
+Zaradite tokene pregledanjem oglasa koji poštuju privatnost.</string>
+    <string name="you_are_getting_paid">Bićete plaćeni za pregled ove pozadinske slike.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> o sponzorisanim slikama u usluzi Brave Rewards. Možete takođe da izaberete opciju <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Možete takođe da izaberete opciju <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Budite plaćeni za pregled ove pozadinske slike. Uključite Brave Ads da biste zatražili svoj deo.</string>
 </resources>

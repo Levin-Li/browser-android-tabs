@@ -327,4 +327,27 @@ para kazanın ve sevdiğiniz içerik
 
     <string name="photo_by">Fotoğraf <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Tarayıcı arkaplanda olduğunda gönderilen Brave Reklamlar</string>
+
+    <string name="brave_ui_tips_processed_notification">Aylık ipuçlarınız işleme alınmıştır!</string>
+    <string name="brave_ui_contribution_tips">Katkılar &amp; İpuçları</string>
+    <string name="brave_ui_brave_ads_launch_msg">Şimdi reklamları görüntüleyerek para kazanabilirsiniz.</string>
+    <string name="brave_ui_turn_on_ads">Reklamları Aç</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Reklamları geldi!</string>
+    <string name="brave_ui_verified_publisher_notification">Oluşturucu <ph name=\"PUBLISHER_NAME\">%1$s</ph> yakın zaman önce doğrulandı</string>
+    <string name="brave_ui_pending_contribution_title">Katkı Beklemede</string>
+
+    <string name="get_paid_to_see_ads">Bu arkaplan resmini görmek için ödeme alın.</string>
+    <string name="ntp_brave_rewards_off_text">Web içeriği oluşturucuları desteklemek için kullanılabilecek bu özel sponsorluk için reklam gelirinin %70&apos;ini alacaksınız. Payınızı talep etmek için Brave Ödüllerini etkinleştirin.</string>
+    <string name="turn_on_rewards">Ödülleri Etkinleştir</string>
+    <string name="turn_on_brave_ads">Brave Reklamlarını aç</string>
+    <string name="ntp_tos_text">Ödülleri etkinleştirerek, <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>\'nı kabul edersiniz. <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph> seçeneğini de seçebilirsiniz.</string>
+    <string name="get_paid_to_see_image">Bu arkaplan resmini görmek için ödeme alın.</string>
+    <string name="hide_sponsored_images">Sponsorlu Görüntüleri gizle</string>
+    <string name="you_can_support_creators">Siteyi oluşturanları jetonlarla destekleyebilirsiniz.
+Gizlilik ayarlarını etkilemeyen reklamları görüntüleyerek jeton kazanın.</string>
+    <string name="you_are_getting_paid">Bu arkaplan görselini gördüğünüz için ödeme almaktasınız&apos;.</string>
+    <string name="br_on_ads_on_text">Brave Ödüllerindeki sponsorlu görseller hakkında <ph name=\"LEARN_MORE\">%1$s</ph>. <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph> seçeneğini de seçebilirsiniz.</string>
+    <string name="br_on_ads_on_text2">Ayrıca <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph> seçeneğini de seçebilirsiniz.</string>
+    <string name="turn_on_brave_ads_to_claim">Bu arkaplan resmini görmek için ödeme alın. Payınızı talep etmek için Brave Reklamları açın.</string>
 </resources>

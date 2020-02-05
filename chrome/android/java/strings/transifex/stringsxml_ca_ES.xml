@@ -149,6 +149,8 @@ Estalvia bateria i carrega pàgines web més ràpid</string>
 
     <string name="brave_ui_welcome_header_two">Prepara\'t per experimentar
 l\'Internet del futur.</string>
+    <string name="brave_ui_welcome_desc_two">Ara pots guanyar <ph name=\"TOKEN\">%1$s<ex>token</ex></ph> per
+veure anuncis que respecten la privadesa.</string>
     <string name="brave_ui_welcome_button_text_two">UNEIX-TE A REWARDS</string>
     <string name="brave_ui_welcome_footer_text_two">MÉS INFORMACIÓ</string>
     <string name="brave_ui_rewards_creating_text">S\'està creant una cartera</string>
@@ -247,6 +249,9 @@ als creadors de contingut que t\'agraden.</string>
     <string name="prefs_section_display">Visualitzar</string>
     <string name="prefs_section_controls">Controls</string>
     <string name="prefs_appearance">Aparença</string>
+    <string name="prefs_new_tab_page">Pestanya nova</string>
+    <string name="show_background_images">Mostrar imatges en segon pla</string>
+    <string name="show_sponsored_images">Mostrar imatges patrocinades</string>
     <string name="hide_brave_rewards_icon_title">Ocultar Brave Rewards</string>
     <string name="hide_brave_rewards_icon_description">Amaga la icona de Brave Rewards quan Brave Rewards no estigui activat</string>
     <string name="show_ads_when_brave_is_not_in_use">Mostrar Ads quan Brave no estigui en ús</string>
@@ -319,4 +324,29 @@ als creadors de contingut que t\'agraden.</string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
-    </resources>
+    <string name="photo_by">Fotografia de <ph name=\"PHOTO_BY\">%1$s</ph></string>
+
+    <string name="notification_category_brave_ads_background">Anuncis de Brave enviats quan el navegador està en segon pla</string>
+
+    <string name="brave_ui_tips_processed_notification">S\'han processat els suggeriments mensuals!</string>
+    <string name="brave_ui_contribution_tips">Contribucions i suggeriments</string>
+    <string name="brave_ui_brave_ads_launch_msg">Ara pots guanyar diners veient anuncis.</string>
+    <string name="brave_ui_turn_on_ads">Activar anuncis</string>
+    <string name="brave_ui_brave_ads_launch_title">Han arribat els anuncis de Brave!</string>
+    <string name="brave_ui_verified_publisher_notification">El creador <ph name=\"PUBLISHER_NAME\">%1$s</ph> s\'ha verificat</string>
+    <string name="brave_ui_pending_contribution_title">Contribució pendent</string>
+
+    <string name="get_paid_to_see_ads">Cobra per veure aquesta imatge en segon pla.</string>
+    <string name="ntp_brave_rewards_off_text">Rebràs un 70 % dels ingressos de l\'anunci per aquest patrocini privat, el qual es pot fer servir per ajudar als creadors de contingut web. Activa les recompenses de Brave per reclamar la teva part.</string>
+    <string name="turn_on_rewards">Activar recompenses</string>
+    <string name="turn_on_brave_ads">Activar els anuncis de Brave</string>
+    <string name="ntp_tos_text">Si actives les recompeses, acceptes els <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. També pots escollir <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Cobra per veure aquesta imatge en segon pla.</string>
+    <string name="hide_sponsored_images">Amagar imatges patrocinades</string>
+    <string name="you_can_support_creators">Pots ajudar als creadors web amb tokens.
+Guanya tokens veient anuncis que respecten la privadesa.</string>
+    <string name="you_are_getting_paid">Cobraràs per veure aquesta imatge en segon pla.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> sobre les imatges patrocinades a Recompenses Brave També pots escollir <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">També pots seleccionar <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Cobra per veure aquesta imatge en segon pla. Activa els anuncis de Brave per reclamar la teva part.</string>
+</resources>

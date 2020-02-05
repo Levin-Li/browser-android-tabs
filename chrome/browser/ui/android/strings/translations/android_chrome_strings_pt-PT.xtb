@@ -195,7 +195,7 @@
 <translation id="2414886740292270097">Escuro</translation>
 <translation id="8285489906452138776">O Brave necessita de autorização de acesso à câmara para este site.</translation>
 <translation id="2426805022920575512">Selecionar outra conta</translation>
-<translation id="2433507940547922241">Aspeto</translation>
+<translation id="2433507940547922241">Aparência</translation>
 <translation id="2434158240863470628">Transferência concluída: <ph name="SEPARATOR" /> <ph name="BYTES_DOWNLOADED" /></translation>
 <translation id="2440823041667407902">Acesso à localização</translation>
 <translation id="2450083983707403292">Pretende começar a transferir <ph name="FILE_NAME" /> novamente?</translation>
@@ -653,7 +653,7 @@ Para alterar esta definição, <ph name="BEGIN_LINK" />reponha a sincronização
 <translation id="5804241973901381774">Permissões</translation>
 <translation id="5809361687334836369">{HOURS,plural, =1{Há # hora}other{Há # horas}}</translation>
 <translation id="7595487214788865841">Copyright <ph name="YEAR" /> Brave Software Inc. Todos os direitos reservados.</translation>
-<translation id="5817918615728894473">Sincronizar</translation>
+<translation id="5817918615728894473">Emparelhar</translation>
 <translation id="5819762621475381970">- A disposição da divisão</translation>
 <translation id="583281660410589416">Desconhecido</translation>
 <translation id="5833984609253377421">Partilhar link</translation>
@@ -732,7 +732,7 @@ Por exemplo, alguns Sites podem responder a este pedido ao mostrar-lhe anúncios
 <translation id="7988136689212463100">O Brave necessita de autorização de acesso à câmara e ao microfone para este site.</translation>
 <translation id="6395288395575013217">LINK</translation>
 <translation id="6404511346730675251">Editar marcador</translation>
-<translation id="6406506848690869874">Sincronização</translation>
+<translation id="6406506848690869874">Sincronizar</translation>
 <translation id="641643625718530986">Imprimir…</translation>
 <translation id="6416782512398055893"><ph name="MBS" /> MB transferido(s)</translation>
 <translation id="6427112570124116297">Traduzir a Web</translation>
@@ -1126,4 +1126,295 @@ O site NÃO fica com acesso à câmara. As imagens da câmara estão visíveis a
 <translation id="982182592107339124">Esta ação limpa os dados de todos os sites, incluindo:</translation>
 <translation id="983192555821071799">Fechar todos os separadores</translation>
 <translation id="987264212798334818">Geral</translation>
+<translation id="3209146299287804856">Definições de proteção de site Brave para</translation>
+<translation id="622484624075952240">Desativada</translation>
+<translation id="2706462751667573066">Ativada</translation>
+<translation id="351823742912624358">Anúncios &amp; Rastreadores Bloqueados</translation>
+<translation id="2313532038420432247">Atualizações de HTTPS </translation>
+<translation id="7461425058443653485">Scripts Bloqueados</translation>
+<translation id="676626188808136495">Bloquear Anúncios &amp; Rastreamento</translation>
+<translation id="520895744850022668">HTTPS Everywhere</translation>
+<translation id="94154759592465111">Bloquear Scripts</translation>
+<translation id="7307834434086582547">Ativar/Desativar Proteções Brave</translation>
+<translation id="6302422639282249274">Gerir Recompensas Brave</translation>
+<translation id="6132506775968708399">Bloquear cookies de terceiros</translation>
+<translation id="8710614491157212477">Abre os sites suportados utilizando HTTPS em vez de HTTP quando possível</translation>
+<translation id="8387201461264842096">Bloqueio de Anúncios</translation>
+<translation id="1934885595886623674">Impede que anúncios sejam carregados</translation>
+<translation id="7458422973722236530">Proteção de Impressão Digital</translation>
+<translation id="5787084571334399599">Impede que o navegador use impressões digitais</translation>
+<translation id="3758669798635576061">Métodos de Impressão Digital Bloqueados</translation>
+<translation id="3276318574457057212">Bloqueio de Anúncios Regionais</translation>
+<translation id="2300239903491866759">Impede que os anúncios regionais sejam carregados</translation>
+<translation id="8142327400852603066">Sem listas adicionais disponíveis para o seu idioma</translation>
+<translation id="9148058034647219655">Sair</translation>
+<translation id="7820683005702098135">Brave Sync (beta)</translation>
+<translation id="3082265116777145081">Adicionar nome do dispositivo</translation>
+<translation id="9024091168371687561">Insira um nome opcional para este dispositivo</translation>
+<translation id="3998827900918661986">Dispositivo Android</translation>
+<translation id="7539985410310934287">Insira as palavras de código</translation>
+<translation id="326454632686131209">Sincronizar dispositivo</translation>
+<translation id="8985635554450124959">Não foi possível configurar o Sync</translation>
+<translation id="230829157901335313">O relógio do seu computador pode estar configurado para a hora errada, ou para o fuso horário errado. Verifique as definições do seu relógio.</translation>
+<translation id="6975719536773320922">Anúncios &amp; Rastreadores
+Bloqueado</translation>
+<translation id="8880969045613157151">Atualizações de
+HTTPS</translation>
+<translation id="204407992549693965">Tempo Estimado
+Guardado</translation>
+<translation id="991605024067283917">Enviar métricas</translation>
+<translation id="6572660632052512096">Modo de PC</translation>
+<translation id="4479934682648362332">Preferir as versões de sites para PC</translation>
+<translation id="807636106793708118">Preferir as versões de sites para dispositivos móveis</translation>
+<translation id="1340503115760585811">Ativar 'Visualização de PC' para os novos separadores</translation>
+<translation id="7924540991929826186">Usar as versões de sites para dispositivos móveis para os novos separadores (recomendado)</translation>
+<translation id="3834924998750356151">Monitorização de Bloqueio</translation>
+<translation id="1713450908129883784">Controlos Individuais</translation>
+<translation id="6303294677342628402">Proteções</translation>
+<translation id="8158940752709423201">Anúncios &amp; Rastreadores</translation>
+<translation id="6754976710186182237">Métodos de Impressão Digital</translation>
+<translation id="8585880402319729023">Bloquear Phishing</translation>
+<translation id="5965081608816406060">Reprodução de vídeo em segundo plano</translation>
+<translation id="59174027418879706">Ativada</translation>
+<translation id="4176463684765177261">Desativada</translation>
+<translation id="1580125697191336644">Experimental. Ativa a reprodução do áudio de um vídeo em segundo plano quando o separador não está ativo ou quando o ecrã do dispositivo está desligado. Tente alterar para o modo de PC se esta funcionalidade não estiver a funcionar.</translation>
+<translation id="6587448235155023666">As suas alterações serão aplicadas da próxima vez que reiniciar o Brave</translation>
+<translation id="8701563696941209024">REINICIAR AGORA</translation>
+<translation id="834487290629916192">MAIS TARDE</translation>
+<translation id="1842747674580016420">Reprodução de vídeo no Brave</translation>
+<translation id="5368992950177874750">Se ativada, os vídeos serão reproduzidos no Brave e não na aplicação correspondente</translation>
+<translation id="7459000603787995422">Ao sair, fechar os separadores</translation>
+<translation id="1680858055899097121">Não mantenha os separadores abertos entre as sessões de navegação</translation>
+<translation id="213787746370741250">Abrir separadores em Custom Tabs</translation>
+<translation id="3544772668823934222">Oferta para abrir separadores em Custom Tabs</translation>
+<translation id="4501702055016678577">Pesquisar de forma privada com o DuckDuckGo?</translation>
+<translation id="910419239800579753">Com a pesquisa privada, o Brave usará o DuckDuckGo para apresentar os resultados das suas pesquisas enquanto estiver neste separador privado. O DuckDuckGo é um motor de pesquisa que não monitoriza o seu histórico de pesquisas, permitindo-lhe pesquisar de forma privada.</translation>
+<translation id="1426410128494586442">Sim</translation>
+<translation id="4250680216510889253">Não</translation>
+<translation id="5628466560184522265">Saiba mais sobre a pesquisa privada com o DuckDuckGo</translation>
+<translation id="1468415711258933398">Separador Normal</translation>
+<translation id="3377025655491224618">Separador Privado</translation>
+<translation id="4243710787042215766">Abrir num separador privado</translation>
+<translation id="6610147964972079463">Fechar separadores privados</translation>
+<translation id="6336451774241870485">Novo separador privado</translation>
+<translation id="6199596294742117349">Este é um Separador Privado</translation>
+<translation id="5858455511731621847">Apesar dos sites que visita nos separadores privados não ficarem guardados localmente, estes não asseguram o seu anonimato e não o tornam invisível para o seu ISP, seu empregador, ou nos sites que está a visitar.</translation>
+<translation id="2339273275658335597">Atualizar o Brave</translation>
+<translation id="8395234238259738935">O novo navegador Brave, é 22% mais rápido</translation>
+<translation id="391177677159359824">Sync (beta)</translation>
+<translation id="8038539967102225446">Os Brave Ads estão aqui!</translation>
+<translation id="8050847734948770789">Ativar as Brave Rewards</translation>
+<translation id="2980493584149453310">Receba o Token de atenção básica por ver anúncios que mantêm a privacidade nas Brave Rewards.</translation>
+<translation id="9187185473011056079">Contem comigo!</translation>
+<translation id="3680755684186855422">O Brave Sync permite-lhe sincronizar os dados dos marcadores de modo privado entre os seus navegadores Brave em vários dispositivos.</translation>
+<translation id="3735228155296883311">Basta digitalizar o código da sua sequência de sincronização que criou noutro dispositivo. Ou inicie uma nova sequência de sincronização.</translation>
+<translation id="7745082336226088126">Digitalizar ou inserir código de sincronização</translation>
+<translation id="1602067095281698985">Iniciar uma nova sequência de sincronização</translation>
+<translation id="4690880825349994619">Usando o dispositivo sincronizado existente, abra as 'Definições' do Brave e vá para Definições &gt; Sincronizar. Escolha "Adicionar Dispositivo" e digitalize o código QR exibido no ecrã.</translation>
+<translation id="6270614677029463366">Usando o dispositivo sincronizado existente, abra as 'Definições' do Brave e vá para Definições &gt; Sincronizar. Escolha "Adicionar Dispositivo", depois "Exibir as palavras de código em alternativa".</translation>
+<translation id="1475223680121592371">Adicionar um Dispositivo Móvel</translation>
+<translation id="2965377893636908578">Adicionar um PC</translation>
+<translation id="65315202420929965">Digitalizar este código de sincronização</translation>
+<translation id="6604289897677913048">Com um segundo telefone ou tablet, no Brave vá para Definições &gt; Sincronizar &gt; Digitalizar.</translation>
+<translation id="8508856434435157945">No seu dispositivo móvel, aceda ao Brave Sync no painel de Definições e clique no botão "Digitalizar código de sincronização". Utilize a sua câmara para digitalizar o código QR abaixo.</translation>
+<translation id="5706430066167764107">Preenchimento automático/Palavras-passe</translation>
+<translation id="1164234435773528579">Definições de Pagamento Brave</translation>
+<translation id="6174119914106813304">SINCRONIZAR NESTE DISPOSITIVO</translation>
+<translation id="6776430845975754238">Ao alterar as definições só irá afetar os dados que este dispositivo partilha com outros.</translation>
+<translation id="8193724030871339658">OUTROS DISPOSITIVOS NA SEQUÊNCIA</translation>
+<translation id="279635009973773843">A CARREGAR OS DISPOSITIVOS...</translation>
+<translation id="6450924769151530465">Adicionar outro dispositivo</translation>
+<translation id="2004365171440701679">Remover este dispositivo</translation>
+<translation id="2731921493694251495">Insira o código da sequência de sincronização</translation>
+<translation id="2590683710114839102">No seu computador,  aceda no Brave, Definições &gt; Sincronizar. Escolha "Inserir um Código de Sequência de Sincronização".</translation>
+<translation id="1732271215616957850">Insira as palavras de código acima, incluindo os espaços.</translation>
+<translation id="1178128181015923849">Tem a certeza que pretende eliminar o dispositivo '<ph name="DEVICE_NAME" />'?</translation>
+<translation id="9154490620151093733">O pedido de eliminação foi enviado. O dispositivo será removido em breve.</translation>
+<translation id="544873101641618162">A carregar os dados...</translation>
+<translation id="6779408765480516895">Ocorreu um erro. Parece, que o seu pedido expirou.</translation>
+<translation id="4973653569293835178">Eu irei usar a minha câmara...</translation>
+<translation id="2569646144216067185">Contagem de palavras: <ph name="WORD_COUNT" /></translation>
+<translation id="4282642752844565114">Número incorreto de palavras</translation>
+<translation id="8653433343015102968">Palavras de Código</translation>
+<translation id="8624315169751085215">Copiar para a Área de Transferência</translation>
+<translation id="5241263629636958324">Copiado para a Área de Transferência</translation>
+<translation id="222883304157347087">(este dispositivo)</translation>
+<translation id="4745013713714502219">O Brave já está definido
+como o seu navegador padrão.</translation>
+<translation id="6874141297197991294">Já definiu um navegador padrão.
+Pode alterar o navegador padrão nas configurações da sua aplicação.</translation>
+<translation id="5708254139873333042">Poupe bateria e carregue as páginas da Web mais rapidamente. Torne o Brave no seu navegador predefinido. No menu do Brave, toque em “Definir como navegador predefinido…”</translation>
+<translation id="3570367516044491911">Definir como navegador padrão</translation>
+<translation id="5827583267117939716">Selecione Brave na lista e toque em “Sempre”</translation>
+<translation id="2262526166668973593">Torne o Brave o seu navegador de padrão
+Poupe bateria e carregue páginas de internet mais rapidamente</translation>
+<translation id="1916285746997567466">Prepare-se para
+a próxima Internet.</translation>
+<translation id="3540580927110899945">Poderá agora ganhar <ph name="TOKEN" />s por
+assistir a anúncios relacionados com privacidade.</translation>
+<translation id="1327938628925645979">PONTOS POR ADESÃO</translation>
+<translation id="5567439033041178034">OBTER MAIS INFORMAÇÕES</translation>
+<translation id="7530570094705720669">Criar carteira</translation>
+<translation id="3780605330121608425">A sua carteira</translation>
+<translation id="7924320838799747606">O seu saldo</translation>
+<translation id="8845154268466251503">BAT</translation>
+<translation id="6160106411363856968">BAP</translation>
+<translation id="1081826981536899387">Pontos BAT</translation>
+<translation id="7837083325641186736"><ph name="VALUE" /></translation>
+<translation id="3826081199286264109">USD</translation>
+<translation id="1165667598801520610">Adicionar fundos</translation>
+<translation id="2730771409541953249">RESUMO DE RECOMPENSAS</translation>
+<translation id="1910721550319506122">Bem-vindo(a)!</translation>
+<translation id="3165726837666415756">Pode ajudar este site enviando uma pequena gratificação. É uma forma de agradecer o excelente conteúdo. Os criadores de conteúdo verificados são pagos pelas suas gratificações durante a primeira semana de cada mês.</translation>
+<translation id="1704859330137112950">Se quiser, pode agendar gratificações mensais para continuar a apoiar este site.</translation>
+<translation id="245015745140252435">Valor da gratificação</translation>
+<translation id="3370968821559864204">saldo da carteira:</translation>
+<translation id="3250511771491660127">Tornar mensal</translation>
+<translation id="2573313946367623146">enviar a minha gratificação</translation>
+<translation id="3492491948683276944">definir gratificação mensal</translation>
+<translation id="3101693828171454453">não existem <ph name="TOKEN" />s suficientes</translation>
+<translation id="298349922412901215">NOTA: este criador ainda não fez o registo para receber contribuições de utilizadores do Brave. Vamos continuar a tentar enviar a contribuição durante 90 dias ou até que o criador efetue a verificação.</translation>
+<translation id="6940273954212603510">por favor</translation>
+<translation id="1036277985068412734">adicionar fundos</translation>
+<translation id="5299848999918506028">Obrigado!</translation>
+<translation id="2626799779920242286">Tente novamente mais tarde.</translation>
+<translation id="6639570430554986719">JANEIRO</translation>
+<translation id="1807352595146144483">FEVEREIRO</translation>
+<translation id="2021828608097804771">MARÇO</translation>
+<translation id="1112527417301376065">ABRIL</translation>
+<translation id="8737090912129856089">MAIO</translation>
+<translation id="6832612641867423485">JUNHO</translation>
+<translation id="8442574087856349697">JULHO</translation>
+<translation id="1202041222842415454">AGOSTO</translation>
+<translation id="7317265217038113435">SETEMBRO</translation>
+<translation id="8220228041552340594">OUTUBRO</translation>
+<translation id="8280223431922155812">NOVEMBRO</translation>
+<translation id="4254029385847607686">DEZEMBRO</translation>
+<translation id="937392350501765664"><ph name="MONTH" /> <ph name="YEAR" /></translation>
+<translation id="3074127054582480056">Atenção</translation>
+<translation id="7335371657242627509">Incluir na contribuição automática</translation>
+<translation id="8918760045046434238">Enviar uma gratificação...</translation>
+<translation id="1978261665418056203">Ainda não tem atividades
+este mês...</translation>
+<translation id="4914597931214386232">Atribuições de token reclamadas</translation>
+<translation id="9212459913845238740">Subsídios de Pontos Reivindicados</translation>
+<translation id="298067735430872465">Rendimentos dos anúncios</translation>
+<translation id="6112368337882254910">Contribuição automática</translation>
+<translation id="3523149753820792761">Contribuiu com <ph name="BAT_VALUE" /> <ph name="BAT_TEXT" />.</translation>
+<translation id="9182287025588539628">Gratificações únicas</translation>
+<translation id="7577100371127227294">Gratificações mensais</translation>
+<translation id="8772672608371898774">Editor Brave verificado</translation>
+<translation id="1397683270551078781">Ainda não verificado</translation>
+<translation id="5727208111992260840">Este criador ainda não fez o registo para receber gratificações de utilizadores do Brave.
+        As gratificações que enviar permanecerão na sua carteira até que o criador efetue a verificação.</translation>
+<translation id="683765328936486920">no YouTube</translation>
+<translation id="8969049974285901797">no Twitch</translation>
+<translation id="5497435273900537730">Está disponível um subsídio de <ph name="TOKEN" /> gratuito.</translation>
+<translation id="3453206261112715431">Atribuição de token gratuito</translation>
+<translation id="2132683977638223450">Subsídio de Pontos Gratuito</translation>
+<translation id="13853865024308201">Reclamar</translation>
+<translation id="4376933248999950592">Designou <ph name="BAT_VALUE" /> <ph name="BAT_TEXT" /> para criadores que ainda 
+não se inscreveram para receber contribuições. O seu navegador continuará a tentar contribuir
+até serem verificados ou até terem passado 90 dias.</translation>
+<translation id="7997676409547731821">Não foi possível efetuar o pagamento mensal agendado para a 'Contribuição Automática' e gratificações mensais devido a fundos insuficientes. Nós iremos tentar novamente em 30 dias.</translation>
+<translation id="5306913077198665897">Ocorreu um problema ao processar a sua gratificação. Tente novamente.</translation>
+<translation id="2429828319207652823">Ocorreu um problema ao processar a sua contribuição.</translation>
+<translation id="2323069945529668668">Oh-oh!</translation>
+<translation id="7510166204621526816">O servidor Brave Rewards não está a responder. O erro será corrigido assim que possível.</translation>
+<translation id="2104073734684466851">Atribuições</translation>
+<translation id="4522570452068850558">Detalhes</translation>
+<translation id="3068742524072211213">expira a <ph name="DATE" /></translation>
+<translation id="7550470870580166294">Fundos insuficientes</translation>
+<translation id="2775064702681588061">A sua conta Brave Rewards está a aguardar um depósito.</translation>
+<translation id="765834632354589737">Criar cópia de segurança</translation>
+<translation id="1713542052890184975">Crie uma cópia de segurança da sua carteira Brave.</translation>
+<translation id="3333887201479867589">Brave Rewards</translation>
+<translation id="2012723204723845092">Bem-vindo de volta!</translation>
+<translation id="7669994301500276741">Seja recompensado por navegar</translation>
+<translation id="8203529727745387785">Receba fundos por ver anúncios
+que respeitam a privacidade e retribua para apoiar
+os criadores de conteúdo de que adora.</translation>
+<translation id="5148719990624240755">ATIVAR BRAVE REWARDS</translation>
+<translation id="1628742278973105368">A sua primeira gratificação será enviada em:</translation>
+<translation id="6665366815203065060">Acabou de enviar uma gratificação para:</translation>
+<translation id="5441565662498481293">Está a enviar automaticamente uma gratificação para:</translation>
+<translation id="1166682575529520472">Mensalmente</translation>
+<translation id="8495235435594442882">Ativar barra de ferramentas na base</translation>
+<translation id="7239121106815507493">Desativar barra de ferramentas na base</translation>
+<translation id="145068164597056296">Pesquisar ou URL</translation>
+<translation id="6810078320346589989">Criar um marcador</translation>
+<translation id="5463954686005964104">Gratificar este site mensalmente</translation>
+<translation id="4162066325465825185">Nós lamentamos, mas parece que 'Recompensas Brave' não está disponível no seu dispositivo</translation>
+<translation id="6332924730165919598">Fechar todos os separadores fecha o Brave</translation>
+<translation id="4150201353443180367">Exibir</translation>
+<translation id="2645380101799517405">Controlos</translation>
+<translation id="7781069478569868053">Página de Novo Separador</translation>
+<translation id="8522669544471808198">Exibir Imagens de Fundo</translation>
+<translation id="3870475560794762985">Exibir Imagens Patrocinadas</translation>
+<translation id="2804710924397009224">Ocultar Ícone de Recompensas Brave</translation>
+<translation id="7358991116457217836">Oculta o ícone das 'Recompensas Brave' quando 'Recompensas Brave' não está ativada</translation>
+<translation id="6393502589311632553">Exibir Anúncios quando Brave não estiver a ser utilizado</translation>
+<translation id="3349204812119681938">Reiniciar Recompensas Brave</translation>
+<translation id="8782039523249932839">Isto irá eliminar a sua carteira Brave e reiniciar todos os seus dados de Recompensas Brave</translation>
+<translation id="5321518976657560663">Erro de Reiniciar</translation>
+<translation id="7071576788062714665">Ocorreu um erro ao reiniciar Recompensa Brave. Por favor, reinicie o Brave e tente novamente</translation>
+<translation id="6707003343517029414">No computador de destino aceda a Brave Sync no painel de Definições e clique no botão "Tenho um código de sincronização".\nIntroduza a sequência de caracteres de sincronização apresentada abaixo.</translation>
+<translation id="3149880132460839085">Brave Sync</translation>
+<translation id="6764016175302339802">Considere este código como uma palavra-passe. Alguém com acesso ao código poderá ler e modificar os seus dados sincronizados.</translation>
+<translation id="6417420737057016607">Brave Ads</translation>
+<translation id="8689997599821157251">Ganhou</translation>
+<translation id="7091885296442320770">O Brave é super rápido</translation>
+<translation id="2171928016777725844">Torne o Brave o seu navegador predefinido!</translation>
+<translation id="7136694880210472378">Predefinir</translation>
+<translation id="4292832015778676417">recebido pelos anúncios</translation>
+<translation id="8281886186245836920">Ignorar</translation>
+<translation id="316832010181763471">Integração do motor de pesquisa</translation>
+<translation id="986879628471635371">Integração da resolução de problemas</translation>
+<translation id="1078265935778232285">Bem-vindo ao navegador Brave</translation>
+<translation id="8867511707771147258">Selecione o seu motor de pesquisa predefinido</translation>
+<translation id="5806601733251372221">Proteções Brave</translation>
+<translation id="4702084935512138078">anúncios invasivos da privacidade e rastreadores para que possa navegar sem ser seguido na rede.</translation>
+<translation id="8537217141725709400">Ganhe <ph name="TOKEN" />s</translation>
+<translation id="1789842587755069541">para ver anúncios que respeitam a privacidade. Utilize-os para apoiar os seus sites e criadores favoritos.</translation>
+<translation id="821707262661492716">para ver anúncios que respeitam a criatividade.</translation>
+<translation id="7396091471805549630">Ao ativar Recompensas, concorda com</translation>
+<translation id="4281844954008187215">Termos de Serviço</translation>
+<translation id="6871397658902960384">Começar a navegar</translation>
+<translation id="454386012157232640">Não vi um anúncio</translation>
+<translation id="1448877943847791441">O Brave vai mostrar o seu primeiro anúncio em</translation>
+<translation id="7414844564462429821">Para ver anúncios de Brave Rewards, certifique-se de que o Brave permite a apresentação de notificações.</translation>
+<translation id="6511854390690723657">Este é o seu primeiro anúncio do Brave. Toque para obter mais informações.</translation>
+<translation id="4930714375720679147">Ativar</translation>
+<translation id="8906569594072556752">Apresentação de boas-vindas</translation>
+<translation id="7808431604191267817">Voltar a ver a Apresentação de boas-vindas não afeta as definições existentes.</translation>
+<translation id="2453860139492968684">Terminar</translation>
+<translation id="7127980134843952133">Transferir histórico</translation>
+<translation id="327726072512457161">Sair de definições</translation>
+<translation id="597993392929850353">Licença Brave</translation>
+<translation id="1486343603936278248">token</translation>
+<translation id="8713995420537272453">ponto</translation>
+<translation id="6678056861663824314">1 <ph name="TIP" /></translation>
+<translation id="4065726515175370979">5 <ph name="TIP" /></translation>
+<translation id="8171148564903208264">10 <ph name="TIP" /></translation>
+<translation id="8297488609722895137">Fotografia de <ph name="PHOTO_BY" /></translation>
+<translation id="5789441016350810005">Enviado por Brave Ads quandoo navegador se encontra em segundo plano</translation>
+<translation id="844921671123185605">As suas gorjetas mensais foram processadas!</translation>
+<translation id="3690140184638701871">Contribuições e Gorjetas</translation>
+<translation id="7655723274266132226">Agora, pode ganhar dinheiro visualizando anúncios.</translation>
+<translation id="3124090095880236567">Ativar Anúncios</translation>
+<translation id="2975780980638932742">Chegaram os Brave Ads!</translation>
+<translation id="8520059774736886747">Recentemente verificado pelo criador <ph name="PUBLISHER_NAME" /></translation>
+<translation id="7541582550122501404">Contribuição Pendente</translation>
+<translation id="3794079107601824147">Seja pago para assistir a esta imagem de fundo.</translation>
+<translation id="4836823081419522426">Receberá 70% dos lucros do anúncio com este patrocínio privado, que podem ser utilizados para apoiar criadores de conteúdos Web. Ative Brave Rewards para ganhar a sua parte.</translation>
+<translation id="7307847920988946894">Ativar Recompensas</translation>
+<translation id="1605521356929094020">Ative Brave Ads</translation>
+<translation id="1647482814782886825">Ao ativar Recompensas, declara que concorda com os <ph name="TERMS_OF_SERVICE" />. Pode também optar por <ph name="HIDE_SPONSORED_IMAGES" />.</translation>
+<translation id="7136586167396205364">Ocultar Imagens Patrocindas</translation>
+<translation id="539573333464362778">Pode apoiar criadores Web com tokens.
+Ganhe tokens visualizando anúncios relacionados com privacidade.</translation>
+<translation id="3086693326654999038">Está a ser pago para assistir a esta imagem de fundo.</translation>
+<translation id="5895280237921845725"><ph name="LEARN_MORE" /> sobre imagens patrocinadas em Brave Rewards. Pode também optar por <ph name="HIDE_SPONSORED_IMAGES" />.</translation>
+<translation id="1908278071064820219">Também poderá optar por <ph name="HIDE_SPONSORED_IMAGES" />.</translation>
+<translation id="7931660128190969207">Seja pago para assistir a esta imagem de fundo. Ative Brave Ads para ganhar a sua parte.</translation>
 </translationbundle>

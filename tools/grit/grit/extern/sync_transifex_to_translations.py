@@ -6,7 +6,7 @@ from os import walk
 
 # these are hard coded values
 transifex_folder='../../../../chrome/android/java/strings/transifex'
-translations_folder='../../../../chrome/android/java/strings/translations'
+translations_folder='../../../../chrome/browser/ui/android/strings/translations'
 base_strings_file='../../../../chrome/android/java/strings/strings.xml'
 
 # Generate message id from message text and meaning string (optional),
@@ -185,9 +185,9 @@ def SyncTransifexToTranslations():
                     lang_id = 'he'
                 elif lang_id == 'cs':
                     lang_id = 'cs_CZ'
-                # elif lang_id == 'ml' or lang_id == 'mr' or lang_id == 'ms' or lang_id == 'bn' or lang_id == 'te' or lang_id == 'ta' or lang_id == 'et' or lang_id == 'kn' or lang_id == 'gu':
-                #     print('Skipping language "' + lang_id)
-                #     continue
+                elif lang_id == 'ne' or lang_id == 'km' or lang_id == 'hy' or lang_id == 'zu' or lang_id == 'lo' or lang_id == 'my' or lang_id == 'as' or lang_id == 'is' or lang_id == 'pa' or lang_id == 'si' or lang_id == 'kk' or lang_id == 'fr_CA' or lang_id == 'ky' or lang_id == 'zh_HK' or lang_id == 'uz' or lang_id == 'ka' or lang_id == 'ur' or lang_id == 'af' or lang_id == 'mn' or lang_id == 'or' or lang_id == 'az' or lang_id == 'mk' or lang_id == 'bs':
+                    print('Skipping language "' + lang_id)
+                    continue
                 print('Processing language "' + lang_id + '"...')
                 # find appropriate xml file in transifex folder
                 xml_file_name = transifex_folder + '/stringsxml_' + lang_id + '.xml'

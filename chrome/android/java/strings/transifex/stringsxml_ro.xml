@@ -326,4 +326,27 @@ creatorii de conținut care vă plac.</string>
 
     <string name="photo_by">Fotografie de <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Reclame Brave trimise când navigatorul este în fundal</string>
+
+    <string name="brave_ui_tips_processed_notification">Câștigurile dumneavoastră lunare au fost procesate!</string>
+    <string name="brave_ui_contribution_tips">Contribuții &amp; Câștiguri</string>
+    <string name="brave_ui_brave_ads_launch_msg">Acum puteți câștiga privind reclame.</string>
+    <string name="brave_ui_turn_on_ads">Pornire reclame</string>
+    <string name="brave_ui_brave_ads_launch_title">Reclamele Brave au sosit!</string>
+    <string name="brave_ui_verified_publisher_notification">Creatorul <ph name=\"PUBLISHER_NAME\">%1$s</ph> recent verificat</string>
+    <string name="brave_ui_pending_contribution_title">Contribuție în așteptare</string>
+
+    <string name="get_paid_to_see_ads">Obțineți un câștig pentru vizionarea acestei imagini de fundal.</string>
+    <string name="ntp_brave_rewards_off_text">Dumneavoastră&apos;veți primi 70 % din câștigurile obținute de această sponsorizare privată ce pot fi utilizate pentru sprijinirea creatorilor de conținut web. Porniți Recompensele Brave pentru a vă obține partea de câștig.</string>
+    <string name="turn_on_rewards">Pornire Recompense</string>
+    <string name="turn_on_brave_ads">Porniți reclamele Brave</string>
+    <string name="ntp_tos_text">Prin pornirea programului de Recompense, sunteți de acord cu <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Puteți, de asemenea, alege să <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Obțineți un câștig pentru vizionarea acestei imagini de fundal.</string>
+    <string name="hide_sponsored_images">Ascundere imagini sponsorizate</string>
+    <string name="you_can_support_creators">Puteți sprijini creatorii web cu jetoane.
+Câștigați jetoane vizualizând publicități ce respectă viața privată.</string>
+    <string name="you_are_getting_paid">Veți&apos;fi plătiți pentru urmărirea acestei imagini de fundal.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> despre imaginile sponsorizate în programul Recompensele Brave. Puteți, de asemenea, alege să <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Puteți, de asemenea, alege să <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Obțineți un câștig pentru vizionarea acestei imagini de fundal. Porniți reclamele Brave pentru a vă primi partea de câștig.</string>
 </resources>

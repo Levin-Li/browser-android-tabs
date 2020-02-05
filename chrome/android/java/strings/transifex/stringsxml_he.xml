@@ -326,4 +326,27 @@ HTTPS</string>
 
     <string name="photo_by">צילום של <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">פרסומות Brave Ads נשלחות כשהדפדפן ברקע</string>
+
+    <string name="brave_ui_tips_processed_notification">הטיפים החודשיים שלך מוכנים!</string>
+    <string name="brave_ui_contribution_tips">תרומות וטיפים</string>
+    <string name="brave_ui_brave_ads_launch_msg">עכשיו תוכל להרוויח כסף על-ידי צפייה בפרסומות.</string>
+    <string name="brave_ui_turn_on_ads">הפעל פרסומות</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads כבר כאן!</string>
+    <string name="brave_ui_verified_publisher_notification">היוצר <ph name=\"PUBLISHER_NAME\">%1$s</ph> אומת לאחרונה</string>
+    <string name="brave_ui_pending_contribution_title">תרומה ממתינה</string>
+
+    <string name="get_paid_to_see_ads">קבל תשלום עבור צפייה בתמונת רקע זו.</string>
+    <string name="ntp_brave_rewards_off_text">תקבל 70% מהרווחים מפרסומות בחסות פרטית זו. ניתן להשתמש בכסף לתמיכה ביוצרי תוכן לרשת. הפעל את Brave Rewards כדי לקבל את החלק שלך.</string>
+    <string name="turn_on_rewards">הפעל תגמולים</string>
+    <string name="turn_on_brave_ads">הפעלת Brave Ads</string>
+    <string name="ntp_tos_text">על-ידי הפעלת Rewards, אתה מסכים ל<ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. ניתן לבחור גם ל<ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">קבל תשלום עבור צפייה בתמונת רקע זו.</string>
+    <string name="hide_sponsored_images">להסתיר תמונות ממומנות</string>
+    <string name="you_can_support_creators">ניתן לתמוך ביוצרי רשת באמצעות אסימונים.
+מרוויחים אסימונים על-ידי צפייה בפרסומות שמכבדות את הפרטיות.</string>
+    <string name="you_are_getting_paid">אתה מקבל תשלום עבור צפייה בתמונת רקע זו.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> על תמונות ממומנות ב-Brave Rewards. ניתן לבחור גם ל<ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">ניתן גם לבחור <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">קבל תשלום עבור צפייה בתמונת רקע זו. הפעל את Brave Ads כדי להרוויח את החלק שלך.</string>
 </resources>

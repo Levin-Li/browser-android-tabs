@@ -330,4 +330,27 @@ de indholdsskabere, du elsker.</string>
 
     <string name="photo_by">Foto taget af <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Brave-reklamer sendt, mens browseren er i baggrunden</string>
+
+    <string name="brave_ui_tips_processed_notification">Dine månedlige tips er blevet behandlet!</string>
+    <string name="brave_ui_contribution_tips">Bidrag og tips</string>
+    <string name="brave_ui_brave_ads_launch_msg">Nu kan du tjene på at se reklamer.</string>
+    <string name="brave_ui_turn_on_ads">Slå Reklamer til</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave-reklamer er kommet!</string>
+    <string name="brave_ui_verified_publisher_notification">Skaberen <ph name=\"PUBLISHER_NAME\">%1$s</ph> har fornylig godkendt</string>
+    <string name="brave_ui_pending_contribution_title">Afventende bidrag</string>
+
+    <string name="get_paid_to_see_ads">Bliv betalt for at se dette baggrundsbillede.</string>
+    <string name="ntp_brave_rewards_off_text">Du får 70 % af annonceindtægterne for dette private sponsorat, som kan bruges til at støtte skabere af webindhold. Slå Brave-bonusser til for at få din andel.</string>
+    <string name="turn_on_rewards">Slå Bonusser til</string>
+    <string name="turn_on_brave_ads">Slå Brave-reklamer til</string>
+    <string name="ntp_tos_text">Ved at slå Bonusser til, accepterer du de <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Du kan også vælge at <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Bliv betalt for at se dette baggrundsbillede.</string>
+    <string name="hide_sponsored_images">Skjul sponsorerede billeder</string>
+    <string name="you_can_support_creators">Du kan støtte skabere af webindhold med tokens.
+Optjen tokens ved at se reklamer, der respekterer privatlivet.</string>
+    <string name="you_are_getting_paid">Du bliver betalt for at se dette baggrundbillede.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> om sponsorerede billeder i Brave-bonusser. Du kan også vælge at <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Du kan også vælge at <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Bliv betalt for at se dette baggrundsbillede. Slå Brave-reklamer til for at få din andel.</string>
 </resources>

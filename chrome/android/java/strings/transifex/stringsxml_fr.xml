@@ -328,4 +328,27 @@ les créateurs de contenu que vous aimez.</string>
 
     <string name="photo_by">Photo de <ph name=\"PHOTO_BY\">%1$s</ph></string>
 
+    <string name="notification_category_brave_ads_background">Publicités Brave Ads envoyées lorsque le navigateur est en arrière-plan</string>
+
+    <string name="brave_ui_tips_processed_notification">Vos récompenses mensuelles ont été traitées avec succès.</string>
+    <string name="brave_ui_contribution_tips">Contributions et récompenses</string>
+    <string name="brave_ui_brave_ads_launch_msg">Aujourd’hui, vous pouvez gagner de l’argent en regardant des publicités.</string>
+    <string name="brave_ui_turn_on_ads">Activer les publicités</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Ads est disponible dès maintenant !</string>
+    <string name="brave_ui_verified_publisher_notification">Créateur <ph name=\"PUBLISHER_NAME\">%1$s</ph> récemment vérifié</string>
+    <string name="brave_ui_pending_contribution_title">Contribution en attente</string>
+
+    <string name="get_paid_to_see_ads">Faites-vous payer pour regarder cette image d’arrière-plan.</string>
+    <string name="ntp_brave_rewards_off_text">Vous toucherez 70 % des revenus publicitaires dérivés de ce parrainage privé que vous pourrez utilier afin de soutenir les créateurs de contenus Web. Activez Brave Ads pour obtenir votre rétribution.</string>
+    <string name="turn_on_rewards">Activer les récompenses</string>
+    <string name="turn_on_brave_ads">Activer Brave Ads</string>
+    <string name="ntp_tos_text">En activant les récompenses, vous déclarez accepter les <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Vous pouvez également choisir de <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Faites-vous payer pour regarder cette image d’arrière-plan.</string>
+    <string name="hide_sponsored_images">Masquer les images sponsorisées</string>
+    <string name="you_can_support_creators">Vous pouvez soutenir les créateurs Web avec des jetons.
+Gagnez des jetons en affichant des publicités respectueuses de votre vie privée.</string>
+    <string name="you_are_getting_paid">Vous gagnez de l’argent en regardant cette image d’arrière-plan.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> sur les images sponsorisées dans Brave Rewards. Vous pouvez également choisir de <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Vous pouvez également choisir de <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Faites-vous payer pour regarder cette image d’arrière-plan. Activez Brave Ads pour obtenir votre rétribution.</string>
 </resources>

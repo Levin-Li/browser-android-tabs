@@ -151,6 +151,8 @@ Poupe bateria e carregue páginas de internet mais rapidamente</string>
 
     <string name="brave_ui_welcome_header_two">Prepare-se para
 a próxima Internet.</string>
+    <string name="brave_ui_welcome_desc_two">Poderá agora ganhar <ph name=\"TOKEN\">%1$s<ex>token</ex></ph>s por
+assistir a anúncios relacionados com privacidade.</string>
     <string name="brave_ui_welcome_button_text_two">PONTOS POR ADESÃO</string>
     <string name="brave_ui_welcome_footer_text_two">OBTER MAIS INFORMAÇÕES</string>
     <string name="brave_ui_rewards_creating_text">Criar carteira</string>
@@ -251,6 +253,9 @@ os criadores de conteúdo de que adora.</string>
     <string name="prefs_section_display">Exibir</string>
     <string name="prefs_section_controls">Controlos</string>
     <string name="prefs_appearance">Aparência</string>
+    <string name="prefs_new_tab_page">Página de Novo Separador</string>
+    <string name="show_background_images">Exibir Imagens de Fundo</string>
+    <string name="show_sponsored_images">Exibir Imagens Patrocinadas</string>
     <string name="hide_brave_rewards_icon_title">Ocultar Ícone de Recompensas Brave</string>
     <string name="hide_brave_rewards_icon_description">Oculta o ícone das \'Recompensas Brave\' quando \'Recompensas Brave\' não está ativada</string>
     <string name="show_ads_when_brave_is_not_in_use">Exibir Anúncios quando Brave não estiver a ser utilizado</string>
@@ -323,4 +328,29 @@ os criadores de conteúdo de que adora.</string>
     <string name="five_tip_option">5 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
-    </resources>
+    <string name="photo_by">Fotografia de <ph name=\"PHOTO_BY\">%1$s</ph></string>
+
+    <string name="notification_category_brave_ads_background">Enviado por Brave Ads quandoo navegador se encontra em segundo plano</string>
+
+    <string name="brave_ui_tips_processed_notification">As suas gorjetas mensais foram processadas!</string>
+    <string name="brave_ui_contribution_tips">Contribuições e Gorjetas</string>
+    <string name="brave_ui_brave_ads_launch_msg">Agora, pode ganhar dinheiro visualizando anúncios.</string>
+    <string name="brave_ui_turn_on_ads">Ativar Anúncios</string>
+    <string name="brave_ui_brave_ads_launch_title">Chegaram os Brave Ads!</string>
+    <string name="brave_ui_verified_publisher_notification">Recentemente verificado pelo criador <ph name=\"PUBLISHER_NAME\">%1$s</ph></string>
+    <string name="brave_ui_pending_contribution_title">Contribuição Pendente</string>
+
+    <string name="get_paid_to_see_ads">Seja pago para assistir a esta imagem de fundo.</string>
+    <string name="ntp_brave_rewards_off_text">Receberá 70% dos lucros do anúncio com este patrocínio privado, que podem ser utilizados para apoiar criadores de conteúdos Web. Ative Brave Rewards para ganhar a sua parte.</string>
+    <string name="turn_on_rewards">Ativar Recompensas</string>
+    <string name="turn_on_brave_ads">Ative Brave Ads</string>
+    <string name="ntp_tos_text">Ao ativar Recompensas, declara que concorda com os <ph name=\"TERMS_OF_SERVICE\">%1$s</ph>. Pode também optar por <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Seja pago para assistir a esta imagem de fundo.</string>
+    <string name="hide_sponsored_images">Ocultar Imagens Patrocindas</string>
+    <string name="you_can_support_creators">Pode apoiar criadores Web com tokens.
+Ganhe tokens visualizando anúncios relacionados com privacidade.</string>
+    <string name="you_are_getting_paid">Está a ser pago para assistir a esta imagem de fundo.</string>
+    <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> sobre imagens patrocinadas em Brave Rewards. Pode também optar por <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Também poderá optar por <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Seja pago para assistir a esta imagem de fundo. Ative Brave Ads para ganhar a sua parte.</string>
+</resources>

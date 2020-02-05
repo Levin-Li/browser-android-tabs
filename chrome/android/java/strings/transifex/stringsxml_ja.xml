@@ -330,4 +330,27 @@
 
     <string name="photo_by"><ph name=\"PHOTO_BY\">%1$s</ph>による写真</string>
 
+    <string name="notification_category_brave_ads_background">Bave Adsはブラウザが背景にある時送信します</string>
+
+    <string name="brave_ui_tips_processed_notification">毎月のヒントが処理されました！</string>
+    <string name="brave_ui_contribution_tips">コントリビューション＆秘訣</string>
+    <string name="brave_ui_brave_ads_launch_msg">今はadsを閲覧することで獲得できます。</string>
+    <string name="brave_ui_turn_on_ads">Adsをオン</string>
+    <string name="brave_ui_brave_ads_launch_title">Brave Adsが到着しました！</string>
+    <string name="brave_ui_verified_publisher_notification">作成者 <ph name=\"PUBLISHER_NAME\">%1$s</ph> が最近確認されました</string>
+    <string name="brave_ui_pending_contribution_title">保留中のコントリビューション</string>
+
+    <string name="get_paid_to_see_ads">この背景画像を見ると報酬が得られます。</string>
+    <string name="ntp_brave_rewards_off_text">このプライベート・スポンサーシップの広告収入の70％を受領し、ウェブ・コンテンツ・クリエイターのサポートに使用できます。 Brave Rewardsをオンにして、シェアを獲得してください。</string>
+    <string name="turn_on_rewards">Rewardsをオン</string>
+    <string name="turn_on_brave_ads">Brave Adsをオンにする</string>
+    <string name="ntp_tos_text">Rewardsをオンにすることで、<ph name=\"TERMS_OF_SERVICE\">%1$s</ph>に同意したとみなされます。 <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>を選択することもできます。</string>
+    <string name="get_paid_to_see_image">この背景画像を見ると報酬が得られます。</string>
+    <string name="hide_sponsored_images">スポンサー画像を隠す</string>
+    <string name="you_can_support_creators">トークンでウェブクリエーターをサポートできます。
+プライバシー尊重のadsを閲覧することでトークンを獲得できます。</string>
+    <string name="you_are_getting_paid">この背景画像を見ると報酬が支払われます。</string>
+    <string name="br_on_ads_on_text">Brave Rewardsのスポンサー画像に関する<ph name=\"LEARN_MORE\">%1$s</ph>。  <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>を選択することもできます。</string>
+    <string name="br_on_ads_on_text2"><ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>を選択することもできます。</string>
+    <string name="turn_on_brave_ads_to_claim">この背景画像を見ると報酬が得られます。 Brave Adsをオンにして、共有の要求をしてください。</string>
 </resources>
