@@ -4930,8 +4930,7 @@ content creators you love.
         Hide Sponsored Images
       </message>
       <message name="IDS_YOU_CAN_SUPPORT_CREATORS" desc="Text description for banner on NTP.">
-        You can support web creators with tokens.
-        Earn tokens by viewing privacy-respecting ads.
+        You can support web creators with tokens.\nEarn tokens by viewing privacy-respecting ads.
       </message>
       <message name="IDS_YOU_ARE_GETTING_PAID" desc="Text title for NTP banner.">
           You’re getting paid to see this background image.
