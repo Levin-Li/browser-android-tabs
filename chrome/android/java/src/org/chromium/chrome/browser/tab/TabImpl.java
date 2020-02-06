@@ -81,6 +81,8 @@ import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.ntp.sponsored.NTPImage;
 import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 import org.chromium.chrome.browser.ChromeFeatureList;
+import org.chromium.chrome.browser.ntp.sponsored.NewTabListener;
+import org.chromium.chrome.browser.ntp.NewTabPage;
 
 /**
  * Implementation of the interface {@link Tab}. Contains and manages a {@link ContentView}.
@@ -257,6 +259,7 @@ public class TabImpl implements Tab {
     private boolean mShouldShowBanner;
 
     private boolean isMoreTabs;
+    private NewTabListener newTabListener;
 
     /**
      * Creates an instance of a {@link TabImpl}.
@@ -576,6 +579,11 @@ public class TabImpl implements Tab {
 
     @Override
     public void reload() {
+        if(Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !isMoreTabs() && NewTabPage.isNTPUrl(getUrl())) {
+            if(newTabListener != null)
+                newTabListener.updateNTPImage();
+            return;
+        }
         // TODO(dtrainor): Should we try to rebuild the ContentView if it's frozen?
         if (OfflinePageUtils.isOfflinePage(this)) {
             // If current page is an offline page, reload it with custom behavior defined in extra
@@ -1681,11 +1689,19 @@ public class TabImpl implements Tab {
     }
 
     public NTPImage getTabNTPImage() {
-        return ntpImage;
+        if (ntpImage != null) {
+            return ntpImage;
+        } else {
+            return getNTPImage();
+        }
     }
 
     public void setNTPImage(NTPImage ntpImage) {
         this.ntpImage = ntpImage;
+    }
+
+    public void setNewTabListener(NewTabListener newTabListener) {
+        this.newTabListener = newTabListener;
     }
 
     public int getTabIndex() {

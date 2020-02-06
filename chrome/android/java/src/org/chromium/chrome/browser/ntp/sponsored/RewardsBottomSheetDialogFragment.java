@@ -44,6 +44,7 @@ import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
 import org.chromium.chrome.browser.customtabs.CustomTabActivity;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.tabmodel.TabModel;
+import org.chromium.ui.base.DeviceFormFactor;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.tab.TabImpl;
 
@@ -80,10 +81,12 @@ public class RewardsBottomSheetDialogFragment extends BottomSheetDialogFragment{
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        if (newConfig.screenWidthDp > 400) {
-            // you can go more fancy and vary the bottom sheet width depending on the screen width
-            // see recommendations on https://material.io/guidelines/components/bottom-sheets.html#bottom-sheets-specs
+
+        boolean isTablet = DeviceFormFactor.isNonMultiDisplayContextOnTablet(getActivity());
+        if(isTablet || (!isTablet && newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE)) {
             getDialog().getWindow().setLayout(dpToPx(getActivity(), 400), -1);
+        } else {
+            getDialog().getWindow().setLayout(-1, -1);
         }
     }
 
@@ -93,11 +96,11 @@ public class RewardsBottomSheetDialogFragment extends BottomSheetDialogFragment{
 
         newTabListener.updateInteractableFlag(false);
 
-        Configuration configuration = getActivity().getResources().getConfiguration();
-        if (configuration.screenWidthDp > 400) {
-            // you can go more fancy and vary the bottom sheet width depending on the screen width
-            // see recommendations on https://material.io/guidelines/components/bottom-sheets.html#bottom-sheets-specs
+        boolean isTablet = DeviceFormFactor.isNonMultiDisplayContextOnTablet(getActivity());
+        if(isTablet || (!isTablet && SponsoredImageUtil.isLandscape(getActivity()))) {
             getDialog().getWindow().setLayout(dpToPx(getActivity(), 400), -1);
+        } else {
+            getDialog().getWindow().setLayout(-1, -1);
         }
     }
 

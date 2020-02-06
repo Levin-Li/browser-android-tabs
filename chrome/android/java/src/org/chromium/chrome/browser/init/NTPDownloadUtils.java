@@ -117,6 +117,9 @@ public class NTPDownloadUtils {
 
             if (connection.getResponseCode() != HttpURLConnection.HTTP_OK) {
                 Log.e("NTP", " downloadFile response code : "+ connection.getResponseCode());
+                if(isJSONFile) {
+                    SponsoredImageUtil.clearSponsoredImages();
+                }
                 return false;
             }
 
@@ -135,6 +138,9 @@ public class NTPDownloadUtils {
             }
             catch (IllegalStateException exc) {
                 Log.e("NTP", "IllegalStateException " + exc.getMessage());
+                if(isJSONFile) {
+                    SponsoredImageUtil.clearSponsoredImages();
+                }
                 // Sometimes it gives us that exception, found that we should do that way to avoid it:
                 // Each HttpURLConnection instance is used to make a single request but the
                 // underlying network connection to the HTTP server may be transparently shared by other instance.
@@ -143,6 +149,9 @@ public class NTPDownloadUtils {
             outputStream.close();
             if (length != totalReadSize || length != tempFile.length()) {
                 Log.e("NTP", "download failed");
+                if(isJSONFile) {
+                    SponsoredImageUtil.clearSponsoredImages();
+                }
             } else {
               // We downloaded the file with success, rename it now to .json
               File renameTo = new File(PathUtils.getDataDirectory(), countryCode + "_" + fileName);
@@ -153,9 +162,15 @@ public class NTPDownloadUtils {
         }
         catch (MalformedURLException e) {
             e.printStackTrace();
+            if(isJSONFile) {
+                SponsoredImageUtil.clearSponsoredImages();
+            }
         }
         catch (IOException e) {
             e.printStackTrace();
+            if(isJSONFile) {
+                SponsoredImageUtil.clearSponsoredImages();
+            }
         }
         finally {
             try {
@@ -180,6 +195,10 @@ public class NTPDownloadUtils {
             if(fl.exists()) {
                 FileInputStream fin = new FileInputStream(fl);
                 String jsonString = convertStreamToString(fin);
+                if (jsonString == null) {
+                    SponsoredImageUtil.clearSponsoredImages();
+                    return;
+                }
                 //Make sure you close all streams.
                 fin.close();
 
@@ -223,6 +242,7 @@ public class NTPDownloadUtils {
             }
         } catch (Exception e) {
             Log.e("NTP", e.getMessage());
+            SponsoredImageUtil.clearSponsoredImages();
         }
     }
 
