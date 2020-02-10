@@ -1,0 +1,102 @@
+/**
+ * Copyright (c) 2020 The Brave Authors. All rights reserved.
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ */
+
+package org.chromium.chrome.browser.init;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.net.Uri;
+import android.os.RemoteException;
+import com.android.installreferrer.api.InstallReferrerClient;
+import com.android.installreferrer.api.InstallReferrerClient.InstallReferrerResponse;
+import com.android.installreferrer.api.InstallReferrerStateListener;
+import com.android.installreferrer.api.ReferrerDetails;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import org.chromium.base.ContextUtils;
+import org.chromium.base.Log;
+import org.chromium.chrome.browser.init.InstallationSourceInformer;
+import org.chromium.chrome.browser.util.PackageUtils;
+
+public class BraveReferrer implements InstallReferrerStateListener {
+    private static final String TAG = "BraveReferrer";
+    private static final String APP_CHROME_DIR = "app_chrome";
+    private static final String PROMO_CODE_FILE_NAME = "promoCode";
+    private static final String BRAVE_REFERRER_RECEIVED = "brave_referrer_received";
+
+    private String promoCodeFilePath;
+    private InstallReferrerClient referrerClient;
+
+    private static BraveReferrer sInstance;
+
+    private BraveReferrer() {}
+
+    public static BraveReferrer getInstance() {
+        if (sInstance != null) return sInstance;
+        sInstance = new BraveReferrer();
+        return sInstance;
+    }
+
+    public void initReferrer(Context context) {
+        promoCodeFilePath = context.getApplicationInfo().dataDir +
+                File.separator + APP_CHROME_DIR + File.separator + PROMO_CODE_FILE_NAME;
+
+        SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
+        if (!sharedPref.getBoolean(BRAVE_REFERRER_RECEIVED, false) &&
+            PackageUtils.isFirstInstall(context)) {
+            referrerClient = InstallReferrerClient.newBuilder(context).build();
+            referrerClient.startConnection(this);
+        }
+    }
+
+    @Override
+    public void onInstallReferrerSetupFinished(int responseCode) {
+        switch (responseCode) {
+            case InstallReferrerResponse.OK:
+                try {
+                    ReferrerDetails response = referrerClient.getInstallReferrer();
+                    String referrer = response.getInstallReferrer();
+                    Uri uri = Uri.parse("http://www.stub.co/?" + referrer);                    
+                    String utm_medium_value = uri.getQueryParameter("utm_medium");
+                    if (utm_medium_value != null && !utm_medium_value.isEmpty() && !utm_medium_value.equals("organic")) {
+                        InstallationSourceInformer.InformFromPromo();
+                    } else {
+                        InstallationSourceInformer.InformFromPlayMarket();
+                    }
+
+                    // In any way update stats with promo name
+                    String utm_campaign_value = uri.getQueryParameter("utm_campaign");
+                    InstallationSourceInformer.InformStatsPromo(utm_campaign_value);
+
+                    // Get and save user referal program code
+                    String urpc = uri.getQueryParameter("urpc");
+                    InstallationSourceInformer.InformUserReferralProgramCode(urpc);
+                    referrerClient.endConnection();
+                    // Set flag to not repeat this procedure
+                    SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
+                    SharedPreferences.Editor editor = sharedPref.edit();
+                    editor.putBoolean(BRAVE_REFERRER_RECEIVED, true);
+                    editor.apply();
+                } catch (RemoteException e) {
+                    Log.e(TAG, "Could not get referral: " + e.getMessage());
+                }
+                break;
+            case InstallReferrerResponse.FEATURE_NOT_SUPPORTED:
+                Log.e(TAG, "API not available on the current Play Store app");
+                break;
+            case InstallReferrerResponse.SERVICE_UNAVAILABLE:
+                Log.e(TAG, "Connection couldn't be established");
+                break;
+        }
+    }
+
+    @Override
+    public void onInstallReferrerServiceDisconnected() {
+        Log.e(TAG, "Install referrer service was disconnected");
+    }
+}

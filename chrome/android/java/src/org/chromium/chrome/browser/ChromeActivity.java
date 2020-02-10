@@ -232,6 +232,7 @@ import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 
 import android.provider.Settings;
+import org.chromium.chrome.browser.init.BraveReferrer;
 
 /**
  * A {@link AsyncInitializationActivity} that builds and manages a {@link CompositorViewHolder}
@@ -464,6 +465,8 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     public void performPostInflationStartup() {
         try (TraceEvent te = TraceEvent.scoped("ChromeActivity.performPostInflationStartup")) {
             super.performPostInflationStartup();
+
+            BraveReferrer.getInstance().initReferrer(this);
 
             ViewGroup coordinator = findViewById(R.id.coordinator);
             mScrimView = new ScrimView(
