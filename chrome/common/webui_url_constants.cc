@@ -175,7 +175,6 @@ const char kChromeUIWelcomeWin10Host[] = "welcome-win10";
 
 #if defined(OS_ANDROID)
 const char kChromeUIExploreSitesInternalsHost[] = "explore-sites-internals";
-const char kBraveRewardsURL[] = "chrome://rewards/";
 const char kBraveRewardsHost[] = "rewards";
 const char kRewardsInternalsHost[] = "rewards-internals";
 const char kChromeUIJavaCrashURL[] = "chrome://java-crash/";
@@ -584,7 +583,7 @@ const char* const kChromeHostURLs[] = {
 #endif
 #if defined(OS_ANDROID)
     kChromeUIExploreSitesInternalsHost,
-    kBraveRewardsURL,
+    kBraveRewardsHost,
     kChromeUIOfflineInternalsHost,
     kChromeUISnippetsInternalsHost,
     kChromeUIWebApksHost,
