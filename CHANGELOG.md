@@ -3,7 +3,7 @@
 ## [1.5.4](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.4)
 
  - Added New Tab Page Sponsored Images. ([#2525](https://github.com/brave/browser-android-tabs/issues/2525))
- - Make ad notification in background when browser is not in active. ([#2419](https://github.com/brave/browser-android-tabs/issues/2419)) 
+ - Improved ad notifications to appear silently in notification tray rather than foreground when Brave is not active. ([#2419](https://github.com/brave/browser-android-tabs/issues/2419)) 
 
 ## [1.5.3](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.3)
 
