@@ -192,7 +192,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !mTab.isMoreTabs())) {
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && !mTab.isMoreTabs())) {
             NTPImage ntpImage = mTab.getTabNTPImage();
             if(ntpImage == null) {
                 mTab.setNTPImage(SponsoredImageUtil.getBackgroundImage());
@@ -352,7 +352,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
 
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
             checkAndShowNTPImage();
-        } else if(Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !mTab.isMoreTabs()) {
+        } else if(Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && !mTab.isMoreTabs()) {
             mTab.addObserver(mTabObserver);
         }
 
@@ -407,7 +407,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
         TextView estTimeSavedTextView = (TextView) mBraveStatsView.findViewById(R.id.brave_stats_text_time);
 
         if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true) 
-            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !((TabImpl)mTab).isMoreTabs()))) {
+            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && !((TabImpl)mTab).isMoreTabs()))) {
             adsBlockedTextView.setTextColor(mNewTabPageLayout.getResources().getColor(android.R.color.white));
             httpsUpgradesTextView.setTextColor(mNewTabPageLayout.getResources().getColor(android.R.color.white));
             estTimeSavedTextView.setTextColor(mNewTabPageLayout.getResources().getColor(android.R.color.white));            
@@ -560,7 +560,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
         updateOrientedUI();
 
         if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)
-            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !((TabImpl)mTab).isMoreTabs()))) {
+            && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && !((TabImpl)mTab).isMoreTabs()))) {
             ViewTreeObserver observer = mNewTabPageLayout.getViewTreeObserver();
             observer.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
                 @Override
@@ -576,7 +576,8 @@ public class NewTabPageView extends HistoryNavigationLayout {
                     Bitmap imageBitmap = null;
                     float imageWidth;
                     float imageHeight;
-                    float centerPoint;
+                    float centerPointX;
+                    float centerPointY;
 
                     if (ntpImage instanceof SponsoredImage) {
                         SponsoredImage sponsoredImage = (SponsoredImage) ntpImage;
@@ -587,7 +588,8 @@ public class NewTabPageView extends HistoryNavigationLayout {
                             imageBitmap = BitmapFactory.decodeStream(inputStream);
                             imageWidth = imageBitmap.getWidth();
                             imageHeight = imageBitmap.getHeight();
-                            centerPoint = sponsoredImage.getFocalPointX() == 0 ? (imageWidth/2) : sponsoredImage.getFocalPointX();
+                            centerPointX = sponsoredImage.getFocalPointX() == 0 ? (imageWidth/2) : sponsoredImage.getFocalPointX();
+                            centerPointY = sponsoredImage.getFocalPointY() == 0 ? (imageHeight/2) : sponsoredImage.getFocalPointY();
 
                             if (SponsoredImageUtil.getSponsoredLogo() != null ) {
                                 ImageView sponsoredLogo = (ImageView)mNewTabPageLayout.findViewById(R.id.sponsored_logo);
@@ -626,7 +628,8 @@ public class NewTabPageView extends HistoryNavigationLayout {
                         }
                         imageWidth = imageBitmap.getWidth();
                         imageHeight = imageBitmap.getHeight();
-                        centerPoint = backgroundImage.getCenterPoint();
+                        centerPointX = backgroundImage.getCenterPoint();
+                        centerPointY = 0;
 
                         if (backgroundImage.getImageCredit() != null) {
 
@@ -649,36 +652,63 @@ public class NewTabPageView extends HistoryNavigationLayout {
                         }
                     }
 
-                    float centerRatio = centerPoint / imageWidth;
+                    float centerRatioX = centerPointX / imageWidth;
+
                     float imageWHRatio = imageWidth / imageHeight;
+                    float imageHWRatio = imageHeight / imageWidth;
+
                     int newImageWidth = (int) (layoutHeight * imageWHRatio);
                     int newImageHeight = layoutHeight;
+
                     if (newImageWidth < layoutWidth) {
                         // Image is now too small so we need to adjust width and height based on
                         // This covers landscape and strange tablet sizes.
-                        float imageHWRatio = imageHeight / imageWidth;
                         newImageWidth = layoutWidth;
                         newImageHeight = (int) (newImageWidth * imageHWRatio);
                     }
-                    int newCenter = (int) (newImageWidth * centerRatio);
-                    int startX = (int) (newCenter - (layoutWidth / 2));
-                    if (newCenter < layoutWidth / 2) {
+
+                    int newCenterX = (int) (newImageWidth * centerRatioX);
+                    int startX = (int) (newCenterX - (layoutWidth / 2));
+                    if (newCenterX < layoutWidth / 2) {
                         // Need to crop starting at 0 to newImageWidth - left aligned image
                         startX = 0;
-                    } else if (newImageWidth - newCenter < layoutWidth / 2) {
+                    } else if (newImageWidth - newCenterX < layoutWidth / 2) {
                         // Need to crop right side of image - right aligned
                         startX = newImageWidth - layoutWidth;
                     }
+
+                    int startY = (newImageHeight - layoutHeight)/2;
+                    if (centerPointY > 0) {
+                        float centerRatioY = centerPointY / imageHeight;
+                        newImageWidth = layoutWidth;
+                        newImageHeight = (int) (layoutWidth * imageHWRatio);
+
+                        if (newImageHeight < layoutHeight) {
+                            newImageHeight = layoutHeight;
+                            newImageWidth = (int) (newImageHeight * imageWHRatio);
+                        }
+
+                        int newCenterY = (int) (newImageHeight * centerRatioY);
+                        startY = (int) (newCenterY - (layoutHeight / 2));
+                        if (newCenterY < layoutHeight / 2) {
+                            // Need to crop starting at 0 to newImageWidth - left aligned image
+                            startY = 0;
+                        } else if (newImageHeight - newCenterY < layoutHeight / 2) {
+                            // Need to crop right side of image - right aligned
+                            startY = newImageHeight - layoutHeight;
+                        }
+                    }
+
                     imageBitmap = Bitmap.createScaledBitmap(imageBitmap, newImageWidth, newImageHeight, true);
 
-                    Bitmap newBitmap = Bitmap.createBitmap(imageBitmap, startX, (newImageHeight - layoutHeight) / 2, layoutWidth, (int) layoutHeight);
-                    Bitmap bitmapWithTopGradient = addTopGradient(newBitmap, mNewTabPageLayout.getContext().getResources().getColor(R.color.black_alpha_50),Color.TRANSPARENT);
+                    Bitmap newBitmap = Bitmap.createBitmap(imageBitmap, startX, startY, layoutWidth, (int) layoutHeight);
+                    Bitmap bitmapWithGradient = addGradient(newBitmap);
 
                     imageBitmap.recycle();
                     newBitmap.recycle();
 
                     // Center vertically, and crop to new center
-                    imageDrawable = new BitmapDrawable(mNewTabPageLayout.getResources(), bitmapWithTopGradient);
+                    imageDrawable = new BitmapDrawable(mNewTabPageLayout.getResources(), bitmapWithGradient);
                     mNewTabPageLayout.setBackground(imageDrawable);
 
                     mNewTabPageLayout.getViewTreeObserver().removeOnGlobalLayoutListener(this);
@@ -693,7 +723,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
         ViewGroup imageCreditLayout = mNewTabPageLayout.findViewById(R.id.image_credit_layout);
 
         ImageView sponsoredLogo = (ImageView)mNewTabPageLayout.findViewById(R.id.sponsored_logo);
-        FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(dpToPx(mTab.getActivity(),130), dpToPx(mTab.getActivity(),130));
+        FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(dpToPx(mTab.getActivity(),170), dpToPx(mTab.getActivity(),170));
 
         boolean isTablet = DeviceFormFactor.isNonMultiDisplayContextOnTablet(mTab.getActivity());
 
@@ -732,7 +762,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
                 imageCreditLayoutParams.weight = 0.4f;
                 imageCreditLayout.setLayoutParams(imageCreditLayoutParams);
 
-                layoutParams.setMargins(dpToPx(mTab.getActivity(),16), 0, 0, 0);
+                layoutParams.setMargins(dpToPx(mTab.getActivity(),32), 0, 0, 0);
                 layoutParams.gravity = Gravity.BOTTOM | Gravity.START;
                 sponsoredLogo.setLayoutParams(layoutParams);
             }
@@ -865,12 +895,13 @@ public class NewTabPageView extends HistoryNavigationLayout {
         }, 1500);
     }
 
-    private Bitmap addTopGradient(Bitmap src, int color1, int color2) {
+    private Bitmap addGradient(Bitmap src) {
         int w = src.getWidth();
         int h = src.getHeight();
         Bitmap result = Bitmap.createBitmap(src,0,0,w,h);
         Canvas canvas = new Canvas(result);
 
+        // Top gradient
         int height;
 
         if(SponsoredImageUtil.isLandscape(mTab.getActivity())) {
@@ -879,11 +910,18 @@ public class NewTabPageView extends HistoryNavigationLayout {
             height = (h/3)+dpToPx(mTab.getActivity(),BOTTOM_TOOLBAR_HEIGHT);
         }
 
-        Paint paint = new Paint();
-        LinearGradient shader = new LinearGradient(0,0,0,height, color1, color2, Shader.TileMode.CLAMP);
-        paint.setShader(shader);
-        paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.DARKEN));
-        canvas.drawRect(0,0,w,height,paint);
+        Paint topPaint = new Paint();
+        LinearGradient topShader = new LinearGradient(0,0,0,height, mNewTabPageLayout.getContext().getResources().getColor(R.color.black_alpha_50), Color.TRANSPARENT, Shader.TileMode.CLAMP);
+        topPaint.setShader(topShader);
+        topPaint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.DARKEN));
+        canvas.drawRect(0,0,w,height,topPaint);
+
+        //Bottom gradient
+        Paint bottomPaint = new Paint();
+        LinearGradient bottomShader = new LinearGradient(0,2*(h/3),0,h, Color.TRANSPARENT, mNewTabPageLayout.getContext().getResources().getColor(R.color.black_alpha_30), Shader.TileMode.CLAMP);
+        bottomPaint.setShader(bottomShader);
+        bottomPaint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.DARKEN));
+        canvas.drawRect(0,2*(h/3),w,h,bottomPaint);
 
         return result;
     }

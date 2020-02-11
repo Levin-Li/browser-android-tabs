@@ -324,7 +324,7 @@ public class TabImpl implements Tab {
             isMoreTabs = tabModel.getCount() > SponsoredImageUtil.MAX_TABS ? true : false;
         }
 
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && !isMoreTabs)){
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && !isMoreTabs)) {
             ntpImage = getNTPImage();
             tabIndex = SponsoredImageUtil.getTabIndex();
             updateBannerPref();

@@ -114,8 +114,8 @@
 
             <ImageView
                 android:id="@+id/sponsored_logo"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
                 android:contentDescription="@null"
                 android:visibility="gone"/>
 
