@@ -127,6 +127,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
     private NewTabPageRecyclerView mRecyclerView;
 
     private NewTabPageLayout mNewTabPageLayout;
+    private ImageView bgImage;
     private ViewGroup mBraveStatsView;
 
     private NewTabPageManager mManager;
@@ -187,6 +188,7 @@ public class NewTabPageView extends HistoryNavigationLayout {
         // Don't attach now, the recyclerView itself will determine when to do it.
         mNewTabPageLayout = (NewTabPageLayout) LayoutInflater.from(getContext())
                                     .inflate(R.layout.new_tab_page_layout, mRecyclerView, false);
+        bgImage = mNewTabPageLayout.findViewById(R.id.bg_image);
         mSharedPreferences = ContextUtils.getAppSharedPreferences();
     }
 
@@ -561,14 +563,14 @@ public class NewTabPageView extends HistoryNavigationLayout {
 
         if(mSharedPreferences.getBoolean(BackgroundImagesPreferences.PREF_SHOW_BACKGROUND_IMAGES, true)
             && (Build.VERSION.SDK_INT > Build.VERSION_CODES.M || (Build.VERSION.SDK_INT <= Build.VERSION_CODES.M && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && !((TabImpl)mTab).isMoreTabs()))) {
-            ViewTreeObserver observer = mNewTabPageLayout.getViewTreeObserver();
+            ViewTreeObserver observer = bgImage.getViewTreeObserver();
             observer.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
                 @Override
                 public void onGlobalLayout() {
                     String countryCode = LocaleUtil.getCountryCode();
 
-                    int layoutWidth = mNewTabPageLayout.getMeasuredWidth();
-                    int layoutHeight = mNewTabPageLayout.getMeasuredHeight();
+                    int layoutWidth = bgImage.getMeasuredWidth();
+                    int layoutHeight = bgImage.getMeasuredHeight();
                     BitmapFactory.Options options = new BitmapFactory.Options();
                     options.inScaled = false;
                     options.inJustDecodeBounds = false;
@@ -709,9 +711,9 @@ public class NewTabPageView extends HistoryNavigationLayout {
 
                     // Center vertically, and crop to new center
                     imageDrawable = new BitmapDrawable(mNewTabPageLayout.getResources(), bitmapWithGradient);
-                    mNewTabPageLayout.setBackground(imageDrawable);
+                    bgImage.setImageDrawable(imageDrawable);
 
-                    mNewTabPageLayout.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+                    bgImage.getViewTreeObserver().removeOnGlobalLayoutListener(this);
                 }
             });
         }
