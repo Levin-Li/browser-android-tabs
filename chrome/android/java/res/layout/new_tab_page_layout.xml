@@ -15,6 +15,12 @@
     android:paddingTop="@dimen/toolbar_height_no_shadow"
     android:visibility="gone" >
 
+    <ImageView
+        android:id="@+id/bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"/>
+
     <LinearLayout
         android:id="@+id/parent_layout"
         android:layout_width="match_parent"
