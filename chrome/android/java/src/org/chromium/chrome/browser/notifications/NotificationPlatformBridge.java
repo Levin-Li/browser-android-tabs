@@ -663,7 +663,8 @@ public class NotificationPlatformBridge {
         String fragmentName = notificationType == NotificationType.PERMISSION_REQUEST
                 ? SingleCategoryPreferences.class.getName()
                 : SingleWebsitePreferences.class.getName();
-        Bundle fragmentArguments = notificationType == NotificationType.PERMISSION_REQUEST
+        Bundle fragmentArguments = (notificationType == NotificationType.PERMISSION_REQUEST ||
+                notificationType == NotificationType.BRAVE_ADS)
                 ? new Bundle()
                 : SingleWebsitePreferences.createFragmentArgsForSite(origin);
         if (notificationType == NotificationType.PERMISSION_REQUEST) {
