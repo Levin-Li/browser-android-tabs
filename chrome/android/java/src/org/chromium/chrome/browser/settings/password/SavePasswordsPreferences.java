@@ -42,7 +42,7 @@ import org.chromium.ui.text.SpanApplier;
 
 import java.util.Locale;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * The "Save passwords" screen in Settings, which allows the user to enable or disable password

@@ -23,7 +23,7 @@ import org.chromium.chrome.browser.settings.TextMessagePreference;
 
 import java.util.Map;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Preference fragment to allow users to control use of the Android payment apps on device.

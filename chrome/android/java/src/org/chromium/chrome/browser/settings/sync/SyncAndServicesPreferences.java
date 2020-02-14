@@ -73,7 +73,7 @@ import org.chromium.ui.widget.ButtonCompat;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Settings fragment to enable Sync and other services that communicate with Google.

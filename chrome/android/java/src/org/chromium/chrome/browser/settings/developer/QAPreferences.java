@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package org.chromium.chrome.browser.preferences.developer;
+package org.chromium.chrome.browser.settings.developer;
 
 import android.app.Dialog;
 import android.content.ClipboardManager;
@@ -31,7 +31,7 @@ import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 import org.chromium.chrome.browser.settings.SettingsUtils;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.RestartWorker;
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 import org.chromium.base.Log;
 import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;

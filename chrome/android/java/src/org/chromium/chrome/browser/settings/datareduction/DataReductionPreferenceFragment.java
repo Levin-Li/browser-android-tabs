@@ -30,7 +30,7 @@ import org.chromium.chrome.browser.util.IntentUtils;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Settings fragment that allows the user to configure Data Saver.

@@ -69,7 +69,7 @@ import java.util.Map;
 import java.util.Set;
 
 import org.chromium.chrome.browser.RestartWorker;
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Shows a list of sites in a particular Site Settings category. For example, this could show all

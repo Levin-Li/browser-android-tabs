@@ -24,7 +24,7 @@ import org.chromium.chrome.browser.settings.MainPreferences;
 import org.chromium.chrome.browser.settings.ManagedPreferenceDelegate;
 import org.chromium.chrome.browser.widget.prefeditor.EditorObserverForTest;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Autofill profiles fragment, which allows the user to edit autofill profiles.

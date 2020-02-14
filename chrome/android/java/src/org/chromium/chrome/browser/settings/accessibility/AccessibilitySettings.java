@@ -26,7 +26,7 @@ import java.text.NumberFormat;
 
 import android.content.SharedPreferences;
 import org.chromium.base.ContextUtils;
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Fragment to keep track of all the accessibility related preferences.

@@ -19,7 +19,7 @@
         android:title="@string/privacy_notice_title"
         app:url="@string/chrome_privacy_notice_url" />
     <Preference
-        android:fragment="org.chromium.chrome.browser.preferences.BraveLicensePreferences"
+        android:fragment="org.chromium.chrome.browser.settings.BraveLicensePreferences"
         android:key="brave_license"
         android:title="@string/brave_license_text" />
 </PreferenceScreen>

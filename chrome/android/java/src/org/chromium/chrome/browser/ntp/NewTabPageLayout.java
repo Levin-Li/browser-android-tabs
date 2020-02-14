@@ -28,7 +28,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
 import org.chromium.base.ContextUtils;
-import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
+import org.chromium.chrome.browser.settings.BackgroundImagesPreferences;
 import org.chromium.base.TraceEvent;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.ChromeActivity;

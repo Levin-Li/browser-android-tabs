@@ -21,7 +21,7 @@ import org.chromium.content_public.common.ContentSwitches;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * The main Site Settings screen, which shows all the site settings categories: All sites, Location,

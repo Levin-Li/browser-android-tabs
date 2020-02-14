@@ -17,7 +17,7 @@ import org.chromium.chrome.browser.customtabs.CustomTabActivity;
 import org.chromium.chrome.browser.settings.MainPreferences;
 import org.chromium.chrome.browser.settings.SettingsUtils;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Fragment for settings page that allows user to view and edit a single server-provided address.

@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package org.chromium.chrome.browser.preferences;
+package org.chromium.chrome.browser.settings;
 
 import android.os.Bundle;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v7.preference.PreferenceFragmentCompat;
 
-import org.chromium.chrome.browser.preferences.ClosingTabsManager;
+import org.chromium.chrome.browser.settings.ClosingTabsManager;
 import org.chromium.base.ContextUtils;
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 
 import org.chromium.chrome.R;

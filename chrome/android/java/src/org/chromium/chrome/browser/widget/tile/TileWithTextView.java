@@ -13,7 +13,7 @@ import android.os.Build;
 import android.app.Activity;
 
 import org.chromium.base.ContextUtils;
-import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
+import org.chromium.chrome.browser.settings.BackgroundImagesPreferences;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 import org.chromium.chrome.browser.ChromeTabbedActivity;

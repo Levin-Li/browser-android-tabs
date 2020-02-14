@@ -13,7 +13,7 @@
         android:summaryOn="@string/text_on"
         android:summaryOff="@string/text_off" />
 
-    <org.chromium.chrome.browser.preferences.BraveRewardsResetPreference
+    <org.chromium.chrome.browser.settings.BraveRewardsResetPreference
         android:key="reset_rewards"
         android:title="@string/reset_brave_rewards_option"
         android:positiveButtonText="@string/brave_sync_confirm_code_words_text"

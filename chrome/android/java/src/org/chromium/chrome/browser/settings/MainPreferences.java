@@ -52,8 +52,8 @@ import org.chromium.chrome.browser.onboarding.OnboardingPrefManager;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.BraveRewardsHelper;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
-import org.chromium.chrome.browser.preferences.ClosingTabsManager;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.ClosingTabsManager;
 import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 
 /**

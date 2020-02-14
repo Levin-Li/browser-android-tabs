@@ -29,7 +29,7 @@ import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImage;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredLogo;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;
-import org.chromium.chrome.browser.preferences.developer.QAPreferences;
+import org.chromium.chrome.browser.settings.developer.QAPreferences;
 
 public class NTPDownloadUtils {
     public static final String NTP_BASE_URL_DEBUG = "https://brave-ntp-crx-input-dev.s3-us-west-2.amazonaws.com";

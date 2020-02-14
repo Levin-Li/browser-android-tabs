@@ -84,7 +84,7 @@ import org.chromium.chrome.browser.tabmodel.TabLaunchType;
 import org.chromium.chrome.browser.ui.widget.displaystyle.UiConfig;
 import org.chromium.chrome.browser.ui.widget.displaystyle.ViewResizer;
 import org.chromium.chrome.browser.util.ViewUtils;
-import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
+import org.chromium.chrome.browser.settings.BackgroundImagesPreferences;
 import org.chromium.chrome.browser.ntp.sponsored.NTPImage;
 import org.chromium.chrome.browser.ntp.sponsored.BackgroundImage;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImage;

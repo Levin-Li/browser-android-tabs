@@ -17,7 +17,7 @@ import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 import org.chromium.chrome.browser.settings.PreferencesLauncher;
 import org.chromium.chrome.browser.settings.SettingsUtils;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Settings fragment that displays information about Chrome languages, which allow users to

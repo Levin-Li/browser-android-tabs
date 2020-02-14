@@ -32,7 +32,7 @@ import org.chromium.chrome.browser.notifications.BraveOnboardingNotification;
 import org.chromium.chrome.browser.profiles.Profile;
 import org.chromium.chrome.browser.util.PackageUtils;
 import org.chromium.chrome.browser.onboarding.OnboardingPrefManager;
-import org.chromium.chrome.browser.preferences.BraveRewardsPreferences;
+import org.chromium.chrome.browser.settings.BraveRewardsPreferences;
 
 public class BraveAdsSignupDialog {
 

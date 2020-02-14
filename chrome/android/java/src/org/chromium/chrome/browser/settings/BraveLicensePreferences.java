@@ -3,12 +3,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.chromium.chrome.browser.preferences;
+package org.chromium.chrome.browser.settings;
 
 import android.os.Bundle;
 import org.chromium.base.Log;
 import org.chromium.chrome.browser.BraveRewardsHelper;
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 import org.chromium.chrome.browser.settings.TextMessagePreference;
 import org.chromium.chrome.R;
 import java.io.IOException;
