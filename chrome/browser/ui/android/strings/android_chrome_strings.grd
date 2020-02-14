@@ -2850,9 +2850,9 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_BUTTON_NEW_TAB" desc="Button name for opening a new tab.">
         New tab
       </message>
-      <message name="IDS_BUTTON_NEW_INCOGNITO_TAB" desc="Tooltip for the button to open a new incognito browser tab.">
+      <!-- <message name="IDS_BUTTON_NEW_INCOGNITO_TAB" desc="Tooltip for the button to open a new incognito browser tab.">
         New incognito tab
-      </message>
+      </message> -->
       <message name="IDS_CUSTOM_TAB_AMP_PUBLISHER_URL" desc="Text shown in a Custom Tab toolbar for a web page that is hosted by the Google content delivery network but was originally published by someone else.">
         From <ph name="PUBLISHER_ORIGIN">&lt;pub&gt;%1$s&lt;/pub&gt;<ex>example.com</ex></ph> – <ph name="BEGIN_DEEMPHASIZED">&lt;bg&gt;</ph>delivered by Google<ph name="END_DEEMPHASIZED">&lt;/bg&gt;</ph>
       </message>
@@ -2906,9 +2906,9 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_MENU_NEW_TAB" desc="Menu item for opening a new tab. [CHAR-LIMIT=27]">
         New tab
       </message>
-      <message name="IDS_MENU_NEW_INCOGNITO_TAB" desc="Menu item for opening a new incognito tab that facilitates pseudononymous browsing. [CHAR-LIMIT=27]" meaning="Android menu">
+      <!-- <message name="IDS_MENU_NEW_INCOGNITO_TAB" desc="Menu item for opening a new incognito tab that facilitates pseudononymous browsing. [CHAR-LIMIT=27]" meaning="Android menu">
         New incognito tab
-      </message>
+      </message> -->
       <message name="IDS_MENU_BOOKMARKS" desc="Menu item for opening the bookmarks page that contains all the user's bookmarks. [CHAR-LIMIT=27]">
         Bookmarks
       </message>
@@ -3167,15 +3167,15 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_ACCESSIBILITY_NEW_TAB_PAGE" desc="Accessibility text to read aloud when the user focuses the new tab view.">
         New tab
       </message>
-      <message name="IDS_ACCESSIBILITY_NEW_INCOGNITO_TAB_PAGE" desc="Accessibility text to read aloud when the user focuses the new incognito tab view.">
+      <!-- <message name="IDS_ACCESSIBILITY_NEW_INCOGNITO_TAB_PAGE" desc="Accessibility text to read aloud when the user focuses the new incognito tab view.">
         New incognito tab
-      </message>
+      </message> -->
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_NEW_TAB" desc="Content description for the new tab button.">
         New tab
       </message>
-      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_NEW_INCOGNITO_TAB" desc="Content description for the new incognito tab button.">
+      <!-- <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_NEW_INCOGNITO_TAB" desc="Content description for the new incognito tab button.">
         New incognito tab
-      </message>
+      </message> -->
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_CLOSE_ALL_TABS" desc="Content description for the close all tabs button.">
         Close all tabs
       </message>

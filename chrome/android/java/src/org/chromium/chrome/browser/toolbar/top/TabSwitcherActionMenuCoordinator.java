@@ -154,7 +154,7 @@ public class TabSwitcherActionMenuCoordinator {
                 return buildMenuListItem(
                         R.string.menu_new_tab, R.id.new_tab_menu_id, R.drawable.new_tab_icon);
             case MenuItemType.NEW_INCOGNITO_TAB:
-                return buildMenuListItem(R.string.menu_new_incognito_tab,
+                return buildMenuListItem(R.string.brave_new_private_tab,
                         R.id.new_incognito_tab_menu_id, R.drawable.incognito_simple);
             case MenuItemType.DIVIDER:
             default:
