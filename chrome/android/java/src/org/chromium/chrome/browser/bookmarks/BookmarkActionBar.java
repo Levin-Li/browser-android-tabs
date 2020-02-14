@@ -51,7 +51,7 @@ public class BookmarkActionBar extends SelectableListToolbar<BookmarkId>
 
         getMenu()
                 .findItem(R.id.selection_open_in_incognito_tab_id)
-                .setTitle(R.string.contextmenu_open_in_incognito_tab);
+                .setTitle(R.string.brave_open_in_private_tab);
 
         // Wait to enable the selection mode group until the BookmarkDelegate is set. The
         // SelectionDelegate is retrieved from the BookmarkDelegate.

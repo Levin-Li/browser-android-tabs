@@ -107,10 +107,10 @@ public class ChromeContextMenuItem implements ContextMenuItem {
      */
     private static final int[] STRING_IDS = {
             R.string.contextmenu_open_in_new_chrome_tab, // Item.OPEN_IN_NEW_CHROME_TAB:
-            R.string.contextmenu_open_in_chrome_incognito_tab, // Item.OPEN_IN_CHROME_INCOGNITO_TAB:
+            R.string.brave_open_in_private_tab, // Item.OPEN_IN_CHROME_INCOGNITO_TAB:
             0, // Item.OPEN_IN_BROWSER_ID is not handled by this mapping.
             R.string.contextmenu_open_in_new_tab, // Item.OPEN_IN_NEW_TAB:
-            R.string.contextmenu_open_in_incognito_tab, // Item.OPEN_IN_INCOGNITO_TAB:
+            R.string.brave_open_in_private_tab, // Item.OPEN_IN_INCOGNITO_TAB:
             R.string.contextmenu_open_in_other_window, // Item.OPEN_IN_OTHER_WINDOW:
             R.string.contextmenu_open_in_ephemeral_tab, // Item.OPEN_IN_EPHEMERAL_TAB:
             R.string.contextmenu_copy_link_address, // Item.COPY_LINK_ADDRESS:

@@ -250,7 +250,7 @@ public class ContextMenuManager implements OnCloseContextMenuListener {
                         ? R.string.contextmenu_open_in_new_tab_group
                         : R.string.contextmenu_open_in_new_tab;
             case ContextMenuItemId.OPEN_IN_INCOGNITO_TAB:
-                return R.string.contextmenu_open_in_incognito_tab;
+                return R.string.brave_open_in_private_tab;
             case ContextMenuItemId.OPEN_IN_NEW_WINDOW:
                 return R.string.contextmenu_open_in_other_window;
             case ContextMenuItemId.SAVE_FOR_OFFLINE:
