@@ -65,7 +65,7 @@ import org.chromium.ui.base.WindowAndroid;
 import org.chromium.chrome.browser.search_engines.TemplateUrlServiceFactory;
 import android.content.SharedPreferences;
 import java.util.Calendar;
-import org.chromium.chrome.browser.preferences.BackgroundImagesPreferences;
+import org.chromium.chrome.browser.settings.BackgroundImagesPreferences;
 import org.chromium.chrome.browser.ntp.sponsored.BackgroundImage;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImage;
 import org.chromium.chrome.browser.ntp.sponsored.SponsoredImageUtil;

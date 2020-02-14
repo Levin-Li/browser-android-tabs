@@ -14,7 +14,7 @@ import org.chromium.chrome.R;
 import org.chromium.chrome.browser.flags.FeatureUtilities;
 import org.chromium.chrome.browser.partnercustomizations.HomepageManager;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Fragment that allows the user to configure homepage related preferences.

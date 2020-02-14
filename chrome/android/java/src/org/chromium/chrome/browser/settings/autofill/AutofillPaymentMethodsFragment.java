@@ -24,7 +24,7 @@ import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 import org.chromium.chrome.browser.settings.MainPreferences;
 import org.chromium.chrome.browser.settings.ManagedPreferenceDelegate;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Autofill credit cards fragment, which allows the user to edit credit cards and control

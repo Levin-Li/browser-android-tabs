@@ -12,7 +12,7 @@ import android.content.SharedPreferences;
 import org.chromium.base.Log;
 import org.chromium.chrome.browser.init.NTPUpdater;
 import org.chromium.base.ContextUtils;
-import org.chromium.chrome.browser.preferences.developer.QAPreferences;
+import org.chromium.chrome.browser.settings.developer.QAPreferences;
 
 public class NTPUpdaterWorker {
 

@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.chromium.chrome.browser.preferences;
+package org.chromium.chrome.browser.settings;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -76,7 +76,7 @@ import com.google.zxing.WriterException;
 import org.chromium.base.Log;
 import org.chromium.base.ThreadUtils;
 import org.chromium.chrome.R;
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 import org.chromium.ui.base.DeviceFormFactor;
 import org.chromium.ui.KeyboardVisibilityDelegate;
 

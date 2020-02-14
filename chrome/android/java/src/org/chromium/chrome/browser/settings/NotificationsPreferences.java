@@ -20,7 +20,7 @@ import org.chromium.chrome.browser.settings.website.SingleCategoryPreferences;
 import org.chromium.chrome.browser.settings.website.SiteSettingsCategory;
 import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Settings fragment that allows the user to configure notifications. It contains general

@@ -13,7 +13,7 @@ import org.chromium.base.ContextUtils;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.settings.ChromeSwitchPreference;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /** The "Autofill Assistant" preferences screen in Settings. */
 public class AutofillAssistantPreferences extends BravePreferenceFragment {

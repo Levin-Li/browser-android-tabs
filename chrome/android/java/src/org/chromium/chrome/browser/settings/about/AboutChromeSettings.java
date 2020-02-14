@@ -20,7 +20,7 @@ import org.chromium.ui.widget.Toast;
 
 import java.util.Calendar;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Settings fragment that displays information about Chrome.

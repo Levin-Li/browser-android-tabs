@@ -19,7 +19,7 @@
         app:allowDividerAbove="false"
         app:allowDividerBelow="false" />
     <Preference
-        android:fragment="org.chromium.chrome.browser.preferences.developer.QAPreferences"
+        android:fragment="org.chromium.chrome.browser.settings.developer.QAPreferences"
         android:key="qa_preferences"
         android:title="QA Preferences"/>
 </PreferenceScreen>

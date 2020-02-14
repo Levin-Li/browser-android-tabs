@@ -10,7 +10,7 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 import org.chromium.chrome.R;
 import org.chromium.chrome.browser.settings.SettingsUtils;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Fragment to display legal information about Chrome.

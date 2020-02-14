@@ -52,7 +52,7 @@ import org.chromium.components.signin.metrics.SignoutReason;
 
 import java.util.List;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * The settings screen with information and settings related to the user's accounts.

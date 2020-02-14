@@ -28,7 +28,7 @@ import org.chromium.chrome.browser.usage_stats.UsageStatsConsentDialog;
 import org.chromium.ui.text.NoUnderlineClickableSpan;
 import org.chromium.ui.text.SpanApplier;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 import org.chromium.chrome.browser.settings.website.WebsitePreferenceBridge;
 import android.content.SharedPreferences;
 import org.chromium.base.ContextUtils;

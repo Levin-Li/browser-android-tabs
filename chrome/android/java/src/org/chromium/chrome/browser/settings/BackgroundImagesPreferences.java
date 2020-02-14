@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.chromium.chrome.browser.preferences;
+package org.chromium.chrome.browser.settings;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.R;
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 import org.chromium.chrome.browser.ChromeFeatureList;
 import org.chromium.chrome.browser.preferences.PrefServiceBridge;
 import org.chromium.chrome.browser.RestartWorker;

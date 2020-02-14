@@ -30,7 +30,7 @@ import org.chromium.chrome.browser.bookmarks.BookmarkUtils;
 import org.chromium.chrome.browser.bookmarks.BookmarkBridge.BookmarkItem;
 import org.chromium.chrome.browser.bookmarks.BookmarkBridge.BookmarkModelObserver;
 import org.chromium.chrome.browser.partnerbookmarks.PartnerBookmarksShim;
-import org.chromium.chrome.browser.preferences.BraveSyncScreensObserver;
+import org.chromium.chrome.browser.settings.BraveSyncScreensObserver;
 import org.chromium.chrome.browser.WebContentsFactory;
 import org.chromium.content_public.browser.JavascriptInjector;
 import org.chromium.content_public.browser.WebContents;

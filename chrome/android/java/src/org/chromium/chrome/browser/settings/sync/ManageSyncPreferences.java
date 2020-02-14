@@ -45,7 +45,7 @@ import org.chromium.content_public.browser.UiThreadTaskTraits;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.chromium.chrome.browser.preferences.BravePreferenceFragment;
+import org.chromium.chrome.browser.settings.BravePreferenceFragment;
 
 /**
  * Settings fragment to customize Sync options (data types, encryption). Can be accessed from
