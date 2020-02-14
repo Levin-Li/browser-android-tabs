@@ -32,7 +32,7 @@ public class HistoryManagerToolbar extends SelectableListToolbar<HistoryItem> {
 
         getMenu()
                 .findItem(R.id.selection_mode_open_in_incognito)
-                .setTitle(R.string.contextmenu_open_in_incognito_tab);
+                .setTitle(R.string.brave_open_in_private_tab);
 
         updateMenuItemVisibility();
     }

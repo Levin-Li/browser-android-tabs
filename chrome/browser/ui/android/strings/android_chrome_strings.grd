@@ -2111,9 +2111,9 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_CONTEXTMENU_OPEN_IN_NEW_TAB_GROUP" desc="Context sensitive menu item to open the selected link in a new tab in a new group. [CHAR-LIMIT=30]">
         Open in new tab in group
       </message>
-      <message name="IDS_CONTEXTMENU_OPEN_IN_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a new incognito tab. [CHAR-LIMIT=30]">
+      <!-- <message name="IDS_CONTEXTMENU_OPEN_IN_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a new incognito tab. [CHAR-LIMIT=30]">
         Open in incognito tab
-      </message>
+      </message> -->
       <message name="IDS_CONTEXTMENU_CALL" desc="Context sensitive menu for calling phone number. [CHAR-LIMIT=30]">
         Call
       </message>
@@ -2168,9 +2168,9 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_CONTEXTMENU_OPEN_IN_NEW_CHROME_TAB" desc="Context sensitive menu item to open the selected link in a new Brave tab from Brave Custom Tab. [CHAR-LIMIT=30]">
         Open in new Brave tab
       </message>
-      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a Brave incognito tab from Brave Custom Tab. [CHAR-LIMIT=30]">
+      <!-- <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a Brave incognito tab from Brave Custom Tab. [CHAR-LIMIT=30]">
         Open in incognito tab
-      </message>
+      </message> -->
       <message name="IDS_CONTEXTMENU_OPEN_IN_EPHEMERAL_TAB" desc="Context-sensitive menu item to open a quick preview of the selected linked page.   Note that 'preview' is a verb, not a noun. We're also labeling it *New* to draw attention to it when first released. The selected link will open in an overlay panel on top of the current tab which will go away easily too. [CHAR-LIMIT=30]">
         Preview page <ph name="BEGIN_NEW">&lt;new&gt;</ph>New<ph name="END_NEW">&lt;/new&gt;</ph>
       </message>
@@ -2590,12 +2590,12 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       </message>
 
       <!-- Close Incognito tabs notification messages -->
-      <message name="IDS_CLOSE_ALL_INCOGNITO_NOTIFICATION_TITLE" desc="Title on the notification that closes all incognito tabs on Android N+.">
+      <!-- <message name="IDS_CLOSE_ALL_INCOGNITO_NOTIFICATION_TITLE" desc="Title on the notification that closes all incognito tabs on Android N+.">
         Incognito Tabs
       </message>
       <message name="IDS_CLOSE_ALL_INCOGNITO_NOTIFICATION" desc="Message on the notification that closes all incognito tabs.">
         Close all incognito tabs
-      </message>
+      </message> -->
 
       <!-- Autofill/Wallet integration prompt -->
       <message name="IDS_CARD_UNMASK_INPUT_HINT" desc="Hint text for an input field containing the user's credit card CVC (card verification code).">
@@ -3179,9 +3179,9 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_CLOSE_ALL_TABS" desc="Content description for the close all tabs button.">
         Close all tabs
       </message>
-      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_CLOSE_ALL_INCOGNITO_TABS" desc="Content description for the close all incognito tabs button.">
+      <!-- <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_CLOSE_ALL_INCOGNITO_TABS" desc="Content description for the close all incognito tabs button.">
         Close all incognito tabs
-      </message>
+      </message> -->
       <message name="IDS_ACCESSIBILITY_INCOGNITO_BADGE" desc="Content description for the badge indicating that the user is in Incognito mode.">
         Incognito mode
       </message>
@@ -4327,7 +4327,7 @@ Saved
         Open in private tab
       </message>
       <message name="IDS_BRAVE_CLOSE_ALL_PRIVATE_TABS" desc="Text for 'Close all private tabs'">
-        Close private tabs
+        Close all private tabs
       </message>
       <message name="IDS_BRAVE_NEW_PRIVATE_TAB" desc="Text for 'New private tab'">
         New private tab
@@ -4943,6 +4943,9 @@ content creators you love.
       </message>
       <message name="IDS_TURN_ON_BRAVE_ADS_TO_CLAIM" desc="Text description for NTP banner.">
           Get paid to see this background image. Turn on Brave Ads to claim your share.
+      </message>
+      <message name="IDS_BRAVE_PRIVATE_TABS" desc="Text for 'Private Tabs' title.">
+          Private Tabs
       </message>
     </messages>
   </release>

@@ -74,7 +74,7 @@ class CloseAllTabsButton extends ChromeImageButton
     @Override
     public void onIncognitoStateChanged(boolean isIncognito) {
         @StringRes
-        int resId = isIncognito ? R.string.accessibility_toolbar_btn_close_all_incognito_tabs
+        int resId = isIncognito ? R.string.brave_close_all_private_tabs
                                 : R.string.accessibility_toolbar_btn_close_all_tabs;
         setContentDescription(getResources().getText(resId));
     }
