@@ -14,6 +14,7 @@
 #include "content/public/browser/browser_thread.h"
 #include "url/gurl.h"
 #include "url/origin.h"
+#include "components/prefs/pref_member.h"
 
 class Profile;
 struct PrerenderAttributes;
@@ -85,6 +86,8 @@ class PrerenderMessageFilter : public content::BrowserMessageFilter {
       shutdown_notifier_;
 
   Profile* profile_;
+  static BooleanPrefMember* enable_fingerprinting_protection_;
+  std::mutex enable_fingerprinting_protection_init_mutex_;
 
   DISALLOW_COPY_AND_ASSIGN(PrerenderMessageFilter);
 };
