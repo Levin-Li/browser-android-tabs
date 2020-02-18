@@ -20,6 +20,7 @@
 #include "content/public/browser/child_process_security_policy.h"
 
 #include "chrome/browser/net/blockers/shields_config.h"
+#include "chrome/common/pref_names.h"
 
 using content::BrowserThread;
 
@@ -51,6 +52,8 @@ class PrerenderMessageFilterShutdownNotifierFactory
 
 }  // namespace
 
+BooleanPrefMember* PrerenderMessageFilter::enable_fingerprinting_protection_ = nullptr;
+
 PrerenderMessageFilter::PrerenderMessageFilter(int render_process_id,
                                                Profile* profile)
     : BrowserMessageFilter(PrerenderMsgStart),
@@ -60,6 +63,13 @@ PrerenderMessageFilter::PrerenderMessageFilter(int render_process_id,
       prerender_link_manager_(
           PrerenderLinkManagerFactory::GetForProfile(profile)),
       profile_(profile) {
+  if (!PrerenderMessageFilter::enable_fingerprinting_protection_) {
+    std::lock_guard<std::mutex> guard(enable_fingerprinting_protection_init_mutex_);
+    PrerenderMessageFilter::enable_fingerprinting_protection_ = new BooleanPrefMember();
+    PrerenderMessageFilter::enable_fingerprinting_protection_->Init(prefs::kFingerprintingProtectionEnabled,  profile->GetPrefs());
+    PrerenderMessageFilter::enable_fingerprinting_protection_->MoveToSequence(
+      base::CreateSingleThreadTaskRunner({BrowserThread::IO}));
+  }
   shutdown_notifier_ =
       PrerenderMessageFilterShutdownNotifierFactory::GetInstance()
           ->Get(profile)
@@ -203,9 +213,8 @@ void PrerenderMessageFilter::OnContentAllowFingerprinting(int render_frame_id,
         if (isGlobalBlockEnabled && '1' == hostConfig[10]) {
             allowed = false;
         }
-      } else {
-        // TODO(samartnik): get global value
-        allowed = true;
+      } else if (PrerenderMessageFilter::enable_fingerprinting_protection_) {
+        allowed = !PrerenderMessageFilter::enable_fingerprinting_protection_->GetValue();
       }
     }
     PrerenderHostMsg_AllowFingerprinting::WriteReplyParams(reply_msg, allowed);
