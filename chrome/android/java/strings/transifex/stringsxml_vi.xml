@@ -87,7 +87,7 @@ HTTPS</string>
     <string name="prefs_private_search_engine">Tab riêng tư</string>
 
     <string name="brave_open_in_private_tab">Mở trong tab riêng tư</string>
-    <string name="brave_close_all_private_tabs">Đóng các tab riêng tư</string>
+    <string name="brave_close_all_private_tabs">Đóng tất cả các tab riêng tư</string>
     <string name="brave_new_private_tab">Tab riêng tư mới</string>
     <string name="brave_new_tab_private_header">Đây là một tab riêng tư</string>
     <string name="brave_new_tab_private_message">Mặc dù các trang web bạn truy cập trong các tab riêng tư không được lưu cục bộ, chúng không giúp bạn ẩn danh hoặc vô hình với ISP (Nhà cung cấp dịch vụ Internet) hay nhà tuyển dụng của bạn hoặc các trang web mà bạn đang truy cập.</string>
@@ -326,7 +326,6 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Ảnh của <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Brave Ads được gửi khi trình duyệt ở chế độ nền</string>
 
     <string name="brave_ui_tips_processed_notification">Lời khuyên hàng tháng của bạn đã được xử lý!</string>
@@ -336,7 +335,6 @@ những nhà sáng tạo nội dung bạn yêu thích.</string>
     <string name="brave_ui_brave_ads_launch_title">Brave Ads đã đến rồi!</string>
     <string name="brave_ui_verified_publisher_notification">Người tạo <ph name=\"PUBLISHER_NAME\">%1$s</ph> gần đây đã được xác minh</string>
     <string name="brave_ui_pending_contribution_title">Đang chờ Đóng góp</string>
-
     <string name="get_paid_to_see_ads">Được trả tiền để xem hình nền này.</string>
     <string name="ntp_brave_rewards_off_text">Bạn sẽ nhận được 70% doanh thu quảng cáo cho tài trợ riêng này mà có thể được sử dụng để hỗ trợ người tạo nội dung web. Bật Brave Rewards để yêu cầu hoàn tiền cho việc chia sẻ của bạn.</string>
     <string name="turn_on_rewards">Bật Rewards (Phần thưởng)</string>
@@ -350,4 +348,5 @@ Kiếm token bằng cách xem quảng cáo tôn trọng quyền riêng tư.</str
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> về các hình ảnh được tài trợ trong Brave Rewards. Bạn cũng có thể chọn <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Bạn cũng có thể chọn <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Được trả tiền để xem hình nền này. Bật  Brave Ads để yêu cầu hoàn tiền cho việc chia sẻ của bạn.</string>
+    <string name="brave_private_tabs">Tab riêng tư</string>
 </resources>

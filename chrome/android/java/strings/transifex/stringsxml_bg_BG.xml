@@ -86,7 +86,6 @@
     <string name="prefs_private_search_engine">Поверителен раздел</string>
 
     <string name="brave_open_in_private_tab">Отвори в поверителен раздел</string>
-    <string name="brave_close_all_private_tabs">Затваряне на поверителни раздели</string>
     <string name="brave_new_private_tab">Нов поверителен раздел</string>
     <string name="brave_new_tab_private_header">Това е поверителен раздел</string>
     <string name="brave_new_tab_private_message">Въпреки че сайтовете, които посещавате в поверителните раздели, не се запазват локално, те не ви правят анонимни или невидими за вашия интернет доставчик, работодател или за сайтовете, които посещавате.</string>
@@ -315,7 +314,6 @@
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Снимка от <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Brave Ads изпратена, когато браузърът е във фонов режим</string>
 
     <string name="brave_ui_tips_processed_notification">Вашите месечни съвети са обработени!</string>
@@ -325,7 +323,6 @@
     <string name="brave_ui_brave_ads_launch_title">Brave Ads пристигна!</string>
     <string name="brave_ui_verified_publisher_notification">Автор <ph name=\"PUBLISHER_NAME\">%1$s</ph> наскоро проверен</string>
     <string name="brave_ui_pending_contribution_title">Участие в изчакване</string>
-
     <string name="get_paid_to_see_ads">Платете, за да видите това фоново изображение.</string>
     <string name="ntp_brave_rewards_off_text">Ще получите 70% от приходите от реклама за това частно спонсорство, които могат да се използват за подкрепа на авторите на уеб съдържание. Включете Brave Rewards, за да вземете своя дял.</string>
     <string name="turn_on_rewards">Включване на наградите</string>
@@ -339,4 +336,4 @@
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> за спонсорираните изображения в Brave Rewards. Можете също да изберете да <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Можете също да изберете да <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Платете, за да видите това фоново изображение. Включете Brave Ads, за да вземете своя дял.</string>
-</resources>
+    </resources>

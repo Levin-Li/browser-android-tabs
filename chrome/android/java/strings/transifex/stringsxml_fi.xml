@@ -88,7 +88,7 @@ Tallennettu</string>
     <string name="prefs_private_search_engine">Yksityinen välilehti</string>
 
     <string name="brave_open_in_private_tab">Avaa yksityisessä välilehdessä</string>
-    <string name="brave_close_all_private_tabs">Sulje yksityiset välilehdet</string>
+    <string name="brave_close_all_private_tabs">Sulje kaikki yksityiset välilehdet</string>
     <string name="brave_new_private_tab">Uusi yksityinen välilehti</string>
     <string name="brave_new_tab_private_header">Tämä on yksityinen välilehti</string>
     <string name="brave_new_tab_private_message">Vaikka sivustoja, joilla vierailemiseen käytät yksityisiä välilehtiä, ei tallennetakaan paikallisesti, et kuitenkaan ole anonyymi tai näkymätön Internet-palveluntarjoajallesi, työnantajallesi tai vierailemillesi sivustoille.</string>
@@ -326,7 +326,6 @@ rakastamillesi sisällöntuottajille.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Kuva: <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Brave Ads lähetetään, kun selain on taustalla</string>
 
     <string name="brave_ui_tips_processed_notification">Kuukausittaiset tippisi on käsitelty.</string>
@@ -336,7 +335,6 @@ rakastamillesi sisällöntuottajille.</string>
     <string name="brave_ui_brave_ads_launch_title">Brave Ads on täällä!</string>
     <string name="brave_ui_verified_publisher_notification">Tekijä <ph name=\"PUBLISHER_NAME\">%1$s</ph> vahvisti äskettäin</string>
     <string name="brave_ui_pending_contribution_title">Odottaa maksua</string>
-
     <string name="get_paid_to_see_ads">Ansaitse katsomalla tämä taustakuva.</string>
     <string name="ntp_brave_rewards_off_text">Saat 70 % yksityisesti sponsoroidun mainoksen tuotosta, joka voidaan käyttää verkkosisällön tekijöiden tukemiseen. Ota Brave Rewards käyttöön ja lunasta osuutesi.</string>
     <string name="turn_on_rewards">Ota palkkiot käyttöön</string>
@@ -350,4 +348,5 @@ Ansaitse poletteja katsomalla yksityisyydensuojaa noudattavia mainoksia.</string
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> sponsoroiduista Brave Rewards -kuvista. Voit halutessasi myös <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2"> Voit halutessasi myös <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Ansaitse katsomalla tämä taustakuva. Ota Brave Ads käyttöön ja lunasta osuutesi.</string>
+    <string name="brave_private_tabs">Yksityiset välilehdet</string>
 </resources>

@@ -88,7 +88,6 @@ HTTPS</string>
     <string name="prefs_private_search_engine">برگه خصوصی</string>
 
     <string name="brave_open_in_private_tab">باز کردن در برگه خصوصی</string>
-    <string name="brave_close_all_private_tabs">بستن برگه‌های خصوصی</string>
     <string name="brave_new_private_tab">برگه خصوصی جدید</string>
     <string name="brave_new_tab_private_header">این یک برگه خصوصی است</string>
     <string name="brave_new_tab_private_message">اگرچه سایت‌هایی که در برگه‌های خصوصی بازدید می‌کنید به‌صورت محلی ذخیره نمی‌شوند، اما باعث نمی‌شود برای ISP، کارفرما، یا سایت‌هایی که بازدید می‌کنید، ناشناس یا نامرئی شوید.</string>

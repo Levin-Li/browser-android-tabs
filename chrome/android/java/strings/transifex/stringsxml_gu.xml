@@ -88,7 +88,6 @@
     <string name="prefs_private_search_engine">ખાનગી ટૅબ</string>
 
     <string name="brave_open_in_private_tab">ખાનગી ટૅબમાં ખોલો</string>
-    <string name="brave_close_all_private_tabs">ખાનગી ટેબ્સ બંધ કરો</string>
     <string name="brave_new_private_tab">નવું ખાનગી ટેબ</string>
     <string name="brave_new_tab_private_header">આ એક ખાનગી ટૅબ છે</string>
     <string name="brave_new_tab_private_message">તેમ છતાં, તમે ખાનગી ટેબ્સમાં મુલાકાત લો છો તે સાઇટ્સ સ્થાનિક રૂપે સાચવવામાં આવી નથી, તે તમને તમારા ISP, તમારા એમ્પ્લોયર અથવા તમે મુલાકાત લઈ રહ્યાં છો તે સાઇટ્સ માટે અનામી અથવા અદ્રશ્ય બનાવતા નથી.</string>

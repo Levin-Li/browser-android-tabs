@@ -88,7 +88,6 @@ na Natipid</string>
     <string name="prefs_private_search_engine">Pribadong Tab</string>
 
     <string name="brave_open_in_private_tab">Buksan sa pribadong tab</string>
-    <string name="brave_close_all_private_tabs">Isara ang mga pribadong tab</string>
     <string name="brave_new_private_tab">Bagong pribadong tab</string>
     <string name="brave_new_tab_private_header">Isa itong Pribadong Tab</string>
     <string name="brave_new_tab_private_message">Bagama\'t hindi lokal na nase-save ang mga site na binibisita mo sa mga pribadong tab, hindi ka nito ginagawang anonymous o invisible sa iyong ISP, sa iyong employer, o sa mga site na binibisita mo.</string>

@@ -88,7 +88,6 @@ estimado</string>
     <string name="prefs_private_search_engine">Pestaña privada</string>
 
     <string name="brave_open_in_private_tab">Abrir en pestaña privada</string>
-    <string name="brave_close_all_private_tabs">Cerrar las pestañas privadas</string>
     <string name="brave_new_private_tab">Nueva pestaña privada</string>
     <string name="brave_new_tab_private_header">Esta es una pestaña privada</string>
     <string name="brave_new_tab_private_message">A pesar de que los sitios que visitas utilizando pestañas privadas no son guardados localmente, estos no te hacen anónimo o invicible a tu Proveedor de Internet, tu empleador, o a los sitios que visitas.</string>

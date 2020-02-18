@@ -88,7 +88,6 @@ Saglabāts</string>
     <string name="prefs_private_search_engine">Privāta cilne</string>
 
     <string name="brave_open_in_private_tab">Atvērt privātā cilnē</string>
-    <string name="brave_close_all_private_tabs">Aizvērt privātās cilnes</string>
     <string name="brave_new_private_tab">Jauna privātā cilne</string>
     <string name="brave_new_tab_private_header">Šī ir privāta cilne</string>
     <string name="brave_new_tab_private_message">Kaut arī privātajās cilnēs apmeklētās vietnes netiek saglabātas lokāli, tās jūs nepadara anonīmus vai neredzamus jūsu interneta pakalpojumu sniedzējam, darba devējam vai apmeklētajām vietnēm.</string>
@@ -329,7 +328,6 @@ savus iemīļotākos satura veidotājus.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Fotoattēla autors: <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Brave reklāmas, kas nosūtītas, kad pārlūks ir fonā</string>
 
     <string name="brave_ui_tips_processed_notification">Jūsu ikmēneša maksas ir apstrādātas!</string>
@@ -339,7 +337,6 @@ savus iemīļotākos satura veidotājus.</string>
     <string name="brave_ui_brave_ads_launch_title">Brave reklāmas ir klāt!</string>
     <string name="brave_ui_verified_publisher_notification">Izveidotājs <ph name=\"PUBLISHER_NAME\">%1$s</ph> nesen verificēts</string>
     <string name="brave_ui_pending_contribution_title">Nenokārtota iemaksa</string>
-
     <string name="get_paid_to_see_ads">Skatiet šo fona attēlu un saņemiet samaksu.</string>
     <string name="ntp_brave_rewards_off_text">Jūs saņemsiet 70% no reklāmas ieņēmumiem šim privātajam finansiālajam atbalstam, ko var izmantot, lai atbalstītu tīmekļa satura veidotājus. Ieslēdziet Brave atlīdzības, lai pieprasītu savu daļu.</string>
     <string name="turn_on_rewards">Ieslēgt atlīdzības</string>
@@ -353,4 +350,4 @@ Pelniet kuponus, skatoties reklāmas, ievērojot privātumu.</string>
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> par sponsorētiem attēliem Brave atlīdzībās. Varat arī izvēlēties <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Varat arī izvēlēties <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Skatiet šo fona attēlu un saņemiet samaksu. ieslēdziet Brave reklāmas, lai saņemtu atlīdzību.</string>
-</resources>
+    </resources>

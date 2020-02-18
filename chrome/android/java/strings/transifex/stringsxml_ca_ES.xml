@@ -86,7 +86,6 @@ Desat</string>
     <string name="prefs_private_search_engine">Pestanya privada</string>
 
     <string name="brave_open_in_private_tab">Obre en una pestanya privada</string>
-    <string name="brave_close_all_private_tabs">Tanca les pestanyes privades</string>
     <string name="brave_new_private_tab">Pestanya privada nova</string>
     <string name="brave_new_tab_private_header">Aquesta és una pestanya privada</string>
     <string name="brave_new_tab_private_message">Tot i que els llocs que visites a les pestanyes privades no es desen localment, no et fan anònim ni invisible de cara al teu proveïdor de serveis d\'Internet, el teu ocupador o els llocs que visites.</string>
@@ -325,7 +324,6 @@ als creadors de contingut que t\'agraden.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Fotografia de <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Anuncis de Brave enviats quan el navegador està en segon pla</string>
 
     <string name="brave_ui_tips_processed_notification">S\'han processat els suggeriments mensuals!</string>
@@ -335,7 +333,6 @@ als creadors de contingut que t\'agraden.</string>
     <string name="brave_ui_brave_ads_launch_title">Han arribat els anuncis de Brave!</string>
     <string name="brave_ui_verified_publisher_notification">El creador <ph name=\"PUBLISHER_NAME\">%1$s</ph> s\'ha verificat</string>
     <string name="brave_ui_pending_contribution_title">Contribució pendent</string>
-
     <string name="get_paid_to_see_ads">Cobra per veure aquesta imatge en segon pla.</string>
     <string name="ntp_brave_rewards_off_text">Rebràs un 70 % dels ingressos de l\'anunci per aquest patrocini privat, el qual es pot fer servir per ajudar als creadors de contingut web. Activa les recompenses de Brave per reclamar la teva part.</string>
     <string name="turn_on_rewards">Activar recompenses</string>
@@ -349,4 +346,4 @@ Guanya tokens veient anuncis que respecten la privadesa.</string>
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> sobre les imatges patrocinades a Recompenses Brave També pots escollir <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">També pots seleccionar <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Cobra per veure aquesta imatge en segon pla. Activa els anuncis de Brave per reclamar la teva part.</string>
-</resources>
+    </resources>

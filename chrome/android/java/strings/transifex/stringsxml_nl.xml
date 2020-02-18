@@ -88,7 +88,7 @@ Bespaard</string>
     <string name="prefs_private_search_engine">Privétabblad</string>
 
     <string name="brave_open_in_private_tab">Openen in privétabblad</string>
-    <string name="brave_close_all_private_tabs">Sluit privétabbladen</string>
+    <string name="brave_close_all_private_tabs">Sluit alle privé-tabbladen</string>
     <string name="brave_new_private_tab">Nieuw privétabblad</string>
     <string name="brave_new_tab_private_header">Dit is een privétabblad</string>
     <string name="brave_new_tab_private_message">Alhoewel de websites die je via een privétabblad bezoekt niet lokaal worden opgeslagen, maken ze je niet anoniem of onzichtbaar voor je internetprovider, werkgever, of andere websites die je bezoekt.</string>
@@ -326,7 +326,6 @@ anderen meegenieten door de inhoudmakers waar jij fan van bent te ondersteunen.<
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Foto door <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Brave Ads verzonden met browser op de achtergrond</string>
 
     <string name="brave_ui_tips_processed_notification">Je maandelijkse fooien zijn verwerkt!</string>
@@ -336,7 +335,6 @@ anderen meegenieten door de inhoudmakers waar jij fan van bent te ondersteunen.<
     <string name="brave_ui_brave_ads_launch_title">Brave Ads is nu beschikbaar!</string>
     <string name="brave_ui_verified_publisher_notification">Maker <ph name=\"PUBLISHER_NAME\">%1$s</ph> is recentelijk geverifieerd</string>
     <string name="brave_ui_pending_contribution_title">In afwachting van bijdrage</string>
-
     <string name="get_paid_to_see_ads">Word betaald om deze achtergrondafbeelding te zien.</string>
     <string name="ntp_brave_rewards_off_text">Je ontvangt 70% advertentie-inkomsten voor deze privé-sponsoring die kan worden gebruikt om makers van webcontent te ondersteunen. Zet Brave Rewards aan en doe ook mee.</string>
     <string name="turn_on_rewards">Rewards aanzetten</string>
@@ -350,4 +348,5 @@ Verdien tokens door advertenties te bekijken die je privacy respecteren.</string
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> over gesponsorde afbeeldingen in Brave Rewards. Je kunt er ook voor kiezen om <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Je kunt er ook voor kiezen om <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Word betaald om deze achtergrondafbeelding te zien. Zet Brave Ads aan en doe ook mee.</string>
+    <string name="brave_private_tabs">Privé-tabbladen</string>
 </resources>

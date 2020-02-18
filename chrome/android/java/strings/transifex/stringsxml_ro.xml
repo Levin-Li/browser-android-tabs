@@ -87,7 +87,7 @@ Salvat</string>
     <string name="prefs_private_search_engine">Filă privată</string>
 
     <string name="brave_open_in_private_tab">Deschideți în filă privată</string>
-    <string name="brave_close_all_private_tabs">Închideți filele private</string>
+    <string name="brave_close_all_private_tabs">Închideți toate filele private</string>
     <string name="brave_new_private_tab">Filă privată nouă</string>
     <string name="brave_new_tab_private_header">Aceasta este o filă privată</string>
     <string name="brave_new_tab_private_message">Cu toate că site-urile pe care le vizitați în file private nu sunt salvate local, acestea nu vă fac anonim sau invizibil pentru furnizorul dvs. de internet, angajatorul dvs. sau site-urile pe care le vizitați.</string>
@@ -325,7 +325,6 @@ creatorii de conținut care vă plac.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Fotografie de <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Reclame Brave trimise când navigatorul este în fundal</string>
 
     <string name="brave_ui_tips_processed_notification">Câștigurile dumneavoastră lunare au fost procesate!</string>
@@ -335,7 +334,6 @@ creatorii de conținut care vă plac.</string>
     <string name="brave_ui_brave_ads_launch_title">Reclamele Brave au sosit!</string>
     <string name="brave_ui_verified_publisher_notification">Creatorul <ph name=\"PUBLISHER_NAME\">%1$s</ph> recent verificat</string>
     <string name="brave_ui_pending_contribution_title">Contribuție în așteptare</string>
-
     <string name="get_paid_to_see_ads">Obțineți un câștig pentru vizionarea acestei imagini de fundal.</string>
     <string name="ntp_brave_rewards_off_text">Dumneavoastră&apos;veți primi 70 % din câștigurile obținute de această sponsorizare privată ce pot fi utilizate pentru sprijinirea creatorilor de conținut web. Porniți Recompensele Brave pentru a vă obține partea de câștig.</string>
     <string name="turn_on_rewards">Pornire Recompense</string>
@@ -349,4 +347,5 @@ Câștigați jetoane vizualizând publicități ce respectă viața privată.</s
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> despre imaginile sponsorizate în programul Recompensele Brave. Puteți, de asemenea, alege să <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Puteți, de asemenea, alege să <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Obțineți un câștig pentru vizionarea acestei imagini de fundal. Porniți reclamele Brave pentru a vă primi partea de câștig.</string>
+    <string name="brave_private_tabs">File private</string>
 </resources>

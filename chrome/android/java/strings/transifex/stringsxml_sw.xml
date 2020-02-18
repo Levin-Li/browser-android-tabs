@@ -88,7 +88,6 @@ Umehifadhiwa</string>
     <string name="prefs_private_search_engine">Kichupo Binafsi</string>
 
     <string name="brave_open_in_private_tab">Fungua kwenye kichupo binafsi</string>
-    <string name="brave_close_all_private_tabs">Funga vichupo binafsi</string>
     <string name="brave_new_private_tab">Kichupo binafsi kipya</string>
     <string name="brave_new_tab_private_header">Hiki ni Kichupo Binafsi</string>
     <string name="brave_new_tab_private_message">Ingawa tovuti unazozitembelea hazihifadhiwi kimahalia, hazifichi utambulisho wako kwa ISP yako, mwajiri wako, au tovuti unayoitembelea.</string>

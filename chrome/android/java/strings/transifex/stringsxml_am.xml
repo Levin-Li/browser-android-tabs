@@ -86,7 +86,6 @@
     <string name="prefs_private_search_engine">የግል ታብ</string>
 
     <string name="brave_open_in_private_tab">በግል ታብ ክፈት</string>
-    <string name="brave_close_all_private_tabs">የግል ታብን ዝጋ</string>
     <string name="brave_new_private_tab">አዲስ የግል ታብ</string>
     <string name="brave_new_tab_private_header">ይህ የግል ታብ ነው</string>
     <string name="brave_new_tab_private_message">በግል ታቦች የሚጎበኙዋቸው ድረገጾች እዚያው ላይ የማይቀመጡ ቢሆንም፣ ለበይነመረብ አገልግሎት አቅራቢዎ፣ ቀጣሪዎ ወይም የሚጎበኙዋቸው ድረገጾች ማንነትዎ እንዳይታወቅ አያደርጉም።</string>

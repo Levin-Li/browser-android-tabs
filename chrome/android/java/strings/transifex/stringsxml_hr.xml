@@ -86,7 +86,6 @@ Spaseno</string>
     <string name="prefs_private_search_engine">Privatna kartica</string>
 
     <string name="brave_open_in_private_tab">Otvori u privatnoj kartici</string>
-    <string name="brave_close_all_private_tabs">Zatvori privatne kartice</string>
     <string name="brave_new_private_tab">Nova privatna kartica</string>
     <string name="brave_new_tab_private_header">Ovo je privatna kartica</string>
     <string name="brave_new_tab_private_message">Iako se mrežna mjesta, koja posjećujete uporabom privatnih kartica, ne spremaju lokalno, uporabom privatnih kartica niste anonimni ili nevidljivi vašem pružatelju internetskih usluga, vašem poslodavcu ili mrežnim mjestima koje posjećujete.</string>
@@ -325,7 +324,6 @@ omiljene stvaratelje sadržaja.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Autor fotografije <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Brave oglasi šalju se kad je preglednik u pozadini</string>
 
     <string name="brave_ui_tips_processed_notification">Vaši mjesečni savjeti su obrađeni!</string>
@@ -335,7 +333,6 @@ omiljene stvaratelje sadržaja.</string>
     <string name="brave_ui_brave_ads_launch_title">Brave Oglasi su stigli!</string>
     <string name="brave_ui_verified_publisher_notification">Kreator <ph name=\"PUBLISHER_NAME\">%1$s</ph> nedavno verificiran</string>
     <string name="brave_ui_pending_contribution_title">Prilog na čekanju</string>
-
     <string name="get_paid_to_see_ads">Budite plaćeni da gledate ovu pozadinsku sliku.</string>
     <string name="ntp_brave_rewards_off_text">Vi&apos;ćete dobiti 70% prihoda od oglasa za ovo privatno sponzorstvo koje se može rabiti kao potpora drugim kreatorima mrežnih sadržaja. Upalite Brave Nagrade i preuzmite svoj dio.</string>
     <string name="turn_on_rewards">Upalite Nagrade</string>
@@ -349,4 +346,4 @@ Zaradite žetone pregledanjem oglasa kojima se poštuje privatnost.</string>
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> o sponzoriranim slikama u Brave Nagradama. Možete odabrati i da <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Možete odabrati i da <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Budite plaćeni da gledate ovu pozadinsku sliku. Upalite Brave Oglase kako biste preuzeli svoj dio.</string>
-</resources>
+    </resources>

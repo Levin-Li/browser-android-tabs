@@ -88,7 +88,7 @@
     <string name="prefs_private_search_engine">निजी टैब</string>
 
     <string name="brave_open_in_private_tab">निजी टैब में खोलें</string>
-    <string name="brave_close_all_private_tabs">निजी टैब बंद करें</string>
+    <string name="brave_close_all_private_tabs">सभी निजी टैब बंद करें</string>
     <string name="brave_new_private_tab">नया निजी टैब</string>
     <string name="brave_new_tab_private_header">यह एक निजी टैब है</string>
     <string name="brave_new_tab_private_message">भले ही आप द्वारा निजी  टैब्स में देखी जाने वाली साइटें स्थानीय रूप से सहेजी नहीं जाती हैं, फिर भी वे आपको आपके ISP, आपके नियोक्ता, या आप द्वारा देखी गई साइटों के लिए अज्ञातकृत या अदृश्य नहीं बनाती हैं।</string>
@@ -330,7 +330,6 @@
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by"><ph name=\"PHOTO_BY\">%1$s </ph> द्वारा फ़ोटो</string>
-
     <string name="notification_category_brave_ads_background">बैकग्राउंड में ब्राउज़र दिखने पर ब्रेव एड्स भेजा गया </string>
 
     <string name="brave_ui_tips_processed_notification">आपकी मासिक टिप्स तैयार हो गई हैं। </string>
@@ -340,7 +339,6 @@
     <string name="brave_ui_brave_ads_launch_title">ब्रेव एड्स आ गया है!</string>
     <string name="brave_ui_verified_publisher_notification">हाल ही में रचयिता <ph name=\"PUBLISHER_NAME\">%1$s</ph> सत्यापित किया गया </string>
     <string name="brave_ui_pending_contribution_title">अनिर्णीत योगदान </string>
-
     <string name="get_paid_to_see_ads">इस बैकग्राउंड चित्र को देखने पर धनार्जन करें।  </string>
     <string name="ntp_brave_rewards_off_text">इस निजी प्रायोजन के लिए You&apos;ll विज्ञापन आय का 70% प्राप्त करते हैं जो वेब सामग्री रचयिताओं की सहायता हेतु प्रयोग किया जा सकता है।   अपने शेयर का अनुरोध करने हेतु ब्रेव रिवार्ड्स चालू करें।</string>
     <string name="turn_on_rewards">रिवार्ड्स चालू करें</string>
@@ -354,4 +352,5 @@
     <string name="br_on_ads_on_text">ब्रेव रिवार्ड्स में प्रायोजित चित्रों के बारे में <ph name=\"LEARN_MORE\">%1$s</ph> आप <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph> का चयन भी कर सकते हैं।</string>
     <string name="br_on_ads_on_text2">आप <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph> का चयन भी कर सकते हैं। </string>
     <string name="turn_on_brave_ads_to_claim">इस बैकग्राउंड चित्र को देखने पर धनार्जन करें।   अपने शेयर का अनुरोध करने हेतु ब्रेव एड्स चालू करें।</string>
+    <string name="brave_private_tabs">निजी टैब</string>
 </resources>

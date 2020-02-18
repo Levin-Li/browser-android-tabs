@@ -88,7 +88,7 @@ Salvo</string>
     <string name="prefs_private_search_engine">Guia Privada</string>
 
     <string name="brave_open_in_private_tab">Abrir em uma guia privada</string>
-    <string name="brave_close_all_private_tabs">Fechar guias privadas</string>
+    <string name="brave_close_all_private_tabs">Feche todas as guias privadas</string>
     <string name="brave_new_private_tab">Nova guia privada</string>
     <string name="brave_new_tab_private_header">Esta é uma Guia Privada</string>
     <string name="brave_new_tab_private_message">Mesmo que os sites que você acessa em guias privadas não sejam salvos localmente, eles não deixam você anônimo ou invisível para seu provedor de internet, seu patrão ou os sites que você está acessando.</string>
@@ -327,7 +327,6 @@ contribuindo para seus criadores de conteúdo favoritos.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Foto de <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Brave Ads enviados quando o navegador está em segundo plano</string>
 
     <string name="brave_ui_tips_processed_notification">Suas gorjetas mensais foram processadas!</string>
@@ -337,7 +336,6 @@ contribuindo para seus criadores de conteúdo favoritos.</string>
     <string name="brave_ui_brave_ads_launch_title">Chegou Brave Ads!</string>
     <string name="brave_ui_verified_publisher_notification">Criador <ph name=\"PUBLISHER_NAME\">%1$s</ph> recentemente verificado</string>
     <string name="brave_ui_pending_contribution_title">Contribuição pendente</string>
-
     <string name="get_paid_to_see_ads">Seja pago para ver esta imagem de fundo.</string>
     <string name="ntp_brave_rewards_off_text">Você receberá 70% da receita de anúncios para este patrocínio privado, que poderão ser usados para apoiar os criadores de conteúdo para a web. Ative Brave Rewards para solicitar sua parte.</string>
     <string name="turn_on_rewards">Ativar Rewards</string>
@@ -351,4 +349,5 @@ Ganhe tokens de visualização de anúncios que respeitam sua privacidade.</stri
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> sobre imagens patrocinadas em Brave Rewards. Você também pode optar por <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Você também pode optar por <ph name = \"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Seja pago para ver esta imagem de fundo. Ative Brave Ads para solicitar sua parte.</string>
+    <string name="brave_private_tabs">Guias privadas</string>
 </resources>
