@@ -88,7 +88,6 @@ maždaug laiko</string>
     <string name="prefs_private_search_engine">Privati kortelė</string>
 
     <string name="brave_open_in_private_tab">Atverti privačioje kortelėje</string>
-    <string name="brave_close_all_private_tabs">Užverti privačias korteles</string>
     <string name="brave_new_private_tab">Nauja privati kortelė</string>
     <string name="brave_new_tab_private_header">Tai yra privati kortelė</string>
     <string name="brave_new_tab_private_message">Net jei svetainės, kuriose lankotės per privačias korteles, nėra įrašomos vietiniame įrenginyje, jos nepadaro jūsų nežinomo ar nematomo jūsų interneto paslaugų teikėjui, jūsų darbdaviui ar svetainėms, kuriose lankotės.</string>
@@ -329,7 +328,6 @@ savo uždarbį mėgstamiems turinio kūrėjams.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Nuotrauka pagal <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Brave Ads skelbimai siunčiami, kai naršyklė yra antrame plane</string>
 
     <string name="brave_ui_tips_processed_notification">Jūsų mėnesio arbatpinigiai apdoroti!</string>
@@ -339,7 +337,6 @@ savo uždarbį mėgstamiems turinio kūrėjams.</string>
     <string name="brave_ui_brave_ads_launch_title">Brave Ads jau čia!</string>
     <string name="brave_ui_verified_publisher_notification">Kūrėjas <ph name=\"PUBLISHER_NAME\">%1$s</ph> neseniai patvirtintas</string>
     <string name="brave_ui_pending_contribution_title">Laukiama indėlio</string>
-
     <string name="get_paid_to_see_ads">Užsidirbkite už foninio vaizdo peržiūrą.</string>
     <string name="ntp_brave_rewards_off_text">Už šį privatų rėmimą gausite 70% skelbimo pajamų, kurias galėsite panaudoti paremti interneto turinio kūrėjus. Įjunkite Brave Rewards, kad gautumėte atlygį.</string>
     <string name="turn_on_rewards">Įjungti atlygį</string>
@@ -353,4 +350,4 @@ Užsidirbkite žetonų žiūrėdami privatumą gerbiančius skelbimus.</string>
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> apie remiamus vaizdus Brave Rewards programoje. Taip pat galite pasirinkti <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Taip pat galite pasirinkti <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Užsidirbkite už foninio vaizdo peržiūrą. Įjunkite Brave Ads, kad gautumėte atlygį.</string>
-</resources>
+    </resources>

@@ -88,7 +88,7 @@ EST แล้ว</string>
     <string name="prefs_private_search_engine">แท็บส่วนตัว</string>
 
     <string name="brave_open_in_private_tab">เปิดแท็บส่วนตัว</string>
-    <string name="brave_close_all_private_tabs">ปิดแท็บส่วนตัว</string>
+    <string name="brave_close_all_private_tabs">ปิดแท็บส่วนตัวทั้งหมด</string>
     <string name="brave_new_private_tab">แท็บส่วนตัวใหม่</string>
     <string name="brave_new_tab_private_header">นี่คือแท็บส่วนตัว</string>
     <string name="brave_new_tab_private_message">แม้ว่าเว็บไซต์ที่คุณเข้าชมในแท็บส่วนตัวจะไม่บันทึกลงในเครื่อง แต่วิธีนี้ไม่ทำให้คุณไม่มีตัวตนหรือหายไปจากผู้ให้บริการอินเทอร์เน็ต, นายจ้าง หรือเว็บไซต์ที่คุณเข้าชม</string>
@@ -328,7 +328,6 @@ EST แล้ว</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">ภาพถ่ายโดย <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">ส่ง Brave Ads เมื่อเบราว์เซอร์อยู่เบื้องหลัง</string>
 
     <string name="brave_ui_tips_processed_notification">ทิปรายเดือนของคุณประมวลผลเสร็จแล้ว!</string>
@@ -338,7 +337,6 @@ EST แล้ว</string>
     <string name="brave_ui_brave_ads_launch_title">Brave Ads มาแล้ว!</string>
     <string name="brave_ui_verified_publisher_notification">ผู้สร้าง <ph name=\"PUBLISHER_NAME\">%1$s</ph> เพิ่งผ่านการยืนยัน</string>
     <string name="brave_ui_pending_contribution_title">การช่วยเหลือที่ค้างอยู่</string>
-
     <string name="get_paid_to_see_ads">หารายได้จากการดูภาพเบื้องหลังนี้</string>
     <string name="ntp_brave_rewards_off_text">คุณจะได้รับ 70% จากรายได้โฆษณาของสปอนเซอร์ส่วนตัวนี้ ซึ่งสามารถใช้สนับสนุนผู้สร้างเนื้อหาบนอินเทอร์เน็ต เปิดใช้งาน Brave Rewards เพื่อรับส่วนแบ่งของคุณ</string>
     <string name="turn_on_rewards">เปิดใช้รางวัล</string>
@@ -352,4 +350,5 @@ EST แล้ว</string>
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> เกี่ยวกับภาพสปอนเซอร์ใน Brave Rewards นอกจากนี้ คุณสามาถเลือกใช้ <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph></string>
     <string name="br_on_ads_on_text2">นอกจากนี้ คุณสามารถเลือกที่จะ <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph></string>
     <string name="turn_on_brave_ads_to_claim">หารายได้จากการดูภาพเบื้องหลังนี้ เปิด Brave Ads เพื่อรับส่วนแบ่งของตัวเอง</string>
+    <string name="brave_private_tabs">แท็บส่วนตัว</string>
 </resources>

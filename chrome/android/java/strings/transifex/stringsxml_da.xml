@@ -88,7 +88,7 @@ besparelse</string>
     <string name="prefs_private_search_engine">Privat Faneblad</string>
 
     <string name="brave_open_in_private_tab">Åben i privat faneblad</string>
-    <string name="brave_close_all_private_tabs">Luk Private Faneblade</string>
+    <string name="brave_close_all_private_tabs">Luk alle private faner</string>
     <string name="brave_new_private_tab">Nyt privat faneblad</string>
     <string name="brave_new_tab_private_header">Dette er et Privat Faneblad</string>
     <string name="brave_new_tab_private_message">Selvom hjemmesider du besøger i private faneblade ikke bliver gemt lokalt, gør de dig ikke anonym eller usynlig over for din ISP, chef eller for hjemmesiderne du bsøger.</string>
@@ -329,7 +329,6 @@ de indholdsskabere, du elsker.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Foto taget af <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Brave-reklamer sendt, mens browseren er i baggrunden</string>
 
     <string name="brave_ui_tips_processed_notification">Dine månedlige tips er blevet behandlet!</string>
@@ -339,7 +338,6 @@ de indholdsskabere, du elsker.</string>
     <string name="brave_ui_brave_ads_launch_title">Brave-reklamer er kommet!</string>
     <string name="brave_ui_verified_publisher_notification">Skaberen <ph name=\"PUBLISHER_NAME\">%1$s</ph> har fornylig godkendt</string>
     <string name="brave_ui_pending_contribution_title">Afventende bidrag</string>
-
     <string name="get_paid_to_see_ads">Bliv betalt for at se dette baggrundsbillede.</string>
     <string name="ntp_brave_rewards_off_text">Du får 70 % af annonceindtægterne for dette private sponsorat, som kan bruges til at støtte skabere af webindhold. Slå Brave-bonusser til for at få din andel.</string>
     <string name="turn_on_rewards">Slå Bonusser til</string>
@@ -353,4 +351,5 @@ Optjen tokens ved at se reklamer, der respekterer privatlivet.</string>
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> om sponsorerede billeder i Brave-bonusser. Du kan også vælge at <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Du kan også vælge at <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Bliv betalt for at se dette baggrundsbillede. Slå Brave-reklamer til for at få din andel.</string>
+    <string name="brave_private_tabs">Private Faner</string>
 </resources>
