@@ -79,7 +79,6 @@ Gardado</string>
     <string name="prefs_private_search_engine">Lapela privada</string>
 
     <string name="brave_open_in_private_tab">Abrir nunha lapela privada</string>
-    <string name="brave_close_all_private_tabs">Pechar lapelas privadas</string>
     <string name="brave_new_private_tab">Nova lapela privada</string>
     <string name="brave_new_tab_private_header">Isto é unha \"Lapela Privada\"</string>
     <string name="brave_new_tab_private_message">Aínda que os sitios que visites dende lapelas privadas non se garden de xeito local, non serán anónimos ou invisíbeis para os teus ISP, o teu empregador ou para as páxinas que estés a ollar.</string>

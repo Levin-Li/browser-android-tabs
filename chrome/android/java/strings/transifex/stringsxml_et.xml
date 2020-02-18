@@ -88,7 +88,6 @@ Salvestatud</string>
     <string name="prefs_private_search_engine">Privaatne vahekaart</string>
 
     <string name="brave_open_in_private_tab">Ava privaatses vahekaardis</string>
-    <string name="brave_close_all_private_tabs">Sulge privaatsed vahekaardid</string>
     <string name="brave_new_private_tab">Uus privaatne vahekaart</string>
     <string name="brave_new_tab_private_header">See on privaatne vahekaart</string>
     <string name="brave_new_tab_private_message">Isegi, kui privaatsetes vahekaartides sirvitavaid lehti ei salvestata seadmesse, ei tee see teid anonüümseks ega nähtamatuks internetiteenuse pakkujale või tööandjale või külastatavatele lehtedele.</string>
@@ -329,7 +328,6 @@ armastatud sisuloojate toetamiseks.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Foto: <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Kui brauser töötab taustal, saadeti Brave\'i reklaamid</string>
 
     <string name="brave_ui_tips_processed_notification">Teie igakuised nõuanded on töödeldud!</string>
@@ -339,7 +337,6 @@ armastatud sisuloojate toetamiseks.</string>
     <string name="brave_ui_brave_ads_launch_title">Brave\'i reklaamid on kohal!</string>
     <string name="brave_ui_verified_publisher_notification">Autor <ph name=\"PUBLISHER_NAME\">%1$s</ph> hiljuti verifitseeritud</string>
     <string name="brave_ui_pending_contribution_title">Panuse ootel</string>
-
     <string name="get_paid_to_see_ads">Teenige selle taustapildi nägemise eest raha.</string>
     <string name="ntp_brave_rewards_off_text">Te saate erasponsorluse eest 70% reklaamitulust, mida saab kasutada veebisisu loojate toetamiseks. Oma osa sissenõudmiseks lülitage Brave\'i boonused sisse.</string>
     <string name="turn_on_rewards">Lülitage boonused sissse</string>
@@ -353,4 +350,4 @@ Teenige privaatsust austavate reklaamide vaatamisega tookeneid.</string>
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> sponsoreeritud kujutiste kohta Brave\'i boonustes. Võite valida ka <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Võite valida ka <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Teenige selle taustapildi nägemise eest raha. Oma osa sissenõudmiseks lülitage Brave\'i reklaamid sisse.</string>
-</resources>
+    </resources>

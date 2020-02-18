@@ -88,7 +88,7 @@ ušetrený čas</string>
     <string name="prefs_private_search_engine">Súkromná karta</string>
 
     <string name="brave_open_in_private_tab">Otvoriť na súkromnej karte</string>
-    <string name="brave_close_all_private_tabs">Zavrieť súkromné karty</string>
+    <string name="brave_close_all_private_tabs">Zatvoriť všetky súkromné ​​karty</string>
     <string name="brave_new_private_tab">Nová súkromná karta</string>
     <string name="brave_new_tab_private_header">Toto je súkromná karta</string>
     <string name="brave_new_tab_private_message">Aj napriek tomu, že stránky, ktoré navštevujete na súkromných kartách, sa lokálne neukladajú, Vaša aktivita je stále viditeľná pre Vášho zamestnávateľa, poskytovateľa internetového pripojenia alebo vlastníkov navštevovaných stránok.</string>
@@ -329,7 +329,6 @@ tvorcov obsahu, ktorých máte radi.</string>
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Fotografia od <ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">Reklamy Brave sa odosielajú, keď je prehliadač na pozadí</string>
 
     <string name="brave_ui_tips_processed_notification">Vaše sprepitné za mesiac bolo spracované!</string>
@@ -339,7 +338,6 @@ tvorcov obsahu, ktorých máte radi.</string>
     <string name="brave_ui_brave_ads_launch_title">Reklamy Brave sú tu!</string>
     <string name="brave_ui_verified_publisher_notification">Tvorca <ph name=\"PUBLISHER_NAME\">%1$s</ph> bol nedávno overený</string>
     <string name="brave_ui_pending_contribution_title">Nevybavený príspevok</string>
-
     <string name="get_paid_to_see_ads">Dostaňte zaplatené za zobrazenie tohto obrázku pozadia.</string>
     <string name="ntp_brave_rewards_off_text">Dostanete 70 % z príjmu za reklamu pre tento súkromný sponzoring. Zárobok môžete využiť na podporu tvorcov webového obsahu. Ak sa chcete prihlásiť o svoj podiel, zapnite odmeny Brave.</string>
     <string name="turn_on_rewards">Zapnúť odmeny</string>
@@ -353,4 +351,5 @@ Zarábajte tokeny zobrazovaním reklám rešpektujúcich súkromie.</string>
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph> o sponzorovaných obrázkoch v rámci odmien Brave. Môžete sa tiež rozhodnúť <ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>.</string>
     <string name="br_on_ads_on_text2">Môžete sa tiež rozhodnúť <ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>.</string>
     <string name="turn_on_brave_ads_to_claim">Dostaňte zaplatené za zobrazenie tohto obrázku pozadia. Ak sa chcete prihlásiť o svoj podiel, zapnite reklamy Brave.</string>
+    <string name="brave_private_tabs">Súkromné ​​karty</string>
 </resources>

@@ -87,7 +87,6 @@
     <string name="prefs_private_search_engine">ব্যক্তিগত ট্যাব</string>
 
     <string name="brave_open_in_private_tab">ব্যক্তিগত ট্যাবে খুলুন</string>
-    <string name="brave_close_all_private_tabs">ব্যক্তিগত ট্যাবগুলি বন্ধ করুন</string>
     <string name="brave_new_private_tab">নতুন ব্যক্তিগত ট্যাব</string>
     <string name="brave_new_tab_private_header">এটি একটি ব্যক্তিগত ট্যাব</string>
     <string name="brave_new_tab_private_message">এমনকি যদিও আপনার ব্যক্তিগত ট্যাবে ভিজিট করা সাইটগুলি স্থানীয়ভাবে সংরক্ষিত হয় না, তবুও সেগুলি আপনার ISP, আপনার নিয়োগকর্তা, বা আপনি যে সাইটগুলি ভিজিট করছেন সেগুলির কাছে আপনাকে নামহীন বা অদৃশ্য করে না।</string>

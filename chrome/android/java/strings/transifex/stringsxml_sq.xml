@@ -88,7 +88,7 @@ Afërsisht</string>
     <string name="prefs_private_search_engine">Skedë Private</string>
 
     <string name="brave_open_in_private_tab">Hape në skedë private</string>
-    <string name="brave_close_all_private_tabs">Mbylli skedat private</string>
+    <string name="brave_close_all_private_tabs">Mbylli krejt skedat private</string>
     <string name="brave_new_private_tab">Skedë e re private</string>
     <string name="brave_new_tab_private_header">Kjo është një Skedë Private</string>
     <string name="brave_new_tab_private_message">Edhe pse sajtet që vizitoni në skeda private nuk ruhen lokalisht, kjo nuk ju bëjnë anonim apo të padukshëm për ISP-në tuaj, për punëdhënësin tuaj, apo për sajtet që vizitoni.</string>
@@ -151,7 +151,7 @@ Kurseni baterinë dhe ngarkojini faqet web më shpejt</string>
 
     <string name="brave_ui_welcome_header_two">Bëhuni gati të shijoni
 Internetin e ardhshëm.</string>
-    <string name="brave_ui_welcome_desc_two">Tani mund të fitoni <ph name="TOKEN">%1$s<ex>token</ex></ph>s nga shikim
+    <string name="brave_ui_welcome_desc_two">Tani mund të fitoni <ph name="TOKEN">%1$s<ex>token</ex></ph>s nga parje
 reklamash që respektojnë privatësinë.</string>
     <string name="brave_ui_welcome_button_text_two">MERRNI PJESË TE SHPËRBLIME</string>
     <string name="brave_ui_welcome_footer_text_two">MËSONI MË TEPËR</string>
@@ -327,5 +327,27 @@ përkrahje të krijuesve të lëndës që doni.</string>
     <string name="ten_tip_option">10 <ph name="TIP">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">Foto nga <ph name="PHOTO_BY">%1$s</ph></string>
+    <string name="notification_category_brave_ads_background">Reklama Brave dërguar kur shfletuesi gjendet në prapaskenë</string>
 
-    </resources>
+    <string name="brave_ui_tips_processed_notification">Bakshishet tuaja mujore janë dërguar!</string>
+    <string name="brave_ui_contribution_tips">Kontribute &amp; Bakshishe</string>
+    <string name="brave_ui_brave_ads_launch_msg">Tani mund të fitoni duke parë reklama.</string>
+    <string name="brave_ui_turn_on_ads">Aktivizojini Reklamat</string>
+    <string name="brave_ui_brave_ads_launch_title">Mbërritën Reklamat Brave!</string>
+    <string name="brave_ui_verified_publisher_notification">Krijues <ph name="PUBLISHER_NAME">%1$s</ph> i verifikuar së fundi</string>
+    <string name="brave_ui_pending_contribution_title">Kontribut Pezull</string>
+    <string name="get_paid_to_see_ads">Përfitoni pagesë nga parja e kësaj figure sfond.</string>
+    <string name="ntp_brave_rewards_off_text">Do të merrni 70% të të ardhurave nga reklama për këtë sponsorizim privat që mund të përdoren si përkrahje për krijues lënde web. Që të pretendoni pjesën tuaj, aktivizoni Shpërblimet Brave.</string>
+    <string name="turn_on_rewards">Aktivizoni Shpërblimet</string>
+    <string name="turn_on_brave_ads">Aktivizoni Shpërblimet Brave</string>
+    <string name="ntp_tos_text">Duke aktivizuar Shpërblimet, pajtoheni me <ph name="TERMS_OF_SERVICE">%1$s</ph>. Mundeni edhe të zgjidhni <ph name="HIDE_SPONSORED_IMAGES">%2$s</ph>.</string>
+    <string name="get_paid_to_see_image">Përfitoni pagesë nga parja e kësaj figure sfond.</string>
+    <string name="hide_sponsored_images">Fshihi Figurat e Sponsorizuara</string>
+    <string name="you_can_support_creators">Me <em>tokens</em> mund të përkrahni krijues lënde web.
+Fitoni <em>tokens</em> duke parë reklama që respektojnë privatësinë.</string>
+    <string name="you_are_getting_paid">Po përfitoni pagesë nga parja e kësaj figure sfond.</string>
+    <string name="br_on_ads_on_text"><ph name="LEARN_MORE">%1$s</ph> rreth figurash të sponsorizuara në Shpërblime Brave. Mundeni edhe të zgjidhni <ph name="HIDE_SPONSORED_IMAGES">%2$s</ph>.</string>
+    <string name="br_on_ads_on_text2">Mundeni edhe të zgjidhni <ph name="HIDE_SPONSORED_IMAGES">%1$s</ph>.</string>
+    <string name="turn_on_brave_ads_to_claim">Përfitoni pagesë nga parja e kësaj figure sfond. Që të pretendoni pjesën tuaj, Aktivizoni Reklama Brave.</string>
+    <string name="brave_private_tabs">Skeda Private</string>
+</resources>

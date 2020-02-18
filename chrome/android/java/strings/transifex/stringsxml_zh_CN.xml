@@ -88,7 +88,6 @@
     <string name="prefs_private_search_engine">隐私标签页</string>
 
     <string name="brave_open_in_private_tab">在隐私标签页中打开</string>
-    <string name="brave_close_all_private_tabs">关闭隐私标签页</string>
     <string name="brave_new_private_tab">新建隐私标签页</string>
     <string name="brave_new_tab_private_header">这是个隐私标签页</string>
     <string name="brave_new_tab_private_message">即使您通过隐私标签访问的网站未保存在本地，但这对于您的 ISP ，您的雇主或您访问的网站仍然不是匿名或者隐身的。</string>
@@ -327,7 +326,6 @@
     <string name="ten_tip_option">10 <ph name=\"TIP\">%1$s<ex>BAT</ex></ph></string>
 
     <string name="photo_by">照片提供：<ph name=\"PHOTO_BY\">%1$s</ph></string>
-
     <string name="notification_category_brave_ads_background">浏览器在后台发送的Brave Ads</string>
 
     <string name="brave_ui_tips_processed_notification">您的每月小费已经入账！</string>
@@ -337,7 +335,6 @@
     <string name="brave_ui_brave_ads_launch_title">Brave Ads现已开放！</string>
     <string name="brave_ui_verified_publisher_notification">创作者<ph name=\"PUBLISHER_NAME\">%1$s</ph> 刚刚验证了</string>
     <string name="brave_ui_pending_contribution_title">处理中的贡献</string>
-
     <string name="get_paid_to_see_ads">查看本背景图片并获得报酬！</string>
     <string name="ntp_brave_rewards_off_text">您将获得这次隐私赞助70%的广告收入，并用此支持网络内容创作者。 打开Brave Rewards领取报酬。</string>
     <string name="turn_on_rewards">打开奖励</string>
@@ -351,4 +348,4 @@
     <string name="br_on_ads_on_text"><ph name=\"LEARN_MORE\">%1$s</ph>更多关于Brave Rewards赞助图片信息。 您也可以选择<ph name=\"HIDE_SPONSORED_IMAGES\">%2$s</ph>。</string>
     <string name="br_on_ads_on_text2">您也可以选择<ph name=\"HIDE_SPONSORED_IMAGES\">%1$s</ph>。</string>
     <string name="turn_on_brave_ads_to_claim">查看本背景图片并获得报酬！ 打开Brave Ads以申领您的报酬。</string>
-</resources>
+    </resources>
