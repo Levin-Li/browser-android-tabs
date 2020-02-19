@@ -166,7 +166,8 @@
 /nasm
 /netty-tcnative/src
 /netty4/src
-/node/linux
+/node/linux/*
+!/node/linux/node-linux-x64.tar.gz.sha1
 /node/mac
 /node/node_modules
 /node/*.tar.gz
