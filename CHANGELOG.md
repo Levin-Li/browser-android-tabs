@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.5.6](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.6)
+
+ - Disabled bridging mode for notifications on Wear OS devices. ([#2493](https://github.com/brave/browser-android-tabs/pull/2493))
+ - Fixed not being able to claim multiple ad grants using the rewards panel. ([#2509](https://github.com/brave/browser-android-tabs/pull/2509))
+ - Fixed context menus using "Incognito" instead of "Private". ([#2558](https://github.com/brave/browser-android-tabs/issues/2558))
+ - Fixed private tabs notification using "Incognito" instead of "Private". ([#2559](https://github.com/brave/browser-android-tabs/issues/2559))
+ - Upgraded to Chromium 80.0.3987.99. ([#2522](https://github.com/brave/browser-android-tabs/issues/2522))
+
+## [1.5.5](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.5)
+
+ - Improved several visual aspects of New Tab Page Sponsored Images. ([#2533](https://github.com/brave/browser-android-tabs/issues/2533)) 
+ - Disabled New Tab Page Sponsored Images for devices running Android 4 or lower. ([#2533](https://github.com/brave/browser-android-tabs/issues/2533)) 
+ - Fixed malformed rewards URL under "chrome://about". ([#2534](https://github.com/brave/browser-android-tabs/issues/2534))
+
 ## [1.5.4](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.4)
 
  - Added New Tab Page Sponsored Images. ([#2525](https://github.com/brave/browser-android-tabs/issues/2525))
