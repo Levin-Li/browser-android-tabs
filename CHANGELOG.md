@@ -4,8 +4,13 @@
 
  - Disabled bridging mode for notifications on Wear OS devices. ([#2493](https://github.com/brave/browser-android-tabs/pull/2493))
  - Fixed not being able to claim multiple ad grants using the rewards panel. ([#2509](https://github.com/brave/browser-android-tabs/pull/2509))
+<<<<<<< HEAD
  - Fixed context menus using "Incognito" instead of "Private". ([#2558](https://github.com/brave/browser-android-tabs/issues/2558))
  - Fixed private tabs notification using "Incognito" instead of "Private". ([#2559](https://github.com/brave/browser-android-tabs/issues/2559))
+=======
+ - Replaced "Incognito" with "Private" under context menus. ([#2558](https://github.com/brave/browser-android-tabs/issues/2558))
+ - Replaced "Incognito" with "Private" on the private tabs notification. ([#2559](https://github.com/brave/browser-android-tabs/issues/2559))
+>>>>>>> CHANGELOG relesae notes for 1.5.5 & 1.5.6
  - Upgraded to Chromium 80.0.3987.99. ([#2522](https://github.com/brave/browser-android-tabs/issues/2522))
 
 ## [1.5.5](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.5)
