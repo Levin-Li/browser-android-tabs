@@ -24,5 +24,10 @@
         android:summaryOn="@string/text_on"
         android:summaryOff="@string/text_off"
         android:defaultValue="false" />
+
+    <Preference
+        android:fragment="org.chromium.chrome.browser.settings.QAReferrerProgramInfoPreferences"
+        android:key="referrer_program_info"
+        android:title="Referrer program info" />
     
 </PreferenceScreen>

@@ -548,7 +548,7 @@ public class StatsUpdater {
         editor.apply();
     }
 
-    private static String GetDownloadId(Context context) {
+    public static String GetDownloadId(Context context) {
         SharedPreferences sharedPref = context.getSharedPreferences(PREF_NAME, 0);
         String downloadId = sharedPref.getString(DOWNLOAD_ID_NAME, null);
         if (downloadId == null) {
