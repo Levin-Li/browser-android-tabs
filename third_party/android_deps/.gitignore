@@ -2,3 +2,4 @@
 libs/*/*.jar
 libs/*/*.aar
 !libs/*/play-services-safetynet*.aar
+!libs/*/installreferrer*.aar
