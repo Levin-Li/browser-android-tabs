@@ -16,7 +16,6 @@ PLATFORM = {
 
 SOURCE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 CHROMIUM_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
-DIST_URL = 'https://brave-brave-binaries.s3.amazonaws.com/releases/'
 BRAVE_CORE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 BRAVE_BROWSER_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', '..'))
 
