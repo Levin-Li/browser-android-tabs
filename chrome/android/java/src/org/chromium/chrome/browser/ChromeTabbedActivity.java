@@ -1302,9 +1302,9 @@ public class ChromeTabbedActivity extends ChromeActivity implements ScreenshotMo
                                         if (null != partnerOfferPage && !partnerOfferPage.isEmpty()) {
                                             getTabCreator(false).launchUrl(partnerOfferPage, TabLaunchType.FROM_CHROME_UI);
                                             mPartnerPageIsLoaded = true;
+                                            // Clean up once it is loaded
+                                            StatsUpdater.SetPartnerOfferPage(null);
                                         }
-                                        // Clean up once it is loaded
-                                        StatsUpdater.SetPartnerOfferPage(null);
                                     }
                                 });
                         }

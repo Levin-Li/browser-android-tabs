@@ -24,7 +24,8 @@ import org.chromium.chrome.R;
          TextMessagePreference info = (TextMessagePreference) findPreference(PREF_REFERRER_PROGRAM_INFO);
          String summary = "Urpc: " + (StatsUpdater.GetUrpc(getActivity()).isEmpty() ? "<empty>" : StatsUpdater.GetUrpc(getActivity())) + "\n" +
                 "DownloadId: " + (StatsUpdater.GetDownloadId(getActivity()).isEmpty() ? "<empty>" : StatsUpdater.GetDownloadId(getActivity())) + "\n" +
-                "PartnerOfferPage: " + (StatsUpdater.GetPartnerOfferPage().isEmpty() ? "<empty>" : StatsUpdater.GetPartnerOfferPage());
+                "PartnerOfferPage: " + (StatsUpdater.GetPartnerOfferPage().isEmpty() ? "<empty>" : StatsUpdater.GetPartnerOfferPage()) + "\n" +
+                "PartnerOfferPageLoaded: " + StatsUpdater.GetPartnerOfferPageLoaded();
          info.setSummary(summary);
      }
  }

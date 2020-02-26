@@ -148,17 +148,6 @@ by a child template that "extends" this file.
 
        <meta-data android:name="android.allow_multiple_resumed_activities" android:value="true" />
 
-        <!-- For Google Play Store Campaign Measurement-->
-        <receiver android:name="org.chromium.chrome.browser.init.InstallReferrerReceiver"
-           android:enabled="true"
-           android:exported="true"
-           android:permission="android.permission.INSTALL_PACKAGES"
-           >
-           <intent-filter>
-               <action android:name="com.android.vending.INSTALL_REFERRER" />
-           </intent-filter>
-         </receiver>
-
         <!-- Brave's Set Default Browser -->
         <receiver android:name="org.chromium.chrome.browser.notifications.BraveSetDefaultBrowserNotificationService"
             android:exported="false">
