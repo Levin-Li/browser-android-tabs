@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.7](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.7)
+
+ - Upgraded to Chromium 80.0.3987.119. ([#2565](https://github.com/brave/browser-android-tabs/issues/2565))
+
 ## [1.5.6](https://github.com/brave/browser-android-tabs/releases/tag/v1.5.6)
 
  - Disabled bridging mode for notifications on Wear OS devices. ([#2493](https://github.com/brave/browser-android-tabs/pull/2493))
